@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI News Pulse</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero reveal">
+        <div class="hero-copy">
+          <p class="eyebrow">AI NEWS / CURATED FROM CLAUDECODE</p>
+          <h1>把本地 AI 日报整理成一个可直接浏览的新闻站。</h1>
+          <p class="hero-text" id="hero-summary"></p>
+          <div class="hero-stats" id="hero-stats"></div>
+        </div>
+        <aside class="hero-panel">
+          <p class="panel-label">最新焦点</p>
+          <h2 id="hero-focus-title"></h2>
+          <p id="hero-focus-text"></p>
+          <div class="source-chip" id="hero-source"></div>
+        </aside>
+      </header>
+
+      <main>
+        <section class="control-bar reveal">
+          <div class="search-wrap">
+            <label for="search-input">搜索新闻</label>
+            <input
+              id="search-input"
+              type="search"
+              placeholder="搜索主题、公司或关键词"
+              autocomplete="off"
+            />
+          </div>
+          <div class="filter-group">
+            <span class="filter-label">日报切换</span>
+            <div id="issue-filters" class="filter-row"></div>
+          </div>
+          <div class="filter-group">
+            <span class="filter-label">主题筛选</span>
+            <div id="tag-filters" class="filter-row"></div>
+          </div>
+        </section>
+
+        <section class="content-grid">
+          <section class="news-column reveal">
+            <div class="section-head">
+              <p class="section-kicker">Spotlight</p>
+              <h2 id="spotlight-title"></h2>
+            </div>
+            <div id="story-grid" class="story-grid"></div>
+          </section>
+
+          <aside class="side-column">
+            <section class="market-card reveal">
+              <div class="section-head compact">
+                <p class="section-kicker">Market Pulse</p>
+                <h2>投资视角</h2>
+              </div>
+              <p id="market-summary" class="market-summary"></p>
+              <div id="market-highlights" class="metric-stack"></div>
+              <div class="subsection">
+                <p class="subsection-title">组合波动</p>
+                <div id="market-movers" class="mini-list"></div>
+              </div>
+              <div class="subsection">
+                <p class="subsection-title">风险提示</p>
+                <div id="market-risks" class="mini-list"></div>
+              </div>
+              <div class="source-chip">
+                来源文件：
+                <span id="market-source"></span>
+              </div>
+            </section>
+
+            <section class="archive-card reveal">
+              <div class="section-head compact">
+                <p class="section-kicker">Daily Feed</p>
+                <h2>日报时间线</h2>
+              </div>
+              <div id="timeline-list" class="timeline-list"></div>
+            </section>
+          </aside>
+        </section>
+
+        <section class="source-board reveal">
+          <div class="section-head compact">
+            <p class="section-kicker">Source Map</p>
+            <h2>内容来源</h2>
+          </div>
+          <div id="source-list" class="source-list"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
