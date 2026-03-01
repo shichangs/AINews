@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI News Pulse - Issue</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero reveal">
+        <div class="hero-copy">
+          <a class="back-link" href="./index.html">返回首页</a>
+          <p class="eyebrow">FULL REPORT / DAILY ISSUE</p>
+          <h1 id="issue-title">加载中...</h1>
+          <p class="hero-text" id="issue-summary"></p>
+          <div class="meta-list" id="issue-meta"></div>
+        </div>
+        <aside class="hero-panel">
+          <p class="panel-label">快速跳转</p>
+          <h2>焦点清单</h2>
+          <div id="story-jumps" class="jump-list"></div>
+          <div class="source-chip" id="issue-source"></div>
+        </aside>
+      </header>
+
+      <main class="detail-layout">
+        <article class="detail-article reveal">
+          <div id="report-content" class="report-content"></div>
+        </article>
+
+        <aside class="detail-sidebar reveal">
+          <section class="archive-card sticky-card">
+            <div class="section-head compact">
+              <p class="section-kicker">Issue Feed</p>
+              <h2>其他日报</h2>
+            </div>
+            <div id="issue-list" class="timeline-list"></div>
+          </section>
+        </aside>
+      </main>
+    </div>
+
+    <script src="./detail.js"></script>
+  </body>
+</html>
