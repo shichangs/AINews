@@ -153,76 +153,6 @@ function updateUrl() {
   window.history.replaceState({}, "", url);
 }
 
-function pruneLeadingTitle(title) {
-  const first = elements.reportContent.firstElementChild;
-  if (!first || !/^H[1-6]$/.test(first.tagName)) {
-    return;
-  }
-
-  if (first.textContent.trim() !== title.trim()) {
-    return;
-  }
-
-  first.remove();
-  const next = elements.reportContent.firstElementChild;
-  if (next && next.classList.contains("report-rule")) {
-    next.remove();
-  }
-}
-
-function decorateArticleContent() {
-  const headings = elements.reportContent.querySelectorAll("h4");
-  headings.forEach((heading) => {
-    const text = heading.textContent.trim();
-    if (/^\d+\.\s/.test(text)) {
-      heading.classList.add("topic-heading");
-      return;
-    }
-    heading.classList.add("entry-heading");
-  });
-
-  const blocks = elements.reportContent.querySelectorAll("p");
-  blocks.forEach((block) => {
-    const text = block.textContent.trim();
-    if (text.startsWith("来源：") || text.startsWith("来源:")) {
-      block.classList.add("source-note");
-    }
-  });
-
-  const sourceBlocks = [...elements.reportContent.querySelectorAll("p.source-note")];
-  sourceBlocks.forEach((block) => {
-    const previousBlock = block.previousElementSibling;
-    if (!previousBlock || previousBlock.tagName !== "P") {
-      return;
-    }
-
-    const links = [...block.querySelectorAll("a")];
-    if (!links.length) {
-      return;
-    }
-
-    const inlineSource = document.createElement("span");
-    inlineSource.className = "inline-source";
-    inlineSource.append("（来源：");
-
-    links.forEach((link, index) => {
-      const sourceLink = link.cloneNode(true);
-      sourceLink.textContent = link.textContent
-        .replace(/^来源\s*[·:：-]?\s*/u, "")
-        .trim();
-      inlineSource.append(sourceLink);
-      if (index < links.length - 1) {
-        inlineSource.append(" / ");
-      }
-    });
-
-    inlineSource.append("）");
-    previousBlock.append(" ");
-    previousBlock.append(inlineSource);
-    block.remove();
-  });
-}
-
 function renderTabs() {
   const buttons = elements.tabStrip.querySelectorAll(".tab-button");
   buttons.forEach((button) => {
@@ -236,6 +166,14 @@ function scrollActiveDateIntoView() {
     return;
   }
   active.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "center" });
+}
+
+function shouldShowLeadSummary(item) {
+  if (!item?.summary) {
+    return false;
+  }
+  const htmlContent = (item.htmlContent || "").trimStart();
+  return !/^<h[2-6]\b/i.test(htmlContent);
 }
 
 function renderDateStrip() {
@@ -286,10 +224,10 @@ function renderArticle() {
   }
 
   elements.articleTitle.textContent = item.title;
-  elements.articleSummary.textContent = item.summary || "";
+  const showSummary = shouldShowLeadSummary(item);
+  elements.articleSummary.hidden = !showSummary;
+  elements.articleSummary.textContent = showSummary ? item.summary : "";
   elements.reportContent.innerHTML = item.htmlContent || "";
-  pruneLeadingTitle(item.title);
-  decorateArticleContent();
 }
 
 function render() {

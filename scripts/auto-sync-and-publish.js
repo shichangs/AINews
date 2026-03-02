@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const { execFileSync } = require("child_process");
+const { buildSourceSignature } = require("./lib/source-state");
 
 const REPO_ROOT = path.join(__dirname, "..");
 const NODE_BIN = process.execPath;
@@ -9,13 +10,6 @@ const SYNC_SCRIPT = path.join(__dirname, "sync-content.js");
 const OUTPUT_FILE = path.join(REPO_ROOT, "data", "site-data.json");
 const STATE_PATH = path.join(REPO_ROOT, "logs", "auto-publish-state.json");
 const COMMIT_MESSAGE = "chore: update generated AI news data";
-
-const DAILY_DIR =
-  process.env.AI_NEWS_DAILY_DIR || "/Users/shichangliao/Desktop/ClaudeCode/daily-ai-news";
-const WEEKLY_DIR =
-  process.env.AI_NEWS_WEEKLY_DIR || path.join(DAILY_DIR, "weekly");
-const PORTFOLIO_DIR =
-  process.env.AI_NEWS_PORTFOLIO_DIR || "/Users/shichangliao/Desktop/ClaudeCode/portfolio-news";
 
 function exec(command, args) {
   try {
@@ -33,42 +27,6 @@ function exec(command, args) {
     }
     throw error;
   }
-}
-
-function listMarkdownFiles(dirPath) {
-  if (!fs.existsSync(dirPath)) {
-    return [];
-  }
-
-  return fs
-    .readdirSync(dirPath)
-    .filter((fileName) => fileName.endsWith(".md") && !fileName.startsWith("."));
-}
-
-function hashContent(text) {
-  let hash = 5381;
-  for (let index = 0; index < text.length; index += 1) {
-    hash = (hash * 33) ^ text.charCodeAt(index);
-  }
-  return (hash >>> 0).toString(36);
-}
-
-function getSourceDirectories() {
-  return [...new Set([DAILY_DIR, WEEKLY_DIR, PORTFOLIO_DIR].map((dirPath) => path.resolve(dirPath)))]
-    .filter((dirPath) => fs.existsSync(dirPath));
-}
-
-function buildSourceSignature() {
-  return getSourceDirectories()
-    .flatMap((dirPath) =>
-      listMarkdownFiles(dirPath).map((fileName) => {
-        const fullPath = path.join(dirPath, fileName);
-        const content = fs.readFileSync(fullPath, "utf8");
-        return `${fullPath}:${hashContent(content)}`;
-      }),
-    )
-    .sort()
-    .join("|");
 }
 
 function readState() {
@@ -102,6 +60,15 @@ function writeState(sourceSignature) {
 
 function getCurrentBranch() {
   return exec(GIT_BIN, ["branch", "--show-current"]);
+}
+
+function getUnpushedCommitSubjects() {
+  const output = exec(GIT_BIN, ["log", "--format=%s", "origin/main..HEAD"]);
+  return output ? output.split("\n").filter(Boolean) : [];
+}
+
+function hasOnlyAutoCommits(subjects) {
+  return subjects.length > 0 && subjects.every((subject) => subject === COMMIT_MESSAGE);
 }
 
 function hasGeneratedDiff() {
@@ -152,14 +119,31 @@ function main() {
     return;
   }
 
-  if (sourceSignature === state.sourceSignature) {
-    console.log("[auto] No source content change. Skip sync.");
-    return;
-  }
-
   const branch = getCurrentBranch();
   if (branch !== "main") {
     console.log(`[auto] Current branch is "${branch || "detached"}". Skip auto publish until on main.`);
+    return;
+  }
+
+  const unpushedSubjects = getUnpushedCommitSubjects();
+  if (unpushedSubjects.some((subject) => subject !== COMMIT_MESSAGE)) {
+    console.log("[auto] Found non-auto commits ahead of origin/main. Skip auto publish.");
+    return;
+  }
+
+  if (sourceSignature === state.sourceSignature) {
+    if (hasOnlyAutoCommits(unpushedSubjects)) {
+      try {
+        pushMain();
+        console.log("[auto] Pushed pending auto-publish commit(s) to origin/main.");
+      } catch (error) {
+        console.error("[auto] Push retry failed. Pending auto commit(s) were kept locally.");
+        process.exitCode = 1;
+      }
+      return;
+    }
+
+    console.log("[auto] No source content change. Skip sync.");
     return;
   }
 
@@ -169,9 +153,20 @@ function main() {
     throw new Error(`Missing generated file: ${OUTPUT_FILE}`);
   }
 
-  writeState(sourceSignature);
-
   if (!hasGeneratedDiff()) {
+    if (hasOnlyAutoCommits(unpushedSubjects)) {
+      try {
+        pushMain();
+        writeState(sourceSignature);
+        console.log("[auto] Pushed pending auto-publish commit(s) after unchanged regeneration.");
+      } catch (error) {
+        console.error("[auto] Push retry failed. Pending auto commit(s) were kept locally.");
+        process.exitCode = 1;
+      }
+      return;
+    }
+
+    writeState(sourceSignature);
     console.log("[auto] Source changed, but generated data file is unchanged.");
     return;
   }
@@ -183,6 +178,7 @@ function main() {
 
   try {
     pushMain();
+    writeState(sourceSignature);
     console.log("[auto] Pushed generated data to origin/main.");
   } catch (error) {
     console.error("[auto] Push failed. The local data commit was kept.");

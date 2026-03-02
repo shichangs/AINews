@@ -1,12 +1,14 @@
 const fs = require("fs");
 const path = require("path");
+const {
+  DAILY_DIR,
+  WEEKLY_DIR,
+  PORTFOLIO_DIR,
+  listMarkdownFiles,
+  getSourceDirectories,
+  buildSourceSignature,
+} = require("./lib/source-state");
 
-const DAILY_DIR =
-  process.env.AI_NEWS_DAILY_DIR || "/Users/shichangliao/Desktop/ClaudeCode/daily-ai-news";
-const WEEKLY_DIR =
-  process.env.AI_NEWS_WEEKLY_DIR || path.join(DAILY_DIR, "weekly");
-const PORTFOLIO_DIR =
-  process.env.AI_NEWS_PORTFOLIO_DIR || "/Users/shichangliao/Desktop/ClaudeCode/portfolio-news";
 const OUTPUT_PATH = path.join(__dirname, "..", "data", "site-data.json");
 const WATCH_POLL_MS = 30 * 60 * 1000;
 
@@ -66,32 +68,6 @@ function syncContent() {
   return payload;
 }
 
-function getWatchDirectories() {
-  return [...new Set([DAILY_DIR, WEEKLY_DIR, PORTFOLIO_DIR].map((dirPath) => path.resolve(dirPath)))]
-    .filter((dirPath) => fs.existsSync(dirPath));
-}
-
-function buildWatchSignature() {
-  return getWatchDirectories()
-    .flatMap((dirPath) =>
-      listMarkdownFiles(dirPath).map((fileName) => {
-        const fullPath = path.join(dirPath, fileName);
-        const content = fs.readFileSync(fullPath, "utf8");
-        return `${fullPath}:${hashContent(content)}`;
-      }),
-    )
-    .sort()
-    .join("|");
-}
-
-function hashContent(text) {
-  let hash = 5381;
-  for (let index = 0; index < text.length; index += 1) {
-    hash = (hash * 33) ^ text.charCodeAt(index);
-  }
-  return (hash >>> 0).toString(36);
-}
-
 function formatWatchInterval(milliseconds) {
   const minutes = milliseconds / 60000;
   if (Number.isInteger(minutes)) {
@@ -103,19 +79,19 @@ function formatWatchInterval(milliseconds) {
 function startWatchMode() {
   syncContent();
 
-  const watchDirectories = getWatchDirectories();
+  const watchDirectories = getSourceDirectories();
   if (!watchDirectories.length) {
     throw new Error("No source directories available to watch.");
   }
 
-  let lastSignature = buildWatchSignature();
+  let lastSignature = buildSourceSignature();
 
   watchDirectories.forEach((dirPath) => {
     console.log(`[watch] Watching ${dirPath}`);
   });
 
   const timer = setInterval(() => {
-    const nextSignature = buildWatchSignature();
+    const nextSignature = buildSourceSignature();
     if (nextSignature === lastSignature) {
       return;
     }
@@ -150,43 +126,6 @@ function main() {
   }
 
   syncContent();
-}
-
-function listMarkdownFiles(dirPath) {
-  if (!fs.existsSync(dirPath)) {
-    return [];
-  }
-  return fs
-    .readdirSync(dirPath)
-    .filter((fileName) => fileName.endsWith(".md") && !fileName.startsWith("."));
-}
-
-function pickMarketFile() {
-  const files = listMarkdownFiles(PORTFOLIO_DIR);
-  if (!files.length) {
-    return null;
-  }
-
-  return files
-    .map((fileName) => ({
-      fullPath: path.join(PORTFOLIO_DIR, fileName),
-      stat: fs.statSync(path.join(PORTFOLIO_DIR, fileName)),
-    }))
-    .sort((left, right) => right.stat.mtimeMs - left.stat.mtimeMs)[0].fullPath;
-}
-
-function pickLatestMarkdownFile(dirPath) {
-  const files = listMarkdownFiles(dirPath);
-  if (!files.length) {
-    return null;
-  }
-
-  return files
-    .map((fileName) => ({
-      fullPath: path.join(dirPath, fileName),
-      stat: fs.statSync(path.join(dirPath, fileName)),
-    }))
-    .sort((left, right) => right.stat.mtimeMs - left.stat.mtimeMs)[0].fullPath;
 }
 
 function sortMarkdownFilesByMtime(dirPath) {
@@ -739,6 +678,61 @@ function markdownToHtml(markdown) {
   let bulletItems = [];
   let orderedItems = [];
   let tableLines = [];
+  let skippedLeadTitle = false;
+  let ignoreNextRule = false;
+
+  function canAppendInlineSource() {
+    if (!html.length) {
+      return false;
+    }
+    return /^<p>/.test(html[html.length - 1]);
+  }
+
+  function isSourceOnlyParagraph(text) {
+    const normalized = String(text).replace(/\s+/g, " ").trim();
+    if (!normalized || !/来源/u.test(normalized)) {
+      return false;
+    }
+
+    const withoutLinks = normalized.replace(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g, "");
+    const compact = withoutLinks.replace(/[|/·()（）:：\-—,\s]+/g, "");
+    return compact === "来源";
+  }
+
+  function buildInlineSourceHtml(text) {
+    const links = extractLinks(text);
+    if (!links.length) {
+      return "";
+    }
+
+    const linkHtml = links
+      .map((link) => {
+        const label = stripMarkdown(link.label)
+          .replace(/^来源\s*[·:：-]?\s*/u, "")
+          .trim();
+        const safeLabel = escapeHtml(label || stripMarkdown(link.label).trim());
+        const safeUrl = escapeHtml(link.url.trim());
+        return `<a href="${safeUrl}" target="_blank" rel="noreferrer">${safeLabel}</a>`;
+      })
+      .join(" / ");
+
+    return `<span class="inline-source">（来源：${linkHtml}）</span>`;
+  }
+
+  function appendInlineSource(text) {
+    if (!isSourceOnlyParagraph(text) || !canAppendInlineSource()) {
+      return false;
+    }
+
+    const sourceHtml = buildInlineSourceHtml(text);
+    if (!sourceHtml) {
+      return false;
+    }
+
+    const lastIndex = html.length - 1;
+    html[lastIndex] = html[lastIndex].replace("</p>", ` ${sourceHtml}</p>`);
+    return true;
+  }
 
   function flushParagraph() {
     if (!paragraph.length) {
@@ -746,6 +740,10 @@ function markdownToHtml(markdown) {
     }
     const text = paragraph.join(" ").trim();
     if (text) {
+      if (appendInlineSource(text)) {
+        paragraph = [];
+        return;
+      }
       html.push(`<p>${formatInline(text)}</p>`);
     }
     paragraph = [];
@@ -827,6 +825,10 @@ function markdownToHtml(markdown) {
 
     if (/^---+$/.test(line)) {
       flushAll();
+      if (ignoreNextRule) {
+        ignoreNextRule = false;
+        continue;
+      }
       html.push('<hr class="report-rule" />');
       continue;
     }
@@ -834,11 +836,21 @@ function markdownToHtml(markdown) {
     const headingMatch = line.match(/^(#{1,3})\s+(.+)$/);
     if (headingMatch) {
       flushAll();
-      const level = Math.min(headingMatch[1].length, 3);
+      const rawLevel = headingMatch[1].length;
       const title = stripMarkdown(headingMatch[2]).trim();
+      if (rawLevel === 1 && !skippedLeadTitle) {
+        skippedLeadTitle = true;
+        ignoreNextRule = true;
+        continue;
+      }
+
+      const level = Math.min(rawLevel, 3);
       const tag = `h${Math.min(level + 1, 4)}`;
       const id = slugify(title);
-      html.push(`<${tag} id="${id}">${formatInline(title)}</${tag}>`);
+      const className =
+        tag === "h4" ? (/^\d+\.\s/.test(title) ? "topic-heading" : "entry-heading") : "";
+      const classAttr = className ? ` class="${className}"` : "";
+      html.push(`<${tag}${classAttr} id="${id}">${formatInline(title)}</${tag}>`);
       continue;
     }
 
@@ -863,7 +875,7 @@ function markdownToHtml(markdown) {
       flushAll();
       const title = stripMarkdown(boldHeading[1]).trim();
       const id = slugify(title);
-      html.push(`<h4 id="${id}">${formatInline(title)}</h4>`);
+      html.push(`<h4 class="entry-heading" id="${id}">${formatInline(title)}</h4>`);
       const trailing = boldHeading[2].trim();
       if (trailing) {
         paragraph.push(trailing);

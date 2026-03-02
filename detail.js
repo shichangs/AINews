@@ -4,7 +4,6 @@ const elements = {
   issueTitle: document.getElementById("issue-title"),
   issueSummary: document.getElementById("issue-summary"),
   issueMeta: document.getElementById("issue-meta"),
-  issueSource: document.getElementById("issue-source"),
   storyJumps: document.getElementById("story-jumps"),
   reportContent: document.getElementById("report-content"),
   issueList: document.getElementById("issue-list"),
@@ -74,6 +73,14 @@ function scrollToHash() {
   }
 }
 
+function shouldShowLeadSummary(issue) {
+  if (!issue?.summary) {
+    return false;
+  }
+  const htmlContent = (issue.htmlContent || "").trimStart();
+  return !/^<h[2-6]\b/i.test(htmlContent);
+}
+
 async function init() {
   elements.reportContent.innerHTML = '<div class="empty-state">正在载入完整日报…</div>';
   try {
@@ -93,8 +100,9 @@ async function init() {
 
     document.title = `${currentIssue.title} - AI News Pulse`;
     elements.issueTitle.textContent = currentIssue.title;
-    elements.issueSummary.textContent = currentIssue.summary;
-    elements.issueSource.textContent = `来源文件：${currentIssue.sourceFile}`;
+    const showSummary = shouldShowLeadSummary(currentIssue);
+    elements.issueSummary.hidden = !showSummary;
+    elements.issueSummary.textContent = showSummary ? currentIssue.summary : "";
     elements.reportContent.innerHTML = currentIssue.htmlContent;
 
     elements.issueMeta.innerHTML = [
