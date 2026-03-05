@@ -1,20 +1,38 @@
 const fs = require("fs");
+const os = require("os");
 const path = require("path");
 const { execFileSync } = require("child_process");
-const { buildSourceSignature } = require("./lib/source-state");
 
 const REPO_ROOT = path.join(__dirname, "..");
 const NODE_BIN = process.execPath;
 const GIT_BIN = process.env.AI_NEWS_GIT_BIN || "/usr/local/bin/git";
 const SYNC_SCRIPT = path.join(__dirname, "sync-content.js");
 const OUTPUT_FILE = path.join(REPO_ROOT, "data", "site-data.json");
-const STATE_PATH = path.join(REPO_ROOT, "logs", "auto-publish-state.json");
+const STATE_PATH =
+  process.env.AI_NEWS_STATE_PATH ||
+  path.join(os.homedir(), "Library", "Application Support", "AINews", "auto-publish-state.json");
+const LEGACY_STATE_PATH = path.join(REPO_ROOT, "logs", "auto-publish-state.json");
 const COMMIT_MESSAGE = "chore: update generated AI news data";
+const DAILY_DIR =
+  process.env.AI_NEWS_DAILY_DIR || "/Users/shichangliao/Desktop/ClaudeCode/daily-ai-news";
+const WEEKLY_DIR =
+  process.env.AI_NEWS_WEEKLY_DIR || path.join(DAILY_DIR, "weekly");
+const PORTFOLIO_DIR =
+  process.env.AI_NEWS_PORTFOLIO_DIR || "/Users/shichangliao/Desktop/ClaudeCode/portfolio-news";
+const EXEC_ENV = {
+  ...process.env,
+  HOME: process.env.HOME || os.homedir(),
+  PATH: process.env.PATH || "/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin",
+  GIT_TERMINAL_PROMPT: process.env.GIT_TERMINAL_PROMPT || "0",
+};
+const FS_RETRY_MAX = 8;
+const FS_RETRY_DELAY_MS = 120;
 
 function exec(command, args) {
   try {
     return execFileSync(command, args, {
       cwd: REPO_ROOT,
+      env: EXEC_ENV,
       encoding: "utf8",
       stdio: ["ignore", "pipe", "pipe"],
     }).trim();
@@ -29,33 +47,105 @@ function exec(command, args) {
   }
 }
 
-function readState() {
-  if (!fs.existsSync(STATE_PATH)) {
-    return { sourceSignature: "" };
-  }
+function sleep(milliseconds) {
+  const sab = new SharedArrayBuffer(4);
+  const view = new Int32Array(sab);
+  Atomics.wait(view, 0, 0, milliseconds);
+}
 
-  try {
-    return JSON.parse(fs.readFileSync(STATE_PATH, "utf8"));
-  } catch (error) {
-    console.warn("[auto] State file is unreadable. Rebuilding state.");
-    return { sourceSignature: "" };
+function isTransientFsError(error) {
+  if (!error) {
+    return false;
   }
+  const message = String(error.message || "");
+  return (
+    error.code === "EAGAIN" ||
+    error.code === "EMFILE" ||
+    error.syscall === "open" ||
+    error.syscall === "read" ||
+    message.includes("Unknown system error -11")
+  );
+}
+
+function withFsRetry(fn) {
+  for (let attempt = 1; attempt <= FS_RETRY_MAX; attempt += 1) {
+    try {
+      return fn();
+    } catch (error) {
+      if (!isTransientFsError(error) || attempt === FS_RETRY_MAX) {
+        throw error;
+      }
+      sleep(FS_RETRY_DELAY_MS * attempt);
+    }
+  }
+  throw new Error("Retry loop unexpectedly exited.");
+}
+
+function listMarkdownFiles(dirPath) {
+  if (!fs.existsSync(dirPath)) {
+    return [];
+  }
+  return withFsRetry(() => fs.readdirSync(dirPath))
+    .filter((fileName) => fileName.endsWith(".md") && !fileName.startsWith("."));
+}
+
+function getSourceDirectories() {
+  return [...new Set([DAILY_DIR, WEEKLY_DIR, PORTFOLIO_DIR].map((dirPath) => path.resolve(dirPath)))]
+    .filter((dirPath) => fs.existsSync(dirPath));
+}
+
+function hashContent(text) {
+  let hash = 5381;
+  for (let index = 0; index < text.length; index += 1) {
+    hash = (hash * 33) ^ text.charCodeAt(index);
+  }
+  return (hash >>> 0).toString(36);
+}
+
+function buildSourceSignature() {
+  return getSourceDirectories()
+    .flatMap((dirPath) =>
+      listMarkdownFiles(dirPath).map((fileName) => {
+        const fullPath = path.join(dirPath, fileName);
+        const content = withFsRetry(() => fs.readFileSync(fullPath, "utf8"));
+        return `${fullPath}:${hashContent(content)}`;
+      }),
+    )
+    .sort()
+    .join("|");
+}
+
+function readState() {
+  const candidates = [STATE_PATH, LEGACY_STATE_PATH];
+  for (const filePath of candidates) {
+    if (!fs.existsSync(filePath)) {
+      continue;
+    }
+    try {
+      return JSON.parse(withFsRetry(() => fs.readFileSync(filePath, "utf8")));
+    } catch (error) {
+      console.warn(`[auto] State file is unreadable at ${filePath}. Trying next path.`);
+    }
+  }
+  return { sourceSignature: "" };
 }
 
 function writeState(sourceSignature) {
-  fs.mkdirSync(path.dirname(STATE_PATH), { recursive: true });
-  fs.writeFileSync(
-    STATE_PATH,
-    `${JSON.stringify(
-      {
-        sourceSignature,
-        updatedAt: new Date().toISOString(),
-      },
-      null,
-      2,
-    )}\n`,
-    "utf8",
-  );
+  withFsRetry(() => {
+    fs.mkdirSync(path.dirname(STATE_PATH), { recursive: true });
+    fs.writeFileSync(
+      STATE_PATH,
+      `${JSON.stringify(
+        {
+          sourceSignature,
+          updatedAt: new Date().toISOString(),
+        },
+        null,
+        2,
+      )}\n`,
+      "utf8",
+    );
+  });
 }
 
 function getCurrentBranch() {
