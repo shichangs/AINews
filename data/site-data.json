@@ -1,11 +1,212 @@
 {
-  "generatedAt": "2026-03-02T13:21:02.461Z",
+  "generatedAt": "2026-03-02T14:44:04.832Z",
   "sourceDirectories": {
     "daily": "/Users/shichangliao/Desktop/ClaudeCode/daily-ai-news",
     "weekly": "/Users/shichangliao/Desktop/ClaudeCode/daily-ai-news/weekly",
     "portfolio": "/Users/shichangliao/Desktop/ClaudeCode/portfolio-news"
   },
   "issues": [
+    {
+      "id": "2026-03-02",
+      "date": "2026-03-02",
+      "label": "3月2日",
+      "title": "每日前沿 AI 行业新闻 — 2026年3月2日",
+      "summary": "- 📌 OpenAI 趁势接替 Anthropic 拿下五角大楼合同：在 Anthropic 拒绝军用条款遭封杀的同时，Sam Altman 迅速与国防部签署合作协议，以\"纳入安全协议\"为前提补位，AI 行业军事化分野进一步清晰。\n- 🔥 MWC 2026 机器人浪潮：荣耀（Honor）在 MWC 发布首款人形机器人及\"Robot Phone\"，AGIBOT 展出 5 大机器人产品线，全球智能手机巨头正式跨界机器人赛道。\n- 🔥 MiniMax 受 UBS 青睐：中国 AI 初创 MiniMax 发布 M2.5 模型，性能对标 Claude Opus 4.6 而价格仅为其 1/10，UBS 给出买入评级，成为\"DeepSeek 时刻\"后最受关注的中国 AI 新黑马。",
+      "sections": [
+        "AI Labs",
+        "AI Agent",
+        "产品",
+        "中国 AI",
+        "机器人",
+        "自动驾驶",
+        "医疗 AI",
+        "芯片"
+      ],
+      "stories": [
+        {
+          "tag": "AI Labs",
+          "impact": "关注",
+          "title": "📌 OpenAI 接替 Anthropic，与五角大楼签署 AI 合作协议",
+          "detail": "在 Anthropic 因拒绝军用条款遭美国防部封杀后，OpenAI CEO Sam Altman 迅速与国防部签署合作协议，成为官方替代供应商。Altman 的策略颇为微妙——他一方面公开表示\"不认为五角大楼应当对 AI 公司动用《国防生产法》\"，另一方面又以\"纳入安全协议\"…",
+          "links": [
+            {
+              "label": "TechCrunch",
+              "url": "https://techcrunch.com/2026/02/28/the-trap-anthropic-built-for-itself/"
+            },
+            {
+              "label": "WebanditNews",
+              "url": "https://www.webanditnews.com/2026/03/01/sam-altmans-pentagon-pivot-inside-openais-transformation-from-ai-lab-to-defense-contractor/"
+            }
+          ],
+          "anchor": "openai-接替-anthropic-与五角大楼签署-ai-合作协议"
+        },
+        {
+          "tag": "产品",
+          "impact": "高热",
+          "title": "🔥 NVIDIA GTC 2026 倒计时：Jensen Huang 预告\"震惊世界\"的新芯片",
+          "detail": "NVIDIA 年度旗舰活动 GTC 2026 将于 3 月 16–19 日在圣何塞举行。CEO Jensen Huang 近日接受采访时预告将发布\"世界从未见过的新芯片\"，外界普遍预期包括：下一代 Rubin 架构 GPU（声称比 Blackwell 快 5 倍）、代号 Fey…",
+          "links": [
+            {
+              "label": "VideoCardz",
+              "url": "https://videocardz.com/newz/nvidia-gtc-2026-jensen-huang-promises-a-chip-reveal-meant-to-surprise-the-world"
+            },
+            {
+              "label": "TrendForce",
+              "url": "https://www.trendforce.com/news/2026/02/25/news-nvidia-gtc-2026-in-focus-feynman-reportedly-on-tsmc-a16-samsung-sk-hynix-to-showcase-hbm4/"
+            }
+          ],
+          "anchor": "nvidia-gtc-2026-倒计时-jensen-huang-预告-震惊世界-的新芯片"
+        },
+        {
+          "tag": "中国 AI",
+          "impact": "高热",
+          "title": "🔥 MiniMax M2.5 出圈，UBS 给出买入评级",
+          "detail": "中国 AI 初创公司 MiniMax 于 2 月中旬发布 M2.5 模型，性能对标 Claude Opus 4.6，但价格仅为其 1/10。瑞银（UBS）据此启动对 MiniMax 的覆盖研究，给出买入评级，目标价 1000 港元，并指出其 AI 使用量已达 Anthropic…",
+          "links": [
+            {
+              "label": "Startupnews.fyi/CNBC",
+              "url": "https://startupnews.fyi/2026/03/02/forget-deepseek-chinas-already-released-5-new-ai-models-and-ubs-prefers-this-one/"
+            },
+            {
+              "label": "CNBC",
+              "url": "https://www.cnbc.com/2026/02/24/anthropic-openai-china-firms-distillation-deepseek.html"
+            }
+          ],
+          "anchor": "minimax-m2-5-出圈-ubs-给出买入评级"
+        },
+        {
+          "tag": "中国 AI",
+          "impact": "关注",
+          "title": "DeepSeek 下一代旗舰模型预计 3 月亮相",
+          "detail": "据报道，DeepSeek 最新一代旗舰模型预计最早于本月内发布，并将采用英伟达最先进的 AI 芯片进行训练——在出口管制压力下，这一选择颇受关注。业界将其视为继 DeepSeek V3 之后又一次潜在的\"定价冲击\"。（来源：CNBC）",
+          "links": [
+            {
+              "label": "CNBC",
+              "url": "https://www.cnbc.com/2026/01/28/chinese-tech-companies-accelerate-ai-model-rollouts-us-rivals-deepseek-moonshot-kimi.html"
+            }
+          ],
+          "anchor": "deepseek-下一代旗舰模型预计-3-月亮相"
+        },
+        {
+          "tag": "机器人",
+          "impact": "高热",
+          "title": "🔥 Honor 在 MWC 2026 发布首款人形机器人及\"Robot Phone\"",
+          "detail": "中国智能手机厂商荣耀（Honor）成为首家进军人形机器人市场的主流手机制造商。在 MWC 2026 上，Honor 同步展示两款产品：① 人形机器人：展示了后空翻等高难度动作，跑速达每秒 4 米（比 Boston Dynamics Atlas 快 14%），主打购物助理、职场巡…",
+          "links": [
+            {
+              "label": "PR Newswire",
+              "url": "https://www.prnewswire.com/news-releases/honor-advances-its-ai-vision-at-mwc-2026-with-robot-phone-humanoid-robot-and-magic-v6-302701074.html"
+            },
+            {
+              "label": "Engadget",
+              "url": "https://www.engadget.com/mobile/everything-announced-at-mwc-2026-honors-robot-phone-the-new-leica-leitzphone-by-xiaomi-and-more-172442140.html"
+            }
+          ],
+          "anchor": "honor-在-mwc-2026-发布首款人形机器人及-robot-phone"
+        },
+        {
+          "tag": "机器人",
+          "impact": "更新",
+          "title": "AGIBOT 亮相 MWC 2026，发布五大机器人产品线",
+          "detail": "中国机器人公司 AGIBOT 在 MWC 2026 展示了完整产品矩阵，涵盖：A2 系列（全尺寸人形，面向接待导览）、X2 系列（轻型人形，面向教育娱乐研究）、G2 系列（轮式人形，面向工业精密装配）、D1 系列（四足机器人，面向物流与安防巡逻）和 C5 系列（商用自主清洁机器…",
+          "links": [
+            {
+              "label": "RoboticsTomorrow",
+              "url": "https://www.roboticstomorrow.com/news/2026/03/01/agibot-showcases-full-humanoid-robot-portfolio-at-mwc-2026/26198/"
+            }
+          ],
+          "anchor": "agibot-亮相-mwc-2026-发布五大机器人产品线"
+        },
+        {
+          "tag": "机器人",
+          "impact": "关注",
+          "title": "3 月 4–6 日",
+          "detail": "，首尔将举办 Smart Factory & Automation World 2026，中国人形机器人五大头部企业——Unitree、Fourier、Leju、华为、AGIBOT——确认携真机现场演示出席，是今年亚洲最重要的机器人行业会议之一。（来源：Digitimes）",
+          "links": [
+            {
+              "label": "Digitimes",
+              "url": "https://www.digitimes.com/news/a20260225VL213/china-robot-robotics-manufacturing-2026.html"
+            }
+          ],
+          "anchor": "3-月-4-6-日"
+        },
+        {
+          "tag": "自动驾驶",
+          "impact": "关注",
+          "title": "丰田与 NTT Docomo 布局日本自动驾驶，应对司机短缺危机",
+          "detail": "面对全国性驾驶员短缺，丰田汽车和电信巨头 NTT Docomo 正联合推进将自动驾驶技术引入地方公共巴士线路的计划，目标是在特定条件下实现 L4 级全无人驾驶。同期，多家日本科技公司和初创企业也在加快相关部署，将自动驾驶定位为解决老龄化社会出行痛点的关键方案。（来源：The J…",
+          "links": [
+            {
+              "label": "The Japan Times",
+              "url": "https://www.japantimes.co.jp/business/2026/03/02/companies/japan-firms-self-driving/"
+            }
+          ],
+          "anchor": "丰田与-ntt-docomo-布局日本自动驾驶-应对司机短缺危机"
+        },
+        {
+          "tag": "自动驾驶",
+          "impact": "关注",
+          "title": "小马智行（Pony.ai）+ 丰田 bZ4X Robotaxi 启动量产",
+          "detail": "Pony.ai 与丰田合作，基于 bZ4X 平台推进 Robotaxi 量产，搭载第七代自动驾驶技术，2026 年目标交付超 1000 辆，运营城市覆盖中国主要一线城市。（来源：AutoConnectedCar）",
+          "links": [
+            {
+              "label": "AutoConnectedCar",
+              "url": "https://www.autoconnectedcar.com/2026/03/autonomous-self-driving-vehicle-news-uber-torc-stradvision-elektrobit-mobileye-waymo-harbinger-phantom-ai-robo-ai-chinasky-car-trading-fze-tier-iv-brainchip-raytheon-aeva-tesla/"
+            }
+          ],
+          "anchor": "小马智行-pony-ai-丰田-bz4x-robotaxi-启动量产"
+        },
+        {
+          "tag": "自动驾驶",
+          "impact": "关注",
+          "title": "Aurora 自动驾驶卡车网络规模翻三倍",
+          "detail": "Aurora Innovation 宣布其无人驾驶卡车运营路线从 3 条扩展至 10 条，覆盖美国阳光带（Sun Belt）地区，并设定 2026 年底前部署超过 200 辆无人卡车的目标。（来源：AutoConnectedCar）",
+          "links": [
+            {
+              "label": "AutoConnectedCar",
+              "url": "https://www.autoconnectedcar.com/2026/03/autonomous-self-driving-vehicle-news-uber-torc-stradvision-elektrobit-mobileye-waymo-harbinger-phantom-ai-robo-ai-chinasky-car-trading-fze-tier-iv-brainchip-raytheon-aeva-tesla/"
+            }
+          ],
+          "anchor": "aurora-自动驾驶卡车网络规模翻三倍"
+        },
+        {
+          "tag": "医疗 AI",
+          "impact": "资本",
+          "title": "AI 医疗融资步入\"大平台集中\"阶段",
+          "detail": "据 J.P. 摩根 2026 年最新健康科技报告，AI 相关交易已占数字健康融资总额的 75%，但资本正向头部规模化平台高度集中，初创公司拿大轮次的难度显著上升。当前趋势包括：90% 的医疗机构已在影像与放射科部署 AI，67% 使用 AI 败血症早期检测工具，60% 依赖 A…",
+          "links": [
+            {
+              "label": "MobiHealthNews",
+              "url": "https://www.mobihealthnews.com/news/ai-focused-deals-now-make-75-health-tech-funding-jp-morgan-report-finds"
+            },
+            {
+              "label": "Healthcare Dive",
+              "url": "https://www.healthcaredive.com/news/top-healthcare-ai-artificial-intelligence-trends-2026/809493/"
+            }
+          ],
+          "anchor": "ai-医疗融资步入-大平台集中-阶段"
+        },
+        {
+          "tag": "芯片",
+          "impact": "高热",
+          "title": "🔥 MatX 完成 5 亿美元 B 轮，剑指 NVIDIA LLM 训练芯片市场",
+          "detail": "芯片初创公司 MatX（由两名前谷歌 TPU 工程师创立）完成 5 亿美元 B 轮融资，由 Jane Street 和 Leopold Aschenbrenner 旗下 Situational Awareness 基金领投，Marvell、Spark Capital 以及 St…",
+          "links": [
+            {
+              "label": "TechCrunch",
+              "url": "https://techcrunch.com/2026/02/24/nvidia-challenger-ai-chip-startup-matx-raised-500m/"
+            },
+            {
+              "label": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-02-24/ai-chip-startup-matx-raises-500-million-to-compete-with-nvidia"
+            }
+          ],
+          "anchor": "matx-完成-5-亿美元-b-轮-剑指-nvidia-llm-训练芯片市场"
+        }
+      ],
+      "sourceFile": "/Users/shichangliao/Desktop/ClaudeCode/daily-ai-news/2026-03-02.md",
+      "htmlContent": "<h3 id=\"今日摘要\">今日摘要</h3>\n<ul><li>📌 <strong>OpenAI 趁势接替 Anthropic 拿下五角大楼合同</strong>：在 Anthropic 拒绝军用条款遭封杀的同时，Sam Altman 迅速与国防部签署合作协议，以&quot;纳入安全协议&quot;为前提补位，AI 行业军事化分野进一步清晰。</li><li>🔥 <strong>MWC 2026 机器人浪潮</strong>：荣耀（Honor）在 MWC 发布首款人形机器人及&quot;Robot Phone&quot;，AGIBOT 展出 5 大机器人产品线，全球智能手机巨头正式跨界机器人赛道。</li><li>🔥 <strong>MiniMax 受 UBS 青睐</strong>：中国 AI 初创 MiniMax 发布 M2.5 模型，性能对标 Claude Opus 4.6 而价格仅为其 1/10，UBS 给出买入评级，成为&quot;DeepSeek 时刻&quot;后最受关注的中国 AI 新黑马。</li></ul>\n<hr class=\"report-rule\" />\n<h3 id=\"1-主要-ai-labs-动态\">1. 主要 AI Labs 动态</h3>\n<h4 class=\"entry-heading\" id=\"openai-接替-anthropic-与五角大楼签署-ai-合作协议\">📌 OpenAI 接替 Anthropic，与五角大楼签署 AI 合作协议</h4>\n<p>在 Anthropic 因拒绝军用条款遭美国防部封杀后，<strong>OpenAI CEO Sam Altman</strong> 迅速与国防部签署合作协议，成为官方替代供应商。Altman 的策略颇为微妙——他一方面公开表示&quot;不认为五角大楼应当对 AI 公司动用《国防生产法》&quot;，另一方面又以&quot;纳入安全协议&quot;为前提接下了这笔合同。分析人士指出，OpenAI 已从 AI 研究实验室快速转型为国防承包商；与此同时，<strong>Anthropic 面临损失高达 2 亿美元的合同风险</strong>，并可能被禁止与其他国防承包商合作。（来源：<a href=\"https://techcrunch.com/2026/02/28/the-trap-anthropic-built-for-itself/\" target=\"_blank\" rel=\"noreferrer\">TechCrunch</a> · <a href=\"https://www.webanditnews.com/2026/03/01/sam-altmans-pentagon-pivot-inside-openais-transformation-from-ai-lab-to-defense-contractor/\" target=\"_blank\" rel=\"noreferrer\">WebanditNews</a>）</p>\n<hr class=\"report-rule\" />\n<h3 id=\"2-ai-agent\">2. AI Agent</h3>\n<p><em>本周 AI Agent 板块暂无未报道的独立重大事件，相关动态（MCP 成为行业标准等）已于前两日覆盖，持续关注中。</em></p>\n<hr class=\"report-rule\" />\n<h3 id=\"3-ai-产品更新\">3. AI 产品更新</h3>\n<h4 class=\"entry-heading\" id=\"nvidia-gtc-2026-倒计时-jensen-huang-预告-震惊世界-的新芯片\">🔥 NVIDIA GTC 2026 倒计时：Jensen Huang 预告&quot;震惊世界&quot;的新芯片</h4>\n<p>NVIDIA 年度旗舰活动 <strong>GTC 2026</strong> 将于 <strong>3 月 16–19 日</strong>在圣何塞举行。CEO <strong>Jensen Huang</strong> 近日接受采访时预告将发布&quot;世界从未见过的新芯片&quot;，外界普遍预期包括：下一代 <strong>Rubin</strong> 架构 GPU（声称比 Blackwell 快 5 倍）、代号 <strong>Feynman</strong> 的未来路线图芯片（基于台积电 A16 工艺）、以及 Arm 架构 CPU <strong>N1X</strong> 的最新进展。三星与 SK 海力士届时将同步展示面向 Rubin GPU 的 <strong>HBM4</strong> 内存。（来源：<a href=\"https://videocardz.com/newz/nvidia-gtc-2026-jensen-huang-promises-a-chip-reveal-meant-to-surprise-the-world\" target=\"_blank\" rel=\"noreferrer\">VideoCardz</a> · <a href=\"https://www.trendforce.com/news/2026/02/25/news-nvidia-gtc-2026-in-focus-feynman-reportedly-on-tsmc-a16-samsung-sk-hynix-to-showcase-hbm4/\" target=\"_blank\" rel=\"noreferrer\">TrendForce</a>）</p>\n<hr class=\"report-rule\" />\n<h3 id=\"4-中国-ai-产业\">4. 中国 AI 产业</h3>\n<h4 class=\"entry-heading\" id=\"minimax-m2-5-出圈-ubs-给出买入评级\">🔥 MiniMax M2.5 出圈，UBS 给出买入评级</h4>\n<p>中国 AI 初创公司 <strong>MiniMax</strong> 于 2 月中旬发布 <strong>M2.5</strong> 模型，性能对标 <strong>Claude Opus 4.6</strong>，但价格仅为其 <strong>1/10</strong>。瑞银（UBS）据此启动对 MiniMax 的覆盖研究，给出<strong>买入</strong>评级，目标价 <strong>1000 港元</strong>，并指出其 AI 使用量已达 Anthropic Claude 的三分之一。MiniMax 的差异化优势在于：除文字生成外，还覆盖视频生成、类 ElevenLabs 的音频生成以及 AI 社交伴侣，形成全模态 AI 矩阵。值得注意的是，Anthropic 此前已指控 MiniMax 等中国公司通过创建 <strong>2.4 万个虚假账号</strong>、发起超过 <strong>1600 万次对话</strong>的&quot;蒸馏攻击&quot;来窃取训练数据。（来源：<a href=\"https://startupnews.fyi/2026/03/02/forget-deepseek-chinas-already-released-5-new-ai-models-and-ubs-prefers-this-one/\" target=\"_blank\" rel=\"noreferrer\">Startupnews.fyi/CNBC</a> · <a href=\"https://www.cnbc.com/2026/02/24/anthropic-openai-china-firms-distillation-deepseek.html\" target=\"_blank\" rel=\"noreferrer\">CNBC</a>）</p>\n<h4 class=\"entry-heading\" id=\"deepseek-下一代旗舰模型预计-3-月亮相\">DeepSeek 下一代旗舰模型预计 3 月亮相</h4>\n<p>据报道，DeepSeek 最新一代旗舰模型预计最早于<strong>本月内</strong>发布，并将采用英伟达最先进的 AI 芯片进行训练——在出口管制压力下，这一选择颇受关注。业界将其视为继 DeepSeek V3 之后又一次潜在的&quot;定价冲击&quot;。（来源：<a href=\"https://www.cnbc.com/2026/01/28/chinese-tech-companies-accelerate-ai-model-rollouts-us-rivals-deepseek-moonshot-kimi.html\" target=\"_blank\" rel=\"noreferrer\">CNBC</a>）</p>\n<hr class=\"report-rule\" />\n<h3 id=\"5-机器人与物理-ai\">5. 机器人与物理 AI</h3>\n<h4 class=\"entry-heading\" id=\"honor-在-mwc-2026-发布首款人形机器人及-robot-phone\">🔥 Honor 在 MWC 2026 发布首款人形机器人及&quot;Robot Phone&quot;</h4>\n<p>中国智能手机厂商<strong>荣耀（Honor）</strong>成为首家进军人形机器人市场的主流手机制造商。在 MWC 2026 上，Honor 同步展示两款产品：① <strong>人形机器人</strong>：展示了后空翻等高难度动作，跑速达每秒 4 米（比 Boston Dynamics Atlas 快 14%），主打购物助理、职场巡检与社交陪伴三大场景；② <strong>Robot Phone</strong>：配备可旋转机械摄像头、4DoF 云台（体积缩小 70%）、2 亿像素传感器，支持 AI 目标追踪、智能拍摄等功能，预计 2026 年晚些时候上市。（来源：<a href=\"https://www.prnewswire.com/news-releases/honor-advances-its-ai-vision-at-mwc-2026-with-robot-phone-humanoid-robot-and-magic-v6-302701074.html\" target=\"_blank\" rel=\"noreferrer\">PR Newswire</a> · <a href=\"https://www.engadget.com/mobile/everything-announced-at-mwc-2026-honors-robot-phone-the-new-leica-leitzphone-by-xiaomi-and-more-172442140.html\" target=\"_blank\" rel=\"noreferrer\">Engadget</a>）</p>\n<h4 class=\"entry-heading\" id=\"agibot-亮相-mwc-2026-发布五大机器人产品线\">AGIBOT 亮相 MWC 2026，发布五大机器人产品线</h4>\n<p>中国机器人公司 <strong>AGIBOT</strong> 在 MWC 2026 展示了完整产品矩阵，涵盖：A2 系列（全尺寸人形，面向接待导览）、X2 系列（轻型人形，面向教育娱乐研究）、G2 系列（轮式人形，面向工业精密装配）、D1 系列（四足机器人，面向物流与安防巡逻）和 C5 系列（商用自主清洁机器人），以及高灵巧度机械手 <strong>OmniHand</strong>。这是 AGIBOT 首次大规模进军欧洲市场。（来源：<a href=\"https://www.roboticstomorrow.com/news/2026/03/01/agibot-showcases-full-humanoid-robot-portfolio-at-mwc-2026/26198/\" target=\"_blank\" rel=\"noreferrer\">RoboticsTomorrow</a>）</p>\n<h4 class=\"entry-heading\" id=\"韩国-smart-factory-automation-world-2026-即将举行\">韩国 Smart Factory &amp; Automation World 2026 即将举行</h4>\n<h4 class=\"entry-heading\" id=\"3-月-4-6-日\">3 月 4–6 日</h4>\n<p>，首尔将举办 Smart Factory &amp; Automation World 2026，中国人形机器人五大头部企业——<strong>Unitree、Fourier、Leju、华为、AGIBOT</strong>——确认携真机现场演示出席，是今年亚洲最重要的机器人行业会议之一。（来源：<a href=\"https://www.digitimes.com/news/a20260225VL213/china-robot-robotics-manufacturing-2026.html\" target=\"_blank\" rel=\"noreferrer\">Digitimes</a>）</p>\n<hr class=\"report-rule\" />\n<h3 id=\"6-自动驾驶\">6. 自动驾驶</h3>\n<h4 class=\"entry-heading\" id=\"丰田与-ntt-docomo-布局日本自动驾驶-应对司机短缺危机\">丰田与 NTT Docomo 布局日本自动驾驶，应对司机短缺危机</h4>\n<p>面对全国性驾驶员短缺，<strong>丰田汽车</strong>和电信巨头 <strong>NTT Docomo</strong> 正联合推进将自动驾驶技术引入地方公共巴士线路的计划，目标是在特定条件下实现 <strong>L4 级全无人驾驶</strong>。同期，多家日本科技公司和初创企业也在加快相关部署，将自动驾驶定位为解决老龄化社会出行痛点的关键方案。（来源：<a href=\"https://www.japantimes.co.jp/business/2026/03/02/companies/japan-firms-self-driving/\" target=\"_blank\" rel=\"noreferrer\">The Japan Times</a>）</p>\n<h4 class=\"entry-heading\" id=\"小马智行-pony-ai-丰田-bz4x-robotaxi-启动量产\">小马智行（Pony.ai）+ 丰田 bZ4X Robotaxi 启动量产</h4>\n<p><strong>Pony.ai</strong> 与丰田合作，基于 bZ4X 平台推进 Robotaxi 量产，搭载第七代自动驾驶技术，<strong>2026 年目标交付超 1000 辆</strong>，运营城市覆盖中国主要一线城市。（来源：<a href=\"https://www.autoconnectedcar.com/2026/03/autonomous-self-driving-vehicle-news-uber-torc-stradvision-elektrobit-mobileye-waymo-harbinger-phantom-ai-robo-ai-chinasky-car-trading-fze-tier-iv-brainchip-raytheon-aeva-tesla/\" target=\"_blank\" rel=\"noreferrer\">AutoConnectedCar</a>）</p>\n<h4 class=\"entry-heading\" id=\"aurora-自动驾驶卡车网络规模翻三倍\">Aurora 自动驾驶卡车网络规模翻三倍</h4>\n<p><strong>Aurora Innovation</strong> 宣布其无人驾驶卡车运营路线从 3 条扩展至 <strong>10 条</strong>，覆盖美国阳光带（Sun Belt）地区，并设定 2026 年底前部署超过 <strong>200 辆</strong>无人卡车的目标。（来源：<a href=\"https://www.autoconnectedcar.com/2026/03/autonomous-self-driving-vehicle-news-uber-torc-stradvision-elektrobit-mobileye-waymo-harbinger-phantom-ai-robo-ai-chinasky-car-trading-fze-tier-iv-brainchip-raytheon-aeva-tesla/\" target=\"_blank\" rel=\"noreferrer\">AutoConnectedCar</a>）</p>\n<hr class=\"report-rule\" />\n<h3 id=\"7-医疗-ai\">7. 医疗 AI</h3>\n<h4 class=\"entry-heading\" id=\"ai-医疗融资步入-大平台集中-阶段\">AI 医疗融资步入&quot;大平台集中&quot;阶段</h4>\n<p>据 J.P. 摩根 2026 年最新健康科技报告，AI 相关交易已占数字健康融资总额的 <strong>75%</strong>，但资本正向头部规模化平台高度集中，初创公司拿大轮次的难度显著上升。当前趋势包括：90% 的医疗机构已在影像与放射科部署 AI，67% 使用 AI 败血症早期检测工具，60% 依赖 AI 语音病历录入工具。2026 年预计将有更多系统级 AI 部署合同落地，重点在行政自动化和收入周期管理。（来源：<a href=\"https://www.mobihealthnews.com/news/ai-focused-deals-now-make-75-health-tech-funding-jp-morgan-report-finds\" target=\"_blank\" rel=\"noreferrer\">MobiHealthNews</a> · <a href=\"https://www.healthcaredive.com/news/top-healthcare-ai-artificial-intelligence-trends-2026/809493/\" target=\"_blank\" rel=\"noreferrer\">Healthcare Dive</a>）</p>\n<hr class=\"report-rule\" />\n<h3 id=\"8-芯片与半导体\">8. 芯片与半导体</h3>\n<h4 class=\"entry-heading\" id=\"matx-完成-5-亿美元-b-轮-剑指-nvidia-llm-训练芯片市场\">🔥 MatX 完成 5 亿美元 B 轮，剑指 NVIDIA LLM 训练芯片市场</h4>\n<p>芯片初创公司 <strong>MatX</strong>（由两名前谷歌 TPU 工程师创立）完成 <strong>5 亿美元 B 轮融资</strong>，由 Jane Street 和 Leopold Aschenbrenner 旗下 <strong>Situational Awareness</strong> 基金领投，Marvell、Spark Capital 以及 Stripe 联创 Patrick 和 John Collison 参投。MatX 正在开发名为 <strong>MatX One</strong> 的 LLM 专用训练芯片，声称比 NVIDIA GPU 快 10 倍，融合 SRAM 超低延迟与 HBM 超大带宽的设计优势，计划通过台积电代工，<strong>2027 年开始出货</strong>。（来源：<a href=\"https://techcrunch.com/2026/02/24/nvidia-challenger-ai-chip-startup-matx-raised-500m/\" target=\"_blank\" rel=\"noreferrer\">TechCrunch</a> · <a href=\"https://www.bloomberg.com/news/articles/2026-02-24/ai-chip-startup-matx-raises-500-million-to-compete-with-nvidia\" target=\"_blank\" rel=\"noreferrer\">Bloomberg</a>）</p>\n<h4 class=\"entry-heading\" id=\"axelera-ai-完成-2-5-亿美元融资-聚焦边缘推理芯片\">Axelera AI 完成 2.5 亿美元融资，聚焦边缘推理芯片</h4>\n<p>欧洲 AI 芯片公司 <strong>Axelera AI</strong> 于 2 月 24 日宣布完成 <strong>2.5 亿美元</strong>融资，专注于面向视觉 AI 和大模型推理的边缘芯片，与英伟达 Jetson 系列形成直接竞争。（来源：<a href=\"https://www.theregister.com/2026/02/25/ai_chips_vc_funding_1point1billion/\" target=\"_blank\" rel=\"noreferrer\">The Register</a>）</p>\n<hr class=\"report-rule\" />\n<h3 id=\"9-创业融资\">9. 创业融资</h3>\n<p>本周（截至 3 月 2 日）值得关注的新融资事件：</p>\n<ul><li><strong>MatX</strong>：5 亿美元 B 轮（见芯片板块）</li><li><strong>Axelera AI</strong>：2.5 亿美元（见芯片板块）</li><li><strong>Rowspace</strong>：5000 万美元，AI 金融智能平台</li><li><strong>Harper</strong>：4700 万美元，AI 保险经纪平台</li></ul>\n<p>（来源：<a href=\"https://blog.mean.ceo/startup-funding-news-march-2026/\" target=\"_blank\" rel=\"noreferrer\">blog.mean.ceo</a> · <a href=\"https://aifundingtracker.com/ai-startup-funding-news-today/\" target=\"_blank\" rel=\"noreferrer\">AI Funding Tracker</a>）</p>\n<hr class=\"report-rule\" />\n<h3 id=\"10-政策与监管\">10. 政策与监管</h3>\n<h4 class=\"entry-heading\" id=\"ai-监管成美国两党罕见共识议题-保险行业首当其冲\">📌 AI 监管成美国两党罕见共识议题，保险行业首当其冲</h4>\n<p>据 3 月 1 日报道，围绕保险行业 AI 应用的监管立法正成为美国两党的罕见共识点——无论左翼还是右翼，均对 AI 在核保和理赔中的无监督使用表示担忧。<strong>加州</strong>已立法要求保险公司披露 AI 使用情况并定期进行偏见审计。与此同时，特朗普政府持续推动将 AI 监管权收归联邦，以对抗各州&quot;碎片化&quot;立法。（来源：<a href=\"https://politics-government.news-articles.net/content/2026/03/01/ai-regulation-emerges-as-unexpected-bipartisan-issue.html\" target=\"_blank\" rel=\"noreferrer\">politics-government.news-articles.net</a>）</p>\n<h4 class=\"entry-heading\" id=\"ftc-与商务部-ai-政策声明截止日临近-3-月-11-日\">FTC 与商务部 AI 政策声明截止日临近（3 月 11 日）</h4>\n<p>根据特朗普行政令，<strong>联邦贸易委员会（FTC）</strong> 须在 <strong>3 月 11 日</strong>前发布政策声明，说明《联邦贸易委员会法》如何适用于 AI；<strong>商务部长</strong>须同日发布评估报告，列明对联邦 AI 政策形成冲突的各州 AI 法律。这两份文件将对全美 AI 监管格局产生深远影响。（来源：<a href=\"https://www.wsgr.com/en/insights/2026-year-in-preview-ai-regulatory-developments-for-companies-to-watch-out-for.html\" target=\"_blank\" rel=\"noreferrer\">Wilson Sonsini</a>）</p>\n<h4 class=\"entry-heading\" id=\"英国-数据-使用与访问-法-ai-版权报告将于-3-月-18-日发布\">英国《数据（使用与访问）法》AI 版权报告将于 3 月 18 日发布</h4>\n<p>英国政府将于 <strong>3 月 18 日</strong>发布两份关于 AI 与版权的专项报告，为英国 AI 产业训练数据使用提供政策框架，各界高度关注其是否会影响&quot;合理使用&quot;边界的认定。（来源：<a href=\"https://www.slaughterandmay.com/horizon-scanning/2026/digital/ai-update-for-2026/\" target=\"_blank\" rel=\"noreferrer\">Slaughter and May</a>）</p>\n<hr class=\"report-rule\" />\n<p><em>本报告覆盖 2026-03-01 至 2026-03-02 期间的主要 AI 行业动态，信息来源均为公开媒体报道及官方公告。</em></p>"
+    },
     {
       "id": "2026-03-01",
       "date": "2026-03-01",
@@ -708,187 +909,187 @@
   ],
   "weeklyReports": [
     {
-      "id": "auto-weekly-digest",
-      "title": "每周 AI 新闻",
-      "summary": "基于最近 4 份日报自动汇总，覆盖 2026-02-26 到 2026-03-01。重点主题包括 AI Labs、AI Agent、产品、中国 AI、机器人、自动驾驶。",
-      "coverageLabel": "2月26日 - 3月1日",
-      "coverage": [
-        {
-          "id": "2026-03-01",
-          "label": "3月1日",
-          "date": "2026-03-01",
-          "title": "每日前沿 AI 行业新闻 — 2026年3月1日",
-          "summary": "- 🔥 Anthropic vs 五角大楼：Anthropic 因拒绝将 AI 用于无人监督武器与国内大规模监控，遭美国防部切断合作；谷歌、OpenAI 逾 200 名员工联署声援，成为本周最大 AI 安全与军事应用之争。\n- 🔥 Wayve 完成 12–15 亿美元 D 轮：英国自动驾驶初创公司估值达 86 亿美元，由奔驰、Stellantis、日产、Uber 领投，物理 AI 单月融资规模突破 190 亿美元。\n- 📊 中国大厂 DAU 竞速：字节豆包达 7871 万 DAU，阿里千问 82 天暴涨至 7352 万，两大平台正面交锋；字节 2026 年 AI 资本支出高达 1600 亿元。"
-        },
-        {
-          "id": "2026-02-28",
-          "label": "2月28日",
-          "date": "2026-02-28",
-          "title": "每日前沿 AI 行业新闻 — 2026年2月28日",
-          "summary": "- 🔥 OpenAI 完成 1100 亿美元史上最大私募融资：估值飙升至 7300 亿美元，亚马逊（500 亿）、英伟达（300 亿）、软银（300 亿）领投，远超市场预期。\n- 🔥 Anthropic vs 五角大楼正面冲突：Dario Amodei 拒绝开放模型用于监控和自主武器，特朗普下令联邦机构停用；OpenAI 以纳入安全条款为前提与军方达成合作。\n- 📌 2 月 AI 融资总额突破 1950 亿美元，创史上单月纪录；中国\"农历新年 AI 大战\"全面开打，字节 Doubao 2.0、阿里 Qwen 3.5、DeepSeek V4 密集发布。"
-        },
-        {
-          "id": "2026-02-27",
-          "label": "2月27日",
-          "date": "2026-02-27",
-          "title": "每日前沿 AI 行业新闻 — 2026年2月27日",
-          "summary": "- 🔥 五角大楼向 Anthropic 发出最后通牒：要求解除 Claude 军事应用安全限制，xAI Grok 同步签约进入美军机密系统，成 Claude 在机密领域的直接竞争者。\n- 🔥 Meta 单日双签 NVIDIA、AMD 重大芯片协议：AMD 合同规模约 600 亿美元，英伟达季报分析师预期营收同比增长 68% 至 660 亿美元。\n- 📌 2 月成为 AI 融资史上最密集月份之一：OpenAI 百亿级融资轮持续推进，ElevenLabs 完成 5 亿美元 D 轮，估值 110 亿美元。"
-        },
-        {
-          "id": "2026-02-26",
-          "label": "2月26日",
-          "date": "2026-02-26",
-          "title": "每日前沿 AI 行业新闻 — 2026年2月26日",
-          "summary": "- 🔥 Claude Code / ChatGPT Agent 双双迈入 Agent 时代：Claude Code 正式推出 Scheduled Tasks 定时任务功能；ChatGPT 将 Operator 整合升级为统一 Agent 系统，Gemini 3 Deep Think 推理大幅领先，AI 产品进入自主执行新阶段。\n- 🔥 英伟达 Vera Rubin 首次曝光，Meta 与 AMD 签 ~600 亿美元大单：下一代 AI 系统架构披露，芯片算力军备竞赛持续升温。\n- 📌 中国 AI 新资本周期启动：智谱 AI 港股上市市值突破 511 亿港元，月之暗面完成 7 亿美元融资，估值突破 100 亿美元。"
-        }
-      ],
+      "id": "2026-W09",
+      "date": "",
+      "label": "最新",
+      "title": "AI 行业周报 — 2026 年第 9 周（2月23日–3月1日）",
+      "summary": "> 本期覆盖日期：2026-02-26 至 2026-03-01（共 4 份日报存档）",
+      "coverageLabel": "周报文件",
+      "coverage": [],
       "highlights": [
         {
-          "title": "3月1日 · 🔥 Anthropic 因拒绝军用条款遭美国防部封杀，引发行业联署声援",
-          "detail": "美国国防部长皮特·赫格塞斯援引国家安全法，切断与 Anthropic 的政府合作。起因是 CEO Dario Amodei 拒绝授权 Anthropic 技术用于监控美国公民或允许自主武装无人机在无人监督下选择并击杀目标。特朗普随即将 Anthropic 定性为\"觉醒\"公司，并…"
+          "title": "融资格局重构",
+          "detail": "Anthropic 于 2 月 12 日率先完成 300 亿美元 G 轮融资（估值 3800 亿美元，2025 年 ARR 接近 70 亿，2026 目标 150 亿），随后 OpenAI 于 2 月 27 日完成 1100 亿美元融资（估值 7300 亿，亚马逊 500 亿…"
         },
         {
-          "title": "3月1日 · 📌 Anthropic 修改安全承诺核心条款",
-          "detail": "Anthropic 本周删除了其安全承诺中的核心条款——此前承诺在确信不会造成重大危害之前不发布更强大的 AI 系统。批评人士指出，OpenAI 已将\"安全\"从使命声明中移除，xAI 解散了整个安全团队。（来源：SiliconANGLE）"
+          "title": "最大争议：Anthropic 军事红线",
+          "detail": "这是本周最重要的事件。五角大楼要求 Anthropic 解除 Claude 在监控公民和完全自主武器上的限制，CEO Dario Amodei 拒绝，国防部援引国家安全法切断合作，特朗普将 Anthropic 定性为\"觉醒\"公司并命联邦机构停用其服务。OpenAI Sam Al…"
         },
         {
-          "title": "3月1日 · OpenAI 加速企业市场攻势",
-          "detail": "OpenAI 与四家大型咨询公司签署企业合作协议，持续蚕食 Anthropic 的企业客户市场。（来源：SiliconANGLE）"
+          "title": "模型发布",
+          "detail": "Anthropic 的 Claude Sonnet 4.6 于 2 月 17 日正式发布，官方称以 Sonnet 价格实现 Opus 级性能，盲测约 70% 的情况下用户偏好优于 Sonnet 4.5；Claude Opus 4.6 同步推出，支持 100 万 Token 上下…"
         },
         {
-          "title": "2月28日 · 🔥 OpenAI 完成 1100 亿美元融资，估值 7300 亿美元",
-          "detail": "OpenAI 于 2 月 27 日正式完成史上规模最大的私募融资，金额达 1100 亿美元，折后估值约 7300 亿美元（post-money 约 8400 亿），超越全球绝大多数上市公司。领投方为亚马逊（500 亿）、英伟达（300 亿）和软银（300 亿）。此前彭博社于 2…"
+          "title": "其他重要动态",
+          "detail": "：Anthropic 收购计算机操作 AI 创业公司 Vercept（融资约 5000 万美元），持续强化 Claude Agent 能力；Anthropic 指控 DeepSeek 用数千个虚假账户窃取训练数据；Snowflake 与 OpenAI 签署 2 亿美元战略合作协…"
         },
         {
-          "title": "2月28日 · 🔥 Anthropic vs 五角大楼：Dario Amodei 坚守\"红线\"",
-          "detail": "国防部向 Anthropic 施压，要求其开放模型用于国内监控和全自主武器系统，否则将取消合同。CEO Dario Amodei 拒绝妥协，特朗普随即将 Anthropic 定性为\"觉醒（woke）\"公司并向联邦机构下令停止使用其服务。值得关注的是，OpenAI CEO Sam…"
+          "title": "MCP 成为行业标准",
+          "detail": "Anthropic 将模型上下文协议（MCP）捐赠给 Linux 基金会旗下新成立的 Agentic AI Foundation（AAIF），OpenAI、Google、微软、AWS、Cloudflare、Bloomberg 等联合加入，全球公开 MCP Server 已超 1…"
         },
         {
-          "title": "2月28日 · 📌 xAI：加州 AG 要求停止 Grok 生成深伪内容；SpaceX 与 xAI 宣布合并",
-          "detail": "加州总检察长 Rob Bonta 正式要求 xAI 立即停止其 Grok 模型生成非自愿深伪内容（NCII），理由是该工具频繁被用于生成公众人物与普通人的露骨合成图像，英国监管机构此前也发出类似警告。与此同时，Elon Musk 宣布 SpaceX 与 xAI 达成合并协议，整…"
+          "title": "安全危机浮出水面",
+          "detail": "MCP 月 SDK 下载量从 2024 年 11 月的 10 万暴增至 9700 万，但规模扩张远超安全治理能力：安全研究人员扫描发现超 8000 台 MCP 服务器裸奔于公网（无任何身份验证），Anthropic Git MCP Server 存在 RCE 漏洞，工具污染（T…"
         },
         {
-          "title": "2月27日 · 🔥 五角大楼向 Anthropic 发出最后通牒，xAI Grok 进入美军机密系统",
-          "detail": "美国国防部正式向 Anthropic 施压，要求其解除 Claude 在军事场景中的安全限制——特别是涉及大规模国内监控和完全自主武器的功能。五角大楼威胁若 Anthropic 不从，将切断合同并将其列为\"供应链风险\"。截至 2026 年 2 月 26 日，Anthropic…"
+          "title": "企业生态拓展",
+          "detail": "微软 Agent Framework 的 .NET 和 Python 版本进入 RC 阶段（原生支持 MCP），Atlassian 在 Jira 中引入 AI Agent 协作（人机同看板任务分配），Agent 工作流编排初创公司 Trace 完成 300 万美元种子轮融资。G…"
         },
         {
-          "title": "2月27日 · 🔥 OpenAI 新融资轮有望突破 1000 亿美元",
-          "detail": "OpenAI 即将完成史上规模最大的单笔创业融资，首期募资金额预计超过 1000 亿美元。公司 2025 年预计营收超 130 亿美元，2026 年目标为 300 亿美元。（来源：Bloomberg）"
+          "title": "Claude Code 全面升级",
+          "detail": "本周 Claude Code 推出三项重大功能：Scheduled Tasks（定时任务，Claude 可无需人工触发自主执行定期工作）、Remote Control（跨设备远程控制本地 Agent）、--worktree 模式（隔离 Git Worktree 并行开发），以及…"
         },
         {
-          "title": "2月27日 · 🔥 Anthropic 完成 300 亿美元 G 轮融资，估值达 3800 亿美元",
-          "detail": "Anthropic 于 2 月 12 日宣布完成 300 亿美元 G 轮融资，成为史上第二大风险投资轮次，估值达 3800 亿美元。公司 2025 年 ARR 接近 70 亿美元，2026 年营收目标为 150 亿美元。（来源：Crunchbase News）"
+          "title": "ChatGPT 更新",
+          "detail": "Operator 升级为 ChatGPT Agent（先 Pro 后 Plus/Team），新增 Lockdown Mode；Deep Research 支持自定义目标网站和可编辑研究计划；单次文件上传上限从 10 个提升至 20 个；上下文窗口扩至 256k Token；代码…"
         },
         {
-          "title": "2月26日 · 🔥 Anthropic 收购计算机操作 AI 创业公司 Vercept",
-          "detail": "Anthropic 宣布收购 Vercept，后者开发了云端远程操作 macOS 的 AI Agent 产品 Vy，融资总额约 5000 万美元。这是继 2025 年 12 月收购编程 Agent 引擎 Bun 之后的又一次收购，持续强化 Claude Code 与 Agent…"
+          "title": "编程工具竞争加剧",
+          "detail": "Cursor 推出 2.0 版（最多 8 个并行 Agent、云端 Agent 独立启动 VM 并自动提交 PR、Composer 1.5 速度提升 4 倍）；Windsurf Wave 13 带来 Arena Mode 并排对比和 Plan Mode；Cline v3.58…"
         },
         {
-          "title": "2月26日 · 📌 Anthropic 与五角大楼合同争议持续",
-          "detail": "五角大楼威胁以\"供应链风险\"为由终止与 Anthropic 的合同，因 Anthropic 拒绝解除 Claude 在监控和自主武器场景的使用限制，此事正迫使 OpenAI、Google、xAI 重新审视与国防部合作边界。（来源：Axios）"
+          "title": "Perplexity 转型",
+          "detail": "Perplexity 2 月 18 日宣布彻底放弃广告收入，全面转向订阅制，并发布 Perplexity Computer 将多种 AI 能力整合为统一操作系统。"
         },
         {
-          "title": "2月26日 · 📌 OpenAI 千亿融资持续推进，三大实验室 IPO 窗口临近",
-          "detail": "OpenAI、Anthropic、xAI 均面临 2026 年上市窗口，OpenAI 1000 亿美元融资轮（估值 8300 亿美元）由软银领投，持续推进中。（来源：Axios）"
+          "title": "图像/视频生成",
+          "detail": "Midjourney V7 正式发布（新增文字转视频与 3D 功能，处理速度更快、写实感更强）。字节 Seedance 2.0 定位专业影视制作，生成的\"Tom Cruise vs Brad Pitt 打架视频\"病毒式传播，成为本月最受关注的 AI 视频内容。"
         }
       ],
-      "date": "2026-03-01",
-      "label": "3月1日",
-      "sourceFile": "Auto generated from /Users/shichangliao/Desktop/ClaudeCode/daily-ai-news",
-      "htmlContent": "<h3 id=\"本周概览\">本周概览</h3>\n<p>基于最近 4 份日报自动汇总，覆盖 2026-02-26 到 2026-03-01。重点主题包括 AI Labs、AI Agent、产品、中国 AI、机器人、自动驾驶。</p>\n<h3 id=\"按日期回顾\">按日期回顾</h3>\n<h4 class=\"entry-heading\" id=\"3月1日-每日前沿-ai-行业新闻-2026年3月1日\">3月1日 · 每日前沿 AI 行业新闻 — 2026年3月1日</h4>\n<ul><li>🔥 Anthropic vs 五角大楼：Anthropic 因拒绝将 AI 用于无人监督武器与国内大规模监控，遭美国防部切断合作；谷歌、OpenAI 逾 200 名员工联署声援，成为本周最大 AI 安全与军事应用之争。</li><li>🔥 Wayve 完成 12–15 亿美元 D 轮：英国自动驾驶初创公司估值达 86 亿美元，由奔驰、Stellantis、日产、Uber 领投，物理 AI 单月融资规模突破 190 亿美元。</li><li>📊 中国大厂 DAU 竞速：字节豆包达 7871 万 DAU，阿里千问 82 天暴涨至 7352 万，两大平台正面交锋；字节 2026 年 AI 资本支出高达 1600 亿元。</li></ul>\n<ul><li><strong>🔥 Anthropic 因拒绝军用条款遭美国防部封杀，引发行业联署声援</strong>：美国国防部长皮特·赫格塞斯援引国家安全法，切断与 Anthropic 的政府合作。起因是 CEO Dario Amodei 拒绝授权 Anthropic 技术用于监控美国公民或允许自主武装无人机在无人监督下选择并击杀目标。特朗普随即将 Anthropic 定性为&quot;觉醒&quot;公司，并…</li><li><strong>📌 Anthropic 修改安全承诺核心条款</strong>：Anthropic 本周删除了其安全承诺中的核心条款——此前承诺在确信不会造成重大危害之前不发布更强大的 AI 系统。批评人士指出，OpenAI 已将&quot;安全&quot;从使命声明中移除，xAI 解散了整个安全团队。（来源：SiliconANGLE）</li><li><strong>OpenAI 加速企业市场攻势</strong>：OpenAI 与四家大型咨询公司签署企业合作协议，持续蚕食 Anthropic 的企业客户市场。（来源：SiliconANGLE）</li><li><strong>MCP 成为行业标准，捐赠至 Linux 基金会</strong>：Anthropic 的模型上下文协议（MCP）——被称为&quot;AI 的 USB-C&quot;，允许 AI Agent 连接数据库、搜索引擎、API 等外部工具——正迅速成为行业标准。OpenAI 和微软公开表态支持，Anthropic 已将其捐赠给 Linux 基金会旗下新成立的 Agen…</li></ul>\n<h4 class=\"entry-heading\" id=\"2月28日-每日前沿-ai-行业新闻-2026年2月28日\">2月28日 · 每日前沿 AI 行业新闻 — 2026年2月28日</h4>\n<ul><li>🔥 OpenAI 完成 1100 亿美元史上最大私募融资：估值飙升至 7300 亿美元，亚马逊（500 亿）、英伟达（300 亿）、软银（300 亿）领投，远超市场预期。</li><li>🔥 Anthropic vs 五角大楼正面冲突：Dario Amodei 拒绝开放模型用于监控和自主武器，特朗普下令联邦机构停用；OpenAI 以纳入安全条款为前提与军方达成合作。</li><li>📌 2 月 AI 融资总额突破 1950 亿美元，创史上单月纪录；中国&quot;农历新年 AI 大战&quot;全面开打，字节 Doubao 2.0、阿里 Qwen 3.5、DeepSeek V4 密集发布。</li></ul>\n<ul><li><strong>🔥 OpenAI 完成 1100 亿美元融资，估值 7300 亿美元</strong>：OpenAI 于 2 月 27 日正式完成史上规模最大的私募融资，金额达 1100 亿美元，折后估值约 7300 亿美元（post-money 约 8400 亿），超越全球绝大多数上市公司。领投方为亚马逊（500 亿）、英伟达（300 亿）和软银（300 亿）。此前彭博社于 2…</li><li><strong>🔥 Anthropic vs 五角大楼：Dario Amodei 坚守&quot;红线&quot;</strong>：国防部向 Anthropic 施压，要求其开放模型用于国内监控和全自主武器系统，否则将取消合同。CEO Dario Amodei 拒绝妥协，特朗普随即将 Anthropic 定性为&quot;觉醒（woke）&quot;公司并向联邦机构下令停止使用其服务。值得关注的是，OpenAI CEO Sam…</li><li><strong>📌 xAI：加州 AG 要求停止 Grok 生成深伪内容；SpaceX 与 xAI 宣布合并</strong>：加州总检察长 Rob Bonta 正式要求 xAI 立即停止其 Grok 模型生成非自愿深伪内容（NCII），理由是该工具频繁被用于生成公众人物与普通人的露骨合成图像，英国监管机构此前也发出类似警告。与此同时，Elon Musk 宣布 SpaceX 与 xAI 达成合并协议，整…</li><li><strong>Anthropic 指控 DeepSeek 通过虚假账户窃取训练数据</strong>：Anthropic 披露，DeepSeek 使用数千个虚假账户与 Claude 进行了数百万次对话，以收集数据训练自身模型。此前 OpenAI 也向美国国会中国特别委员会提交备忘录，指控 DeepSeek 盗用其知识产权。</li></ul>\n<h4 class=\"entry-heading\" id=\"2月27日-每日前沿-ai-行业新闻-2026年2月27日\">2月27日 · 每日前沿 AI 行业新闻 — 2026年2月27日</h4>\n<ul><li>🔥 五角大楼向 Anthropic 发出最后通牒：要求解除 Claude 军事应用安全限制，xAI Grok 同步签约进入美军机密系统，成 Claude 在机密领域的直接竞争者。</li><li>🔥 Meta 单日双签 NVIDIA、AMD 重大芯片协议：AMD 合同规模约 600 亿美元，英伟达季报分析师预期营收同比增长 68% 至 660 亿美元。</li><li>📌 2 月成为 AI 融资史上最密集月份之一：OpenAI 百亿级融资轮持续推进，ElevenLabs 完成 5 亿美元 D 轮，估值 110 亿美元。</li></ul>\n<ul><li><strong>🔥 五角大楼向 Anthropic 发出最后通牒，xAI Grok 进入美军机密系统</strong>：美国国防部正式向 Anthropic 施压，要求其解除 Claude 在军事场景中的安全限制——特别是涉及大规模国内监控和完全自主武器的功能。五角大楼威胁若 Anthropic 不从，将切断合同并将其列为&quot;供应链风险&quot;。截至 2026 年 2 月 26 日，Anthropic…</li><li><strong>🔥 OpenAI 新融资轮有望突破 1000 亿美元</strong>：OpenAI 即将完成史上规模最大的单笔创业融资，首期募资金额预计超过 1000 亿美元。公司 2025 年预计营收超 130 亿美元，2026 年目标为 300 亿美元。（来源：Bloomberg）</li><li><strong>🔥 Anthropic 完成 300 亿美元 G 轮融资，估值达 3800 亿美元</strong>：Anthropic 于 2 月 12 日宣布完成 300 亿美元 G 轮融资，成为史上第二大风险投资轮次，估值达 3800 亿美元。公司 2025 年 ARR 接近 70 亿美元，2026 年营收目标为 150 亿美元。（来源：Crunchbase News）</li><li><strong>Google DeepMind 发布 Genie 3 世界模型</strong>：Google DeepMind 发布 Genie 3，这是一款新型基础世界模型，可实时生成用户可交互的 3D 世界模拟。相比前代只能生成 10-20 秒短片，Genie 3 支持数分钟的沉浸式 3D 环境，分辨率 720p、帧率 24fps，并可通过文本指令实时修改生成的世界。…</li></ul>\n<h4 class=\"entry-heading\" id=\"2月26日-每日前沿-ai-行业新闻-2026年2月26日\">2月26日 · 每日前沿 AI 行业新闻 — 2026年2月26日</h4>\n<ul><li>🔥 Claude Code / ChatGPT Agent 双双迈入 Agent 时代：Claude Code 正式推出 Scheduled Tasks 定时任务功能；ChatGPT 将 Operator 整合升级为统一 Agent 系统，Gemini 3 Deep Think 推理大幅领先，AI 产品进入自主执行新阶段。</li><li>🔥 英伟达 Vera Rubin 首次曝光，Meta 与 AMD 签 ~600 亿美元大单：下一代 AI 系统架构披露，芯片算力军备竞赛持续升温。</li><li>📌 中国 AI 新资本周期启动：智谱 AI 港股上市市值突破 511 亿港元，月之暗面完成 7 亿美元融资，估值突破 100 亿美元。</li></ul>\n<ul><li><strong>🔥 Anthropic 收购计算机操作 AI 创业公司 Vercept</strong>：Anthropic 宣布收购 Vercept，后者开发了云端远程操作 macOS 的 AI Agent 产品 Vy，融资总额约 5000 万美元。这是继 2025 年 12 月收购编程 Agent 引擎 Bun 之后的又一次收购，持续强化 Claude Code 与 Agent…</li><li><strong>📌 Anthropic 与五角大楼合同争议持续</strong>：五角大楼威胁以&quot;供应链风险&quot;为由终止与 Anthropic 的合同，因 Anthropic 拒绝解除 Claude 在监控和自主武器场景的使用限制，此事正迫使 OpenAI、Google、xAI 重新审视与国防部合作边界。（来源：Axios）</li><li><strong>📌 OpenAI 千亿融资持续推进，三大实验室 IPO 窗口临近</strong>：OpenAI、Anthropic、xAI 均面临 2026 年上市窗口，OpenAI 1000 亿美元融资轮（估值 8300 亿美元）由软银领投，持续推进中。（来源：Axios）</li><li><strong>🔥 MCP 正式捐赠 Linux 基金会，Agentic AI Foundation 成立</strong>：Anthropic 将模型上下文协议（MCP）捐赠至 Linux 基金会旗下 AAIF，OpenAI、Block、Google、微软、AWS、Cloudflare、Bloomberg 等联合加入。全球公开 MCP Server 已超 10,000 个，ChatGPT、Curso…</li></ul>"
+      "sourceFile": "/Users/shichangliao/Desktop/ClaudeCode/daily-ai-news/weekly/2026-W09.md",
+      "htmlContent": "<p>&gt; 本期覆盖日期：2026-02-26 至 2026-03-01（共 4 份日报存档） &gt; 生成时间：2026-03-02</p>\n<h3 id=\"本周概览\">本周概览</h3>\n<p>本周是 2026 年迄今为止 AI 行业最动荡、也最具历史分量的一周。<strong>OpenAI 完成 1100 亿美元史上最大单笔私募融资</strong>，估值达 7300 亿美元，Anthropic 此前也已完成 300 亿美元 G 轮；两家顶级 AI 实验室合计募资逾 1400 亿美元，助推 2 月全球 AI 融资总额突破 <strong>1950 亿美元</strong>，创单月历史纪录。与此同时，<strong>Anthropic 与美国五角大楼的正面冲突</strong>成为本周最受关注的事件：CEO Dario Amodei 拒绝开放 Claude 用于大规模监控和自主武器，国防部随即切断合作，特朗普将 Anthropic 定性为&quot;觉醒&quot;公司——这场博弈正在重塑整个 AI 行业的军事应用边界。芯片层面，英伟达 <strong>Vera Rubin</strong> 系统首次曝光，Meta 同日与英伟达、AMD 签下合计逾 600 亿美元的芯片大单，算力军备竞赛持续升温。在 Agent 生态方面，MCP 正式捐赠给 Linux 基金会，成为&quot;AI 的 USB-C&quot;行业标准，但随即暴露出 8000 余台服务器无认证裸奔的严峻安全隐患。</p>\n<hr class=\"report-rule\" />\n<h3 id=\"本周重点事件\">本周重点事件（🔥）</h3>\n<ul><li>🔥 <strong>OpenAI 完成 1100 亿美元融资，估值 7300 亿美元</strong>：亚马逊（500 亿）、英伟达（300 亿）、软银（300 亿）领投，创史上最大私募融资纪录。(<a href=\"https://techcrunch.com/2026/02/27/openai-raises-110b-in-one-of-the-largest-private-funding-rounds-in-history/\" target=\"_blank\" rel=\"noreferrer\">TechCrunch</a> · <a href=\"https://www.bloomberg.com/news/articles/2026-02-27/openai-finalizes-110-billion-funding-at-730-billion-valuation\" target=\"_blank\" rel=\"noreferrer\">Bloomberg</a>)</li></ul>\n<ul><li>🔥 <strong>Anthropic vs 五角大楼：Dario Amodei 坚守&quot;红线&quot;</strong>：国防部要求开放 Claude 用于监控公民和自主武装无人机，遭 Dario Amodei 拒绝，特朗普命令联邦机构停用 Anthropic 服务；200 余名 Google/OpenAI 员工联署声援。(<a href=\"https://www.cnbc.com/2026/02/27/defense-anthropic-ai-war-risks-hegseth-amodei.html\" target=\"_blank\" rel=\"noreferrer\">CNBC</a> · <a href=\"https://techcrunch.com/2026/02/28/the-trap-anthropic-built-for-itself/\" target=\"_blank\" rel=\"noreferrer\">TechCrunch</a>)</li></ul>\n<ul><li>🔥 <strong>Claude Code 正式推出 Scheduled Tasks 与 Remote Control</strong>：Cowork 平台新增定时任务功能，允许 Claude 无需人工触发自主定期执行；Remote Control 支持跨设备远程操控本地 Agent。(<a href=\"https://support.claude.com/en/articles/13345190-get-started-with-cowork\" target=\"_blank\" rel=\"noreferrer\">Claude Help Center</a> · <a href=\"https://simonwillison.net/2026/Feb/25/claude-code-remote-control/\" target=\"_blank\" rel=\"noreferrer\">Simon Willison</a>)</li></ul>\n<ul><li>🔥 <strong>ChatGPT Operator 升级为统一 Agent 系统 ChatGPT Agent</strong>：先向 Pro 用户开放，新增 Lockdown Mode 和 Elevated Risk 标签。(<a href=\"https://releasebot.io/updates/openai/chatgpt\" target=\"_blank\" rel=\"noreferrer\">Releasebot</a>)</li></ul>\n<ul><li>🔥 <strong>MCP 正式捐赠 Linux 基金会，Agentic AI Foundation 成立</strong>：OpenAI、Google、微软、AWS 等联合加入，全球公开 MCP Server 超 10,000 个。(<a href=\"https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation\" target=\"_blank\" rel=\"noreferrer\">Linux Foundation</a>)</li></ul>\n<ul><li>🔥 <strong>英伟达 Vera Rubin 系统首次曝光</strong>：性能全面超越 Blackwell，预计 2026 年下半年出货，单套售价约 350–400 万美元。(<a href=\"https://www.cnbc.com/2026/02/25/first-look-at-nvidias-ai-system-vera-rubin-and-how-it-beats-blackwell.html\" target=\"_blank\" rel=\"noreferrer\">CNBC</a>)</li></ul>\n<ul><li>🔥 <strong>Meta 与 AMD 签署约 600 亿美元定制芯片大单</strong>：采购约 6GW AMD Instinct MI450 GPU，同日与英伟达续签扩展协议。(<a href=\"https://www.cnbc.com/2026/02/24/meta-to-use-6gw-of-amd-gpus-days-after-expanded-nvidia-ai-chip-deal.html\" target=\"_blank\" rel=\"noreferrer\">CNBC</a>)</li></ul>\n<ul><li>🔥 <strong>Waymo 完成 160 亿美元融资，估值 1260 亿美元</strong>：成为 2 月最大单笔 AI 投资，Robotaxi 每周行程超 40 万次。(<a href=\"https://www.sfbayareatimes.com/posts/san-francisco-ai-startup-funding-surge-february-2026\" target=\"_blank\" rel=\"noreferrer\">SF Bay Area Times</a>)</li></ul>\n<ul><li>🔥 <strong>Claude Sonnet 4.6 发布</strong>：以 Sonnet 价格实现 Opus 级性能，Claude Opus 4.6 同步推出，支持 100 万 Token 上下文窗口（Beta）。(<a href=\"https://felloai.com/best-ai-february-2026/\" target=\"_blank\" rel=\"noreferrer\">FelloAI</a>)</li></ul>\n<ul><li>🔥 <strong>Gemini 3 Deep Think 发布，ARC-AGI-2 得分 84.6%</strong>；Gemini 3.1 Pro 于 2 月 19 日进一步发布，ARC-AGI-2 得分达 77.1%。(<a href=\"https://theagencyjournal.com/geminis-february-2026-updates-deep-think-personal-intelligence-and-what-actually-changes-for-you/\" target=\"_blank\" rel=\"noreferrer\">The Agency Journal</a>)</li></ul>\n<ul><li>🔥 <strong>智谱 AI 港交所上市</strong>：市值突破 511 亿港元，成全球首家独立上市大模型公司，同步开源 GLM-5。(<a href=\"https://finance.sina.com.cn/roll/2026-02-02/doc-inhkkzki0959332.shtml\" target=\"_blank\" rel=\"noreferrer\">新浪财经</a>)</li></ul>\n<ul><li>🔥 <strong>月之暗面（Kimi）完成 7 亿美元融资</strong>：估值突破 100 亿美元。(<a href=\"https://www.sina.cn/news/detail/5268811513333817.html\" target=\"_blank\" rel=\"noreferrer\">新浪新闻</a>)</li></ul>\n<ul><li>🔥 <strong>NVIDIA Isaac GR00T N1.6 发布</strong>：专为人形机器人构建的开源推理视觉语言动作模型，实现全身运动控制，Boston Dynamics、LG 等合作伙伴同步发布次代机器人。(<a href=\"https://nvidianews.nvidia.com/news/nvidia-releases-new-physical-ai-models-as-global-partners-unveil-next-generation-robots\" target=\"_blank\" rel=\"noreferrer\">NVIDIA Newsroom</a>)</li></ul>\n<ul><li>🔥 <strong>Wayve 完成 12–15 亿美元 D 轮，估值 86 亿美元</strong>：奔驰、Stellantis、日产、Uber 领投。(<a href=\"https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-2b-from-nvidia-uber-and-three-automakers/\" target=\"_blank\" rel=\"noreferrer\">TechCrunch</a>)</li></ul>\n<ul><li>🔥 <strong>Apptronik 融资 5.2 亿美元，估值超 55 亿美元</strong>：Google DeepMind、奔驰等战略投资，用于 Apollo 机器人量产。(<a href=\"https://noorfoundation.com/robotics-funding-news-2026/\" target=\"_blank\" rel=\"noreferrer\">Noor Foundation</a>)</li></ul>\n<ul><li>🔥 <strong>2 月 AI 融资总额突破 1950 亿美元</strong>：创风险投资史上单月纪录。(<a href=\"https://techcrunch.com/2026/02/17/here-are-the-17-us-based-ai-companies-that-have-raised-100m-or-more-in-2026/\" target=\"_blank\" rel=\"noreferrer\">TechCrunch</a>)</li></ul>\n<hr class=\"report-rule\" />\n<h3 id=\"持续跟进事件\">持续跟进事件（📌）</h3>\n<ul><li>📌 <strong>Anthropic vs 五角大楼争议持续发酵</strong>：从最初五角大楼威胁切断合同（2 月 19 日 Axios 首报）→ 发出&quot;最后通牒&quot;（2 月 27 日）→ 正式援引国家安全法切断合作（2 月 28 日）→ 200 余名员工联署声援（3 月 1 日）。OpenAI Sam Altman 公开支持 Anthropic&quot;红线&quot;立场，同时宣布 OpenAI 以纳入安全协议为条件与五角大楼合作。xAI Grok 同期进入美军机密系统，成 Claude 直接竞争者。(<a href=\"https://www.axios.com/2026/02/19/anthropic-pentagon-ai-fight-openai-google-xai\" target=\"_blank\" rel=\"noreferrer\">Axios</a> · <a href=\"https://www.cnbc.com/2026/02/27/defense-anthropic-ai-war-risks-hegseth-amodei.html\" target=\"_blank\" rel=\"noreferrer\">CNBC</a> · <a href=\"https://the-decoder.com/google-deepmind-and-openai-employees-demand-anthropic-style-red-lines-on-pentagon-surveillance-and-autonomous-weapons/\" target=\"_blank\" rel=\"noreferrer\">The Decoder</a>)</li></ul>\n<ul><li>📌 <strong>MCP 安全危机持续</strong>：MCP 协议月 SDK 下载量从 2024 年 11 月的 10 万飙升至 9700 万；安全研究人员发现超 8000 台 MCP 服务器无认证暴露公网，CoSAI 发布安全框架，Anthropic Git MCP Server 存 RCE 漏洞已确认。(<a href=\"https://cikce.medium.com/8-000-mcp-servers-exposed-the-agentic-ai-security-crisis-of-2026-e8cb45f09115\" target=\"_blank\" rel=\"noreferrer\">Medium</a> · <a href=\"https://thenewstack.io/safe-mcp-a-community-built-framework-for-ai-agent-security/\" target=\"_blank\" rel=\"noreferrer\">The New Stack</a>)</li></ul>\n<ul><li>📌 <strong>OpenAI 百亿融资持续推进并完成</strong>：2 月 19 日彭博首报接近 100 亿目标 → 2 月 27 日正式完成 1100 亿，远超预期，估值 7300 亿美元。三大 AI 实验室（OpenAI、Anthropic、xAI）均面临 2026 年 IPO 窗口。(<a href=\"https://www.bloomberg.com/news/articles/2026-02-19/openai-funding-on-track-to-top-100-billion-with-latest-round\" target=\"_blank\" rel=\"noreferrer\">Bloomberg</a>)</li></ul>\n<ul><li>📌 <strong>中国 AI 资本周期与应用竞争</strong>：智谱 AI 上市（511 亿港元）、月之暗面 7 亿美元融资完成后，字节豆包 DAU 达 7871 万、阿里千问 82 天暴涨至 7352 万，两大平台正面交锋；字节 2026 年 AI 资本支出高达 1600 亿元。</li></ul>\n<ul><li>📌 <strong>欧盟 AI Act 实施倒计时</strong>：高风险 AI 系统严格要求将于 <strong>2026 年 8 月 2 日</strong>正式生效，欧洲监管机构明确将全面进入执法阶段。(<a href=\"https://www.holisticai.com/blog/ai-regulation-in-2026-navigating-an-uncertain-landscape\" target=\"_blank\" rel=\"noreferrer\">Holistic AI</a>)</li></ul>\n<ul><li>📌 <strong>Pony.ai 纳入 MSCI 中国指数</strong>：2 月 27 日正式生效，成首家进入该指数的 Robotaxi 企业。(<a href=\"https://www.autoconnectedcar.com/2026/02/autonomous-self-driving-vehicle-news-pony-ai-toyota-ouster-stereolabs-baidu-uber-apollo-go-msci-aurora-waymo-caocao/\" target=\"_blank\" rel=\"noreferrer\">AutoConnectedCar</a>)</li></ul>\n<hr class=\"report-rule\" />\n<h3 id=\"分板块周报\">分板块周报</h3>\n<h4 class=\"topic-heading\" id=\"1-主要-ai-labs-动态\">1. 主要 AI Labs 动态</h4>\n<h4 class=\"entry-heading\" id=\"融资格局重构\">融资格局重构</h4>\n<p>Anthropic 于 2 月 12 日率先完成 300 亿美元 G 轮融资（估值 3800 亿美元，2025 年 ARR 接近 70 亿，2026 目标 150 亿），随后 OpenAI 于 2 月 27 日完成 1100 亿美元融资（估值 7300 亿，亚马逊 500 亿 + 英伟达 300 亿 + 软银 300 亿），两家公司合计本月募资逾 1400 亿美元，正式进入另一个量级的资本竞争。</p>\n<h4 class=\"entry-heading\" id=\"最大争议-anthropic-军事红线\">最大争议：Anthropic 军事红线</h4>\n<p>这是本周最重要的事件。五角大楼要求 Anthropic 解除 Claude 在监控公民和完全自主武器上的限制，CEO Dario Amodei 拒绝，国防部援引国家安全法切断合作，特朗普将 Anthropic 定性为&quot;觉醒&quot;公司并命联邦机构停用其服务。OpenAI Sam Altman 公开支持 Anthropic 立场，同时宣布 OpenAI 以纳入安全协议为条件与军方合作。200 余名谷歌和 OpenAI 员工联署声援。xAI Grok 则正式进入美军机密系统，成为 Claude 的直接竞争者。</p>\n<h4 class=\"entry-heading\" id=\"模型发布\">模型发布</h4>\n<p>Anthropic 的 Claude Sonnet 4.6 于 2 月 17 日正式发布，官方称以 Sonnet 价格实现 Opus 级性能，盲测约 70% 的情况下用户偏好优于 Sonnet 4.5；Claude Opus 4.6 同步推出，支持 100 万 Token 上下文（Beta）与 12.8 万 Token 输出，新增 Agent Teams 与 effort 控制。Claude Sonnet 5（SWE-Bench Verified 82.1%，首破 80%）于 2 月 3 日已上线。</p>\n<p>OpenAI 发布 GPT-5.2（400K Token 上下文，SWE-bench 69%，支持完整视频处理，定价 $1.75/$14）；另外开源 gpt-oss-120b（性能接近 o3/o4-mini，可单卡运行）和 20B 轻量版（可在消费级笔记本运行）。</p>\n<p>Google 于 2 月 12 日发布 Gemini 3 Deep Think（ARC-AGI-2 得分 84.6%），2 月 19 日推出 Gemini 3.1 Pro（ARC-AGI-2 77.1%），均在推理能力上大幅领先前代。Google DeepMind 还发布 Genie 3 世界模型，可实时生成用户可交互的 3D 世界（720p、24fps）。</p>\n<h4 class=\"entry-heading\" id=\"其他重要动态\">其他重要动态</h4>\n<p>：Anthropic 收购计算机操作 AI 创业公司 Vercept（融资约 5000 万美元），持续强化 Claude Agent 能力；Anthropic 指控 DeepSeek 用数千个虚假账户窃取训练数据；Snowflake 与 OpenAI 签署 2 亿美元战略合作协议。</p>\n<hr class=\"report-rule\" />\n<h4 class=\"topic-heading\" id=\"2-ai-agent\">2. AI Agent</h4>\n<h4 class=\"entry-heading\" id=\"mcp-成为行业标准\">MCP 成为行业标准</h4>\n<p>Anthropic 将模型上下文协议（MCP）捐赠给 Linux 基金会旗下新成立的 Agentic AI Foundation（AAIF），OpenAI、Google、微软、AWS、Cloudflare、Bloomberg 等联合加入，全球公开 MCP Server 已超 10,000 个。MCP 正被业界称为&quot;AI 的 USB-C&quot;，ChatGPT、Cursor、Gemini、VS Code 等主流产品均已支持。MCP Dev Summit 定于 4 月 2–3 日在纽约举办。</p>\n<h4 class=\"entry-heading\" id=\"安全危机浮出水面\">安全危机浮出水面</h4>\n<p>MCP 月 SDK 下载量从 2024 年 11 月的 10 万暴增至 9700 万，但规模扩张远超安全治理能力：安全研究人员扫描发现超 8000 台 MCP 服务器裸奔于公网（无任何身份验证），Anthropic Git MCP Server 存在 RCE 漏洞，工具污染（Tool Poisoning）和提示注入等新型攻击向量相继出现。CoSAI 已发布覆盖 12 个威胁类别的 MCP 安全框架，提供零信任架构和沙箱隔离等控制措施。</p>\n<h4 class=\"entry-heading\" id=\"企业生态拓展\">企业生态拓展</h4>\n<p>微软 Agent Framework 的 .NET 和 Python 版本进入 RC 阶段（原生支持 MCP），Atlassian 在 Jira 中引入 AI Agent 协作（人机同看板任务分配），Agent 工作流编排初创公司 Trace 完成 300 万美元种子轮融资。Gnani.ai × Razorpay 发布首个支持 Agent 在同一会话内完成 UPI 支付的平台。</p>\n<hr class=\"report-rule\" />\n<h4 class=\"topic-heading\" id=\"3-ai-产品更新\">3. AI 产品更新</h4>\n<h4 class=\"entry-heading\" id=\"claude-code-全面升级\">Claude Code 全面升级</h4>\n<p>本周 Claude Code 推出三项重大功能：Scheduled Tasks（定时任务，Claude 可无需人工触发自主执行定期工作）、Remote Control（跨设备远程控制本地 Agent）、--worktree 模式（隔离 Git Worktree 并行开发），以及 background: true 后台任务支持。GitHub Copilot 将 Claude Code 纳入 Agent HQ 多 Agent 平台，VS Code 1.109 支持 Claude、Codex、Copilot 并行运行。</p>\n<h4 class=\"entry-heading\" id=\"chatgpt-更新\">ChatGPT 更新</h4>\n<p>Operator 升级为 ChatGPT Agent（先 Pro 后 Plus/Team），新增 Lockdown Mode；Deep Research 支持自定义目标网站和可编辑研究计划；单次文件上传上限从 10 个提升至 20 个；上下文窗口扩至 256k Token；代码块升级为可交互模式。</p>\n<h4 class=\"entry-heading\" id=\"编程工具竞争加剧\">编程工具竞争加剧</h4>\n<p>Cursor 推出 2.0 版（最多 8 个并行 Agent、云端 Agent 独立启动 VM 并自动提交 PR、Composer 1.5 速度提升 4 倍）；Windsurf Wave 13 带来 Arena Mode 并排对比和 Plan Mode；Cline v3.58 支持原生 Subagent 和 CLI 2.0 无头 CI/CD 模式。&quot;Vibe Coding&quot;（自然语言编程）被 MIT Technology Review 评选为 2026 年突破性技术。</p>\n<h4 class=\"entry-heading\" id=\"perplexity-转型\">Perplexity 转型</h4>\n<p>Perplexity 2 月 18 日宣布彻底放弃广告收入，全面转向订阅制，并发布 Perplexity Computer 将多种 AI 能力整合为统一操作系统。</p>\n<h4 class=\"entry-heading\" id=\"图像-视频生成\">图像/视频生成</h4>\n<p>Midjourney V7 正式发布（新增文字转视频与 3D 功能，处理速度更快、写实感更强）。字节 Seedance 2.0 定位专业影视制作，生成的&quot;Tom Cruise vs Brad Pitt 打架视频&quot;病毒式传播，成为本月最受关注的 AI 视频内容。</p>\n<hr class=\"report-rule\" />\n<h4 class=\"topic-heading\" id=\"4-中国-ai-产业\">4. 中国 AI 产业</h4>\n<h4 class=\"entry-heading\" id=\"资本与上市\">资本与上市</h4>\n<p>智谱 AI 成全球首家独立上市大模型公司，港股市值突破 511 亿港元，同步开源 GLM-5（对标 Claude Opus 4.5 编程能力）。月之暗面（Kimi）完成 7 亿美元融资，估值突破 100 亿美元。</p>\n<h4 class=\"entry-heading\" id=\"模型密集发布\">模型密集发布</h4>\n<p>字节跳动春节前后密集发布：Doubao 2.0（复杂推理达 ChatGPT/Gemini 同等水平）、Seeddream 5.0（图像生成）、Seedance 2.0（视频生成，病毒式传播）。阿里 Qwen 3.5 开源，显存降 60%、推理提效 19 倍。DeepSeek GitHub 仓库出现&quot;MODEL1&quot;新架构标识，被广泛解读为 V4 技术基础。Anthropic 指控 DeepSeek 用虚假账户抓取训练数据，国际法律争议持续。</p>\n<h4 class=\"entry-heading\" id=\"应用层-dau-大战\">应用层 DAU 大战</h4>\n<p>字节豆包用 3 年达到 7871 万 DAU；阿里千问仅用 82 天（借助 30 亿元免单活动）从不足 1000 万暴涨至 7352 万 DAU，两大平台正面交锋。行业从底层模型比拼转向消费者服务渗透，阿里已测试&quot;对话即购物&quot;功能。</p>\n<h4 class=\"entry-heading\" id=\"资本支出规模\">资本支出规模</h4>\n<p>字节跳动 2026 年 AI 资本支出高达 1600 亿元（一半用于芯片），阿里计划 2025–2027 年共投入 3800 亿元用于云和 AI 基础设施。阿里云以 35.8% 市场份额大幅领跑中国 AI 云市场（字节火山引擎 14.8%、华为云 13.1%）。中国春节 AI 红包大战：腾讯、阿里、百度、字节合计投入超 45 亿元争夺流量入口。</p>\n<hr class=\"report-rule\" />\n<h4 class=\"topic-heading\" id=\"5-机器人与物理-ai\">5. 机器人与物理 AI</h4>\n<h4 class=\"entry-heading\" id=\"融资浪潮\">融资浪潮</h4>\n<p>本周物理 AI / 机器人领域融资创历史新高。Waymo 160 亿美元（估值 1260 亿）+ Wayve 12–15 亿美元（估值 86 亿）+ Apptronik 5.2 亿美元（估值 55 亿，Google DeepMind/奔驰战略投资）+ Skild AI 14 亿美元（估值 140 亿，贝索斯/英伟达参投）+ Bedrock Robotics 2.7 亿美元，单月合计超 190 亿美元。Figure AI 7 个月内估值从 26 亿飙升至 390 亿美元。</p>\n<h4 class=\"entry-heading\" id=\"量产与商业化\">量产与商业化</h4>\n<p>Boston Dynamics Atlas 全电动版量产（可负重 110 磅，2026 年产能已售罄）。Unitree 预计 2026 年出货 1–2 万台。现代汽车宣布未来四年在美投资 260 亿美元，2028 年实现年产 3 万台人形机器人目标。Agility Robotics 与丰田加拿大工厂签署首个商业化人形机器人 RaaS 协议（7 台 Digit）。<strong>历史性突破</strong>：意法半导体将认知人形机器人 RoBee 部署于自家芯片工厂，开创半导体公司在产线使用人形机器人的先例。</p>\n<h4 class=\"entry-heading\" id=\"技术层\">技术层</h4>\n<p>NVIDIA 发布 Isaac GR00T N1.6（开源推理视觉语言动作模型，支持人形机器人全身控制）；Qualcomm 发布 Dragonwing IQ10 机器人芯片；Mobileye 收购 Mentee Robotics 布局物理 AI 全场景；NVIDIA CES 2026 发布 Physical AI 路线图。中国春晚首次大规模展示人形机器人（Unitree 等完成功夫、舞蹈表演）。</p>\n<hr class=\"report-rule\" />\n<h4 class=\"topic-heading\" id=\"6-自动驾驶\">6. 自动驾驶</h4>\n<h4 class=\"entry-heading\" id=\"waymo-商业化加速\">Waymo：商业化加速</h4>\n<p>Waymo 以 1260 亿美元估值完成 160 亿美元融资，全自动 Robotaxi 每周行程突破 40 万次，正式进入休斯顿（覆盖约 25 平方英里），启动芝加哥配有安全员的路测，并发布 Waymo World Model 生成式仿真模型。Pony.ai（小马智行）于 2 月 27 日正式纳入 MSCI 中国指数，成首家入指 Robotaxi 企业。</p>\n<h4 class=\"entry-heading\" id=\"wayve-软件授权新模式\">Wayve：软件授权新模式</h4>\n<p>英国自动驾驶初创 Wayve 完成 12–15 亿美元 D 轮（估值 86 亿，奔驰/Stellantis/日产/Uber 领投），计划 2026 年在伦敦与 Uber 联合启动无人驾驶出租车试验，AI Driver 系统授权给全球整车厂——这是与 Waymo&quot;自营 Robotaxi&quot;截然不同的商业模式。</p>\n<h4 class=\"entry-heading\" id=\"政策与其他\">政策与其他</h4>\n<p>美国参议院商务委员会举办&quot;Hit the Road, Mac&quot;自动驾驶专题听证会，推动建立统一联邦安全标准。多国监管机构加速颁发 L3/L4 许可证，新加坡计划 2026 年实现全国自动驾驶商业部署。</p>\n<hr class=\"report-rule\" />\n<h4 class=\"topic-heading\" id=\"7-医疗-ai\">7. 医疗 AI</h4>\n<p>摩根大通报告确认，<strong>AI 相关交易已占医疗健康科技融资总额的 75%</strong>，主要应用方向集中于影像与放射（90% 健康系统已采用）、败血症早期检测（67%）和临床笔记自动化（60%），预计资金将进一步向头部平台集中。最新研究（Science Daily，2 月 21 日）证明生成式 AI 可以比传统人类研究团队更快速、更全面地分析结构化医疗数据。AI 驱动医疗前台管理平台 Third Way Health 完成 1500 万美元 A 轮融资，可将行政成本降低最高 40%。美国 HHS 发布 AI 临床应用征询意见（RFI），探讨如何利用 AI 降低医疗成本、提升医疗质量。</p>\n<hr class=\"report-rule\" />\n<h4 class=\"topic-heading\" id=\"8-芯片与半导体\">8. 芯片与半导体</h4>\n<h4 class=\"entry-heading\" id=\"英伟达-下一代路线图公开\">英伟达：下一代路线图公开</h4>\n<p>英伟达 2 月 25 日首次展示 Vera Rubin 系统（72 块 Rubin GPU + 36 块 Vera CPU，台积电代工），性能全面超越 Blackwell，预计 2026 年下半年出货，单套售价约 350–400 万美元。英伟达市值达 4.66 万亿美元，掌控约 90% AI 芯片市场。分析师预期本周季报营收同比增长 68% 至 660 亿美元。大型科技公司 2026 年 AI 资本支出合计预计达 6300 亿美元。</p>\n<h4 class=\"entry-heading\" id=\"meta-双线签约\">Meta 双线签约</h4>\n<p>Meta 一日之内同时与 AMD 签署约 600 亿美元长期协议（6GW AMD Instinct MI450 GPU，2026 下半年交付，AMD 股价当日涨 8%）和与英伟达续签扩展协议（部署数百万张 AI 芯片，含 Vera Rubin 系统）。</p>\n<h4 class=\"entry-heading\" id=\"初创竞争与政策调整\">初创竞争与政策调整</h4>\n<p>AI 推理芯片初创 MatX（两位前 Google 半导体员工创立）完成 5 亿美元融资，直接挑战英伟达。AMD 数据中心营收 Q4 2025 同比增长 39% 至 53.8 亿美元，AI 加速器市场份额预计从 9% 升至 15%+。美国商务部将英伟达 H200/AMD MI325X 出口审查从&quot;推定拒绝&quot;调整为&quot;逐案审查&quot;，同时 AI OVERWATCH 法案在众议院推进中。</p>\n<hr class=\"report-rule\" />\n<h4 class=\"topic-heading\" id=\"9-创业融资\">9. 创业融资</h4>\n<p>2026 年 2 月成为风险投资史上最重要的单月，AI 相关融资总额突破 <strong>1950 亿美元</strong>，截至 2 月 17 日已有 17 家美国 AI 公司完成 1 亿美元以上融资。本周重点融资事件汇总：</p>\n<div class=\"table-wrap\"><table><thead><tr><th>公司</th><th>金额</th><th>估值</th><th>备注</th></tr></thead><tbody><tr><td>OpenAI</td><td>1100 亿美元</td><td>7300 亿美元</td><td>亚马逊 500 亿 + 英伟达 300 亿 + 软银 300 亿</td></tr><tr><td>Anthropic</td><td>300 亿美元</td><td>3800 亿美元</td><td>G 轮，2 月 12 日完成</td></tr><tr><td>Waymo</td><td>160 亿美元</td><td>1260 亿美元</td><td>2 月最大单笔 AI 投资</td></tr><tr><td>Skild AI</td><td>14 亿美元</td><td>140 亿美元</td><td>贝索斯、英伟达参投</td></tr><tr><td>Wayve</td><td>12–15 亿美元</td><td>86 亿美元</td><td>奔驰、Uber 等领投</td></tr><tr><td>月之暗面（Kimi）</td><td>7 亿美元</td><td>100 亿美元+</td><td>—</td></tr><tr><td>Apptronik</td><td>5.2 亿美元</td><td>55 亿美元+</td><td>Google DeepMind 战投</td></tr><tr><td>ElevenLabs</td><td>5 亿美元</td><td>110 亿美元</td><td>Sequoia 领投，D 轮</td></tr><tr><td>MatX</td><td>5 亿美元</td><td>—</td><td>AI 推理芯片，挑战英伟达</td></tr><tr><td>Bedrock Robotics</td><td>2.7 亿美元</td><td>17.5 亿美元</td><td>—</td></tr><tr><td>Skyryse</td><td>3 亿美元</td><td>—</td><td>航空自动化</td></tr><tr><td>Trace</td><td>300 万美元</td><td>—</td><td>Agent 工作流编排，YC 2025</td></tr></tbody></table></div>\n<hr class=\"report-rule\" />\n<h4 class=\"topic-heading\" id=\"10-政策与监管\">10. 政策与监管</h4>\n<h4 class=\"entry-heading\" id=\"美国-ai-与国防的边界之争\">美国：AI 与国防的边界之争</h4>\n<p>本周最具影响力的政策事件是 Anthropic vs 五角大楼。特朗普援引国家安全法、将 Anthropic 定性为&quot;觉醒&quot;公司，并命令联邦机构停用其服务，引发行业对&quot;AI 安全原则在国家安全压力下能否守住&quot;的深层讨论。100 余名谷歌 AI 员工致信首席科学家 Jeff Dean，近 50 名 OpenAI 员工联署，要求各自公司承诺不允许 AI 用于监控公民或无监督自主武器。与此同时，特朗普行政令（EO 14179）将 AI 全球主导地位列为国策，延续&quot;轻监管&quot;路线，并持续阻断与联邦框架冲突的州级 AI 法规。</p>\n<h4 class=\"entry-heading\" id=\"欧盟与全球\">欧盟与全球</h4>\n<p>欧盟 AI Act 高风险系统严格要求将于 <strong>2026 年 8 月 2 日</strong>正式强制生效，欧洲监管机构明确进入执法阶段。中国《AI 生成内容标识办法》已于 2025 年 9 月 1 日生效，要求 AI 生成内容明确打标。韩国《基本 AI 法》和越南首部 AI 专项立法均于 2026 年生效。OECD 数据库已追踪到 72 个国家出台 AI 政策，全球监管立法浪潮持续扩大。</p>\n<hr class=\"report-rule\" />\n<p><em>本周报基于 2026-02-26 至 2026-03-01 期间共 4 份每日存档生成，由 Claude 自动汇总归档。</em></p>"
     }
   ],
   "weeklyDigest": {
-    "id": "auto-weekly-digest",
-    "title": "每周 AI 新闻",
-    "summary": "基于最近 4 份日报自动汇总，覆盖 2026-02-26 到 2026-03-01。重点主题包括 AI Labs、AI Agent、产品、中国 AI、机器人、自动驾驶。",
-    "coverageLabel": "2月26日 - 3月1日",
-    "coverage": [
-      {
-        "id": "2026-03-01",
-        "label": "3月1日",
-        "date": "2026-03-01",
-        "title": "每日前沿 AI 行业新闻 — 2026年3月1日",
-        "summary": "- 🔥 Anthropic vs 五角大楼：Anthropic 因拒绝将 AI 用于无人监督武器与国内大规模监控，遭美国防部切断合作；谷歌、OpenAI 逾 200 名员工联署声援，成为本周最大 AI 安全与军事应用之争。\n- 🔥 Wayve 完成 12–15 亿美元 D 轮：英国自动驾驶初创公司估值达 86 亿美元，由奔驰、Stellantis、日产、Uber 领投，物理 AI 单月融资规模突破 190 亿美元。\n- 📊 中国大厂 DAU 竞速：字节豆包达 7871 万 DAU，阿里千问 82 天暴涨至 7352 万，两大平台正面交锋；字节 2026 年 AI 资本支出高达 1600 亿元。"
-      },
-      {
-        "id": "2026-02-28",
-        "label": "2月28日",
-        "date": "2026-02-28",
-        "title": "每日前沿 AI 行业新闻 — 2026年2月28日",
-        "summary": "- 🔥 OpenAI 完成 1100 亿美元史上最大私募融资：估值飙升至 7300 亿美元，亚马逊（500 亿）、英伟达（300 亿）、软银（300 亿）领投，远超市场预期。\n- 🔥 Anthropic vs 五角大楼正面冲突：Dario Amodei 拒绝开放模型用于监控和自主武器，特朗普下令联邦机构停用；OpenAI 以纳入安全条款为前提与军方达成合作。\n- 📌 2 月 AI 融资总额突破 1950 亿美元，创史上单月纪录；中国\"农历新年 AI 大战\"全面开打，字节 Doubao 2.0、阿里 Qwen 3.5、DeepSeek V4 密集发布。"
-      },
-      {
-        "id": "2026-02-27",
-        "label": "2月27日",
-        "date": "2026-02-27",
-        "title": "每日前沿 AI 行业新闻 — 2026年2月27日",
-        "summary": "- 🔥 五角大楼向 Anthropic 发出最后通牒：要求解除 Claude 军事应用安全限制，xAI Grok 同步签约进入美军机密系统，成 Claude 在机密领域的直接竞争者。\n- 🔥 Meta 单日双签 NVIDIA、AMD 重大芯片协议：AMD 合同规模约 600 亿美元，英伟达季报分析师预期营收同比增长 68% 至 660 亿美元。\n- 📌 2 月成为 AI 融资史上最密集月份之一：OpenAI 百亿级融资轮持续推进，ElevenLabs 完成 5 亿美元 D 轮，估值 110 亿美元。"
-      },
-      {
-        "id": "2026-02-26",
-        "label": "2月26日",
-        "date": "2026-02-26",
-        "title": "每日前沿 AI 行业新闻 — 2026年2月26日",
-        "summary": "- 🔥 Claude Code / ChatGPT Agent 双双迈入 Agent 时代：Claude Code 正式推出 Scheduled Tasks 定时任务功能；ChatGPT 将 Operator 整合升级为统一 Agent 系统，Gemini 3 Deep Think 推理大幅领先，AI 产品进入自主执行新阶段。\n- 🔥 英伟达 Vera Rubin 首次曝光，Meta 与 AMD 签 ~600 亿美元大单：下一代 AI 系统架构披露，芯片算力军备竞赛持续升温。\n- 📌 中国 AI 新资本周期启动：智谱 AI 港股上市市值突破 511 亿港元，月之暗面完成 7 亿美元融资，估值突破 100 亿美元。"
-      }
-    ],
+    "id": "2026-W09",
+    "date": "",
+    "label": "最新",
+    "title": "AI 行业周报 — 2026 年第 9 周（2月23日–3月1日）",
+    "summary": "> 本期覆盖日期：2026-02-26 至 2026-03-01（共 4 份日报存档）",
+    "coverageLabel": "周报文件",
+    "coverage": [],
     "highlights": [
       {
-        "title": "3月1日 · 🔥 Anthropic 因拒绝军用条款遭美国防部封杀，引发行业联署声援",
-        "detail": "美国国防部长皮特·赫格塞斯援引国家安全法，切断与 Anthropic 的政府合作。起因是 CEO Dario Amodei 拒绝授权 Anthropic 技术用于监控美国公民或允许自主武装无人机在无人监督下选择并击杀目标。特朗普随即将 Anthropic 定性为\"觉醒\"公司，并…"
+        "title": "融资格局重构",
+        "detail": "Anthropic 于 2 月 12 日率先完成 300 亿美元 G 轮融资（估值 3800 亿美元，2025 年 ARR 接近 70 亿，2026 目标 150 亿），随后 OpenAI 于 2 月 27 日完成 1100 亿美元融资（估值 7300 亿，亚马逊 500 亿…"
       },
       {
-        "title": "3月1日 · 📌 Anthropic 修改安全承诺核心条款",
-        "detail": "Anthropic 本周删除了其安全承诺中的核心条款——此前承诺在确信不会造成重大危害之前不发布更强大的 AI 系统。批评人士指出，OpenAI 已将\"安全\"从使命声明中移除，xAI 解散了整个安全团队。（来源：SiliconANGLE）"
+        "title": "最大争议：Anthropic 军事红线",
+        "detail": "这是本周最重要的事件。五角大楼要求 Anthropic 解除 Claude 在监控公民和完全自主武器上的限制，CEO Dario Amodei 拒绝，国防部援引国家安全法切断合作，特朗普将 Anthropic 定性为\"觉醒\"公司并命联邦机构停用其服务。OpenAI Sam Al…"
       },
       {
-        "title": "3月1日 · OpenAI 加速企业市场攻势",
-        "detail": "OpenAI 与四家大型咨询公司签署企业合作协议，持续蚕食 Anthropic 的企业客户市场。（来源：SiliconANGLE）"
+        "title": "模型发布",
+        "detail": "Anthropic 的 Claude Sonnet 4.6 于 2 月 17 日正式发布，官方称以 Sonnet 价格实现 Opus 级性能，盲测约 70% 的情况下用户偏好优于 Sonnet 4.5；Claude Opus 4.6 同步推出，支持 100 万 Token 上下…"
       },
       {
-        "title": "2月28日 · 🔥 OpenAI 完成 1100 亿美元融资，估值 7300 亿美元",
-        "detail": "OpenAI 于 2 月 27 日正式完成史上规模最大的私募融资，金额达 1100 亿美元，折后估值约 7300 亿美元（post-money 约 8400 亿），超越全球绝大多数上市公司。领投方为亚马逊（500 亿）、英伟达（300 亿）和软银（300 亿）。此前彭博社于 2…"
+        "title": "其他重要动态",
+        "detail": "：Anthropic 收购计算机操作 AI 创业公司 Vercept（融资约 5000 万美元），持续强化 Claude Agent 能力；Anthropic 指控 DeepSeek 用数千个虚假账户窃取训练数据；Snowflake 与 OpenAI 签署 2 亿美元战略合作协…"
       },
       {
-        "title": "2月28日 · 🔥 Anthropic vs 五角大楼：Dario Amodei 坚守\"红线\"",
-        "detail": "国防部向 Anthropic 施压，要求其开放模型用于国内监控和全自主武器系统，否则将取消合同。CEO Dario Amodei 拒绝妥协，特朗普随即将 Anthropic 定性为\"觉醒（woke）\"公司并向联邦机构下令停止使用其服务。值得关注的是，OpenAI CEO Sam…"
+        "title": "MCP 成为行业标准",
+        "detail": "Anthropic 将模型上下文协议（MCP）捐赠给 Linux 基金会旗下新成立的 Agentic AI Foundation（AAIF），OpenAI、Google、微软、AWS、Cloudflare、Bloomberg 等联合加入，全球公开 MCP Server 已超 1…"
       },
       {
-        "title": "2月28日 · 📌 xAI：加州 AG 要求停止 Grok 生成深伪内容；SpaceX 与 xAI 宣布合并",
-        "detail": "加州总检察长 Rob Bonta 正式要求 xAI 立即停止其 Grok 模型生成非自愿深伪内容（NCII），理由是该工具频繁被用于生成公众人物与普通人的露骨合成图像，英国监管机构此前也发出类似警告。与此同时，Elon Musk 宣布 SpaceX 与 xAI 达成合并协议，整…"
+        "title": "安全危机浮出水面",
+        "detail": "MCP 月 SDK 下载量从 2024 年 11 月的 10 万暴增至 9700 万，但规模扩张远超安全治理能力：安全研究人员扫描发现超 8000 台 MCP 服务器裸奔于公网（无任何身份验证），Anthropic Git MCP Server 存在 RCE 漏洞，工具污染（T…"
       },
       {
-        "title": "2月27日 · 🔥 五角大楼向 Anthropic 发出最后通牒，xAI Grok 进入美军机密系统",
-        "detail": "美国国防部正式向 Anthropic 施压，要求其解除 Claude 在军事场景中的安全限制——特别是涉及大规模国内监控和完全自主武器的功能。五角大楼威胁若 Anthropic 不从，将切断合同并将其列为\"供应链风险\"。截至 2026 年 2 月 26 日，Anthropic…"
+        "title": "企业生态拓展",
+        "detail": "微软 Agent Framework 的 .NET 和 Python 版本进入 RC 阶段（原生支持 MCP），Atlassian 在 Jira 中引入 AI Agent 协作（人机同看板任务分配），Agent 工作流编排初创公司 Trace 完成 300 万美元种子轮融资。G…"
       },
       {
-        "title": "2月27日 · 🔥 OpenAI 新融资轮有望突破 1000 亿美元",
-        "detail": "OpenAI 即将完成史上规模最大的单笔创业融资，首期募资金额预计超过 1000 亿美元。公司 2025 年预计营收超 130 亿美元，2026 年目标为 300 亿美元。（来源：Bloomberg）"
+        "title": "Claude Code 全面升级",
+        "detail": "本周 Claude Code 推出三项重大功能：Scheduled Tasks（定时任务，Claude 可无需人工触发自主执行定期工作）、Remote Control（跨设备远程控制本地 Agent）、--worktree 模式（隔离 Git Worktree 并行开发），以及…"
       },
       {
-        "title": "2月27日 · 🔥 Anthropic 完成 300 亿美元 G 轮融资，估值达 3800 亿美元",
-        "detail": "Anthropic 于 2 月 12 日宣布完成 300 亿美元 G 轮融资，成为史上第二大风险投资轮次，估值达 3800 亿美元。公司 2025 年 ARR 接近 70 亿美元，2026 年营收目标为 150 亿美元。（来源：Crunchbase News）"
+        "title": "ChatGPT 更新",
+        "detail": "Operator 升级为 ChatGPT Agent（先 Pro 后 Plus/Team），新增 Lockdown Mode；Deep Research 支持自定义目标网站和可编辑研究计划；单次文件上传上限从 10 个提升至 20 个；上下文窗口扩至 256k Token；代码…"
       },
       {
-        "title": "2月26日 · 🔥 Anthropic 收购计算机操作 AI 创业公司 Vercept",
-        "detail": "Anthropic 宣布收购 Vercept，后者开发了云端远程操作 macOS 的 AI Agent 产品 Vy，融资总额约 5000 万美元。这是继 2025 年 12 月收购编程 Agent 引擎 Bun 之后的又一次收购，持续强化 Claude Code 与 Agent…"
+        "title": "编程工具竞争加剧",
+        "detail": "Cursor 推出 2.0 版（最多 8 个并行 Agent、云端 Agent 独立启动 VM 并自动提交 PR、Composer 1.5 速度提升 4 倍）；Windsurf Wave 13 带来 Arena Mode 并排对比和 Plan Mode；Cline v3.58…"
       },
       {
-        "title": "2月26日 · 📌 Anthropic 与五角大楼合同争议持续",
-        "detail": "五角大楼威胁以\"供应链风险\"为由终止与 Anthropic 的合同，因 Anthropic 拒绝解除 Claude 在监控和自主武器场景的使用限制，此事正迫使 OpenAI、Google、xAI 重新审视与国防部合作边界。（来源：Axios）"
+        "title": "Perplexity 转型",
+        "detail": "Perplexity 2 月 18 日宣布彻底放弃广告收入，全面转向订阅制，并发布 Perplexity Computer 将多种 AI 能力整合为统一操作系统。"
       },
       {
-        "title": "2月26日 · 📌 OpenAI 千亿融资持续推进，三大实验室 IPO 窗口临近",
-        "detail": "OpenAI、Anthropic、xAI 均面临 2026 年上市窗口，OpenAI 1000 亿美元融资轮（估值 8300 亿美元）由软银领投，持续推进中。（来源：Axios）"
+        "title": "图像/视频生成",
+        "detail": "Midjourney V7 正式发布（新增文字转视频与 3D 功能，处理速度更快、写实感更强）。字节 Seedance 2.0 定位专业影视制作，生成的\"Tom Cruise vs Brad Pitt 打架视频\"病毒式传播，成为本月最受关注的 AI 视频内容。"
       }
     ],
-    "date": "2026-03-01",
-    "label": "3月1日",
-    "sourceFile": "Auto generated from /Users/shichangliao/Desktop/ClaudeCode/daily-ai-news",
-    "htmlContent": "<h3 id=\"本周概览\">本周概览</h3>\n<p>基于最近 4 份日报自动汇总，覆盖 2026-02-26 到 2026-03-01。重点主题包括 AI Labs、AI Agent、产品、中国 AI、机器人、自动驾驶。</p>\n<h3 id=\"按日期回顾\">按日期回顾</h3>\n<h4 class=\"entry-heading\" id=\"3月1日-每日前沿-ai-行业新闻-2026年3月1日\">3月1日 · 每日前沿 AI 行业新闻 — 2026年3月1日</h4>\n<ul><li>🔥 Anthropic vs 五角大楼：Anthropic 因拒绝将 AI 用于无人监督武器与国内大规模监控，遭美国防部切断合作；谷歌、OpenAI 逾 200 名员工联署声援，成为本周最大 AI 安全与军事应用之争。</li><li>🔥 Wayve 完成 12–15 亿美元 D 轮：英国自动驾驶初创公司估值达 86 亿美元，由奔驰、Stellantis、日产、Uber 领投，物理 AI 单月融资规模突破 190 亿美元。</li><li>📊 中国大厂 DAU 竞速：字节豆包达 7871 万 DAU，阿里千问 82 天暴涨至 7352 万，两大平台正面交锋；字节 2026 年 AI 资本支出高达 1600 亿元。</li></ul>\n<ul><li><strong>🔥 Anthropic 因拒绝军用条款遭美国防部封杀，引发行业联署声援</strong>：美国国防部长皮特·赫格塞斯援引国家安全法，切断与 Anthropic 的政府合作。起因是 CEO Dario Amodei 拒绝授权 Anthropic 技术用于监控美国公民或允许自主武装无人机在无人监督下选择并击杀目标。特朗普随即将 Anthropic 定性为&quot;觉醒&quot;公司，并…</li><li><strong>📌 Anthropic 修改安全承诺核心条款</strong>：Anthropic 本周删除了其安全承诺中的核心条款——此前承诺在确信不会造成重大危害之前不发布更强大的 AI 系统。批评人士指出，OpenAI 已将&quot;安全&quot;从使命声明中移除，xAI 解散了整个安全团队。（来源：SiliconANGLE）</li><li><strong>OpenAI 加速企业市场攻势</strong>：OpenAI 与四家大型咨询公司签署企业合作协议，持续蚕食 Anthropic 的企业客户市场。（来源：SiliconANGLE）</li><li><strong>MCP 成为行业标准，捐赠至 Linux 基金会</strong>：Anthropic 的模型上下文协议（MCP）——被称为&quot;AI 的 USB-C&quot;，允许 AI Agent 连接数据库、搜索引擎、API 等外部工具——正迅速成为行业标准。OpenAI 和微软公开表态支持，Anthropic 已将其捐赠给 Linux 基金会旗下新成立的 Agen…</li></ul>\n<h4 class=\"entry-heading\" id=\"2月28日-每日前沿-ai-行业新闻-2026年2月28日\">2月28日 · 每日前沿 AI 行业新闻 — 2026年2月28日</h4>\n<ul><li>🔥 OpenAI 完成 1100 亿美元史上最大私募融资：估值飙升至 7300 亿美元，亚马逊（500 亿）、英伟达（300 亿）、软银（300 亿）领投，远超市场预期。</li><li>🔥 Anthropic vs 五角大楼正面冲突：Dario Amodei 拒绝开放模型用于监控和自主武器，特朗普下令联邦机构停用；OpenAI 以纳入安全条款为前提与军方达成合作。</li><li>📌 2 月 AI 融资总额突破 1950 亿美元，创史上单月纪录；中国&quot;农历新年 AI 大战&quot;全面开打，字节 Doubao 2.0、阿里 Qwen 3.5、DeepSeek V4 密集发布。</li></ul>\n<ul><li><strong>🔥 OpenAI 完成 1100 亿美元融资，估值 7300 亿美元</strong>：OpenAI 于 2 月 27 日正式完成史上规模最大的私募融资，金额达 1100 亿美元，折后估值约 7300 亿美元（post-money 约 8400 亿），超越全球绝大多数上市公司。领投方为亚马逊（500 亿）、英伟达（300 亿）和软银（300 亿）。此前彭博社于 2…</li><li><strong>🔥 Anthropic vs 五角大楼：Dario Amodei 坚守&quot;红线&quot;</strong>：国防部向 Anthropic 施压，要求其开放模型用于国内监控和全自主武器系统，否则将取消合同。CEO Dario Amodei 拒绝妥协，特朗普随即将 Anthropic 定性为&quot;觉醒（woke）&quot;公司并向联邦机构下令停止使用其服务。值得关注的是，OpenAI CEO Sam…</li><li><strong>📌 xAI：加州 AG 要求停止 Grok 生成深伪内容；SpaceX 与 xAI 宣布合并</strong>：加州总检察长 Rob Bonta 正式要求 xAI 立即停止其 Grok 模型生成非自愿深伪内容（NCII），理由是该工具频繁被用于生成公众人物与普通人的露骨合成图像，英国监管机构此前也发出类似警告。与此同时，Elon Musk 宣布 SpaceX 与 xAI 达成合并协议，整…</li><li><strong>Anthropic 指控 DeepSeek 通过虚假账户窃取训练数据</strong>：Anthropic 披露，DeepSeek 使用数千个虚假账户与 Claude 进行了数百万次对话，以收集数据训练自身模型。此前 OpenAI 也向美国国会中国特别委员会提交备忘录，指控 DeepSeek 盗用其知识产权。</li></ul>\n<h4 class=\"entry-heading\" id=\"2月27日-每日前沿-ai-行业新闻-2026年2月27日\">2月27日 · 每日前沿 AI 行业新闻 — 2026年2月27日</h4>\n<ul><li>🔥 五角大楼向 Anthropic 发出最后通牒：要求解除 Claude 军事应用安全限制，xAI Grok 同步签约进入美军机密系统，成 Claude 在机密领域的直接竞争者。</li><li>🔥 Meta 单日双签 NVIDIA、AMD 重大芯片协议：AMD 合同规模约 600 亿美元，英伟达季报分析师预期营收同比增长 68% 至 660 亿美元。</li><li>📌 2 月成为 AI 融资史上最密集月份之一：OpenAI 百亿级融资轮持续推进，ElevenLabs 完成 5 亿美元 D 轮，估值 110 亿美元。</li></ul>\n<ul><li><strong>🔥 五角大楼向 Anthropic 发出最后通牒，xAI Grok 进入美军机密系统</strong>：美国国防部正式向 Anthropic 施压，要求其解除 Claude 在军事场景中的安全限制——特别是涉及大规模国内监控和完全自主武器的功能。五角大楼威胁若 Anthropic 不从，将切断合同并将其列为&quot;供应链风险&quot;。截至 2026 年 2 月 26 日，Anthropic…</li><li><strong>🔥 OpenAI 新融资轮有望突破 1000 亿美元</strong>：OpenAI 即将完成史上规模最大的单笔创业融资，首期募资金额预计超过 1000 亿美元。公司 2025 年预计营收超 130 亿美元，2026 年目标为 300 亿美元。（来源：Bloomberg）</li><li><strong>🔥 Anthropic 完成 300 亿美元 G 轮融资，估值达 3800 亿美元</strong>：Anthropic 于 2 月 12 日宣布完成 300 亿美元 G 轮融资，成为史上第二大风险投资轮次，估值达 3800 亿美元。公司 2025 年 ARR 接近 70 亿美元，2026 年营收目标为 150 亿美元。（来源：Crunchbase News）</li><li><strong>Google DeepMind 发布 Genie 3 世界模型</strong>：Google DeepMind 发布 Genie 3，这是一款新型基础世界模型，可实时生成用户可交互的 3D 世界模拟。相比前代只能生成 10-20 秒短片，Genie 3 支持数分钟的沉浸式 3D 环境，分辨率 720p、帧率 24fps，并可通过文本指令实时修改生成的世界。…</li></ul>\n<h4 class=\"entry-heading\" id=\"2月26日-每日前沿-ai-行业新闻-2026年2月26日\">2月26日 · 每日前沿 AI 行业新闻 — 2026年2月26日</h4>\n<ul><li>🔥 Claude Code / ChatGPT Agent 双双迈入 Agent 时代：Claude Code 正式推出 Scheduled Tasks 定时任务功能；ChatGPT 将 Operator 整合升级为统一 Agent 系统，Gemini 3 Deep Think 推理大幅领先，AI 产品进入自主执行新阶段。</li><li>🔥 英伟达 Vera Rubin 首次曝光，Meta 与 AMD 签 ~600 亿美元大单：下一代 AI 系统架构披露，芯片算力军备竞赛持续升温。</li><li>📌 中国 AI 新资本周期启动：智谱 AI 港股上市市值突破 511 亿港元，月之暗面完成 7 亿美元融资，估值突破 100 亿美元。</li></ul>\n<ul><li><strong>🔥 Anthropic 收购计算机操作 AI 创业公司 Vercept</strong>：Anthropic 宣布收购 Vercept，后者开发了云端远程操作 macOS 的 AI Agent 产品 Vy，融资总额约 5000 万美元。这是继 2025 年 12 月收购编程 Agent 引擎 Bun 之后的又一次收购，持续强化 Claude Code 与 Agent…</li><li><strong>📌 Anthropic 与五角大楼合同争议持续</strong>：五角大楼威胁以&quot;供应链风险&quot;为由终止与 Anthropic 的合同，因 Anthropic 拒绝解除 Claude 在监控和自主武器场景的使用限制，此事正迫使 OpenAI、Google、xAI 重新审视与国防部合作边界。（来源：Axios）</li><li><strong>📌 OpenAI 千亿融资持续推进，三大实验室 IPO 窗口临近</strong>：OpenAI、Anthropic、xAI 均面临 2026 年上市窗口，OpenAI 1000 亿美元融资轮（估值 8300 亿美元）由软银领投，持续推进中。（来源：Axios）</li><li><strong>🔥 MCP 正式捐赠 Linux 基金会，Agentic AI Foundation 成立</strong>：Anthropic 将模型上下文协议（MCP）捐赠至 Linux 基金会旗下 AAIF，OpenAI、Block、Google、微软、AWS、Cloudflare、Bloomberg 等联合加入。全球公开 MCP Server 已超 10,000 个，ChatGPT、Curso…</li></ul>"
+    "sourceFile": "/Users/shichangliao/Desktop/ClaudeCode/daily-ai-news/weekly/2026-W09.md",
+    "htmlContent": "<p>&gt; 本期覆盖日期：2026-02-26 至 2026-03-01（共 4 份日报存档） &gt; 生成时间：2026-03-02</p>\n<h3 id=\"本周概览\">本周概览</h3>\n<p>本周是 2026 年迄今为止 AI 行业最动荡、也最具历史分量的一周。<strong>OpenAI 完成 1100 亿美元史上最大单笔私募融资</strong>，估值达 7300 亿美元，Anthropic 此前也已完成 300 亿美元 G 轮；两家顶级 AI 实验室合计募资逾 1400 亿美元，助推 2 月全球 AI 融资总额突破 <strong>1950 亿美元</strong>，创单月历史纪录。与此同时，<strong>Anthropic 与美国五角大楼的正面冲突</strong>成为本周最受关注的事件：CEO Dario Amodei 拒绝开放 Claude 用于大规模监控和自主武器，国防部随即切断合作，特朗普将 Anthropic 定性为&quot;觉醒&quot;公司——这场博弈正在重塑整个 AI 行业的军事应用边界。芯片层面，英伟达 <strong>Vera Rubin</strong> 系统首次曝光，Meta 同日与英伟达、AMD 签下合计逾 600 亿美元的芯片大单，算力军备竞赛持续升温。在 Agent 生态方面，MCP 正式捐赠给 Linux 基金会，成为&quot;AI 的 USB-C&quot;行业标准，但随即暴露出 8000 余台服务器无认证裸奔的严峻安全隐患。</p>\n<hr class=\"report-rule\" />\n<h3 id=\"本周重点事件\">本周重点事件（🔥）</h3>\n<ul><li>🔥 <strong>OpenAI 完成 1100 亿美元融资，估值 7300 亿美元</strong>：亚马逊（500 亿）、英伟达（300 亿）、软银（300 亿）领投，创史上最大私募融资纪录。(<a href=\"https://techcrunch.com/2026/02/27/openai-raises-110b-in-one-of-the-largest-private-funding-rounds-in-history/\" target=\"_blank\" rel=\"noreferrer\">TechCrunch</a> · <a href=\"https://www.bloomberg.com/news/articles/2026-02-27/openai-finalizes-110-billion-funding-at-730-billion-valuation\" target=\"_blank\" rel=\"noreferrer\">Bloomberg</a>)</li></ul>\n<ul><li>🔥 <strong>Anthropic vs 五角大楼：Dario Amodei 坚守&quot;红线&quot;</strong>：国防部要求开放 Claude 用于监控公民和自主武装无人机，遭 Dario Amodei 拒绝，特朗普命令联邦机构停用 Anthropic 服务；200 余名 Google/OpenAI 员工联署声援。(<a href=\"https://www.cnbc.com/2026/02/27/defense-anthropic-ai-war-risks-hegseth-amodei.html\" target=\"_blank\" rel=\"noreferrer\">CNBC</a> · <a href=\"https://techcrunch.com/2026/02/28/the-trap-anthropic-built-for-itself/\" target=\"_blank\" rel=\"noreferrer\">TechCrunch</a>)</li></ul>\n<ul><li>🔥 <strong>Claude Code 正式推出 Scheduled Tasks 与 Remote Control</strong>：Cowork 平台新增定时任务功能，允许 Claude 无需人工触发自主定期执行；Remote Control 支持跨设备远程操控本地 Agent。(<a href=\"https://support.claude.com/en/articles/13345190-get-started-with-cowork\" target=\"_blank\" rel=\"noreferrer\">Claude Help Center</a> · <a href=\"https://simonwillison.net/2026/Feb/25/claude-code-remote-control/\" target=\"_blank\" rel=\"noreferrer\">Simon Willison</a>)</li></ul>\n<ul><li>🔥 <strong>ChatGPT Operator 升级为统一 Agent 系统 ChatGPT Agent</strong>：先向 Pro 用户开放，新增 Lockdown Mode 和 Elevated Risk 标签。(<a href=\"https://releasebot.io/updates/openai/chatgpt\" target=\"_blank\" rel=\"noreferrer\">Releasebot</a>)</li></ul>\n<ul><li>🔥 <strong>MCP 正式捐赠 Linux 基金会，Agentic AI Foundation 成立</strong>：OpenAI、Google、微软、AWS 等联合加入，全球公开 MCP Server 超 10,000 个。(<a href=\"https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation\" target=\"_blank\" rel=\"noreferrer\">Linux Foundation</a>)</li></ul>\n<ul><li>🔥 <strong>英伟达 Vera Rubin 系统首次曝光</strong>：性能全面超越 Blackwell，预计 2026 年下半年出货，单套售价约 350–400 万美元。(<a href=\"https://www.cnbc.com/2026/02/25/first-look-at-nvidias-ai-system-vera-rubin-and-how-it-beats-blackwell.html\" target=\"_blank\" rel=\"noreferrer\">CNBC</a>)</li></ul>\n<ul><li>🔥 <strong>Meta 与 AMD 签署约 600 亿美元定制芯片大单</strong>：采购约 6GW AMD Instinct MI450 GPU，同日与英伟达续签扩展协议。(<a href=\"https://www.cnbc.com/2026/02/24/meta-to-use-6gw-of-amd-gpus-days-after-expanded-nvidia-ai-chip-deal.html\" target=\"_blank\" rel=\"noreferrer\">CNBC</a>)</li></ul>\n<ul><li>🔥 <strong>Waymo 完成 160 亿美元融资，估值 1260 亿美元</strong>：成为 2 月最大单笔 AI 投资，Robotaxi 每周行程超 40 万次。(<a href=\"https://www.sfbayareatimes.com/posts/san-francisco-ai-startup-funding-surge-february-2026\" target=\"_blank\" rel=\"noreferrer\">SF Bay Area Times</a>)</li></ul>\n<ul><li>🔥 <strong>Claude Sonnet 4.6 发布</strong>：以 Sonnet 价格实现 Opus 级性能，Claude Opus 4.6 同步推出，支持 100 万 Token 上下文窗口（Beta）。(<a href=\"https://felloai.com/best-ai-february-2026/\" target=\"_blank\" rel=\"noreferrer\">FelloAI</a>)</li></ul>\n<ul><li>🔥 <strong>Gemini 3 Deep Think 发布，ARC-AGI-2 得分 84.6%</strong>；Gemini 3.1 Pro 于 2 月 19 日进一步发布，ARC-AGI-2 得分达 77.1%。(<a href=\"https://theagencyjournal.com/geminis-february-2026-updates-deep-think-personal-intelligence-and-what-actually-changes-for-you/\" target=\"_blank\" rel=\"noreferrer\">The Agency Journal</a>)</li></ul>\n<ul><li>🔥 <strong>智谱 AI 港交所上市</strong>：市值突破 511 亿港元，成全球首家独立上市大模型公司，同步开源 GLM-5。(<a href=\"https://finance.sina.com.cn/roll/2026-02-02/doc-inhkkzki0959332.shtml\" target=\"_blank\" rel=\"noreferrer\">新浪财经</a>)</li></ul>\n<ul><li>🔥 <strong>月之暗面（Kimi）完成 7 亿美元融资</strong>：估值突破 100 亿美元。(<a href=\"https://www.sina.cn/news/detail/5268811513333817.html\" target=\"_blank\" rel=\"noreferrer\">新浪新闻</a>)</li></ul>\n<ul><li>🔥 <strong>NVIDIA Isaac GR00T N1.6 发布</strong>：专为人形机器人构建的开源推理视觉语言动作模型，实现全身运动控制，Boston Dynamics、LG 等合作伙伴同步发布次代机器人。(<a href=\"https://nvidianews.nvidia.com/news/nvidia-releases-new-physical-ai-models-as-global-partners-unveil-next-generation-robots\" target=\"_blank\" rel=\"noreferrer\">NVIDIA Newsroom</a>)</li></ul>\n<ul><li>🔥 <strong>Wayve 完成 12–15 亿美元 D 轮，估值 86 亿美元</strong>：奔驰、Stellantis、日产、Uber 领投。(<a href=\"https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-2b-from-nvidia-uber-and-three-automakers/\" target=\"_blank\" rel=\"noreferrer\">TechCrunch</a>)</li></ul>\n<ul><li>🔥 <strong>Apptronik 融资 5.2 亿美元，估值超 55 亿美元</strong>：Google DeepMind、奔驰等战略投资，用于 Apollo 机器人量产。(<a href=\"https://noorfoundation.com/robotics-funding-news-2026/\" target=\"_blank\" rel=\"noreferrer\">Noor Foundation</a>)</li></ul>\n<ul><li>🔥 <strong>2 月 AI 融资总额突破 1950 亿美元</strong>：创风险投资史上单月纪录。(<a href=\"https://techcrunch.com/2026/02/17/here-are-the-17-us-based-ai-companies-that-have-raised-100m-or-more-in-2026/\" target=\"_blank\" rel=\"noreferrer\">TechCrunch</a>)</li></ul>\n<hr class=\"report-rule\" />\n<h3 id=\"持续跟进事件\">持续跟进事件（📌）</h3>\n<ul><li>📌 <strong>Anthropic vs 五角大楼争议持续发酵</strong>：从最初五角大楼威胁切断合同（2 月 19 日 Axios 首报）→ 发出&quot;最后通牒&quot;（2 月 27 日）→ 正式援引国家安全法切断合作（2 月 28 日）→ 200 余名员工联署声援（3 月 1 日）。OpenAI Sam Altman 公开支持 Anthropic&quot;红线&quot;立场，同时宣布 OpenAI 以纳入安全协议为条件与五角大楼合作。xAI Grok 同期进入美军机密系统，成 Claude 直接竞争者。(<a href=\"https://www.axios.com/2026/02/19/anthropic-pentagon-ai-fight-openai-google-xai\" target=\"_blank\" rel=\"noreferrer\">Axios</a> · <a href=\"https://www.cnbc.com/2026/02/27/defense-anthropic-ai-war-risks-hegseth-amodei.html\" target=\"_blank\" rel=\"noreferrer\">CNBC</a> · <a href=\"https://the-decoder.com/google-deepmind-and-openai-employees-demand-anthropic-style-red-lines-on-pentagon-surveillance-and-autonomous-weapons/\" target=\"_blank\" rel=\"noreferrer\">The Decoder</a>)</li></ul>\n<ul><li>📌 <strong>MCP 安全危机持续</strong>：MCP 协议月 SDK 下载量从 2024 年 11 月的 10 万飙升至 9700 万；安全研究人员发现超 8000 台 MCP 服务器无认证暴露公网，CoSAI 发布安全框架，Anthropic Git MCP Server 存 RCE 漏洞已确认。(<a href=\"https://cikce.medium.com/8-000-mcp-servers-exposed-the-agentic-ai-security-crisis-of-2026-e8cb45f09115\" target=\"_blank\" rel=\"noreferrer\">Medium</a> · <a href=\"https://thenewstack.io/safe-mcp-a-community-built-framework-for-ai-agent-security/\" target=\"_blank\" rel=\"noreferrer\">The New Stack</a>)</li></ul>\n<ul><li>📌 <strong>OpenAI 百亿融资持续推进并完成</strong>：2 月 19 日彭博首报接近 100 亿目标 → 2 月 27 日正式完成 1100 亿，远超预期，估值 7300 亿美元。三大 AI 实验室（OpenAI、Anthropic、xAI）均面临 2026 年 IPO 窗口。(<a href=\"https://www.bloomberg.com/news/articles/2026-02-19/openai-funding-on-track-to-top-100-billion-with-latest-round\" target=\"_blank\" rel=\"noreferrer\">Bloomberg</a>)</li></ul>\n<ul><li>📌 <strong>中国 AI 资本周期与应用竞争</strong>：智谱 AI 上市（511 亿港元）、月之暗面 7 亿美元融资完成后，字节豆包 DAU 达 7871 万、阿里千问 82 天暴涨至 7352 万，两大平台正面交锋；字节 2026 年 AI 资本支出高达 1600 亿元。</li></ul>\n<ul><li>📌 <strong>欧盟 AI Act 实施倒计时</strong>：高风险 AI 系统严格要求将于 <strong>2026 年 8 月 2 日</strong>正式生效，欧洲监管机构明确将全面进入执法阶段。(<a href=\"https://www.holisticai.com/blog/ai-regulation-in-2026-navigating-an-uncertain-landscape\" target=\"_blank\" rel=\"noreferrer\">Holistic AI</a>)</li></ul>\n<ul><li>📌 <strong>Pony.ai 纳入 MSCI 中国指数</strong>：2 月 27 日正式生效，成首家进入该指数的 Robotaxi 企业。(<a href=\"https://www.autoconnectedcar.com/2026/02/autonomous-self-driving-vehicle-news-pony-ai-toyota-ouster-stereolabs-baidu-uber-apollo-go-msci-aurora-waymo-caocao/\" target=\"_blank\" rel=\"noreferrer\">AutoConnectedCar</a>)</li></ul>\n<hr class=\"report-rule\" />\n<h3 id=\"分板块周报\">分板块周报</h3>\n<h4 class=\"topic-heading\" id=\"1-主要-ai-labs-动态\">1. 主要 AI Labs 动态</h4>\n<h4 class=\"entry-heading\" id=\"融资格局重构\">融资格局重构</h4>\n<p>Anthropic 于 2 月 12 日率先完成 300 亿美元 G 轮融资（估值 3800 亿美元，2025 年 ARR 接近 70 亿，2026 目标 150 亿），随后 OpenAI 于 2 月 27 日完成 1100 亿美元融资（估值 7300 亿，亚马逊 500 亿 + 英伟达 300 亿 + 软银 300 亿），两家公司合计本月募资逾 1400 亿美元，正式进入另一个量级的资本竞争。</p>\n<h4 class=\"entry-heading\" id=\"最大争议-anthropic-军事红线\">最大争议：Anthropic 军事红线</h4>\n<p>这是本周最重要的事件。五角大楼要求 Anthropic 解除 Claude 在监控公民和完全自主武器上的限制，CEO Dario Amodei 拒绝，国防部援引国家安全法切断合作，特朗普将 Anthropic 定性为&quot;觉醒&quot;公司并命联邦机构停用其服务。OpenAI Sam Altman 公开支持 Anthropic 立场，同时宣布 OpenAI 以纳入安全协议为条件与军方合作。200 余名谷歌和 OpenAI 员工联署声援。xAI Grok 则正式进入美军机密系统，成为 Claude 的直接竞争者。</p>\n<h4 class=\"entry-heading\" id=\"模型发布\">模型发布</h4>\n<p>Anthropic 的 Claude Sonnet 4.6 于 2 月 17 日正式发布，官方称以 Sonnet 价格实现 Opus 级性能，盲测约 70% 的情况下用户偏好优于 Sonnet 4.5；Claude Opus 4.6 同步推出，支持 100 万 Token 上下文（Beta）与 12.8 万 Token 输出，新增 Agent Teams 与 effort 控制。Claude Sonnet 5（SWE-Bench Verified 82.1%，首破 80%）于 2 月 3 日已上线。</p>\n<p>OpenAI 发布 GPT-5.2（400K Token 上下文，SWE-bench 69%，支持完整视频处理，定价 $1.75/$14）；另外开源 gpt-oss-120b（性能接近 o3/o4-mini，可单卡运行）和 20B 轻量版（可在消费级笔记本运行）。</p>\n<p>Google 于 2 月 12 日发布 Gemini 3 Deep Think（ARC-AGI-2 得分 84.6%），2 月 19 日推出 Gemini 3.1 Pro（ARC-AGI-2 77.1%），均在推理能力上大幅领先前代。Google DeepMind 还发布 Genie 3 世界模型，可实时生成用户可交互的 3D 世界（720p、24fps）。</p>\n<h4 class=\"entry-heading\" id=\"其他重要动态\">其他重要动态</h4>\n<p>：Anthropic 收购计算机操作 AI 创业公司 Vercept（融资约 5000 万美元），持续强化 Claude Agent 能力；Anthropic 指控 DeepSeek 用数千个虚假账户窃取训练数据；Snowflake 与 OpenAI 签署 2 亿美元战略合作协议。</p>\n<hr class=\"report-rule\" />\n<h4 class=\"topic-heading\" id=\"2-ai-agent\">2. AI Agent</h4>\n<h4 class=\"entry-heading\" id=\"mcp-成为行业标准\">MCP 成为行业标准</h4>\n<p>Anthropic 将模型上下文协议（MCP）捐赠给 Linux 基金会旗下新成立的 Agentic AI Foundation（AAIF），OpenAI、Google、微软、AWS、Cloudflare、Bloomberg 等联合加入，全球公开 MCP Server 已超 10,000 个。MCP 正被业界称为&quot;AI 的 USB-C&quot;，ChatGPT、Cursor、Gemini、VS Code 等主流产品均已支持。MCP Dev Summit 定于 4 月 2–3 日在纽约举办。</p>\n<h4 class=\"entry-heading\" id=\"安全危机浮出水面\">安全危机浮出水面</h4>\n<p>MCP 月 SDK 下载量从 2024 年 11 月的 10 万暴增至 9700 万，但规模扩张远超安全治理能力：安全研究人员扫描发现超 8000 台 MCP 服务器裸奔于公网（无任何身份验证），Anthropic Git MCP Server 存在 RCE 漏洞，工具污染（Tool Poisoning）和提示注入等新型攻击向量相继出现。CoSAI 已发布覆盖 12 个威胁类别的 MCP 安全框架，提供零信任架构和沙箱隔离等控制措施。</p>\n<h4 class=\"entry-heading\" id=\"企业生态拓展\">企业生态拓展</h4>\n<p>微软 Agent Framework 的 .NET 和 Python 版本进入 RC 阶段（原生支持 MCP），Atlassian 在 Jira 中引入 AI Agent 协作（人机同看板任务分配），Agent 工作流编排初创公司 Trace 完成 300 万美元种子轮融资。Gnani.ai × Razorpay 发布首个支持 Agent 在同一会话内完成 UPI 支付的平台。</p>\n<hr class=\"report-rule\" />\n<h4 class=\"topic-heading\" id=\"3-ai-产品更新\">3. AI 产品更新</h4>\n<h4 class=\"entry-heading\" id=\"claude-code-全面升级\">Claude Code 全面升级</h4>\n<p>本周 Claude Code 推出三项重大功能：Scheduled Tasks（定时任务，Claude 可无需人工触发自主执行定期工作）、Remote Control（跨设备远程控制本地 Agent）、--worktree 模式（隔离 Git Worktree 并行开发），以及 background: true 后台任务支持。GitHub Copilot 将 Claude Code 纳入 Agent HQ 多 Agent 平台，VS Code 1.109 支持 Claude、Codex、Copilot 并行运行。</p>\n<h4 class=\"entry-heading\" id=\"chatgpt-更新\">ChatGPT 更新</h4>\n<p>Operator 升级为 ChatGPT Agent（先 Pro 后 Plus/Team），新增 Lockdown Mode；Deep Research 支持自定义目标网站和可编辑研究计划；单次文件上传上限从 10 个提升至 20 个；上下文窗口扩至 256k Token；代码块升级为可交互模式。</p>\n<h4 class=\"entry-heading\" id=\"编程工具竞争加剧\">编程工具竞争加剧</h4>\n<p>Cursor 推出 2.0 版（最多 8 个并行 Agent、云端 Agent 独立启动 VM 并自动提交 PR、Composer 1.5 速度提升 4 倍）；Windsurf Wave 13 带来 Arena Mode 并排对比和 Plan Mode；Cline v3.58 支持原生 Subagent 和 CLI 2.0 无头 CI/CD 模式。&quot;Vibe Coding&quot;（自然语言编程）被 MIT Technology Review 评选为 2026 年突破性技术。</p>\n<h4 class=\"entry-heading\" id=\"perplexity-转型\">Perplexity 转型</h4>\n<p>Perplexity 2 月 18 日宣布彻底放弃广告收入，全面转向订阅制，并发布 Perplexity Computer 将多种 AI 能力整合为统一操作系统。</p>\n<h4 class=\"entry-heading\" id=\"图像-视频生成\">图像/视频生成</h4>\n<p>Midjourney V7 正式发布（新增文字转视频与 3D 功能，处理速度更快、写实感更强）。字节 Seedance 2.0 定位专业影视制作，生成的&quot;Tom Cruise vs Brad Pitt 打架视频&quot;病毒式传播，成为本月最受关注的 AI 视频内容。</p>\n<hr class=\"report-rule\" />\n<h4 class=\"topic-heading\" id=\"4-中国-ai-产业\">4. 中国 AI 产业</h4>\n<h4 class=\"entry-heading\" id=\"资本与上市\">资本与上市</h4>\n<p>智谱 AI 成全球首家独立上市大模型公司，港股市值突破 511 亿港元，同步开源 GLM-5（对标 Claude Opus 4.5 编程能力）。月之暗面（Kimi）完成 7 亿美元融资，估值突破 100 亿美元。</p>\n<h4 class=\"entry-heading\" id=\"模型密集发布\">模型密集发布</h4>\n<p>字节跳动春节前后密集发布：Doubao 2.0（复杂推理达 ChatGPT/Gemini 同等水平）、Seeddream 5.0（图像生成）、Seedance 2.0（视频生成，病毒式传播）。阿里 Qwen 3.5 开源，显存降 60%、推理提效 19 倍。DeepSeek GitHub 仓库出现&quot;MODEL1&quot;新架构标识，被广泛解读为 V4 技术基础。Anthropic 指控 DeepSeek 用虚假账户抓取训练数据，国际法律争议持续。</p>\n<h4 class=\"entry-heading\" id=\"应用层-dau-大战\">应用层 DAU 大战</h4>\n<p>字节豆包用 3 年达到 7871 万 DAU；阿里千问仅用 82 天（借助 30 亿元免单活动）从不足 1000 万暴涨至 7352 万 DAU，两大平台正面交锋。行业从底层模型比拼转向消费者服务渗透，阿里已测试&quot;对话即购物&quot;功能。</p>\n<h4 class=\"entry-heading\" id=\"资本支出规模\">资本支出规模</h4>\n<p>字节跳动 2026 年 AI 资本支出高达 1600 亿元（一半用于芯片），阿里计划 2025–2027 年共投入 3800 亿元用于云和 AI 基础设施。阿里云以 35.8% 市场份额大幅领跑中国 AI 云市场（字节火山引擎 14.8%、华为云 13.1%）。中国春节 AI 红包大战：腾讯、阿里、百度、字节合计投入超 45 亿元争夺流量入口。</p>\n<hr class=\"report-rule\" />\n<h4 class=\"topic-heading\" id=\"5-机器人与物理-ai\">5. 机器人与物理 AI</h4>\n<h4 class=\"entry-heading\" id=\"融资浪潮\">融资浪潮</h4>\n<p>本周物理 AI / 机器人领域融资创历史新高。Waymo 160 亿美元（估值 1260 亿）+ Wayve 12–15 亿美元（估值 86 亿）+ Apptronik 5.2 亿美元（估值 55 亿，Google DeepMind/奔驰战略投资）+ Skild AI 14 亿美元（估值 140 亿，贝索斯/英伟达参投）+ Bedrock Robotics 2.7 亿美元，单月合计超 190 亿美元。Figure AI 7 个月内估值从 26 亿飙升至 390 亿美元。</p>\n<h4 class=\"entry-heading\" id=\"量产与商业化\">量产与商业化</h4>\n<p>Boston Dynamics Atlas 全电动版量产（可负重 110 磅，2026 年产能已售罄）。Unitree 预计 2026 年出货 1–2 万台。现代汽车宣布未来四年在美投资 260 亿美元，2028 年实现年产 3 万台人形机器人目标。Agility Robotics 与丰田加拿大工厂签署首个商业化人形机器人 RaaS 协议（7 台 Digit）。<strong>历史性突破</strong>：意法半导体将认知人形机器人 RoBee 部署于自家芯片工厂，开创半导体公司在产线使用人形机器人的先例。</p>\n<h4 class=\"entry-heading\" id=\"技术层\">技术层</h4>\n<p>NVIDIA 发布 Isaac GR00T N1.6（开源推理视觉语言动作模型，支持人形机器人全身控制）；Qualcomm 发布 Dragonwing IQ10 机器人芯片；Mobileye 收购 Mentee Robotics 布局物理 AI 全场景；NVIDIA CES 2026 发布 Physical AI 路线图。中国春晚首次大规模展示人形机器人（Unitree 等完成功夫、舞蹈表演）。</p>\n<hr class=\"report-rule\" />\n<h4 class=\"topic-heading\" id=\"6-自动驾驶\">6. 自动驾驶</h4>\n<h4 class=\"entry-heading\" id=\"waymo-商业化加速\">Waymo：商业化加速</h4>\n<p>Waymo 以 1260 亿美元估值完成 160 亿美元融资，全自动 Robotaxi 每周行程突破 40 万次，正式进入休斯顿（覆盖约 25 平方英里），启动芝加哥配有安全员的路测，并发布 Waymo World Model 生成式仿真模型。Pony.ai（小马智行）于 2 月 27 日正式纳入 MSCI 中国指数，成首家入指 Robotaxi 企业。</p>\n<h4 class=\"entry-heading\" id=\"wayve-软件授权新模式\">Wayve：软件授权新模式</h4>\n<p>英国自动驾驶初创 Wayve 完成 12–15 亿美元 D 轮（估值 86 亿，奔驰/Stellantis/日产/Uber 领投），计划 2026 年在伦敦与 Uber 联合启动无人驾驶出租车试验，AI Driver 系统授权给全球整车厂——这是与 Waymo&quot;自营 Robotaxi&quot;截然不同的商业模式。</p>\n<h4 class=\"entry-heading\" id=\"政策与其他\">政策与其他</h4>\n<p>美国参议院商务委员会举办&quot;Hit the Road, Mac&quot;自动驾驶专题听证会，推动建立统一联邦安全标准。多国监管机构加速颁发 L3/L4 许可证，新加坡计划 2026 年实现全国自动驾驶商业部署。</p>\n<hr class=\"report-rule\" />\n<h4 class=\"topic-heading\" id=\"7-医疗-ai\">7. 医疗 AI</h4>\n<p>摩根大通报告确认，<strong>AI 相关交易已占医疗健康科技融资总额的 75%</strong>，主要应用方向集中于影像与放射（90% 健康系统已采用）、败血症早期检测（67%）和临床笔记自动化（60%），预计资金将进一步向头部平台集中。最新研究（Science Daily，2 月 21 日）证明生成式 AI 可以比传统人类研究团队更快速、更全面地分析结构化医疗数据。AI 驱动医疗前台管理平台 Third Way Health 完成 1500 万美元 A 轮融资，可将行政成本降低最高 40%。美国 HHS 发布 AI 临床应用征询意见（RFI），探讨如何利用 AI 降低医疗成本、提升医疗质量。</p>\n<hr class=\"report-rule\" />\n<h4 class=\"topic-heading\" id=\"8-芯片与半导体\">8. 芯片与半导体</h4>\n<h4 class=\"entry-heading\" id=\"英伟达-下一代路线图公开\">英伟达：下一代路线图公开</h4>\n<p>英伟达 2 月 25 日首次展示 Vera Rubin 系统（72 块 Rubin GPU + 36 块 Vera CPU，台积电代工），性能全面超越 Blackwell，预计 2026 年下半年出货，单套售价约 350–400 万美元。英伟达市值达 4.66 万亿美元，掌控约 90% AI 芯片市场。分析师预期本周季报营收同比增长 68% 至 660 亿美元。大型科技公司 2026 年 AI 资本支出合计预计达 6300 亿美元。</p>\n<h4 class=\"entry-heading\" id=\"meta-双线签约\">Meta 双线签约</h4>\n<p>Meta 一日之内同时与 AMD 签署约 600 亿美元长期协议（6GW AMD Instinct MI450 GPU，2026 下半年交付，AMD 股价当日涨 8%）和与英伟达续签扩展协议（部署数百万张 AI 芯片，含 Vera Rubin 系统）。</p>\n<h4 class=\"entry-heading\" id=\"初创竞争与政策调整\">初创竞争与政策调整</h4>\n<p>AI 推理芯片初创 MatX（两位前 Google 半导体员工创立）完成 5 亿美元融资，直接挑战英伟达。AMD 数据中心营收 Q4 2025 同比增长 39% 至 53.8 亿美元，AI 加速器市场份额预计从 9% 升至 15%+。美国商务部将英伟达 H200/AMD MI325X 出口审查从&quot;推定拒绝&quot;调整为&quot;逐案审查&quot;，同时 AI OVERWATCH 法案在众议院推进中。</p>\n<hr class=\"report-rule\" />\n<h4 class=\"topic-heading\" id=\"9-创业融资\">9. 创业融资</h4>\n<p>2026 年 2 月成为风险投资史上最重要的单月，AI 相关融资总额突破 <strong>1950 亿美元</strong>，截至 2 月 17 日已有 17 家美国 AI 公司完成 1 亿美元以上融资。本周重点融资事件汇总：</p>\n<div class=\"table-wrap\"><table><thead><tr><th>公司</th><th>金额</th><th>估值</th><th>备注</th></tr></thead><tbody><tr><td>OpenAI</td><td>1100 亿美元</td><td>7300 亿美元</td><td>亚马逊 500 亿 + 英伟达 300 亿 + 软银 300 亿</td></tr><tr><td>Anthropic</td><td>300 亿美元</td><td>3800 亿美元</td><td>G 轮，2 月 12 日完成</td></tr><tr><td>Waymo</td><td>160 亿美元</td><td>1260 亿美元</td><td>2 月最大单笔 AI 投资</td></tr><tr><td>Skild AI</td><td>14 亿美元</td><td>140 亿美元</td><td>贝索斯、英伟达参投</td></tr><tr><td>Wayve</td><td>12–15 亿美元</td><td>86 亿美元</td><td>奔驰、Uber 等领投</td></tr><tr><td>月之暗面（Kimi）</td><td>7 亿美元</td><td>100 亿美元+</td><td>—</td></tr><tr><td>Apptronik</td><td>5.2 亿美元</td><td>55 亿美元+</td><td>Google DeepMind 战投</td></tr><tr><td>ElevenLabs</td><td>5 亿美元</td><td>110 亿美元</td><td>Sequoia 领投，D 轮</td></tr><tr><td>MatX</td><td>5 亿美元</td><td>—</td><td>AI 推理芯片，挑战英伟达</td></tr><tr><td>Bedrock Robotics</td><td>2.7 亿美元</td><td>17.5 亿美元</td><td>—</td></tr><tr><td>Skyryse</td><td>3 亿美元</td><td>—</td><td>航空自动化</td></tr><tr><td>Trace</td><td>300 万美元</td><td>—</td><td>Agent 工作流编排，YC 2025</td></tr></tbody></table></div>\n<hr class=\"report-rule\" />\n<h4 class=\"topic-heading\" id=\"10-政策与监管\">10. 政策与监管</h4>\n<h4 class=\"entry-heading\" id=\"美国-ai-与国防的边界之争\">美国：AI 与国防的边界之争</h4>\n<p>本周最具影响力的政策事件是 Anthropic vs 五角大楼。特朗普援引国家安全法、将 Anthropic 定性为&quot;觉醒&quot;公司，并命令联邦机构停用其服务，引发行业对&quot;AI 安全原则在国家安全压力下能否守住&quot;的深层讨论。100 余名谷歌 AI 员工致信首席科学家 Jeff Dean，近 50 名 OpenAI 员工联署，要求各自公司承诺不允许 AI 用于监控公民或无监督自主武器。与此同时，特朗普行政令（EO 14179）将 AI 全球主导地位列为国策，延续&quot;轻监管&quot;路线，并持续阻断与联邦框架冲突的州级 AI 法规。</p>\n<h4 class=\"entry-heading\" id=\"欧盟与全球\">欧盟与全球</h4>\n<p>欧盟 AI Act 高风险系统严格要求将于 <strong>2026 年 8 月 2 日</strong>正式强制生效，欧洲监管机构明确进入执法阶段。中国《AI 生成内容标识办法》已于 2025 年 9 月 1 日生效，要求 AI 生成内容明确打标。韩国《基本 AI 法》和越南首部 AI 专项立法均于 2026 年生效。OECD 数据库已追踪到 72 个国家出台 AI 政策，全球监管立法浪潮持续扩大。</p>\n<hr class=\"report-rule\" />\n<p><em>本周报基于 2026-02-26 至 2026-03-01 期间共 4 份每日存档生成，由 Claude 自动汇总归档。</em></p>"
   },
   "portfolioReports": [
+    {
+      "id": "portfolio-news-2026-03-02",
+      "date": "2026-03-02",
+      "label": "3月2日",
+      "title": "投资组合每周新闻简报",
+      "summary": "美联储维持利率于3.75%不变，市场几乎不预期3月会降息（概率仅8%）；主席鲍威尔5月任期届满后，特朗普已提名Kevin Warsh接任，市场将降息预期推迟至7月。通胀方面，2月CPI降至2.4%（创2025年5月以来低点），核心CPI降至2.5%（五年新低），但1月PPI超预期走热（核心+0.8%），通胀路径仍存不确定性。关税方面，最高法院2月20日裁定特朗普紧急授权征关税违宪，标普500当日收涨0.69%至6,909，但白宫随即寻求其他途径重新征税，贸易政策风险未消。此外，BLS恢复运营后揭示2025年全年实际新增就业仅18.1万人，远低于此前公布的58.4万人，劳动市场状况弱于预期。",
+      "sourceFile": "/Users/shichangliao/Desktop/ClaudeCode/portfolio-news/portfolio-news-2026-03-02.md",
+      "highlights": [
+        {
+          "value": "TSLA $402.51",
+          "label": "首台Cybercab无人驾驶样车下线，FSD欧洲扩张，但股价创11月以来新低",
+          "anchor": "tesla"
+        },
+        {
+          "value": "AMD $203.56",
+          "label": "Meta签6GW GPU超级大单，定制MI450 H2交付，从本月低点大幅反弹",
+          "anchor": "amd"
+        },
+        {
+          "value": "NVDA $177.19",
+          "label": "Q4创纪录营收$68.1B但股价跌5.5%，超大客户集中度引发市场担忧",
+          "anchor": "nvidia"
+        }
+      ],
+      "movers": [
+        {
+          "name": "Tesla",
+          "note": "首台Cybercab无人驾驶样车下线，FSD欧洲扩张，但股价创11月以来新低"
+        },
+        {
+          "name": "AMD",
+          "note": "Meta签6GW GPU超级大单，定制MI450 H2交付，从本月低点大幅反弹"
+        },
+        {
+          "name": "Nvidia",
+          "note": "Q4创纪录营收$68.1B但股价跌5.5%，超大客户集中度引发市场担忧"
+        }
+      ],
+      "risks": [
+        {
+          "name": "PayPal（PYPL）",
+          "note": "PayPal（PYPL） — CEO Alex Chriss 突然被换（新任 Enrique Lores 来自HP，3月1日正式上任），同日Q4营收和EPS均不及预期，股价单日暴跌约19%；2月24日 Stripe 收购传闻推动短暂反弹，2月26日 Stripe 否认收购意向后股价再度下挫。此外，针对2025年2月至2026年2月期间的证券欺诈集体诉讼已正式立案，截止日4月20日。"
+        },
+        {
+          "name": "Hims & Hers（HIMS）",
+          "note": "Hims & Hers（HIMS） — 公司宣布停售 Wegovy（司美格鲁肽），引发市场对监管打压和核心业务受损的担忧，股价近52周低点（$13.74），距2025年高点$70.43已跌约80%，系本周组合内跌幅最大标的。"
+        },
+        {
+          "name": "Tesla（TSLA）",
+          "note": "Tesla（TSLA） — 股价$402.51，创11月以来新低，YTD -8.43%；JPMorgan目标价仅$145、Philip Securities目标价$215，均为卖出评级，华尔街整体评级为\"持有\"，分析师共识目标价$393（低于当前价）。"
+        },
+        {
+          "name": "Nvidia（NVDA）",
+          "note": "Nvidia（NVDA） — Q4财报超预期仍遭市场抛售，核心问题在于前四大超大规模云厂商（AWS/Azure/Google Cloud/Meta）贡献营收占比达36%，客户集中度风险显著；若2026年$7000亿资本支出计划出现任何收缩迹象，将直接冲击Nvidia增长预期。"
+        }
+      ],
+      "htmlContent": "<h4 class=\"entry-heading\" id=\"更新日期-2026-03-02\">更新日期：2026-03-02</h4>\n<h3 id=\"本周亮点-top-5\">🔥 本周亮点（Top 5）</h3>\n<ol><li><strong>AMD 🚀 重磅</strong>：Meta签署6吉瓦GPU超级大单（2月24日），首批定制MI450 GPU将于H2 2026开始交付，按每GW&quot;数十亿美元&quot;收入测算，是AMD历史上最具战略价值的客户合同。股价从本月低点大幅反弹，YTD跌幅收窄至仅-1.54%。</li></ol>\n<ol><li><strong>Tesla Cybercab 里程碑</strong>：首台无方向盘/无踏板量产版Cybercab于2月17日在Austin超级工厂下线，正式量产定于4月启动，消费者售价确认低于$30,000。但FSD仍处监督模式，股价YTD已跌-8.43%创11月新低。</li></ol>\n<ol><li><strong>Nvidia 越好越跌</strong>：Q4营收$68.1B创纪录（同比+73%），全财年$215.9B，Q1指引$78B，但前四大云厂商客户集中度（36%）引发担忧，股价暴跌-5.5%。3月中旬GTC大会是关键催化剂。YTD仍领涨组合（+28%）。</li></ol>\n<ol><li><strong>PayPal 三重打击</strong>：CEO突然离任+Q4业绩不及预期+Stripe收购传闻被否认，股价本周暴跌约-28%，YTD累跌约-49%至$40.42，已成为组合内年内最大失血标的之一。证券诉讼风险也在升温。</li></ol>\n<ol><li><strong>Hims &amp; Hers 近52周低点</strong>：停售Wegovy引发监管担忧，尽管FY2025营收+59%，股价YTD已跌-51.8%至$15.82（距高点$70跌约80%）。今日管理层出席摩根士丹利TMT大会，值得留意是否有进一步表态。</li></ol>\n<hr class=\"report-rule\" />\n<h3 id=\"本周宏观背景\">🌍 本周宏观背景</h3>\n<p>美联储维持利率于3.75%不变，市场几乎不预期3月会降息（概率仅8%）；主席鲍威尔5月任期届满后，特朗普已提名Kevin Warsh接任，市场将降息预期推迟至7月。通胀方面，2月CPI降至<strong>2.4%</strong>（创2025年5月以来低点），核心CPI降至<strong>2.5%</strong>（五年新低），但1月PPI超预期走热（核心+0.8%），通胀路径仍存不确定性。关税方面，最高法院2月20日裁定特朗普紧急授权征关税违宪，标普500当日收涨0.69%至6,909，但白宫随即寻求其他途径重新征税，贸易政策风险未消。此外，BLS恢复运营后揭示2025年全年实际新增就业仅18.1万人，远低于此前公布的58.4万人，劳动市场状况弱于预期。</p>\n<hr class=\"report-rule\" />\n<h3 id=\"速览总结\">⚡ 速览总结</h3>\n<div class=\"table-wrap\"><table><thead><tr><th>公司</th><th>代码</th><th>股价</th><th>本周涨跌（约）</th><th>YTD 涨跌</th><th>情绪</th><th>下次财报</th><th>一句话摘要</th></tr></thead><tbody><tr><td>Tesla</td><td>TSLA</td><td>$402.51</td><td>~-5%</td><td>-8.43%</td><td>📉</td><td>~2026-04-22</td><td>首台Cybercab无人驾驶样车下线，FSD欧洲扩张，但股价创11月以来新低</td></tr><tr><td>AMD</td><td>AMD</td><td>$203.56</td><td>~+8%</td><td>-1.54%</td><td>📈</td><td>~2026-04-29</td><td>Meta签6GW GPU超级大单，定制MI450 H2交付，从本月低点大幅反弹</td></tr><tr><td>Nvidia</td><td>NVDA</td><td>$177.19</td><td>-5.5%</td><td>~+28%</td><td>➡️</td><td>~2026-05-28</td><td>Q4创纪录营收$68.1B但股价跌5.5%，超大客户集中度引发市场担忧</td></tr><tr><td>Palantir</td><td>PLTR</td><td>$137.20</td><td>~-2%</td><td>-25.16%</td><td>📈</td><td>~2026-05-05</td><td>Q4大幅超预期，2026营收指引+61%，分析师密集上调目标价</td></tr><tr><td>Google</td><td>GOOGL</td><td>~$313</td><td>~-1%</td><td>+5.83%</td><td>➡️</td><td>~2026-04-28</td><td>Q4营收+18%至$113B，但2026资本支出翻倍至$175-185B压制股价</td></tr><tr><td>Micron</td><td>MU</td><td>$412.37</td><td>~-4%</td><td>+47%</td><td>📈</td><td>2026-03-18</td><td>印度首座封测厂开幕，AI内存需求旺盛，Goldman称HBM严重短缺</td></tr><tr><td>PayPal</td><td>PYPL</td><td>$40.42</td><td>~-28%</td><td>~-49%</td><td>📉</td><td>~2026-04-29</td><td>CEO更替+业绩不及预期+Stripe收购传闻落空，三重利空叠加</td></tr><tr><td>Unity</td><td>U</td><td>$17.13</td><td>~-8%</td><td>~-50%</td><td>📉</td><td>~2026-05-07</td><td>Q4小幅超预期但Q1指引疲软，联合创始人相继离任，股价跌至低位</td></tr><tr><td>Hims &amp; Hers</td><td>HIMS</td><td>$15.82</td><td>~-4%</td><td>-51.8%</td><td>📉</td><td>~2026-05-06</td><td>停售Wegovy引监管担忧，股价接近52周低点，年初至今腰斩</td></tr></tbody></table></div>\n<p>&gt; 情绪评级：📈 偏多 | 📉 偏空 | ➡️ 中性 &gt; 股价以2月27日收盘价为准（部分取2月25-26日数据）；&quot;~&quot;为估算值，仅供参考，请以实际市场数据为准。 &gt; YTD 基准：2025-12-31 收盘价（HIMS 基准 $32.81；PYPL、U 为估算基准）。</p>\n<hr class=\"report-rule\" />\n<h3 id=\"本周风险预警\">⚠️ 本周风险预警</h3>\n<p>以下重大负面事件值得关注：</p>\n<ul><li><strong>PayPal（PYPL）</strong> — CEO Alex Chriss 突然被换（新任 Enrique Lores 来自HP，3月1日正式上任），同日Q4营收和EPS均不及预期，股价单日暴跌约19%；2月24日 Stripe 收购传闻推动短暂反弹，2月26日 Stripe 否认收购意向后股价再度下挫。此外，针对2025年2月至2026年2月期间的证券欺诈集体诉讼已正式立案，截止日4月20日。</li></ul>\n<ul><li><strong>Hims &amp; Hers（HIMS）</strong> — 公司宣布停售 Wegovy（司美格鲁肽），引发市场对监管打压和核心业务受损的担忧，股价近52周低点（$13.74），距2025年高点$70.43已跌约80%，系本周组合内跌幅最大标的。</li></ul>\n<ul><li><strong>Tesla（TSLA）</strong> — 股价$402.51，创11月以来新低，YTD -8.43%；JPMorgan目标价仅$145、Philip Securities目标价$215，均为卖出评级，华尔街整体评级为&quot;持有&quot;，分析师共识目标价$393（低于当前价）。</li></ul>\n<ul><li><strong>Nvidia（NVDA）</strong> — Q4财报超预期仍遭市场抛售，核心问题在于前四大超大规模云厂商（AWS/Azure/Google Cloud/Meta）贡献营收占比达36%，客户集中度风险显著；若2026年$7000亿资本支出计划出现任何收缩迹象，将直接冲击Nvidia增长预期。</li></ul>\n<ul><li><strong>Alphabet（GOOGL）</strong> — DOJ联合35州提起上诉，寻求针对反垄断案的更严厉结构性救济措施，潜在的强制分拆或业务剥离风险仍悬而未决。</li></ul>\n<hr class=\"report-rule\" />\n<h3 id=\"tesla-tsla-重点关注\">⭐ Tesla (TSLA) — 重点关注</h3>\n<h4 class=\"entry-heading\" id=\"股价\">股价：</h4>\n<p>$402.51（本周约-5%，YTD -8.43%）｜<strong>情绪：</strong> 📉｜<strong>下次财报：</strong> ~2026-04-22</p>\n<h4 class=\"entry-heading\" id=\"cybercab-robotaxi-最新进展\">Cybercab / Robotaxi 最新进展</h4>\n<p>2月17日，<strong>特斯拉首台量产版Cybercab在得克萨斯州Austin超级工厂正式下线</strong>，这是一辆没有方向盘和踏板的全自主电动车。Musk确认正式量产将于<strong>2026年4月启动</strong>。同时确认Cybercab将以<strong>低于3万美元</strong>的价格面向消费者直接销售，结束此前仅供车队运营的传言。</p>\n<h4 class=\"entry-heading\" id=\"fsd-与自动驾驶进展\">FSD 与自动驾驶进展</h4>\n<p>FSD仍处于监督辅助阶段（非Level 5全自动），Musk在1月承认，要实现&quot;安全无监督自动驾驶&quot;，还需约100亿英里的数据积累。在欧洲，FSD陪乘测试项目（在德、法、意试行）已因需求旺盛延期至2026年3月继续运营。</p>\n<h4 class=\"entry-heading\" id=\"市场与分析师动态\">市场与分析师动态</h4>\n<p>华尔街平均评级为&quot;持有&quot;，12个月平均目标价$393.51（略低于当前价）。JPMorgan给出$145目标价（卖出），Philip Securities给出$215目标价（卖出），显示部分机构对Tesla AI业务转型估值的高度分歧。随着大型科技公司AI业务利润率趋薄，Tesla作为&quot;AI+自动驾驶&quot;故事的溢价面临更严格审视。</p>\n<h4 class=\"entry-heading\" id=\"其他值得关注\">其他值得关注</h4>\n<ul><li>特斯拉全电动Semi正式准备进入欧洲市场</li><li>BYD 2月销量骤降41%，对Tesla在华竞争压力边际缓解</li></ul>\n<hr class=\"report-rule\" />\n<h3 id=\"amd-amd-重点关注\">⭐ AMD (AMD) — 重点关注</h3>\n<h4 class=\"entry-heading\" id=\"股价\">股价：</h4>\n<p>$203.56（本周约+8%，上周收盘约$188）｜<strong>情绪：</strong> 📈｜<strong>下次财报：</strong> ~2026-04-29</p>\n<h4 class=\"entry-heading\" id=\"meta-战略大单-2月24日重磅\">Meta 战略大单（2月24日重磅）</h4>\n<p>AMD与Meta宣布<strong>扩大战略合作，Meta承诺部署6吉瓦（GW）AMD Instinct GPU</strong>，覆盖多代产品。首批1GW将于2026年下半年开始交付，使用基于<strong>MI450架构的定制Instinct GPU</strong>及第6代EPYC CPU（代号&quot;Venice&quot;）。按每吉瓦带来&quot;数十亿美元&quot;的数据中心AI营收测算，这是AMD历史上最重要的客户合同之一。</p>\n<p>AMD向Meta发行了<strong>1.6亿股认股权证</strong>（绩效挂钩，随GPU出货里程碑分批归属）。分析师随即上调目标价，The Street Pro表示Meta大单将推动AMD数据中心AI业务收入&quot;显著增长&quot;。</p>\n<h4 class=\"entry-heading\" id=\"q4-2025-财报-2月4日\">Q4 2025 财报（2月4日）</h4>\n<p>Q4营收<strong>$102.7亿</strong>（超预期$96.7亿），但Q1 2026指引低于部分分析师预期，导致2月4日财报当日股价暴跌<strong>约17%</strong>（从约$207跌至约$172）。随后，2月24日Meta大单公告推动股价显著反弹至$203.56，年初至今仅小幅下跌<strong>-1.54%</strong>，基本收复失地。</p>\n<h4 class=\"entry-heading\" id=\"gpu-产品路线图\">GPU 产品路线图</h4>\n<p>Meta大单涉及MI300X（已量产）、MI350及定制MI450，显示AMD GPU代际规划得到大客户背书。34位分析师给出&quot;买入&quot;共识，平均目标价<strong>$265.18</strong>，较当前$203.56仍有约30%的上行空间。</p>\n<hr class=\"report-rule\" />\n<h3 id=\"nvidia-nvda\">Nvidia (NVDA)</h3>\n<h4 class=\"entry-heading\" id=\"股价\">股价：</h4>\n<p>$177.19（本周-5.5%，YTD ~+28%）｜<strong>情绪：</strong> ➡️｜<strong>下次财报：</strong> ~2026-05-28</p>\n<p>Nvidia公布Q4 FY2026（截至2026年1月）业绩：营收<strong>$681亿</strong>，同比+73%，环比+20%；全财年营收<strong>$2159亿</strong>，同比+65%，均创历史新高。Q1 FY2027营收指引为<strong>$780亿（±2%）</strong>，同比指引增长约77%。</p>\n<p>尽管数据亮眼，市场依然抛售（-5.5%）。关键隐忧在于：&quot;Big Four&quot;超大规模云厂商（AWS、Azure、Google Cloud、Meta）合计贡献Nvidia营收约36%，客户集中度过高。若这四家2026年合计$7000亿资本支出出现任何减速，Nvidia将首当其冲。</p>\n<p>分析师整体仍看多：Citi上调目标价至$300（较当前约+53%），CICC上调至$240.60（&quot;跑赢&quot;）。GTC大会将于<strong>3月中旬</strong>举行，市场期待Nvidia展示新一代AI计算架构，被视为重要的股价催化剂。</p>\n<hr class=\"report-rule\" />\n<h3 id=\"palantir-pltr\">Palantir (PLTR)</h3>\n<h4 class=\"entry-heading\" id=\"股价\">股价：</h4>\n<p>$137.20（本周约-2%，YTD -25.16%）｜<strong>情绪：</strong> 📈｜<strong>下次财报：</strong> ~2026-05-05</p>\n<p>Palantir Q4营收<strong>$14.1亿</strong>（超预期$13.3亿），调整后EPS 25美分（超预期23美分），财报后股价一度跳涨约7%。公司2026年全年指引增长+61%，有望以&quot;软件史上最快速度、最高利润率&quot;冲击$100亿年营收。</p>\n<p>美国政府合同动能强劲：2025年12月与美国海军签订$4.48亿合同，BofA分析师称这&quot;只是开始&quot;。Airbus Skywise航空数据平台多年协议续签（服务超5万日活用户），商业客户扩张势头良好。</p>\n<p>风险：当前股价对应约183倍调整后PE，估值极高，已从历史峰值下跌约34%。分析师3月2日密集上调2026/2027年EPS预测（分别大幅上调约30-31%），共识目标价进一步上移，但高估值下股价短期承压。</p>\n<hr class=\"report-rule\" />\n<h3 id=\"google-alphabet-googl\">Google / Alphabet (GOOGL)</h3>\n<h4 class=\"entry-heading\" id=\"股价\">股价：</h4>\n<p>~$313（本周约-1%，上周收盘约$316）｜<strong>情绪：</strong> ➡️｜<strong>下次财报：</strong> ~2026-04-28</p>\n<p>Alphabet Q4营收同比+18%至<strong>$1130亿</strong>，Google Cloud加速至同比+48%（连续两季加速）。Gemini AI应用月活突破<strong>7.5亿</strong>，AI产品矩阵表现强劲。</p>\n<p>最大争议在于2026年<strong>资本支出指引$1750-1850亿</strong>（同比翻倍），市场担心短期利润率承压。分析师看法分化：JPMorgan维持买入，目标价$395；Wells Fargo上调至$350（中性评级）。股价距历史高点$349约下跌10%。</p>\n<p>反垄断风险不容忽视：DOJ联合35州于2月上诉，要求针对搜索垄断案施加更严厉的结构性救济（可能涉及强制剥离Chrome或Android），法律不确定性将持续悬挂于股价之上。</p>\n<hr class=\"report-rule\" />\n<h3 id=\"micron-technology-mu\">Micron Technology (MU)</h3>\n<h4 class=\"entry-heading\" id=\"股价\">股价：</h4>\n<p>$412.37（本周约-4%，YTD +47%）｜<strong>情绪：</strong> 📈｜<strong>下次财报：</strong> <strong>2026-03-18</strong></p>\n<p>2月24日，Micron在印度海得拉巴正式开设<strong>印度首座半导体封装测试工厂</strong>，标志着在地化供应链战略取得阶段性成果。同日宣布，公司将于3月18日发布第二财季（FY2026 Q2）业绩。</p>\n<p>AI驱动的内存需求持续超预期：Goldman Sachs发出&quot;内存危机&quot;（Great Memory Crunch）预警，HBM（高带宽内存）供给严重短缺。S&amp;P将Micron信用评级上调至BBB，Needham将目标价从$380上调至<strong>$450</strong>（买入），反映AI算力基础设施持续扩张对HBM的强劲需求。Micron正投入<strong>$2000亿</strong>扩大制造产能。</p>\n<p>根据46位分析师的共识，MU当前评级为&quot;买入&quot;。<strong>3月18日财报将是近期最重要的催化剂</strong>，市场将密切关注HBM出货量指引及全年营收展望。</p>\n<hr class=\"report-rule\" />\n<h3 id=\"paypal-pypl\">PayPal (PYPL)</h3>\n<h4 class=\"entry-heading\" id=\"股价\">股价：</h4>\n<p>$40.42（本周约-28%，YTD ~-49%）｜<strong>情绪：</strong> 📉｜<strong>下次财报：</strong> ~2026-04-29</p>\n<p>本周PayPal利空集中爆发：</p>\n<ul><li><strong>CEO更替</strong>：Alex Chriss 被免职，HP CEO Enrique Lores 于3月1日正式上任；过渡期由CFO Jamie Miller代任</li><li><strong>业绩不及预期</strong>：Q4营收$86.8亿（预期$88亿），调整后EPS $1.23（预期$1.28），2026年盈利指引低迷</li><li><strong>收购传闻风波</strong>：2月24日 Stripe 收购传闻推动股价短暂反弹，2月26日 Stripe 公开否认，股价随即回落</li><li><strong>法律风险</strong>：针对2025年2月至2026年2月期间的证券欺诈集体诉讼已立案，截止日4月20日</li></ul>\n<p>Citigroup将目标价从$60下调至<strong>$42</strong>。此外，公司宣布每股$0.14现金股息，除权日3月4日。</p>\n<hr class=\"report-rule\" />\n<h3 id=\"unity-software-u\">Unity Software (U)</h3>\n<h4 class=\"entry-heading\" id=\"股价\">股价：</h4>\n<p>$17.13（本周约-8%，YTD ~-50%）｜<strong>情绪：</strong> 📉｜<strong>下次财报：</strong> ~2026-05-07</p>\n<p>Unity于2月11日发布Q4/FY2025财报，表现略好于预期：EPS $0.24（预期$0.20），营收$5.03亿（预期$4.91亿）。但Q1 2026指引收入$4.80-4.90亿、EBITDA $1.05-1.10亿，低于市场预期，导致股价在通胀担忧叠加下进一步下探。</p>\n<p>公司层面，联合创始人 David Helgason 和 Tomer Bar-Zeev 已于2月5日离任，独立董事 Bernard Kim（具有游戏和消费平台背景）将于5月1日接任。公司与 Epic Games 宣布跨平台互操作性合作，广告工具（Ad Quality/Audience Hub）全面开放至游戏及连网电视市场，显示在非游戏端寻找新增长点的努力。</p>\n<hr class=\"report-rule\" />\n<h3 id=\"hims-hers-health-hims\">Hims &amp; Hers Health (HIMS)</h3>\n<h4 class=\"entry-heading\" id=\"股价\">股价：</h4>\n<p>$15.82（本周约-4%，YTD -51.8%）｜<strong>情绪：</strong> 📉｜<strong>下次财报：</strong> ~2026-05-06</p>\n<p>Hims &amp; Hers于2月23日发布Q4/FY2025财报：全年营收<strong>$23.5亿</strong>（同比+59%），净利润$1.28亿，调整后EBITDA $3.18亿，订阅用户突破<strong>250万</strong>（同比+13%）。2026年全年营收指引$27-29亿，EBITDA $3-3.75亿。基本面表现并不差，但股价持续承压。</p>\n<p>核心担忧在于公司宣布<strong>停止销售 Wegovy（司美格鲁肽）</strong>，引发市场对监管打压、GLP-1产品线风险及未来增长引擎缺失的深度忧虑，股价曾单日暴跌<strong>-25.8%</strong>，当前约$14.87，距52周高点$70.43已跌约<strong>79%</strong>。</p>\n<p>公司管理层将于3月2日（今日）出席<strong>摩根士丹利TMT大会</strong>，或可提供更多业务展望细节，值得关注。</p>\n<hr class=\"report-rule\" />\n<p><em>数据来源：公开财经资讯（CNBC、Yahoo Finance、AMD官网、Nvidia官网、Hims投资者关系等），截止2026-03-02。股价及涨跌幅为约估值，请以实际市场数据为准。本报告仅供参考，不构成任何投资建议。</em></p>\n<hr class=\"report-rule\" />\n<p>📁 <strong>历史报告</strong>：[上期周报 2026-02-26](portfolio-news-2026-02-26-updated.md)</p>"
+    },
     {
       "id": "portfolio-news-2026-02-26-updated",
       "date": "2026-02-26",
@@ -1007,61 +1208,61 @@
     }
   ],
   "marketBrief": {
-    "id": "portfolio-news-2026-02-26-updated",
-    "date": "2026-02-26",
-    "label": "2月26日",
+    "id": "portfolio-news-2026-03-02",
+    "date": "2026-03-02",
+    "label": "3月2日",
     "title": "投资组合每周新闻简报",
-    "summary": "本周核心PCE环比上涨0.355%，为近一年最大单月涨幅，通胀黏性再度引发担忧；但Q4 GDP二次预估强劲（年化增长约4.4%），初请失业金人数维持低位。美联储1月会议纪要显示利率维持在3.5%–3.75%不变，全年点阵图仅暗示一次降息，市场普遍预期首次降息不早于6月。Nvidia财报超预期但股价小幅下跌，带动周四纳指走软（-0.4%），标普500基本持平，道指微涨0.5%。",
-    "sourceFile": "/Users/shichangliao/Desktop/ClaudeCode/portfolio-news/portfolio-news-2026-02-26-updated.md",
+    "summary": "美联储维持利率于3.75%不变，市场几乎不预期3月会降息（概率仅8%）；主席鲍威尔5月任期届满后，特朗普已提名Kevin Warsh接任，市场将降息预期推迟至7月。通胀方面，2月CPI降至2.4%（创2025年5月以来低点），核心CPI降至2.5%（五年新低），但1月PPI超预期走热（核心+0.8%），通胀路径仍存不确定性。关税方面，最高法院2月20日裁定特朗普紧急授权征关税违宪，标普500当日收涨0.69%至6,909，但白宫随即寻求其他途径重新征税，贸易政策风险未消。此外，BLS恢复运营后揭示2025年全年实际新增就业仅18.1万人，远低于此前公布的58.4万人，劳动市场状况弱于预期。",
+    "sourceFile": "/Users/shichangliao/Desktop/ClaudeCode/portfolio-news/portfolio-news-2026-03-02.md",
     "highlights": [
       {
-        "value": "TSLA -2%",
-        "label": "Cybercab首辆下线，Musk确认售价≤$3万，FSD仍需监督",
+        "value": "TSLA $402.51",
+        "label": "首台Cybercab无人驾驶样车下线，FSD欧洲扩张，但股价创11月以来新低",
         "anchor": "tesla"
       },
       {
-        "value": "AMD +9%",
-        "label": "Meta $600亿/6GW大单落地，MI450 H2开始交付",
+        "value": "AMD $203.56",
+        "label": "Meta签6GW GPU超级大单，定制MI450 H2交付，从本月低点大幅反弹",
         "anchor": "amd"
       },
       {
-        "value": "NVDA -2%",
-        "label": "史上最大季报超预期，但股价因AI资本支出担忧小幅下跌",
+        "value": "NVDA $177.19",
+        "label": "Q4创纪录营收$68.1B但股价跌5.5%，超大客户集中度引发市场担忧",
         "anchor": "nvidia"
       }
     ],
     "movers": [
       {
         "name": "Tesla",
-        "note": "Cybercab首辆下线，Musk确认售价≤$3万，FSD仍需监督"
+        "note": "首台Cybercab无人驾驶样车下线，FSD欧洲扩张，但股价创11月以来新低"
       },
       {
         "name": "AMD",
-        "note": "Meta $600亿/6GW大单落地，MI450 H2开始交付"
+        "note": "Meta签6GW GPU超级大单，定制MI450 H2交付，从本月低点大幅反弹"
       },
       {
         "name": "Nvidia",
-        "note": "史上最大季报超预期，但股价因AI资本支出担忧小幅下跌"
+        "note": "Q4创纪录营收$68.1B但股价跌5.5%，超大客户集中度引发市场担忧"
       }
     ],
     "risks": [
       {
-        "name": "Hims & Hers",
-        "note": "📉 Hims & Hers：Q1指引低于预期，Truist目标价从$37大幅下调至$18，GLP-1监管风险持续，52周内跌幅已超77%"
+        "name": "PayPal（PYPL）",
+        "note": "PayPal（PYPL） — CEO Alex Chriss 突然被换（新任 Enrique Lores 来自HP，3月1日正式上任），同日Q4营收和EPS均不及预期，股价单日暴跌约19%；2月24日 Stripe 收购传闻推动短暂反弹，2月26日 Stripe 否认收购意向后股价再度下挫。此外，针对2025年2月至2026年2月期间的证券欺诈集体诉讼已正式立案，截止日4月20日。"
       },
       {
-        "name": "Tesla",
-        "note": "📉 Tesla：Waymo完成历史最大融资（$160亿，估值$1260亿），直接威胁Robotaxi市场地位；FSD欧洲监管批准仍不确定"
+        "name": "Hims & Hers（HIMS）",
+        "note": "Hims & Hers（HIMS） — 公司宣布停售 Wegovy（司美格鲁肽），引发市场对监管打压和核心业务受损的担忧，股价近52周低点（$13.74），距2025年高点$70.43已跌约80%，系本周组合内跌幅最大标的。"
       },
       {
-        "name": "Nvidia",
-        "note": "⚠️ Nvidia：财报超预期但股价收跌，市场开始质疑超大规模AI资本支出可持续性"
+        "name": "Tesla（TSLA）",
+        "note": "Tesla（TSLA） — 股价$402.51，创11月以来新低，YTD -8.43%；JPMorgan目标价仅$145、Philip Securities目标价$215，均为卖出评级，华尔街整体评级为\"持有\"，分析师共识目标价$393（低于当前价）。"
       },
       {
-        "name": "PayPal",
-        "note": "📉 PayPal：Stripe收购传闻尚未确认，基本面改善信号缺乏"
+        "name": "Nvidia（NVDA）",
+        "note": "Nvidia（NVDA） — Q4财报超预期仍遭市场抛售，核心问题在于前四大超大规模云厂商（AWS/Azure/Google Cloud/Meta）贡献营收占比达36%，客户集中度风险显著；若2026年$7000亿资本支出计划出现任何收缩迹象，将直接冲击Nvidia增长预期。"
       }
     ],
-    "htmlContent": "<h4 class=\"entry-heading\" id=\"更新日期-2026年2月26日\">更新日期：2026年2月26日</h4>\n<h3 id=\"本周宏观背景\">🌍 本周宏观背景</h3>\n<p>本周核心PCE环比上涨0.355%，为近一年最大单月涨幅，通胀黏性再度引发担忧；但Q4 GDP二次预估强劲（年化增长约4.4%），初请失业金人数维持低位。美联储1月会议纪要显示利率维持在3.5%–3.75%不变，全年点阵图仅暗示一次降息，市场普遍预期首次降息不早于6月。Nvidia财报超预期但股价小幅下跌，带动周四纳指走软（-0.4%），标普500基本持平，道指微涨0.5%。</p>\n<hr class=\"report-rule\" />\n<h3 id=\"速览总结\">⚡ 速览总结</h3>\n<div class=\"table-wrap\"><table><thead><tr><th>公司</th><th>代码</th><th>股价</th><th>本周涨跌</th><th>上周收盘</th><th>情绪</th><th>下次财报</th><th>一句话摘要</th></tr></thead><tbody><tr><td>Tesla</td><td>TSLA</td><td>$417.40</td><td>-2%</td><td>~$426</td><td>📉</td><td>2026-04-28</td><td>Cybercab首辆下线，Musk确认售价≤$3万，FSD仍需监督</td></tr><tr><td>AMD</td><td>AMD</td><td>$211.47</td><td>+9%</td><td>~$194</td><td>📈</td><td>~2026-05</td><td>Meta $600亿/6GW大单落地，MI450 H2开始交付</td></tr><tr><td>Nvidia</td><td>NVDA</td><td>~$134</td><td>-2%</td><td>~$137</td><td>➡️</td><td>~2026-05</td><td>史上最大季报超预期，但股价因AI资本支出担忧小幅下跌</td></tr><tr><td>Palantir</td><td>PLTR</td><td>$133.40</td><td>+4%</td><td>~$128</td><td>➡️</td><td>~2026-05</td><td>Q4营收+70%，2026年指引+61%，高估值持续压制股价</td></tr><tr><td>Google</td><td>GOOGL</td><td>$312.96</td><td>+1%</td><td>~$309</td><td>📈</td><td>2026-04-23</td><td>签署绿色能源长协支撑数据中心，AI芯片扩张持续推进</td></tr><tr><td>Micron</td><td>MU</td><td>~$422</td><td>+2%</td><td>~$414</td><td>📈</td><td>🔔 2026-03-18</td><td>Q2财报3/18发布，营收预计+132%，HBM全年售罄</td></tr><tr><td>PayPal</td><td>PYPL</td><td>$47.50</td><td>+7%</td><td>~$44</td><td>📉</td><td>2026-05-05</td><td>Stripe收购传闻推动反弹，新CEO 3/1上任</td></tr><tr><td>Unity</td><td>U</td><td>$18.44</td><td>+5%</td><td>~$17.6</td><td>📉</td><td>~2026-05</td><td>中国业务出售传闻提振，但Google Genie阴影未散</td></tr><tr><td>Hims &amp; Hers</td><td>HIMS</td><td>$15.87</td><td>-8%</td><td>~$17.3</td><td>📉</td><td>~2026-05</td><td>Q4小幅超预期，2026年Q1指引低于预期，多家机构大幅下调目标价</td></tr></tbody></table></div>\n<p>情绪评级：📈 偏多｜📉 偏空｜➡️ 中性｜🔔 = 7天内即将发布财报</p>\n<hr class=\"report-rule\" />\n<h3 id=\"本周风险预警\">⚠️ 本周风险预警</h3>\n<p>🔔 <strong>财报预警：Micron (MU)</strong> 将于 <strong>2026-03-18</strong> 发布 FY2026 Q2 财报，请提前关注。市场预期营收 $187亿（+132% YoY），EPS $8.42（+440% YoY），毛利率68%创历史新高——任何不及预期均可能引发大幅回调。</p>\n<h4 class=\"entry-heading\" id=\"重大负面事件\">重大负面事件：</h4>\n<ul><li>📉 <strong>Hims &amp; Hers</strong>：Q1指引低于预期，Truist目标价从$37大幅下调至$18，GLP-1监管风险持续，52周内跌幅已超77%</li><li>📉 <strong>Tesla</strong>：Waymo完成历史最大融资（$160亿，估值$1260亿），直接威胁Robotaxi市场地位；FSD欧洲监管批准仍不确定</li><li>⚠️ <strong>Nvidia</strong>：财报超预期但股价收跌，市场开始质疑超大规模AI资本支出可持续性</li><li>📉 <strong>PayPal</strong>：Stripe收购传闻尚未确认，基本面改善信号缺乏</li></ul>\n<hr class=\"report-rule\" />\n<h3 id=\"tesla-tsla-重点关注\">⭐ Tesla (TSLA) — 重点关注</h3>\n<h4 class=\"entry-heading\" id=\"股价\">股价：</h4>\n<p>$417.40（本周约 -2%，上周收盘约 $426）｜<strong>情绪：</strong> 📉｜<strong>下次财报：</strong> 2026-04-28</p>\n<h4 class=\"entry-heading\" id=\"cybercab-最新进展\">Cybercab 最新进展</h4>\n<ul><li><strong>里程碑</strong>：首辆量产 Cybercab 于2月17日在德克萨斯 Gigafactory 下线</li><li><strong>售价确认</strong>：Musk于2月18日确认将在2027年前向消费者出售，价格 ≤ <strong>$3万</strong></li><li>大规模量产预计从 <strong>Q2 2026（4月）</strong> 开始，但 Musk 预警初期爬坡&quot;非常缓慢&quot;</li><li>设计为双座、无方向盘/踏板纯自动驾驶车辆；联邦法规对无传统驾驶员控制车辆上路数量仍有限制</li></ul>\n<h4 class=\"entry-heading\" id=\"fsd-与自动驾驶\">FSD 与自动驾驶</h4>\n<ul><li>FSD 仍为<strong>监督模式</strong>，未达到无监督 Level 5</li><li>Tesla 希望在2026年（最早本月）获得欧洲监管批准</li><li>奥斯汀 Robotaxi 累计事故 <strong>14起</strong>，约42辆实际运营</li></ul>\n<h4 class=\"entry-heading\" id=\"竞争威胁\">竞争威胁</h4>\n<ul><li><strong>Waymo</strong> 完成 $160亿 融资，估值 $1260亿，为自动驾驶历史最大融资，直接挑战 Tesla Robotaxi 定位</li></ul>\n<h4 class=\"entry-heading\" id=\"汽车业务-optimus\">汽车业务 &amp; Optimus</h4>\n<ul><li>Q4 汽车营收 $176.9亿（-10% YoY），2025年为特斯拉历史首次年销量下滑</li><li>Fremont 工厂停产 Model S/X，转向 Optimus 人形机器人生产</li><li>2026年同时启动 Cybercab 与 Tesla Semi 量产，资本支出指引超 <strong>$200亿</strong></li></ul>\n<h4 class=\"entry-heading\" id=\"分析师\">分析师</h4>\n<ul><li>综合评级：<strong>持有</strong>（41位分析师：14买入/17持有/9强烈卖出）</li><li>平均目标价约 $393；年初至今下跌约 <strong>-10.2%</strong></li></ul>\n<hr class=\"report-rule\" />\n<h3 id=\"amd-amd-重点关注\">⭐ AMD (AMD) — 重点关注</h3>\n<h4 class=\"entry-heading\" id=\"股价\">股价：</h4>\n<p>$211.47（本周约 +9%，上周收盘约 $194）｜<strong>情绪：</strong> 📈｜<strong>下次财报：</strong> ~2026年5月</p>\n<h4 class=\"entry-heading\" id=\"meta-战略大单-本周最重磅\">Meta 战略大单（本周最重磅）</h4>\n<ul><li>2月24日，AMD 与 Meta 签署扩大合作协议：Meta部署最多 <strong>6吉瓦 AMD GPU</strong>，协议期5年</li><li>核心产品为 MI450 架构定制版，首批1GW于 <strong>2026年下半年</strong> 开始交付</li><li>Meta 获得最多1.6亿股绩效认股权证（约占AMD总股本10%），随交货逐步归属</li><li>分析师估算5年合同价值约 <strong>$600亿</strong>；Bank of America 上调目标价至 $245</li></ul>\n<h4 class=\"entry-heading\" id=\"openai-合作\">OpenAI 合作</h4>\n<ul><li>OpenAI 同样签署6GW AMD Instinct GPU合同，首批1GW于2026年下半年交付</li></ul>\n<h4 class=\"entry-heading\" id=\"gpu-产品路线图\">GPU 产品路线图</h4>\n<ul><li><strong>MI350</strong>（CDNA 4）：已大规模量产，288GB HBM3E，带宽8TB/s，推理性能较MI300提升35倍</li><li><strong>MI450</strong>（Helios架构）：预计 <strong>2026年Q3</strong> 开始交付，为Meta大单核心产品</li><li><strong>MI500</strong>（2027年）：HBM4（432GB / 19.6TB/s），性能大幅提升</li></ul>\n<h4 class=\"entry-heading\" id=\"q4-业绩-q1-展望\">Q4 业绩 &amp; Q1 展望</h4>\n<ul><li>Q4 营收 $102.7亿（超预期$96.7亿），数据中心 $36.6亿（+69% YoY）</li><li>Q1 指引 $98亿（±$3亿），发布时因低于激进预期暴跌17%，Meta大单后已全面收复</li><li>近一个月整体下跌约 -18%，但本周大单带来强劲反弹</li></ul>\n<h4 class=\"entry-heading\" id=\"分析师\">分析师</h4>\n<ul><li>综合评级：<strong>买入</strong>（49买入/15持有/1卖出），中位目标价 $298</li></ul>\n<hr class=\"report-rule\" />\n<h3 id=\"nvidia-nvda\">Nvidia (NVDA)</h3>\n<h4 class=\"entry-heading\" id=\"股价\">股价：</h4>\n<p>~$134（本周约 -2%，上周收盘约 $137）｜<strong>情绪：</strong> ➡️｜<strong>下次财报：</strong> ~2026年5月</p>\n<h4 class=\"entry-heading\" id=\"q4-fy2026-财报-2月25日盘后发布\">Q4 FY2026 财报（2月25日盘后发布）</h4>\n<ul><li>营收 <strong>$681亿</strong>（+73% YoY），超预期约$30亿；EPS $1.62（+82%），超预期$0.10</li><li>数据中心营收 <strong>$623亿</strong>（+75% YoY）；全年净利润 $1201亿</li><li>Q1 FY2027 指引：<strong>$780亿</strong>（±2%），大幅超市场预期 $727.8亿</li></ul>\n<h4 class=\"entry-heading\" id=\"股价反应\">股价反应</h4>\n<ul><li>财报后盘中一度下跌3.4%，Morgan Stanley 称这是&quot;史上最大最干净的季报超预期&quot;，但市场担忧AI资本支出可持续性</li><li>年初至今仍上涨约 <strong>+3%</strong>，相对纳指保持超额表现</li></ul>\n<hr class=\"report-rule\" />\n<h3 id=\"palantir-pltr\">Palantir (PLTR)</h3>\n<h4 class=\"entry-heading\" id=\"股价\">股价：</h4>\n<p>$133.40（本周约 +4%，上周收盘约 $128）｜<strong>情绪：</strong> ➡️｜<strong>下次财报：</strong> ~2026年5月</p>\n<ul><li>Q4 营收 $14.1亿（+70% YoY，连续10季加速），美国商业+137%，政府+45%</li><li>2026年全年指引 $71.8–71.98亿（+61%），远超预期 $62.2亿</li><li>从52周高点 $207.52 下跌 <strong>-38%</strong>，前瞻PE超100倍，高估值持续引发获利了结</li><li>Citi 目标价 $235（买入）；Mizuho 目标价 $195（跑赢大盘）；均价目标约 $191</li></ul>\n<hr class=\"report-rule\" />\n<h3 id=\"google-alphabet-googl\">Google / Alphabet (GOOGL)</h3>\n<h4 class=\"entry-heading\" id=\"股价\">股价：</h4>\n<p>$312.96（本周约 +1%，上周收盘约 $309）｜<strong>情绪：</strong> 📈｜<strong>下次财报：</strong> 2026-04-23</p>\n<ul><li>本周与 AES 和 Xcel 签署长期<strong>清洁能源协议</strong>，为数据中心提供低碳电力</li><li>Google Meet 上线 AI 会议纪要功能，持续强化 AI 产品矩阵</li><li>Q4 营收 $1138亿（超预期），Google Cloud $176.6亿（超预期）</li><li>2026年资本支出指引 <strong>$1750–1850亿</strong>（超华尔街预期约$1200亿），全力押注AI</li><li>综合评级：<strong>买入</strong>（59买入/6持有），下次财报 <strong>2026-04-23</strong></li></ul>\n<hr class=\"report-rule\" />\n<h3 id=\"micron-technology-mu\">Micron Technology (MU)</h3>\n<h4 class=\"entry-heading\" id=\"股价\">股价：</h4>\n<p>~$422（本周约 +2%，上周收盘约 $414）｜<strong>情绪：</strong> 📈｜<strong>下次财报：</strong> 🔔 <strong>2026-03-18（20天后）</strong></p>\n<ul><li>FY2026 Q1 营收 $136.4亿（创纪录），EPS $4.60</li><li><strong>Q2 前瞻</strong>：营收预计 $187亿（+132% YoY），毛利率 <strong>68%</strong> 历史新高，EPS $8.42（+440%）</li><li>HBM 2026年产能全部售罄，已关闭消费品牌，全力押注 AI 级 HBM</li><li>年初至今涨幅约 <strong>+50%</strong>，为组合内最强标的</li><li>全部27位分析师给出买入评级，均价目标 $286.54</li></ul>\n<hr class=\"report-rule\" />\n<h3 id=\"paypal-pypl\">PayPal (PYPL)</h3>\n<h4 class=\"entry-heading\" id=\"股价\">股价：</h4>\n<p>$47.50（本周约 +7%，上周收盘约 $44）｜<strong>情绪：</strong> 📉｜<strong>下次财报：</strong> 2026-05-05</p>\n<ul><li>HP 前 CEO <strong>Enrique Lores</strong> 于 <strong>3月1日</strong> 正式接任 CEO</li><li>彭博报道 Stripe 正考虑收购 PayPal，推动本周股价+7%，但谈判仍处极早期</li><li>活跃账户 4.38亿，总支付额 $4580亿（+7% YoY）</li><li>Citi 目标价降至 $42（中性）；综合评级：持有</li></ul>\n<hr class=\"report-rule\" />\n<h3 id=\"unity-software-u\">Unity Software (U)</h3>\n<h4 class=\"entry-heading\" id=\"股价\">股价：</h4>\n<p>$18.44（本周约 +5%，上周收盘约 $17.6）｜<strong>情绪：</strong> 📉｜<strong>下次财报：</strong> ~2026年5月</p>\n<ul><li>彭博报道考虑出售<strong>中国业务</strong>（估值或超$10亿），推动本周反弹</li><li>Google Project Genie 持续竞争压制，年初至今跌幅 <strong>-57%</strong></li><li>Q4 营收 $5.03亿（超预期），Q1 2026 指引 $4.8–4.9亿（低于预期 $4.92亿）</li><li>18买入/8持有/1卖出，均价目标 $34.12</li></ul>\n<hr class=\"report-rule\" />\n<h3 id=\"hims-hers-health-hims\">Hims &amp; Hers Health (HIMS)</h3>\n<h4 class=\"entry-heading\" id=\"股价\">股价：</h4>\n<p>$15.87（本周约 -8%，上周收盘约 $17.3）｜<strong>情绪：</strong> 📉｜<strong>下次财报：</strong> ~2026年5月</p>\n<ul><li>Q4 EPS $0.08（超预期60%），2025全年营收 $23.5亿（+59%），订阅用户250万</li><li>Q1 2026 指引 $6–6.25亿，低于预期 $6.53亿（GLP-1 监管冲击约 <strong>$6500万</strong>）</li><li>分析师大幅下调：Truist $18（从$37），Evercore $24（从$33），TD Cowen $17（从$20）</li><li>52周高点 $70.43，当前 $15.87，跌幅超 <strong>77%</strong></li></ul>\n<hr class=\"report-rule\" />\n<p><em>数据来源：CNBC、Bloomberg、Motley Fool、Yahoo Finance 等公开财经资讯，截止2026年2月26日。本报告仅供参考，不构成任何投资建议。</em></p>"
+    "htmlContent": "<h4 class=\"entry-heading\" id=\"更新日期-2026-03-02\">更新日期：2026-03-02</h4>\n<h3 id=\"本周亮点-top-5\">🔥 本周亮点（Top 5）</h3>\n<ol><li><strong>AMD 🚀 重磅</strong>：Meta签署6吉瓦GPU超级大单（2月24日），首批定制MI450 GPU将于H2 2026开始交付，按每GW&quot;数十亿美元&quot;收入测算，是AMD历史上最具战略价值的客户合同。股价从本月低点大幅反弹，YTD跌幅收窄至仅-1.54%。</li></ol>\n<ol><li><strong>Tesla Cybercab 里程碑</strong>：首台无方向盘/无踏板量产版Cybercab于2月17日在Austin超级工厂下线，正式量产定于4月启动，消费者售价确认低于$30,000。但FSD仍处监督模式，股价YTD已跌-8.43%创11月新低。</li></ol>\n<ol><li><strong>Nvidia 越好越跌</strong>：Q4营收$68.1B创纪录（同比+73%），全财年$215.9B，Q1指引$78B，但前四大云厂商客户集中度（36%）引发担忧，股价暴跌-5.5%。3月中旬GTC大会是关键催化剂。YTD仍领涨组合（+28%）。</li></ol>\n<ol><li><strong>PayPal 三重打击</strong>：CEO突然离任+Q4业绩不及预期+Stripe收购传闻被否认，股价本周暴跌约-28%，YTD累跌约-49%至$40.42，已成为组合内年内最大失血标的之一。证券诉讼风险也在升温。</li></ol>\n<ol><li><strong>Hims &amp; Hers 近52周低点</strong>：停售Wegovy引发监管担忧，尽管FY2025营收+59%，股价YTD已跌-51.8%至$15.82（距高点$70跌约80%）。今日管理层出席摩根士丹利TMT大会，值得留意是否有进一步表态。</li></ol>\n<hr class=\"report-rule\" />\n<h3 id=\"本周宏观背景\">🌍 本周宏观背景</h3>\n<p>美联储维持利率于3.75%不变，市场几乎不预期3月会降息（概率仅8%）；主席鲍威尔5月任期届满后，特朗普已提名Kevin Warsh接任，市场将降息预期推迟至7月。通胀方面，2月CPI降至<strong>2.4%</strong>（创2025年5月以来低点），核心CPI降至<strong>2.5%</strong>（五年新低），但1月PPI超预期走热（核心+0.8%），通胀路径仍存不确定性。关税方面，最高法院2月20日裁定特朗普紧急授权征关税违宪，标普500当日收涨0.69%至6,909，但白宫随即寻求其他途径重新征税，贸易政策风险未消。此外，BLS恢复运营后揭示2025年全年实际新增就业仅18.1万人，远低于此前公布的58.4万人，劳动市场状况弱于预期。</p>\n<hr class=\"report-rule\" />\n<h3 id=\"速览总结\">⚡ 速览总结</h3>\n<div class=\"table-wrap\"><table><thead><tr><th>公司</th><th>代码</th><th>股价</th><th>本周涨跌（约）</th><th>YTD 涨跌</th><th>情绪</th><th>下次财报</th><th>一句话摘要</th></tr></thead><tbody><tr><td>Tesla</td><td>TSLA</td><td>$402.51</td><td>~-5%</td><td>-8.43%</td><td>📉</td><td>~2026-04-22</td><td>首台Cybercab无人驾驶样车下线，FSD欧洲扩张，但股价创11月以来新低</td></tr><tr><td>AMD</td><td>AMD</td><td>$203.56</td><td>~+8%</td><td>-1.54%</td><td>📈</td><td>~2026-04-29</td><td>Meta签6GW GPU超级大单，定制MI450 H2交付，从本月低点大幅反弹</td></tr><tr><td>Nvidia</td><td>NVDA</td><td>$177.19</td><td>-5.5%</td><td>~+28%</td><td>➡️</td><td>~2026-05-28</td><td>Q4创纪录营收$68.1B但股价跌5.5%，超大客户集中度引发市场担忧</td></tr><tr><td>Palantir</td><td>PLTR</td><td>$137.20</td><td>~-2%</td><td>-25.16%</td><td>📈</td><td>~2026-05-05</td><td>Q4大幅超预期，2026营收指引+61%，分析师密集上调目标价</td></tr><tr><td>Google</td><td>GOOGL</td><td>~$313</td><td>~-1%</td><td>+5.83%</td><td>➡️</td><td>~2026-04-28</td><td>Q4营收+18%至$113B，但2026资本支出翻倍至$175-185B压制股价</td></tr><tr><td>Micron</td><td>MU</td><td>$412.37</td><td>~-4%</td><td>+47%</td><td>📈</td><td>2026-03-18</td><td>印度首座封测厂开幕，AI内存需求旺盛，Goldman称HBM严重短缺</td></tr><tr><td>PayPal</td><td>PYPL</td><td>$40.42</td><td>~-28%</td><td>~-49%</td><td>📉</td><td>~2026-04-29</td><td>CEO更替+业绩不及预期+Stripe收购传闻落空，三重利空叠加</td></tr><tr><td>Unity</td><td>U</td><td>$17.13</td><td>~-8%</td><td>~-50%</td><td>📉</td><td>~2026-05-07</td><td>Q4小幅超预期但Q1指引疲软，联合创始人相继离任，股价跌至低位</td></tr><tr><td>Hims &amp; Hers</td><td>HIMS</td><td>$15.82</td><td>~-4%</td><td>-51.8%</td><td>📉</td><td>~2026-05-06</td><td>停售Wegovy引监管担忧，股价接近52周低点，年初至今腰斩</td></tr></tbody></table></div>\n<p>&gt; 情绪评级：📈 偏多 | 📉 偏空 | ➡️ 中性 &gt; 股价以2月27日收盘价为准（部分取2月25-26日数据）；&quot;~&quot;为估算值，仅供参考，请以实际市场数据为准。 &gt; YTD 基准：2025-12-31 收盘价（HIMS 基准 $32.81；PYPL、U 为估算基准）。</p>\n<hr class=\"report-rule\" />\n<h3 id=\"本周风险预警\">⚠️ 本周风险预警</h3>\n<p>以下重大负面事件值得关注：</p>\n<ul><li><strong>PayPal（PYPL）</strong> — CEO Alex Chriss 突然被换（新任 Enrique Lores 来自HP，3月1日正式上任），同日Q4营收和EPS均不及预期，股价单日暴跌约19%；2月24日 Stripe 收购传闻推动短暂反弹，2月26日 Stripe 否认收购意向后股价再度下挫。此外，针对2025年2月至2026年2月期间的证券欺诈集体诉讼已正式立案，截止日4月20日。</li></ul>\n<ul><li><strong>Hims &amp; Hers（HIMS）</strong> — 公司宣布停售 Wegovy（司美格鲁肽），引发市场对监管打压和核心业务受损的担忧，股价近52周低点（$13.74），距2025年高点$70.43已跌约80%，系本周组合内跌幅最大标的。</li></ul>\n<ul><li><strong>Tesla（TSLA）</strong> — 股价$402.51，创11月以来新低，YTD -8.43%；JPMorgan目标价仅$145、Philip Securities目标价$215，均为卖出评级，华尔街整体评级为&quot;持有&quot;，分析师共识目标价$393（低于当前价）。</li></ul>\n<ul><li><strong>Nvidia（NVDA）</strong> — Q4财报超预期仍遭市场抛售，核心问题在于前四大超大规模云厂商（AWS/Azure/Google Cloud/Meta）贡献营收占比达36%，客户集中度风险显著；若2026年$7000亿资本支出计划出现任何收缩迹象，将直接冲击Nvidia增长预期。</li></ul>\n<ul><li><strong>Alphabet（GOOGL）</strong> — DOJ联合35州提起上诉，寻求针对反垄断案的更严厉结构性救济措施，潜在的强制分拆或业务剥离风险仍悬而未决。</li></ul>\n<hr class=\"report-rule\" />\n<h3 id=\"tesla-tsla-重点关注\">⭐ Tesla (TSLA) — 重点关注</h3>\n<h4 class=\"entry-heading\" id=\"股价\">股价：</h4>\n<p>$402.51（本周约-5%，YTD -8.43%）｜<strong>情绪：</strong> 📉｜<strong>下次财报：</strong> ~2026-04-22</p>\n<h4 class=\"entry-heading\" id=\"cybercab-robotaxi-最新进展\">Cybercab / Robotaxi 最新进展</h4>\n<p>2月17日，<strong>特斯拉首台量产版Cybercab在得克萨斯州Austin超级工厂正式下线</strong>，这是一辆没有方向盘和踏板的全自主电动车。Musk确认正式量产将于<strong>2026年4月启动</strong>。同时确认Cybercab将以<strong>低于3万美元</strong>的价格面向消费者直接销售，结束此前仅供车队运营的传言。</p>\n<h4 class=\"entry-heading\" id=\"fsd-与自动驾驶进展\">FSD 与自动驾驶进展</h4>\n<p>FSD仍处于监督辅助阶段（非Level 5全自动），Musk在1月承认，要实现&quot;安全无监督自动驾驶&quot;，还需约100亿英里的数据积累。在欧洲，FSD陪乘测试项目（在德、法、意试行）已因需求旺盛延期至2026年3月继续运营。</p>\n<h4 class=\"entry-heading\" id=\"市场与分析师动态\">市场与分析师动态</h4>\n<p>华尔街平均评级为&quot;持有&quot;，12个月平均目标价$393.51（略低于当前价）。JPMorgan给出$145目标价（卖出），Philip Securities给出$215目标价（卖出），显示部分机构对Tesla AI业务转型估值的高度分歧。随着大型科技公司AI业务利润率趋薄，Tesla作为&quot;AI+自动驾驶&quot;故事的溢价面临更严格审视。</p>\n<h4 class=\"entry-heading\" id=\"其他值得关注\">其他值得关注</h4>\n<ul><li>特斯拉全电动Semi正式准备进入欧洲市场</li><li>BYD 2月销量骤降41%，对Tesla在华竞争压力边际缓解</li></ul>\n<hr class=\"report-rule\" />\n<h3 id=\"amd-amd-重点关注\">⭐ AMD (AMD) — 重点关注</h3>\n<h4 class=\"entry-heading\" id=\"股价\">股价：</h4>\n<p>$203.56（本周约+8%，上周收盘约$188）｜<strong>情绪：</strong> 📈｜<strong>下次财报：</strong> ~2026-04-29</p>\n<h4 class=\"entry-heading\" id=\"meta-战略大单-2月24日重磅\">Meta 战略大单（2月24日重磅）</h4>\n<p>AMD与Meta宣布<strong>扩大战略合作，Meta承诺部署6吉瓦（GW）AMD Instinct GPU</strong>，覆盖多代产品。首批1GW将于2026年下半年开始交付，使用基于<strong>MI450架构的定制Instinct GPU</strong>及第6代EPYC CPU（代号&quot;Venice&quot;）。按每吉瓦带来&quot;数十亿美元&quot;的数据中心AI营收测算，这是AMD历史上最重要的客户合同之一。</p>\n<p>AMD向Meta发行了<strong>1.6亿股认股权证</strong>（绩效挂钩，随GPU出货里程碑分批归属）。分析师随即上调目标价，The Street Pro表示Meta大单将推动AMD数据中心AI业务收入&quot;显著增长&quot;。</p>\n<h4 class=\"entry-heading\" id=\"q4-2025-财报-2月4日\">Q4 2025 财报（2月4日）</h4>\n<p>Q4营收<strong>$102.7亿</strong>（超预期$96.7亿），但Q1 2026指引低于部分分析师预期，导致2月4日财报当日股价暴跌<strong>约17%</strong>（从约$207跌至约$172）。随后，2月24日Meta大单公告推动股价显著反弹至$203.56，年初至今仅小幅下跌<strong>-1.54%</strong>，基本收复失地。</p>\n<h4 class=\"entry-heading\" id=\"gpu-产品路线图\">GPU 产品路线图</h4>\n<p>Meta大单涉及MI300X（已量产）、MI350及定制MI450，显示AMD GPU代际规划得到大客户背书。34位分析师给出&quot;买入&quot;共识，平均目标价<strong>$265.18</strong>，较当前$203.56仍有约30%的上行空间。</p>\n<hr class=\"report-rule\" />\n<h3 id=\"nvidia-nvda\">Nvidia (NVDA)</h3>\n<h4 class=\"entry-heading\" id=\"股价\">股价：</h4>\n<p>$177.19（本周-5.5%，YTD ~+28%）｜<strong>情绪：</strong> ➡️｜<strong>下次财报：</strong> ~2026-05-28</p>\n<p>Nvidia公布Q4 FY2026（截至2026年1月）业绩：营收<strong>$681亿</strong>，同比+73%，环比+20%；全财年营收<strong>$2159亿</strong>，同比+65%，均创历史新高。Q1 FY2027营收指引为<strong>$780亿（±2%）</strong>，同比指引增长约77%。</p>\n<p>尽管数据亮眼，市场依然抛售（-5.5%）。关键隐忧在于：&quot;Big Four&quot;超大规模云厂商（AWS、Azure、Google Cloud、Meta）合计贡献Nvidia营收约36%，客户集中度过高。若这四家2026年合计$7000亿资本支出出现任何减速，Nvidia将首当其冲。</p>\n<p>分析师整体仍看多：Citi上调目标价至$300（较当前约+53%），CICC上调至$240.60（&quot;跑赢&quot;）。GTC大会将于<strong>3月中旬</strong>举行，市场期待Nvidia展示新一代AI计算架构，被视为重要的股价催化剂。</p>\n<hr class=\"report-rule\" />\n<h3 id=\"palantir-pltr\">Palantir (PLTR)</h3>\n<h4 class=\"entry-heading\" id=\"股价\">股价：</h4>\n<p>$137.20（本周约-2%，YTD -25.16%）｜<strong>情绪：</strong> 📈｜<strong>下次财报：</strong> ~2026-05-05</p>\n<p>Palantir Q4营收<strong>$14.1亿</strong>（超预期$13.3亿），调整后EPS 25美分（超预期23美分），财报后股价一度跳涨约7%。公司2026年全年指引增长+61%，有望以&quot;软件史上最快速度、最高利润率&quot;冲击$100亿年营收。</p>\n<p>美国政府合同动能强劲：2025年12月与美国海军签订$4.48亿合同，BofA分析师称这&quot;只是开始&quot;。Airbus Skywise航空数据平台多年协议续签（服务超5万日活用户），商业客户扩张势头良好。</p>\n<p>风险：当前股价对应约183倍调整后PE，估值极高，已从历史峰值下跌约34%。分析师3月2日密集上调2026/2027年EPS预测（分别大幅上调约30-31%），共识目标价进一步上移，但高估值下股价短期承压。</p>\n<hr class=\"report-rule\" />\n<h3 id=\"google-alphabet-googl\">Google / Alphabet (GOOGL)</h3>\n<h4 class=\"entry-heading\" id=\"股价\">股价：</h4>\n<p>~$313（本周约-1%，上周收盘约$316）｜<strong>情绪：</strong> ➡️｜<strong>下次财报：</strong> ~2026-04-28</p>\n<p>Alphabet Q4营收同比+18%至<strong>$1130亿</strong>，Google Cloud加速至同比+48%（连续两季加速）。Gemini AI应用月活突破<strong>7.5亿</strong>，AI产品矩阵表现强劲。</p>\n<p>最大争议在于2026年<strong>资本支出指引$1750-1850亿</strong>（同比翻倍），市场担心短期利润率承压。分析师看法分化：JPMorgan维持买入，目标价$395；Wells Fargo上调至$350（中性评级）。股价距历史高点$349约下跌10%。</p>\n<p>反垄断风险不容忽视：DOJ联合35州于2月上诉，要求针对搜索垄断案施加更严厉的结构性救济（可能涉及强制剥离Chrome或Android），法律不确定性将持续悬挂于股价之上。</p>\n<hr class=\"report-rule\" />\n<h3 id=\"micron-technology-mu\">Micron Technology (MU)</h3>\n<h4 class=\"entry-heading\" id=\"股价\">股价：</h4>\n<p>$412.37（本周约-4%，YTD +47%）｜<strong>情绪：</strong> 📈｜<strong>下次财报：</strong> <strong>2026-03-18</strong></p>\n<p>2月24日，Micron在印度海得拉巴正式开设<strong>印度首座半导体封装测试工厂</strong>，标志着在地化供应链战略取得阶段性成果。同日宣布，公司将于3月18日发布第二财季（FY2026 Q2）业绩。</p>\n<p>AI驱动的内存需求持续超预期：Goldman Sachs发出&quot;内存危机&quot;（Great Memory Crunch）预警，HBM（高带宽内存）供给严重短缺。S&amp;P将Micron信用评级上调至BBB，Needham将目标价从$380上调至<strong>$450</strong>（买入），反映AI算力基础设施持续扩张对HBM的强劲需求。Micron正投入<strong>$2000亿</strong>扩大制造产能。</p>\n<p>根据46位分析师的共识，MU当前评级为&quot;买入&quot;。<strong>3月18日财报将是近期最重要的催化剂</strong>，市场将密切关注HBM出货量指引及全年营收展望。</p>\n<hr class=\"report-rule\" />\n<h3 id=\"paypal-pypl\">PayPal (PYPL)</h3>\n<h4 class=\"entry-heading\" id=\"股价\">股价：</h4>\n<p>$40.42（本周约-28%，YTD ~-49%）｜<strong>情绪：</strong> 📉｜<strong>下次财报：</strong> ~2026-04-29</p>\n<p>本周PayPal利空集中爆发：</p>\n<ul><li><strong>CEO更替</strong>：Alex Chriss 被免职，HP CEO Enrique Lores 于3月1日正式上任；过渡期由CFO Jamie Miller代任</li><li><strong>业绩不及预期</strong>：Q4营收$86.8亿（预期$88亿），调整后EPS $1.23（预期$1.28），2026年盈利指引低迷</li><li><strong>收购传闻风波</strong>：2月24日 Stripe 收购传闻推动股价短暂反弹，2月26日 Stripe 公开否认，股价随即回落</li><li><strong>法律风险</strong>：针对2025年2月至2026年2月期间的证券欺诈集体诉讼已立案，截止日4月20日</li></ul>\n<p>Citigroup将目标价从$60下调至<strong>$42</strong>。此外，公司宣布每股$0.14现金股息，除权日3月4日。</p>\n<hr class=\"report-rule\" />\n<h3 id=\"unity-software-u\">Unity Software (U)</h3>\n<h4 class=\"entry-heading\" id=\"股价\">股价：</h4>\n<p>$17.13（本周约-8%，YTD ~-50%）｜<strong>情绪：</strong> 📉｜<strong>下次财报：</strong> ~2026-05-07</p>\n<p>Unity于2月11日发布Q4/FY2025财报，表现略好于预期：EPS $0.24（预期$0.20），营收$5.03亿（预期$4.91亿）。但Q1 2026指引收入$4.80-4.90亿、EBITDA $1.05-1.10亿，低于市场预期，导致股价在通胀担忧叠加下进一步下探。</p>\n<p>公司层面，联合创始人 David Helgason 和 Tomer Bar-Zeev 已于2月5日离任，独立董事 Bernard Kim（具有游戏和消费平台背景）将于5月1日接任。公司与 Epic Games 宣布跨平台互操作性合作，广告工具（Ad Quality/Audience Hub）全面开放至游戏及连网电视市场，显示在非游戏端寻找新增长点的努力。</p>\n<hr class=\"report-rule\" />\n<h3 id=\"hims-hers-health-hims\">Hims &amp; Hers Health (HIMS)</h3>\n<h4 class=\"entry-heading\" id=\"股价\">股价：</h4>\n<p>$15.82（本周约-4%，YTD -51.8%）｜<strong>情绪：</strong> 📉｜<strong>下次财报：</strong> ~2026-05-06</p>\n<p>Hims &amp; Hers于2月23日发布Q4/FY2025财报：全年营收<strong>$23.5亿</strong>（同比+59%），净利润$1.28亿，调整后EBITDA $3.18亿，订阅用户突破<strong>250万</strong>（同比+13%）。2026年全年营收指引$27-29亿，EBITDA $3-3.75亿。基本面表现并不差，但股价持续承压。</p>\n<p>核心担忧在于公司宣布<strong>停止销售 Wegovy（司美格鲁肽）</strong>，引发市场对监管打压、GLP-1产品线风险及未来增长引擎缺失的深度忧虑，股价曾单日暴跌<strong>-25.8%</strong>，当前约$14.87，距52周高点$70.43已跌约<strong>79%</strong>。</p>\n<p>公司管理层将于3月2日（今日）出席<strong>摩根士丹利TMT大会</strong>，或可提供更多业务展望细节，值得关注。</p>\n<hr class=\"report-rule\" />\n<p><em>数据来源：公开财经资讯（CNBC、Yahoo Finance、AMD官网、Nvidia官网、Hims投资者关系等），截止2026-03-02。股价及涨跌幅为约估值，请以实际市场数据为准。本报告仅供参考，不构成任何投资建议。</em></p>\n<hr class=\"report-rule\" />\n<p>📁 <strong>历史报告</strong>：[上期周报 2026-02-26](portfolio-news-2026-02-26-updated.md)</p>"
   }
 }
