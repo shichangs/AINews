@@ -1,12 +1,14 @@
 const fs = require("fs");
 const path = require("path");
 
+const REPO_ROOT = path.resolve(__dirname, "..", "..");
+const DEFAULT_CONTENT_ROOT = path.join(REPO_ROOT, "content");
 const DAILY_DIR =
-  process.env.AI_NEWS_DAILY_DIR || "/Users/shichangliao/Desktop/ClaudeCode/daily-ai-news";
+  process.env.AI_NEWS_DAILY_DIR || path.join(DEFAULT_CONTENT_ROOT, "daily-ai-news");
 const WEEKLY_DIR =
   process.env.AI_NEWS_WEEKLY_DIR || path.join(DAILY_DIR, "weekly");
 const PORTFOLIO_DIR =
-  process.env.AI_NEWS_PORTFOLIO_DIR || "/Users/shichangliao/Desktop/ClaudeCode/portfolio-news";
+  process.env.AI_NEWS_PORTFOLIO_DIR || path.join(DEFAULT_CONTENT_ROOT, "portfolio-news");
 
 function listMarkdownFiles(dirPath) {
   if (!fs.existsSync(dirPath)) {
