@@ -26,6 +26,7 @@ const elements = {
   articleTitle: document.getElementById("article-title"),
   articleSummary: document.getElementById("article-summary"),
   reportContent: document.getElementById("report-content"),
+  lastUpdated: document.getElementById("last-updated"),
 };
 
 function formatGeneratedAt(isoString) {
@@ -255,6 +256,13 @@ function initFromUrl() {
   }
 }
 
+function renderLastUpdated() {
+  if (!elements.lastUpdated) {
+    return;
+  }
+  elements.lastUpdated.textContent = `最后更新：${formatGeneratedAt(state.siteData?.generatedAt)}`;
+}
+
 function bindEvents() {
   elements.tabStrip.querySelectorAll(".tab-button").forEach((button) => {
     button.addEventListener("click", () => {
@@ -299,10 +307,12 @@ async function init() {
     if (elements.fontSizeSwitch) {
       elements.fontSizeSwitch.title = `最近同步：${formatGeneratedAt(state.siteData.generatedAt)}`;
     }
+    renderLastUpdated();
     updateUrl();
     render();
   } catch (error) {
     showError("未能读取站点数据。请先运行同步脚本，再刷新页面。");
+    renderLastUpdated();
     console.error(error);
   }
 }

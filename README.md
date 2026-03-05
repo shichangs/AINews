@@ -23,7 +23,20 @@
 
 如果 `weekly` 目录为空，会自动用最近日报生成周汇总。
 
-## 本地生成与预览
+## 本地预览（推荐）
+
+推送前先本地检查，确认无误再 push：
+
+```bash
+node scripts/preview-local.js --watch
+```
+
+- 访问：`http://localhost:8000`
+- 支持自动同步：当 `content/` 或外部映射目录的 markdown 变化时，会自动重跑生成
+- 停止：`Ctrl + C`
+- 自定义端口：`AI_NEWS_PREVIEW_PORT=8010 node scripts/preview-local.js --watch`
+
+## 本地生成与预览（手动）
 
 ```bash
 node scripts/sync-content.js

@@ -3,23 +3,24 @@
 <plist version="1.0">
   <dict>
     <key>Label</key>
-    <string>com.shichangliao.ainews.sync</string>
+    <string>com.ainews.sync</string>
 
     <key>ProgramArguments</key>
     <array>
-      <string>/usr/local/bin/node</string>
-      <string>/Users/shichangliao/Desktop/codes/MyAppStore/AINews/scripts/auto-sync-and-publish.js</string>
+      <string>/usr/bin/env</string>
+      <string>node</string>
+      <string>/Users/sc-claw/Desktop/Github/ai-news/scripts/auto-sync-and-publish.js</string>
     </array>
 
     <key>WorkingDirectory</key>
-    <string>/Users/shichangliao/Desktop/codes/MyAppStore/AINews</string>
+    <string>/Users/sc-claw/Desktop/Github/ai-news</string>
 
     <key>EnvironmentVariables</key>
     <dict>
       <key>HOME</key>
-      <string>/Users/shichangliao</string>
+      <string>/Users/sc-claw</string>
       <key>PATH</key>
-      <string>/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+      <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
       <key>GIT_TERMINAL_PROMPT</key>
       <string>0</string>
     </dict>
@@ -34,9 +35,9 @@
     <string>Background</string>
 
     <key>StandardOutPath</key>
-    <string>/Users/shichangliao/Desktop/codes/MyAppStore/AINews/logs/sync.log</string>
+    <string>/tmp/ai-news-sync.log</string>
 
     <key>StandardErrorPath</key>
-    <string>/Users/shichangliao/Desktop/codes/MyAppStore/AINews/logs/sync.error.log</string>
+    <string>/tmp/ai-news-sync.error.log</string>
   </dict>
 </plist>

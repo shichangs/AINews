@@ -4,14 +4,14 @@ This project uses a macOS LaunchAgent to run content sync on a schedule.
 
 ## Job identity
 
-- Label: `com.shichangliao.ainews.sync`
-- Installed plist: `/Users/shichangliao/Library/LaunchAgents/com.shichangliao.ainews.sync.plist`
-- Template plist: `/Users/shichangliao/Desktop/codes/MyAppStore/AINews/launchd/com.shichangliao.ainews.sync.plist`
+- Label: `com.ainews.sync`
+- Installed plist: `~/Library/LaunchAgents/com.ainews.sync.plist`
+- Template plist: `/Users/sc-claw/Desktop/Github/ai-news/launchd/com.ainews.sync.plist`
 
 ## What it runs
 
 ```bash
-/usr/local/bin/node /Users/shichangliao/Desktop/codes/MyAppStore/AINews/scripts/auto-sync-and-publish.js
+/usr/bin/env node /Users/sc-claw/Desktop/Github/ai-news/scripts/auto-sync-and-publish.js
 ```
 
 ## Schedule
@@ -23,40 +23,41 @@ This project uses a macOS LaunchAgent to run content sync on a schedule.
 
 ## Logs
 
-- Stdout: `/Users/shichangliao/Desktop/codes/MyAppStore/AINews/logs/sync.log`
-- Stderr: `/Users/shichangliao/Desktop/codes/MyAppStore/AINews/logs/sync.error.log`
+- Stdout: `/tmp/ai-news-sync.log`
+- Stderr: `/tmp/ai-news-sync.error.log`
 
 ## Common commands
 
 Load the job:
 
 ```bash
-launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.shichangliao.ainews.sync.plist
+cp /Users/sc-claw/Desktop/Github/ai-news/launchd/com.ainews.sync.plist ~/Library/LaunchAgents/com.ainews.sync.plist
+launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.ainews.sync.plist
 ```
 
 Run it immediately:
 
 ```bash
-launchctl kickstart -k gui/$(id -u)/com.shichangliao.ainews.sync
+launchctl kickstart -k gui/$(id -u)/com.ainews.sync
 ```
 
 Unload it:
 
 ```bash
-launchctl bootout gui/$(id -u) ~/Library/LaunchAgents/com.shichangliao.ainews.sync.plist
+launchctl bootout gui/$(id -u) ~/Library/LaunchAgents/com.ainews.sync.plist
 ```
 
 Inspect status:
 
 ```bash
-launchctl print gui/$(id -u)/com.shichangliao.ainews.sync
+launchctl print gui/$(id -u)/com.ainews.sync
 ```
 
 Watch logs:
 
 ```bash
-tail -f /Users/shichangliao/Desktop/codes/MyAppStore/AINews/logs/sync.log
-tail -f /Users/shichangliao/Desktop/codes/MyAppStore/AINews/logs/sync.error.log
+tail -f /tmp/ai-news-sync.log
+tail -f /tmp/ai-news-sync.error.log
 ```
 
 ## Notes
@@ -64,3 +65,4 @@ tail -f /Users/shichangliao/Desktop/codes/MyAppStore/AINews/logs/sync.error.log
 - The Mac must be powered on for the job to run.
 - This is a user LaunchAgent, so your user session must be logged in.
 - If the machine is shut down or asleep, scheduled runs do not happen.
+- If your repo is not at `/Users/sc-claw/Desktop/Github/ai-news`, update that absolute path inside `launchd/com.ainews.sync.plist` before loading.

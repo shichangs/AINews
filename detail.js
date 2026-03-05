@@ -7,6 +7,7 @@ const elements = {
   storyJumps: document.getElementById("story-jumps"),
   reportContent: document.getElementById("report-content"),
   issueList: document.getElementById("issue-list"),
+  lastUpdated: document.getElementById("last-updated"),
 };
 
 function getIssueId() {
@@ -81,6 +82,13 @@ function shouldShowLeadSummary(issue) {
   return !/^<h[2-6]\b/i.test(htmlContent);
 }
 
+function renderLastUpdated(isoString) {
+  if (!elements.lastUpdated) {
+    return;
+  }
+  elements.lastUpdated.textContent = `最后更新：${formatGeneratedAt(isoString)}`;
+}
+
 async function init() {
   elements.reportContent.innerHTML = '<div class="empty-state">正在载入完整日报…</div>';
   try {
@@ -113,12 +121,14 @@ async function init() {
 
     renderJumpList(currentIssue);
     renderIssueFeed(siteData, currentIssue);
+    renderLastUpdated(siteData.generatedAt);
 
     requestAnimationFrame(scrollToHash);
   } catch (error) {
     elements.issueSummary.textContent = "请先运行同步脚本生成数据，然后刷新页面。";
     elements.reportContent.innerHTML =
       '<div class="empty-state">未能读取完整日报数据。请检查 data/site-data.json 是否存在。</div>';
+    renderLastUpdated();
     console.error(error);
   }
 }

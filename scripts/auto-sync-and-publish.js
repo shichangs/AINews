@@ -5,7 +5,7 @@ const { execFileSync } = require("child_process");
 
 const REPO_ROOT = path.join(__dirname, "..");
 const NODE_BIN = process.execPath;
-const GIT_BIN = process.env.AI_NEWS_GIT_BIN || "/usr/local/bin/git";
+const GIT_BIN = process.env.AI_NEWS_GIT_BIN || "git";
 const SYNC_SCRIPT = path.join(__dirname, "sync-content.js");
 const OUTPUT_FILE = path.join(REPO_ROOT, "data", "site-data.json");
 const STATE_PATH =
@@ -14,15 +14,16 @@ const STATE_PATH =
 const LEGACY_STATE_PATH = path.join(REPO_ROOT, "logs", "auto-publish-state.json");
 const COMMIT_MESSAGE = "chore: update generated AI news data";
 const DAILY_DIR =
-  process.env.AI_NEWS_DAILY_DIR || "/Users/shichangliao/Desktop/ClaudeCode/daily-ai-news";
+  process.env.AI_NEWS_DAILY_DIR || path.join(os.homedir(), "Desktop", "ClaudeCode", "daily-ai-news");
 const WEEKLY_DIR =
   process.env.AI_NEWS_WEEKLY_DIR || path.join(DAILY_DIR, "weekly");
 const PORTFOLIO_DIR =
-  process.env.AI_NEWS_PORTFOLIO_DIR || "/Users/shichangliao/Desktop/ClaudeCode/portfolio-news";
+  process.env.AI_NEWS_PORTFOLIO_DIR ||
+  path.join(os.homedir(), "Desktop", "ClaudeCode", "portfolio-news");
 const EXEC_ENV = {
   ...process.env,
   HOME: process.env.HOME || os.homedir(),
-  PATH: process.env.PATH || "/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin",
+  PATH: process.env.PATH || "/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin",
   GIT_TERMINAL_PROMPT: process.env.GIT_TERMINAL_PROMPT || "0",
 };
 const FS_RETRY_MAX = 8;
