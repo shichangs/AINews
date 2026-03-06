@@ -23,6 +23,12 @@
       <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
       <key>GIT_TERMINAL_PROMPT</key>
       <string>0</string>
+      <key>AI_NEWS_DAILY_DIR</key>
+      <string>/Users/sc-claw/Desktop/ClaudeCode/daily-ai-news</string>
+      <key>AI_NEWS_WEEKLY_DIR</key>
+      <string>/Users/sc-claw/Desktop/ClaudeCode/daily-ai-news/weekly</string>
+      <key>AI_NEWS_PORTFOLIO_DIR</key>
+      <string>/Users/sc-claw/Desktop/ClaudeCode/portfolio-news</string>
     </dict>
 
     <key>RunAtLoad</key>

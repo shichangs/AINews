@@ -20,6 +20,11 @@ const WEEKLY_DIR =
 const PORTFOLIO_DIR =
   process.env.AI_NEWS_PORTFOLIO_DIR ||
   path.join(os.homedir(), "Desktop", "ClaudeCode", "portfolio-news");
+
+// Repo-local content directories (single source for site build)
+const CONTENT_DAILY_DIR = path.join(REPO_ROOT, "content", "daily-ai-news");
+const CONTENT_WEEKLY_DIR = path.join(CONTENT_DAILY_DIR, "weekly");
+const CONTENT_PORTFOLIO_DIR = path.join(REPO_ROOT, "content", "portfolio-news");
 const EXEC_ENV = {
   ...process.env,
   HOME: process.env.HOME || os.homedir(),
@@ -116,6 +121,43 @@ function buildSourceSignature() {
     .join("|");
 }
 
+function isEligibleSourceFile(srcDir, fileName) {
+  if (srcDir === DAILY_DIR || srcDir === WEEKLY_DIR) {
+    return /^\d{4}-\d{2}-\d{2}\.md$/.test(fileName);
+  }
+  if (srcDir === PORTFOLIO_DIR) {
+    return /^portfolio-news-\d{4}-\d{2}-\d{2}\.md$/.test(fileName);
+  }
+  return true;
+}
+
+function copyMarkdownFiles(srcDir, dstDir) {
+  if (!fs.existsSync(srcDir)) {
+    return 0;
+  }
+  withFsRetry(() => fs.mkdirSync(dstDir, { recursive: true }));
+  let copied = 0;
+  for (const fileName of listMarkdownFiles(srcDir).filter((f) => isEligibleSourceFile(srcDir, f))) {
+    const src = path.join(srcDir, fileName);
+    const dst = path.join(dstDir, fileName);
+    const srcContent = withFsRetry(() => fs.readFileSync(src, "utf8"));
+    const dstContent = fs.existsSync(dst) ? withFsRetry(() => fs.readFileSync(dst, "utf8")) : null;
+    if (dstContent !== srcContent) {
+      withFsRetry(() => fs.writeFileSync(dst, srcContent, "utf8"));
+      copied += 1;
+    }
+  }
+  return copied;
+}
+
+function syncExternalSourcesToRepo() {
+  let changed = 0;
+  changed += copyMarkdownFiles(DAILY_DIR, CONTENT_DAILY_DIR);
+  changed += copyMarkdownFiles(WEEKLY_DIR, CONTENT_WEEKLY_DIR);
+  changed += copyMarkdownFiles(PORTFOLIO_DIR, CONTENT_PORTFOLIO_DIR);
+  return changed;
+}
+
 function readState() {
   const candidates = [STATE_PATH, LEGACY_STATE_PATH];
   for (const filePath of candidates) {
@@ -163,7 +205,16 @@ function hasOnlyAutoCommits(subjects) {
 }
 
 function hasGeneratedDiff() {
-  return Boolean(exec(GIT_BIN, ["status", "--porcelain", "--", "data/site-data.json"]));
+  return Boolean(
+    exec(GIT_BIN, [
+      "status",
+      "--porcelain",
+      "--",
+      "data/site-data.json",
+      "content/daily-ai-news",
+      "content/portfolio-news",
+    ]),
+  );
 }
 
 function syncContent() {
@@ -174,14 +225,28 @@ function syncContent() {
 }
 
 function commitGeneratedData() {
-  exec(GIT_BIN, ["add", "--", "data/site-data.json"]);
+  exec(GIT_BIN, [
+    "add",
+    "--",
+    "data/site-data.json",
+    "content/daily-ai-news",
+    "content/portfolio-news",
+  ]);
 
   if (!hasGeneratedDiff()) {
-    console.log("[auto] data/site-data.json has no git diff after sync.");
+    console.log("[auto] No publishable diff after sync.");
     return false;
   }
 
-  const output = exec(GIT_BIN, ["commit", "-m", COMMIT_MESSAGE, "--", "data/site-data.json"]);
+  const output = exec(GIT_BIN, [
+    "commit",
+    "-m",
+    COMMIT_MESSAGE,
+    "--",
+    "data/site-data.json",
+    "content/daily-ai-news",
+    "content/portfolio-news",
+  ]);
   if (output) {
     process.stdout.write(`${output}\n`);
   }
@@ -205,9 +270,7 @@ function main() {
   }
 
   if (!state.sourceSignature) {
-    writeState(sourceSignature);
-    console.log("[auto] Initialized source signature. Waiting for the next content change.");
-    return;
+    console.log("[auto] Initialized source signature; continue with first full sync.");
   }
 
   const branch = getCurrentBranch();
@@ -223,20 +286,28 @@ function main() {
   }
 
   if (sourceSignature === state.sourceSignature) {
-    if (hasOnlyAutoCommits(unpushedSubjects)) {
-      try {
-        pushMain();
-        console.log("[auto] Pushed pending auto-publish commit(s) to origin/main.");
-      } catch (error) {
-        console.error("[auto] Push retry failed. Pending auto commit(s) were kept locally.");
-        process.exitCode = 1;
+    const copied = syncExternalSourcesToRepo();
+    if (copied > 0) {
+      console.log(`[auto] Source signature unchanged but repo content drift detected. Synced ${copied} file(s).`);
+    } else {
+      if (hasOnlyAutoCommits(unpushedSubjects)) {
+        try {
+          pushMain();
+          console.log("[auto] Pushed pending auto-publish commit(s) to origin/main.");
+        } catch (error) {
+          console.error("[auto] Push retry failed. Pending auto commit(s) were kept locally.");
+          process.exitCode = 1;
+        }
+        return;
       }
+
+      console.log("[auto] No source content change. Skip sync.");
       return;
     }
-
-    console.log("[auto] No source content change. Skip sync.");
-    return;
   }
+
+  const copied = syncExternalSourcesToRepo();
+  console.log(`[auto] Synced ${copied} markdown file(s) into repo content/.`);
 
   syncContent();
 
