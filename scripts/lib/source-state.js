@@ -9,6 +9,8 @@ const WEEKLY_DIR =
   process.env.AI_NEWS_WEEKLY_DIR || path.join(DAILY_DIR, "weekly");
 const PORTFOLIO_DIR =
   process.env.AI_NEWS_PORTFOLIO_DIR || path.join(DEFAULT_CONTENT_ROOT, "portfolio-news");
+const TECH_DIR =
+  process.env.AI_NEWS_TECH_DIR || path.join(DEFAULT_CONTENT_ROOT, "weekly-ai-tech");
 
 function listMarkdownFiles(dirPath) {
   if (!fs.existsSync(dirPath)) {
@@ -21,7 +23,7 @@ function listMarkdownFiles(dirPath) {
 }
 
 function getSourceDirectories() {
-  return [...new Set([DAILY_DIR, WEEKLY_DIR, PORTFOLIO_DIR].map((dirPath) => path.resolve(dirPath)))]
+  return [...new Set([DAILY_DIR, WEEKLY_DIR, PORTFOLIO_DIR, TECH_DIR].map((dirPath) => path.resolve(dirPath)))]
     .filter((dirPath) => fs.existsSync(dirPath));
 }
 
@@ -50,6 +52,7 @@ module.exports = {
   DAILY_DIR,
   WEEKLY_DIR,
   PORTFOLIO_DIR,
+  TECH_DIR,
   listMarkdownFiles,
   getSourceDirectories,
   buildSourceSignature,

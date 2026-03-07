@@ -20,11 +20,14 @@ const WEEKLY_DIR =
 const PORTFOLIO_DIR =
   process.env.AI_NEWS_PORTFOLIO_DIR ||
   path.join(os.homedir(), "Desktop", "ClaudeCode", "portfolio-news");
+const TECH_DIR =
+  process.env.AI_NEWS_TECH_DIR || path.join(os.homedir(), "Desktop", "ClaudeCode", "weekly-ai-tech");
 
 // Repo-local content directories (single source for site build)
 const CONTENT_DAILY_DIR = path.join(REPO_ROOT, "content", "daily-ai-news");
 const CONTENT_WEEKLY_DIR = path.join(CONTENT_DAILY_DIR, "weekly");
 const CONTENT_PORTFOLIO_DIR = path.join(REPO_ROOT, "content", "portfolio-news");
+const CONTENT_TECH_DIR = path.join(REPO_ROOT, "content", "weekly-ai-tech");
 const EXEC_ENV = {
   ...process.env,
   HOME: process.env.HOME || os.homedir(),
@@ -96,7 +99,7 @@ function listMarkdownFiles(dirPath) {
 }
 
 function getSourceDirectories() {
-  return [...new Set([DAILY_DIR, WEEKLY_DIR, PORTFOLIO_DIR].map((dirPath) => path.resolve(dirPath)))]
+  return [...new Set([DAILY_DIR, WEEKLY_DIR, PORTFOLIO_DIR, TECH_DIR].map((dirPath) => path.resolve(dirPath)))]
     .filter((dirPath) => fs.existsSync(dirPath));
 }
 
@@ -128,6 +131,9 @@ function isEligibleSourceFile(srcDir, fileName) {
   if (srcDir === PORTFOLIO_DIR) {
     return /^portfolio-news-\d{4}-\d{2}-\d{2}\.md$/.test(fileName);
   }
+  if (srcDir === TECH_DIR) {
+    return /^weekly-ai-tech-\d{4}-\d{2}-\d{2}\.md$/.test(fileName);
+  }
   return true;
 }
 
@@ -155,6 +161,7 @@ function syncExternalSourcesToRepo() {
   changed += copyMarkdownFiles(DAILY_DIR, CONTENT_DAILY_DIR);
   changed += copyMarkdownFiles(WEEKLY_DIR, CONTENT_WEEKLY_DIR);
   changed += copyMarkdownFiles(PORTFOLIO_DIR, CONTENT_PORTFOLIO_DIR);
+  changed += copyMarkdownFiles(TECH_DIR, CONTENT_TECH_DIR);
   return changed;
 }
 
@@ -213,6 +220,7 @@ function hasGeneratedDiff() {
       "data/site-data.json",
       "content/daily-ai-news",
       "content/portfolio-news",
+      "content/weekly-ai-tech",
     ]),
   );
 }

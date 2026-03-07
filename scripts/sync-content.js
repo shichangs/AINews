@@ -4,6 +4,7 @@ const {
   DAILY_DIR,
   WEEKLY_DIR,
   PORTFOLIO_DIR,
+  TECH_DIR,
   listMarkdownFiles,
   getSourceDirectories,
   buildSourceSignature,
@@ -41,7 +42,9 @@ function syncContent() {
 
   const weeklyReports = getWeeklyReports(issues);
   const portfolioReports = getPortfolioReports();
+  const weeklyAiTechReports = getWeeklyAiTechReports();
   const marketBrief = portfolioReports[0] || null;
+  const latestWeeklyAiTech = weeklyAiTechReports[0] || null;
 
   if (!issues.length) {
     throw new Error(`No daily markdown files found in ${DAILY_DIR}`);
@@ -54,12 +57,15 @@ function syncContent() {
       daily: DAILY_DIR,
       weekly: WEEKLY_DIR,
       portfolio: PORTFOLIO_DIR,
+      weeklyAiTech: TECH_DIR,
     },
     issues,
     weeklyReports,
     weeklyDigest: weeklyReports[0] || null,
     portfolioReports,
     marketBrief,
+    weeklyAiTechReports,
+    latestWeeklyAiTech,
   };
 
   fs.writeFileSync(OUTPUT_PATH, `${JSON.stringify(payload, null, 2)}\n`, "utf8");
@@ -210,6 +216,12 @@ function getPortfolioReports() {
   return sortMarkdownFilesByMtime(PORTFOLIO_DIR).map((filePath) => parseMarketBrief(filePath));
 }
 
+function getWeeklyAiTechReports() {
+  return sortMarkdownFilesByMtime(TECH_DIR)
+    .filter((filePath) => /^weekly-ai-tech-\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(filePath)))
+    .map((filePath) => parseWeeklyAiTechReport(filePath));
+}
+
 function parseWeeklyDigest(filePath) {
   const markdown = fs.readFileSync(filePath, "utf8");
   const lines = splitLines(markdown);
@@ -234,6 +246,36 @@ function parseWeeklyDigest(filePath) {
       title: story.title,
       detail: story.detail,
     })),
+    sourceFile: filePath,
+    htmlContent: markdownToHtml(markdown),
+  };
+}
+
+function parseWeeklyAiTechReport(filePath) {
+  const markdown = fs.readFileSync(filePath, "utf8");
+  const lines = splitLines(markdown);
+  const id = path.basename(filePath, ".md");
+  const date = extractDateFromId(id);
+  const title = extractFirstHeading(lines) || "AI 技术周报";
+  const stories = extractStories(lines).slice(0, 12);
+  const summary =
+    extractSummary(lines, ["本周导读", "导读", "今日摘要", "摘要"]) ||
+    extractFirstParagraph(lines) ||
+    "暂无技术周报摘要。";
+
+  return {
+    id,
+    date,
+    label: date ? formatIssueLabel(date) : "最新",
+    title: cleanHeadingText(title),
+    summary,
+    coverageLabel: "技术周报",
+    coverage: [],
+    highlights: stories.map((story) => ({
+      title: story.title,
+      detail: story.detail,
+    })),
+    stories,
     sourceFile: filePath,
     htmlContent: markdownToHtml(markdown),
   };
@@ -804,6 +846,17 @@ function markdownToHtml(markdown) {
     flushTable();
   }
 
+  function isInlineHeadingMeta(text) {
+    const trimmed = String(text).trim();
+    if (!trimmed || trimmed.length > 80) {
+      return false;
+    }
+    return (
+      (/^（[^）]+）$/u.test(trimmed) || /^\([^)]+\)$/.test(trimmed)) &&
+      !/[。！？:：]$/u.test(trimmed)
+    );
+  }
+
   for (const rawLine of lines) {
     const line = rawLine.trim();
 
@@ -873,10 +926,18 @@ function markdownToHtml(markdown) {
     const boldHeading = line.match(/^\*\*(.+?)\*\*(.*)$/);
     if (boldHeading && line.length < 260) {
       flushAll();
-      const title = stripMarkdown(boldHeading[1]).trim();
+      const titleMarkdown = boldHeading[1].trim();
+      const title = stripMarkdown(titleMarkdown).trim();
       const id = slugify(title);
-      html.push(`<h4 class="entry-heading" id="${id}">${formatInline(title)}</h4>`);
       const trailing = boldHeading[2].trim();
+      if (isInlineHeadingMeta(trailing)) {
+        html.push(
+          `<h4 class="entry-heading" id="${id}">${formatInline(titleMarkdown)} <span class="entry-meta-inline">${formatInline(trailing)}</span></h4>`,
+        );
+        continue;
+      }
+
+      html.push(`<h4 class="entry-heading" id="${id}">${formatInline(titleMarkdown)}</h4>`);
       if (trailing) {
         paragraph.push(trailing);
       }
@@ -891,14 +952,30 @@ function markdownToHtml(markdown) {
 }
 
 function formatInline(text) {
-  return escapeHtml(text)
+  return autoLinkBareUrls(
+    escapeHtml(text)
     .replace(
       /\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g,
       '<a href="$2" target="_blank" rel="noreferrer">$1</a>',
     )
     .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
     .replace(/\*([^*]+)\*/g, "<em>$1</em>")
-    .replace(/`([^`]+)`/g, "<code>$1</code>");
+    .replace(/`([^`]+)`/g, "<code>$1</code>"),
+  );
+}
+
+function autoLinkBareUrls(text) {
+  return text.replace(/(^|[\s(（:：|])(https?:\/\/[^\s<>"']+)/g, (_match, prefix, rawUrl) => {
+    let url = rawUrl;
+    let trailing = "";
+
+    while (/[),.，;；!?！？）|]$/u.test(url)) {
+      trailing = url.slice(-1) + trailing;
+      url = url.slice(0, -1);
+    }
+
+    return `${prefix}<a href="${url}" target="_blank" rel="noreferrer">${url}</a>${trailing}`;
+  });
 }
 
 function escapeHtml(text) {

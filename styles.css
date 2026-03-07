@@ -8,9 +8,11 @@
   --chip-bg: #f5f1e8;
   --rail-width: 108px;
   --reader-gap: 24px;
-  --reading-measure: 104ch;
-  --reading-summary-size: 1.02rem;
-  --reading-body-size: 1.08rem;
+  --reading-measure: 92ch;
+  --reader-font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", "Songti SC",
+    "Noto Serif CJK SC", Georgia, serif;
+  --reading-summary-size: 0.9rem;
+  --reading-body-size: 0.94rem;
   --reading-line-height: 1.9;
 }
 
@@ -27,25 +29,29 @@ body {
   min-height: 100vh;
   background: var(--page-bg);
   color: var(--ink);
-  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia,
-    serif;
+  font-family: var(--reader-font-family);
+}
+
+body.font-notion {
+  --reader-font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", "Songti SC",
+    "Noto Serif CJK SC", Georgia, serif;
 }
 
 body.reading-compact {
-  --reading-summary-size: 0.96rem;
-  --reading-body-size: 1rem;
+  --reading-summary-size: 0.84rem;
+  --reading-body-size: 0.88rem;
   --reading-line-height: 1.82;
 }
 
 body.reading-default {
-  --reading-summary-size: 1.02rem;
-  --reading-body-size: 1.08rem;
+  --reading-summary-size: 0.9rem;
+  --reading-body-size: 0.94rem;
   --reading-line-height: 1.9;
 }
 
 body.reading-comfortable {
-  --reading-summary-size: 1.12rem;
-  --reading-body-size: 1.18rem;
+  --reading-summary-size: 0.98rem;
+  --reading-body-size: 1.04rem;
   --reading-line-height: 2;
 }
 
@@ -119,37 +125,40 @@ code {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  gap: 10px;
   flex: 0 0 auto;
-  margin-right: max(
-    0px,
-    calc(100% - var(--rail-width) - var(--reader-gap) - var(--reading-measure))
-  );
+  margin-right: calc(100% - var(--rail-width) - var(--reader-gap) - var(--reading-measure));
 }
 
 .font-size-switch {
   display: inline-flex;
   align-items: center;
-  padding: 2px;
-  border: 1px solid var(--line);
+  gap: 2px;
+  padding: 3px;
+  border: 1px solid rgba(27, 28, 31, 0.06);
   border-radius: 999px;
-  background: var(--paper);
+  background: rgba(255, 253, 249, 0.92);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.7);
 }
 
 .font-size-button {
   appearance: none;
-  min-width: 34px;
-  padding: 5px 7px;
+  min-width: 38px;
+  padding: 6px 9px;
   border: 0;
   border-radius: 999px;
   background: transparent;
-  color: var(--muted);
+  color: rgba(93, 85, 72, 0.72);
   cursor: pointer;
-  font-size: 0.94rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1;
 }
 
 .font-size-button.is-active {
-  background: #ece6da;
-  color: var(--ink);
+  background: #ddd3c2;
+  color: #1b1c1f;
+  box-shadow: 0 1px 2px rgba(27, 28, 31, 0.08);
 }
 
 .reader-layout {
@@ -235,7 +244,7 @@ code {
 
 .reader-head h1 {
   margin: 0 0 8px;
-  font-size: clamp(1.78rem, 2.8vw, 2.3rem);
+  font-size: clamp(1.56rem, 2.2vw, 2.02rem);
   line-height: 1.12;
 }
 
@@ -251,6 +260,7 @@ code {
   padding-top: 14px;
   font-size: var(--reading-body-size);
   line-height: var(--reading-line-height);
+  letter-spacing: 0.01em;
 }
 
 .report-content > :first-child {
@@ -265,39 +275,64 @@ code {
 
 .report-content h2 {
   margin: 2rem 0 0.8rem;
-  font-size: clamp(1.55rem, 2.4vw, 2.05rem);
+  font-size: clamp(1.36rem, 2vw, 1.72rem);
   line-height: 1.24;
 }
 
 .report-content h3 {
   margin: 1.8rem 0 0.75rem;
-  font-size: clamp(1.4rem, 2vw, 1.62rem);
+  font-size: clamp(1.24rem, 1.7vw, 1.46rem);
   line-height: 1.28;
 }
 
 .report-content h4 {
-  margin: 1.15rem 0 0.55rem;
+  margin: 1rem 0 0.4rem;
   font-size: 1.18rem;
   line-height: 1.34;
 }
 
 .report-content .topic-heading {
   margin-top: 1.75rem;
-  font-size: clamp(1.28rem, 1.7vw, 1.46rem);
+  font-size: clamp(1.16rem, 1.45vw, 1.32rem);
   line-height: 1.3;
 }
 
 .report-content .entry-heading {
-  margin-top: 1rem;
-  font-size: 1.22rem;
-  line-height: 1.36;
+  margin-top: 0.82rem;
+  font-size: 1.1rem;
+  line-height: 1.3;
+}
+
+.report-content .entry-meta-inline {
+  color: var(--muted);
+  font-size: 0.84em;
+  font-weight: 400;
+  white-space: nowrap;
 }
 
 .report-content p,
 .report-content ul,
 .report-content ol,
 .report-content blockquote {
-  margin: 0 0 1.05em;
+  margin: 0 0 0.92em;
+}
+
+.report-content strong {
+  font-weight: 780;
+  color: #111215;
+  letter-spacing: -0.005em;
+  font-synthesis: weight;
+}
+
+html[lang|="zh"] .report-content strong {
+  font-weight: 780;
+  font-synthesis-weight: auto;
+}
+
+.report-content .entry-heading + p,
+.report-content .entry-heading + ul,
+.report-content .entry-heading + ol {
+  margin-top: 0.2rem;
 }
 
 .report-content p,
@@ -311,10 +346,16 @@ code {
 .report-content ul,
 .report-content ol {
   padding-left: 1.35em;
+  margin-bottom: 0.72em;
+  line-height: 1.54;
 }
 
 .report-content li + li {
-  margin-top: 0.45em;
+  margin-top: 0.22em;
+}
+
+.report-content li {
+  line-height: 1.5;
 }
 
 .report-content blockquote {

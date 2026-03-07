@@ -5,6 +5,7 @@ const FONT_SIZE_OPTIONS = new Set(["compact", "default", "comfortable"]);
 const TAB_CONFIG = {
   daily: { label: "每日 AI 新闻" },
   weekly: { label: "每周 AI 新闻" },
+  aiTech: { label: "AI 技术周报" },
   portfolio: { label: "投资组合汇总" },
 };
 
@@ -15,6 +16,7 @@ const state = {
   selectedIds: {
     daily: null,
     weekly: null,
+    aiTech: null,
     portfolio: null,
   },
 };
@@ -122,6 +124,14 @@ function getCollection(tabKey) {
     }
     if (state.siteData.marketBrief) {
       return [state.siteData.marketBrief];
+    }
+  }
+  if (tabKey === "aiTech") {
+    if (state.siteData.weeklyAiTechReports?.length) {
+      return state.siteData.weeklyAiTechReports;
+    }
+    if (state.siteData.latestWeeklyAiTech) {
+      return [state.siteData.latestWeeklyAiTech];
     }
   }
   return [];
@@ -291,6 +301,7 @@ function bindEvents() {
 }
 
 async function init() {
+  document.body.classList.add("font-notion");
   applyFontSize(getStoredFontSize(), false);
   bindEvents();
   elements.reportContent.innerHTML = '<div class="empty-state">正在载入文章…</div>';

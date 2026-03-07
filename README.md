@@ -19,6 +19,7 @@
 
 - 日报：`content/daily-ai-news/*.md`
 - 周报（可选）：`content/daily-ai-news/weekly/*.md`
+- AI 技术周报：`content/weekly-ai-tech/*.md`
 - 投资组合：`content/portfolio-news/*.md`
 
 如果 `weekly` 目录为空，会自动用最近日报生成周汇总。
@@ -52,6 +53,7 @@ python3 -m http.server 8000
 ```bash
 AI_NEWS_DAILY_DIR=/your/daily/path \
 AI_NEWS_WEEKLY_DIR=/your/weekly/path \
+AI_NEWS_TECH_DIR=/your/weekly-ai-tech/path \
 AI_NEWS_PORTFOLIO_DIR=/your/portfolio/path \
 node scripts/sync-content.js
 ```
