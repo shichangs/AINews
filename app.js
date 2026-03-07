@@ -184,6 +184,13 @@ function shouldShowLeadSummary(item) {
     return false;
   }
   const htmlContent = (item.htmlContent || "").trimStart();
+
+  // Clean up markdown/html artifacts from the summary string to do a simple text check
+  const cleanSummaryPrefix = item.summary.replace(/^[>\s*-]+/, "").trim().substring(0, 15);
+  if (cleanSummaryPrefix && htmlContent.includes(cleanSummaryPrefix)) {
+    return false;
+  }
+
   return !/^<h[2-6]\b/i.test(htmlContent);
 }
 
@@ -238,7 +245,10 @@ function renderArticle() {
   const showSummary = shouldShowLeadSummary(item);
   elements.articleSummary.hidden = !showSummary;
   elements.articleSummary.textContent = showSummary ? item.summary : "";
-  elements.reportContent.innerHTML = item.htmlContent || "";
+
+  // Wrap existing HTML in a standard detail layout if it doesn't already have one
+  const layoutContentWrapper = `<div class="detail-article reveal">${item.htmlContent || ""}</div>`;
+  elements.reportContent.innerHTML = layoutContentWrapper;
 }
 
 function render() {

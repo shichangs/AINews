@@ -1,19 +1,18 @@
 :root {
-  --page-bg: #f7f4ee;
-  --paper: #fffdf9;
-  --ink: #1b1c1f;
-  --muted: #5d5548;
-  --line: rgba(27, 28, 31, 0.08);
-  --line-strong: rgba(27, 28, 31, 0.12);
-  --chip-bg: #f5f1e8;
+  --page-bg: #f5f5f7;
+  --paper: #ffffff;
+  --ink: #1d1d1f;
+  --muted: #86868b;
+  --line: rgba(0, 0, 0, 0.05);
+  --line-strong: rgba(0, 0, 0, 0.12);
+  --chip-bg: rgba(0, 0, 0, 0.04);
   --rail-width: 108px;
   --reader-gap: 24px;
   --reading-measure: 92ch;
-  --reader-font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", "Songti SC",
-    "Noto Serif CJK SC", Georgia, serif;
-  --reading-summary-size: 0.9rem;
-  --reading-body-size: 0.94rem;
-  --reading-line-height: 1.9;
+  --reader-font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+  --reading-summary-size: 0.95rem;
+  --reading-body-size: 1rem;
+  --reading-line-height: 1.7;
 }
 
 * {
@@ -33,8 +32,7 @@ body {
 }
 
 body.font-notion {
-  --reader-font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", "Songti SC",
-    "Noto Serif CJK SC", Georgia, serif;
+  --reader-font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", "Helvetica Neue", Arial, sans-serif;
 }
 
 body.reading-compact {
@@ -81,8 +79,20 @@ code {
   width: min(1240px, calc(100% - 32px));
 }
 
+@keyframes fadeUpIn {
+  0% {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .reveal {
-  opacity: 1;
+  animation: fadeUpIn 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
 .reader-topbar {
@@ -93,9 +103,12 @@ code {
   align-items: center;
   justify-content: space-between;
   gap: 16px;
-  padding: 0 0 8px;
-  border-bottom: 1px solid var(--line);
-  background: var(--page-bg);
+  padding: 12px 24px;
+  margin: -24px -24px 24px -24px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+  background: rgba(245, 245, 247, 0.65);
+  backdrop-filter: saturate(180%) blur(24px);
+  -webkit-backdrop-filter: saturate(180%) blur(24px);
 }
 
 .tab-strip {
@@ -108,17 +121,25 @@ code {
 
 .tab-button {
   appearance: none;
-  padding: 8px 0 10px;
-  border: 0;
-  border-bottom: 2px solid transparent;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 99px;
   background: transparent;
   color: var(--muted);
   cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.tab-button:hover {
+  color: var(--ink);
+  background: rgba(0, 0, 0, 0.05);
 }
 
 .tab-button.is-active {
   color: var(--ink);
-  border-bottom-color: var(--ink);
+  background: var(--paper);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
 }
 
 .reader-tools {
@@ -133,32 +154,36 @@ code {
 .font-size-switch {
   display: inline-flex;
   align-items: center;
-  gap: 2px;
-  padding: 3px;
-  border: 1px solid rgba(27, 28, 31, 0.06);
-  border-radius: 999px;
-  background: rgba(255, 253, 249, 0.92);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.7);
+  gap: 4px;
+  padding: 4px;
+  border-radius: 99px;
+  background: rgba(0, 0, 0, 0.04);
 }
 
 .font-size-button {
   appearance: none;
-  min-width: 38px;
-  padding: 6px 9px;
+  min-width: 32px;
+  padding: 6px 10px;
   border: 0;
-  border-radius: 999px;
+  border-radius: 99px;
   background: transparent;
-  color: rgba(93, 85, 72, 0.72);
+  color: var(--muted);
   cursor: pointer;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   font-weight: 600;
   line-height: 1;
+  transition: all 0.2s ease;
+}
+
+.font-size-button:hover {
+  color: var(--ink);
+  background: rgba(0, 0, 0, 0.05);
 }
 
 .font-size-button.is-active {
-  background: #ddd3c2;
-  color: #1b1c1f;
-  box-shadow: 0 1px 2px rgba(27, 28, 31, 0.08);
+  background: var(--paper);
+  color: var(--ink);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06), 0 1px 1px rgba(0, 0, 0, 0.04);
 }
 
 .reader-layout {
@@ -216,8 +241,9 @@ code {
   width: 5px;
   height: 5px;
   border-radius: 50%;
-  background: #ded8cb;
+  background: rgba(0, 0, 0, 0.15);
   transform: translateY(-50%);
+  transition: all 0.2s ease;
 }
 
 .date-node:hover {
@@ -243,16 +269,18 @@ code {
 }
 
 .reader-head h1 {
-  margin: 0 0 8px;
-  font-size: clamp(1.56rem, 2.2vw, 2.02rem);
-  line-height: 1.12;
+  margin: 0 0 12px;
+  font-size: clamp(1.6rem, 2.8vw, 1.95rem);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
 }
 
 .doc-summary {
   margin: 0;
   color: var(--muted);
-  line-height: calc(var(--reading-line-height) - 0.14);
-  font-size: var(--reading-summary-size);
+  line-height: 1.6;
+  font-size: 1.05rem;
 }
 
 .report-content {
@@ -263,7 +291,7 @@ code {
   letter-spacing: 0.01em;
 }
 
-.report-content > :first-child {
+.report-content> :first-child {
   margin-top: 0;
 }
 
@@ -274,9 +302,13 @@ code {
 }
 
 .report-content h2 {
-  margin: 2rem 0 0.8rem;
-  font-size: clamp(1.36rem, 2vw, 1.72rem);
-  line-height: 1.24;
+  margin: 2.5rem 0 1.2rem;
+  font-size: clamp(1.5rem, 2.2vw, 1.8rem);
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.015em;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--line);
 }
 
 .report-content h3 {
@@ -318,8 +350,8 @@ code {
 }
 
 .report-content strong {
-  font-weight: 780;
-  color: #111215;
+  font-weight: 600;
+  color: #1d1d1f;
   letter-spacing: -0.005em;
   font-synthesis: weight;
 }
@@ -329,9 +361,9 @@ html[lang|="zh"] .report-content strong {
   font-synthesis-weight: auto;
 }
 
-.report-content .entry-heading + p,
-.report-content .entry-heading + ul,
-.report-content .entry-heading + ol {
+.report-content .entry-heading+p,
+.report-content .entry-heading+ul,
+.report-content .entry-heading+ol {
   margin-top: 0.2rem;
 }
 
@@ -350,7 +382,7 @@ html[lang|="zh"] .report-content strong {
   line-height: 1.54;
 }
 
-.report-content li + li {
+.report-content li+li {
   margin-top: 0.22em;
 }
 
@@ -426,7 +458,9 @@ html[lang|="zh"] .report-content strong {
 .archive-card,
 .detail-article {
   background: var(--paper);
-  border: 1px solid var(--line);
+  border: 1px solid rgba(0, 0, 0, 0.02);
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.03), 0 2px 4px 0 rgba(0, 0, 0, 0.02);
+  border-radius: 20px;
 }
 
 .hero {
@@ -455,9 +489,11 @@ html[lang|="zh"] .report-content strong {
 }
 
 .hero h1 {
-  margin: 12px 0 14px;
-  font-size: clamp(2.2rem, 4.5vw, 3.4rem);
-  line-height: 1.02;
+  margin: 12px 0 16px;
+  font-weight: 700;
+  font-size: clamp(1.8rem, 3.8vw, 2.5rem);
+  line-height: 1.05;
+  letter-spacing: -0.03em;
 }
 
 .hero-text,
@@ -473,12 +509,19 @@ html[lang|="zh"] .report-content strong {
   align-items: center;
   justify-content: center;
   min-height: 40px;
-  padding: 10px 14px;
-  margin-bottom: 12px;
+  padding: 10px 16px;
+  margin-bottom: 16px;
   border-radius: 999px;
-  background: #232427;
-  color: #fffdf8;
+  background: var(--ink);
+  color: var(--paper);
   text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.back-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .hero-panel {
@@ -566,17 +609,26 @@ html[lang|="zh"] .report-content strong {
 
 .timeline-item {
   display: block;
-  padding: 14px;
-  border: 1px solid var(--line);
-  border-radius: 14px;
-  background: #fcfaf5;
+  padding: 18px;
+  border: 1px solid transparent;
+  border-radius: 16px;
+  background: #fcfcfc;
   color: inherit;
   text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.015);
+}
+
+.timeline-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.04);
+  background: #ffffff;
 }
 
 .timeline-item.is-active {
-  border-color: var(--line-strong);
-  background: #f7f2e8;
+  border-color: rgba(0, 0, 0, 0.05);
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
 }
 
 .timeline-item .date {
@@ -630,6 +682,7 @@ html[lang|="zh"] .report-content strong {
 }
 
 @media (max-width: 1100px) {
+
   .hero,
   .detail-layout {
     grid-template-columns: 1fr;
@@ -641,6 +694,11 @@ html[lang|="zh"] .report-content strong {
 }
 
 @media (max-width: 980px) {
+  .reader-topbar {
+    padding: 12px 20px;
+    margin: -24px -20px 24px -20px;
+  }
+
   .page-shell,
   .compact-shell {
     width: min(100%, calc(100% - 20px));
@@ -717,7 +775,7 @@ html[lang|="zh"] .report-content strong {
   }
 
   .reader-head h1 {
-    font-size: clamp(1.8rem, 8vw, 2.4rem);
+    font-size: clamp(1.4rem, 6vw, 1.7rem);
   }
 
   .hero {
