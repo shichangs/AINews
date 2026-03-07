@@ -1,11 +1,206 @@
 {
-  "generatedAt": "2026-03-06T04:22:43.301Z",
+  "generatedAt": "2026-03-07T09:00:04.065Z",
   "sourceDirectories": {
     "daily": "/home/runner/work/AINews/AINews/content/daily-ai-news",
     "weekly": "/home/runner/work/AINews/AINews/content/daily-ai-news/weekly",
     "portfolio": "/home/runner/work/AINews/AINews/content/portfolio-news"
   },
   "issues": [
+    {
+      "id": "2026-03-07",
+      "date": "2026-03-07",
+      "label": "3月7日",
+      "title": "每日前沿 AI 行业新闻 — 2026年3月7日",
+      "summary": "- 📌 三大云巨头集体背书 Anthropic：Google、Amazon、Microsoft 公开宣布 Claude 在非国防领域正常可用，Anthropic 宣布\"别无选择\"将在法庭挑战 DOD 认定：随着五角大楼\"供应链风险\"标签危机进入第二周，AWS、Google Cloud、Azure 在同一天相继发表声明，形成行业罕见的统一防线；CNN 同时披露该标签范围\"比外界最初理解的更窄\"。\n- 🔥 OpenAI GPT-5.4 正式发布：首款内置计算机操控能力的主线模型，API 支持百万 token 上下文，今日向 Plus/Team/Pro 用户全面推送：GPT-5.4 整合顶级推理、编程与 Agent 工作流能力，是 OpenAI 迄今最强旗舰模型；与此同时，GPT-5.3 Instant 也面向所有用户开放。\n- 📌 Waymo 在奥斯汀大规模枪击事件中阻拦救护车，NTSB 正式立案调查，并披露本学年已发生 23 起违规经过校车事件：自动驾驶商业化进程面临最严峻公众信任危机，奥斯汀成为全球 Robotaxi 安全监管的舆论焦点。",
+      "sections": [
+        "AI Labs",
+        "AI Agent",
+        "产品",
+        "中国 AI",
+        "机器人",
+        "自动驾驶",
+        "医疗 AI",
+        "芯片"
+      ],
+      "stories": [
+        {
+          "tag": "AI Labs",
+          "impact": "关注",
+          "title": "📌 三大云厂商一日之内集体力挺 Anthropic：Claude 非国防服务全面延续，Anthropic 宣布起诉 DOD",
+          "detail": "3 月 6 日，在五角大楼正式宣布将 Anthropic 列为\"供应链风险\"之后，科技行业主要云服务商在同一天相继发表独立声明，形成异乎寻常的统一阵线： - Google Cloud（Alphabet）：宣布\"该认定并不阻止我们与 Anthropic 在非国防相关项目上的合作，…",
+          "links": [],
+          "anchor": "三大云厂商一日之内集体力挺-anthropic-claude-非国防服务全面延续-anthropic-宣布起诉-dod"
+        },
+        {
+          "tag": "AI Labs",
+          "impact": "关注",
+          "title": "CNN Business",
+          "detail": "同期获取的官方文件显示，五角大楼的\"供应链风险\"认定在实际法律效力上比外界最初理解的更窄——受该认定约束的主体仅限于直接与 DOD 签约的承包商，而非所有联邦机构采购。 Anthropic CEO Dario Amodei 随后在公开声明中措辞强硬，宣布公司\"别无选择，只能在法…",
+          "links": [
+            {
+              "label": "TechCrunch - Microsoft/Google/Amazon",
+              "url": "https://techcrunch.com/2026/03/06/microsoft-anthropic-claude-remains-available-to-customers-except-the-defense-department/"
+            },
+            {
+              "label": "CNBC - Amazon AWS",
+              "url": "https://www.cnbc.com/2026/03/06/amazon-aws-anthropic-claude-pentagon-blacklist.html"
+            }
+          ],
+          "anchor": "cnn-business"
+        },
+        {
+          "tag": "AI Agent",
+          "impact": "关注",
+          "title": "📌 \"We Will Not Be Divided\" 联署规模持续扩大，AI 行业员工政治行动进入新阶段",
+          "detail": "跨公司员工联署信已突破 900 人参与，其中 OpenAI 员工近 100 人、Google/Alphabet 员工约 800 人，另有 Salesforce、Databricks、IBM 和 Cursor 等员工参与。该行动最新进展显示，参与者正在将诉求从单一的\"撤销 Ant…",
+          "links": [
+            {
+              "label": "The Hill - Employee letters",
+              "url": "https://thehill.com/policy/technology/5759106-google-openai-anthropic-pentagon-ai/"
+            }
+          ],
+          "anchor": "we-will-not-be-divided-联署规模持续扩大-ai-行业员工政治行动进入新阶段"
+        },
+        {
+          "tag": "产品",
+          "impact": "高热",
+          "title": "🔥 OpenAI GPT-5.4 正式发布：首款内置计算机操控能力，API 提供百万 token 上下文窗口",
+          "detail": "OpenAI 于 3 月 5–6 日正式发布 GPT-5.4，今日（3 月 7 日）已向 ChatGPT Plus、Team、Pro 全部付费层级用户推送，同步取代 GPT-5.2 Thinking 成为默认推理模型。GPT-5.4 六项核心升级： ① 首款内置计算机操控能力（…",
+          "links": [
+            {
+              "label": "TechCrunch - GPT-5.4",
+              "url": "https://techcrunch.com/2026/03/05/openai-launches-gpt-5-4-with-pro-and-thinking-versions/"
+            },
+            {
+              "label": "9to5Mac - GPT-5.4",
+              "url": "https://9to5mac.com/2026/03/05/openai-upgrades-chatgpt-with-gpt-5-4-thinking-offering-six-key-improvements/"
+            }
+          ],
+          "anchor": "openai-gpt-5-4-正式发布-首款内置计算机操控能力-api-提供百万-token-上下文窗口"
+        },
+        {
+          "tag": "产品",
+          "impact": "更新",
+          "title": "Apple MacBook Air M5 正式发布：AI 推理性能提升 4 倍，3 月 11 日开始发货",
+          "detail": "Apple 于 3 月 3 日宣布搭载 M5 芯片的新款 MacBook Air，现已开放预订，3 月 11 日正式开始发货。AI 相关提升：M5 每个核心内置独立神经加速器（Neural Accelerator），AI 推理性能较上一代 M4 提升最高 4 倍，较 M1 提升…",
+          "links": [
+            {
+              "label": "TechCrunch - MacBook M5",
+              "url": "https://techcrunch.com/2026/03/03/apple-unveils-new-macbook-air-and-macbook-pro-with-m5/"
+            },
+            {
+              "label": "MacRumors",
+              "url": "https://www.macrumors.com/2026/03/03/apple-announces-macbook-air-with-m5/"
+            }
+          ],
+          "anchor": "apple-macbook-air-m5-正式发布-ai-推理性能提升-4-倍-3-月-11-日开始发货"
+        },
+        {
+          "tag": "中国 AI",
+          "impact": "关注",
+          "title": "📌 DeepSeek V4 两会闭幕（3 月 11 日）倒计时 4 天，GTC 对冲窗口仍是最大变量",
+          "detail": "全国两会今日进入第三天，截至 3 月 7 日，DeepSeek V4 依然未官宣发布。社区预测市场（Polymarket、Manifold）显示，V4 在 3 月 31 日前发布的概率已高于 90%，但具体时间点仍无官方确认。行业内部人士目前押注的两个窗口：① 两会闭幕（3 月…",
+          "links": [
+            {
+              "label": "TechNode",
+              "url": "https://technode.com/2026/03/02/deepseek-plans-v4-multimodal-model-release-this-week-sources-say/"
+            },
+            {
+              "label": "Evolink AI",
+              "url": "https://evolink.ai/blog/deepseek-v4-release-window-prep"
+            }
+          ],
+          "anchor": "deepseek-v4-两会闭幕-3-月-11-日-倒计时-4-天-gtc-对冲窗口仍是最大变量"
+        },
+        {
+          "tag": "中国 AI",
+          "impact": "更新",
+          "title": "📌 中国其他主力 AI 模型集中发布：阿里 Qwen 3.5、字节 Seedance 2.0 抢先 DeepSeek V4 亮相",
+          "detail": "在 DeepSeek V4 延迟发布的窗口期，中国多家科技巨头加速推进各自旗舰模型：阿里巴巴发布 Qwen 3.5，强化长上下文和代码能力；字节跳动推出视频生成模型 Seedance 2.0，主打全模态生成和电影级画质。UBS 分析报告称，在当前五款主要中国 AI 模型中，Qw…",
+          "links": [
+            {
+              "label": "CNBC - China AI models",
+              "url": "https://www.cnbc.com/2026/03/01/forget-deepseek-of-chinas-5-new-ai-models-ubs-prefers-this-one.html"
+            }
+          ],
+          "anchor": "中国其他主力-ai-模型集中发布-阿里-qwen-3-5-字节-seedance-2-0-抢先-deepseek-v4-亮相"
+        },
+        {
+          "tag": "机器人",
+          "impact": "关注",
+          "title": "荣耀（Honor）MWC 2026 人形机器人亮相，奔跑速度 4 m/s 超越 Atlas",
+          "detail": "中国智能手机品牌荣耀（Honor）于 3 月 1 日 MWC 2026 上正式发布其首款人形机器人，成为全球首家进入人形机器人市场的主流手机制造商。关键性能数据：奔跑速度达 4 m/s（14.4 km/h），比 Boston Dynamics Atlas 快 14%；设计定位聚…",
+          "links": [
+            {
+              "label": "Interesting Engineering - Honor robot",
+              "url": "https://interestingengineering.com/ai-robotics/china-honor-humanoid-robot"
+            },
+            {
+              "label": "Robozaps",
+              "url": "https://blog.robozaps.com/b/honor-humanoid-robot"
+            }
+          ],
+          "anchor": "荣耀-honor-mwc-2026-人形机器人亮相-奔跑速度-4-m-s-超越-atlas"
+        },
+        {
+          "tag": "机器人",
+          "impact": "关注",
+          "title": "全球人形机器人市场最新预测：2035 年达 2434 亿美元，年复合增速 49%",
+          "detail": "GlobeNewswire 3 月 6 日发布最新全球人形机器人市场研究报告，当前市场估值约 30 亿美元，预计 2035 年达 2434 亿美元，年复合增长率高达 49.21%，为所有科技细分市场中增长预期最高的赛道之一。报告指出核心驱动力包括：特斯拉 Optimus 202…",
+          "links": [
+            {
+              "label": "GlobeNewswire - Humanoid Market",
+              "url": "https://www.globenewswire.com/news-release/2026/03/06/3250973/28124/en/243-4-Bn-Humanoid-Robot-Markets-2035-Industry-Trends-and-Global-Forecasts.html"
+            }
+          ],
+          "anchor": "全球人形机器人市场最新预测-2035-年达-2434-亿美元-年复合增速-49"
+        },
+        {
+          "tag": "自动驾驶",
+          "impact": "关注",
+          "title": "📌 Waymo 公众信任危机深化：奥斯汀枪击阻拦救护车 + NTSB 调查本学年第 23 次违规经过校车",
+          "detail": "Waymo 本周面临自商业化以来最严峻的公众舆论压力，两起负面事件同步发酵： ① 奥斯汀枪击事件阻拦救护车：3 月 2 日凌晨，奥斯汀第六街酒吧区发生枪击案（3 人死亡、13 人受伤），一辆 Waymo 出租车在事发路口横向停止，短暂阻挡救援救护车约 30 秒。随后一名警察扫描…",
+          "links": [
+            {
+              "label": "Axios - Waymo ambulance",
+              "url": "https://www.axios.com/local/austin/2026/03/02/waymo-vehicle-blocks-ems-austin-mass-shooting"
+            },
+            {
+              "label": "Futurism - Waymo silent",
+              "url": "https://futurism.com/advanced-transport/waymo-blocks-ambulance-mass-shooting"
+            }
+          ],
+          "anchor": "waymo-公众信任危机深化-奥斯汀枪击阻拦救护车-ntsb-调查本学年第-23-次违规经过校车"
+        },
+        {
+          "tag": "医疗 AI",
+          "impact": "关注",
+          "title": "AI 医疗平台 OpenEvidence 引发 FDA 监管新议题：临床决策 AI 与 TEMPO Pilot 框架的实操张力",
+          "detail": "医疗 AI 创业公司 OpenEvidence 的AI 辅助临床决策工具在业内持续获得关注，其整合海量医学文献与实时患者数据的模式正成为 FDA TEMPO Pilot（本周正式启动申请）框架下的典型参照案例。STAT News 医疗分析人士指出，OpenEvidence 的迭…",
+          "links": [
+            {
+              "label": "AI Funding Tracker",
+              "url": "https://aifundingtracker.com/ai-startup-funding-news-today/"
+            },
+            {
+              "label": "STAT News",
+              "url": "https://www.statnews.com/2026/03/02/hhs-clinical-ai-proposal-health-tech-wish-list/"
+            }
+          ],
+          "anchor": "ai-医疗平台-openevidence-引发-fda-监管新议题-临床决策-ai-与-tempo-pilot-框架的实操张力"
+        },
+        {
+          "tag": "芯片",
+          "impact": "关注",
+          "title": "📌 NVIDIA GTC 2026 倒计时 9 天：Groq 技术合作 AI 处理器细节曝光，Feynman 1.6nm 工艺确认",
+          "detail": "距 NVIDIA GTC 2026（3 月 16-19 日，圣何塞 SAP 中心）仅剩 9 天，新一批规格细节陆续流出：",
+          "links": [],
+          "anchor": "nvidia-gtc-2026-倒计时-9-天-groq-技术合作-ai-处理器细节曝光-feynman-1-6nm-工艺确认"
+        }
+      ],
+      "sourceFile": "/home/runner/work/AINews/AINews/content/daily-ai-news/2026-03-07.md",
+      "htmlContent": "<h3 id=\"今日摘要\">今日摘要</h3>\n<ul><li>📌 <strong>三大云巨头集体背书 Anthropic：Google、Amazon、Microsoft 公开宣布 Claude 在非国防领域正常可用，Anthropic 宣布&quot;别无选择&quot;将在法庭挑战 DOD 认定</strong>：随着五角大楼&quot;供应链风险&quot;标签危机进入第二周，AWS、Google Cloud、Azure 在同一天相继发表声明，形成行业罕见的统一防线；CNN 同时披露该标签范围&quot;比外界最初理解的更窄&quot;。</li><li>🔥 <strong>OpenAI GPT-5.4 正式发布：首款内置计算机操控能力的主线模型，API 支持百万 token 上下文，今日向 Plus/Team/Pro 用户全面推送</strong>：GPT-5.4 整合顶级推理、编程与 Agent 工作流能力，是 OpenAI 迄今最强旗舰模型；与此同时，GPT-5.3 Instant 也面向所有用户开放。</li><li>📌 <strong>Waymo 在奥斯汀大规模枪击事件中阻拦救护车，NTSB 正式立案调查，并披露本学年已发生 23 起违规经过校车事件</strong>：自动驾驶商业化进程面临最严峻公众信任危机，奥斯汀成为全球 Robotaxi 安全监管的舆论焦点。</li></ul>\n<hr class=\"report-rule\" />\n<h3 id=\"1-主要-ai-labs-动态\">1. 主要 AI Labs 动态</h3>\n<h4 class=\"entry-heading\" id=\"三大云厂商一日之内集体力挺-anthropic-claude-非国防服务全面延续-anthropic-宣布起诉-dod\">📌 三大云厂商一日之内集体力挺 Anthropic：Claude 非国防服务全面延续，Anthropic 宣布起诉 DOD</h4>\n<p>3 月 6 日，在五角大楼正式宣布将 Anthropic 列为&quot;供应链风险&quot;之后，科技行业主要云服务商在同一天相继发表独立声明，形成异乎寻常的统一阵线：</p>\n<ul><li><strong>Google Cloud</strong>（Alphabet）：宣布&quot;该认定并不阻止我们与 Anthropic 在非国防相关项目上的合作，其产品将继续在 Google Cloud 等平台上正常提供&quot;；</li><li><strong>Amazon Web Services</strong>：跟进宣布 Claude 对 AWS 企业客户保持可用，唯一例外为涉及 DOD 的合同；</li><li><strong>Microsoft Azure</strong>：最早表态，于 3 月 5 日晚间率先发声，称 Anthropic 产品对所有非国防客户继续开放。</li></ul>\n<p>三家公司合计为 Anthropic 提供约 <strong>80% 以上</strong>的商业分销渠道，联合背书实际上极大限制了 DOD 封杀令的市场效果。</p>\n<h4 class=\"entry-heading\" id=\"cnn-business\">CNN Business</h4>\n<p>同期获取的官方文件显示，五角大楼的&quot;供应链风险&quot;认定在实际法律效力上<strong>比外界最初理解的更窄</strong>——受该认定约束的主体仅限于直接与 DOD 签约的承包商，而非所有联邦机构采购。</p>\n<p>Anthropic CEO <strong>Dario Amodei</strong> 随后在公开声明中措辞强硬，宣布公司&quot;<strong>别无选择</strong>，只能在法庭挑战这一认定&quot;，将援引《行政程序法》（APA）主张 DOD 超越法定授权。Anthropic 律师团队同期证实，司法挑战诉状正在准备中，将聚焦于&quot;认定缺乏《国防生产法》所要求的'潜在破坏行为或后门证据'&quot;。（来源：<a href=\"https://techcrunch.com/2026/03/06/microsoft-anthropic-claude-remains-available-to-customers-except-the-defense-department/\" target=\"_blank\" rel=\"noreferrer\">TechCrunch - Microsoft/Google/Amazon</a> · <a href=\"https://www.cnbc.com/2026/03/06/amazon-aws-anthropic-claude-pentagon-blacklist.html\" target=\"_blank\" rel=\"noreferrer\">CNBC - Amazon AWS</a> · <a href=\"https://www.cnn.com/2026/03/05/tech/pentagon-anthropic-supply-chain-risk\" target=\"_blank\" rel=\"noreferrer\">CNN - Label narrower</a> · <a href=\"https://www.npr.org/2026/03/06/g-s1-112713/pentagon-labels-ai-company-anthropic-a-supply-chain-risk\" target=\"_blank\" rel=\"noreferrer\">NPR - Supply chain risk</a>）</p>\n<hr class=\"report-rule\" />\n<h3 id=\"2-ai-agent\">2. AI Agent</h3>\n<h4 class=\"entry-heading\" id=\"we-will-not-be-divided-联署规模持续扩大-ai-行业员工政治行动进入新阶段\">📌 &quot;We Will Not Be Divided&quot; 联署规模持续扩大，AI 行业员工政治行动进入新阶段</h4>\n<p>跨公司员工联署信已突破 <strong>900 人</strong>参与，其中 OpenAI 员工近 <strong>100 人</strong>、Google/Alphabet 员工约 <strong>800 人</strong>，另有 Salesforce、Databricks、IBM 和 Cursor 等员工参与。该行动最新进展显示，参与者正在将诉求从单一的&quot;撤销 Anthropic 认定&quot;扩展为推动国会立法设定全行业军事 AI 使用边界——尤其是关于大规模国内监控和全自主武器的明确禁用条款。部分 Google 员工已在公开媒体发声，将这一行动与 2018 年的&quot;Project Maven 抗议&quot;并列，称之为 AI 行业迄今规模最大的跨公司集体政治行动。（来源：<a href=\"https://thehill.com/policy/technology/5759106-google-openai-anthropic-pentagon-ai/\" target=\"_blank\" rel=\"noreferrer\">The Hill - Employee letters</a>）</p>\n<hr class=\"report-rule\" />\n<h3 id=\"3-ai-产品更新\">3. AI 产品更新</h3>\n<h4 class=\"entry-heading\" id=\"openai-gpt-5-4-正式发布-首款内置计算机操控能力-api-提供百万-token-上下文窗口\">🔥 OpenAI GPT-5.4 正式发布：首款内置计算机操控能力，API 提供百万 token 上下文窗口</h4>\n<p>OpenAI 于 3 月 5–6 日正式发布 <strong>GPT-5.4</strong>，今日（3 月 7 日）已向 ChatGPT <strong>Plus、Team、Pro</strong> 全部付费层级用户推送，同步取代 GPT-5.2 Thinking 成为默认推理模型。GPT-5.4 六项核心升级：</p>\n<p>① <strong>首款内置计算机操控能力（Computer Use）的主线模型</strong>：可直接操作软件完成&quot;构建-运行-验证-修复&quot;闭环任务，无需依赖外部工具调用； ② <strong>整合 GPT-5.3-Codex 的行业领先编程能力</strong>，在长上下文代码库理解和多文件编辑上表现显著提升； ③ <strong>API 支持高达 100 万 token 上下文窗口</strong>，是 OpenAI 迄今最大上下文； ④ <strong>错误率大幅下降</strong>：个别声明出错概率降低 <strong>33%</strong>，整体响应出错概率降低 <strong>18%</strong>； ⑤ 已在 <strong>ChatGPT</strong>、<strong>Codex</strong> 和 <strong>API</strong> 同步上线； ⑥ GPT-5.2 Thinking 将保留三个月供付费用户切换，<strong>2026 年 6 月 5 日</strong>正式退役。</p>\n<p>与此同时，<strong>GPT-5.3 Instant</strong> 今日面向所有用户（包括免费用户）开放，API 参数名为 <code>gpt-5.3-chat-latest</code>，是目前 OpenAI 速度最快、最适合日常对话的模型。（来源：<a href=\"https://techcrunch.com/2026/03/05/openai-launches-gpt-5-4-with-pro-and-thinking-versions/\" target=\"_blank\" rel=\"noreferrer\">TechCrunch - GPT-5.4</a> · <a href=\"https://9to5mac.com/2026/03/05/openai-upgrades-chatgpt-with-gpt-5-4-thinking-offering-six-key-improvements/\" target=\"_blank\" rel=\"noreferrer\">9to5Mac - GPT-5.4</a> · <a href=\"https://www.business-standard.com/technology/tech-news/openai-gpt-5-4-thinking-pro-released-chatgpt-details-features-126030600535_1.html\" target=\"_blank\" rel=\"noreferrer\">Business Standard</a>）</p>\n<h4 class=\"entry-heading\" id=\"apple-macbook-air-m5-正式发布-ai-推理性能提升-4-倍-3-月-11-日开始发货\">Apple MacBook Air M5 正式发布：AI 推理性能提升 4 倍，3 月 11 日开始发货</h4>\n<p><strong>Apple</strong> 于 3 月 3 日宣布搭载 <strong>M5 芯片</strong>的新款 MacBook Air，现已开放预订，<strong>3 月 11 日</strong>正式开始发货。AI 相关提升：M5 每个核心内置独立神经加速器（Neural Accelerator），AI 推理性能较上一代 M4 提升最高 <strong>4 倍</strong>，较 M1 提升最高 <strong>8 倍</strong>。新款 MacBook Air 起步存储翻倍至 <strong>512GB</strong>（可配至 4TB），售价从 <strong>$1,099</strong>（13 英寸）起，较前代上涨 $100。M5 MacBook Air 将是首批能本地运行即将推出的 Gemini 驱动 Siri 新功能的 Mac 机型之一。（来源：<a href=\"https://techcrunch.com/2026/03/03/apple-unveils-new-macbook-air-and-macbook-pro-with-m5/\" target=\"_blank\" rel=\"noreferrer\">TechCrunch - MacBook M5</a> · <a href=\"https://www.macrumors.com/2026/03/03/apple-announces-macbook-air-with-m5/\" target=\"_blank\" rel=\"noreferrer\">MacRumors</a>）</p>\n<hr class=\"report-rule\" />\n<h3 id=\"4-中国-ai-产业\">4. 中国 AI 产业</h3>\n<h4 class=\"entry-heading\" id=\"deepseek-v4-两会闭幕-3-月-11-日-倒计时-4-天-gtc-对冲窗口仍是最大变量\">📌 DeepSeek V4 两会闭幕（3 月 11 日）倒计时 4 天，GTC 对冲窗口仍是最大变量</h4>\n<p>全国两会今日进入第三天，截至 3 月 7 日，<strong>DeepSeek V4</strong> 依然未官宣发布。社区预测市场（Polymarket、Manifold）显示，V4 在 3 月 31 日前发布的概率已高于 <strong>90%</strong>，但具体时间点仍无官方确认。行业内部人士目前押注的两个窗口：① <strong>两会闭幕（3 月 11 日）</strong>——在中国两会结束后以&quot;科技实力&quot;配合政策叙事亮相；② <strong>NVIDIA GTC 2026（3 月 16 日）</strong>——与全球最大 AI 硬件盛会同期，形成中美 AI 技术的直接舆论对比。V4 已确认规格保持不变：万亿参数 MoE（推理激活约 <strong>320 亿</strong>参数）、原生多模态（文本/图像/视频）、<strong>100 万 token</strong> 上下文、华为昇腾+寒武纪芯片优化、完全开源发布。（来源：<a href=\"https://technode.com/2026/03/02/deepseek-plans-v4-multimodal-model-release-this-week-sources-say/\" target=\"_blank\" rel=\"noreferrer\">TechNode</a> · <a href=\"https://evolink.ai/blog/deepseek-v4-release-window-prep\" target=\"_blank\" rel=\"noreferrer\">Evolink AI</a> · <a href=\"https://polymarket.com/event/deepseek-v4-released-by-march-31\" target=\"_blank\" rel=\"noreferrer\">Polymarket</a>）</p>\n<h4 class=\"entry-heading\" id=\"中国其他主力-ai-模型集中发布-阿里-qwen-3-5-字节-seedance-2-0-抢先-deepseek-v4-亮相\">📌 中国其他主力 AI 模型集中发布：阿里 Qwen 3.5、字节 Seedance 2.0 抢先 DeepSeek V4 亮相</h4>\n<p>在 DeepSeek V4 延迟发布的窗口期，中国多家科技巨头加速推进各自旗舰模型：<strong>阿里巴巴</strong>发布 <strong>Qwen 3.5</strong>，强化长上下文和代码能力；<strong>字节跳动</strong>推出视频生成模型 <strong>Seedance 2.0</strong>，主打全模态生成和电影级画质。<strong>UBS</strong> 分析报告称，在当前五款主要中国 AI 模型中，Qwen 3.5 的综合评分最高，&quot;在通用任务上已达到与 GPT-5.3 Instant 相当的水准，但推理成本仅为约 1/10&quot;。（来源：<a href=\"https://www.cnbc.com/2026/03/01/forget-deepseek-of-chinas-5-new-ai-models-ubs-prefers-this-one.html\" target=\"_blank\" rel=\"noreferrer\">CNBC - China AI models</a>）</p>\n<hr class=\"report-rule\" />\n<h3 id=\"5-机器人与物理-ai\">5. 机器人与物理 AI</h3>\n<h4 class=\"entry-heading\" id=\"荣耀-honor-mwc-2026-人形机器人亮相-奔跑速度-4-m-s-超越-atlas\">荣耀（Honor）MWC 2026 人形机器人亮相，奔跑速度 4 m/s 超越 Atlas</h4>\n<p>中国智能手机品牌<strong>荣耀（Honor）</strong>于 3 月 1 日 MWC 2026 上正式发布其首款<strong>人形机器人</strong>，成为全球首家进入人形机器人市场的主流手机制造商。关键性能数据：奔跑速度达 <strong>4 m/s</strong>（14.4 km/h），比 Boston Dynamics Atlas 快 <strong>14%</strong>；设计定位聚焦零售导购、家政服务和 AI 互动陪伴三大场景。荣耀同步宣布投入 <strong>100 亿美元</strong>用于 AI 与机器人研发，预计 2026 年内进入试商业化阶段。这是继小米、华为之后，中国消费电子品牌向具身 AI 领域全面转型的最新案例。（来源：<a href=\"https://interestingengineering.com/ai-robotics/china-honor-humanoid-robot\" target=\"_blank\" rel=\"noreferrer\">Interesting Engineering - Honor robot</a> · <a href=\"https://blog.robozaps.com/b/honor-humanoid-robot\" target=\"_blank\" rel=\"noreferrer\">Robozaps</a>）</p>\n<h4 class=\"entry-heading\" id=\"全球人形机器人市场最新预测-2035-年达-2434-亿美元-年复合增速-49\">全球人形机器人市场最新预测：2035 年达 2434 亿美元，年复合增速 49%</h4>\n<p><strong>GlobeNewswire</strong> 3 月 6 日发布最新全球人形机器人市场研究报告，当前市场估值约 <strong>30 亿美元</strong>，预计 2035 年达 <strong>2434 亿美元</strong>，年复合增长率高达 <strong>49.21%</strong>，为所有科技细分市场中增长预期最高的赛道之一。报告指出核心驱动力包括：特斯拉 Optimus 2026 年目标量产 <strong>5 万台</strong>（售价 $2–3 万）、Boston Dynamics 商用 Atlas 路线图启动、中国国内 300+ 款机器人型号进入量产筹备。（来源：<a href=\"https://www.globenewswire.com/news-release/2026/03/06/3250973/28124/en/243-4-Bn-Humanoid-Robot-Markets-2035-Industry-Trends-and-Global-Forecasts.html\" target=\"_blank\" rel=\"noreferrer\">GlobeNewswire - Humanoid Market</a>）</p>\n<hr class=\"report-rule\" />\n<h3 id=\"6-自动驾驶\">6. 自动驾驶</h3>\n<h4 class=\"entry-heading\" id=\"waymo-公众信任危机深化-奥斯汀枪击阻拦救护车-ntsb-调查本学年第-23-次违规经过校车\">📌 Waymo 公众信任危机深化：奥斯汀枪击阻拦救护车 + NTSB 调查本学年第 23 次违规经过校车</h4>\n<p>Waymo 本周面临自商业化以来最严峻的公众舆论压力，两起负面事件同步发酵：</p>\n<p>① <strong>奥斯汀枪击事件阻拦救护车</strong>：3 月 2 日凌晨，奥斯汀第六街酒吧区发生枪击案（3 人死亡、13 人受伤），一辆 Waymo 出租车在事发路口横向停止，短暂阻挡救援救护车约 30 秒。随后一名警察扫描车身二维码联系 Waymo 运营人员，另一名警察随后进入车辆手动驾驶开走。<strong>Axios</strong> 报道称，这暴露出 Waymo 的远程人工干预（Remote Assistance）在突发混乱场景下的响应延迟问题；<strong>Futurism</strong> 批评 Waymo 拒绝就事件公开置评；奥斯汀 EMS 主任表示该阻拦&quot;大概率未影响最终救治结果&quot;，但公众关注焦点已超出本次事件本身。</p>\n<p>② <strong>NTSB 正式立案调查</strong>：美国国家运输安全委员会（<strong>NTSB</strong>）正式确认，Waymo 在本 2025–26 学年已在<strong>奥斯汀</strong>发生违规经过停靠校车事件 <strong>23 次</strong>，另有亚特兰大和圣莫尼卡也录得多起类似事件。NTSB 认定 Waymo 的 AI 决策算法在识别正在装卸学生的校车时存在系统性误判。Waymo 回应称正在更新相关数据集，但未给出具体时间表。</p>\n<p>事件引发德克萨斯州立法机构关注，多名议员发声要求加强 Robotaxi 运营许可审查，并考虑立法要求在校区附近道路降低自动驾驶车辆的最高时速。（来源：<a href=\"https://www.axios.com/local/austin/2026/03/02/waymo-vehicle-blocks-ems-austin-mass-shooting\" target=\"_blank\" rel=\"noreferrer\">Axios - Waymo ambulance</a> · <a href=\"https://futurism.com/advanced-transport/waymo-blocks-ambulance-mass-shooting\" target=\"_blank\" rel=\"noreferrer\">Futurism - Waymo silent</a> · <a href=\"https://www.kxan.com/investigations/ntsb-human-error-prompted-waymo-to-pass-stopped-school-bus-in-austin/\" target=\"_blank\" rel=\"noreferrer\">KXAN - NTSB school bus</a>）</p>\n<hr class=\"report-rule\" />\n<h3 id=\"7-医疗-ai\">7. 医疗 AI</h3>\n<h4 class=\"entry-heading\" id=\"ai-医疗平台-openevidence-引发-fda-监管新议题-临床决策-ai-与-tempo-pilot-框架的实操张力\">AI 医疗平台 OpenEvidence 引发 FDA 监管新议题：临床决策 AI 与 TEMPO Pilot 框架的实操张力</h4>\n<p>医疗 AI 创业公司 <strong>OpenEvidence</strong> 的<strong>AI 辅助临床决策工具</strong>在业内持续获得关注，其整合海量医学文献与实时患者数据的模式正成为 FDA <strong>TEMPO Pilot</strong>（本周正式启动申请）框架下的典型参照案例。STAT News 医疗分析人士指出，OpenEvidence 的迭代更新模式——持续学习新发布的随机对照试验（RCT）结果而无需重新申报——与 TEMPO Pilot 的监管宽松方向高度契合，但也再次引发&quot;AI 推荐是否应被视为处方行为&quot;的监管边界争议。（来源：<a href=\"https://aifundingtracker.com/ai-startup-funding-news-today/\" target=\"_blank\" rel=\"noreferrer\">AI Funding Tracker</a> · <a href=\"https://www.statnews.com/2026/03/02/hhs-clinical-ai-proposal-health-tech-wish-list/\" target=\"_blank\" rel=\"noreferrer\">STAT News</a>）</p>\n<hr class=\"report-rule\" />\n<h3 id=\"8-芯片与半导体\">8. 芯片与半导体</h3>\n<h4 class=\"entry-heading\" id=\"nvidia-gtc-2026-倒计时-9-天-groq-技术合作-ai-处理器细节曝光-feynman-1-6nm-工艺确认\">📌 NVIDIA GTC 2026 倒计时 9 天：Groq 技术合作 AI 处理器细节曝光，Feynman 1.6nm 工艺确认</h4>\n<p>距 <strong>NVIDIA GTC 2026</strong>（3 月 16-19 日，圣何塞 SAP 中心）仅剩 <strong>9 天</strong>，新一批规格细节陆续流出：</p>\n<h4 class=\"entry-heading\" id=\"analytics-insight\">Analytics Insight</h4>\n<p>报道称，NVIDIA 将在 GTC 上发布一款<strong>整合 Groq 芯片技术</strong>的新型 AI 处理器，供 OpenAI 等大客户使用，这是 NVIDIA 与专用推理芯片厂商 Groq 在硬件层面的首次深度整合，预示 NVIDIA 正从纯粹的训练 GPU 供应商向&quot;训练+推理混合平台&quot;转型。</p>\n<p>此外，<strong>WCCFTech</strong> 确认 <strong>Feynman 芯片</strong>将采用 TSMC <strong>A16（约 1.6nm）</strong>工艺生产，这将是全球首批量产的 1.6nm 级别 AI 芯片。Feynman 预计计算性能是 Vera Rubin 的<strong>至少 2 倍</strong>，目标交付窗口为 2027-2028 年。</p>\n<p>Keynote 定于 3 月 16 日太平洋时间上午 11 点。（来源：<a href=\"https://www.analyticsinsight.net/news/nvidias-gtc-2026-reveal-ai-processor-featuring-groq-technology-for-openai\" target=\"_blank\" rel=\"noreferrer\">Analytics Insight - Groq</a> · <a href=\"https://wccftech.com/we-could-see-the-first-1-6nm-chips-debut-at-nvidia-gtc-2026/\" target=\"_blank\" rel=\"noreferrer\">WCCFTech - Feynman 1.6nm</a> · <a href=\"https://www.neowin.net/news/nvidia-ceo-hypes-up-gtc-2026-promises-to-unveil-a-chip-that-will-surprise-the-world/\" target=\"_blank\" rel=\"noreferrer\">Neowin</a>）</p>\n<hr class=\"report-rule\" />\n<h3 id=\"9-创业融资\">9. 创业融资</h3>\n<h4 class=\"entry-heading\" id=\"本周值得关注的融资事件\">本周值得关注的融资事件：</h4>\n<ul><li><strong>Lio</strong>（AI 企业采购自动化平台）：<strong>3000 万美元 A 轮</strong>，由 Andreessen Horowitz 领投。Lio 的 Agent 可跨企业系统自主完成读取合同、评估供应商、谈判条款和完成交易的全流程，将原本需要数周的采购流程压缩至数分钟。（来源：<a href=\"https://techcrunch.com/2026/03/05/lio-ai-series-a-a16z-30m-raise-automate-enterprise-procurement/\" target=\"_blank\" rel=\"noreferrer\">TechCrunch - Lio</a>）</li></ul>\n<ul><li><strong>MatX</strong>（AI 训练芯片）：<strong>5 亿美元 B 轮</strong>，声称训练芯片性能是 NVIDIA GPU 的 <strong>10 倍</strong>，专注于大型语言模型训练加速。</li></ul>\n<ul><li><strong>Axelera AI</strong>（边缘推理芯片）：<strong>2.5 亿美元</strong>融资，目标在终端设备上实现低功耗高效 AI 推理。</li></ul>\n<p>背景：<strong>Crunchbase</strong> 报告显示，2026 年 2 月全球创业融资额达 <strong>1890 亿美元</strong>，创有史以来单月记录，其中 83% 集中于 OpenAI（1100 亿美元）、Anthropic（300 亿美元 G 轮）和 Waymo（160 亿美元）三家。（来源：<a href=\"https://news.crunchbase.com/venture/record-setting-global-funding-february-2026-openai-anthropic/\" target=\"_blank\" rel=\"noreferrer\">Crunchbase News</a> · <a href=\"https://wellows.com/blog/ai-startups/\" target=\"_blank\" rel=\"noreferrer\">Wellows - AI Startups</a>）</p>\n<hr class=\"report-rule\" />\n<h3 id=\"10-政策与监管\">10. 政策与监管</h3>\n<h4 class=\"entry-heading\" id=\"ftc-双重截止日倒计时-4-天-3-月-11-日-多名参议员拟就-anthropic-dod-争议召开专项听证\">📌 FTC 双重截止日倒计时 4 天（3 月 11 日）：多名参议员拟就 Anthropic-DOD 争议召开专项听证</h4>\n<p>距特朗普行政令规定的 <strong>3 月 11 日双截止日</strong>仅剩 <strong>4 天</strong>：① FTC 须发布 AI 适用于《联邦贸易委员会法》的正式政策声明；② 商务部长须提交与联邦 AI 政策冲突的各州法律清单。</p>\n<p>与此同时，<strong>CNBC</strong> 报道称，已有多名参议员计划本月内就 Anthropic-DOD 争议召开<strong>专项听证</strong>，这将是国会首次就商业 AI 公司与军方合作边界展开立法层面的正式辩论。<strong>美国进步中心（Center for American Progress）</strong>专项政策报告同步呼吁，用法定&quot;安全护栏&quot;（禁用国内大规模监控、限制全自主武器）替代目前依赖行政裁量的不稳定机制。</p>\n<p>科罗拉多州已将 AI 法实施日推迟至 <strong>6 月 30 日</strong>；加利福尼亚州继续推进多项独立立法，对联邦 AI 框架持强硬立场。（来源：<a href=\"https://www.cnbc.com/2026/03/05/5-big-questions-anthropic-pentagon-ai-war.html\" target=\"_blank\" rel=\"noreferrer\">CNBC - 5 unresolved questions</a> · <a href=\"https://www.americanprogress.org/article/the-department-of-defenses-conflict-with-anthropic-and-deal-with-openai-are-a-call-for-congress-to-act/\" target=\"_blank\" rel=\"noreferrer\">American Progress</a> · <a href=\"https://www.hoganlovells.com/en/publications/white-house-issues-executive-order-to-establish-a-federal-ai-policy-and-preempt-state-laws\" target=\"_blank\" rel=\"noreferrer\">Hogan Lovells</a>）</p>\n<h4 class=\"entry-heading\" id=\"中国提议成立-世界人工智能合作组织-waico-推动全球-ai-治理多边化\">📌 中国提议成立&quot;世界人工智能合作组织（WAICO）&quot;，推动全球 AI 治理多边化</h4>\n<p>中国在两会期间提出建立 <strong>&quot;世界人工智能合作组织（WAICO）&quot;</strong> 的构想，将其定位为类似 WTO 或 IAEA 的国际机构，专门负责协调全球 AI 标准和监管规则。这与美国推进的单边 AI 出口管制方向形成直接对立。外交分析人士指出，WAICO 提案是中国在 AI 地缘政治博弈中从&quot;防御性跟随&quot;转向&quot;主动塑造规则&quot;的标志性动作。（来源：<a href=\"https://thediplomat.com/2026/01/how-china-and-the-us-can-make-ai-safer-for-everyone/\" target=\"_blank\" rel=\"noreferrer\">The Diplomat</a> · <a href=\"https://www.nature.com/articles/d41586-025-03902-y\" target=\"_blank\" rel=\"noreferrer\">Nature - China AI governance</a>）</p>\n<hr class=\"report-rule\" />\n<p><em>本报告覆盖 2026-03-07 期间的主要 AI 行业动态，信息来源均为公开媒体报道及官方公告。</em></p>"
+    },
     {
       "id": "2026-03-06",
       "date": "2026-03-06",
