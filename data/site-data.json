@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-07T18:24:48.845Z",
+  "generatedAt": "2026-03-08T01:24:56.491Z",
   "sourceDirectories": {
     "daily": "/Users/sc-claw/Desktop/Github/ai-news/content/daily-ai-news",
     "weekly": "/Users/sc-claw/Desktop/Github/ai-news/content/daily-ai-news/weekly",
@@ -7,6 +7,223 @@
     "weeklyAiTech": "/Users/sc-claw/Desktop/Github/ai-news/content/weekly-ai-tech"
   },
   "issues": [
+    {
+      "id": "2026-03-08",
+      "date": "2026-03-08",
+      "label": "3月8日",
+      "title": "每日前沿 AI 行业新闻 — 2026年3月8日",
+      "summary": "- 🔥 OpenAI ChatGPT for Excel 正式推出：AI 直接进驻 Office 金融工作流，内置 FactSet / S&P / LSEG 等专业数据源接入：GPT-5.4 Thinking 驱动的 Excel 插件支持自然语言建模、跨工作簿推理和误差溯源，是 OpenAI 向金融与企业用户发起的重大进攻。\n- 📌 Google Gemini 3 Pro Preview 明日（3 月 9 日）正式停服，开发者须立即迁移；Gemini 3.1 Flash-Lite 同步上线：迁移截止日逼近，Gemini 3.1 Pro 在 ARC-AGI-2 得分是旧版两倍以上；Flash-Lite 专为高并发低成本场景设计，成本较 3 Pro 下降约 70%。\n- 📌 Anthropic-五角大楼法律对决倒计时：三大云厂商全面背书延续，Anthropic 诉状准备就绪；FTC 双截止日 3 天后（3 月 11 日）将重塑美国 AI 监管格局：Anthropic 将依据《行政程序法》正式起诉 DOD，同日 FTC 须发布历史首份 AI 消费者保护执法政策声明，商务部须提交州法冲突清单，美国 AI 监管格局面临最关键一周。",
+      "sections": [
+        "AI Labs",
+        "AI Agent",
+        "产品",
+        "中国 AI",
+        "机器人",
+        "自动驾驶",
+        "医疗 AI",
+        "芯片"
+      ],
+      "stories": [
+        {
+          "tag": "AI Labs",
+          "impact": "更新",
+          "title": "📌 Anthropic 法庭挑战 DOD 进入倒计时，CEO Amodei 发布正式立场声明",
+          "detail": "随着三大云厂商（Microsoft、Google Cloud、AWS）对 Anthropic 的公开背书在本周已充分发酵，Anthropic 的法律行动准备工作已接近尾声。CEO Dario Amodei 本周在官方博客发布正式声明《我们与战争部的关系》，核心立场清晰： - 认…",
+          "links": [
+            {
+              "label": "Anthropic Blog",
+              "url": "https://www.anthropic.com/news/where-stand-department-war"
+            },
+            {
+              "label": "TechCrunch - Supply Chain Risk",
+              "url": "https://techcrunch.com/2026/03/05/its-official-the-pentagon-has-labeled-anthropic-a-supply-chain-risk/"
+            }
+          ],
+          "anchor": "anthropic-法庭挑战-dod-进入倒计时-ceo-amodei-发布正式立场声明"
+        },
+        {
+          "tag": "AI Labs",
+          "impact": "关注",
+          "title": "Google DeepMind Demis Hassabis 发出\"竞赛警告\"：迫近超人 AI 时代的透明度呼吁",
+          "detail": "Google DeepMind CEO Demis Hassabis 本周公开发出警告，认为 AI 实验室之间的竞赛压力、以及中美之间的国家竞争，正在驱动行业走向其本可避免的风险决策。Hassabis 指出，随着超人 AI 越来越接近现实，\"竞赛条件\"（race conditi…",
+          "links": [
+            {
+              "label": "Axios - AI race safety",
+              "url": "https://www.axios.com/2026/03/03/ai-race-safety-guardrail"
+            }
+          ],
+          "anchor": "google-deepmind-demis-hassabis-发出-竞赛警告-迫近超人-ai-时代的透明度呼吁"
+        },
+        {
+          "tag": "AI Agent",
+          "impact": "关注",
+          "title": "📌 Anthropic MCP 捐赠 Linux 基金会，行业 Agent 基础设施标准化加速",
+          "detail": "Anthropic 的 Model Context Protocol（MCP）——被行业称为\"AI 的 USB-C 接口\"，允许 AI Agent 标准化调用数据库、搜索引擎、API 等外部工具——已正式捐赠给 Linux 基金会旗下新成立的 Agentic AI Founda…",
+          "links": [
+            {
+              "label": "superhuman.ai",
+              "url": "https://www.superhuman.ai/p/openai-google-and-anthropic-release-new-models"
+            }
+          ],
+          "anchor": "anthropic-mcp-捐赠-linux-基金会-行业-agent-基础设施标准化加速"
+        },
+        {
+          "tag": "产品",
+          "impact": "高热",
+          "title": "🔥 OpenAI 正式推出 ChatGPT for Excel：GPT-5.4 Thinking 驱动，内置六大金融数据源接入",
+          "detail": "OpenAI 于本周正式发布 ChatGPT for Excel（Beta 版），这是继 GPT-5.4 发布后 OpenAI 在生产力工具领域的重大落子，也是此前搜索结果中唯一未被本档案覆盖的重量级产品发布。核心功能： - 自然语言建模：在 Excel 工作簿中用中文或英文描…",
+          "links": [
+            {
+              "label": "OpenAI - ChatGPT for Excel",
+              "url": "https://openai.com/index/chatgpt-for-excel/"
+            },
+            {
+              "label": "Axios - Office tools",
+              "url": "https://www.axios.com/2026/03/05/openai-gpt-54-chatgpt-office"
+            }
+          ],
+          "anchor": "openai-正式推出-chatgpt-for-excel-gpt-5-4-thinking-驱动-内置六大金融数据源接入"
+        },
+        {
+          "tag": "产品",
+          "impact": "更新",
+          "title": "📌 Google Gemini 3 Pro Preview 明日停服，Gemini 3.1 Flash-Lite 正式上线",
+          "detail": "两个同步发生的 Gemini 产品事件值得关注： ① Gemini 3 Pro Preview 停服倒计时 24 小时：Google 已确认，旧版 gemini-3-pro-preview 端点将于明日（3 月 9 日）正式停止服务。3 月 6 日起，-latest 模型别名已…",
+          "links": [
+            {
+              "label": "Google AI Developers Forum",
+              "url": "https://discuss.ai.google.dev/t/migrate-from-gemini-3-pro-preview-to-gemini-3-1-pro-preview-before-march-9-2026/127062"
+            },
+            {
+              "label": "Awesome Agents - Flash-Lite",
+              "url": "https://awesomeagents.ai/news/gemini-3-1-flash-lite-preview-launch/"
+            }
+          ],
+          "anchor": "google-gemini-3-pro-preview-明日停服-gemini-3-1-flash-lite-正式上线"
+        },
+        {
+          "tag": "产品",
+          "impact": "更新",
+          "title": "Google Research 发布地球 AI 重大更新及 DeepSomatic 癌症基因工具",
+          "detail": "Google Research 本周发布两项重要突破： ① Google Earth AI 重大更新：最新一代地球地理空间 AI 系统覆盖洪水预测、野火监测、气旋追踪、空气质量、花粉预报、天气临近预报及农业监测七大场景，底层模型 AlphaEarth Foundations 通…",
+          "links": [
+            {
+              "label": "Google Research Blog",
+              "url": "https://research.google/blog/accelerating-the-magic-cycle-of-research-breakthroughs-and-real-world-applications/"
+            },
+            {
+              "label": "Google Earth AI",
+              "url": "https://research.google/blog/google-earth-ai-unlocking-geospatial-insights-with-foundation-models-and-cross-modal-reasoning/"
+            }
+          ],
+          "anchor": "google-research-发布地球-ai-重大更新及-deepsomatic-癌症基因工具"
+        },
+        {
+          "tag": "中国 AI",
+          "impact": "关注",
+          "title": "📌 两会进入最后阶段：15th 五年计划草案中 AI 战略定位最终确认，DeepSeek V4 倒计时 3 天",
+          "detail": "全国两会将于 3 月 11 日闭幕，本届两会在 AI 议题上的核心成果已基本成型： 第十五个五年规划纲要草案（2026-2030）核心科技条款：AI 被定义为本轮五年计划的\"连接线索\"，而非单独的产业板块。规划强调\"AI+制造\"整合战略：以大型国有企业为锚定采购方，将 AI 初…",
+          "links": [
+            {
+              "label": "CGTN - NPC power-computing",
+              "url": "https://news.cgtn.com/news/2026-03-07/VHJhbnNjcmlwdDg5NDYw/index.html"
+            },
+            {
+              "label": "SCMP - Two Sessions AI",
+              "url": "https://www.scmp.com/tech/policy/article/3345372/chinas-tech-leaders-urge-faster-ai-humanoid-robot-adoption-two-sessions-proposals"
+            }
+          ],
+          "anchor": "两会进入最后阶段-15th-五年计划草案中-ai-战略定位最终确认-deepseek-v4-倒计时-3-天"
+        },
+        {
+          "tag": "机器人",
+          "impact": "关注",
+          "title": "📌 特斯拉 Cybercab 产线规模扩大，预测市场对 4 月量产目标仍持怀疑态度",
+          "detail": "Tesla Gigafactory 德州工厂的 Cybercab 试生产规模持续扩大，目前厂区内可见车辆已增至 25 辆以上，分布于三处主要区域。这标志着 Tesla 已从\"单台验证\"进入\"批量测试制造\"阶段。 然而挑战不容忽视：① Cybercab 无方向盘无踏板设计需要 N…",
+          "links": [
+            {
+              "label": "Electrek - Cybercab production",
+              "url": "https://electrek.co/2026/02/17/tesla-rolls-first-steering-wheel-less-cybercab-unit-off-the-line-before-solving-autonomy/"
+            },
+            {
+              "label": "National Today - Tesla Cybercab",
+              "url": "https://nationaltoday.com/us/tx/austin/news/2026/03/04/tesla-readies-cybercab-but-prediction-markets-arent-sure-elon-musk-can-deliver/"
+            }
+          ],
+          "anchor": "特斯拉-cybercab-产线规模扩大-预测市场对-4-月量产目标仍持怀疑态度"
+        },
+        {
+          "tag": "自动驾驶",
+          "impact": "关注",
+          "title": "📌 Waymo 奥斯汀公众信任危机持续，NTSB 调查推进，德克萨斯州立法压力增大",
+          "detail": "延续上周的负面事件，Waymo 目前面临两条并行压力轨道： ① NTSB 调查正式推进：美国国家运输安全委员会本周进一步确认对 Waymo 校车违规事件的系统性调查，本学年奥斯汀已发生 23 起违规经过停靠校车事件，正式调查报告预计将于 Q2 公布。 ② 德克萨斯州立法动向：多…",
+          "links": [
+            {
+              "label": "Axios - Waymo ambulance",
+              "url": "https://www.axios.com/local/austin/2026/03/02/waymo-vehicle-blocks-ems-austin-mass-shooting"
+            },
+            {
+              "label": "KXAN - NTSB school bus",
+              "url": "https://www.kxan.com/investigations/ntsb-human-error-prompted-waymo-to-pass-stopped-school-bus-in-austin/"
+            }
+          ],
+          "anchor": "waymo-奥斯汀公众信任危机持续-ntsb-调查推进-德克萨斯州立法压力增大"
+        },
+        {
+          "tag": "医疗 AI",
+          "impact": "资本",
+          "title": "Grow Therapy 完成 1.5 亿美元 D 轮融资，估值 30 亿美元，AI 助力心理治疗可及性扩张",
+          "detail": "数字心理健康平台 Grow Therapy 于 3 月 3-5 日宣布完成 1.5 亿美元 D 轮融资，估值达 30 亿美元。本轮由 TCV 和 Goldman Sachs Alternatives 成长股权部门领投，新投资方 BCI 和 Menlo Ventures 加入，红…",
+          "links": [
+            {
+              "label": "Bloomberg - Grow Therapy valuation",
+              "url": "https://www.bloomberg.com/news/articles/2026-03-03/mental-health-startup-grow-therapy-hits-3-billion-valuation"
+            },
+            {
+              "label": "BHB Business",
+              "url": "https://bhbusiness.com/2026/03/03/with-1b-in-revenue-grow-therapy-lands-150m-series-d/"
+            }
+          ],
+          "anchor": "grow-therapy-完成-1-5-亿美元-d-轮融资-估值-30-亿美元-ai-助力心理治疗可及性扩张"
+        },
+        {
+          "tag": "芯片",
+          "impact": "关注",
+          "title": "📌 NVIDIA GTC 2026 倒计时 8 天：Pre-game Show 日程公布，分析师 Q&A 确认时间",
+          "detail": "距 NVIDIA GTC 2026（3 月 16-19 日，圣何塞 SAP 中心）仅剩 8 天，会议筹备进入最后阶段： - Keynote Pre-game Show：3 月 16 日太平洋时间上午 8 点开始，在线直播；主线 Keynote 11 点在 SAP 中心举行 -…",
+          "links": [
+            {
+              "label": "NVIDIA Newsroom",
+              "url": "https://nvidianews.nvidia.com/news/nvidia-ceo-jensen-huang-and-global-technology-leaders-to-showcase-age-of-ai-at-gtc-2026"
+            },
+            {
+              "label": "Tom's Guide",
+              "url": "https://www.tomsguide.com/computing/nvidia-gtc-2026-the-biggest-reveals-we-expect-to-see"
+            }
+          ],
+          "anchor": "nvidia-gtc-2026-倒计时-8-天-pre-game-show-日程公布-分析师-q-a-确认时间"
+        },
+        {
+          "tag": "芯片",
+          "impact": "资本",
+          "title": "本周值得关注的融资事件：",
+          "detail": "- Grow Therapy（AI 心理健康平台）：1.5 亿美元 D 轮，估值 30 亿美元，TCV + Goldman Sachs 领投（详见第 7 板块）。 - Positron（AI 专注半导体）：2.3 亿美元融资，由高频交易领域机构支持，专攻高性能 AI 工作负载的…",
+          "links": [
+            {
+              "label": "ASIC Pro - Semiconductor roundup",
+              "url": "https://www.asicpro.com/2026/03/05/semiconductor-news-february-2026-roundup/"
+            },
+            {
+              "label": "Crunchbase News",
+              "url": "https://news.crunchbase.com/venture/record-setting-global-funding-february-2026-openai-anthropic/"
+            }
+          ],
+          "anchor": "本周值得关注的融资事件"
+        }
+      ],
+      "sourceFile": "/Users/sc-claw/Desktop/Github/ai-news/content/daily-ai-news/2026-03-08.md",
+      "htmlContent": "<h3 id=\"今日摘要\">今日摘要</h3>\n<ul><li>🔥 <strong>OpenAI ChatGPT for Excel 正式推出：AI 直接进驻 Office 金融工作流，内置 FactSet / S&amp;P / LSEG 等专业数据源接入</strong>：GPT-5.4 Thinking 驱动的 Excel 插件支持自然语言建模、跨工作簿推理和误差溯源，是 OpenAI 向金融与企业用户发起的重大进攻。</li><li>📌 <strong>Google Gemini 3 Pro Preview 明日（3 月 9 日）正式停服，开发者须立即迁移；Gemini 3.1 Flash-Lite 同步上线</strong>：迁移截止日逼近，Gemini 3.1 Pro 在 ARC-AGI-2 得分是旧版两倍以上；Flash-Lite 专为高并发低成本场景设计，成本较 3 Pro 下降约 70%。</li><li>📌 <strong>Anthropic-五角大楼法律对决倒计时：三大云厂商全面背书延续，Anthropic 诉状准备就绪；FTC 双截止日 3 天后（3 月 11 日）将重塑美国 AI 监管格局</strong>：Anthropic 将依据《行政程序法》正式起诉 DOD，同日 FTC 须发布历史首份 AI 消费者保护执法政策声明，商务部须提交州法冲突清单，美国 AI 监管格局面临最关键一周。</li></ul>\n<hr class=\"report-rule\" />\n<h3 id=\"1-主要-ai-labs-动态\">1. 主要 AI Labs 动态</h3>\n<h4 class=\"entry-heading\" id=\"anthropic-法庭挑战-dod-进入倒计时-ceo-amodei-发布正式立场声明\">📌 Anthropic 法庭挑战 DOD 进入倒计时，CEO Amodei 发布正式立场声明</h4>\n<p>随着三大云厂商（Microsoft、Google Cloud、AWS）对 Anthropic 的公开背书在本周已充分发酵，Anthropic 的法律行动准备工作已接近尾声。CEO <strong>Dario Amodei</strong> 本周在官方博客发布正式声明《我们与战争部的关系》，核心立场清晰：</p>\n<ul><li>认定范围有限：DOD 的&quot;供应链风险&quot;认定仅约束<strong>直接承担 DOD 合同的承包商</strong>中涉及合同履行的 Claude 使用，而非对所有企业、政府机构或 AWS/Google/Azure 商业客户的全面封锁</li><li>两条红线不变：Anthropic 拒绝 Claude 被用于<strong>全自主致命武器</strong>和<strong>大规模国内监控</strong>，这是公司的核心原则，不因政治压力而移动</li><li>法律挑战路径：将援引《行政程序法》（APA），主张 DOD 超越《国防生产法》的法定授权，诉状正在最终准备中</li><li>过渡期安排：Anthropic 承诺在法律诉讼期间，以<strong>名义成本</strong>继续为 DOD 及国家安全社区提供 Claude 服务</li></ul>\n<p><strong>公众支持意外爆发</strong>：Anthropic 在此次危机中的坚守立场意外带来商业红利——Claude 应用登上 <strong>Apple App Store 下载排行榜榜首</strong>，用户增长创单周历史纪录，显示公众对 AI 安全边界问题的高度关注。（来源：<a href=\"https://www.anthropic.com/news/where-stand-department-war\" target=\"_blank\" rel=\"noreferrer\">Anthropic Blog</a> · <a href=\"https://techcrunch.com/2026/03/05/its-official-the-pentagon-has-labeled-anthropic-a-supply-chain-risk/\" target=\"_blank\" rel=\"noreferrer\">TechCrunch - Supply Chain Risk</a> · <a href=\"https://www.axios.com/2026/03/03/ai-race-safety-guardrail\" target=\"_blank\" rel=\"noreferrer\">Axios - AI safety</a>）</p>\n<h4 class=\"entry-heading\" id=\"google-deepmind-demis-hassabis-发出-竞赛警告-迫近超人-ai-时代的透明度呼吁\">Google DeepMind Demis Hassabis 发出&quot;竞赛警告&quot;：迫近超人 AI 时代的透明度呼吁</h4>\n<p>Google DeepMind CEO <strong>Demis Hassabis</strong> 本周公开发出警告，认为 AI 实验室之间的竞赛压力、以及中美之间的国家竞争，正在驱动行业走向其本可避免的风险决策。Hassabis 指出，随着超人 AI 越来越接近现实，<strong>&quot;竞赛条件&quot;</strong>（race conditions）会让企业做出在正常情况下绝不会做的选择——历史上类似的竞赛心理已一再推动技术外溢和安全妥协。他呼吁各主要 AI 实验室增加对彼此的透明度，并在核心安全标准上形成行业共识，而非各自为政。（来源：<a href=\"https://www.axios.com/2026/03/03/ai-race-safety-guardrail\" target=\"_blank\" rel=\"noreferrer\">Axios - AI race safety</a>）</p>\n<hr class=\"report-rule\" />\n<h3 id=\"2-ai-agent\">2. AI Agent</h3>\n<h4 class=\"entry-heading\" id=\"anthropic-mcp-捐赠-linux-基金会-行业-agent-基础设施标准化加速\">📌 Anthropic MCP 捐赠 Linux 基金会，行业 Agent 基础设施标准化加速</h4>\n<p>Anthropic 的 <strong>Model Context Protocol（MCP）</strong>——被行业称为&quot;AI 的 USB-C 接口&quot;，允许 AI Agent 标准化调用数据库、搜索引擎、API 等外部工具——已正式捐赠给 <strong>Linux 基金会</strong>旗下新成立的 <strong>Agentic AI Foundation</strong>。OpenAI 和 Microsoft 已公开宣布接受 MCP 标准，Google 和 Meta 的接入工作也在推进中。MCP 成为 Agent 基础设施的通用协议层，标志着 AI Agent 生态从&quot;各家自建工具调用标准&quot;向行业统一规范迈出关键一步。这将大幅降低企业构建跨平台 Agent 工作流的集成成本，也使 Anthropic 获得了开放生态建设者的独特定位优势。（来源：<a href=\"https://www.superhuman.ai/p/openai-google-and-anthropic-release-new-models\" target=\"_blank\" rel=\"noreferrer\">superhuman.ai</a>）</p>\n<hr class=\"report-rule\" />\n<h3 id=\"3-ai-产品更新\">3. AI 产品更新</h3>\n<h4 class=\"entry-heading\" id=\"openai-正式推出-chatgpt-for-excel-gpt-5-4-thinking-驱动-内置六大金融数据源接入\">🔥 OpenAI 正式推出 ChatGPT for Excel：GPT-5.4 Thinking 驱动，内置六大金融数据源接入</h4>\n<p>OpenAI 于本周正式发布 <strong>ChatGPT for Excel（Beta 版）</strong>，这是继 GPT-5.4 发布后 OpenAI 在生产力工具领域的重大落子，也是此前搜索结果中唯一未被本档案覆盖的重量级产品发布。核心功能：</p>\n<ul><li><strong>自然语言建模</strong>：在 Excel 工作簿中用中文或英文描述需求，ChatGPT 直接创建或更新财务模型，无需手写公式</li><li><strong>跨工作表推理</strong>：可理解多张表格间的公式关联，解释输出结果变化、追踪假设传导链，自动识别和修复错误</li><li><strong>六大金融数据源直连</strong>：FactSet、Dow Jones Factiva、<strong>LSEG</strong>、Daloopa、<strong>S&amp;P Global</strong>、雅虎财经 Finance（Plus 版），使专业金融分析师可在 ChatGPT 对话界面直接调取实时机构级数据</li><li><strong>底层模型</strong>：由 <strong>GPT-5.4 Thinking</strong> 驱动，具备 100 万 token 上下文和顶级推理能力</li></ul>\n<p><strong>当前可用范围</strong>：<strong>ChatGPT Plus、Team、Enterprise、Edu</strong> 订阅用户；地区限定为美国、加拿大、澳大利亚，企业级管控功能一并开放。OpenAI 还同步宣布上述金融数据源将在 ChatGPT 标准对话界面也可调用。（来源：<a href=\"https://openai.com/index/chatgpt-for-excel/\" target=\"_blank\" rel=\"noreferrer\">OpenAI - ChatGPT for Excel</a> · <a href=\"https://www.axios.com/2026/03/05/openai-gpt-54-chatgpt-office\" target=\"_blank\" rel=\"noreferrer\">Axios - Office tools</a> · <a href=\"https://venturebeat.com/technology/openai-launches-gpt-5-4-with-native-computer-use-mode-financial-plugins-for\" target=\"_blank\" rel=\"noreferrer\">VentureBeat</a>）</p>\n<h4 class=\"entry-heading\" id=\"google-gemini-3-pro-preview-明日停服-gemini-3-1-flash-lite-正式上线\">📌 Google Gemini 3 Pro Preview 明日停服，Gemini 3.1 Flash-Lite 正式上线</h4>\n<p>两个同步发生的 Gemini 产品事件值得关注：</p>\n<p>① <strong>Gemini 3 Pro Preview 停服倒计时 24 小时</strong>：Google 已确认，旧版 <strong>gemini-3-pro-preview</strong> 端点将于<strong>明日（3 月 9 日）</strong>正式停止服务。3 月 6 日起，<code>-latest</code> 模型别名已切换至 <strong>Gemini 3.1 Pro Preview</strong>；仍硬编码旧端点的开发者若不在今日前完成迁移，明日起 API 调用将直接报错。Google 工程主管 Logan Kilpatrick 将关停原因定性为&quot;算力碎片整理&quot;，以释放加速器资源给更新模型。性能对比：Gemini 3.1 Pro 在 <strong>ARC-AGI-2</strong> 得分 <strong>77.1%</strong>，是 Gemini 3 Pro 的<strong>两倍以上</strong>。</p>\n<p>② <strong>Gemini 3.1 Flash-Lite 正式上线</strong>（3 月 3 日发布）：专为<strong>高并发、低延迟、高性价比</strong>场景设计，适合大批量任务（内容分类、摘要、数据提取等），定价较 Gemini 3 Pro 低约 <strong>70%</strong>，是目前 Gemini 系列中吞吐量最高的模型。（来源：<a href=\"https://discuss.ai.google.dev/t/migrate-from-gemini-3-pro-preview-to-gemini-3-1-pro-preview-before-march-9-2026/127062\" target=\"_blank\" rel=\"noreferrer\">Google AI Developers Forum</a> · <a href=\"https://awesomeagents.ai/news/gemini-3-1-flash-lite-preview-launch/\" target=\"_blank\" rel=\"noreferrer\">Awesome Agents - Flash-Lite</a> · <a href=\"https://theagencyjournal.com/geminis-latest-sizzle-flash-lite-and-pixel-magic-from-march-2026/\" target=\"_blank\" rel=\"noreferrer\">The Agency Journal</a>）</p>\n<h4 class=\"entry-heading\" id=\"google-research-发布地球-ai-重大更新及-deepsomatic-癌症基因工具\">Google Research 发布地球 AI 重大更新及 DeepSomatic 癌症基因工具</h4>\n<p>Google Research 本周发布两项重要突破：</p>\n<p>① <strong>Google Earth AI 重大更新</strong>：最新一代地球地理空间 AI 系统覆盖洪水预测、野火监测、气旋追踪、空气质量、花粉预报、天气临近预报及农业监测七大场景，底层模型 <strong>AlphaEarth Foundations</strong> 通过跨模态推理可对全球 <strong>100 余个国家</strong>提供可操作性洞察；Google 同步开放更多研究人员访问权限。</p>\n<p>② <strong>DeepSomatic</strong>（发表于《自然·生物技术》）：开源癌症基因变异识别 AI 工具，通过将基因测序数据转化为图像、再由卷积神经网络区分正常基因组、非癌变生殖系变异和癌症导致的体细胞变异，可准确定位致癌基因突变，且对未见过的癌症类型（如脑胶质母细胞瘤）仍表现出强泛化能力。（来源：<a href=\"https://research.google/blog/accelerating-the-magic-cycle-of-research-breakthroughs-and-real-world-applications/\" target=\"_blank\" rel=\"noreferrer\">Google Research Blog</a> · <a href=\"https://research.google/blog/google-earth-ai-unlocking-geospatial-insights-with-foundation-models-and-cross-modal-reasoning/\" target=\"_blank\" rel=\"noreferrer\">Google Earth AI</a> · <a href=\"https://www.techbuzz.ai/articles/google-research-unveils-ai-cancer-tool-quantum-breakthrough\" target=\"_blank\" rel=\"noreferrer\">TechBuzz AI</a>）</p>\n<hr class=\"report-rule\" />\n<h3 id=\"4-中国-ai-产业\">4. 中国 AI 产业</h3>\n<h4 class=\"entry-heading\" id=\"两会进入最后阶段-15th-五年计划草案中-ai-战略定位最终确认-deepseek-v4-倒计时-3-天\">📌 两会进入最后阶段：15th 五年计划草案中 AI 战略定位最终确认，DeepSeek V4 倒计时 3 天</h4>\n<p>全国两会将于 <strong>3 月 11 日</strong>闭幕，本届两会在 AI 议题上的核心成果已基本成型：</p>\n<p><strong>第十五个五年规划纲要草案（2026-2030）核心科技条款</strong>：AI 被定义为本轮五年计划的&quot;连接线索&quot;，而非单独的产业板块。规划强调<strong>&quot;AI+制造&quot;</strong>整合战略：以大型国有企业为锚定采购方，将 AI 初创企业和专业供应商纳入国家制造体系；同时设立涵盖数据市场合规、AI 生成内容监管细则、具身 AI 安全认证三条政策轨道。量子技术、生物制造、人形机器人、脑机接口和 6G 被列为重点攻关领域。中国全球创新指数排名从第 12 位跃升至<strong>第 10 位</strong>，深圳-香港-广州集群首次位列全球科技创新集群<strong>第一</strong>。</p>\n<p><strong>DeepSeek V4 发布窗口今日起进入&quot;最后冲刺期&quot;</strong>：距两会闭幕（3 月 11 日）仅 3 天，这是 DeepSeek V4 最被看好的发布节点。Manifold Markets 预测市场显示，V4 在 3 月 31 日前发布的概率高于 <strong>90%</strong>。V4 核心规格已锁定：万亿参数 MoE（推理激活约 320 亿参数）、原生多模态、100 万 token 上下文、华为昇腾优化，完全开源。（来源：<a href=\"https://news.cgtn.com/news/2026-03-07/VHJhbnNjcmlwdDg5NDYw/index.html\" target=\"_blank\" rel=\"noreferrer\">CGTN - NPC power-computing</a> · <a href=\"https://www.scmp.com/tech/policy/article/3345372/chinas-tech-leaders-urge-faster-ai-humanoid-robot-adoption-two-sessions-proposals\" target=\"_blank\" rel=\"noreferrer\">SCMP - Two Sessions AI</a> · <a href=\"https://technode.com/2026/03/02/deepseek-plans-v4-multimodal-model-release-this-week-sources-say/\" target=\"_blank\" rel=\"noreferrer\">TechNode - DeepSeek V4</a>）</p>\n<hr class=\"report-rule\" />\n<h3 id=\"5-机器人与物理-ai\">5. 机器人与物理 AI</h3>\n<h4 class=\"entry-heading\" id=\"特斯拉-cybercab-产线规模扩大-预测市场对-4-月量产目标仍持怀疑态度\">📌 特斯拉 Cybercab 产线规模扩大，预测市场对 4 月量产目标仍持怀疑态度</h4>\n<p>Tesla Gigafactory 德州工厂的 Cybercab 试生产规模持续扩大，目前厂区内可见车辆已增至 <strong>25 辆以上</strong>，分布于三处主要区域。这标志着 Tesla 已从&quot;单台验证&quot;进入&quot;批量测试制造&quot;阶段。</p>\n<p>然而挑战不容忽视：① Cybercab 无方向盘无踏板设计需要 NHTSA 专项豁免，<strong>豁免尚未获批</strong>；② 车辆将以 AI4 硬件上路，但 Musk 自己承认真正的&quot;无监督自动驾驶&quot;需要 AI5 芯片（预计 2027 年中）；③ 预测市场（Manifold Markets）对&quot;4 月开始量产&quot;的概率估计不足 50%。Cybercab 目标售价低于 <strong>3 万美元</strong>，计划直接向消费者销售。（来源：<a href=\"https://electrek.co/2026/02/17/tesla-rolls-first-steering-wheel-less-cybercab-unit-off-the-line-before-solving-autonomy/\" target=\"_blank\" rel=\"noreferrer\">Electrek - Cybercab production</a> · <a href=\"https://nationaltoday.com/us/tx/austin/news/2026/03/04/tesla-readies-cybercab-but-prediction-markets-arent-sure-elon-musk-can-deliver/\" target=\"_blank\" rel=\"noreferrer\">National Today - Tesla Cybercab</a>）</p>\n<hr class=\"report-rule\" />\n<h3 id=\"6-自动驾驶\">6. 自动驾驶</h3>\n<h4 class=\"entry-heading\" id=\"waymo-奥斯汀公众信任危机持续-ntsb-调查推进-德克萨斯州立法压力增大\">📌 Waymo 奥斯汀公众信任危机持续，NTSB 调查推进，德克萨斯州立法压力增大</h4>\n<p>延续上周的负面事件，Waymo 目前面临两条并行压力轨道：</p>\n<p>① <strong>NTSB 调查正式推进</strong>：美国国家运输安全委员会本周进一步确认对 Waymo 校车违规事件的系统性调查，本学年奥斯汀已发生 <strong>23 起</strong>违规经过停靠校车事件，正式调查报告预计将于 Q2 公布。</p>\n<p>② <strong>德克萨斯州立法动向</strong>：多名州议员在 3 月 2 日枪击案阻拦救护车事件后持续发声，并提出具体立法构想：要求在校区附近道路对自动驾驶车辆实施强制降速，以及引入针对 Robotaxi 的&quot;实时远程干预响应时限&quot;标准（建议不超过 15 秒）。Waymo 暂未就新立法动向公开回应。</p>\n<p><strong>行业背景</strong>：Waymo 正同步推进多城市扩张，已在达拉斯、休斯顿、圣安东尼奥和奥兰多启动全自动运营，单周乘车次数目标为 2026 年底超过 <strong>100 万次</strong>。公众信任与安全监管的压力与规模扩张的雄心形成直接张力。（来源：<a href=\"https://www.axios.com/local/austin/2026/03/02/waymo-vehicle-blocks-ems-austin-mass-shooting\" target=\"_blank\" rel=\"noreferrer\">Axios - Waymo ambulance</a> · <a href=\"https://www.kxan.com/investigations/ntsb-human-error-prompted-waymo-to-pass-stopped-school-bus-in-austin/\" target=\"_blank\" rel=\"noreferrer\">KXAN - NTSB school bus</a> · <a href=\"https://electrek.co/2026/02/12/waymo-begins-fully-autonomous-ops-with-6th-gen-driver-targets-1m-weekly-rides/\" target=\"_blank\" rel=\"noreferrer\">Electrek - Waymo expansion</a>）</p>\n<hr class=\"report-rule\" />\n<h3 id=\"7-医疗-ai\">7. 医疗 AI</h3>\n<h4 class=\"entry-heading\" id=\"grow-therapy-完成-1-5-亿美元-d-轮融资-估值-30-亿美元-ai-助力心理治疗可及性扩张\">Grow Therapy 完成 1.5 亿美元 D 轮融资，估值 30 亿美元，AI 助力心理治疗可及性扩张</h4>\n<p>数字心理健康平台 <strong>Grow Therapy</strong> 于 3 月 3-5 日宣布完成 <strong>1.5 亿美元 D 轮</strong>融资，估值达 <strong>30 亿美元</strong>。本轮由 <strong>TCV</strong> 和 <strong>Goldman Sachs Alternatives 成长股权部门</strong>领投，新投资方 BCI 和 Menlo Ventures 加入，红杉资本、SignalFire、Transformation Capital 跟投。</p>\n<p>Grow Therapy 的 AI 差异化：平台内嵌 AI 工具将治疗师的病程笔记记录时间<strong>减少 70%</strong>，并通过 EAP（员工援助计划）渠道无缝分诊，覆盖数百万保险参保患者。该平台目前连接逾 <strong>12,000 名</strong>持证治疗师和精神科医师，年营收已突破 <strong>10 亿美元</strong>。本轮融资将用于扩展雇主福利市场的分发渠道，以及深化 AI 工具开发。（来源：<a href=\"https://www.bloomberg.com/news/articles/2026-03-03/mental-health-startup-grow-therapy-hits-3-billion-valuation\" target=\"_blank\" rel=\"noreferrer\">Bloomberg - Grow Therapy valuation</a> · <a href=\"https://bhbusiness.com/2026/03/03/with-1b-in-revenue-grow-therapy-lands-150m-series-d/\" target=\"_blank\" rel=\"noreferrer\">BHB Business</a>）</p>\n<hr class=\"report-rule\" />\n<h3 id=\"8-芯片与半导体\">8. 芯片与半导体</h3>\n<h4 class=\"entry-heading\" id=\"nvidia-gtc-2026-倒计时-8-天-pre-game-show-日程公布-分析师-q-a-确认时间\">📌 NVIDIA GTC 2026 倒计时 8 天：Pre-game Show 日程公布，分析师 Q&amp;A 确认时间</h4>\n<p>距 <strong>NVIDIA GTC 2026</strong>（3 月 16-19 日，圣何塞 SAP 中心）仅剩 <strong>8 天</strong>，会议筹备进入最后阶段：</p>\n<ul><li><strong>Keynote Pre-game Show</strong>：3 月 16 日太平洋时间<strong>上午 8 点</strong>开始，在线直播；主线 Keynote 11 点在 SAP 中心举行</li><li><strong>机构分析师 Q&amp;A 会议</strong>：3 月 17 日（周二）上午 9 点，直播地址为 investor.nvidia.com</li><li><strong>会议规模</strong>：逾 <strong>3 万人</strong>现场注册，来自 <strong>190 余国</strong>，历史最高</li><li><strong>已高度确认的发布内容</strong>：Rubin Ultra GPU（TSMC N3P + HBM4）、Feynman 架构芯片（TSMC A16 约 1.6nm，性能目标是 Vera Rubin 的 2 倍）、整合 Groq LPU 技术的新 AI 处理器、面向 AI PC 的消费级 SoC（联合 MediaTek）</li><li>Jensen Huang 已预告将发布&quot;<strong>世界从未见过的芯片</strong>&quot;</li></ul>\n<p>华尔街机构（Jefferies 等）维持 NVDA 强买评级，认为 GTC 将是 2026 年最重要的科技产业里程碑。（来源：<a href=\"https://nvidianews.nvidia.com/news/nvidia-ceo-jensen-huang-and-global-technology-leaders-to-showcase-age-of-ai-at-gtc-2026\" target=\"_blank\" rel=\"noreferrer\">NVIDIA Newsroom</a> · <a href=\"https://www.tomsguide.com/computing/nvidia-gtc-2026-the-biggest-reveals-we-expect-to-see\" target=\"_blank\" rel=\"noreferrer\">Tom's Guide</a> · <a href=\"https://www.tipranks.com/news/nvidia-nvda-gtc-2026-is-coming-heres-what-to-expect-from-jensen-huangs-big-ai-event\" target=\"_blank\" rel=\"noreferrer\">TipRanks</a>）</p>\n<hr class=\"report-rule\" />\n<h3 id=\"9-创业融资\">9. 创业融资</h3>\n<h4 class=\"entry-heading\" id=\"本周值得关注的融资事件\">本周值得关注的融资事件：</h4>\n<ul><li><strong>Grow Therapy</strong>（AI 心理健康平台）：<strong>1.5 亿美元 D 轮</strong>，估值 30 亿美元，TCV + Goldman Sachs 领投（详见第 7 板块）。</li></ul>\n<ul><li><strong>Positron</strong>（AI 专注半导体）：<strong>2.3 亿美元</strong>融资，由高频交易领域机构支持，专攻高性能 AI 工作负载的定制芯片平台。（来源：<a href=\"https://www.asicpro.com/2026/03/05/semiconductor-news-february-2026-roundup/\" target=\"_blank\" rel=\"noreferrer\">ASIC Pro - Semiconductor roundup</a>）</li></ul>\n<ul><li><strong>背景参考</strong>：2026 年 2 月是 AI 融资史上最高单月，总计逾 <strong>1,950 亿美元</strong>，其中 OpenAI（<strong>1,100 亿美元</strong> B 轮，估值 7,300 亿美元）、Anthropic（300 亿美元 G 轮）、Waymo（160 亿美元）三家合计占比 83%。（来源：<a href=\"https://news.crunchbase.com/venture/record-setting-global-funding-february-2026-openai-anthropic/\" target=\"_blank\" rel=\"noreferrer\">Crunchbase News</a>）</li></ul>\n<hr class=\"report-rule\" />\n<h3 id=\"10-政策与监管\">10. 政策与监管</h3>\n<h4 class=\"entry-heading\" id=\"ftc-商务部双截止日倒计时-3-天-3-月-11-日-baker-botts-发布联邦-ai-监管-临界点-分析\">📌 FTC + 商务部双截止日倒计时 3 天（3 月 11 日）：Baker Botts 发布联邦 AI 监管&quot;临界点&quot;分析</h4>\n<p>距特朗普行政令规定的<strong>双截止日（3 月 11 日）</strong>仅剩 <strong>3 天</strong>，两个里程碑将同日触发：</p>\n<p>① <strong>FTC AI 执法政策声明</strong>（历史首份）：将正式阐明《联邦贸易委员会法》第 5 条（不公平/欺骗性商业行为）如何适用于 AI 系统。FTC 预计在声明中明确：基于 AI 的歧视性信贷决策、AI 生成的虚假广告、以及 AI 数据收集对儿童隐私的影响，均属于现有法律的管辖范围，无需等待新的专项 AI 立法。</p>\n<p>② <strong>商务部州法冲突清单</strong>：商务部长须提交与联邦 AI 政策相冲突的各州法律清单，这是联邦通过&quot;BEAD 宽带资金杠杆&quot;（420 亿美元）推动各州废除被认定为阻碍 AI 创新的本地法规的关键前置步骤。</p>\n<h4 class=\"entry-heading\" id=\"baker-botts-分析\">Baker Botts 分析</h4>\n<p>：顶级律所 Baker Botts 本周发布《重塑 AI 监管格局的联邦截止日》报告，核心结论：3 月 11 日将是美国 AI 监管历史上信息密度最高的单日；FTC 声明一旦发布，执法可<strong>即时生效</strong>，预计 Q2 将出现首批针对 AI 功能声明（如&quot;AI 审核了您的贷款申请&quot;）的 FTC 调查案件。</p>\n<p>科罗拉多州已将 AI 法实施推迟至 6 月 30 日；加利福尼亚州继续推进多项独立立法，强硬态度不变。（来源：<a href=\"https://www.bakerbotts.com/thought-leadership/publications/2026/march/march-2026-federal-deadlines-that-will-reshape-the-ai-regulatory-landscape\" target=\"_blank\" rel=\"noreferrer\">Baker Botts - Federal AI Deadlines</a> · <a href=\"https://www.digitalapplied.com/blog/ftc-ai-policy-deadline-march-11-compliance-readiness\" target=\"_blank\" rel=\"noreferrer\">Digital Applied - FTC</a> · <a href=\"https://www.hoganlovells.com/en/publications/white-house-issues-executive-order-to-establish-a-federal-ai-policy-and-preempt-state-laws\" target=\"_blank\" rel=\"noreferrer\">Hogan Lovells</a>）</p>\n<h4 class=\"entry-heading\" id=\"国会听证临近-多名参议员计划就-anthropic-dod-争议本月内举行专项听证\">📌 国会听证临近：多名参议员计划就 Anthropic-DOD 争议本月内举行专项听证</h4>\n<p>CNBC 报道称，已有多名参议员确认将于本月内就 Anthropic-DOD 争议召开<strong>专项国会听证</strong>。这将是国会首次就&quot;商业 AI 公司与军方合作的法定边界&quot;展开正式立法层面辩论，预计焦点将集中于：自主武器使用的 AI 最低责任要求、AI 系统用于国内执法的明确禁用条款，以及防止行政机构凭《国防生产法》威胁商业 AI 公司的制度性护栏。（来源：<a href=\"https://www.cnbc.com/2026/03/05/5-big-questions-anthropic-pentagon-ai-war.html\" target=\"_blank\" rel=\"noreferrer\">CNBC - 5 unresolved questions</a> · <a href=\"https://www.americanprogress.org/article/the-department-of-defenses-conflict-with-anthropic-and-deal-with-openai-are-a-call-for-congress-to-act/\" target=\"_blank\" rel=\"noreferrer\">American Progress</a>）</p>\n<hr class=\"report-rule\" />\n<p><em>本报告覆盖 2026-03-08 期间的主要 AI 行业动态，信息来源均为公开媒体报道及官方公告。</em></p>"
+    },
     {
       "id": "2026-03-07",
       "date": "2026-03-07",
