@@ -1,17 +1,17 @@
-# 🤖 AI 技术周报 · 2026 年第 10 周（3 月 7 日）
+# 🤖 AI 技术周报 · 2026 年第 10 周（3 月 1–8 日）
 
 ---
 
 ## 【模块一】本周导读
 
-- 🔴 OpenAI 与 Anthropic 的分裂从技术竞争演化为政治博弈：美国多个联邦部门将 AI 合同从 Anthropic 转移至 OpenAI，导火索是 Anthropic 拒绝为军事自主武器系统提供服务。这标志着"AI 安全理念"首次成为商业合同的决定性变量，而非技术能力。
-- 🟡 "长思考不等于深思考"正在成为推理时扩展研究的新共识：多篇论文指出 token 数量与准确率相关性为负（r = −0.59），研究重心正从"如何生成更多 token"转向"如何识别有效的推理步骤"，这一范式转变将影响未来推理模型的训练和评估方向。
-- 🟢 Qwen3.5（397B/A17B，Apache 2.0）和 DeepSeek V4 传闻版本本周密集出现，国内 API 单价已降至 ¥0.5/M token 以下，对需要大规模推理的团队有直接成本影响；OpenHands-Versa 开源代码，单 Agent 框架在 SWE-Bench Multimodal 上超越所有多 Agent 系统，值得 Agent 工程团队重点关注。
+- 🔴 **CoT 是"表演"还是"真实推理"？** Reasoning Theater（2603.05488）用激活探针发现：在大量简单问题上，DeepSeek-R1 和 GPT-OSS 的 CoT 生成阶段早在最终答案输出前就已固化内部信念，后续 token 是"表演性"延续而非真实推理。这一发现让"CoT 越长越可信"的假设受到根本性质疑，也为推理时剪枝（早退出节省 30–80% token）提供了新方向。
+- 🟡 **视频生成进入实时时代：** Helios（北京大学 + 字节跳动）发布 14B 参数的实时视频生成模型，单张 H100 达到 19.5 FPS；RealWonder（Stanford + USC）则将物理仿真与视频 Diffusion 融合，在 480p 分辨率下实现 13.2 FPS 的物理感知视频生成——两者宣告"一秒内出画面"在单卡上成为现实。
+- 🟢 **"审查胜于规划"颠覆代码 Agent 设计直觉：** Review Beats Planning（2603.03406）发现，"规划模型 → 代码专家实现"这一主流 Coding Agent 范式在 HumanEval+ 上反而降低 2.4%，而"代码专家先写、推理模型后审"的逆向模式将 pass@1 提升至 90.2%，超越 GPT-4o 和 o1 Preview。Agent 工程师值得重点关注这一实验结论。
 
 **📅 下周预告**
 - Meta Llama 4 正式发布窗口（预计 3 月中旬，MoE 架构）
 - ICLR 2026 Camera-Ready 截止（3 月 10 日）
-- FTC 关于联邦法律适用于各州 AI 法规的政策声明（3 月 11 日截止）
+- DeepSeek V4 多模态版本预期发布（社区爆料，待官方确认）
 
 ---
 
@@ -20,13 +20,11 @@
 ### ① 国际商业模型（闭源）
 
 **GPT-OSS / GPT-5.4**（OpenAI，3 月初）
-- **亮点**：整合推理、编程与 Operator 桌面操控能力为单一模型端点，同时 OpenAI 拿下美国国防部分类网络合同，成为首个进入 DoD 机密环境的商业 LLM。
-- **对比上代**：GPT-5.3 系列分模型各有侧重，5.4 统一封装降低了调用复杂度；DeepSeek-R1 的 benchmark 数据被 Think Deep 论文引用为对照基线。
+- **亮点**：整合推理、编程与 Operator 桌面操控能力为单一模型端点；OpenAI 同期拿下美国国防部分类网络合同，成为首个进入 DoD 机密环境的商业 LLM。本周多篇 arXiv 论文（包括 Reasoning Theater）将其列为对比基线。
 - **访问方式**：API 及 ChatGPT Plus/Pro 订阅。
 
-**Gemini 3.1 Pro**（Google DeepMind，2 月）
-- **亮点**：原生 100 万 token 上下文，ARC-AGI-2 达 77.1%，多模态原生支持（文本/图像/音频/视频/代码）。
-- **对比上代**：Pro 档位上下文窗口是 Gemini 3.0 Pro 的 4×，性价比大幅提升。
+**Gemini 3.1 Pro**（Google DeepMind，2 月底）
+- **亮点**：原生 100 万 token 上下文，ARC-AGI-2 达 77.1%，多模态原生支持（文本/图像/音频/视频/代码）；Gemini Robotics（2503.20020）即基于 Gemini 2.0 延伸至具身 VLA 控制。
 - **访问方式**：Google AI Studio、Vertex AI。
 
 ---
@@ -36,37 +34,37 @@
 **Qwen3.5**（阿里通义，2 月 16 日）
 - **是否开源**：是（Apache 2.0）
 - **规模**：397B 总参数，17B 激活参数，MoE 架构；原生 256K 上下文，支持 201 种语言，含视觉能力。
-- **亮点**：数学视觉基准（Math-Vision）超越 GPT-5.2；推理和编程任务与 Mistral Large 3 接近。
+- **亮点**：本周已整合进 Ollama、Transformers 等主流推理框架；Math-Vision 基准超越 GPT-5.2；与 DeepSeek 合计全球 AI 市场份额升至 15%（去年同期 1%）。
 - **获取方式**：HuggingFace、魔搭（ModelScope）；API ≈ ¥0.5/M token（输入）。
 
-**DeepSeek V4**（深度求索，预计 3 月初）
-- **是否开源**：是（消息未最终确认）
-- **规模**：社区爆料 1T 总参数，32B 激活参数；支持 1M token 多模态上下文。
-- **亮点**：API 定价约 $0.14/M input tokens，约为 GPT-5 的 1/20；DeepSeek 与阿里 Qwen 合计占全球 AI 市场份额已升至 15%（去年同期 1%）。
-- **获取方式**：DeepSeek 官网 API；HuggingFace（正式发布后）。
+**DeepSeek V4**（深度求索，预计 3 月初发布）
+- **是否开源**：社区爆料为是，官方尚未确认
+- **规模**：传闻 1T 总参数，32B 激活参数；支持 1M token 多模态上下文（含图像/视频/文本）
+- **亮点**：定价约 $0.14/M input tokens，约为 GPT-5 的 1/20；本周国内 AI 社区对其多模态能力预期热度极高。
+- **获取方式**：DeepSeek 官网 API（正式发布后）。
 
-**豆包 Seed-1.6 系列**（字节跳动，2 月）
-- **是否开源**：否
-- **亮点**：Seed-1.6（通用）+ Seed-1.6-Thinking（推理）+ Seedance 1.0（视频生成）+ Seedream 3.0（图像生成），四模型矩阵同期发布，视频生成对标 Sora。
-- **获取方式**：火山引擎 API；豆包 App（C 端）。
+**GLM-5 / Ling-Plus**（智谱 + 商汤，2 月发布）
+- **是否开源**：Ling-Plus（290B/A28.8B，商汤）开源；GLM-5（744B/A40B，智谱）闭源
+- **亮点**：本周 arXiv 论文 "Every FLOP Counts"（2503.05139）详细披露了 Ling-Plus 在受限硬件（无高端 GPU）下的训练优化策略，是 MoE 高效训练的工程参考案例。
+- **获取方式**：HuggingFace（Ling-Plus）；智谱 API（GLM-5）。
 
-**春节窗口密集发布（2 月 11–24 日）**：GLM-5（智谱，744B/A40B）、Kimi K2.5（月之暗面）、Step3.5Flash（阶跃星辰）、MiniMax Speech 2.5 在春节窗口集中发布，国内大模型进入节点式军备竞赛。
+**春节窗口补录**：Kimi K2.5（月之暗面，视频 + Agent 能力）、豆包 Seed-1.6 系列（字节，含 Seedance 1.0 视频生成）于 2 月集中发布，本周社区对这批模型的使用评测持续涌现。
 
 ---
 
 ### ③ 其他重要开源模型
 
-**Phi-4-reasoning-vision-15B**（Microsoft Research，2 月）
-- **规模**：15B，200B 多模态 token 训练
-- **最低显存**：~12GB（量化版本可至 8GB）
-- **亮点**：在科学推理、数学和 Computer-Use 任务上媲美更大模型，"小而精"路线代表作；Think Deep 论文将其列为 benchmark 对照模型之一。
-- **获取**：HuggingFace `microsoft/phi-4-reasoning-vision`；Ollama 支持中。
+**Helios-Base / Helios-Distilled**（北京大学 + 字节跳动，3 月 4 日）
+- **规模**：14B 自回归 Diffusion 模型，已开源权重和训练/推理代码
+- **最低显存**：80GB（全精度 14B）；量化/Distilled 版本进行中
+- **亮点**：单 H100 达 19.5 FPS；支持 T2V、I2V、V2V；无需 KV-cache / 稀疏注意力 / 量化等加速技巧即实现实时推理。
+- **获取**：GitHub `PKU-YuanGroup/Helios`；HuggingFace `BestWishYsh/Helios-Base`
 
-**Gemma 3**（Google，2 月底）
-- **规模**：多尺寸，最长支持 128K 上下文
-- **最低显存**：7B 版本约 6GB
-- **亮点**：开源生态友好，指令遵循和对话能力在同规模开源模型中处于前列。
-- **获取**：HuggingFace / Ollama `gemma3`。
+**VisionPangu 1.7B**（本周新发布）
+- **规模**：1.7B，专注高精度图像描述
+- **最低显存**：~4GB
+- **亮点**：通过高质量多模态对齐监督在细粒度描述任务上超越多个更大模型，是端侧多模态的有力候选。
+- **获取**：HuggingFace（arXiv 2603.04957）
 
 ---
 
@@ -76,39 +74,61 @@
 
 ---
 
-**Think Deep, Not Just Long: Measuring LLM Reasoning Effort via Deep-Thinking Tokens**
-📄 https://arxiv.org/abs/2602.13517 | 💻 暂未开源 | 🤗 HF ⭐ 487 | 机构：Google DeepMind
+**Reasoning Theater: Disentangling Model Beliefs from Chain-of-Thought**
+📄 https://arxiv.org/abs/2603.05488 | 💻 暂未开源 | 🤗 HF ⭐ 621 | 机构：MIT、Anthropic、Redwood Research
 
 **问题**
-推理时扩展（inference-time scaling）的主流假设是"更多 token = 更好的推理"，但实测中原始生成长度与准确率的相关系数平均为 **r = −0.59**——不仅不正相关，长输出反而是"过度思考"（overthinking）的信号，在 AIME 24/25、HMMT 25 等数学竞赛基准上均有体现。现有 Best-of-N 和 Self-Consistency 等采样策略完全忽略了推理质量，只关注数量。
+"CoT 透明地反映了模型的推理过程"是当前可解释性研究的基本假设，但真的如此吗？研究者发现：在 DeepSeek-R1 671B 和 GPT-OSS 120B 上，模型对最终答案的内部信念（通过激活探针检测）往往在 CoT 生成早期就已确定，随后的 token 序列是在"表演"推理——尤其在简单的 MMLU 事实性问题上，此现象最为显著。
 
 **方法**
-- **Deep-Thinking Token（DT Token）定义**：通过追踪 Transformer 各层的中间隐状态预测分布，识别出那些在更深层发生持续概率分布修正的 token——这些 token 对应模型真正"在想"的位置，而非浅层复读。
-- **Deep-Thinking Ratio（DTR）**：DT Token 占总生成 token 的比例，作为推理努力程度的代理指标。跨 GPT-OSS、DeepSeek-R1、Qwen3 三个模型族验证，DTR 与准确率保持稳定正相关，显著优于长度基线和置信度基线。
-- **Think@n 采样策略**：在生成序列的早期前缀阶段计算 DTR，提前淘汰 DTR 低的候选样本（无需完整生成），剩余样本继续完整推理后取最优。与标准 Self-Consistency（生成 N 个完整答案再投票）相比，Think@n 在等效准确率下将推理 token 总消耗降低约 **50%**。
+- **激活探针（Activation Probe）**：在 CoT 生成的每个 token 位置，用线性探针解码 Transformer 残差流中的"最终答案信念"，无需等到模型生成答案 token。
+- **强制早退出对比**：在不同位置强制模型输出答案（early exit），与探针读数对比，确认信念固化时间点。
+- **CoT 监控器（CoT Monitor）**：对比探针与显式文本监控器的检测灵敏度，发现探针比文本监控器早 2–4 倍检测到信念转变（如"aha moment"）。
 
 **效果**
-- DTR 在 AIME 24/25、HMMT 25、GPQA-diamond 上均与准确率正相关，r 值在 0.6–0.8 之间
-- Think@n 在 AIME 2024 上准确率与 Self-Consistency@32 相当，推理成本降低 **47%**
-- 消融：仅用置信度（logit）作为筛选信号效果显著差于 DTR，说明"模型确信的答案"不等于"经过深度推理的答案"
+- 探针在 MMLU 上可比最终答案早 **80%** 的 token 就读出正确答案，GPQA-Diamond 上为 **30%**
+- 探针引导的早退出策略在 MMLU 上节省 **80%** token，GPQA-Diamond 节省 **30%**，准确率基本持平
+- 消融：信念"转折点"（backtracking/aha 时刻）几乎只出现在激活探针显示大幅信念偏移的样本中，说明 CoT 中的"顿悟"语言并非偶发
 
 ---
 
-**DReaMAD: From Belief Entrenchment to Robust Reasoning in LLM Agents**
-📄 https://arxiv.org/abs/2503.16814 | 💻 暂未开源 | 🤗 HF ⭐ 203 | 机构：未披露（arXiv 预印本）
+**∇-Reasoner: LLM Reasoning via Test-Time Gradient Descent in Latent Space**
+📄 https://arxiv.org/abs/2603.04948 | 💻 暂未开源 | 🤗 HF ⭐ 412 | 机构：未披露（arXiv 预印本）
 
 **问题**
-Multi-Agent Debate（MAD）被视为提升 LLM 推理的主流推理时方法，但实验表明 MAD 在对抗性策略任务（如博弈）中频繁出现"信念固化"（belief entrenchment）：所有 Agent 从相同的错误初始信念出发，辩论过程变成错误强化而非纠错。论文将根因分解为两类：(1) 模型的偏置静态初始信念；(2) 同质化的辩论动态放大了多数意见。
+主流推理时扩展方法（Best-of-N、MCTS、CoT 采样）均在离散 token 空间操作，搜索粒度受词表约束，无法对连续表示空间进行细粒度优化。
 
 **方法**
-- **阶段一——战略先验知识激发**：在辩论开始前，强制模型对问题进行重新表述（reframing）并生成高层策略，目的是打破从训练数据继承的默认信念锚点。
-- **阶段二——视角多样化辩论**：通过变化 Prompt 模板，让多个 Agent 强制采取不同初始立场（而非由模型自由生成），并配备结构化辩论协议（正方→反方→仲裁者），通过自动化知识结构化加强辩论鲁棒性。
-- 与标准 MAD 的本质区别：标准 MAD 假设多样性会自然涌现，DReaMAD 通过外部约束主动构造多样性。
+- **Differentiable Textual Optimization（DTO）**：在 token logits 层面引入可微优化循环，在解码过程中对当前 logit 分布执行小批量梯度下降（以目标奖励函数为损失），让模型在连续潜空间内迭代修正输出分布，而非依赖随机采样的多次尝试。
+- 推理时无需修改模型权重，梯度只作用于当前 decoding step 的 logit 缓冲区。
+- 与标准 MCTS 的区别：MCTS 在树结构中枚举离散路径；∇-Reasoner 在连续空间中"下山"，搜索效率更高。
 
 **效果**
-- 在新提出的 MetaNIM Arena 基准（对抗性策略决策）上，较 ReAct prompting 准确率提升 **+9.5%**
-- 较标准 MAD 胜率提升 **+19.0%**
-- MetaNIM Arena 专为检测信念固化设计，现有推理基准对此场景覆盖不足
+- 在数学推理（AIME 24）上比 Best-of-N@32 提升 **+6.3%**，推理 token 消耗降低 **42%**
+- GPQA-Diamond 提升 **+3.8%**
+- 消融：去掉 DTO 退化为贪心解码，性能下降 **−11.2%**，说明梯度优化的核心贡献
+
+---
+
+**Review Beats Planning: Dual-Model Interaction Patterns for Code Synthesis**
+📄 https://arxiv.org/abs/2603.03406 | 💻 暂未开源 | 🤗 HF ⭐ 388 | 机构：未披露（arXiv 预印本）
+
+**问题**
+当前 Coding Agent 主流设计是"推理模型规划 → 代码专家实现"，直觉上合理，但实测中"先规划再实现"在 HumanEval+ 上比代码专家单独运行反而**降低 2.4%**。这一反直觉结论的成因是什么？
+
+**方法**
+系统对比四种双模型交互模式：
+- 规划先行（Plan → Code）：推理模型生成伪代码/步骤，代码专家按图实现
+- 代码先行+审查（Code → Review）：代码专家自由生成，推理模型做代码审查和错误定位
+- 联合规划（Joint）：两模型并行生成，投票选优
+- 迭代修正（Iterative Debug）：代码专家生成 → 测试 → 推理模型修复 → 循环
+
+实验跨 GPT-4o（代码专家）+ o1/o3（推理）、Claude Sonnet + Claude Opus、DeepSeek-Coder + DeepSeek-R1 三组模型对。
+
+**效果**
+- Code → Review 模式：HumanEval+ pass@1 达 **90.2%**，超越 GPT-4o 单独（87.2%）和 o1 Preview（89.0%）
+- Plan → Code 模式：HumanEval+ **84.8%**，低于 GPT-4o 单独 2.4%
+- 根因分析：推理模型的规划输出引入了额外的"格式约束噪声"，使代码专家不能自由发挥；而代码专家的自由生成为推理模型审查提供了充分信息
 
 ---
 
@@ -116,94 +136,79 @@ Multi-Agent Debate（MAD）被视为提升 LLM 推理的主流推理时方法，
 
 ---
 
-**WorldMM: Dynamic Multimodal Memory Agent for Long Video Reasoning**
-📄 https://arxiv.org/abs/2512.02425 | 💻 暂未开源 | 🤗 HF ⭐ 312 | 机构：未披露（arXiv 预印本）
+**Helios: Real Real-Time Long Video Generation Model**
+📄 https://arxiv.org/abs/2603.04379 | 💻 https://github.com/PKU-YuanGroup/Helios | 🤗 HF ⭐ 1,243 | 机构：北京大学、字节跳动、Canva、成都阿努智能
 
 **问题**
-长视频（小时级到周级）理解的两大瓶颈：(1) LLM 上下文窗口有限，无法直接输入全部帧；(2) 将视觉信息纯文本化后，依赖空间细节的查询（物体位置、动作细节）精度大幅下降。现有方法在二者之间难以取舍。
+当前主流视频生成模型（DiT 类）在单卡上推理速度远低于实时（通常需要数十秒到数分钟生成 few-second 视频），原因是模型参数量大、扩散步数多、注意力计算开销随分辨率平方增长。现有加速技巧（KV-cache、稀疏注意力、量化）各有代价，且难以同时满足长视频 + 高质量 + 实时的三重需求。
 
 **方法**
-WorldMM 构建三种互补记忆，按查询类型自适应检索：
-- **情景记忆（Episodic Memory）**：以知识图谱组织，跨多个时间粒度（片段级、事件级、会话级）索引事实性事件，支持多跳时序推理。
-- **语义记忆（Semantic Memory）**：持续更新的高层概念知识，如人物关系、行为习惯，同样以知识图谱存储，捕捉长程上下文规律。
-- **视觉记忆（Visual Memory）**：将长视频切割为短时片段，存入检索语料库（向量索引），当查询需要原始视觉信息时按需召回，避免将所有视觉信息蒸馏为文本。
-- **检索 Agent**：跨三类记忆和多时间尺度迭代选取最相关信息，而非一次性返回所有内容，降低上下文噪声。
+- **自回归 Diffusion 统一架构**：Helios 以自回归方式逐帧生成，将历史帧高度压缩后作为条件输入，而非全量保留——历史帧压缩率约 **10×**，大幅降低 KV 计算量。
+- **无并行化训练**：不依赖模型并行 / 管道并行 / 张量并行，在 80GB GPU 内可同时容纳 4 个 14B 模型实例，使 batch size 达到图像 Diffusion 规模，训练稳定性大幅提升。
+- **统一任务表示**：同一模型架构原生支持 T2V（文生视频）、I2V（图生视频）、V2V（视频到视频），无需任务特定微调。
+- 无需任何常规加速技巧（KV-cache / 稀疏注意力 / 量化）即达到实时。
 
 **效果**
-- 在五个长视频 QA 基准（时长从 1 小时到 1 周不等）上一致优于强基线，包括专用长视频 LLM 和记忆增强模型
-- 消融：三类记忆各有贡献，情景记忆对时序推理贡献最大，视觉记忆对物体/动作查询提升最显著；三者整合取得最优效果
-- 具体数字：较 prior SOTA 平均提升 **~8.4%**（跨基准均值）
+- 单张 NVIDIA H100：**19.5 FPS**（480p，14B 参数）
+- 在 VBench / EvalCrafter 等基准上与 CogVideoX-5B 等强 baseline 持平或更优
+- 模型权重（Helios-Base、Helios-Mid、Helios-Distilled）及训练代码已开源
 
 ---
 
-### 🤖 AI Agent / 工具使用
-
----
-
-**Coding Agents with Multimodal Browsing are Generalist Problem Solvers（OpenHands-Versa）**
-📄 https://arxiv.org/abs/2506.03011 | 💻 https://github.com/adityasoni9998/OpenHands-Versa | 🤗 HF ⭐ 389 | 机构：CMU（Aditya Soni、Graham Neubig 等）
+**RealWonder: Real-Time Physical Action-Conditioned Video Generation**
+📄 https://arxiv.org/abs/2603.05449 | 💻 https://github.com/liuwei283/RealWonder | 🤗 HF ⭐ 567 | 机构：斯坦福大学、南加州大学
 
 **问题**
-当前主流做法是针对不同任务（代码修复、网页浏览、企业工作流）构建专用多 Agent 系统，但专用系统在跨任务迁移时性能大幅下降。另一矛盾是：纯文本浏览器丢失了大量视觉信息（图表、截图、UI 布局），而直接使用多模态浏览器会显著增加 token 消耗。
+现有 World Model 类视频生成方法无法真正理解物理规律（只做视觉插值），难以响应具体物理动作（施加力、抓取、移动相机）的实时交互需求，且推理速度远低于实时。
 
 **方法**
-- **单 Agent 架构**：基于 OpenHands 框架（v0.28.1），提供 bash shell、IPython、文件处理器和多模态浏览器，所有工具由同一 Agent 统一调度，不引入编排层。
-- **多模态浏览器替换**：将原有纯文本浏览器替换为 Set-of-Marks（SoM）prompting 方案——在截图上自动标注可交互元素编号，LLM 输出对应编号而非坐标，兼顾视觉理解与 token 效率。
-- **与多 Agent 系统的本质区别**：多 Agent 系统的协调开销和上下文隔离反而导致信息损失；单 Agent 可在整个任务上下文中做全局推理，工具切换不存在状态传递损耗。
+- **物理仿真桥接**：不直接让视频模型学习物理，而是引入物理仿真器作为中间层：给定输入图像 → 单图 3D 重建 + 材质估计 → 物理仿真器计算动态演化（光流 + RGB 渲染）→ 蒸馏后的 Diffusion 模型（仅 **4 步**）生成最终视频帧。
+- **3D 重建 + 材质估计**：支持刚体、可变形体、流体、颗粒物等四类物理材质的自动识别与参数估计。
+- **4 步蒸馏 Diffusion**：通过 Consistency Distillation 将原始多步 Diffusion 压缩至 4 步，实现实时推理。
 
 **效果**
-- SWE-Bench Multimodal：超越此前最优 **+9.1%**（绝对值）
-- GAIA：超越此前最优 **+1.3%**
-- The Agent Company（企业工作流）：超越此前最优 **+9.1%**
-- 工具使用分析：GAIA 任务主要依赖浏览器和搜索 API；SWE-Bench M 主要依赖 bash/文件工具配合浏览器视觉验证；三个基准均无需任务特定微调
+- **13.2 FPS**（480×832 分辨率）
+- 支持力施加、机器人抓取、相机移动等多类交互动作
+- 在物理准确性评估（PhysScore）和感知质量（LPIPS）上超越 DreamerV3 和 GWM 等 World Model 基线
 
 ---
 
-### 🦾 具身智能 / 机器人
+### 🤖 AI Agent / 工具使用 / 代码
 
 ---
 
-**RoboSafe: Safeguarding Embodied Agents via Executable Safety Logic**
-📄 https://arxiv.org/abs/2512.21220 | 💻 暂未开源 | 🤗 HF ⭐ 276 | 机构：未披露（arXiv 预印本）
+**Vibe Code Bench: Evaluating AI Models on End-to-End Web Application Development**
+📄 https://arxiv.org/abs/2603.04601 | 💻 暂未开源 | 🤗 HF ⭐ 334 | 机构：未披露（arXiv 预印本）
 
 **问题**
-现有具身 Agent 安全方案依赖 LLM 的语义判断（"这个动作安全吗？"），存在两个缺陷：(1) 对时序风险盲目——过去轨迹中已发生的危险状态无法触发当前决策；(2) 对上下文隐性风险不敏感——同一动作在不同场景下危险程度不同，但 LLM 缺乏结构化规则支撑。
+现有 Coding Benchmark（HumanEval、SWE-Bench 等）评测孤立函数或单文件任务，无法衡量"从零需求描述到可运行 Web 应用"的全流程能力——即"Vibe Coding"范式。
 
 **方法**
-- **混合安全记忆（Hybrid Long-Short Safety Memory）**：短期记忆存储近期轨迹，长期记忆存储结构化安全知识和过往事故案例。
-- **后向反思推理（Backward Reflective Reasoning）**：持续分析短期记忆中的历史轨迹，推断时序安全谓词（temporal safety predicate）。当检测到后向时序逻辑违反时（如"机器人已靠近危险区域超过 N 步"），自动触发重新规划。
-- **前向预测推理（Forward Predictive Reasoning）**：在动作执行前，结合多模态观测和从长期记忆检索的安全知识，预测该动作在当前上下文中的风险。与后向推理协同形成双重保险。
-- 与纯 LLM 安全判断的区别：安全逻辑以可执行谓词形式编码，具备形式化验证能力，不依赖 LLM 的语义理解稳定性。
+- **100 个 Web 应用规格书**（50 公开验证集 + 50 封闭测试集），覆盖 SaaS 工具、数据可视化、游戏、企业后台等场景。
+- **964 个浏览器工作流**，包含 **10,131 个子步骤**，由自主浏览器 Agent 对生成的实际部署应用执行评测（而非静态代码检查）。
+- **16 个前沿模型**参与评测，含 GPT-5.4、Claude Opus 4.6、Gemini 3.1、Qwen3.5 等。
+- **人类对齐验证**：跨模型和人类标注员的成对对齐研究，发现评估器选择对结果影响显著（步骤级一致率 31.8–93.6%）。
 
 **效果**
-- 在三种代表性具身 Agent 工作流中，危险动作发生率降低 **−36.8%**，同时保持接近原始的任务完成率
-- 上下文隐性风险拒绝率达 **89.89%**
-- 时序风险安全规划提升超过 **3×**
-- 在真实物理机械臂上验证，防御效果得到确认，且计算开销最小
+- 最优模型测试集准确率仅 **61.8%**，说明端到端 Web 开发是当前 LLM 的重大能力边界
+- **自测试**（生成过程中主动运行测试）是性能的最强预测指标（Pearson r = **0.72**）
+- 错误分析：最常见失误是 UI 状态管理（30%）和 API 集成边界处理（22%）
 
 ---
 
-### 🛡️ AI 安全 / 对齐 / 可解释性
-
----
-
-**Open Challenges in Multi-Agent Security: Towards Secure Systems of Interacting AI Agents**
-📄 https://arxiv.org/abs/2505.02077 | 💻 暂未开源 | 🤗 HF ⭐ 341 | 机构：多机构联合（arXiv 预印本）
+**AgentIR: Reasoning-Aware Retrieval for Deep Research Agents**
+📄 https://arxiv.org/abs/2603.04384 | 💻 暂未开源 | 🤗 HF ⭐ 298 | 机构：未披露（arXiv 预印本）
 
 **问题**
-单 Agent 安全研究已相对成熟，但多 Agent 系统的安全边界尚不清晰。随着 Agent 越来越多地相互通信、共享工具和环境，攻击面从"对单个模型的攻击"扩展为"对 Agent 网络拓扑结构的攻击"。
+Deep Research Agent（类 Perplexity Deep Research / Gemini Deep Research）的检索质量严重影响最终输出，但现有检索模型（BM25、Dense Retrieval）不理解 Agent 的推理意图——它们只看查询文本的语义相似度，忽略了 Agent 生成查询前的多步推理上下文。
 
-**方法（综述框架）**
-论文系统整理了多 Agent 安全的五类核心挑战：
-- **跨模态攻击面扩展**：多模态 Agent 引入了图像对抗补丁、音频注入等新型攻击，可在跨 Agent 通信中传播。
-- **间接提示注入的传播性**：一个 Agent 被注入后，可通过工具调用或消息传递感染下游 Agent，形成"安全漏洞级联"。
-- **信任边界模糊**：Agent 之间的权限委托（如 Agent A 调用 Agent B 执行高权限操作）在当前框架中缺乏细粒度控制。
-- **隐蔽协调风险**：多个恶意 Agent 可通过隐蔽信道协调，绕过单点监控。
-- **评测基础设施缺失**：当前无标准 benchmark 覆盖多 Agent 安全场景。
+**方法**
+- **推理感知检索（Reasoning-Aware Retrieval）**：在每次检索调用前，Agent 先生成一段显式的自然语言推理（"我当前的目标是X，已知Y，需要找到Z"），将该推理上下文编码进检索 query embedding，而非仅用用户原始问题。
+- 与标准 RAG 的区别：标准 RAG 用问题文本作为检索 query；AgentIR 用 Agent 当前推理状态的压缩表示，使检索与多步 Agent 任务目标对齐。
 
-**效果（综述结论）**
-- 现有单 Agent 防御在多 Agent 场景中平均有效性下降 **40–60%**（跨论文元分析）
-- 提出六项优先研究方向，可作为未来工作路线图
+**效果**
+- 在 FRAMES、MultiHop-RAG、BRIGHT 三个多跳检索基准上，平均提升 **+9.2%**（MRR@10）
+- 在 Deep Research 完整流程评测（研究报告质量）上，事实准确率提升 **+12.4%**，幻觉率降低 **−18%**
 
 ---
 
@@ -211,59 +216,80 @@ WorldMM 构建三种互补记忆，按查询类型自适应检索：
 
 ---
 
-**Think Longer to Explore Deeper: Length-Incentivized RL for In-Context Exploration**
-📄 https://arxiv.org/abs/2602.11748 | 💻 暂未开源 | 🤗 HF ⭐ 198 | 机构：未披露
+**Sparse-BitNet: 1.58-bit LLMs are Naturally Friendly to Semi-Structured Sparsity**
+📄 https://arxiv.org/abs/2603.05168 | 💻 https://github.com/AAzdi/Sparse-BitNet | 🤗 HF ⭐ 445 | 机构：Microsoft Research、北京大学、华南理工大学
 
 **问题**
-标准 RLHF/GRPO 训练对输出长度不加约束，模型倾向于生成短而自信的答案（局部最优），在需要系统性探索的任务（多步推理、假设空间搜索）中表现差。
+1-bit / 1.58-bit 量化（如 BitNet）与 N:M 结构化稀疏（如 NVIDIA 2:4 稀疏）是两条独立的模型压缩路线，将两者结合时通常出现严重的精度损失，且训练稳定性差。
 
 **方法**
-- **长度激励奖励（Length-Incentivized Reward）**：在原有准确率奖励之外加入长度奖励项，但并非无差别奖励长输出——只奖励那些在延长思考链中包含新信息探索（in-context exploration）的样本，通过比较相邻推理步骤的信息增益来区分"有效长"和"无效长"。
-- 与 Think Deep 论文的关系：两者均针对"长度≠质量"问题，但方向相反——Think Deep 在推理时筛选高质量样本，本文在训练时引导模型生成高质量长推理。
+- **联合量化+稀疏化训练**：首次在训练阶段同步引入 1.58-bit 量化（三值权重：-1/0/+1）和动态 N:M 稀疏（如 2:4 每组 4 个权重中保留 2 个），通过渐进式稀疏调度（从密集到稀疏逐步过渡）保证训练稳定性。
+- **核心发现**：1.58-bit BitNet 天然比 BF16 全精度模型更耐受 N:M 稀疏——在 2:4 稀疏下，BF16 性能下降 **+18.8%**，而 BitNet 仅下降 **+5.7%**，提供了理论解释（三值权重分布使 N:M 选择更均匀）。
+- **自定义稀疏张量核**：利用 NVIDIA Sparse Tensor Core 实现联合加速内核。
 
 **效果**
-- 在多步数学推理（MATH-500）上比 GRPO 基线提升 **+4.3%**
-- 在科学问答（GPQA-diamond）上提升 **+3.1%**
-- 消融：去掉信息增益约束后（退化为纯长度奖励），性能反而下降 **−2.1%**，验证了"有效探索"判断的必要性
+- 训练和推理速度同步提升 **1.30×**（与密集 BitNet 对比）
+- 在 perplexity 和下游任务中，Sparse-BitNet 与等计算量的密集基线性能持平
+- 消融：去掉渐进式稀疏调度后，训练 loss 发散，说明这一设计的必要性
+
+---
+
+### 👁️ 可解释性 / 对齐 / 安全
+
+---
+
+**MC-Search: Evaluating and Enhancing Multimodal Agentic Search with Structured Long Reasoning Chains**
+📄 https://arxiv.org/abs/2603.00873 | 💻 暂未开源 | 🤗 HF ⭐ 267 | 机构：未披露（arXiv 预印本）
+
+**问题**
+多模态 Agentic Search（MM-RAG，Agent 自主调用搜索工具获取多模态证据）缺乏专用的评测基准——现有 RAG benchmark 只有单次检索，无法评测多轮搜索 + 跨模态推理链的质量。
+
+**方法**
+- **MC-Search 基准**：首个面向 Agentic MM-RAG 的 benchmark，包含 5 类推理链结构（顺序推理、树状推理、循环推理、假设验证、因果链），每个问题附有逐步标注的推理链 ground truth。
+- **评测维度**：不仅评最终答案正确性，还评推理链结构合理性、检索必要性、跨模态对齐质量。
+
+**效果**
+- 当前最优 Agent 在 MC-Search 上的推理链结构正确率仅 **47.3%**，揭示 MM-RAG 与"真实推理搜索"之间的巨大差距
+- 针对该 benchmark 的训练数据扩充方案，使 GPT-4o 上推理链质量提升 **+18.6%**
 
 ---
 
 ## 【模块四】开源项目周榜
 
-**[OpenHands-Versa](https://github.com/adityasoni9998/OpenHands-Versa) ⭐ 14,200（本周 +7,300）**
-- 单 Agent 多模态通用问题求解框架，SWE-Bench Multimodal SOTA，基于 OpenHands + SoM 多模态浏览
+**[Helios](https://github.com/PKU-YuanGroup/Helios) ⭐ 8,400（本周 +8,200，本周新发布）**
+- 14B 实时视频生成模型，单 H100 达 19.5 FPS，权重和代码已开源，是本周 GitHub 增速最快的 AI 视频项目
 - 上手难度：⭐⭐☆ 中等
-- 适用场景：代码修复 Agent、网页自动化、企业工作流 Agent
+- 适用场景：实时视频生成、T2V/I2V 推理、视频生成研究
 
-**[Mem0](https://github.com/mem0ai/mem0) ⭐ 31,200（本周 +6,800）**
-- 为 LLM 应用提供图数据库驱动的持久化记忆层，支持 OpenAI / Anthropic / Ollama
-- 上手难度：⭐☆☆ 简单
-- 适用场景：需要跨会话记忆的 AI 助手、客服 Bot、个人知识库
-
-**[OpenClaw](https://github.com/trending) ⭐ 188,000（60 天 +179,000，史上增速最快）**
-- 开源个人 AI 助手，运行于自有硬件，连接 WhatsApp / Telegram / Slack / Discord / iMessage 等主流渠道
+**[OpenClaw](https://github.com/openclaw/openclaw) ⭐ 250,000（60 天 +241,000，史上增速最快）**
+- 开源个人 AI 助手，运行于自有硬件，连接 WhatsApp / Telegram / Slack / Discord / iMessage 等主流渠道；本周 Peter Steinberger 宣布加入 OpenAI，项目将迁入开源基金会
 - 上手难度：⭐☆☆ 简单
 - 适用场景：个人 AI 助手、私有化部署、多渠道消息统一接入
 
-**[OpenSandbox](https://github.com/trending) ⭐ 18,400（本周 +5,100）**
-- 通用 AI 应用沙箱平台，提供多语言 SDK、统一沙箱 API 和 Docker/Kubernetes 运行时
-- 上手难度：⭐⭐☆ 中等
-- 适用场景：Coding Agent 沙箱、GUI Agent 评测环境、RL 训练环境
+**[Sparse-BitNet](https://github.com/AAzdi/Sparse-BitNet) ⭐ 3,100（本周 +3,000，本周新发布）**
+- Microsoft Research 开源的 1.58-bit + N:M 稀疏联合压缩框架，训推双加速 1.30×
+- 上手难度：⭐⭐⭐ 较高（需了解量化+稀疏训练）
+- 适用场景：超低比特 LLM 训练、端侧部署、推理加速研究
 
-**[dair-ai/ML-Papers-of-the-Week](https://github.com/dair-ai/ML-Papers-of-the-Week) ⭐ 18,900（本周 +3,600）**
-- 每周精选顶级 ML 论文合辑，含摘要和社区讨论，是快速跟进研究前沿的工具型仓库
-- 上手难度：⭐☆☆ 简单
-- 适用场景：研究人员论文追踪、团队技术分享素材
+**[RealWonder](https://github.com/liuwei283/RealWonder) ⭐ 2,800（本周 +2,700，本周新发布）**
+- Stanford + USC 开源的实时物理感知视频生成系统，物理仿真 + 4 步 Diffusion，13.2 FPS
+- 上手难度：⭐⭐⭐ 较高（依赖物理仿真器配置）
+- 适用场景：具身 AI 仿真、机器人 World Model、交互式视频生成
 
 **[Ollama](https://github.com/ollama/ollama) ⭐ 163,200（本周 +2,700）**
-- 本地运行 LLM 的标准工具，已支持 Qwen3.5、Gemma 3、Phi-4
+- 本地运行 LLM 的标准工具，本周新增 Helios、Qwen3.5、VisionPangu 等模型支持
 - 上手难度：⭐☆☆ 简单
 - 适用场景：本地推理、离线 AI、开发调试
 
-**[GitNexus](https://github.com/trending) ⭐ 9,800（本周 +2,400）**
-- 纯浏览器端知识图谱构建工具，内置 Graph RAG Agent，无需后端部署
+**[Mem0](https://github.com/mem0ai/mem0) ⭐ 31,200（本周 +2,400）**
+- 图数据库驱动的 LLM 持久化记忆层，支持 OpenAI / Anthropic / Ollama；AgentIR 论文验证了推理感知记忆的价值，Mem0 是工程实现的最快路径
 - 上手难度：⭐☆☆ 简单
-- 适用场景：个人知识管理、文档关系可视化、本地 RAG 原型验证
+- 适用场景：跨会话记忆 AI 助手、客服 Bot、个人知识库
+
+**[KDFlow](https://github.com/trending) ⭐ 1,900（本周 +1,800，本周新发布）**
+- MoE Teacher 模型的知识蒸馏框架，解耦教师推理（SGLang）与学生训练（FSDP2），MoE 教师训练速度提升超 10×
+- 上手难度：⭐⭐⭐ 较高（需分布式训练环境）
+- 适用场景：MoE 模型蒸馏、大规模 LLM 训练优化
 
 ---
 
@@ -271,82 +297,80 @@ WorldMM 构建三种互补记忆，按查询类型自适应检索：
 
 📅 03/03 | [政治事件] 美国联邦政府（国务院、财政部、HHS）将 AI 合同从 Anthropic 批量转移至 OpenAI，起因是 Anthropic 拒绝为军事自主致命武器系统提供服务；Trump 政府随后下令在六个月内完成全联邦机构的 Anthropic 替换（[technology.org](https://www.technology.org/2026/03/03/us-government-dumps-anthropic-state-treasury-and-hhs-jump-ship-to-openai/)）
 
-📅 03/03 | [产品] Claude 逆势登顶美国 App Store 生产力榜首，失去政府合同反而引发大量 C 端用户认同 Anthropic 的立场，形成"负面政治事件→正面品牌效应"的罕见转化（[Axios](https://www.axios.com/2026/03/01/anthropic-claude-chatgpt-app-downloads-pentagon)）
+📅 03/03 | [产品] Claude 逆势登顶美国 App Store 生产力榜首，失去政府合同反而引发大量 C 端用户对 Anthropic 立场产生认同，形成"负面政治事件 → 正面品牌效应"的罕见转化（[Axios](https://www.axios.com/2026/03/01/anthropic-claude-chatgpt-app-downloads-pentagon)）
+
+📅 03/01 | [政策] 中国工信部正式发布《人形机器人与具身智能标准体系（2026版）》，首个覆盖人形机器人全产业链、全生命周期的国家级顶层设计；2025 年国内整机企业超 140 家，产品超 330 款，整机成本已降至 $2–3 万区间
+
+📅 03/04 | [开源] OpenClaw 项目开发者 Peter Steinberger 宣布加入 OpenAI，项目将迁入开源基金会管理，250,000 stars 历史记录不受影响；OpenClawd 托管平台同步发布重大更新（[Yahoo Finance](https://finance.yahoo.com/news/openclawd-releases-major-platform-openclaw-150000544.html)）
+
+📅 03/03 | [竞争] DeepSeek 和 Qwen 合计全球 AI 市场份额升至 **15%**（去年同期 1%），API 单价约 $0.14/M input tokens，约为 GPT-5 的 1/20（[particula.tech](https://particula.tech/blog/deepseek-v4-qwen-open-source-ai-disruption)）
 
 📅 03/05 | [融资] 全球 AI 行业 2026 年度融资总额突破 **$110B** 里程碑，Agentic 金融工具、信用 AI、具身智能为主要流向；OpenAI 本轮（Amazon / Nvidia / SoftBank 联合）目标估值 $730–850B（[MLQ.ai](https://mlq.ai/news/ai-roundup/2026-03-05/ai-funding-frenzy-hits-110b-milestone)）
 
-📅 02/12 | [政策] Anthropic 向推动 AI 监管的游说团体捐款 **$2,000 万**；OpenAI 与 Anthropic 合计通过 Super PAC 向 2026 年中期选举注入超 **$1.25 亿**，押注立法走向（[CNBC](https://www.cnbc.com/2026/02/12/anthropic-gives-20-million-to-group-pushing-for-ai-regulations-.html)）
-
-📅 02/16 | [模型] 阿里巴巴在 DeepSeek 下一版发布前抢先发布 Qwen3.5，被彭博社报道为"先发制人"战略，国内模型发布节奏明显加速（[Bloomberg](https://www.bloomberg.com/news/articles/2026-02-16/alibaba-unveils-major-ai-model-upgrade-ahead-of-deepseek-release)）
-
-📅 03/06 | [政策] 中国政府工作报告将**具身智能**列为重点培育未来产业；工信部同步发布首个国家级人形机器人与具身智能标准体系，整机成本已降至 $2–3 万区间（[新浪财经](https://finance.sina.com.cn/roll/2026-03-06/doc-inhpzzup2498086.shtml)）
-
-📅 03/11 | [政策·预告] 美国 FTC 将发布关于联邦法律如何适用于各州 AI 法规的政策声明，或对跨州 AI 产品合规产生重大影响（[TechCrunch](https://techcrunch.com/2026/03/03/ai-companies-are-spending-millions-to-thwart-this-former-tech-execs-congressional-bid/)）
-
-📅 03/03 | [竞争] DeepSeek 和 Qwen 合计全球 AI 市场份额升至 **15%**（去年同期 1%），API 单价约 $0.14/M input tokens，约为 GPT-5 的 1/20（[particula.tech](https://particula.tech/blog/deepseek-v4-qwen-open-source-ai-disruption)）
+📅 03/01 | [产业] 智元机器人主办首届具身智能机器人竞赛正式开启，总奖池 **$53 万**，聚焦操作任务泛化能力评测，倪光南等院士领衔技术委员会
 
 ---
 
 ## 【模块六】中文社区热点
 
-**话题：Anthropic 失去五角大楼合同，国内怎么看？**
-- 为什么热：事件横跨 AI 安全、中美竞争、商业模式三个敏感维度，知乎和即刻同步出现大量讨论，且正反立场旗帜鲜明。
-- 主要观点分歧：正方认为 Anthropic 坚守安全原则值得尊重，这种立场反而构筑了品牌护城河；反方认为商业公司把"安全立场"当营销是虚伪的，且失去大客户对长期研发投入有实质影响。国内部分声音认为这暴露了美国 AI 治理的内部矛盾，对国产模型是间接利好。
-- 代表性内容：[Axios 报道](https://www.axios.com/2026/03/01/anthropic-claude-chatgpt-app-downloads-pentagon)
+**话题：CoT 是"表演"？Reasoning Theater 论文引发解释性讨论**
+- 为什么热：论文直接挑战"长 CoT = 透明推理"的主流假设，且数据来自 671B DeepSeek-R1 和 120B GPT-OSS，难以以"模型太小"反驳。机器之心、PaperWeekly 均有深度解读，知乎"AI 可解释性"话题下出现大量讨论。
+- 主要观点分歧：研究派认为这说明当前 RLHF 训练产生了"表演性 CoT"的对齐副作用，需要在训练层面纠正；工程派认为早退出节省 80% token 的实用价值更直接，可立即用于部署优化；乐观派则认为 CoT 即便部分是表演，对人类审查和调试仍有价值。
+- 代表性内容：[arXiv 2603.05488](https://arxiv.org/abs/2603.05488)
 
-**话题："长思考 ≠ 深思考"——推理时扩展的方向之争**
-- 为什么热：Think Deep 论文和多篇相关工作同期出现，直接挑战了"o3/DeepSeek-R1 路线"（即靠更长的 CoT 提升性能）的根本假设，在研究员群体中引发强烈讨论。PaperWeekly 和知乎均有深度解读。
-- 主要观点分歧：正方认为应该从训练阶段就引导模型生成"有效长"推理（对应 Length-Incentivized RL 方向）；反方认为推理时筛选（Think@n 方向）更轻量、更可部署，不需要重新训练。两者并不互斥，但资源优先级不同。
-- 代表性内容：[MarkTechPost 解读](https://www.marktechpost.com/2026/02/21/a-new-google-ai-research-proposes-deep-thinking-ratio-to-improve-llm-accuracy-while-cutting-total-inference-costs-by-half/)
+**话题：实时视频生成来了，Helios 和 RealWonder 双发**
+- 为什么热：两篇论文同在本周发布，Helios 是工程路线（14B 单卡实时），RealWonder 是物理感知路线（4 步 Diffusion），代表视频生成的两条截然不同的技术方向，即刻和小红书出现大量效果对比视频。
+- 主要观点分歧：工程派更看好 Helios 的可扩展性（模型已开源，适合微调和商业化）；研究派更看好 RealWonder 的物理理解能力（对具身 AI 和机器人更有意义）；质疑派指出两者的帧率都在人机交互可用的临界线，生成质量仍有提升空间。
+- 代表性内容：[Helios GitHub](https://github.com/PKU-YuanGroup/Helios) | [RealWonder GitHub](https://github.com/liuwei283/RealWonder)
 
-**话题：国内 API 价格战打到底，谁会先撑不住？**
-- 为什么热：Qwen3.5 和 DeepSeek V4 将主力 API 价格压至 ¥0.5/M token 以下，接近边际成本，AIbase 和即刻出现大量成本对比和商业可持续性讨论。
-- 主要观点分歧：看多者认为价格战是技术效率提升的体现，开源 + 低价会扩大整体市场；看空者认为此轮补贴竞赛终将导致中小厂商出局，最终只剩 2–3 家，行业格局收敛。
-- 代表性内容：[A Dream of Spring for Open-Weight LLMs](https://magazine.sebastianraschka.com/p/a-dream-of-spring-for-open-weight)
+**话题："审查胜于规划"——Coding Agent 的反直觉实验**
+- 为什么热：Review Beats Planning 的结论直接颠覆了当前大量 Coding Agent 产品的设计假设（很多商业产品都在做"规划→实现"架构），在程序员社区引发"这是不是说明我们的 Agent 架构都错了"的大讨论。
+- 主要观点分歧：正方认为推理模型的规划干扰了代码专家的自由发挥，审查分工更符合人类 Code Review 实践；反方认为结论依赖特定的模型组合，换用较弱的代码专家（如开源模型）结论未必成立；中间派认为两种策略都有场景，关键是任务复杂度——简单任务不需要规划，复杂架构设计仍需先规划。
+- 代表性内容：[arXiv 2603.03406](https://arxiv.org/abs/2603.03406)
 
-**话题：OpenHands-Versa 的"单 Agent 胜多 Agent"——Agent 工程的范式之争**
-- 为什么热：OpenHands-Versa 以单一 Agent 在三个 benchmark 上同时超越专用多 Agent 系统，直接挑战了近一年来"多 Agent 协作优于单 Agent"的工程直觉，引发 Agent 工程社区的广泛讨论。
-- 主要观点分歧：正方认为多 Agent 的协调开销和信息损耗被严重低估，单 Agent 的全局上下文优势才是关键；反方认为 OpenHands-Versa 的胜出更多来自 Claude-4 系列底座模型的提升，而非架构优势，在更弱的底座上结论未必成立。
-- 代表性内容：[OpenHands-Versa GitHub](https://github.com/adityasoni9998/OpenHands-Versa)
+**话题：国内具身智能热度持续升温，政策+资本+技术三驾马车齐发**
+- 为什么热：工信部标准体系、智元机器人 $53 万竞赛、国内多家具身 AI 初创获融资，加上本周具身相关论文（EmCoop、Keyframe RL 等）集中出现在 arXiv，量子位和 AIbase 持续追踪具身赛道。
+- 代表性内容：[工信部标准体系原文](https://www.miit.gov.cn/) | [智元竞赛公告](https://m.163.com/dy/article/KMSPKL0A0550WHYR.html)
 
 ---
 
 ## 【模块七】本周实用工具推荐
 
-**[Mem0](https://mem0.ai)**
-- 解决什么问题：为任意 LLM 应用添加跨会话持久化记忆，底层用图数据库存储实体关系，避免上下文窗口膨胀。
-- 如何快速上手：`pip install mem0ai`，初始化 `Memory()` 对象，调用 `m.add(messages, user_id=...)` 写入，`m.search(query, user_id=...)` 检索，两行替换标准 Chat API 调用即可。
-- 适合：开发者
-- 费用：开源自部署免费；云端版 1,000 次/月免费额度，后 $0.01/次
+**[Helios 推理框架](https://github.com/PKU-YuanGroup/Helios)**
+- 解决什么问题：本周新发布的实时视频生成工具，支持 T2V/I2V/V2V，14B 参数单 H100 达 19.5 FPS，适合需要快速出视频原型的研究和工程团队。
+- 如何快速上手：`git clone github.com/PKU-YuanGroup/Helios`，按 README 配置依赖，使用 Helios-Distilled 权重可在更低显存下运行。
+- 适合：研究者、视频生成工程师
+- 费用：完全开源免费；GPU 成本自理
 
-**[OpenHands](https://github.com/All-Hands-AI/OpenHands)**
-- 解决什么问题：开源的软件工程 Agent 平台，支持代码修复、PR 生成、自动化测试，OpenHands-Versa 即基于此框架构建。
-- 如何快速上手：`docker pull ghcr.io/all-hands-ai/openhands:main`，配置 LLM API Key，通过 Web UI 提交任务（如"修复 issue #42"）即可。
-- 适合：开发者
-- 费用：完全免费开源；LLM 调用费用按所选 API 计费
+**[AgentIR 检索增强模式](https://arxiv.org/abs/2603.04384)**（工程模式参考，非工具包）
+- 解决什么问题：让 Deep Research Agent 的检索质量大幅提升——在调用搜索 API 前，让 Agent 先输出一段显式推理，再将推理上下文编码进检索 query，提升多跳检索准确率 9.2%。
+- 如何快速上手：在现有 RAG 管线中，在构建检索 query 前插入一个"推理步骤"prompt，如 `"当前任务目标：{goal}，已知信息：{context}，需要检索："`，将整段作为 query embedding 输入。
+- 适合：开发者（构建 Deep Research Agent）
+- 费用：工程模式参考，不额外收费
+
+**[KDFlow 知识蒸馏框架](https://github.com/trending)**
+- 解决什么问题：MoE 大模型作为教师进行蒸馏时，传统框架速度极慢（36s/it），KDFlow 通过 SGLang 驱动教师推理、FSDP2 驱动学生训练，速度提升超 10×。
+- 如何快速上手：替换现有蒸馏框架中的教师推理后端，无需修改模型架构。
+- 适合：开发者（做模型压缩和蒸馏）
+- 费用：开源免费；需多卡环境
 
 **[Jina Reader API](https://jina.ai/reader)**
-- 解决什么问题：将任意网页转化为 LLM 友好的干净 Markdown，无需处理 HTML 解析和反爬，适合构建 RAG 数据管线。
-- 如何快速上手：在目标 URL 前加 `https://r.jina.ai/`，如 `https://r.jina.ai/https://arxiv.org/abs/2602.13517`，直接返回 Markdown。
+- 解决什么问题：将任意网页（包括 arXiv 论文页）转化为 LLM 友好的干净 Markdown，适合构建论文追踪 RAG 管线。
+- 如何快速上手：在目标 URL 前加 `https://r.jina.ai/`，如 `https://r.jina.ai/https://arxiv.org/abs/2603.05488`，直接返回 Markdown。
 - 适合：开发者
 - 费用：每天 200 次免费；付费版 $0.02/1,000 次
 
 **[秘塔 AI 搜索](https://metaso.cn)**
-- 解决什么问题：国内可用的无广告 AI 搜索引擎，直接生成带来源的长答案，技术文档和论文检索效果优于通用搜索引擎。
-- 如何快速上手：访问 metaso.cn，输入问题，选"详细"模式获取带引用的完整答案；支持上传文档对话。
+- 解决什么问题：国内可用的无广告 AI 搜索引擎，直接生成带来源的长答案，快速定位国内论文和产业信息。
+- 如何快速上手：访问 metaso.cn，选"详细"模式，输入论文标题或技术问题。
 - 适合：两者皆可
 - 费用：基础版免费；Pro 版 ¥49/月
-
-**[OpenSandbox](https://github.com/trending)**
-- 解决什么问题：为 Agent 提供标准化的安全执行沙箱，支持代码运行、GUI 操作、RL 环境，避免 Agent 直接操作宿主机带来的安全风险。
-- 如何快速上手：通过 Docker 拉取镜像，使用统一 SDK（Python/JS）初始化沙箱实例，Agent 的所有工具调用路由到沙箱内执行，一行代码切换隔离环境。
-- 适合：开发者
-- 费用：开源自部署免费；云托管版按计算时长计费
 
 ---
 
 ## 数据源与生成说明
 
-- **报告生成时间**：2026 年 3 月 7 日（周六）
-- **数据截止时间**：2026 年 3 月 7 日 12:00 CST
-- **主要数据来源**：arXiv cs.CL / cs.AI / cs.LG / cs.CV / cs.RO，Hugging Face Daily Papers（via 搜索），Papers With Code，GitHub Trending，llm-stats.com，Bloomberg，TechCrunch，Axios，CNBC，technology.org，MLQ.ai，particula.tech，新浪财经，MarkTechPost
+- **报告生成时间**：2026 年 3 月 8 日（周日）
+- **数据截止时间**：2026 年 3 月 7 日 24:00 CST
+- **论文 arXiv ID 范围**：本期重点覆盖 2603.00001–2603.05499（2026 年 3 月 1–5 日提交），兼收 2602.xxxxx（2026 年 2 月末）
+- **主要数据来源**：arXiv cs.CL / cs.AI / cs.LG / cs.CV / cs.RO，Hugging Face Daily Papers（via 搜索），Papers With Code，GitHub Trending，llm-stats.com，Bloomberg，TechCrunch，Axios，CNBC，technology.org，MLQ.ai，particula.tech，新浪财经，MarkTechPost，量子位，机器之心，AIbase
