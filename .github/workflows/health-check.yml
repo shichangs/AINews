@@ -1,0 +1,31 @@
+name: Health Check
+
+on:
+  schedule:
+    # Daily at 02:00 UTC (10:00 Asia/Shanghai). One run per day is enough —
+    # this is a freshness check, not a hot-path probe.
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+    inputs:
+      stale_days:
+        description: "Threshold in days; site-data.generatedAt older than this fails the check."
+        required: false
+        default: "2"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Probe live GitHub Pages site-data.json
+        env:
+          AI_NEWS_HEALTH_URL: https://shichangs.github.io/AINews/data/site-data.json
+          AI_NEWS_STALE_DAYS: ${{ github.event.inputs.stale_days || '2' }}
+        run: node scripts/health-check.js
