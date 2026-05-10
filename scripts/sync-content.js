@@ -227,17 +227,26 @@ function parseWeeklyDigest(filePath) {
   const lines = splitLines(markdown);
   const id = path.basename(filePath, ".md");
   const date = extractDateFromId(id);
+  const isoWeek = id.match(/^(\d{4})-W(\d{2})$/);
   const title = extractFirstHeading(lines) || "每周 AI 新闻";
   const stories = extractStories(lines).slice(0, 12);
   const summary =
     extractSummary(lines, ["本周摘要", "摘要", "今日摘要"]) ||
     extractFirstParagraph(lines) ||
     "暂无周报摘要。";
+  let label;
+  if (date) {
+    label = formatIssueLabel(date);
+  } else if (isoWeek) {
+    label = `${isoWeek[1]} 第 ${Number(isoWeek[2])} 周`;
+  } else {
+    label = "最新";
+  }
 
   return {
     id,
     date,
-    label: date ? formatIssueLabel(date) : "最新",
+    label,
     title: cleanHeadingText(title),
     summary,
     coverageLabel: "周报文件",
