@@ -134,15 +134,10 @@ function main() {
   syncContent();
 }
 
-function sortMarkdownFilesByMtime(dirPath) {
+function sortMarkdownFilesByName(dirPath) {
   return listMarkdownFiles(dirPath)
-    .map((fileName) => ({
-      fileName,
-      fullPath: path.join(dirPath, fileName),
-      stat: fs.statSync(path.join(dirPath, fileName)),
-    }))
-    .sort((left, right) => right.stat.mtimeMs - left.stat.mtimeMs)
-    .map((entry) => entry.fullPath);
+    .sort((left, right) => right.localeCompare(left))
+    .map((fileName) => path.join(dirPath, fileName));
 }
 
 function parseDailyIssue(filePath) {
@@ -205,7 +200,7 @@ function parseMarketBrief(filePath) {
 }
 
 function getWeeklyReports(issues) {
-  const weeklyFiles = sortMarkdownFilesByMtime(WEEKLY_DIR);
+  const weeklyFiles = sortMarkdownFilesByName(WEEKLY_DIR);
   if (weeklyFiles.length) {
     return weeklyFiles.map((filePath) => parseWeeklyDigest(filePath));
   }
@@ -213,11 +208,11 @@ function getWeeklyReports(issues) {
 }
 
 function getPortfolioReports() {
-  return sortMarkdownFilesByMtime(PORTFOLIO_DIR).map((filePath) => parseMarketBrief(filePath));
+  return sortMarkdownFilesByName(PORTFOLIO_DIR).map((filePath) => parseMarketBrief(filePath));
 }
 
 function getWeeklyAiTechReports() {
-  return sortMarkdownFilesByMtime(TECH_DIR)
+  return sortMarkdownFilesByName(TECH_DIR)
     .filter((filePath) => /^weekly-ai-tech-\d{4}-\d{2}-\d{2}\.md$/.test(path.basename(filePath)))
     .map((filePath) => parseWeeklyAiTechReport(filePath));
 }
