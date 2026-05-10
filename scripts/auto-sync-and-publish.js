@@ -4,15 +4,21 @@ const path = require("path");
 const { execFileSync } = require("child_process");
 
 const REPO_ROOT = path.join(__dirname, "..");
-const NODE_BIN = process.execPath;
 const GIT_BIN = process.env.AI_NEWS_GIT_BIN || "git";
-const SYNC_SCRIPT = path.join(__dirname, "sync-content.js");
-const OUTPUT_FILE = path.join(REPO_ROOT, "data", "site-data.json");
 const STATE_PATH =
   process.env.AI_NEWS_STATE_PATH ||
   path.join(os.homedir(), "Library", "Application Support", "AINews", "auto-publish-state.json");
 const LEGACY_STATE_PATH = path.join(REPO_ROOT, "logs", "auto-publish-state.json");
 const COMMIT_MESSAGE = "chore: update generated AI news data";
+const AUTO_SUBJECT_PATTERNS = [
+  /^chore: update generated AI news data$/,
+  /^chore\(content\): sync /,
+  /^chore\(sync\): /,
+  /^chore: fallback sync /,
+];
+function isAutoSubject(subject) {
+  return AUTO_SUBJECT_PATTERNS.some((re) => re.test(subject));
+}
 const DAILY_DIR =
   process.env.AI_NEWS_DAILY_DIR || path.join(os.homedir(), "Desktop", "ClaudeCode", "daily-ai-news");
 const WEEKLY_DIR =
@@ -207,78 +213,77 @@ function getUnpushedCommitSubjects() {
   return output ? output.split("\n").filter(Boolean) : [];
 }
 
-function hasOnlyAutoCommits(subjects) {
-  return subjects.length > 0 && subjects.every((subject) => subject === COMMIT_MESSAGE);
-}
+const CONTENT_PATHS = [
+  "content/daily-ai-news",
+  "content/portfolio-news",
+  "content/weekly-ai-tech",
+];
 
 function hasGeneratedDiff() {
-  return Boolean(
-    exec(GIT_BIN, [
-      "status",
-      "--porcelain",
-      "--",
-      "data/site-data.json",
-      "content/daily-ai-news",
-      "content/portfolio-news",
-      "content/weekly-ai-tech",
-    ]),
-  );
+  return Boolean(exec(GIT_BIN, ["status", "--porcelain", "--", ...CONTENT_PATHS]));
 }
 
-function syncContent() {
-  const output = exec(NODE_BIN, [SYNC_SCRIPT]);
-  if (output) {
-    process.stdout.write(`${output}\n`);
-  }
-}
-
-function commitGeneratedData() {
-  exec(GIT_BIN, [
-    "add",
-    "--",
-    "data/site-data.json",
-    "content/daily-ai-news",
-    "content/portfolio-news",
-  ]);
+function commitGeneratedContent() {
+  exec(GIT_BIN, ["add", "--", ...CONTENT_PATHS]);
 
   if (!hasGeneratedDiff()) {
-    console.log("[auto] No publishable diff after sync.");
+    console.log("[auto] No publishable content diff.");
     return false;
   }
 
-  const output = exec(GIT_BIN, [
-    "commit",
-    "-m",
-    COMMIT_MESSAGE,
-    "--",
-    "data/site-data.json",
-    "content/daily-ai-news",
-    "content/portfolio-news",
-  ]);
+  const output = exec(GIT_BIN, ["commit", "-m", COMMIT_MESSAGE, "--", ...CONTENT_PATHS]);
   if (output) {
     process.stdout.write(`${output}\n`);
   }
   return true;
 }
 
-function pushMain() {
-  const output = exec(GIT_BIN, ["push", "origin", "main"]);
-  if (output) {
-    process.stdout.write(`${output}\n`);
+function pushWithRebaseRetry() {
+  try {
+    const output = exec(GIT_BIN, ["push", "origin", "main"]);
+    if (output) {
+      process.stdout.write(`${output}\n`);
+    }
+    return;
+  } catch (_) {
+    console.log("[auto] Initial push rejected. Trying fetch + whitelist recheck + rebase + retry.");
+  }
+
+  exec(GIT_BIN, ["fetch", "origin", "main"]);
+
+  const subjects = getUnpushedCommitSubjects();
+  const blocker = subjects.find((s) => !isAutoSubject(s));
+  if (blocker) {
+    throw new Error(`After fetch, blocking subject still present: "${blocker}". Refusing to rebase.`);
+  }
+
+  const status = exec(GIT_BIN, ["status", "--porcelain"]).trim();
+  if (status) {
+    throw new Error(`Working tree dirty before rebase: ${status}`);
+  }
+
+  try {
+    exec(GIT_BIN, ["rebase", "origin/main"]);
+  } catch (error) {
+    try {
+      exec(GIT_BIN, ["rebase", "--abort"]);
+    } catch (_) {
+      /* ignore — rebase may not actually be in progress */
+    }
+    throw new Error(`Rebase failed; aborted. ${error.message}`);
+  }
+
+  const retryOutput = exec(GIT_BIN, ["push", "origin", "main"]);
+  if (retryOutput) {
+    process.stdout.write(`${retryOutput}\n`);
   }
 }
 
 function main() {
   const sourceSignature = buildSourceSignature();
-  const state = readState();
-
   if (!sourceSignature) {
     console.log("[auto] No markdown sources found. Skip publish.");
     return;
-  }
-
-  if (!state.sourceSignature) {
-    console.log("[auto] Initialized source signature; continue with first full sync.");
   }
 
   const branch = getCurrentBranch();
@@ -287,71 +292,39 @@ function main() {
     return;
   }
 
-  const unpushedSubjects = getUnpushedCommitSubjects();
-  if (unpushedSubjects.some((subject) => subject !== COMMIT_MESSAGE)) {
-    console.log("[auto] Found non-auto commits ahead of origin/main. Skip auto publish.");
-    return;
+  try {
+    exec(GIT_BIN, ["fetch", "origin", "main"]);
+  } catch (error) {
+    console.warn(`[auto] fetch origin failed (continuing with local view): ${error.message || error}`);
   }
 
-  if (sourceSignature === state.sourceSignature) {
-    const copied = syncExternalSourcesToRepo();
-    if (copied > 0) {
-      console.log(`[auto] Source signature unchanged but repo content drift detected. Synced ${copied} file(s).`);
-    } else {
-      if (hasOnlyAutoCommits(unpushedSubjects)) {
-        try {
-          pushMain();
-          console.log("[auto] Pushed pending auto-publish commit(s) to origin/main.");
-        } catch (error) {
-          console.error("[auto] Push retry failed. Pending auto commit(s) were kept locally.");
-          process.exitCode = 1;
-        }
-        return;
-      }
-
-      console.log("[auto] No source content change. Skip sync.");
-      return;
-    }
+  const unpushedSubjects = getUnpushedCommitSubjects();
+  const blocker = unpushedSubjects.find((s) => !isAutoSubject(s));
+  if (blocker) {
+    console.log(`[auto][BLOCKED] Non-auto commit subject: "${blocker}". Skip auto publish.`);
+    return;
   }
 
   const copied = syncExternalSourcesToRepo();
-  console.log(`[auto] Synced ${copied} markdown file(s) into repo content/.`);
-
-  syncContent();
-
-  if (!fs.existsSync(OUTPUT_FILE)) {
-    throw new Error(`Missing generated file: ${OUTPUT_FILE}`);
+  if (copied > 0) {
+    console.log(`[auto] Synced ${copied} markdown file(s) from external sources into repo content/.`);
   }
 
-  if (!hasGeneratedDiff()) {
-    if (hasOnlyAutoCommits(unpushedSubjects)) {
-      try {
-        pushMain();
-        writeState(sourceSignature);
-        console.log("[auto] Pushed pending auto-publish commit(s) after unchanged regeneration.");
-      } catch (error) {
-        console.error("[auto] Push retry failed. Pending auto commit(s) were kept locally.");
-        process.exitCode = 1;
-      }
-      return;
-    }
+  commitGeneratedContent();
 
+  const finalSubjects = getUnpushedCommitSubjects();
+  if (finalSubjects.length === 0) {
     writeState(sourceSignature);
-    console.log("[auto] Source changed, but generated data file is unchanged.");
-    return;
-  }
-
-  const committed = commitGeneratedData();
-  if (!committed) {
+    console.log("[auto] Nothing to publish.");
     return;
   }
 
   try {
-    pushMain();
+    pushWithRebaseRetry();
     writeState(sourceSignature);
-    console.log("[auto] Pushed generated data to origin/main.");
+    console.log(`[auto] Pushed ${finalSubjects.length} commit(s) to origin/main.`);
   } catch (error) {
-    console.error("[auto] Push failed. The local data commit was kept.");
+    console.error(`[auto] Push failed: ${error.message || error}`);
     process.exitCode = 1;
   }
 }

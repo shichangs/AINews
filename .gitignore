@@ -1,2 +1,7 @@
 logs/*.log
 logs/auto-publish-state.json
+
+# Guard against fallback scripts ever writing markdown to content/ top-level.
+# All site content must live in subdirectories (daily-ai-news, weekly-ai-tech, portfolio-news).
+content/*.md
+!content/README.md
