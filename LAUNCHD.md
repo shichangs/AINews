@@ -17,9 +17,12 @@ This project uses a macOS LaunchAgent to run content sync on a schedule.
 ## Schedule
 
 - Run once at login (`RunAtLoad`)
-- Run every 30 minutes (`StartInterval = 1800`)
-- Only regenerate and publish when the source markdown content has actually changed
-- Only commits and pushes `data/site-data.json`
+- Triggered within ~30s when any markdown file changes under
+  `~/Desktop/ClaudeCode/{daily-ai-news,daily-ai-news/weekly,portfolio-news,weekly-ai-tech}`
+  (`WatchPaths` + `ThrottleInterval = 30`)
+- Fallback poll every hour (`StartInterval = 3600`) catches anything WatchPaths might miss
+- Only commits and pushes when external sources actually changed
+- Local script commits `content/**` only; `data/site-data.json` is regenerated and committed by the GitHub Actions `Sync Site Data` workflow
 
 ## Logs
 
@@ -45,6 +48,14 @@ Unload it:
 
 ```bash
 launchctl bootout gui/$(id -u) ~/Library/LaunchAgents/com.ainews.sync.plist
+```
+
+Reload after editing the plist (e.g. when WatchPaths or env vars change):
+
+```bash
+launchctl bootout gui/$(id -u) ~/Library/LaunchAgents/com.ainews.sync.plist 2>/dev/null
+cp /Users/sc-claw/Desktop/Github/ai-news/launchd/com.ainews.sync.plist ~/Library/LaunchAgents/com.ainews.sync.plist
+launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.ainews.sync.plist
 ```
 
 Inspect status:

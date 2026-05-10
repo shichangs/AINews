@@ -186,7 +186,7 @@ function readState() {
   return { sourceSignature: "" };
 }
 
-function writeState(sourceSignature) {
+function writeState(sourceSignature, lastNewContentAt) {
   withFsRetry(() => {
     fs.mkdirSync(path.dirname(STATE_PATH), { recursive: true });
     fs.writeFileSync(
@@ -195,6 +195,7 @@ function writeState(sourceSignature) {
         {
           sourceSignature,
           updatedAt: new Date().toISOString(),
+          lastNewContentAt: lastNewContentAt || null,
         },
         null,
         2,
@@ -202,6 +203,26 @@ function writeState(sourceSignature) {
       "utf8",
     );
   });
+}
+
+const UPSTREAM_STALE_DAYS = Number(process.env.AI_NEWS_UPSTREAM_STALE_DAYS || 3);
+
+function warnIfUpstreamStale(state, copiedThisRun) {
+  if (copiedThisRun > 0) {
+    return;
+  }
+  const lastSeen = state.lastNewContentAt ? new Date(state.lastNewContentAt) : null;
+  if (!lastSeen || Number.isNaN(lastSeen.getTime())) {
+    return;
+  }
+  const ageDays = (Date.now() - lastSeen.getTime()) / (1000 * 60 * 60 * 24);
+  if (ageDays > UPSTREAM_STALE_DAYS) {
+    console.warn(
+      `[auto][UPSTREAM-STALE] No new external content for ${ageDays.toFixed(1)} days ` +
+        `(last seen ${state.lastNewContentAt}, threshold ${UPSTREAM_STALE_DAYS}). ` +
+        `Check upstream generator at ${DAILY_DIR}.`,
+    );
+  }
 }
 
 function getCurrentBranch() {
@@ -305,23 +326,26 @@ function main() {
     return;
   }
 
+  const state = readState();
   const copied = syncExternalSourcesToRepo();
   if (copied > 0) {
     console.log(`[auto] Synced ${copied} markdown file(s) from external sources into repo content/.`);
   }
+  warnIfUpstreamStale(state, copied);
+  const lastNewContentAt = copied > 0 ? new Date().toISOString() : state.lastNewContentAt || null;
 
   commitGeneratedContent();
 
   const finalSubjects = getUnpushedCommitSubjects();
   if (finalSubjects.length === 0) {
-    writeState(sourceSignature);
+    writeState(sourceSignature, lastNewContentAt);
     console.log("[auto] Nothing to publish.");
     return;
   }
 
   try {
     pushWithRebaseRetry();
-    writeState(sourceSignature);
+    writeState(sourceSignature, lastNewContentAt);
     console.log(`[auto] Pushed ${finalSubjects.length} commit(s) to origin/main.`);
   } catch (error) {
     console.error(`[auto] Push failed: ${error.message || error}`);

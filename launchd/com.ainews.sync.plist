@@ -29,13 +29,31 @@
       <string>/Users/sc-claw/Desktop/ClaudeCode/daily-ai-news/weekly</string>
       <key>AI_NEWS_PORTFOLIO_DIR</key>
       <string>/Users/sc-claw/Desktop/ClaudeCode/portfolio-news</string>
+      <key>AI_NEWS_TECH_DIR</key>
+      <string>/Users/sc-claw/Desktop/ClaudeCode/weekly-ai-tech</string>
     </dict>
 
     <key>RunAtLoad</key>
     <true/>
 
+    <!-- Fallback poll every hour. Most runs are triggered by WatchPaths below;
+         this catches anything WatchPaths might miss (e.g. file events during sleep). -->
     <key>StartInterval</key>
-    <integer>1800</integer>
+    <integer>3600</integer>
+
+    <!-- Trigger immediately when external source markdown changes.
+         launchd watches stat metadata (mtime/size/inode), so any add/edit fires the job. -->
+    <key>WatchPaths</key>
+    <array>
+      <string>/Users/sc-claw/Desktop/ClaudeCode/daily-ai-news</string>
+      <string>/Users/sc-claw/Desktop/ClaudeCode/daily-ai-news/weekly</string>
+      <string>/Users/sc-claw/Desktop/ClaudeCode/portfolio-news</string>
+      <string>/Users/sc-claw/Desktop/ClaudeCode/weekly-ai-tech</string>
+    </array>
+
+    <!-- Coalesce bursts of file events; minimum spacing between back-to-back runs. -->
+    <key>ThrottleInterval</key>
+    <integer>30</integer>
 
     <key>ProcessType</key>
     <string>Background</string>
