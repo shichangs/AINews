@@ -131,8 +131,13 @@ function buildSourceSignature() {
 }
 
 function isEligibleSourceFile(srcDir, fileName) {
-  if (srcDir === DAILY_DIR || srcDir === WEEKLY_DIR) {
+  if (srcDir === DAILY_DIR) {
     return /^\d{4}-\d{2}-\d{2}\.md$/.test(fileName);
+  }
+  if (srcDir === WEEKLY_DIR) {
+    // weekly dir contains ISO-week summaries (YYYY-Www.md), and historically also
+    // some YYYY-MM-DD.md daily snapshots — accept both so weekly digests stay in sync.
+    return /^\d{4}-W\d{2}\.md$/.test(fileName) || /^\d{4}-\d{2}-\d{2}\.md$/.test(fileName);
   }
   if (srcDir === PORTFOLIO_DIR) {
     return /^portfolio-news-\d{4}-\d{2}-\d{2}\.md$/.test(fileName);
