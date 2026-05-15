@@ -140,7 +140,12 @@ function isEligibleSourceFile(srcDir, fileName) {
     return /^\d{4}-W\d{2}\.md$/.test(fileName) || /^\d{4}-\d{2}-\d{2}\.md$/.test(fileName);
   }
   if (srcDir === PORTFOLIO_DIR) {
-    return /^portfolio-news-\d{4}-\d{2}-\d{2}\.md$/.test(fileName);
+    // portfolio dir holds daily briefs (portfolio-news-YYYY-MM-DD.md) and
+    // periodic summaries like monthly rollups (portfolio-news-YYYY-MM-monthly.md).
+    // Accept both so summaries land in the JSON; sync-content.js already iterates
+    // every markdown in this dir, so we just need to let the copy step through.
+    return /^portfolio-news-\d{4}-\d{2}-\d{2}\.md$/.test(fileName)
+      || /^portfolio-news-\d{4}-\d{2}-monthly\.md$/.test(fileName);
   }
   if (srcDir === TECH_DIR) {
     return /^weekly-ai-tech-\d{4}-\d{2}-\d{2}\.md$/.test(fileName);
@@ -264,6 +269,51 @@ function commitGeneratedContent() {
   return true;
 }
 
+function rebaseOntoOriginIfBehind({ fetchOk } = {}) {
+  if (!fetchOk) {
+    // If we never refreshed origin/main this run, rev-list HEAD..origin/main
+    // would happily use a stale ref and we'd rebase onto outdated state.
+    // Defer to pushWithRebaseRetry() which does its own fresh fetch+rebase
+    // only when the push actually gets rejected.
+    console.log("[auto] Skip pre-rebase: origin/main was not refreshed this run.");
+    return;
+  }
+  let behind;
+  try {
+    behind = Number(exec(GIT_BIN, ["rev-list", "--count", "HEAD..origin/main"]));
+  } catch (error) {
+    console.warn(`[auto] rev-list HEAD..origin/main failed; skip pre-rebase: ${error.message || error}`);
+    return;
+  }
+  if (!Number.isFinite(behind) || behind <= 0) {
+    return;
+  }
+
+  const status = exec(GIT_BIN, ["status", "--porcelain"]).trim();
+  if (status) {
+    console.warn(
+      `[auto] Behind origin/main by ${behind} commit(s) but working tree dirty; ` +
+        "skip pre-rebase. pushWithRebaseRetry() will handle it.",
+    );
+    return;
+  }
+
+  console.log(`[auto] Behind origin/main by ${behind} commit(s). Rebasing before sync.`);
+  try {
+    exec(GIT_BIN, ["rebase", "origin/main"]);
+  } catch (error) {
+    try {
+      exec(GIT_BIN, ["rebase", "--abort"]);
+    } catch (_) {
+      /* ignore — rebase may not actually be in progress */
+    }
+    console.warn(
+      `[auto] Pre-rebase failed (${error.message || error}); ` +
+        "continuing. pushWithRebaseRetry() will retry after commit.",
+    );
+  }
+}
+
 function pushWithRebaseRetry() {
   try {
     const output = exec(GIT_BIN, ["push", "origin", "main"]);
@@ -318,18 +368,31 @@ function main() {
     return;
   }
 
+  let fetchOk = true;
   try {
     exec(GIT_BIN, ["fetch", "origin", "main"]);
   } catch (error) {
+    fetchOk = false;
     console.warn(`[auto] fetch origin failed (continuing with local view): ${error.message || error}`);
   }
 
-  const unpushedSubjects = getUnpushedCommitSubjects();
+  let unpushedSubjects;
+  try {
+    unpushedSubjects = getUnpushedCommitSubjects();
+  } catch (error) {
+    console.warn(`[auto] Unable to read origin/main..HEAD subjects; skip auto publish: ${error.message || error}`);
+    return;
+  }
   const blocker = unpushedSubjects.find((s) => !isAutoSubject(s));
   if (blocker) {
     console.log(`[auto][BLOCKED] Non-auto commit subject: "${blocker}". Skip auto publish.`);
     return;
   }
+
+  // Absorb CI's data/site-data.json commit before we commit content/, so push
+  // succeeds on the first try instead of going through the rejected→rebase→
+  // retry loop. pushWithRebaseRetry() stays as a fallback.
+  rebaseOntoOriginIfBehind({ fetchOk });
 
   const state = readState();
   const copied = syncExternalSourcesToRepo();

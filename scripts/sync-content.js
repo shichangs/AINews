@@ -43,7 +43,13 @@ function syncContent() {
   const weeklyReports = getWeeklyReports(issues);
   const portfolioReports = getPortfolioReports();
   const weeklyAiTechReports = getWeeklyAiTechReports();
-  const marketBrief = portfolioReports[0] || null;
+  // marketBrief must be the latest *daily* brief. portfolio reports are sorted by
+  // filename (reverse localeCompare), and "portfolio-news-YYYY-MM-monthly" sorts
+  // before "portfolio-news-YYYY-MM-DD" within the same month because 'm' > digits,
+  // so portfolioReports[0] can be a monthly rollup. Pick the first entry that has a
+  // real parsed date to keep the homepage highlight pointed at the latest daily.
+  const marketBrief =
+    portfolioReports.find((report) => Boolean(report.date)) || portfolioReports[0] || null;
   const latestWeeklyAiTech = weeklyAiTechReports[0] || null;
 
   if (!issues.length) {
@@ -169,6 +175,15 @@ function parseMarketBrief(filePath) {
   const lines = splitLines(markdown);
   const id = path.basename(filePath, ".md");
   const date = extractDateFromId(id);
+  // Non-daily portfolio formats (e.g. monthly rollups like
+  // "portfolio-news-2026-04-monthly") need a distinct label, otherwise the UI
+  // collapses them all to "最新".
+  const monthlyMatch = !date && id.match(/^portfolio-news-(\d{4})-(\d{2})-monthly$/);
+  const label = date
+    ? formatIssueLabel(date)
+    : monthlyMatch
+      ? `${monthlyMatch[1]}年${Number(monthlyMatch[2])}月 月度`
+      : "最新";
   const title = extractFirstHeading(lines) || "投资组合周报";
   const summary =
     extractSummary(lines, ["本周宏观背景", "速览总结"]) || "暂无投资视角摘要。";
@@ -178,7 +193,7 @@ function parseMarketBrief(filePath) {
   return {
     id,
     date,
-    label: date ? formatIssueLabel(date) : "最新",
+    label,
     title: cleanHeadingText(title),
     summary,
     sourceFile: filePath,
