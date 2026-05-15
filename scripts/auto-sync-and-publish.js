@@ -140,7 +140,12 @@ function isEligibleSourceFile(srcDir, fileName) {
     return /^\d{4}-W\d{2}\.md$/.test(fileName) || /^\d{4}-\d{2}-\d{2}\.md$/.test(fileName);
   }
   if (srcDir === PORTFOLIO_DIR) {
-    return /^portfolio-news-\d{4}-\d{2}-\d{2}\.md$/.test(fileName);
+    // portfolio dir holds daily briefs (portfolio-news-YYYY-MM-DD.md) and
+    // periodic summaries like monthly rollups (portfolio-news-YYYY-MM-monthly.md).
+    // Accept both so summaries land in the JSON; sync-content.js already iterates
+    // every markdown in this dir, so we just need to let the copy step through.
+    return /^portfolio-news-\d{4}-\d{2}-\d{2}\.md$/.test(fileName)
+      || /^portfolio-news-\d{4}-\d{2}-monthly\.md$/.test(fileName);
   }
   if (srcDir === TECH_DIR) {
     return /^weekly-ai-tech-\d{4}-\d{2}-\d{2}\.md$/.test(fileName);
@@ -264,6 +269,43 @@ function commitGeneratedContent() {
   return true;
 }
 
+function rebaseOntoOriginIfBehind() {
+  let behind;
+  try {
+    behind = Number(exec(GIT_BIN, ["rev-list", "--count", "HEAD..origin/main"]));
+  } catch (error) {
+    console.warn(`[auto] rev-list HEAD..origin/main failed; skip pre-rebase: ${error.message || error}`);
+    return;
+  }
+  if (!behind) {
+    return;
+  }
+
+  const status = exec(GIT_BIN, ["status", "--porcelain"]).trim();
+  if (status) {
+    console.warn(
+      `[auto] Behind origin/main by ${behind} commit(s) but working tree dirty; ` +
+        "skip pre-rebase. pushWithRebaseRetry() will handle it.",
+    );
+    return;
+  }
+
+  console.log(`[auto] Behind origin/main by ${behind} commit(s). Rebasing before sync.`);
+  try {
+    exec(GIT_BIN, ["rebase", "origin/main"]);
+  } catch (error) {
+    try {
+      exec(GIT_BIN, ["rebase", "--abort"]);
+    } catch (_) {
+      /* ignore — rebase may not actually be in progress */
+    }
+    console.warn(
+      `[auto] Pre-rebase failed (${error.message || error}); ` +
+        "continuing. pushWithRebaseRetry() will retry after commit.",
+    );
+  }
+}
+
 function pushWithRebaseRetry() {
   try {
     const output = exec(GIT_BIN, ["push", "origin", "main"]);
@@ -330,6 +372,15 @@ function main() {
     console.log(`[auto][BLOCKED] Non-auto commit subject: "${blocker}". Skip auto publish.`);
     return;
   }
+
+  // Pre-emptive rebase: in steady state CI pushes a data/site-data.json commit
+  // shortly after every local content push, so the next local run is usually
+  // behind origin/main. Rebasing here turns the common "push -> rejected ->
+  // retry" cycle into a clean push, eliminating log noise. The blocker check
+  // above already guarantees every unpushed commit is an auto subject, so
+  // rebasing is safe. pushWithRebaseRetry() stays as a fallback for the
+  // narrow window between this fetch and the eventual push.
+  rebaseOntoOriginIfBehind();
 
   const state = readState();
   const copied = syncExternalSourcesToRepo();

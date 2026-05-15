@@ -169,6 +169,15 @@ function parseMarketBrief(filePath) {
   const lines = splitLines(markdown);
   const id = path.basename(filePath, ".md");
   const date = extractDateFromId(id);
+  // Non-daily portfolio formats (e.g. monthly rollups like
+  // "portfolio-news-2026-04-monthly") need a distinct label, otherwise the UI
+  // collapses them all to "最新".
+  const monthlyMatch = !date && id.match(/^portfolio-news-(\d{4})-(\d{2})-monthly$/);
+  const label = date
+    ? formatIssueLabel(date)
+    : monthlyMatch
+      ? `${monthlyMatch[1]}年${Number(monthlyMatch[2])}月 月度`
+      : "最新";
   const title = extractFirstHeading(lines) || "投资组合周报";
   const summary =
     extractSummary(lines, ["本周宏观背景", "速览总结"]) || "暂无投资视角摘要。";
@@ -178,7 +187,7 @@ function parseMarketBrief(filePath) {
   return {
     id,
     date,
-    label: date ? formatIssueLabel(date) : "最新",
+    label,
     title: cleanHeadingText(title),
     summary,
     sourceFile: filePath,
