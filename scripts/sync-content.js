@@ -505,7 +505,7 @@ function extractStories(lines) {
         body: [],
       };
 
-      const trailing = boldHeading[2].trim();
+      const trailing = boldHeading[2].trim().replace(/^[：:]\s*/u, "");
       if (trailing) {
         activeStory.body.push(trailing);
       }
@@ -933,7 +933,7 @@ function markdownToHtml(markdown) {
       const titleMarkdown = boldHeading[1].trim();
       const title = stripMarkdown(titleMarkdown).trim();
       const id = slugify(title);
-      const trailing = boldHeading[2].trim();
+      const trailing = boldHeading[2].trim().replace(/^[：:]\s*/u, "");
       if (isInlineHeadingMeta(trailing)) {
         html.push(
           `<h4 class="entry-heading" id="${id}">${formatInline(titleMarkdown)} <span class="entry-meta-inline">${formatInline(trailing)}</span></h4>`,
