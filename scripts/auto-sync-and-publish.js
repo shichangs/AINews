@@ -269,7 +269,15 @@ function commitGeneratedContent() {
   return true;
 }
 
-function rebaseOntoOriginIfBehind() {
+function rebaseOntoOriginIfBehind({ fetchOk } = {}) {
+  if (!fetchOk) {
+    // If we never refreshed origin/main this run, rev-list HEAD..origin/main
+    // would happily use a stale ref and we'd rebase onto outdated state.
+    // Defer to pushWithRebaseRetry() which does its own fresh fetch+rebase
+    // only when the push actually gets rejected.
+    console.log("[auto] Skip pre-rebase: origin/main was not refreshed this run.");
+    return;
+  }
   let behind;
   try {
     behind = Number(exec(GIT_BIN, ["rev-list", "--count", "HEAD..origin/main"]));
@@ -277,7 +285,7 @@ function rebaseOntoOriginIfBehind() {
     console.warn(`[auto] rev-list HEAD..origin/main failed; skip pre-rebase: ${error.message || error}`);
     return;
   }
-  if (!behind) {
+  if (!Number.isFinite(behind) || behind <= 0) {
     return;
   }
 
@@ -360,27 +368,31 @@ function main() {
     return;
   }
 
+  let fetchOk = true;
   try {
     exec(GIT_BIN, ["fetch", "origin", "main"]);
   } catch (error) {
+    fetchOk = false;
     console.warn(`[auto] fetch origin failed (continuing with local view): ${error.message || error}`);
   }
 
-  const unpushedSubjects = getUnpushedCommitSubjects();
+  let unpushedSubjects;
+  try {
+    unpushedSubjects = getUnpushedCommitSubjects();
+  } catch (error) {
+    console.warn(`[auto] Unable to read origin/main..HEAD subjects; skip auto publish: ${error.message || error}`);
+    return;
+  }
   const blocker = unpushedSubjects.find((s) => !isAutoSubject(s));
   if (blocker) {
     console.log(`[auto][BLOCKED] Non-auto commit subject: "${blocker}". Skip auto publish.`);
     return;
   }
 
-  // Pre-emptive rebase: in steady state CI pushes a data/site-data.json commit
-  // shortly after every local content push, so the next local run is usually
-  // behind origin/main. Rebasing here turns the common "push -> rejected ->
-  // retry" cycle into a clean push, eliminating log noise. The blocker check
-  // above already guarantees every unpushed commit is an auto subject, so
-  // rebasing is safe. pushWithRebaseRetry() stays as a fallback for the
-  // narrow window between this fetch and the eventual push.
-  rebaseOntoOriginIfBehind();
+  // Absorb CI's data/site-data.json commit before we commit content/, so push
+  // succeeds on the first try instead of going through the rejected→rebase→
+  // retry loop. pushWithRebaseRetry() stays as a fallback.
+  rebaseOntoOriginIfBehind({ fetchOk });
 
   const state = readState();
   const copied = syncExternalSourcesToRepo();

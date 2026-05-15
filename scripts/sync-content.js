@@ -43,7 +43,13 @@ function syncContent() {
   const weeklyReports = getWeeklyReports(issues);
   const portfolioReports = getPortfolioReports();
   const weeklyAiTechReports = getWeeklyAiTechReports();
-  const marketBrief = portfolioReports[0] || null;
+  // marketBrief must be the latest *daily* brief. portfolio reports are sorted by
+  // filename (reverse localeCompare), and "portfolio-news-YYYY-MM-monthly" sorts
+  // before "portfolio-news-YYYY-MM-DD" within the same month because 'm' > digits,
+  // so portfolioReports[0] can be a monthly rollup. Pick the first entry that has a
+  // real parsed date to keep the homepage highlight pointed at the latest daily.
+  const marketBrief =
+    portfolioReports.find((report) => Boolean(report.date)) || portfolioReports[0] || null;
   const latestWeeklyAiTech = weeklyAiTechReports[0] || null;
 
   if (!issues.length) {
