@@ -12,7 +12,7 @@
 
 3. **AI 半导体周中获利回吐，AMD 单周 -6.8% / MU -3.0%**：AMD 5/11 触及 ATH **$469.22**，但随后随科技股回调，5/15 单日 -5.69% 收 **$424.10**（周 -6.8%、YTD +98.2%）。MU 5/15 收 **$724.66**（周 -3.0%、YTD +136.3%），AI 内存交易仍极度拥挤。NVDA 反向走强，本周 +4.7% 收 $225.32。（来源：[AMD historical — Yahoo Finance](https://finance.yahoo.com/quote/AMD/) · [Micron MU stock — Stockanalysis.com](https://stockanalysis.com/stocks/mu/)）
 
-4. **4 月 CPI 同比 +3.8%，创 2023 年 5 月以来新高**：BLS 于 2026-05-12 发布的 4 月 CPI 显示综合 **+0.6% MoM / +3.8% YoY**（高于 Dow Jones 共识 +3.7%），核心 +0.4% MoM / **+2.8% YoY**。能源 +3.8%（占整体涨幅 40%+），汽油 12 个月 +28.4%；与伊朗冲突推升油价共振，叠加关税敏感品类（服装 +0.6%）扩散。Powell 任期于 5/15 届满，参议院已批准 Kevin Warsh 接任 Fed 主席。（来源：[CPI April 2026 — BLS](https://www.bls.gov/news.release/cpi.nr0.htm) · [CPI rose 3.8% annually — CNBC](https://www.cnbc.com/2026/05/12/cpi-inflation-april-2026-.html)）
+4. **4 月 CPI 同比 +3.8%，创 2023 年 5 月以来新高**：BLS 于 2026-05-12 发布的 4 月 CPI 显示综合 **+0.6% MoM / +3.8% YoY**（高于 Dow Jones 共识 +3.7%），核心 +0.4% MoM / **+2.8% YoY**。能源 +3.8%（占整体涨幅 40%+，能源 12 个月 +17.9%）；与伊朗冲突推升油价共振，叠加关税敏感品类（服装 +0.6%）扩散。Powell 任期于 5/15 届满，参议院 5/13 以 **54-45** 通过 Kevin Warsh 出任 Fed Chair（5/12 governor 表决为 51-45）。（来源：[CPI April 2026 — BLS](https://www.bls.gov/news.release/cpi.nr0.htm) · [CPI rose 3.8% annually — CNBC](https://www.cnbc.com/2026/05/12/cpi-inflation-april-2026-.html)）
 
 5. **Tesla Robotaxi 运营压力 + Musk 访华谈 FSD**：本周 Tesla Robotaxi 在 Austin / Dallas / Houston 试运营出现等待时间过长、订单取消、错送地点等问题，无安全员车队从 5 月初 26 辆增至 39 辆。Musk 5 月中赴中国主谈 FSD 在华审批与贸易事宜；Panasonic 电池产能延迟同时威胁 2026 Cybercab、Tesla Semi、Megapack 3 出货节奏。TSLA 5/15 收 **$422.24**（周 -1.4%、YTD -6.4%）。（来源：[Tesla Robotaxi expansion wait times — Autonocion](https://www.autonocion.com/us/tesla-robotaxi-expansion-wait-times/) · [Tesla TSLA -3.73% May 15 — TradingKey](https://www.tradingkey.com/news/market-movers/261900513-market-movers-tsla-20260515)）
 
@@ -20,7 +20,7 @@
 
 ## 🌍 本周宏观背景
 
-本周宏观以通胀与权力交接为主线。4 月 CPI 同比 +3.8% 创 2023 年 5 月以来最高，核心 CPI +2.8%；4 月 PPI 同比 +6.0%（终端需求 +1.4% MoM），关税与油价共同推升商品端价格。受此影响，标普 500 在 CPI 发布当日下跌、科技股领跌，AI 半导体集体回吐周中涨幅。Jerome Powell 任期 2026-05-15 届满，参议院以 **51-45** 通过 Kevin Warsh 出任 Fed Chair 的提名，市场对鸽鹰平衡转向的解读尚未定价。本周伊朗冲突相关油价压力持续，汽油 12 个月 +28.4%；标普 500 周内震荡走弱。下周关注 5/20 NVDA 财报、5/22 Powell 卸任后首个美联储官员发声窗口、以及零售业财报季。（来源：[CPI April 2026 — BLS](https://www.bls.gov/news.release/cpi.nr0.htm) · [PPI release schedule — BLS](https://www.bls.gov/schedule/news_release/ppi.htm) · [US Market Outlook May 11-15 — HeyGoTrade](https://www.heygotrade.com/en/news/weekly-economic-outlook-2026-05-11/)）
+本周宏观以通胀与权力交接为主线。4 月 CPI 同比 +3.8% 创 2023 年 5 月以来最高，核心 CPI +2.8%；4 月 PPI 同比 +6.0%（终端需求 +1.4% MoM），关税与油价共同推升商品端价格。受此影响，标普 500 在 CPI 发布当日下跌、科技股领跌，AI 半导体集体回吐周中涨幅。Jerome Powell 任期 2026-05-15 届满，参议院 5/13 以 **54-45** 通过 Kevin Warsh 出任 Fed Chair（5/12 先以 51-45 完成 Fed Governor 表决），市场对鸽鹰平衡转向的解读尚未定价。本周伊朗冲突相关油价压力持续推升能源端通胀；标普 500 周内震荡走弱。下周关注 5/20 NVDA 财报、5/22 Powell 卸任后首个美联储官员发声窗口、以及零售业财报季。（来源：[CPI April 2026 — BLS](https://www.bls.gov/news.release/cpi.nr0.htm) · [PPI release schedule — BLS](https://www.bls.gov/schedule/news_release/ppi.htm) · [US Market Outlook May 11-15 — HeyGoTrade](https://www.heygotrade.com/en/news/weekly-economic-outlook-2026-05-11/)）
 
 ---
 
@@ -36,7 +36,7 @@
 | Micron | MU | $724.66 | -3.0% | +136.3% | 📉 | 2026-07-01（Q3 FY26） | 周中回吐；Deutsche Bank 目标价 $1000 |
 | PayPal | PYPL | $44.41 | -2.1% | -23.5% | 📉 | 2026-08（Q2） | 与 Anthropic 达成合作；Lores 推进 20% 裁员 |
 | Unity | U | $27.16 | -3.6% | -39.9% | ➡️ | 2026-08-05（Q2） | 股东会通过董事会议案；目标价集体上调消化 |
-| Hims & Hers | HIMS | $25.05 | -11.4% | -44.3% | 📉 | 2026-08（Q2） | Q1 EPS -$0.41 大幅 miss；GLP-1 切牌全 FDA |
+| Hims & Hers | HIMS | $25.05 | -11.4% | -44.3% | 📉 | 2026-08（Q2） | Q1 EPS -$0.41 大幅 miss；GLP-1 切至 FDA 品牌药 |
 
 > 股价 = 2026-05-15（周五）收盘价；YTD 基准 = 2025-12-31 收盘价。🔔 = 7 天内即将发布或今日发布。
 > 情绪评级：📈 偏多｜📉 偏空｜➡️ 中性
