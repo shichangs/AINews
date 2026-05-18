@@ -60,7 +60,7 @@
 
 **股价：** $422.24（本周 -1.4%，YTD -6.4%）｜**情绪：** ➡️｜**下次财报：** 2026-07（Q2）
 
-**Robotaxi 扩张但运营压力浮现**：Robotaxi 无安全员车队从 5 月初 26 辆增至 5 月中 **39 辆**，已覆盖 Austin / Dallas / Houston 三城，公司确认 H1 内扩至 Phoenix / Miami / Orlando / Tampa / Las Vegas。但本周外媒报道 Robotaxi 在 Dallas / Houston / Austin 出现长等待、订单取消、错送地点、导航失误等问题，与 Waymo 的服务体验差距被媒体放大。
+**Robotaxi 扩张但运营压力浮现**：Robotaxi 无安全员车队从 5/1 前后 9 辆、5 月初约 26 辆增至 **39 辆**（2026-05-15 前后口径），已覆盖 Austin / Dallas / Houston 三城，公司确认 2026 H1 内扩至 Phoenix / Miami / Orlando / Tampa / Las Vegas。但本周外媒报道 Robotaxi 在 Dallas / Houston / Austin 出现长等待、订单取消、错送地点、导航失误等问题，与 Waymo 的服务体验差距被媒体放大。
 
 **Musk 访华聚焦 FSD 审批**：Musk 5 月 13–14 日赴中国，行程聚焦 FSD 在华监管审批与贸易议题；外媒指出 FSD 在华落地最快也要 2027 年才能与 Xpeng、Baidu 竞争。FSD 审批成败直接影响 Tesla 在中国市场（全球最大汽车市场）的下一阶段渗透节奏。
 
@@ -121,7 +121,7 @@
 
 **股价：** $133.99（本周 -2.8%，YTD -29.3%）｜**情绪：** 📉｜**下次财报：** 2026-08-03（Q2）
 
-**Q1 复盘**：5/4 公布的 Q1 营收 **$1.63B**（YoY +85%、2020 年以来最快）、美国商业 +133%、政府 +84%，全年指引上调至 **$7.65B**（YoY +71%，最大单次上调）。剩余合同价值 **RDV $11.8B**（YoY +98%）创历史新高。
+**Q1 复盘**：5/4 公布的 Q1 营收 **$1.63B**（YoY +85%、2020 年以来最快）、美国商业 +133%、政府 +84%，全年指引上调至 **$7.65B**（YoY +71%，最大单次上调）。剩余合同价值 **RDV $11.8B**（YoY +98%）创历史新高；Rule of 40 达到 **145%**，季度新增大客户包括 Airbus、Bain、GE Aerospace、Stellantis。
 
 **估值压制延续**：尽管基本面亮眼，PLTR 本周续跌 -2.8%，5/15 收 $133.99；P/E ~226x 与 Treasury 收益率回升（CPI 后）共振。多家券商上调目标价（Citi $225、Argus $190）但市场仍认为"priced for perfection"。
 
@@ -129,7 +129,7 @@
 
 **风险点**：Q2 指引若未再次上调，估值锚可能继续向下重置；CPI 3.8% 后高久期软件股折现压力短期难解。
 
-（来源：[Palantir Has Just Created History — Motley Fool](https://www.fool.com/investing/2026/05/11/palantir-technologies-has-just-created-history-her/) · [PLTR Q1 earnings beat — TradingKey](https://www.tradingkey.com/analysis/stocks/us-stocks/261899091-palantir-pltr-q1-earnings-beat-revenue-growth-us-commercial-valuation-compression-falling-wedge-technical-tradingkey)）
+（来源：[Palantir Press Releases — Investor Relations](https://www.palantir.com/newsroom/press-releases/) · [Palantir Has Just Created History — Motley Fool](https://www.fool.com/investing/2026/05/11/palantir-technologies-has-just-created-history-her/)）
 
 ---
 
@@ -171,7 +171,7 @@
 
 **Enrique Lores 治下重建持续**：CEO Enrique Lores（2026-03-01 接替 Alex Chriss）继续推进 20% 裁员 / 业务重建——预计影响 **4,760 个岗位**（占 23,800 总员工 ~20%），未来 2–3 年目标节省 **$1.5B+** 成本；公司继续按三大事业部架构（Checkout & PayPal / Consumer Financial Services & Venmo / Payment Services & Crypto）整合。
 
-**与 Anthropic 达成合作**：5/13 PayPal 宣布与 Anthropic 合作，被市场解读为 Lores 推进 AI-first 战略的第一个对外标志；具体落地细节有限，但叠加 Venmo TPV YoY +14% 信号，部分卖方修正"PayPal AI 商业化路径"叙事。
+**与 Anthropic 达成合作**：5/13 PayPal 宣布与 Anthropic 联合推出"AI Fluency for Small Business"培训与"Claude for Small Business"插件（覆盖发票、退款等核心商家工作流），被市场解读为 Lores 推进 AI-first 战略的第一个对外标志；叠加 Venmo TPV YoY +14% 信号，部分卖方修正"PayPal AI 商业化路径"叙事。
 
 **派息与回购**：公司宣布 **每股 $0.14 现金股息**（ex-date 6/4）；Lores 上任以来的回购节奏未变。
 
