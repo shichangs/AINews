@@ -20,7 +20,7 @@
 
 ## 🌍 本周宏观背景
 
-本周宏观以通胀与权力交接为主线。4 月 CPI 同比 +3.8% 创 2023 年 5 月以来最高，核心 CPI +2.8%；4 月 PPI 同比 +6.0%（终端需求 +1.4% MoM），关税与油价共同推升商品端价格。受此影响，标普 500 在 CPI 发布当日下跌、科技股领跌，AI 半导体集体回吐周中涨幅。Jerome Powell 任期 2026-05-15 届满，参议院 5/13 以 **54-45** 通过 Kevin Warsh 出任 Fed Chair（5/12 先以 51-45 完成 Fed Governor 表决），市场对鸽鹰平衡转向的解读尚未定价。本周伊朗冲突相关油价压力持续推升能源端通胀；标普 500 周内震荡走弱。下周关注 5/20 NVDA 财报、5/22 Powell 卸任后首个美联储官员发声窗口、以及零售业财报季。（来源：[CPI April 2026 — BLS](https://www.bls.gov/news.release/cpi.nr0.htm) · [PPI release schedule — BLS](https://www.bls.gov/schedule/news_release/ppi.htm) · [US Market Outlook May 11-15 — HeyGoTrade](https://www.heygotrade.com/en/news/weekly-economic-outlook-2026-05-11/)）
+本周宏观以通胀与权力交接为主线。4 月 CPI 同比 +3.8% 创 2023 年 5 月以来最高，核心 CPI +2.8%；4 月 PPI 同比 +6.0%（终端需求 +1.4% MoM），关税与油价共同推升商品端价格。受此影响，标普 500 在 CPI 发布当日下跌、科技股领跌，AI 半导体集体回吐周中涨幅。Jerome Powell 任期 2026-05-15 届满，参议院 5/13 以 **54-45** 通过 Kevin Warsh 出任 Fed Chair（5/12 先以 51-45 完成 Fed Governor 表决），市场对鸽鹰平衡转向的解读尚未定价。本周伊朗冲突相关油价压力持续推升能源端通胀；标普 500 周内震荡走弱。未来 7 天关注 2026-05-20 NVDA 财报、2026-05-22 Powell 卸任后首个美联储官员发声窗口、以及零售业财报季。（来源：[CPI April 2026 — BLS](https://www.bls.gov/news.release/cpi.nr0.htm) · [PPI release schedule — BLS](https://www.bls.gov/schedule/news_release/ppi.htm) · [US Market Outlook May 11-15 — HeyGoTrade](https://www.heygotrade.com/en/news/weekly-economic-outlook-2026-05-11/)）
 
 ---
 
@@ -45,7 +45,7 @@
 
 ## ⚠️ 本周风险预警
 
-🔔 **财报预警：Nvidia (NVDA) 将于 2026-05-20（周三盘后）发布 Q1 FY2027 财报**，共识营收 **$78.8B**（YoY +78%）、EPS $1.77（YoY +118%），Q2 FY27 共识 ~$86B。期权隐含 ±5–10% 单日波动，IV rank ~61；过去 6 季营收均超共识 3–4%，但最近 5 次财报中有 4 次盘后下跌——指引比当季更关键。
+🔔 **财报预警：Nvidia (NVDA) 将于 2026-05-20（周三盘后）发布 Q1 FY2027 财报**，共识营收 **$78.8B**（YoY +78%）、EPS $1.77（YoY +118%），Q2 FY27 共识 ~$86B。期权隐含 ±5–10% 单日波动，IV rank ~61；过去 6 季营收均超共识 3–4%，但过去 5 次财报中有 4 次盘后下跌——指引比当季更关键。
 
 其他风险：
 - **AI 半导体估值挤压**：AMD（YTD +98%）、MU（YTD +136%）已成为组合主拉动力，本周双双回吐显示获利盘集中兑现风险；任何 Q2 数据中心放缓或 HBM 价格走平都会触发更深回撤。
@@ -109,7 +109,7 @@
 - 中国市场 H200 出口口径延伸
 - 游戏业务共识 $3.41B（YoY -9.5%）的拐点信号
 
-**资本开支生态强支撑**：Microsoft / Amazon / Google / Meta 四大 hyperscaler 2026 CapEx 合计已升至 **~$725B**，YoY +77%；过去 6 季 NVDA 营收均超共识 3–4%——但最近 5 次财报中 4 次盘后下跌，**指引比当季更关键**。
+**资本开支生态强支撑**：Microsoft / Amazon / Google / Meta 四大 hyperscaler 2026 CapEx 合计已升至 **~$725B**，YoY +77%；过去 6 季 NVDA 营收均超共识 3–4%——但过去 5 次财报中 4 次盘后下跌，**指引比当季更关键**。
 
 **竞争与估值**：自研 ASIC（亚马逊 Trainium、Google TPU、微软 Maia）压力持续，但 FY27 P/E < 26x 在大型科技股中仍属偏低分位；27 家机构覆盖目标价集中区间 **$250–$325**。本周 NVDA 在半导体板块普跌时逆势 +4.7%，反映 long-only 配置盘对财报前持有的偏好。
 
