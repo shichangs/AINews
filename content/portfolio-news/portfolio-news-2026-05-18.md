@@ -82,7 +82,7 @@
 
 **ATH 后获利回吐**：AMD 5/11 触及历史新高 **$469.22**，受市场对 Q1 数据中心 +57% 增速、Q2 指引 $11.2B 与 GS / Barclays / KeyBanc 集体上调目标价（$450–$530）的余温推动；但随科技股回调，5/15 单日 -5.69% 收 **$424.10**，全周 -6.8%。即便如此，YTD 仍 +98.2%、过去 12 个月 +300%+。
 
-**Meta 6GW 协议进一步明确**：AMD 与 Meta 2 月公布的 6GW 协议本周获得更多细节，**首批出货定在 2H 2026**，基于 **MI450** 架构定制 GPU；Helios 双宽机柜由 AMD 与 Meta 通过 Open Compute Project 联合开发，72 颗 **MI455X** 加速器、HBM4 共 31TB、总带宽 1.4PB/s，最大可输出 2.9 FP4 exaFLOPS 推理 / 1.4 FP8 exaFLOPS 训练算力。
+**Meta 6GW 协议进一步明确**：AMD 与 Meta 2 月公布的 6GW 协议本周获得更多细节，首批出货定在 **2H 2026**，基于 **MI450** 架构定制 GPU；Helios 双宽机柜由 AMD 与 Meta 通过 Open Compute Project 联合开发，72 颗 **MI455X** 加速器、HBM4 共 31TB、总带宽 1.4PB/s，最大可输出 2.9 FP4 exaFLOPS 推理 / 1.4 FP8 exaFLOPS 训练算力。
 
 **MI400 系列规格**：MI400 每 GPU 提供 **20 PFLOPS FP8** 算力、**432GB HBM4**、19.6Tbps 带宽、300Gbps scale-out 带宽，并通过 Ultra Accelerator Link 扩至 72 颗 GPU。子型号 MI430X / MI440X / MI455X 已与 EPYC Venice（Zen 6）配套，全套 Helios 平台计划在 2H 2026 出货。
 
@@ -90,7 +90,7 @@
 
 **估值与定位**：YTD +98% 后，AMD 市值正逼近 $1T 俱乐部边缘；GS（Hold → Buy，目标 $450）、Barclays（$500）、KeyBanc（$530）的目标价已隐含 MI400 + 数据中心 CPU 加速预期，本周 -6.8% 回调更接近反映"完美定价边际松动"而非基本面恶化。
 
-**Intel 对比叙事**：本周外媒同步报道 AMD / Intel 双双领涨 2026 半导体行情，但 AMD 数据中心营收 $5.8B（YoY +57%）远超 Intel 同期，**AI guard 切换**叙事已被市场广泛接受。
+**Intel 对比叙事**：本周外媒同步报道 AMD / Intel 双双领涨 2026 半导体行情，但 AMD 数据中心营收 $5.8B（YoY +57%）远超 Intel 同期，AI guard 切换叙事已被市场广泛接受。
 
 （来源：[AMD Q1 2026 Financial Results — AMD IR](https://ir.amd.com/news-events/press-releases/detail/1284/amd-reports-first-quarter-2026-financial-results) · [AMD and Meta announce 6GW partnership — AMD](https://www.amd.com/en/newsroom/press-releases/2026-2-24-amd-and-meta-announce-expanded-strategic-partnersh.html) · [AMD Q1 2026 data center $5.8bn — DCD](https://www.datacenterdynamics.com/en/news/amd-posts-q1-2026-data-center-revenue-of-58bn-forecasts-120bn-server-cpu-income-by-2030/)）
 
@@ -137,7 +137,7 @@
 
 **股价：** $396.78（本周 -0.7%，YTD +18.3%）｜**情绪：** ➡️｜**下次财报：** 2026-07（Q2）
 
-**Berkshire 大幅增持**：Berkshire Hathaway 本周披露 13F 增持 Alphabet Class A **3,600 万股**，是市场对 AI + Cloud 长期信心的最直接背书。
+**Berkshire 大幅增持（Greg Abel 首季动作）**：Berkshire Hathaway 本周披露 Q1 13F 文件，将 Alphabet 持仓**约三倍化至 ~5,800 万股**（季内净增 ~4,000 万股），系 **Greg Abel** 出任 CEO 后首份 13F 中最显眼的科技股加码，是市场对 AI + Cloud 长期信心的最直接背书。
 
 **Googlebook 发布**：5/12 Google 推出新一代笔记本电脑 **Googlebook**，搭载基于 Android 的 Gemini Intelligence 操作系统，含 Magic Pointer 上下文建议、Create Your Widget 自定义组件等功能；这是 Chromebook 路线退出、Android+AI 统一终端策略的关键步骤。
 
@@ -157,7 +157,7 @@
 
 **HBM 超级周期延续**：HBM 产能已签订至 2026 全年售罄，订单簿延伸至 2027；Q2 营收 YoY +196%、毛利率 74.9%。CEO Sanjay Mehrotra 在多次发声中强调 DRAM / NAND 需求"显著超过现有供给"。
 
-**目标价继续上修**：**Deutsche Bank** 将目标价上调至 **$1,000**，理由是 AI 正"基本改变内存行业周期动能"；近月内多家券商重申 Buy 评级并上调目标价。
+**目标价继续上修**：**Deutsche Bank** 于 5/11 将目标价上调至 **$1,000**，理由是 AI 正"基本改变内存行业周期动能"；过去 30 天内多家券商重申 Buy 评级并上调目标价。
 
 **估值警示**：YTD +136%、过去 30 天涨幅 ~60%，仓位拥挤度极高；任何 HBM 价格走平或 hyperscaler CapEx 预期下调都将放大回撤。"是否拆股 (stock split)"成为券商研报常见议题。
 
@@ -187,11 +187,11 @@
 
 **股价：** $27.16（本周 -3.6%，YTD -39.9%）｜**情绪：** ➡️｜**下次财报：** 2026-08-05（Q2）
 
-**股东会通过常规议案**：5/14 Unity 召开年度股东大会，董事会、薪酬方案与审计师议案均获通过。无重大治理变动；本周新闻流以 sell-side 评级跟踪为主。
+**股东会通过常规议案**：5/13 Unity 召开年度股东大会，董事会、薪酬方案与审计师议案均获通过（三位 Class III 董事 Bromberg / Smith / Whitehurst 当选）。无重大治理变动；本周新闻流以 sell-side 评级跟踪为主。
 
 **Q1 复盘**：营收 **$508.2M**（YoY +17%）超预期、Non-GAAP EPS $0.23 超共识 $0.20，但因显著减值出现 GAAP 每股亏损 $0.80。公司目标 **Q4 2026 GAAP 盈亏平衡**，Unity Vector AI 广告平台落地节奏成关键。
 
-**分析师评级**：本周 Goldman Sachs 重申 Hold；前周（5/8）多家券商集体上调目标价——Wedbush $32、Needham $40、Jefferies $34、Morgan Stanley $35、Oppenheimer $38。本周股价 -3.6%，主要受软件板块整体压制 + CPI 后市场情绪转弱。
+**分析师评级**：5/12 Goldman Sachs 重申 Hold；5/8 多家券商集体上调目标价——Wedbush $32、Needham $40、Jefferies $34、Morgan Stanley $35、Oppenheimer $38。本周股价 -3.6%，主要受软件板块整体压制 + CPI 后市场情绪转弱。
 
 **治理强化**：前 Match Group CEO **Bernard Kim** 5/1 加入董事会，强化游戏与消费平台经验。
 
