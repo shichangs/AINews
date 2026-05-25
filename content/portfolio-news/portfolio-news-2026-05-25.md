@@ -186,13 +186,13 @@
 
 **股价：** $23.75（本周 -5.2%，YTD -47.2%）｜**情绪：** 📉｜**下次财报：** 2026-08（Q2）
 
-**$350M 可转债引发稀释担忧**：Hims & Hers 于 2026-05-18 宣布拟发行 **$300M** 2032 年到期可转换优先票据，随后将规模上调并定价为 **$350M**（0.00% 票息）。公司称募资用于保留财务弹性并推进国际扩张，包括拟收购澳洲远程医疗公司 **Eucalyptus**。可转债赋予持有人换股权利，引发稀释担忧，HIMS 当日（5/18）下跌约 8% 收 $23.03。
+**可转债扩至 $402.5M**：Hims & Hers 于 2026-05-18 宣布拟发行 $300M 2032 年到期可转换优先票据，定价时上调至 $350M，并在行使超额配售权后于 5/21 实际发行总额 $402.5M（0.00% 票息，初始转股价约 $29.53）。公司同步于 5/18–19 进行 capped call 交易以减少潜在稀释。募资用于保留财务弹性并推进国际扩张，包括拟收购澳洲远程医疗公司 **Eucalyptus**。可转债赋予持有人换股权利，引发稀释担忧，HIMS 5/18 当日下跌约 8% 收 $23.03。
 
 **Q1 暴雷后续跌**：本周延续 5/11 Q1 财报后的弱势——Q1 营收 $608.1M（YoY 仅 +4%）、净亏损 $92.1M、调整后 EBITDA 同比 -51%、毛利率由 73% 降至 65%。HIMS 全周 -5.2% 收 **$23.75**，YTD -47.2%。
 
 **业务进展与评级**：公司 5/20 在加拿大以仿制 Semaglutide 扩展其 GLP-1 产品线。Truist 于 5/22 将目标价由 $18 上调至 $23；16 位分析师平均评级为"持有"、平均目标价 $26.82，市场对 H2 重新加速的耐心仍待 Q2 验证。
 
-（来源：[Hims & Hers Convertible Notes 8-K — SEC EDGAR](https://www.sec.gov/Archives/edgar/data/0001773751/000119312526229749/d227898dex991.htm) · [Hims & Hers prices $350M senior convertible notes — Seeking Alpha](https://seekingalpha.com/news/4594692-hims-hers-health-prices-350m-senior-convertible-notes)）
+（来源：[Hims & Hers Convertible Notes 8-K — SEC EDGAR](https://www.sec.gov/Archives/edgar/data/0001773751/000119312526229749/d227898dex991.htm) · [Hims & Hers Prices Upsized Convertible Notes Offering — Hims & Hers IR](https://investors.hims.com/news/news-details/2026/Hims--Hers-Health-Inc--Prices-Upsized-350-Million-Convertible-Senior-Notes-Offering-to-Support-International-Expansion-and-Accelerate-AI-Driven-Platform-Investment/default.aspx)）
 
 ---
 
