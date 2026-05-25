@@ -48,12 +48,12 @@
 
 ## ⚠️ 本周风险预警
 
-本周组合内无处于"今日发布"或"7 天内即将发布"状态的财报，故无财报预警条目。主要风险如下：
+本周组合内无处于"报告日发布"或"7 天内即将发布"状态的财报，故无财报预警条目。主要风险如下：
 
 - **AI 半导体估值高位拥挤**：AMD（YTD +118.5%）、MU（YTD +144.9%）持续创高，已成组合主拉动力；两者合计涨幅高度依赖 HBM / 数据中心 CPU 价格与 hyperscaler 资本开支不回落，任何边际放缓都会放大回撤。
 - **NVDA"超预期仍下跌"模式延续**：NVDA 已连续多季在财报超预期后股价回落，反映买方预期长期高于公司指引；$91B 的 Q2 指引虽强，但与最乐观买方预期持平，留出失望空间。
 - **HIMS 稀释 + 模式转型双压**：$350M 可转债在 Q1 毛利率已从 73% 降至 65% 的背景下加重稀释担忧；拟收购 Eucalyptus 的整合风险与品牌 GLP-1 单位经济仍待 Q2 验证。
-- **Unity 结构性竞争担忧**：AI 原生的 3D 世界生成工具（如 Google Project Genie）持续侵蚀传统游戏引擎护城河，U 全周 -5.9% 跑输上涨的大盘，缺乏近期催化。
+- **Unity 结构性竞争担忧**：AI 原生的 3D 世界生成工具（如 Google Project Genie）持续侵蚀传统游戏引擎护城河，U 全周 -5.9% 跑输上涨的大盘，缺乏新的上行催化。
 - **通胀路径未明 + 新主席语态待读**：30 年期美债收益率处于近 19 年高位，Warsh 接任后联储政策语态尚未被市场系统定价，高久期科技股折现压力仍是潜在变量。
 
 ---
@@ -70,7 +70,7 @@
 
 **估值与资本开支**：Tesla 市值约 **$1.7T**，对应市盈率超 400 倍、市销率约 16 倍。UBS 直言其估值"由叙事与情绪驱动、而非基本面"；公司 2026 年资本开支指引约 **$25B**（2025 年不足 $9B 的近三倍），主要投向 FSD、Robotaxi 与人形机器人等 AI 基础设施。TSLA 全周微涨 +0.9% 收 $426.01，市场对"短期兑现 vs 长期愿景"的分歧仍未收敛。
 
-（来源：[Tesla brings FSD Supervised to China — CNBC](https://www.cnbc.com/2026/05/21/tesla-full-self-driving-china-launch-fsd.html) · [Tesla now calls FSD 'Assisted Driving' in China — Electrek](https://electrek.co/2026/05/23/tesla-now-calls-fsd-tesla-assisted-driving-in-china-a-more-truthful-name/) · [Tesla China talks put FSD prospects, valuation in focus — Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/tesla-china-talks-put-fsd-231910102.html)）
+（来源：[Tesla brings FSD Supervised to China — CNBC](https://www.cnbc.com/2026/05/21/tesla-full-self-driving-china-launch-fsd.html) · [Tesla rebrands FSD as 'Assisted Driving' in China — Electrek](https://electrek.co/2026/05/23/tesla-now-calls-fsd-tesla-assisted-driving-in-china-a-more-truthful-name/) · [Tesla China talks put FSD prospects, valuation in focus — Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/tesla-china-talks-put-fsd-231910102.html)）
 
 ---
 
@@ -116,7 +116,7 @@
 
 **Q1 复盘**：5/4 公布的 Q1 营收 **$1.63B**（YoY +85%、2020 年以来最快），调整后 EPS **$0.33** 超共识 $0.28，净利润同比约四倍增至 $870.5M；美国政府营收增长 84% 至 $687M，全年指引上调。
 
-**估值仍是核心争议**：PLTR 当前约 223 倍市盈率、107 倍前瞻市盈率，处于软件板块最贵分位之一。基本面（政府 + 商业 AI 双线）持续强劲，但市场对"完美定价"的容忍度有限；若 Q2 指引未再次上调，估值锚可能继续向下重置。
+**估值仍是核心争议**：PLTR 约 223 倍市盈率、107 倍前瞻市盈率，处于软件板块最贵分位之一。基本面（政府 + 商业 AI 双线）持续强劲，但市场对"完美定价"的容忍度有限；若 Q2 指引未再次上调，估值锚可能继续向下重置。
 
 （来源：[Palantir Q1 earnings report 2026 — CNBC](https://www.cnbc.com/2026/05/04/palantir-pltr-q1-earnings-report-2026.html) · [Palantir Technologies PLTR stock — Yahoo Finance](https://finance.yahoo.com/quote/PLTR/)）
 
@@ -176,7 +176,7 @@
 
 **AI 竞争担忧是核心压制**：投资者持续担忧 AI 原生的 3D 世界 / 游戏生成工具（如 Alphabet 的 "Project Genie"，可由文本或图像直接生成可交互 3D 世界）削弱传统游戏引擎的竞争壁垒；游戏与软件板块的整体弱势进一步放大了回调。
 
-**基本面与分析师**：Q1（5/7 公布）营收 **$508.2M**（YoY +16.8%）略超预期，公司将 GAAP 盈亏平衡目标提前至 2026 年 Q4，Q2 营收指引 $505–515M。BTIG 近期将目标价由 $39 上调至 **$43**、维持买入，Wedbush 由 $30 上调至 $32，分析师与市场对"AI 冲击 vs 转型兑现"的分歧仍大。
+**基本面与分析师**：Q1（5/7 公布）营收 **$508.2M**（YoY +16.8%）略超预期，公司将 GAAP 盈亏平衡目标提前至 2026 年 Q4，Q2 营收指引 $505–515M。BTIG 将目标价由 $39 上调至 **$43**、维持买入，Wedbush 由 $30 上调至 $32，分析师与市场对"AI 冲击 vs 转型兑现"的分歧仍大。
 
 （来源：[Unity Software U stock — Yahoo Finance](https://finance.yahoo.com/quote/U/) · [Unity Software selloff drivers — TIKR](https://www.tikr.com/blog/unity-software-stock-is-down-57-over-the-past-month-heres-whats-driving-the-selloff)）
 
