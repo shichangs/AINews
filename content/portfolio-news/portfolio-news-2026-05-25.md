@@ -17,7 +17,7 @@
 
 4. **道指创历史新高，标普 500 连涨 8 周**：道琼斯指数 2026-05-22 上涨 294 点收 **50,579.70** 创历史新高，标普 500 收 7,473.47 录得连续 **8 周**上涨（2023 年 12 月以来最长连涨）。Kevin Warsh 于 5/22 宣誓就任美联储主席；美伊和谈出现进展提振了风险偏好。（来源：[Dow rises to record high May 22 — TheStreet](https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-may-22-2026) · [S&P 500 longest weekly win streak since 2023 — Yahoo Finance](https://finance.yahoo.com/markets/live/stock-market-today-sp-500-notches-longest-weekly-win-streak-since-2023-dow-climbs-to-record-high-223454966.html)）
 
-5. **HIMS 发行 $350M 可转债，稀释担忧压价**：Hims & Hers 于 2026-05-18 宣布拟发行 **$300M** 2032 年到期可转换优先票据，随后定价上调至 **$350M**（0.00% 票息），募资用于国际扩张（含拟收购澳洲远程医疗公司 Eucalyptus）。稀释担忧令股价当日 -8% 收 $23.03，全周 -5.2% 收 **$23.75**（YTD -47.2%）。（来源：[Hims & Hers Convertible Notes 8-K — SEC EDGAR](https://www.sec.gov/Archives/edgar/data/0001773751/000119312526229749/d227898dex991.htm) · [Hims & Hers shares slide after convertible notes — Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/hims-hers-shares-slide-convertible-140153233.html)）
+5. **HIMS 发行可转债至 $402.5M，稀释担忧压价**：Hims & Hers 于 2026-05-18 宣布拟发行 $300M 2032 年到期可转换优先票据，定价时上调至 $350M，并在行使超额配售权后于 5/21 实际发行总额 **$402.5M**（0.00% 票息）；公司同步进行 capped call 交易以对冲稀释。募资用于国际扩张，含拟收购澳洲远程医疗公司 Eucalyptus。稀释担忧令股价 5/18 当日 -8% 收 $23.03，全周 -5.2% 收 **$23.75**（YTD -47.2%）。（来源：[Hims & Hers Convertible Notes 8-K — SEC EDGAR](https://www.sec.gov/Archives/edgar/data/0001773751/000119312526229749/d227898dex991.htm) · [Hims & Hers shares slide after convertible notes — Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/hims-hers-shares-slide-convertible-140153233.html)）
 
 ---
 
@@ -34,7 +34,7 @@
 | Tesla | TSLA | $426.01 | +0.9% | -5.6% | ➡️ | 2026-07-29（Q2） | FSD（Supervised）正式在华上线，但 Robotaxi 运营问题持续 |
 | AMD | AMD | $467.51 | +10.2% | +118.5% | 📈 | 2026-08（Q2） | 创收盘历史新高；$10B 台湾投资 + Evercore 目标价升至 $579 |
 | Nvidia | NVDA | $215.33 | -4.4% | +24.0% | 📉 | 2026-08（Q2 FY27） | Q1 营收创纪录 $81.6B + $80B 回购，股价仍逆向回落 |
-| Palantir | PLTR | $136.88 | +2.2% | -27.8% | ➡️ | 2026-08（Q2） | 本周无重大消息，估值压制下温和反弹 |
+| Palantir | PLTR | $136.88 | +2.2% | -27.8% | ➡️ | 2026-08（Q2） | Rosenblatt 重申买入 $225，估值压制下温和反弹 |
 | Google | GOOGL | $382.97 | -3.5% | +14.2% | ➡️ | 2026-07（Q2） | Google I/O 发布 Gemini 3.5 Flash，大盘领涨中逆向回调 |
 | Micron | MU | $751.00 | +3.6% | +144.9% | 📈 | 2026-07-01（Q3 FY26） | Manassas 扩产 + Melius 目标价升至 $1,100，仍居组合最强 |
 | PayPal | PYPL | $44.26 | -0.3% | -23.8% | ➡️ | 2026-07（Q2） | 股东会通过股权激励计划；PYUSD 扩展至 70 个市场 |
@@ -82,7 +82,7 @@
 
 **逾 $10B 台湾生态投资**：AMD 于 2026-05-21 宣布在台湾生态系统投资逾 **$10B**，与 ASE、SPIL 等合作伙伴共同开发并验证新一代 2.5D 桥接互连技术 **EFB**（Elevated Fanout Bridge），用于扩建先进封装产能。该架构将支撑"Venice"第六代 EPYC 处理器，以及计划在 2026 下半年部署的 **Helios** 机柜级平台（搭载 Instinct MI450X GPU + 第六代 EPYC，ODM 伙伴含 Sanmina、Wiwynn、Wistron、Inventec）。
 
-**Lisa Su 赴台推进 2nm**：CEO Lisa Su 于 5/20 抵达台北，在 COMPUTEX 2026 前亲自宣布上述投资，并确认已与台积电总裁会晤，推进 2nm 产能与下一代 AI 芯片路线图；EPYC "Venice" 正基于台积电 2nm 工艺进行量产爬坡。
+**Lisa Su 赴台推进 2nm**：CEO Lisa Su 于 5/20 抵达台北，在 COMPUTEX 2026 前亲自宣布上述投资；据 TrendForce 报道，其已与台积电总裁会晤，推进 2nm 产能与下一代 AI 芯片路线图。EPYC "Venice" 正基于台积电 2nm 工艺进行量产爬坡。
 
 **MI400 系列与竞争定位**：MI400 系列基于 CDNA 5 架构、采用台积电 N2（2nm）工艺，旗舰 **MI455X** 集成 3,200 亿晶体管、432GB HBM4、19.6 TB/s 带宽；MI450 为大规模部署的走量型号。市场估计 MI400 系列 2026 年可贡献约 $7.2B 营收。AMD 在 Q1 2026 继续从竞争对手手中获取服务器 CPU 份额。
 
@@ -96,7 +96,7 @@
 
 **股价：** $215.33（本周 -4.4%，YTD +24.0%）｜**情绪：** 📉｜**下次财报：** 2026-08（Q2 FY27）
 
-**本周财报（2026-05-20）**：实际 non-GAAP EPS **$1.87** vs 共识 $1.77（超 +5.6%），营收 **$81.6B** vs 共识 $79.2B（超 +3.0%）；盘后反应约 -0.8%。
+**本周财报（2026-05-20）**：实际 non-GAAP EPS **$1.87** vs 共识 $1.77（超 +5.6%），营收 **$81.6B** vs 共识 $79.2B（超 +3.0%）；财报次日（05-21）股价 -1.8%、全周累计 -4.4%。
 
 **创纪录的一季**：NVDA Q1 FY27 营收 $81.6B（YoY +85%、QoQ +20%），数据中心营收 **$75.2B**（YoY +92%），GAAP / non-GAAP 毛利率分别为 74.9% / 75.0%，GAAP EPS $2.39。公司同时宣布新增 **$80B** 回购授权、季度股息由 $0.01 上调至 $0.25，并对报告口径做了调整。CEO Jensen Huang 称"需求已呈抛物线式增长"。
 
@@ -112,7 +112,7 @@
 
 **股价：** $136.88（本周 +2.2%，YTD -27.8%）｜**情绪：** ➡️｜**下次财报：** 2026-08（Q2）
 
-**本周无重大消息**：PLTR 本周新闻流清淡，股价在估值压制环境下温和反弹 +2.2% 收 $136.88，仍远低于 52 周高点 $207.52、YTD -27.8%。
+**新闻流以分析师跟踪为主**：PLTR 本周无公司级重大事件，股价在估值压制环境下温和反弹 +2.2% 收 $136.88，仍远低于 52 周高点 $207.52、YTD -27.8%。Rosenblatt 于 5/21 在完成公司走访后重申买入评级、维持 **$225** 目标价。
 
 **Q1 复盘**：5/4 公布的 Q1 营收 **$1.63B**（YoY +85%、2020 年以来最快），调整后 EPS **$0.33** 超共识 $0.28，净利润同比约四倍增至 $870.5M；美国政府营收增长 84% 至 $687M，全年指引上调。
 
@@ -126,7 +126,7 @@
 
 **股价：** $382.97（本周 -3.5%，YTD +14.2%）｜**情绪：** ➡️｜**下次财报：** 2026-07（Q2）
 
-**Google I/O 2026 发布 Gemini 3.5**：在 Google I/O 2026 上，CEO Sundar Pichai 发布 **Gemini 3.5 Flash** 并将其推入消费与开发者产品线，同时预告更高端的 Gemini 3.5 Pro 将于 6 月推出——Pro 版的推迟在现场引发部分听众失望反应。Google 还展示了 Android XR AI 智能眼镜等硬件方向。
+**Google I/O 2026 发布 Gemini 3.5**：在 Google I/O 2026 上，CEO Sundar Pichai 发布 **Gemini 3.5 Flash** 并将其推入消费与开发者产品线，同时预告更高端的 Gemini 3.5 Pro 将于 2026 年 6 月推出——Pro 版的推迟在现场引发部分听众失望反应。Google 还展示了 Android XR AI 智能眼镜等硬件方向。
 
 **反垄断上诉持续**：Google 继续就 2025 年 9 月联邦法院反垄断救济裁决提起上诉，争议焦点包括数据共享要求与对 Apple 默认搜索协议的限制；司法部则提出交叉上诉、寻求更强救济。Google 此前已避免了被强制拆分 Chrome 的最坏结果。
 
@@ -144,13 +144,13 @@
 
 **仍居组合最强单只**：MU 全周 +3.6% 收 **$751.00**，5/22 单日小幅回吐 -1.46%（由 $762.10 降至 $751.00）；YTD +144.9%，2026 年累计涨幅近 150%，仍是组合中表现最强的一只。
 
-**Manassas 扩产**：Micron 宣布其位于弗吉尼亚州 Manassas 的晶圆厂启动 1-alpha DRAM 制造，并对该厂追加 **$2B** 扩建投资，强化美国本土先进 DRAM 产能。
+**美国本土产能**：Micron 推进其位于弗吉尼亚州 Manassas 的晶圆厂产能扩建，并对该厂规划约 **$2B** 追加投资，强化美国本土 DRAM 制造布局。
 
 **HBM 超级周期延续**：公司 2026 年 HBM 产能已在长期固定价格合同下全部售罄，反映 AI 数据中心对高带宽内存与先进 DRAM 的需求极其强劲；Microsoft、Alphabet、Amazon、Meta 等持续扩建 GPU 集群是核心驱动。
 
-**目标价继续上修**：Melius Research 将目标价由 $700 上调至 **$1,100**，Mizuho 由 $740 上调至 $800；46 位分析师维持"买入"共识评级。估值警示同步存在——YTD +145% 的涨幅令仓位拥挤度极高，任何 HBM 价格走平都会放大回撤。
+**目标价继续上修**：Citigroup 于 5/19 将目标价由 $425 大幅上调至 **$840**，理由是 Micron 计划在日历 Q2 上调 DRAM 价格约 40%；Melius Research 上调至 $1,100、Mizuho 上调至 $800，46 位分析师维持"买入"共识评级。估值警示同步存在——YTD +144.9% 的涨幅令仓位拥挤度极高，任何 HBM 价格走平都会放大回撤。
 
-（来源：[Micron MU stock — Stockanalysis.com](https://stockanalysis.com/stocks/mu/) · [Micron Technology stock outlook 2026 — TradingKey](https://www.tradingkey.com/analysis/stocks/us-stocks/261906125-micron-technology-mu-ai-memory-hbm-supply-demand-margin-expansion-valuation-1000-target-risk-semiconductor-tradingkey)）
+（来源：[Citi resets Micron stock price target — TheStreet](https://www.thestreet.com/investing/stocks/citi-resets-micron-stock-price-target-after-an-anomaly) · [Micron sees bullish views at Citi on DRAM price hike — Seeking Alpha](https://seekingalpha.com/news/4594767-micron-sees-bullish-views-at-citi-on-expected-dram-price-hike) · [Micron MU stock — Stockanalysis.com](https://stockanalysis.com/stocks/mu/)）
 
 ---
 
@@ -158,7 +158,7 @@
 
 **股价：** $44.26（本周 -0.3%，YTD -23.8%）｜**情绪：** ➡️｜**下次财报：** 2026-07（Q2）
 
-**股东会通过股权激励计划**：PayPal 股东于 2026-05-21 批准了 2026 年股权激励计划。公司本月还完成约 **$2B** 固定利率债券发行，并提交了一份 $3.72B 的暂搁注册（shelf registration）。
+**股东会与人事变动**：PayPal 股东于 2026-05-21 批准了 2026 年股权激励计划。公司于 2026-05-20 与即将离任的消费者业务负责人 Diego Scotti 签署离职协议（Scotti 将于 2026-06-02 离任），系 4 月底三大事业部重组的一部分。公司于 2026 年 5 月还完成约 **$2B** 固定利率债券发行，并提交了一份 $3.72B 的暂搁注册（shelf registration）。
 
 **PYUSD 国际扩张**：PayPal 将其稳定币 **PYUSD** 扩展至全球 70 个市场，是其国际化布局的重要一步；公司在 CEO Enrique Lores 治下推进 AI 与组织重构，目标实现约 $1.5B 成本节省、并指引 2026 全年自由现金流约 $6B。
 
@@ -178,7 +178,7 @@
 
 **基本面与分析师**：Q1（5/7 公布）营收 **$508.2M**（YoY +16.8%）略超预期，公司将 GAAP 盈亏平衡目标提前至 2026 年 Q4，Q2 营收指引 $505–515M。BTIG 将目标价由 $39 上调至 **$43**、维持买入，Wedbush 由 $30 上调至 $32，分析师与市场对"AI 冲击 vs 转型兑现"的分歧仍大。
 
-（来源：[Unity Software U stock — Yahoo Finance](https://finance.yahoo.com/quote/U/) · [Unity Software selloff drivers — TIKR](https://www.tikr.com/blog/unity-software-stock-is-down-57-over-the-past-month-heres-whats-driving-the-selloff)）
+（来源：[Unity Q1 2026 Results 8-K — SEC EDGAR](https://www.sec.gov/Archives/edgar/data/0001810806/000181080626000030/unity-20260507.htm) · [Unity Software U stock — Yahoo Finance](https://finance.yahoo.com/quote/U/)）
 
 ---
 
@@ -202,7 +202,7 @@
 - **2026-06-05（预定）｜5 月非农就业报告**：Warsh 出任美联储主席后的首份重要劳动力数据，将影响市场对联储政策语态的解读。（来源：[Economic Indicators Calendar — New York Fed](https://www.newyorkfed.org/research/calendars/nationalecon_cal)）
 - **Tesla Robotaxi 扩城进展**：Phoenix、Miami、Orlando、Tampa、Las Vegas 任一新城上线，将影响 Q2 自动驾驶叙事的兑现度。（来源：[Tesla brings FSD Supervised to China — CNBC](https://www.cnbc.com/2026/05/21/tesla-full-self-driving-china-launch-fsd.html)）
 - **AMD Helios / MI450 出货信号**：COMPUTEX 2026 后，关注 Helios 机柜级平台与 MI450 在 2026 下半年量产爬坡的供应链信号。（来源：[AMD unveils full MI400 lineup — DataCenterDynamics](https://www.datacenterdynamics.com/en/news/amd-unveils-full-mi400-product-lineup-claims-mi500-chips-will-deliver-1000x-increase-in-ai-performance/)）
-- **Google Gemini 3.5 Pro 推出**：Google 已预告 Gemini 3.5 Pro 将于 6 月推出，是其与前沿模型竞争的关键产品节点。（来源：[Google delays Gemini 3.5 Pro, releases 3.5 Flash at I/O — Let's Data Science](https://letsdatascience.com/news/google-delays-gemini-35-pro-releases-35-flash-at-io-0dcab6cd)）
+- **Google Gemini 3.5 Pro 推出**：Google 已预告 Gemini 3.5 Pro 将于 2026 年 6 月推出，是其与前沿模型竞争的关键产品节点。（来源：[Google delays Gemini 3.5 Pro, releases 3.5 Flash at I/O — Let's Data Science](https://letsdatascience.com/news/google-delays-gemini-35-pro-releases-35-flash-at-io-0dcab6cd)）
 
 ---
 
