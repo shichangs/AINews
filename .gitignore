@@ -1,6 +1,10 @@
 logs/*.log
 logs/auto-publish-state.json
 
+# Local Codex/agent session artifacts; must never make the working tree dirty.
+# An untracked .context/ was tripping auto-sync's pre-rebase guard and blocking pushes.
+.context/
+
 # Guard against fallback scripts ever writing markdown to content/ top-level.
 # All site content must live in subdirectories (daily-ai-news, weekly-ai-tech, portfolio-news).
 content/*.md
