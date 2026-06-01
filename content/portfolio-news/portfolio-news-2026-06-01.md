@@ -48,7 +48,7 @@
 
 ## ⚠️ 本周风险预警
 
-本周组合内无处于"报告日发布"或"7 天内即将发布"状态的财报（最近为 MU 2026-06-24），故无财报预警条目。主要风险如下：
+本周组合内无处于"报告日发布"或"7 天内即将发布"状态的财报（最早一场为 MU 2026-06-24），故无财报预警条目。主要风险如下：
 
 - **AI 半导体估值极度拥挤**：MU（YTD +240.2%）、AMD（YTD +141.0%）持续创高，已成组合主拉动力；MU 市值一周内站上 $1 万亿，估值对 HBM/DRAM 涨价兑现度与 hyperscaler 资本开支的依赖被进一步放大，任何边际放缓都会触发集中回撤。
 - **NVDA 对华出口监管再收紧**：美国商务部 2026-05-31 封堵先进芯片对华"出口漏洞"（据报亦涉及 AMD 部分数据中心加速器），叠加 Q1 FY27 数据中心对华 Hopper 出货已归零，地区营收的不确定性可能继续压制 NVDA 相对表现。
@@ -160,7 +160,7 @@
 
 - **2026-06-01（周一）｜Computex 台北开幕**：Nvidia 黄仁勋发表主题演讲、AMD Lisa Su 亦在场，AI 基础设施与 Rubin / MI400 路线图料成焦点，对整条算力链情绪有指引意义。（来源：[Nvidia CEO to kick off and dominate Computex in Taipei — Reuters](https://www.reuters.com/world/china/nvidia-ceo-kick-off-dominate-computex-gathering-taipei-2026-05-31/)）
 - **2026-06-05（周五）｜5 月非农就业报告**：Warsh 出任美联储主席后的首份重要劳动力数据，市场预期新增约 10 万、失业率 4.3%，将影响联储政策语态与降息定价。（来源：[Stock market news for May 29, 2026 — CNBC](https://www.cnbc.com/2026/05/28/stock-market-today-live-updates.html)）
-- **2026-06 上旬｜首台 Nvidia 芯片 Windows PC 亮相**：据 Axios，Nvidia 与微软预计下旬推出首批以 Nvidia 芯片为主处理器的 Windows 电脑，关乎 NVDA 切入 AI PC 市场的进展。（来源：[First Windows PC powered by Nvidia chips to debut next week — Reuters](https://www.reuters.com/business/first-windows-pc-powered-by-nvidia-chips-debut-next-week-axios-reports-2026-05-30/)）
+- **2026-06 上旬｜首台 Nvidia 芯片 Windows PC 亮相**：据 Axios，Nvidia 与微软预计 6 月上旬推出首批以 Nvidia 芯片为主处理器的 Windows 电脑，关乎 NVDA 切入 AI PC 市场的进展。（来源：[First Windows PC powered by Nvidia chips to debut next week — Reuters](https://www.reuters.com/business/first-windows-pc-powered-by-nvidia-chips-debut-next-week-axios-reports-2026-05-30/)）
 - **2026-06 内｜Google Gemini 3.5 Pro 推出**：Google 已预告高端 Gemini 3.5 Pro 将于 6 月推出，是其与前沿模型竞争的关键产品节点，对 GOOGL 情绪有催化潜力。（来源：[Alphabet (GOOGL) overview — Stockanalysis](https://stockanalysis.com/stocks/googl/)）
 - **对华芯片出口细则落地（NVDA/AMD）**：美国商务部 2026-05-31 封堵"出口漏洞"后的实施细则与名单，将决定先进芯片对华关联企业出货的实际影响面。（来源：[US takes step to halt Nvidia AI chip shipments to Chinese firms outside China — Reuters](https://www.reuters.com/world/china/us-takes-step-halt-nvidia-ai-chip-shipments-chinese-firms-outside-china-2026-05-31/)）
 
