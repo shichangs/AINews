@@ -86,7 +86,7 @@
 
 **股价：** $971.00（本周 +29.3%，YTD +240.2%）｜**情绪：** 📈｜**下次财报：** 2026-06-24（Q3 FY26）
 
-**登上 $1 万亿市值俱乐部**：MU 于 2026-05-26 单日大涨约 **19.5%**、盘中首次突破 $1 万亿市值，全周收 **$971.00** 创历史新高，市值约 $1.1T，成为组合内 YTD 表现最强的一只（+240.2%）。AI 内存超级周期与 Dell 财报对数据中心需求的验证是直接催化。
+**登上 $1 万亿市值俱乐部**：MU 于 2026-05-26 单日大涨约 19.5%、盘中首次突破 $1 万亿市值，全周收 **$971.00** 创历史新高，市值约 $1.1T，成为组合内 YTD 表现最强的一只（+240.2%）。AI 内存超级周期与 Dell 财报对数据中心需求的验证是直接催化。
 
 **目标价被大幅上修**：UBS 分析师 Timothy Arcuri 于 5/26 将目标价由 $535 大幅上调至街最高的 **$1,625**，依据是公司 2026 年 HBM4 产能已在长期固定价格合同下全部售罄、且 DRAM 涨价兑现——TrendForce 数据显示近月 DRAM 价格上涨约 58–63%、NAND 涨 70–75%。
 
@@ -102,15 +102,15 @@
 
 **对华出口监管再收紧**：美国商务部于 2026-05-31 采取行动，封堵一年前自设、可能让企业将 **Rubin / Blackwell** 等最先进芯片出口至在华以外中国关联企业的漏洞，凸显地区营收的政策不确定性。NVDA 全周收 **$211.14**（-1.9%），在 AI 同侪（AMD、MU、PLTR）普涨的一周里相对落后，YTD 仅 +13.2%——经一手历史数据校正后，NVDA 是组合内 AI 算力链的相对落后者。
 
-**前瞻催化与新技术押注**：公司近三个月已向光子学（photonics）公司投入至少 **$65 亿**，以缓解 AI 数据中心的数据传输瓶颈；据 Axios，首批搭载 Nvidia 主处理器的 Windows PC 预计于下旬亮相。CEO 黄仁勋将于 2026-06-01 在台北 Computex 发表主题演讲，市场视台湾科技大会为下一个潜在催化。（来源：[US takes step to halt Nvidia AI chip shipments to Chinese firms outside China — Reuters](https://www.reuters.com/world/china/us-takes-step-halt-nvidia-ai-chip-shipments-chinese-firms-outside-china-2026-05-31/) · [Nvidia invests billions into photonics — CNBC](https://www.cnbc.com/2026/05/29/nvidia-photonics-investment-ai.html) · [First Windows PC powered by Nvidia chips to debut next week — Reuters](https://www.reuters.com/business/first-windows-pc-powered-by-nvidia-chips-debut-next-week-axios-reports-2026-05-30/)）
+**前瞻催化与新技术押注**：公司 2026 年 3 月以来已向光子学（photonics）公司投入至少 **$65 亿**，以缓解 AI 数据中心的数据传输瓶颈；据 Axios，首批搭载 Nvidia 主处理器的 Windows PC 预计于 6 月上旬亮相。CEO 黄仁勋将于 2026-06-01 在台北 Computex 发表主题演讲，市场视台湾科技大会为下一个潜在催化。（来源：[US takes step to halt Nvidia AI chip shipments to Chinese firms outside China — Reuters](https://www.reuters.com/world/china/us-takes-step-halt-nvidia-ai-chip-shipments-chinese-firms-outside-china-2026-05-31/) · [Nvidia invests billions into photonics — CNBC](https://www.cnbc.com/2026/05/29/nvidia-photonics-investment-ai.html) · [First Windows PC powered by Nvidia chips to debut next week — Reuters](https://www.reuters.com/business/first-windows-pc-powered-by-nvidia-chips-debut-next-week-axios-reports-2026-05-30/)）
 
 ---
 
 ## Palantir (PLTR)
 
-**股价：** $156.54（本周 +14.4%，YTD -17.4%）｜**情绪：** 📈｜**下次财报：** 2026-08（Q2）
+**股价：** $156.54（本周 +14.4%，YTD -11.9%）｜**情绪：** 📈｜**下次财报：** 2026-08（Q2）
 
-**一年来最佳单日**：PLTR 于 2026-05-29 单日收涨约 **9%**（一年来最强单日表现），全周收 **$156.54**（+14.4%）；催化主要来自 Dell 强劲 AI 财报对其基础设施合作叙事的验证，带动算力与 AI 软件板块共振。YTD 由此前深跌收窄至 -17.4%，但仍显著低于 52 周高点。
+**一年来最佳单日**：PLTR 于 2026-05-29 单日收涨约 **9%**（一年来最强单日表现），全周收 **$156.54**（+14.4%）；催化主要来自 AI 软件与算力板块的情绪共振（Dell 等强劲 AI 财报点燃整体板块）。YTD 由此前深跌收窄至 -11.9%，但仍显著低于 52 周高点。
 
 **估值仍是核心争议**：5/4 公布的 Q1 营收 **$1.63B**（YoY +85%、2020 年以来最快）、调整后 EPS $0.33 超共识，基本面（政府 + 商业 AI 双线）持续强劲；但软件板块最贵分位之一的估值令"完美定价"容忍度有限，若 Q2 指引未再超预期，估值锚可能继续波动。（来源：[Palantir is down 20% in 2026 and it's still my favorite stock idea — Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/palantir-down-20-2026-still-193818164.html) · [Palantir Q1 earnings report 2026 — CNBC](https://www.cnbc.com/2026/05/04/palantir-pltr-q1-earnings-report-2026.html)）
 
@@ -118,11 +118,11 @@
 
 ## Google / Alphabet (GOOGL)
 
-**股价：** $380.34（本周 -0.7%，YTD +13.4%）｜**情绪：** ➡️｜**下次财报：** 2026-07（Q2）
+**股价：** $380.34（本周 -0.7%，YTD +21.2%）｜**情绪：** ➡️｜**下次财报：** 2026-07（Q2）
 
-**逆 AI 普涨小幅回调**：GOOGL 全周微跌 **-0.7%** 收 **$380.34**，在半导体与 AI 链普涨的一周里逆向回调、无公司级负面催化。Truist 于 5/29 将目标价由 $415 上调至 **$430**，64 位分析师平均评级维持"强力买入"。
+**逆 AI 普涨小幅回调**：GOOGL 全周微跌 **-0.7%** 收 **$380.34**，在半导体与 AI 链普涨的一周里逆向回调、无公司级负面催化。Truist 于 2026-05-29 将目标价由 $415 上调至 **$430**，64 位分析师平均评级维持"强力买入"。
 
-**Waymo 自动驾驶领先扩大**：Alphabet 旗下 Waymo 在德州的 AV 注册数（约 577 辆）以逾 13:1 碾压 Tesla（约 42 辆），强化其 Robotaxi 规模领先叙事；公司同时推进 Google Cloud 与 EQT 的 AI 合作。资本开支端，Alphabet 2026 年指引上看 $190B，Q1 营收约 $110B（YoY +22%）、Google Cloud $20B（YoY +63%）。GOOGL 本周表现与基本面背离，更多为大型科技股轮动所致。（来源：[Computex: Nvidia and Taiwan's expanding role in AI infrastructure — Reuters](https://www.reuters.com/world/china/computex-nvidia-taiwans-expanding-role-ai-infrastructure-set-take-centre-stage-2026-05-29/) · [Alphabet (GOOGL) overview — Stockanalysis](https://stockanalysis.com/stocks/googl/)）
+**监管与自动驾驶并行**：印度一家法院于 2026-05-29 就 Google 关键词广告（keyword ads）作出裁决，被指可能重塑在线广告竞价规则，为报告周内 GOOGL 的主要监管事件。自动驾驶端，Alphabet 旗下 Waymo 在德州的 AV 注册数（约 577 辆）以逾 13:1 碾压 Tesla（约 42 辆），强化其 Robotaxi 规模领先。资本开支端，Alphabet 2026 年指引上看 $190B，Q1 营收约 $110B（YoY +22%）、Google Cloud $20B（YoY +63%）。GOOGL 本周表现与基本面背离，更多为大型科技股轮动所致。（来源：[Indian court ruling on Google keyword ads could reshape online advertising — Reuters](https://www.reuters.com/business/media-telecom/indian-court-ruling-google-keyword-ads-could-reshape-online-advertising-2026-05-29/) · [Alphabet price target raised to $430 from $415 at Truist — TheFly/TipRanks](https://www.tipranks.com/news/the-fly/alphabet-price-target-raised-to-430-from-415-at-truist-thefly-news)）
 
 ---
 
