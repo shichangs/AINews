@@ -128,7 +128,7 @@
 
 ## PayPal (PYPL)
 
-**股价：** $44.81（本周 +1.2%，YTD -22.9%）｜**情绪：** ➡️｜**下次财报：** 2026-07（Q2）
+**股价：** $44.81（本周 +1.2%，YTD -23.2%）｜**情绪：** ➡️｜**下次财报：** 2026-07（Q2）
 
 **股价企稳、聚焦重构**：PYPL 全周小幅 +1.2% 收 **$44.81**，投资者继续消化 Q1 业绩与产品更新；26 位分析师维持"持有"共识。公司宣布每股 **$0.14** 现金股息（除息日 2026-06-04），并推进 CEO Enrique Lores 治下约 **$15 亿**成本节省与组织重构。
 
@@ -138,9 +138,9 @@
 
 ## Unity Software (U)
 
-**股价：** $30.47（本周 +19.2%，YTD -32.6%）｜**情绪：** 📈｜**下次财报：** 2026-08（Q2）
+**股价：** $30.47（本周 +19.2%，YTD -31.0%）｜**情绪：** 📈｜**下次财报：** 2026-08（Q2）
 
-**单周强反弹但伴随高管减持**：U 全周大涨 **+19.2%** 收 **$30.47**，跑赢大盘；驱动来自向盈利与增长转型的乐观情绪、AI 集成进展，以及 5 月初多家投行的目标价上调（Needham $40、Oppenheimer $38、Morgan Stanley $35、Jefferies $34、Wedbush $32）。但 5/28 出现公司高管集中减持（Form 4），为涨势中的一处治理面分歧信号。
+**单周强反弹**：U 全周大涨 **+19.2%** 收 **$30.47**，跑赢大盘；驱动来自向盈利与增长转型的乐观情绪、AI 集成进展，以及 5 月初多家投行的目标价上调（Needham $40、Oppenheimer $38、Morgan Stanley $35、Jefferies $34、Wedbush $32）。5/26–28 有多名高管提交 Form 4，主要为 RSU 归属的代扣税 sell-to-cover（非自主看空减持）。
 
 **业务进展**：Unity 与 **Meta** 续签多年合作、面向下一代 VR/沉浸式应用简化开发；并于 5/1 任命 Bernard Kim 为独立董事（曾任职 Match、Zynga、EA）。Q1（5/7 公布）营收 $508.2M（YoY +16.8%）略超预期，公司将 GAAP 盈亏平衡目标提前至 2026 Q4——但 AI 原生 3D/游戏生成工具对引擎护城河的长期侵蚀仍是估值压制因素。（来源：[Unity (U) latest news — StockTitan](https://www.stocktitan.net/news/U/) · [Unity Software (U) — Benzinga](https://www.benzinga.com/quote/U)）
 
@@ -148,11 +148,11 @@
 
 ## Hims & Hers Health (HIMS)
 
-**股价：** $26.15（本周 +10.1%，YTD -41.9%）｜**情绪：** 📈｜**下次财报：** 2026-08（Q2）
+**股价：** $26.15（本周 +10.1%，YTD -19.5%）｜**情绪：** 📈｜**下次财报：** 2026-08（Q2）
 
-**Benefits 生态扩张提振**：Hims & Hers 于 2026-05-28 为其 **Benefits** 平台新增 **8 家**合作伙伴（含 iFIT、Ladder、Pvolve、HelloFresh、Factor、MyFitnessPal、Stelo by Dexcom、Flo Health、Natural Cycles），覆盖健身、营养、血糖监测、女性健康与睡眠，参与品牌增至 10 家。公司本月还上线 Labs AI 健康助手，并在加拿大以仿制 Semaglutide 扩展 GLP-1 产品线。HIMS 全周 +10.1% 收 **$26.15**。
+**Benefits 生态扩张提振**：Hims & Hers 于 2026-05-28 为其 **Benefits** 平台新增 **8 家**合作伙伴，覆盖健身、营养、血糖监测、女性健康与睡眠等领域，连同既有创始伙伴使参与品牌增至 10 家；并在加拿大以仿制 Semaglutide 扩展 GLP-1 产品线、上线 Labs AI 健康助手。HIMS 全周 +10.1% 收 **$26.15**。
 
-**评级偏谨慎、估值仍承压**：BofA 将目标价由 $28 下调至 **$25**、维持中性，指出 2026 展望依赖 GLP-1 的"显著加速"且未充分计入减肥市场的定价压力与竞争。公司将 2026 年营收指引上调至 **$28–30 亿**、调整后 EBITDA $2.75–3.5 亿，但 YTD -41.9% 反映市场对 H2 重新加速与品牌 GLP-1 单位经济的耐心仍待 Q2 验证。（来源：[HIMS stock eyes breakout week: eight new partners — Stocktwits](https://stocktwits.com/news-articles/markets/equity/hims-stock-eight-new-partners-health-ecosystem/cZgS9VJRetS) · [Hims & Hers massive stock drop explained — The Motley Fool](https://www.fool.com/investing/2026/05/19/hims-hers-10-stock-drop-explained/)）
+**评级偏谨慎、估值仍承压**：BofA 将目标价由 $28 下调至 **$25**、维持中性，指出 2026 展望依赖 GLP-1 的"显著加速"且未充分计入减肥市场的定价压力与竞争。公司将 2026 年营收指引上调至 **$28–30 亿**、调整后 EBITDA $2.75–3.5 亿，但 YTD -19.5% 仍反映市场对 H2 重新加速与品牌 GLP-1 单位经济的耐心待 Q2 验证。（来源：[HIMS stock eyes breakout week: eight new partners — Stocktwits](https://stocktwits.com/news-articles/markets/equity/hims-stock-eight-new-partners-health-ecosystem/cZgS9VJRetS) · [Hims & Hers massive stock drop explained — The Motley Fool](https://www.fool.com/investing/2026/05/19/hims-hers-10-stock-drop-explained/)）
 
 ---
 
