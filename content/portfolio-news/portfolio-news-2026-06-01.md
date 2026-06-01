@@ -17,13 +17,13 @@
 
 4. **指数创新高，无视近三年最热 PCE**：标普 500（**7,580.06**）与纳指（**26,972.62**）于 2026-05-29 双双收创历史新高、录得连续 **9 周**上涨，尽管 4 月 PCE 物价指数同比升至 **+3.8%**（2023 年 5 月以来最高）。Dell 因 AI 服务器需求强劲单日暴涨约 30%，点燃半导体板块。（来源：[Stock Market Today May 28: new record despite highest PCE in nearly three years — TheStreet](https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-may-28-2026) · [Stock market news for May 29, 2026 — CNBC](https://www.cnbc.com/2026/05/28/stock-market-today-live-updates.html)）
 
-5. **Palantir 录得一年来最佳单日、单周 +14.4%**：PLTR 于 2026-05-29 单日收涨约 **9%**（一年来最强），全周收 **$156.54**；催化来自 Dell 强劲财报对 AI 基础设施叙事的验证，带动软件与算力链共振。YTD 由深跌收窄至 -17.4%。（来源：[Palantir is down 20% in 2026 and it's still my favorite — Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/palantir-down-20-2026-still-193818164.html) · [AMD, NVDA, MU: what's driving semis higher 5/29 — TipRanks](https://www.tipranks.com/news/amd-nvda-mu-why-are-semiconductor-stocks-rising-today-5-29-26)）
+5. **Palantir 录得一年来最佳单日、单周 +14.4%**：PLTR 于 2026-05-29 单日收涨约 **9%**（一年来最强），全周收 **$156.54**；催化来自 AI 软件与算力板块的情绪共振（Dell 等强劲 AI 财报点燃板块）。YTD 由深跌收窄至 -11.9%。（来源：[Palantir is down 20% in 2026 and it's still my favorite — Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/palantir-down-20-2026-still-193818164.html) · [AMD, NVDA, MU: what's driving semis higher 5/29 — TipRanks](https://www.tipranks.com/news/amd-nvda-mu-why-are-semiconductor-stocks-rising-today-5-29-26)）
 
 ---
 
 ## 🌍 本周宏观背景
 
-本周宏观主线是"高通胀但高风险偏好"。2026-05-29 标普 500 收 **7,580.06**（+0.22%）、纳指收 **26,972.62**（+0.2%）、道指收 **51,032.46**（+0.72%），三大指数全周分别约 +1.4% / +2.4% / +0.9%，均录得连续 **9 周**上涨。通胀端明显升温：4 月 PCE 物价指数同比 **+3.8%**（前值 3.5%）、环比 +0.4%，为 2023 年 5 月以来最高，核心 PCE 亦处 2023 年 11 月以来高位；但市场押注 AI 盈利韧性与降息预期，对热通胀"视而不见"。地缘方面，美伊停火消息延续，油价全周回落约 10% 至每桶约 $88，缓和了能源通胀担忧。下一焦点为 5 月非农就业（市场预期新增约 10 万、失业率 4.3%）。（来源：[Stock market news for May 29, 2026 — CNBC](https://www.cnbc.com/2026/05/28/stock-market-today-live-updates.html) · [Stock Market Today May 28 — TheStreet](https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-may-28-2026)）
+本周宏观主线是"高通胀但高风险偏好"。2026-05-29 标普 500 收 **7,580.06**（+0.22%）、纳指收 **26,972.62**（+0.2%）、道指收 **51,032.46**（+0.72%），三大指数全周分别约 +1.4% / +2.4% / +0.9%，均录得连续 **9 周**上涨。通胀端明显升温：4 月 PCE 物价指数同比 **+3.8%**（前值 3.5%）、环比 +0.4%，为 2023 年 5 月以来最高，核心 PCE 亦处 2023 年 11 月以来高位；但市场押注 AI 盈利韧性与降息预期，对热通胀"视而不见"。地缘方面，美伊停火消息延续，油价全周回落约 10% 至每桶约 $88，缓和了能源通胀担忧。市场下一焦点为 2026-06-05 公布的 5 月非农就业（预期新增约 10 万、失业率 4.3%）。（来源：[Stock market news for May 29, 2026 — CNBC](https://www.cnbc.com/2026/05/28/stock-market-today-live-updates.html) · [Stock Market Today May 28 — TheStreet](https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-may-28-2026)）
 
 ---
 
@@ -35,11 +35,11 @@
 | AMD | AMD | $516.10 | +10.4% | +141.0% | 📈 | 2026-08（Q2） | 收盘历史新高 $516.10；Lisa Su 访华，OpenAI/Meta 6GW 大单托底 |
 | Micron | MU | $971.00 | +29.3% | +240.2% | 📈 | 2026-06-24（Q3 FY26） | 登上 $1 万亿市值俱乐部，UBS 目标价升至 $1,625 |
 | Nvidia | NVDA | $211.14 | -1.9% | +13.2% | ➡️ | 2026-08（Q2 FY27） | 美国封堵对华芯片漏洞；AI 同侪普涨中相对落后 |
-| Palantir | PLTR | $156.54 | +14.4% | -17.4% | 📈 | 2026-08（Q2） | 一年来最佳单日（+9%），Dell 财报验证 AI 基础设施叙事 |
-| Google | GOOGL | $380.34 | -0.7% | +13.4% | ➡️ | 2026-07（Q2） | Truist 上调目标价至 $430；Waymo 德州 AV 注册数压制 Tesla |
-| PayPal | PYPL | $44.81 | +1.2% | -22.9% | ➡️ | 2026-07（Q2） | 股价企稳；美国用户经微信支付商户网络在华消费 |
-| Unity | U | $30.47 | +19.2% | -32.6% | 📈 | 2026-08（Q2） | 单周 +19.2%；与 Meta 续约 VR，但 5/28 高管减持 |
-| Hims & Hers | HIMS | $26.15 | +10.1% | -41.9% | 📈 | 2026-08（Q2） | Benefits 平台新增 8 家合作伙伴；BofA 下调目标价至 $25 |
+| Palantir | PLTR | $156.54 | +14.4% | -11.9% | 📈 | 2026-08（Q2） | 一年来最佳单日（+9%），AI 软件与算力板块情绪共振 |
+| Google | GOOGL | $380.34 | -0.7% | +21.2% | ➡️ | 2026-07（Q2） | Truist 上调目标价至 $430；印度法院关键词广告裁决 |
+| PayPal | PYPL | $44.81 | +1.2% | -23.2% | ➡️ | 2026-07（Q2） | 股价企稳；美国用户经微信支付商户网络在华消费 |
+| Unity | U | $30.47 | +19.2% | -31.0% | 📈 | 2026-08（Q2） | 单周 +19.2%；与 Meta 续约 VR；分析师集体上调目标价 |
+| Hims & Hers | HIMS | $26.15 | +10.1% | -19.5% | 📈 | 2026-08（Q2） | Benefits 平台新增 8 家合作伙伴；BofA 下调目标价至 $25 |
 
 > 股价 = 2026-05-29（周五）收盘价；YTD 基准 = 2025-12-31 收盘价。🔔 = 7 天内即将发布或今日发布。
 > 情绪评级：📈 偏多｜📉 偏空｜➡️ 中性
@@ -51,9 +51,9 @@
 本周组合内无处于"报告日发布"或"7 天内即将发布"状态的财报（最近为 MU 2026-06-24），故无财报预警条目。主要风险如下：
 
 - **AI 半导体估值极度拥挤**：MU（YTD +240.2%）、AMD（YTD +141.0%）持续创高，已成组合主拉动力；MU 市值一周内站上 $1 万亿，估值对 HBM/DRAM 涨价兑现度与 hyperscaler 资本开支的依赖被进一步放大，任何边际放缓都会触发集中回撤。
-- **NVDA 对华出口监管再收紧**：美国商务部 2026-05-31 封堵先进芯片对华"出口漏洞"，叠加 Q1 FY27 数据中心对华 Hopper 出货已归零，地区营收的不确定性可能继续压制 NVDA 相对表现。
+- **NVDA 对华出口监管再收紧**：美国商务部 2026-05-31 封堵先进芯片对华"出口漏洞"（据报亦涉及 AMD 部分数据中心加速器），叠加 Q1 FY27 数据中心对华 Hopper 出货已归零，地区营收的不确定性可能继续压制 NVDA 相对表现。
 - **HIMS 增长可持续性存疑**：BofA 将目标价由 $28 下调至 **$25**、维持中性，明确指出 2026 展望依赖 GLP-1 的"显著加速"，且未充分计入减肥市场的定价压力与竞争——单周 +10.1% 更多由 Benefits 生态扩张情绪驱动，基本面验证仍待 Q2。
-- **Unity 高管减持与竞争担忧并存**：U 在 5/28 出现高管集中减持（Form 4），叠加 AI 原生 3D/游戏生成工具对引擎护城河的长期侵蚀，+19.2% 的单周反弹缺乏盈利面支撑。
+- **Unity 结构性竞争担忧**：U 单周 +19.2% 反弹主要由情绪与分析师上调驱动；AI 原生 3D/游戏生成工具对传统引擎护城河的长期侵蚀仍是结构性压制，盈利面兑现待 Q2（5/26–28 的高管 Form 4 多为 RSU 归属代扣税 sell-to-cover，非看空信号）。
 - **热通胀与新主席政策语态**：4 月 PCE 同比 +3.8% 为近三年最高，若 5 月非农与后续通胀数据持续偏热，Warsh 治下联储的降息路径可能被重新定价，高久期科技股折现压力上升。
 
 ---
