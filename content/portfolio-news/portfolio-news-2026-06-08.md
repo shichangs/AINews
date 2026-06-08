@@ -159,7 +159,7 @@
 - **2026-06-10（周三）｜美国 5 月 CPI**：FOMC 前一周的关键通胀数据，热非农后市场高度关注其是否强化年内加息预期，对整条高久期科技股折现链有定价意义。（来源：[The Fed — Meeting calendars and information](https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm)）
 - **2026-06-11（周四）｜参议院银行委员会听证 + 5 月 PPI**：Warren 邀请黄仁勋就对华 AI 芯片销售与出口管制作证，是 NVDA 的政策风险焦点；同日公布 5 月 PPI。（来源：[Warren invites Nvidia CEO Jensen Huang to Senate hearing on China AI chips — CNBC](https://www.cnbc.com/2026/06/04/nvidia-ceo-jensen-huang-warren-senate-hearing-china-ai-chips.html)）
 - **2026-06-17（周三）｜美联储 FOMC 决议**：Warsh 主席任内关键会议，热通胀 + 热就业下利率路径与点阵图受瞩目，对全组合估值有系统性影响。（来源：[The Fed — Meeting calendars and information](https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm)）
-- **2026-06-24（周三）｜Micron Q3 FY26 财报（盘后）**：组合内最近一场财报，暴跌后市场关注其 HBM/DRAM 指引能否证伪"内存见顶"叙事。（来源：[Micron Gets Memory-Chip Approval From Nvidia — Barron's](https://www.barrons.com/articles/micron-stock-price-nvidia-hbm-10c444fc)）
+- **2026-06-24（周三）｜Micron Q3 FY26 财报（盘后）**：组合内下一场财报，暴跌后市场关注其 HBM/DRAM 指引能否证伪"内存见顶"叙事。（来源：[Micron Gets Memory-Chip Approval From Nvidia — Barron's](https://www.barrons.com/articles/micron-stock-price-nvidia-hbm-10c444fc)）
 - **2026-06 月内｜Google Gemini 3.5 Pro 发布**：高端模型节点（具体日期未公告），对 GOOGL 与前沿模型竞争叙事有催化潜力。（来源：[Alphabet investor presentation: June 2026 — blog.google](https://blog.google/alphabet/investor-presentation-june-2026/)）
 
 ---
