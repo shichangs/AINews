@@ -66,7 +66,7 @@
 
 **中国销量回暖、Robotaxi 扩区但车队仍小**：据 CNBC，特斯拉上海工厂 5 月新能源车交付约 **85,982 辆**、同比增长近 **40%**，中国内需回暖。自动驾驶端，特斯拉于 2026-06-03 将 Austin 的无人监督 Robotaxi 服务区扩展至整个都会区，但车队规模仍仅约 **20–25 辆**，对比 Waymo 全美约 3,000 辆、每周逾 50 万次付费行程，差距悬殊。
 
-**软件叙事与争议并存**：Barclays 分析师本周警告特斯拉自动驾驶推进"太慢"；同时多名车主发现旧合同中的 FSD 条款被"悄然修改"引发关注。Musk 维持先发布 **FSD v15** 再大规模扩张的路线，市场对其超 **380 倍**市盈率估值的耐心仍系于 Robotaxi 与机器人兑现节奏。（来源：[JP Morgan upgrades Tesla to 'neutral' — Reuters](https://www.reuters.com/business/media-telecom/jp-morgan-upgrades-tesla-neutral-sees-robotics-driving-long-term-growth-2026-06-05/) · [Tesla's China-made EV sales jump nearly 40% in May — CNBC](https://www.cnbc.com/2026/06/03/teslas-china-made-ev-sales-surge-in-may-as-domestic-market-rebounds.html) · [Tesla rolls out unsupervised robotaxis in Austin — Reuters](https://www.reuters.com/business/autos-transportation/tesla-rolls-out-unsupervised-robotaxis-austin-2026-06-03/)）
+**软件叙事与争议并存**：Barclays 分析师本周警告特斯拉自动驾驶推进"太慢"；另据报道，部分车主发现旧合同中的 FSD 条款措辞被调整。Musk 维持先发布 **FSD v15** 再大规模扩张的路线，市场对其超 **380 倍**市盈率估值的耐心仍系于 Robotaxi 与机器人兑现节奏。（来源：[JP Morgan upgrades Tesla to 'neutral' — Reuters](https://www.reuters.com/business/media-telecom/jp-morgan-upgrades-tesla-neutral-sees-robotics-driving-long-term-growth-2026-06-05/) · [Tesla's China-made EV sales jump nearly 40% in May — CNBC](https://www.cnbc.com/2026/06/03/teslas-china-made-ev-sales-surge-in-may-as-domestic-market-rebounds.html) · [Tesla rolls out unsupervised robotaxis in Austin — Reuters](https://www.reuters.com/business/autos-transportation/tesla-rolls-out-unsupervised-robotaxis-austin-2026-06-03/)）
 
 ---
 
@@ -110,7 +110,7 @@
 
 **史诗级增发 + 算力补给**：GOOGL 全周 −3.1% 收 $368.53，在科技股普跌中相对抗跌。公司于 2026-06-03 将股票增发规模由 $800 亿上调至 **$847.5 亿**为 AI 基建融资（含向 Berkshire Hathaway 定向增发 $100 亿，另据 The Information 约 40% 募资用于员工股权激励税务）；ARK 与伯克希尔本周罕见地同时买入 GOOGL。此外，据 SpaceX 招股（IPO）文件披露，公司于 2026-06-05 与 SpaceX 签订三年期、总额约 **$300 亿**的云计算协议（自 2026 年 10 月起每月约 $9.2 亿、租用约 11 万颗 Nvidia GPU），作为缓解 Gemini Enterprise 算力需求的过渡方案。（来源：[Alphabet to raise $84.75 billion in upsized equity offering — Reuters](https://www.reuters.com/legal/transactional/alphabet-raise-8475-billion-upsized-equity-offering-fund-ai-ambitions-2026-06-03/) · [Cathie Wood's ARK and Berkshire Hathaway Both Pile Into Alphabet Stock — Barron's](https://www.barrons.com/articles/alphabet-stock-cathie-wood-ark-berkshire-hathaway-484ff565) · [SpaceX signs $30B deal to lease computing capacity to Google — Cryptobriefing](https://cryptobriefing.com/spacex-30b-google-compute-deal/)）
 
-**AI 生态扩张与监管并行**：Google Cloud 本周与 **IBM** 扩大 AI 合作、与 Palantir 打通、与 Lovable 签多年协议；Gemini 应用月活达 **9 亿**，高端 **Gemini 3.5 Pro** 预计 6 月内推出。监管端，英国 CMA 对 Google 搜索施加新行为要求（允许出版商屏蔽内容用于 AI 摘要），欧洲议会则宣布弃用 Google 改用法国搜索引擎 Qwant。（来源：[Alphabet to raise $84.75 billion in upsized equity offering — Reuters](https://www.reuters.com/legal/transactional/alphabet-raise-8475-billion-upsized-equity-offering-fund-ai-ambitions-2026-06-03/) · [Cathie Wood's ARK and Berkshire Hathaway Both Pile Into Alphabet Stock — Barron's](https://www.barrons.com/articles/alphabet-stock-cathie-wood-ark-berkshire-hathaway-484ff565) · [UK regulator enforces new competition requirements for Google search — Reuters](https://www.reuters.com/legal/litigation/uk-regulator-enforces-new-competition-requirements-google-search-2026-06-03/)）
+**AI 生态扩张与监管并行**：Google Cloud 本周与 **IBM** 扩大 AI 合作、与 Palantir 打通、与 Lovable 签多年协议；Gemini 应用月活达 **9 亿**，高端 Gemini 3.5 Pro 预计 6 月内推出。监管端，英国 CMA 对 Google 搜索施加新行为要求（允许出版商屏蔽内容用于 AI 摘要），欧洲议会则宣布弃用 Google 改用法国搜索引擎 Qwant。（来源：[UK regulator enforces new competition requirements for Google search — Reuters](https://www.reuters.com/legal/litigation/uk-regulator-enforces-new-competition-requirements-google-search-2026-06-03/) · [IBM, Google Cloud announce pact to scale AI — TheFly/TipRanks](https://www.tipranks.com/news/the-fly/ibm-google-cloud-announce-pact-to-scale-ai-thefly-news)）
 
 ---
 
@@ -148,7 +148,7 @@
 
 **股价：** $26.19（本周 +0.2%，YTD -19.3%）｜**情绪：** ➡️｜**下次财报：** 2026-08（Q2）
 
-**完成 Eucalyptus 收购、成"全球最大消费者健康平台"**：HIMS 全周基本持平（**+0.2%**）收 **$26.19**（周五单日 −6.50%）。公司于 2026-06-02 完成对 **Eucalyptus**（Juniper、Pilot 等母公司）的收购，正式进入德国、日本等市场，并自称跃居"全球最大消费者健康平台"，重申 2030 年 **$65 亿**营收、$13 亿调整后 EBITDA 的长期目标；6/4 任命 Anant Vinjamoori 为 Hims 首席医疗官。
+**完成 Eucalyptus 收购**：HIMS 全周基本持平（+0.2%）收 **$26.19**（周五单日 −6.50%）。公司于 2026-06-02 完成对 Eucalyptus（Juniper、Pilot 等母公司）的收购，正式进入德国、日本等市场，自称跃居"全球最大消费者健康平台"，重申 2030 年 $65 亿营收、$13 亿调整后 EBITDA 的长期目标；6/4 任命 Anant Vinjamoori 为 Hims 首席医疗官。
 
 **估值仍待 Q2 验证**：尽管 M&A 与国际化提速，HIMS YTD 仍 −19.3%，市场对其 5 月 Q1 财报暴雷（营收不及预期、转向品牌 GLP-1 致毛利与增长承压）的疑虑未消；16 位分析师均价目标仅 **$26.61**、评级"持有"。Eucalyptus 整合与品牌 GLP-1 单位经济能否兑现，是 Q2 的核心看点。（来源：[Hims & Hers Completes Acquisition of Eucalyptus — Business Wire](https://www.businesswire.com/news/home/20260602264452/en/Hims-Hers-Completes-Acquisition-of-Eucalyptus-Advancing-Position-as-the-Worlds-Largest-Consumer-Health-Platform) · [Hims & Hers plummets 16% after first-quarter loss, weak earnings guidance — CNBC](https://www.cnbc.com/2026/05/12/hims-hers-plummets-16percent-after-first-quarter-loss-weak-guidance-.html)）
 
