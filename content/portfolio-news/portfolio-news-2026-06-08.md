@@ -108,7 +108,7 @@
 
 **股价：** $368.53（本周 -3.1%，YTD +17.4%）｜**情绪：** ➡️｜**下次财报：** 2026-07（Q2）
 
-**史诗级增发 + 双巨头背书**：GOOGL 全周 **−3.1%** 收 **$368.53**，在科技股普跌中相对抗跌。公司于 2026-06-03 将股票增发规模由 $800 亿上调至 **$847.5 亿**为 AI 基建融资（含向 **Berkshire Hathaway** 定向增发 $100 亿）；据 The Information，约 40% 募资将用于覆盖员工股权激励相关的税务。罕见的是，ARK 与伯克希尔本周同时买入 GOOGL。
+**史诗级增发 + 算力补给**：GOOGL 全周 −3.1% 收 $368.53，在科技股普跌中相对抗跌。公司于 2026-06-03 将股票增发规模由 $800 亿上调至 **$847.5 亿**为 AI 基建融资（含向 Berkshire Hathaway 定向增发 $100 亿，另据 The Information 约 40% 募资用于员工股权激励税务）；ARK 与伯克希尔本周罕见地同时买入 GOOGL。此外，据 SpaceX 招股（IPO）文件披露，公司于 2026-06-05 与 SpaceX 签订三年期、总额约 **$300 亿**的云计算协议（自 2026 年 10 月起每月约 $9.2 亿、租用约 11 万颗 Nvidia GPU），作为缓解 Gemini Enterprise 算力需求的过渡方案。（来源：[Alphabet to raise $84.75 billion in upsized equity offering — Reuters](https://www.reuters.com/legal/transactional/alphabet-raise-8475-billion-upsized-equity-offering-fund-ai-ambitions-2026-06-03/) · [Cathie Wood's ARK and Berkshire Hathaway Both Pile Into Alphabet Stock — Barron's](https://www.barrons.com/articles/alphabet-stock-cathie-wood-ark-berkshire-hathaway-484ff565) · [SpaceX signs $30B deal to lease computing capacity to Google — Cryptobriefing](https://cryptobriefing.com/spacex-30b-google-compute-deal/)）
 
 **AI 生态扩张与监管并行**：Google Cloud 本周与 **IBM** 扩大 AI 合作、与 Palantir 打通、与 Lovable 签多年协议；Gemini 应用月活达 **9 亿**，高端 **Gemini 3.5 Pro** 预计 6 月内推出。监管端，英国 CMA 对 Google 搜索施加新行为要求（允许出版商屏蔽内容用于 AI 摘要），欧洲议会则宣布弃用 Google 改用法国搜索引擎 Qwant。（来源：[Alphabet to raise $84.75 billion in upsized equity offering — Reuters](https://www.reuters.com/legal/transactional/alphabet-raise-8475-billion-upsized-equity-offering-fund-ai-ambitions-2026-06-03/) · [Cathie Wood's ARK and Berkshire Hathaway Both Pile Into Alphabet Stock — Barron's](https://www.barrons.com/articles/alphabet-stock-cathie-wood-ark-berkshire-hathaway-484ff565) · [UK regulator enforces new competition requirements for Google search — Reuters](https://www.reuters.com/legal/litigation/uk-regulator-enforces-new-competition-requirements-google-search-2026-06-03/)）
 
@@ -128,7 +128,7 @@
 
 **股价：** $41.29（本周 -7.9%，YTD -29.3%）｜**情绪：** 📉｜**下次财报：** 2026-07（Q2）
 
-**竞争阴云 + 管理层换防**：PYPL 全周 **−7.8%** 收 **$41.30**，跌至 52 周区间下沿。据彭博，苹果拟在 iPhone 推出账单拆分（bill-splitting）功能、进一步切入对标 Venmo 的金融业务，引发抛售；同时两名分管消费者与小企业/金融服务的高管自 2026-06-02 起离任，加剧过渡期不确定性。有报道称其核心在线结账业务面临"近 30 年来最严峻竞争"。
+**竞争阴云 + 管理层换防**：PYPL 全周 **−7.9%** 收 **$41.29**，跌至 52 周区间下沿。据彭博，苹果拟在 iPhone 推出账单拆分（bill-splitting）功能、进一步切入对标 Venmo 的金融业务，引发抛售；同时两名分管消费者与小企业/金融服务的高管自 2026-06-02 起离任，加剧过渡期不确定性。有报道称其核心在线结账业务面临"近 30 年来最严峻竞争"。
 
 **转型与国际化继续**：CEO Enrique Lores 治下推进约 **$15 亿**成本节省与 PayPal/Venmo/加密的重组，并宣布每股 **$0.14** 股息（2026-06-25 派发）。国际端，继与腾讯打通后，美国用户可经微信支付商户网络在华消费；公司另与 AI 时尚购物平台 Hey Savi 合作。44 位分析师维持"持有"、均价目标 $51.35。（来源：[Tencent links PayPal to WeChat Pay network — Reuters](https://www.reuters.com/world/asia-pacific/tencent-links-paypal-wechat-pay-network-enabling-us-users-spend-across-china-2026-05-27/) · [PayPal drops after Bloomberg says Apple pushing further into finance — TheFly/TipRanks](https://www.tipranks.com/news/the-fly/paypal-drops-after-bloomberg-says-apple-pushing-further-into-finance-thefly-news)）
 
