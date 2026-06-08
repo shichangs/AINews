@@ -2,7 +2,7 @@
 **更新日期：2026-06-08**
 **SKILL 版本：v1.3.0**
 
-> 注：本周（2026-06-01 至 2026-06-05）为完整 5 个交易日，无美股休市；基准交易日 = 2026-06-05（周五）收盘。
+> 注：报告周（新闻覆盖）为 2026-06-01 至 2026-06-07（含周末机构/公司公告），其中含 5 个交易日、无美股休市；基准交易日（股价）= 2026-06-05（周五）收盘。
 > 注：YTD 基准沿用上期已用一手历史月末收盘核定的 2025-12-31 序列（TSLA $449.72、AMD $214.16、NVDA $186.50、PLTR $177.75、GOOGL $313.80、MU $285.41、PYPL $58.38、U $44.17、HIMS $32.47），本期未发生 split/spin-off，无需重算基准。
 
 ---
@@ -13,7 +13,7 @@
 
 2. **热非农点燃加息预期**：5 月非农新增 **17.2 万**（远超预期约 8.8 万），失业率维持 **4.3%**，10 年期美债收益率跳升至 **4.54%**。在"好数据=坏消息"逻辑下，标普 500 收 **7,383.74**（−2.64%）、纳指收 **25,709.43**（−4.18%，为 2025 年 4 月以来最大单日跌幅）、道指 −1.35%。（来源：[Stock market today: Nasdaq plunges 4% as jobs report fuels Fed hike bets — Yahoo Finance](https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-sink-as-jobs-report-fuels-fed-hike-bets-chip-stocks-sell-off-230134285.html) · [How major US stock indexes fared Friday 6/5/2026 — The Washington Post](https://www.washingtonpost.com/business/2026/06/05/wall-street-stocks-dow-nasdaq/db16d758-611b-11f1-9c46-d6211372eede_story.html)）
 
-3. **Micron 从万亿巅峰坠落**：MU 周中 2026-06-03 盘中创历史新高 **$1,089.29** 后掉头向下，全周收 **$864.01**（−11.0%）。尽管黄仁勋在 Computex 确认 Micron 已通过 Vera Rubin 平台的 HBM4 认证，但"内存价格见顶"担忧叠加 Broadcom 拖累令其两日重挫约 15%。（来源：[Micron Gets Memory-Chip Approval From Nvidia. Why the Stock Is Falling — Barron's](https://www.barrons.com/articles/micron-stock-price-nvidia-hbm-10c444fc) · [Micron Stock Drops, Brace for the Memory-Price Peak — Barron's](https://www.barrons.com/articles/micron-stock-price-memory-chips-ef854ac8)）
+3. **Micron 从万亿巅峰坠落**：MU 周中 2026-06-03 盘中创历史新高 **$1,089.29** 后掉头向下，全周收 **$864.01**（−11.0%）。尽管黄仁勋在 Computex 确认 Micron 已通过 Vera Rubin 平台的 HBM4 认证，但"内存价格见顶"担忧叠加 Broadcom 拖累令其两日（6/4、6/5）重挫约 20%。（来源：[Micron Gets Memory-Chip Approval From Nvidia. Why the Stock Is Falling — Barron's](https://www.barrons.com/articles/micron-stock-price-nvidia-hbm-10c444fc) · [Micron Stock Drops, Brace for the Memory-Price Peak — Barron's](https://www.barrons.com/articles/micron-stock-price-memory-chips-ef854ac8)）
 
 4. **JPMorgan 三年空头投降 Tesla**：2026-06-05 分析师 Rajat Gupta 将 TSLA 评级由 Underweight 上调至 **Neutral**，目标价由 $145 大幅升至 **$475**，称特斯拉"处于实体 AI（physical AI）前沿"。这是该行近三年空头立场的终结，但 TSLA 仍随大盘收跌，全周 **−10.3%** 至 **$391.00**。（来源：[JP Morgan upgrades Tesla to 'neutral', sees robotics driving long-term growth — Reuters](https://www.reuters.com/business/media-telecom/jp-morgan-upgrades-tesla-neutral-sees-robotics-driving-long-term-growth-2026-06-05/) · [J.P. Morgan ends bearish Tesla call that was predicting a 65% stock drop — MarketWatch](https://www.marketwatch.com/story/j-p-morgan-ends-bearish-tesla-call-that-was-predicting-a-65-stock-drop-95728e66)）
 
@@ -37,7 +37,7 @@
 | Nvidia | NVDA | $205.10 | -2.9% | +10.0% | ➡️ | 2026-08（Q2 FY27） | Computex 秀 Vera Rubin/RTX Spark + 韩国大单，相对抗跌；6/11 出席参议院听证 |
 | Palantir | PLTR | $135.53 | -13.4% | -23.8% | 📉 | 2026-08（Q2） | 多笔 AI 大单难敌估值担忧 + Burry 看空 + 内部人减持，全周 −13.4% |
 | Google | GOOGL | $368.53 | -3.1% | +17.4% | ➡️ | 2026-07（Q2） | $847.5 亿增发 + 伯克希尔 $100 亿入局；Gemini 月活 9 亿 |
-| PayPal | PYPL | $41.30 | -7.8% | -29.3% | 📉 | 2026-07（Q2） | 苹果加码金融 + 高管换防，"30 年来最严峻竞争" |
+| PayPal | PYPL | $41.29 | -7.9% | -29.3% | 📉 | 2026-07（Q2） | 苹果加码金融 + 高管换防，"30 年来最严峻竞争" |
 | Unity | U | $30.33 | -0.5% | -31.3% | ➡️ | 2026-08（Q2） | 逆势抗跌；Piper Sandler 接手覆盖给予增持、目标价 $40 |
 | Hims & Hers | HIMS | $26.19 | +0.2% | -19.3% | ➡️ | 2026-08（Q2） | 完成 Eucalyptus 收购成"全球最大消费者健康平台"、新任 CMO |
 
