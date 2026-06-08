@@ -62,7 +62,7 @@
 
 **股价：** $391.00（本周 -10.3%，YTD -13.1%）｜**情绪：** 📉｜**下次财报：** 2026-07-22（Q2）
 
-**随大盘深跌、但迎来标志性评级反转**：TSLA 全周大跌 **−10.3%** 收 **$391.00**，周五单日 −6.56%，与整个科技板块同步走弱。然而本周最具标志性的特斯拉个股事件，是 **JPMorgan** 分析师 Rajat Gupta 于 2026-06-05 将评级由 Underweight 一举上调至 **Neutral**、目标价由 $145 飙升至 **$475**，结束了该行近三年的看空立场，理由是特斯拉估值"日益由自动驾驶与机器人（实体 AI）驱动"；Erste Group 同日亦将评级由 Sell 上调至 Hold。空头阵营的松动是叙事面的重要转向。
+**随大盘深跌、但迎来标志性评级反转**：TSLA 全周大跌 −10.3% 收 $391.00，周五单日 −6.56%，与整个科技板块同步走弱。然而本周最具标志性的特斯拉个股事件，是 **JPMorgan** 分析师 Rajat Gupta 于 2026-06-05 将评级由 Underweight 一举上调至 Neutral、目标价由 $145 飙升至 **$475**，结束了该行近三年的看空立场，理由是特斯拉估值"日益由自动驾驶与机器人（实体 AI）驱动"；Erste Group 同日亦将评级由 Sell 上调至 Hold。空头阵营的松动是叙事面的重要转向。
 
 **中国销量回暖、Robotaxi 扩区但车队仍小**：据 CNBC，特斯拉上海工厂 5 月新能源车交付约 **85,982 辆**、同比增长近 **40%**，中国内需回暖。自动驾驶端，特斯拉于 2026-06-03 将 Austin 的无人监督 Robotaxi 服务区扩展至整个都会区，但车队规模仍仅约 **20–25 辆**，对比 Waymo 全美约 3,000 辆、每周逾 50 万次付费行程，差距悬殊。
 
@@ -74,11 +74,11 @@
 
 **股价：** $466.38（本周 -9.6%，YTD +117.8%）｜**情绪：** 📉｜**下次财报：** 2026-08（Q2）
 
-**创高后随板块急挫**：AMD 全周 **−9.6%** 收 **$466.38**，周中 2026-06-03 曾触及历史新高 **$546.44**、市值逼近 $900B，但 Broadcom 引爆的半导体抛售令其周五单日重挫 **−10.86%**，为数月来最差单日。尽管如此，YTD 仍高达 **+117.8%**，是组合内仅次于 MU 的第二大年内涨幅。
+**创高后随板块急挫**：AMD 全周 −9.6% 收 $466.38，周中 2026-06-03 曾触及历史新高 **$546.44**、市值逼近 $900B，但 Broadcom 引爆的半导体抛售令其周五单日重挫 −10.86%，为数月来最差单日。尽管如此，YTD 仍高达 **+117.8%**，是组合内仅次于 MU 的第二大年内涨幅。
 
 **超大单与路线图托底未变**：市场对 **OpenAI** 6GW（首个 1GW 采用 **MI450**、2026 下半年落地）与 Meta 多年部署承诺的中长期可见度并未改变；搭载 MI400 系列的机柜级平台 **Helios** 计划 2026 Q3 出货、每机柜约 3 AI exaflops。本周 AMD 还作为投资方参与了网络软件公司 DriveNets 的 **$4.1 亿**融资轮。
 
-**分析师与资金分歧**：Cowen 顶级分析师在与 CEO Lisa Su 会面后"力挺"AMD，方舟投资（ARK）于 6/3 前后买入 AMD；与此同时，Nvidia 在 Computex 发布的 RTX Spark PC 芯片直插 AMD/Intel 的个人电脑腹地，构成竞争扰动。51 位分析师平均评级 **Strong Buy**、均价目标 **$479.77**，回调后已接近目标价。（来源：[AMD Q1 2026 results — AMD IR](https://ir.amd.com/news-events/press-releases/detail/1284/amd-reports-first-quarter-2026-financial-results) · [DriveNets secures $410 million, AMD joins as investor — Reuters](https://www.reuters.com/legal/transactional/drivenets-secures-410-million-latest-funding-round-amd-joins-investor-2026-06-01/) · [These stocks fell the most Friday as Big Tech took a dive — MarketWatch](https://www.marketwatch.com/story/these-stocks-fell-the-most-friday-as-big-tech-took-a-dive-bf692616)）
+**分析师与资金分歧**：Cowen 顶级分析师在与 CEO Lisa Su 会面后"力挺"AMD，方舟投资（ARK）于 6/3 前后买入 AMD；与此同时，Nvidia 在 Computex 发布的 RTX Spark PC 芯片直插 AMD/Intel 的个人电脑腹地，构成竞争扰动。51 位分析师平均评级 Strong Buy、均价目标 **$479.77**，回调后已接近目标价。（来源：[AMD Q1 2026 results — AMD IR](https://ir.amd.com/news-events/press-releases/detail/1284/amd-reports-first-quarter-2026-financial-results) · [DriveNets secures $410 million, AMD joins as investor — Reuters](https://www.reuters.com/legal/transactional/drivenets-secures-410-million-latest-funding-round-amd-joins-investor-2026-06-01/) · [These stocks fell the most Friday as Big Tech took a dive — MarketWatch](https://www.marketwatch.com/story/these-stocks-fell-the-most-friday-as-big-tech-took-a-dive-bf692616)）
 
 ---
 
