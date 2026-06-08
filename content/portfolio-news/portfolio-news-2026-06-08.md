@@ -32,7 +32,7 @@
 | 公司 | 代码 | 股价 | 本周涨跌 | YTD 涨跌 | 情绪 | 下次财报 | 一句话摘要 |
 |------|------|------|----------|----------|------|----------|------------|
 | Tesla | TSLA | $391.00 | -10.3% | -13.1% | 📉 | 2026-07-22（Q2） | JPMorgan 三年空头投降上调至 Neutral、目标价 $145→$475；随大盘 −10.3% |
-| AMD | AMD | $466.38 | -9.6% | +117.8% | 📉 | 2026-08（Q2） | 周中触及历史高位 $546.44 后随芯片股暴跌，周五单日 −10.86% |
+| AMD | AMD | $466.38 | -9.6% | +117.8% | 📉 | 2026-08（Q2） | 周中触及历史新高 $546.44 后随芯片股暴跌，周五单日 −10.86% |
 | Micron | MU | $864.01 | -11.0% | +202.7% | 📉 | 2026-06-24（Q3 FY26） | 6/3 盘中创高 $1,089.29 后掉头，"内存见顶"+ Broadcom 拖累 |
 | Nvidia | NVDA | $205.10 | -2.9% | +10.0% | ➡️ | 2026-08（Q2 FY27） | Computex 秀 Vera Rubin/RTX Spark + 韩国大单，相对抗跌；6/11 出席参议院听证 |
 | Palantir | PLTR | $135.53 | -13.4% | -23.8% | 📉 | 2026-08（Q2） | 多笔 AI 大单难敌估值担忧 + Burry 看空 + 内部人减持，全周 −13.4% |
@@ -48,7 +48,7 @@
 
 ## ⚠️ 本周风险预警
 
-本周组合内无处于"报告日发布"或"7 天内即将发布"状态的财报（距报告日最临近的一场为 MU 2026-06-24，距报告日 16 天），故无财报预警条目。主要风险如下：
+本周组合内无处于"报告日发布"或"7 天内即将发布"状态的财报（组合内下一场为 MU，将于 2026-06-24 盘后发布，已超出 7 天预警窗口），故无财报预警条目。主要风险如下：
 
 - **AI 半导体估值集中去杠杆**：组合三大芯片拉动力同周回撤——MU −11.0%、AMD −9.6%、NVDA −2.9%；其中 MU、AMD 均在周中刚创历史新高后掉头。Broadcom 触发的"AI 资本开支理性化"叙事，使高估值算力链对 hyperscaler 资本开支兑现度的依赖被放大，任何边际放缓都会引发集中回撤。
 - **加息预期重定价**：5 月非农 17.2 万远超预期、失业率 4.3%，10 年期美债收益率升至 4.54%；若 2026-06-10 的 5 月 CPI 续热，Warsh 治下联储 2026-06-17 FOMC 的政策语态与点阵图可能进一步压制高久期科技股。
@@ -74,7 +74,7 @@
 
 **股价：** $466.38（本周 -9.6%，YTD +117.8%）｜**情绪：** 📉｜**下次财报：** 2026-08（Q2）
 
-**创高后随板块急挫**：AMD 全周 **−9.6%** 收 **$466.38**，周中 2026-06-03 曾触及 52 周高位 **$546.44**、市值逼近 $900B，但 Broadcom 引爆的半导体抛售令其周五单日重挫 **−10.86%**，为数月来最差单日。尽管如此，YTD 仍高达 **+117.8%**，是组合内仅次于 MU 的第二大年内涨幅。
+**创高后随板块急挫**：AMD 全周 **−9.6%** 收 **$466.38**，周中 2026-06-03 曾触及历史新高 **$546.44**、市值逼近 $900B，但 Broadcom 引爆的半导体抛售令其周五单日重挫 **−10.86%**，为数月来最差单日。尽管如此，YTD 仍高达 **+117.8%**，是组合内仅次于 MU 的第二大年内涨幅。
 
 **超大单与路线图托底未变**：市场对 **OpenAI** 6GW（首个 1GW 采用 **MI450**、2026 下半年落地）与 Meta 多年部署承诺的中长期可见度并未改变；搭载 MI400 系列的机柜级平台 **Helios** 计划 2026 Q3 出货、每机柜约 3 AI exaflops。本周 AMD 还作为投资方参与了网络软件公司 DriveNets 的 **$4.1 亿**融资轮。
 
@@ -118,7 +118,7 @@
 
 **股价：** $864.01（本周 -11.0%，YTD +202.7%）｜**情绪：** 📉｜**下次财报：** 2026-06-24（Q3 FY26）
 
-**万亿之巅急速回落**：MU 周中 2026-06-03 盘中刷新历史高位 **$1,089.29** 后掉头向下，周四 −7.7%、周五 −13.25%，两日重挫约 15%，全周收 **$864.01**（−11.0%）。即便如此，YTD 仍达 **+202.7%**，是组合内年内表现最强的一只。
+**万亿之巅急速回落**：MU 周中 2026-06-03 盘中刷新历史高位 **$1,089.29** 后掉头向下，周四 −7.7%、周五 −13.25%，两日累计重挫约 20%，全周收 **$864.01**（−11.0%）。即便如此，YTD 仍达 **+202.7%**，是组合内年内表现最强的一只。
 
 **利好与"见顶"叙事的拉锯**：黄仁勋在 Computex 正式确认 Micron 已通过 Vera Rubin 平台 **HBM4 36GB 12H** 认证并开始量产，本属重大利好；但 Broadcom 疲软指引点燃"内存价格见顶"担忧，有分析师警告存储涨价可能逼近天花板，资金从高动能板块撤出。公司将于 **2026-06-24** 盘后发布 Q3 FY26 财报，市场关注 HBM/DRAM 指引能否证伪"见顶"叙事——这将是组合内回调后的首个关键验证点。（来源：[Micron Gets Memory-Chip Approval From Nvidia. Why the Stock Is Falling — Barron's](https://www.barrons.com/articles/micron-stock-price-nvidia-hbm-10c444fc) · [Marvell, Micron shares tumble as the chip sector suffers its worst day in 6 years — MarketWatch](https://www.marketwatch.com/story/marvell-micron-shares-tumble-as-the-chip-sector-suffers-its-worst-day-in-6-years-a7c1701a)）
 
@@ -126,7 +126,7 @@
 
 ## PayPal (PYPL)
 
-**股价：** $41.30（本周 -7.8%，YTD -29.3%）｜**情绪：** 📉｜**下次财报：** 2026-07（Q2）
+**股价：** $41.29（本周 -7.9%，YTD -29.3%）｜**情绪：** 📉｜**下次财报：** 2026-07（Q2）
 
 **竞争阴云 + 管理层换防**：PYPL 全周 **−7.8%** 收 **$41.30**，跌至 52 周区间下沿。据彭博，苹果拟在 iPhone 推出账单拆分（bill-splitting）功能、进一步切入对标 Venmo 的金融业务，引发抛售；同时两名分管消费者与小企业/金融服务的高管自 2026-06-02 起离任，加剧过渡期不确定性。有报道称其核心在线结账业务面临"近 30 年来最严峻竞争"。
 
@@ -140,7 +140,7 @@
 
 **逆势抗跌、卖方持续上修**：U 全周基本走平（**−0.5%**）收 **$30.33**，在纳指 −4% 量级的一周里显著跑赢大盘——作为广告/软件而非芯片标的，未受半导体抛售直接冲击。**Piper Sandler** 于 2026-06-02 接手覆盖并给予"增持"、目标价由 $35 上调至 **$40**，看好其 Grow 广告业务重建；Edgewater 亦上调至 Outperform，Morgan Stanley 在 6/5 投资者会议后维持增持、$35 目标价。
 
-**基本面与隐忧**：Q1（5/7 公布）营收 **$508.2M**、同比战略性收入增长约 35%、调整后 EBITDA 利润率 27%，公司维持 2026 Q4 实现 GAAP 盈亏平衡的目标，AI（Vector 等）集成进展是核心叙事。但 26 位分析师均价目标仅 $35.06、YTD 仍 −31.3%，反映 AI 原生 3D/游戏生成工具对引擎护城河的长期侵蚀仍是估值压制因素。（来源：[Unity Reports First Quarter 2026 Financial Results — Business Wire](https://www.businesswire.com/news/home/20260507735008/en/Unity-Reports-First-Quarter-2026-Financial-Results) · [Unity assumed with an Overweight at Piper Sandler — TheFly/TipRanks](https://www.tipranks.com/news/the-fly/unity-assumed-with-an-overweight-at-piper-sandler-thefly-news)）
+**基本面与隐忧**：Q1（5/7 公布）总营收 **$508.2M**（略超预期）、调整后 EBITDA 利润率约 27%，公司维持 2026 Q4 实现 GAAP 盈亏平衡的目标，AI（Vector 等）集成进展是核心叙事。但 26 位分析师均价目标仅 $35.06、YTD 仍 −31.3%，反映 AI 原生 3D/游戏生成工具对引擎护城河的长期侵蚀仍是估值压制因素。（来源：[Unity Reports First Quarter 2026 Financial Results — Business Wire](https://www.businesswire.com/news/home/20260507735008/en/Unity-Reports-First-Quarter-2026-Financial-Results) · [Unity assumed with an Overweight at Piper Sandler — TheFly/TipRanks](https://www.tipranks.com/news/the-fly/unity-assumed-with-an-overweight-at-piper-sandler-thefly-news)）
 
 ---
 
