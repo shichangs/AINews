@@ -68,7 +68,7 @@
 
 **Q2 交付临考、欧洲与德国产能现暖意**：市场聚焦 7 月初公布的 Q2 交付，街面共识落在约 **40 万–42 万辆**区间（UBS 预估约 40.5 万、同比 +5%、环比 +13%），Barclays 预计 Q2 交付有望超预期、但对股价维持谨慎。产能端，据 Reuters，特斯拉计划将德国 Giga Berlin 工厂产量提高约 **20%** 并扩招；据 NYT，特斯拉在欧洲的销量正在回升，尽管市场对 Musk 的政治形象仍有分歧。
 
-**自动驾驶政策面现边际利好**：据 TechCrunch，特朗普政府提议取消自动驾驶车辆的刹车踏板强制要求，被视为对特斯拉 Robotaxi/Cybercab 路线的潜在利好；自 6 月初在 Austin 推出无监督 Robotaxi 后，公司继续推进服务区扩展。另据 Investopedia，随 SpaceX 估值回落，Musk 一度失去"万亿富豪"身份——个人财富叙事与公司基本面的联动仍在。（来源：[Tesla to ramp up production in Germany by 20% — Reuters](https://www.reuters.com/business/autos-transportation/tesla-ramp-up-production-germany-by-20-2026-06-25/) · [Tesla settles FSD crash lawsuit as federal investigations continue — TechCrunch](https://techcrunch.com/2026/06/26/tesla-settles-fsd-crash-lawsuit-as-federal-investigations-continue/) · [In Europe, Tesla Sales Are Rising Despite Views on Elon Musk — NYTimes](https://www.nytimes.com/2026/06/26/business/tesla-elon-musk-europe.html)）
+**自动驾驶政策面现边际利好**：据 TechCrunch，特朗普政府提议取消自动驾驶车辆的刹车踏板强制要求，被视为对特斯拉 Robotaxi/Cybercab 路线的潜在利好；自 6 月初在 Austin 推出无监督 Robotaxi 后，公司继续推进服务区扩展。另据 Reuters，NHTSA 已于 6/27 关闭针对约 **37.6 万辆** 2023 款 Model 3/Y 动力转向失效的工程分析调查（EA24001）——此前 OTA 召回已解决根因、投诉显著下降，构成一处独立于上述事故调查的监管利好。另据 Investopedia，随 SpaceX 估值回落，Musk 一度失去"万亿富豪"身份。（来源：[US safety agency ends power steering probe into 376,000 Tesla EVs — Reuters](https://www.investing.com/news/stock-market-news/us-safety-agency-ends-power-steering-probe-into-376000-tesla-evs-4763958) · [Tesla settles FSD crash lawsuit as federal investigations continue — TechCrunch](https://techcrunch.com/2026/06/26/tesla-settles-fsd-crash-lawsuit-as-federal-investigations-continue/) · [In Europe, Tesla Sales Are Rising Despite Views on Elon Musk — NYTimes](https://www.nytimes.com/2026/06/26/business/tesla-elon-musk-europe.html)）
 
 ---
 
@@ -78,9 +78,9 @@
 
 **创历史新高后随板块小幅回落**：AMD 周一（6/22）收 **$551.63**、盘中触及 **$562.99**，双双刷新历史高位，随后随整个芯片板块回落，全周 **−2.9%** 收 **$521.58**；即便如此，YTD 仍高达 **+143.5%**，是组合内仅次于 Micron 的第二大年内涨幅。TipRanks 直言"AMD 已不只是一家芯片公司"，其叙事正向数据中心与 AI 平台延伸。
 
-**卖方接力大幅上调目标价**：UBS 将目标价由 $455 大幅上调至街面高位 **$670**，理由是 agentic AI 正驱动新一轮 CPU 需求；Citi 将评级上调至 **Buy**、目标价 $575，引述 Meta 五年、最高 **6GW** 的 MI450 定制 GPU 部署（2026 下半年起）。市场对 **OpenAI** 6GW 承诺与 Meta 多年部署的中长期可见度并未动摇。
+**卖方接力大幅上调目标价**：UBS 将目标价由 $455 大幅上调至街面高位 **$670**，理由是 agentic AI 正驱动新一轮 CPU 需求；Citi 将评级上调至 Buy、目标价 $575，引述 Meta 五年、最高 **6GW** 的 MI450 定制 GPU 部署（2026 下半年起）。市场对 OpenAI 6GW 承诺与 Meta 多年部署的中长期可见度并未动摇。
 
-**路线图与竞争定位**：搭载 **MI400** 系列的机柜级平台 **Helios**（含 MI455X）计划于 2026 Q3 出货，MI450 超大规模部署自 2026 下半年起落地；Q1（5/5 公布）营收 $10.25B、数据中心同比 +57% 至 $5.8B、Q2 指引约 $11.2B，构成本轮上调的基本面支撑。需留意的是，本周 AMD 仍随 NVDA、TSM 在一份偏多的 Morgan Stanley 报告下同步走弱，显示板块 beta 仍主导短期波动。（来源：[AMD Reports First Quarter 2026 Financial Results — AMD IR](https://ir.amd.com/news-events/press-releases/detail/1284/amd-reports-first-quarter-2026-financial-results) · [UBS Raises AMD Stock Price Target amid Agentic AI-Driven CPU Demand — TipRanks](https://www.tipranks.com/news/ubs-raises-amd-and-arm-stock-price-targets-amid-agentic-ai-driven-cpu-demand) · [AMD stock: why analysts are suddenly raising their price targets — Invezz](https://invezz.com/news/2026/06/26/amd-stock-why-analysts-are-suddenly-raising-their-price-targets/)）
+**路线图与竞争定位**：搭载 **MI400** 系列的机柜级平台 Helios（含 MI455X）计划于 2026 Q3 出货，MI450 超大规模部署自 2026 下半年起落地；Q1（5/5 公布）营收 $10.25B、数据中心同比 +57% 至 $5.8B、Q2 指引约 $11.2B，构成本轮上调的基本面支撑。需留意的是，本周 AMD 仍随 NVDA、TSM 在一份偏多的 Morgan Stanley 报告下同步走弱，显示板块 beta 仍主导短期波动。（来源：[AMD Reports First Quarter 2026 Financial Results — AMD IR](https://ir.amd.com/news-events/press-releases/detail/1284/amd-reports-first-quarter-2026-financial-results) · [UBS Raises AMD Stock Price Target amid Agentic AI-Driven CPU Demand — TipRanks](https://www.tipranks.com/news/ubs-raises-amd-and-arm-stock-price-targets-amid-agentic-ai-driven-cpu-demand) · [AMD stock: why analysts are suddenly raising their price targets — Invezz](https://invezz.com/news/2026/06/26/amd-stock-why-analysts-are-suddenly-raising-their-price-targets/)）
 
 ---
 
@@ -100,7 +100,7 @@
 
 **七连跌触及 52 周低位后反弹**：PLTR 全周大跌 **−12.1%** 收 **$112.93**，周四（6/25）盘中触及 52 周低位 **$106.37**、结束于 7 连跌，YTD 跌约 **40%**，"AI 竞争加剧"忧虑叠加极高估值持续压制股价。周五（6/26）单日反弹 **+5.28%**，催化来自 Cathie Wood 旗下 **ARK** 的抄底——据 TipRanks，方舟同日加仓 Palantir、Coinbase 与 SpaceX，并减持约 $5,400 万阿里巴巴。
 
-**多方仍力挺、估值争议未消**：Wedbush 的 Dan Ives 重申看多（"更多佐证不断出现"）、目标价高至 **$230**，卖方共识维持 Buy，显示对其政府 + 商业 AI 双线基本面的信心未失；但股价距高点深度回撤，反映市场对其软件板块极高估值分位的容错空间有限。（来源：[Palantir Stock Surges to Snap a 7-Day Losing Streak. One Big Tech Investor Just Bought the Dip — Investopedia](https://www.investopedia.com/palantir-stock-surges-to-snap-a-7-day-losing-streak-one-big-tech-investor-just-bought-the-dip-pltr-update-12007385) · [Palantir Shares Fight to Snap Long Slump after Falling 39% This Year — TipRanks](https://www.tipranks.com/news/palantir-shares-fight-to-snap-long-slump-after-falling-39-this-year-from-ai-rivalry-fears)）
+**多方仍力挺、估值争议未消**：Wedbush 的 Dan Ives 重申看多（"更多佐证不断出现"）、目标价高至 **$230**，卖方共识维持 Buy，显示对其政府 + 商业 AI 双线基本面的信心未失；但股价距高点深度回撤，反映市场对其软件板块极高估值分位的容错空间有限。（来源：[Palantir Stock Could Snap Its 7-Day Losing Streak. It's Been a Rough Month — Barron's](https://www.barrons.com/articles/palantir-stock-losing-streak-cathie-wood-a3ef41c7) · [Palantir Stock Surges to Snap a 7-Day Losing Streak; One Big Tech Investor Bought the Dip — Investopedia](https://www.investopedia.com/palantir-stock-surges-to-snap-a-7-day-losing-streak-one-big-tech-investor-just-bought-the-dip-pltr-update-12007385) · [Palantir Shares Fight to Snap Long Slump after Falling 39% This Year — TipRanks](https://www.tipranks.com/news/palantir-shares-fight-to-snap-long-slump-after-falling-39-this-year-from-ai-rivalry-fears)）
 
 ---
 
@@ -118,11 +118,11 @@
 
 **股价：** $1,132.33（本周 -0.1%，YTD +296.7%）｜**情绪：** 📈｜**下次财报：** 2026-09（Q4 FY26，预计）
 
-**本周财报（2026-06-24）**：实际非 GAAP EPS **$25.11** vs 共识 $20.49（超 +22.5%），营收 **$41.46B** vs 共识 $35.69B（超 +16.2%）；盘后次日（6/25）+15.74%、周五（6/26）回吐 −6.69%。
+**本周财报（2026-06-24）**：实际非 GAAP EPS $25.11 vs 共识 $20.49（超 +22.5%），营收 $41.46B vs 共识 $35.69B（超 +16.2%）；盘后次日（6/25）+15.74%、周五（6/26）回吐 −6.69%。
 
 **财报炸场坐实 AI 内存超级周期**：Micron Q3 FY26 全面超预期——毛利率 **84.9%**（环比 +10pp）、数据中心营收逾 **$25B**、单季自由现金流创纪录 **$18.3B**。6/25 股价跳涨 +15.74% 至历史高位 $1,213.56，但周五（6/26）随内存板块（MU、SNDK、WDC）获利回吐 −6.69% 收 **$1,132.33**，全周近乎走平（−0.1%）、YTD 仍高达 **+296.7%**，为组合内年内最强。
 
-**"破除周期诅咒"成新叙事**：据 MarketWatch，Micron 正试图打破困扰内存股数十年的"风险周期"，多家投行称其"股价仍便宜、即将重估"，Barclays 更将目标价大幅上调约 **70%**。财报后的关键看点已转向 HBM4/DRAM 供需能否支撑"成长型科技"而非"周期股"的估值框架——这也是本周资金从 Nvidia 向内存轮动的核心依据。（来源：[Micron Reports Record Results for the Third Quarter of Fiscal 2026 — GlobeNewswire](https://www.globenewswire.com/news-release/2026/06/24/3317151/14450/en/micron-technology-inc-reports-record-results-for-the-third-quarter-of-fiscal-2026.html) · [Micron's Blockbuster, AI-Fueled Results Ignite Huge Rally for Memory Stocks — Investopedia](https://www.investopedia.com/micron-blockbuster-ai-fueled-results-ignite-huge-rally-for-memory-stocks-mu-update-12006391)）
+**"破除周期诅咒"成新叙事**：据 MarketWatch，Micron 正试图打破困扰内存股数十年的"风险周期"；财报后多家投行集体大幅上调目标价（Barclays 上调约 **70%**），并称其"股价仍便宜、即将重估"。财报后的关键看点已转向 HBM4/DRAM 供需能否支撑"成长型科技"而非"周期股"的估值框架——这也是本周资金从 Nvidia 向内存轮动的核心依据。（来源：[Micron Reports Record Results for the Third Quarter of Fiscal 2026 — GlobeNewswire](https://www.globenewswire.com/news-release/2026/06/24/3317151/14450/en/micron-technology-inc-reports-record-results-for-the-third-quarter-of-fiscal-2026.html) · [Micron's Blockbuster, AI-Fueled Results Ignite Huge Rally for Memory Stocks — Investopedia](https://www.investopedia.com/micron-blockbuster-ai-fueled-results-ignite-huge-rally-for-memory-stocks-mu-update-12006391)）
 
 ---
 
