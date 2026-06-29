@@ -100,7 +100,7 @@
 
 **七连跌触及 52 周低位后反弹**：PLTR 全周大跌 **−12.1%** 收 **$112.93**，周四（6/25）盘中触及 52 周低位 **$106.37**、结束于 7 连跌，YTD 跌约 **40%**，"AI 竞争加剧"忧虑叠加极高估值持续压制股价。周五（6/26）单日反弹 **+5.28%**，催化来自 Cathie Wood 旗下 **ARK** 的抄底——据 TipRanks，方舟同日加仓 Palantir、Coinbase 与 SpaceX，并减持约 $5,400 万阿里巴巴。
 
-**多方仍力挺、估值争议未消**：Wedbush 的 Dan Ives 重申看多（"更多佐证不断出现"），21 位分析师平均评级 Buy、均价目标 **$193.95**（Ives 高至 $230），显示卖方对其政府 + 商业 AI 双线基本面仍有信心；但股价距高点深度回撤，反映市场对其软件板块极高估值分位的容错空间有限。（来源：[Palantir Stock Surges to Snap a 7-Day Losing Streak. One Big Tech Investor Just Bought the Dip — Investopedia](https://www.investopedia.com/palantir-stock-surges-to-snap-a-7-day-losing-streak-one-big-tech-investor-just-bought-the-dip-pltr-update-12007385) · [Palantir Shares Fight to Snap Long Slump after Falling 39% This Year — TipRanks](https://www.tipranks.com/news/palantir-shares-fight-to-snap-long-slump-after-falling-39-this-year-from-ai-rivalry-fears)）
+**多方仍力挺、估值争议未消**：Wedbush 的 Dan Ives 重申看多（"更多佐证不断出现"）、目标价高至 **$230**，卖方共识维持 Buy，显示对其政府 + 商业 AI 双线基本面的信心未失；但股价距高点深度回撤，反映市场对其软件板块极高估值分位的容错空间有限。（来源：[Palantir Stock Surges to Snap a 7-Day Losing Streak. One Big Tech Investor Just Bought the Dip — Investopedia](https://www.investopedia.com/palantir-stock-surges-to-snap-a-7-day-losing-streak-one-big-tech-investor-just-bought-the-dip-pltr-update-12007385) · [Palantir Shares Fight to Snap Long Slump after Falling 39% This Year — TipRanks](https://www.tipranks.com/news/palantir-shares-fight-to-snap-long-slump-after-falling-39-this-year-from-ai-rivalry-fears)）
 
 ---
 
@@ -110,7 +110,7 @@
 
 **"AI 人才流失"压过纳入道指利好**：GOOGL 全周 **−8.3%** 收 **$337.39**。据彭博（经 TipRanks 转述），参与 **Gemini** 研发的顶级研究员 Jonas Adler 与 Alexander Pritzel 离职加盟 **Anthropic**，引发"AI 人才流失"担忧；与此同时，Google 被报道正"大改 AI 编程团队以追赶 Anthropic 与 OpenAI"。尽管 Alphabet 本周获纳入道琼斯工业平均指数，仍难抵情绪逆风。
 
-**监管多线施压**：据 Reuters，澳大利亚收紧未成年人社媒禁令并加倍对科技公司的潜在罚则；加州一法官驳回 Google/YouTube 与 Meta 的重审请求（此前陪审团认定其平台对青少年"成瘾"）；NYPost 则报道 Google 拟通过新的 AI 合作"榨取"出版商内容。基本面侧，卖方平均目标价仍由 $443 上调至约 $493.30，亿万富翁 Steve Cohen 在"微软还是 Alphabet"中力挺一方，显示长期 AI 叙事未变、短期情绪与轮动主导股价。（来源：[Australia toughens kids' social media ban, doubles potential penalties — Reuters](https://www.reuters.com/business/media-telecom/australia-toughens-kids-social-media-ban-doubles-potential-penalties-tech-firms-2026-06-27/) · [Dow Inclusion Fails to Lift Alphabet Stock as an AI Brain Drain Panics Investors — TipRanks](https://www.tipranks.com/news/dow-inclusion-fails-to-lift-alphabet-stock-as-an-ai-brain-drain-panics-investors)）
+**监管多线施压**：据 Reuters，澳大利亚收紧未成年人社媒禁令并加倍对科技公司的潜在罚则；加州一法官驳回 Google/YouTube 与 Meta 的重审请求（此前陪审团认定其平台对青少年"成瘾"）；NYPost 则报道 Google 拟通过新的 AI 合作"榨取"出版商内容。基本面侧，卖方共识均价目标约 **$433**（最高 $515）、整体维持强力买入，亿万富翁 Steve Cohen 在"微软还是 Alphabet"中力挺一方，显示长期 AI 叙事未变、短期情绪与轮动主导股价。（来源：[Australia toughens kids' social media ban, doubles potential penalties — Reuters](https://www.reuters.com/business/media-telecom/australia-toughens-kids-social-media-ban-doubles-potential-penalties-tech-firms-2026-06-27/) · [Dow Inclusion Fails to Lift Alphabet Stock as an AI Brain Drain Panics Investors — TipRanks](https://www.tipranks.com/news/dow-inclusion-fails-to-lift-alphabet-stock-as-an-ai-brain-drain-panics-investors)）
 
 ---
 
