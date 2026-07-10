@@ -68,7 +68,7 @@
 
 **Robotaxi 推进但规模仍受 FSD v15 制约**：据 Electrek，特斯拉无监督 Robotaxi 服务已覆盖整个 Austin 都会区（约 245 平方英里、含机场），并计划扩展至 Dallas、Houston；但实际投放车队仍仅约 20–25 辆，Musk 将大规模扩张押注于 **FSD v15** 架构重写（参数量由约 10 亿升至约 100 亿），指向的激进放量窗口为 2026 年底至 2027 年初。这意味着自动驾驶的"叙事—兑现"落差仍将主导估值波动。
 
-**财报临考与资本回报**：公司将于 2026-07-22 盘后发布 Q2 财报，市场焦点转向交付强势能否转化为毛利率与自由现金流的改善，以及能源与 Robotaxi 业务的资本开支节奏。当前 TSLA YTD 仍为组合内少数负收益标的之一（**−9.6%**），基本面（交付回暖）与叙事面（自动驾驶节奏、Musk 政治形象）的分歧构成双向波动来源。（来源：[Tesla Second Quarter 2026 Production, Deliveries & Deployments — Tesla IR](https://ir.tesla.com/press-release/tesla-second-quarter-2026-production-deliveries-and-deployments) · [Tesla Q2 2026 deliveries jump 25% to 480,126 — Electrek](https://electrek.co/2026/07/02/tesla-q2-2026-deliveries-480126/) · [Tesla (TSLA) Q2 2026 vehicle delivery production — CNBC](https://www.cnbc.com/2026/07/02/tesla-tsla-q2-2026-vehicle-delivery-production.html)）
+**财报临考与资本回报**：公司将于 2026-07-22 盘后发布 Q2 财报，市场焦点转向交付强势能否转化为毛利率与自由现金流的改善，以及能源与 Robotaxi 业务的资本开支节奏。TSLA 的 YTD 仍为组合内少数负收益标的之一（**−9.6%**），基本面（交付回暖）与叙事面（自动驾驶节奏、Musk 政治形象）的分歧构成双向波动来源。（来源：[Tesla Second Quarter 2026 Production, Deliveries & Deployments — Tesla IR](https://ir.tesla.com/press-release/tesla-second-quarter-2026-production-deliveries-and-deployments) · [Tesla Q2 2026 deliveries jump 25% to 480,126 — Electrek](https://electrek.co/2026/07/02/tesla-q2-2026-deliveries-480126/) · [Tesla (TSLA) Q2 2026 vehicle delivery production — CNBC](https://www.cnbc.com/2026/07/02/tesla-tsla-q2-2026-vehicle-delivery-production.html)）
 
 ---
 
@@ -78,7 +78,7 @@
 
 **回补 Samsung 抛售、逼近历史高位**：AMD 在 7 月初随 Samsung 财报触发的半导体板块抛售一度回落约 **8%**（同期 Intel、Applied Materials 单日跌约 10%），但凭借自身 AI 数据中心基本面回补，7/9 收 **$546.72**，自 6/26 以来 **+4.8%**；YTD 高达 **+155.3%**，为组合内仅次于 Micron 的第二大年内涨幅（6/30 曾创收盘新高 $580.91）。此轮抛售被普遍解读为"板块获利回吐"而非基本面转弱——Samsung 预告实为强劲，只是超共识幅度（约 6%）不及预期。
 
-**Advancing AI 2026 成近期最大催化**：AMD 已宣布旗舰全球 AI 活动 **Advancing AI 2026** 将于 **2026-07-22 至 07-23** 在旧金山 Moscone 中心举办，预计披露 **MI400** 系列（旗舰 MI455X 号称 40 PFLOPS FP4、432 GB HBM4）的量产时间表、定价与基准测试；搭载 MI400 的机柜级平台 **Helios** 计划 2026 Q3 出货。活动排在 Computex 之后，便于 AMD 对 Nvidia 等竞品动作作出回应。
+**Advancing AI 2026 成 7 月最大催化**：AMD 已宣布旗舰全球 AI 活动 **Advancing AI 2026** 将于 **2026-07-22 至 07-23** 在旧金山 Moscone 中心举办，预计披露 **MI400** 系列（旗舰 MI455X 号称 40 PFLOPS FP4、432 GB HBM4）的量产时间表、定价与基准测试；搭载 MI400 的机柜级平台 **Helios** 计划 2026 Q3 出货。活动排在 Computex 之后，便于 AMD 对 Nvidia 等竞品动作作出回应。
 
 **卖方定价与竞争定位**：Goldman Sachs 维持目标价 **$640**（引述 agentic AI 驱动的 CPU 与加速器需求），卖方共识约 $570、乐观情形至 $670（UBS）、审慎情形约 $400。基本面支撑来自 Q1（5/5 公布）数据中心营收创纪录 **$5.8B**（同比 +57%）。需留意的是，短期股价仍受半导体板块 beta 主导，与 NVDA、内存股同步波动的特征明显。（来源：[AMD Announces "Advancing AI 2026" — AMD IR](https://ir.amd.com/news-events/press-releases/detail/1283/amd-announces-advancing-ai-2026) · [AMD Reports First Quarter 2026 Financial Results — AMD IR](https://ir.amd.com/news-events/press-releases/detail/1284/amd-reports-first-quarter-2026-financial-results) · [AMD (AMD) Stock Price Forecast: Samsung's Earnings Selloff — TradingKey](https://www.tradingkey.com/analysis/stocks/us-stocks/262018607-amd-stock-price-forecast-july-2026-samsung-selloff-goldman-640-tradingkey)）
 
@@ -108,7 +108,7 @@
 
 **股价：** $358.89（本周 +6.4%，YTD +14.4%）｜**情绪：** 📈｜**下次财报：** 2026-07-28（Q2）
 
-**情绪修复、YTD 转强**：GOOGL 自 6/26 以来反弹 **+6.4%** 至 7/9 收 **$358.89**，YTD 升至 **+14.4%**，摆脱 6 月"AI 人才流失"担忧的情绪低点（5 月曾创 52 周高位 $404.47）。基本面侧，最近一季营收 **$109.90B**（同比 +21.8%）、Google Cloud 增长约 63% 至逾 $20B、积压订单约 $460B，卖方近期上调目标价至 $400–$415 区间。
+**情绪修复、YTD 转强**：GOOGL 自 6/26 以来反弹 **+6.4%** 至 7/9 收 **$358.89**，YTD 升至 **+14.4%**，摆脱 6 月"AI 人才流失"担忧的情绪低点（5 月曾创 52 周高位 $404.47）。基本面侧，最新一季营收 **$109.90B**（同比 +21.8%）、Google Cloud 增长约 63% 至逾 $20B、积压订单约 $460B，卖方已上调目标价至 $400–$415 区间。
 
 **资本支出与监管是压制项**：2026 年 AI 资本开支指引高达 **$180B–$190B**，导致自由现金流利润率由约 21% 降至约 9.2%，为估值上行的主要约束；此外，围绕其向中国企业提供 AI 服务的审查、以及针对平台"青少年成瘾"的诉讼进展，构成持续的监管尾部风险。整体看，长期 AI 与云叙事未变，短期股价由情绪修复与资本开支担忧的拉锯主导。（来源：[Alphabet Stock Analysis: Neutral Bias & Signs of Recovery in July 2026 — Cryptonomist](https://en.cryptonomist.ch/2026/07/10/alphabet-stock-posts-21-8-revenue-growth-so-why-wont-it-break-out/) · [Alphabet (GOOGL) Stock Price Forecast 2026: Cloud Hit $20B — TradingKey](https://www.tradingkey.com/analysis/stocks/us-stocks/262008961-alphabet-googl-stock-price-forecast-2026-google-cloud-tradingkey)）
 
