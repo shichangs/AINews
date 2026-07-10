@@ -91,7 +91,7 @@
 
 **BofA 重申看多、估值处多年低位**：NVDA 自 6/26 以来反弹 **+5.0%** 至 7/9 收 **$202.20**，市值约 **$4.9T**、稳居全球半导体第一。据 TheStreet，Bank of America 分析师 Vivek Arya 于 7/8 重申 Buy，称 Nvidia 为"独特而持久的成长特许经营"，并指其约 **18 倍**远期市盈率为七年低位、相对其他大型科技股折价不合理——BofA 预计未来两年其自由现金流将约等于 Apple 与 Microsoft 之和。
 
-**中国出口松动 + 板块轮动**：据报道，阿里巴巴、字节跳动、DeepSeek 等中国厂商有望获批采购 Nvidia **H200** 芯片，为需求端边际利好；但同期资金在 GPU 与内存间轮动，加之 Samsung 抛售的板块扰动，短期股价仍受情绪与获利回吐牵引。整体看，NVDA 本期在组合 AI 算力链中表现居中——强于回吐的 Micron、弱于反弹更猛的 Palantir，YTD **+8.4%** 反映其"高基数下增速放缓"的定价。（来源：[Bank of America's unmistakable signal to Nvidia stock investors — TheStreet](https://www.thestreet.com/investing/stocks/bank-of-america-fears-overblown-nvidia-stock-bullish-reiterate-buy) · [Nvidia backed by Bank of America as analysts see AI leadership — Yahoo Finance](https://finance.yahoo.com/technology/ai/articles/nvidia-backed-bank-america-analysts-165500644.html)）
+**中国出口松动 + 板块轮动**：据 The Information（7/8）报道，中国拟允许阿里巴巴、字节跳动、DeepSeek 等头部 AI 厂商采购有限数量的 Nvidia **H200** 芯片（总量或低于 20 万颗、仅限训练用途），为需求端边际利好；但同期资金在 GPU 与内存间轮动，加之 Samsung 抛售的板块扰动，短期股价仍受情绪与获利回吐牵引。整体看，NVDA 本期在组合 AI 算力链中表现居中——强于回吐的 Micron、弱于反弹更猛的 Palantir，YTD **+8.4%** 反映其"高基数下增速放缓"的定价。（来源：[China plans to let top AI firms buy limited Nvidia H200 chips, The Information reports — The Information/Yahoo Finance](https://finance.yahoo.com/technology/ai/articles/china-plans-let-top-ai-150506111.html) · [Bank of America's unmistakable signal to Nvidia stock investors — TheStreet](https://www.thestreet.com/investing/stocks/bank-of-america-fears-overblown-nvidia-stock-bullish-reiterate-buy)）
 
 ---
 
@@ -111,7 +111,7 @@
 
 **情绪修复、YTD 转强**：GOOGL 自 6/26 以来反弹 **+6.4%** 至 7/9 收 **$358.89**，YTD 升至 **+14.4%**，摆脱 6 月"AI 人才流失"担忧的情绪低点（5 月曾创 52 周高位 $404.47）。基本面侧，最新一季营收 **$109.90B**（同比 +21.8%）、Google Cloud 增长约 63% 至逾 $20B、积压订单约 $460B，卖方已上调目标价至 $400–$415 区间。
 
-**资本支出与监管是压制项**：2026 年 AI 资本开支指引高达 **$180B–$190B**，导致自由现金流利润率由约 21% 降至约 9.2%，为估值上行的主要约束；此外，围绕其向中国企业提供 AI 服务的审查、以及针对平台"青少年成瘾"的诉讼进展，构成持续的监管尾部风险。整体看，长期 AI 与云叙事未变，短期股价由情绪修复与资本开支担忧的拉锯主导。（来源：[Alphabet Stock Analysis: Neutral Bias & Signs of Recovery in July 2026 — Cryptonomist](https://en.cryptonomist.ch/2026/07/10/alphabet-stock-posts-21-8-revenue-growth-so-why-wont-it-break-out/) · [Alphabet (GOOGL) Stock Price Forecast 2026: Cloud Hit $20B — TradingKey](https://www.tradingkey.com/analysis/stocks/us-stocks/262008961-alphabet-googl-stock-price-forecast-2026-google-cloud-tradingkey)）
+**资本支出与监管是压制项**：2026 年 AI 资本开支指引高达 **$180B–$190B**，导致自由现金流利润率由约 21% 降至约 9.2%，为估值上行的主要约束；此外，围绕其向中国企业提供 AI 服务的审查、以及针对平台"青少年成瘾"的诉讼进展，构成持续的监管尾部风险。整体看，长期 AI 与云叙事未变，短期股价由情绪修复与资本开支担忧的拉锯主导。（来源：[Alphabet Investor Relations — 2026 Q2 Earnings Call（7/22 确认）](https://abc.xyz/investor/events/event-details/2026/2026-Q2-Earnings-Call-2026-GgTAq7Is0z/default.aspx) · [Alphabet Stock Analysis: Neutral Bias & Signs of Recovery in July 2026 — Cryptonomist](https://en.cryptonomist.ch/2026/07/10/alphabet-stock-posts-21-8-revenue-growth-so-why-wont-it-break-out/)）
 
 ---
 
