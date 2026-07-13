@@ -6,8 +6,8 @@
 
 ## 🔥 本周亮点（Top 5）
 
-1. **Micron 官方指引 FQ4 营收 $50.0B ± $1.0B**、非 GAAP 摊薄 EPS $31.00 ± $1.00，并宣布 2035 年前对美投资累计超 **$250B**；管理层预计存储市场紧张至少持续到 2027 年。MU YTD +243.3%，为组合内最强。（来源：[SEC 8-K 新闻稿](https://www.sec.gov/Archives/edgar/data/0000723125/000072312526000013/a2026q3ex991-pressrelease.htm) · [Barron's](https://www.barrons.com/articles/micron-stock-price-memory-chips-b4a4eeb7)）
-2. **Tesla Robotaxi 于 2026-07-03 在迈阿密上线**，为德州、加州以外首个城市，且首日即为全无人（无安全员）运营；此前公布的 Q2 交付 480,126 辆同比 +25%，超共识约 18%。（来源：[Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/tesla-tsla-expands-robotaxi-miami-080943832.html) · [Automotive World](https://www.automotiveworld.com/news/tesla-quietly-rolls-out-limited-robotaxi-service-in-miami/)）
+1. Micron 官方指引 FQ4 营收 **$50.0B ± $1.0B**、非 GAAP 摊薄 EPS $31.00 ± $1.00，并宣布 2035 年前对美投资累计超 **$250B**；管理层预计存储市场紧张至少持续到 2027 年。MU YTD +243.3%，为组合内最强。（来源：[SEC 8-K 新闻稿](https://www.sec.gov/Archives/edgar/data/0000723125/000072312526000013/a2026q3ex991-pressrelease.htm) · [Barron's](https://www.barrons.com/articles/micron-stock-price-memory-chips-b4a4eeb7)）
+2. Tesla Robotaxi 于 2026-07-03 在**迈阿密**上线，为德州、加州以外首个城市，且首日即为全无人（无安全员）运营；此前公布的 Q2 交付 480,126 辆同比 +25%，超共识约 18%。（来源：[Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/tesla-tsla-expands-robotaxi-miami-080943832.html) · [Automotive World](https://www.automotiveworld.com/news/tesla-quietly-rolls-out-limited-robotaxi-service-in-miami/)）
 3. **AMD 迎来目标价上调潮**：Stifel $450→$635、Goldman Sachs $450→$640、Wells Fargo $505→$615，Advancing AI 2026 大会定于 2026-07-22/23 举行；AMD YTD +160.5%。（来源：[AMD 官网](https://www.amd.com/en/corporate/events/advancing-ai.html) · [Barron's](https://www.barrons.com/articles/amd-stock-price-intel-cd026a13)）
 4. **Alphabet 两名资深 AI 研究员离职**（John Jumper 加入 Anthropic、Noam Shazeer 加入 OpenAI），叠加 2026 年 $180B–$190B 资本开支指引将 FCF 利润率压缩至 9.2%，股价承压，2026-07-22 的 Q2 财报成为关键节点（官方 IR 于 2026-07-08 公告日期）。（来源：[Barron's](https://www.barrons.com/articles/amazon-alphabet-big-tech-stocks-earnings-ai-2c8774f5) · [Cryptonomist](https://en.cryptonomist.ch/2026/07/10/alphabet-stock-posts-21-8-revenue-growth-so-why-wont-it-break-out/)）
 5. **HIMS 本周 +14.9%**：Canaccord Genuity 目标价 $32→$40、BofA $25→$36；但 FDA 建议限制复配药房生产部分肽类，PCAC 将于 2026-07-23/24 审查 7 种肽，构成重大监管变数。（来源：[Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/hims-hers-hims-stock-may-031933736.html) · [Benzinga](https://www.benzinga.com/trading-ideas/movers/26/07/60229376/hims-hers-stock-surges-as-analysts-lift-price-targets)）
@@ -34,7 +34,7 @@
 
 ## ⚠️ 本周风险预警
 
-- 财报预警：截至 2026-07-20 的 7 天窗口内无组合公司财报（最近一场为 Tesla 2026-07-22）。
+- 财报预警：截至 2026-07-20 的 7 天窗口内无组合公司财报；窗口后首批为 2026-07-22 的 Tesla 与 Alphabet 同日财报。
 - **HIMS**：FDA 正式建议不允许复配药房生产部分肽类；PCAC 将于 2026-07-23/24 审查 7 种肽，结果可能直接影响其复配业务。
 - **Tesla**：新泽西州立法进程或禁止 Robotaxi 运营，构成州级监管风险。
 - **Alphabet**：资深 AI 研究员流失叠加资本开支上调（FCF 利润率 21%→9.2%）；英国拟将大型云服务商纳入金融稳定监管。
@@ -58,7 +58,7 @@
 
 **股价：** $210.96（本周 +8.3%，YTD +13.3%）｜**情绪：** 📈｜**下次财报：** 2026-08-26
 
-**Nvidia** 本周 +8.3%，为组合内周涨幅第二。自 2026-05-14 历史收盘高点 $235.47 以来市值一度蒸发近 $1T，远期市盈率回落至约 18–21.7 倍——低于标普 500 的约 21 倍，Goldman Sachs 分析师称该估值"有吸引力"，为 AI 热潮前（2019 年初）以来最低区间。据行业媒体（TradingKey）报道，公司否认 Kyber NVL144 平台推迟至 2028 的传闻、称开发按计划推进（官方未见另行公告）。据 Reuters，DeepSeek 正自研 AI 芯片以降低对 Nvidia 依赖，中国本土替代仍是 2026 年反复出现的压制因素；Wells Fargo 亦提示中国市场回归空间有限。供应链上，据 Reuters，供应商 King Yuan Electronics 拟投资至多 **$1.4B** 在美建厂。Morgan Stanley 列出四大新增 AI 增长驱动，61 位分析师给出 Strong Buy、平均目标价 $301；市场并预期回购节奏可能加快。Q2 FY27 财报定于 2026-08-26 盘后。（来源：[Reuters](https://www.reuters.com/world/asia-pacific/nvidia-supplier-king-yuan-electronics-invest-up-14-billion-us-facility-2026-07-10/) · [CNBC](https://www.cnbc.com/2026/07/12/ai-demand-chips-data-centers-stock-volatility.html) · [Barron's](https://www.barrons.com/articles/nvidia-stock-price-meta-632e43fd)）
+**Nvidia** 本周 +8.3%，为组合内周涨幅第二。自 2026-05-14 历史收盘高点 $235.47 以来市值一度蒸发近 $1T，远期市盈率回落至约 18–21.7 倍——低于标普 500 的约 21 倍，Goldman Sachs 分析师称该估值"有吸引力"，为 AI 热潮前（2019 年初）以来最低区间。据行业媒体（TradingKey）报道，公司否认 Kyber NVL144 平台推迟至 2028 的传闻、称开发按计划推进（官方未见另行公告）。据 Reuters，DeepSeek 正自研 AI 芯片以降低对 Nvidia 依赖，中国本土替代仍是 2026 年反复出现的压制因素；Wells Fargo 亦提示中国市场回归空间有限。供应链上，据 Reuters，供应商 King Yuan Electronics 拟投资至多 **$1.4B** 在美建厂。Morgan Stanley 列出四大新增 AI 增长驱动，61 位分析师给出 Strong Buy、平均目标价 $301。Q2 FY27 财报定于 2026-08-26 盘后。（来源：[Reuters](https://www.reuters.com/world/asia-pacific/nvidia-supplier-king-yuan-electronics-invest-up-14-billion-us-facility-2026-07-10/) · [CNBC](https://www.cnbc.com/2026/07/12/ai-demand-chips-data-centers-stock-volatility.html) · [Barron's](https://www.barrons.com/articles/nvidia-stock-price-meta-632e43fd)）
 
 ## Palantir (PLTR)
 
@@ -68,9 +68,9 @@
 
 ## Google / Alphabet (GOOGL)
 
-**股价：** $357.18（本周 -0.8%，YTD +14.3%）｜**情绪：** ➡️｜**下次财报：** 2026-07-29
+**股价：** $357.18（本周 -0.8%，YTD +14.3%）｜**情绪：** ➡️｜**下次财报：** 2026-07-22
 
-**Alphabet** 本周收跌 0.8%。人才面：资深 AI 研究员 John Jumper（加入 Anthropic）与 Noam Shazeer（加入 OpenAI）离职，周中对股价形成明显压制。资本开支仍是主线争议：2026 年 AI 资本开支指引 **$180B–$190B**，配套 $85B 融资（含逾 $19B 的 6% 强制可转换优先股），FCF 利润率由 21% 降至 9.2%，市场担忧 2027 年开支继续上行。业务面：Q1 云营收超 $20B（同比 +63%）、积压订单约 $460B；宣布阿拉巴马州 $1.5B 数据中心扩建；据报道与 Samsung、Intel 洽谈 AI 芯片制造多元化（洽谈中，未落定）。监管面：据 Reuters，英国拟将 Microsoft、Google 等云服务商纳入金融稳定监管。2026-07-29 将发布 Q2 财报，核心检验积压订单变现与云增速的持续性。（来源：[Reuters](https://www.reuters.com/business/retail-consumer/uk-regulate-cloud-service-providers-microsoft-google-others-protect-financial-2026-07-10/) · [Barron's](https://www.barrons.com/articles/amazon-alphabet-big-tech-stocks-earnings-ai-2c8774f5) · [Cryptonomist](https://en.cryptonomist.ch/2026/07/10/alphabet-stock-posts-21-8-revenue-growth-so-why-wont-it-break-out/)）
+**Alphabet** 本周收跌 0.8%。人才面：资深 AI 研究员 John Jumper（加入 Anthropic）与 Noam Shazeer（加入 OpenAI）离职，周中对股价形成明显压制。资本开支仍是主线争议：2026 年 AI 资本开支指引 **$180B–$190B**，配套 $85B 融资（含逾 $19B 的 6% 强制可转换优先股），FCF 利润率由 21% 降至 9.2%，市场担忧 2027 年开支继续上行。业务面：Q1 云营收超 $20B（同比 +63%）、积压订单约 $460B；宣布阿拉巴马州 $1.5B 数据中心扩建。监管面：据 Reuters，英国拟将 Microsoft、Google 等云服务商纳入金融稳定监管。公司 IR 已于 2026-07-08 公告：Q2 财报将于 2026-07-22 盘后发布，核心检验积压订单变现与云增速的持续性。（来源：[Reuters](https://www.reuters.com/business/retail-consumer/uk-regulate-cloud-service-providers-microsoft-google-others-protect-financial-2026-07-10/) · [Barron's](https://www.barrons.com/articles/amazon-alphabet-big-tech-stocks-earnings-ai-2c8774f5) · [Cryptonomist](https://en.cryptonomist.ch/2026/07/10/alphabet-stock-posts-21-8-revenue-growth-so-why-wont-it-break-out/)）
 
 ## Micron (MU)
 
@@ -99,7 +99,7 @@
 ## 🔭 下周值得盯
 
 - **2026-07-14**：6 月 CPI 公布，同日 Fed 主席 Warsh 出席国会听证——5 月 CPI 同比 +4.2% 背景下，通胀读数将直接影响 2026-07-28/29 会议预期。（[Kiplinger](https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar)）
-- **2026-07-22**：Tesla Q2 财报——关注汽车毛利率、Cybercab 量产与 $25B 资本开支流向。（[Barron's](https://www.barrons.com/articles/tesla-stock-price-valuation-d10a4184)）
+- **2026-07-22**：Tesla 与 Alphabet 同日发布 Q2 财报——Tesla 看汽车毛利率、Cybercab 量产与 $25B 资本开支流向；Alphabet 看云积压订单变现与 FCF 压缩程度。（[Barron's](https://www.barrons.com/articles/tesla-stock-price-valuation-d10a4184) · [Alphabet IR](https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Date-of-Second-Quarter-2026-Financial-Results-Conference-Call-2026-2h_R0kzZHY/default.aspx)）
 - **2026-07-22/23**：AMD Advancing AI 2026 大会（旧金山）——MI400 系列量产时间表、定价与基准测试细节，或有 MI500 早期信息。（[AMD 官网](https://www.amd.com/en/corporate/events/advancing-ai.html)）
 - **2026-07-23/24**：FDA PCAC 审查 7 种肽类的复配资格——直接影响 HIMS 复配业务，为其短期最大二元事件。（[Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/hims-hers-hims-stock-may-031933736.html)）
 
