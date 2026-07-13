@@ -76,7 +76,7 @@
 
 **股价：** $979.30（本周 +0.4%，YTD +243.3%）｜**情绪：** ➡️｜**下次财报：** 2026-09-29
 
-**Micron** 官方新闻稿（SEC 8-K）给出 FQ4 指引：营收 **$50.0B ± $1.0B**、非 GAAP 毛利率约 86%、非 GAAP 摊薄 EPS $31.00 ± $1.00；管理层预计 AI 驱动的存储紧张至少持续到 2027 年。公司同时宣布加速美国投资，2035 年前累计投入超 $250B，并确认为 Anthropic 的新一代 AI 系统主供内存与存储、共同开发 HBM 方案。竞争端：SK Hynix 于 2026-07-10 完成 $26.5B 募资并以 SKHYV 登陆纳斯达克，Barron's 认为对手的美国上市对 Micron 构成情绪与比价压力，当日 MU -1.24%。本周整体 +0.4% 收 $979.30，较 2026-06-25 历史收盘高点 $1,213.37 回撤约 19%；分析师端出现 $1,600 目标价（供给紧张逻辑）。FQ4 财报定于 2026-09-29 盘后（已确认）。（来源：[SEC 8-K 新闻稿](https://www.sec.gov/Archives/edgar/data/0000723125/000072312526000013/a2026q3ex991-pressrelease.htm) · [Barron's](https://www.barrons.com/articles/micron-stock-price-memory-chips-b4a4eeb7) · [The Motley Fool](https://www.fool.com/investing/2026/07/07/micron-technology-just-dropped-a-50-billion-revenu/)）
+**Micron** 官方新闻稿（SEC 8-K）给出 FQ4 指引：营收 **$50.0B ± $1.0B**、非 GAAP 毛利率约 86%、非 GAAP 摊薄 EPS $31.00 ± $1.00；管理层预计 AI 驱动的存储紧张至少持续到 2027 年。公司同时宣布加速美国投资，2035 年前累计投入超 $250B，并确认为 Anthropic 的新一代 AI 系统主供内存与存储、共同开发 HBM 方案。报告周内两条官方公告：2026-07-06 宣布与 Ford 签署长期内存供应战略协议，2026-07-09 宣布至多 $3B 投资强化美国半导体生态。竞争端：SK Hynix 于 2026-07-10 完成 $26.5B 募资并以 SKHYV 登陆纳斯达克，Barron's 认为对手的美国上市对 Micron 构成情绪与比价压力，当日 MU -1.24%。内部人动向：据 Form 4（2026-07-06 披露），EVP April Arnzen 于 2026-07-01 以均价约 $1,084 卖出 40,000 股（约 $43.3M）。本周整体 +0.4% 收 $979.30，较 2026-06-25 历史收盘高点 $1,213.37 回撤约 19%；据 TipRanks，有五星分析师基于供给紧张给出 $1,600 目标价。FQ4 财报定于 2026-09-29 盘后（已确认）。（来源：[SEC 8-K 新闻稿](https://www.sec.gov/Archives/edgar/data/0000723125/000072312526000013/a2026q3ex991-pressrelease.htm) · [Micron IR](https://investors.micron.com/latest-news) · [Barron's](https://www.barrons.com/articles/micron-stock-price-memory-chips-b4a4eeb7)）
 
 ## PayPal (PYPL)
 
