@@ -93,3 +93,146 @@
 - 注：本周来源中除 DeepSeek 官方"显存占用降至前代 10%"外，各模型均未给出明确最低显存数字，此处不做估算。
 
 ---
+
+## 【模块三】热门论文精选
+
+> 时间核验：以下论文 arXiv ID 前四位均为 2607（2026 年 7 月）或 2606（2026 年 6 月），已逐篇在 arXiv abs 页核验。HF 点赞数为 7/13 抓取值。效果数字均摘自论文摘要原文；摘要未给数字处如实标注。
+
+### 🧠 LLM / 推理与训练
+
+**The Mirage of Optimizing Training Policies: Monotonic Inference Policies as the Real Objective for LLM Reinforcement Learning**
+📄 [arXiv 2606.29526](https://arxiv.org/abs/2606.29526) | 💻 暂未开源 | 🤗 HF ⭐ 161（本周期最高）| 机构：未标注（作者含 Jing Liang、Hongyao Tang、Weixun Wang 等）
+
+**问题**
+LLM RL 训练普遍采用分离的推理引擎（rollout 采样）与训练引擎（梯度计算），即使参数严格同步，同一轨迹在两侧的对数概率也不一致——这构成一种"始终存在"的 off-policy 污染。更关键的是以往 mismatch 校正类工作忽略的目标错位：对训练引擎策略的有效梯度更新，并不保证部署端推理策略的性能改进。
+
+**方法**
+- 提出新优化目标 MIPI（Monotonic Inference Policy Improvement）：把优化对象从训练引擎策略显式改为推理（部署）策略的单调改进；
+- 两步框架 MIPU：先构造以 sampler 策略为参照的候选更新，再用"推理侧差距代理量"对同步后的候选更新做选择性接受；
+- 与 PPO/GRPO 系方法的本质区别：后者默认训练策略 = 部署策略，在 train/inference 引擎数值行为分离的现实工程栈下该假设不成立；MIPU 直接对部署侧目标做单调性约束，而非事后做重要性采样校正。
+
+**效果**
+- 两个模型规模、高 mismatch 设定下提升平均推理性能与训练稳定性；摘要未给出具体 benchmark 数字。
+
+**OmniOpt: Taxonomy, Geometry, and Benchmarking of Modern Optimizers**
+📄 [arXiv 2607.04033](https://arxiv.org/abs/2607.04033) | 💻 [GitHub](https://github.com/OpenRaiser/OmniOpt) | 🤗 HF ⭐ 74 | 机构：未标注 | 91 页综述+基准
+
+**问题**
+Adam 之后出现 100+ 优化器（Muon/Shampoo 类矩阵预条件方法等），大规模训练中的优化器选择受算力、显存、调参预算、任务多样性的联合约束，但领域缺乏统一坐标系，实践者只能靠零散对比实验。
+
+**方法**
+- 把任意优化器的更新规则拆解为五阶段元流水线，指出多数方法只修改其中 1–2 个阶段；
+- 用范数约束的线性最小化 oracle（LMO）为各类优化器提供统一几何视角；
+- 建立"机制族 × 目标效果"的双维分类法，并在 LM 预训练到图像分类的跨域统一基准上系统分析各族权衡。
+
+**效果**
+- 综述/基准型工作，价值在于分类框架与跨域基准本身；摘要未给出单一 benchmark 数字。
+
+### 👁️ 多模态
+
+**Gemma 4 Technical Report**
+📄 [arXiv 2607.02770](https://arxiv.org/abs/2607.02770) | 💻 权重开源（HF google/gemma-4 系列）| 🤗 HF ⭐ 59 | 机构：Google DeepMind
+
+**问题**
+开源模型在计算效率、原生多模态与推理能力上与前沿闭源模型仍有系统性差距，且多数开源多模态方案依赖外挂视觉/音频编码器。
+
+**方法**
+- 2.3B–31B 稠密 + MoE 套件（E2B/E4B/26B-A4B/31B），全系升级视觉/音频编码器；
+- 12B 模型采用统一 encoder-free 架构，直接摄入原始音频与图像 patch，取消模态专用编码器；
+- 集成 thinking mode 生成推理轨迹；针对推理速度/显存/长上下文（256K）做架构设计。
+
+**效果**
+- 摘要称在 STEM、多模态、长上下文基准上"跃升"，人评任务可与更大的前沿开源模型抗衡；摘要未给出具体数字。
+
+**Vision as Unified Multimodal Generation（SenseNova-Vision）**
+📄 [arXiv 2607.06560](https://arxiv.org/abs/2607.06560) | 💻 [GitHub](https://github.com/OpenSenseNova/SenseNova-Vision) | 🤗 HF ⭐ 44 | 机构：商汤 SenseNova
+
+**问题**
+检测、OCR、关键点、分割、深度、法向、点图、相机位姿等 CV 任务各需专用预测头与架构，无法并入通用基础模型统一训练与推理。
+
+**方法**
+- 将全部视觉任务重新表述为统一多模态模型原生的"文本+图像生成"：语言指令+可选视觉提示指定任务；符号类输出走文本通道，稠密空间预测走图像生成通道，组合任务走图文混合输出；
+- 把海量 CV 标注转换为指令-响应语料（SenseNova-Vision Corpus），从现成统一多模态预训练模型继续训练，零任务专用头；
+- 与传统"共享 backbone + 多头"范式的本质区别：任务接口完全由生成格式定义，新任务无需改架构。
+
+**效果**
+- 单一模型在结构化视觉理解、稠密几何预测、分割、多视几何上匹配领先的任务专用系统；摘要未给出具体数字。模型与语料已公开。
+
+### 🤖 AI Agent / 工具使用
+
+**UI-MOPD: Multi-Platform On-Policy Distillation for Continual GUI Agent Learning**
+📄 [arXiv 2607.04425](https://arxiv.org/abs/2607.04425) | 💻 [GitHub](https://github.com/EliSpectre/UI-MOPD) | 🤗 HF ⭐ 68 | 机构：未标注（[项目页](https://elispectre.github.io/UI-MOPD/)）
+
+**问题**
+跨平台 GUI 轨迹数据稀缺且平台覆盖窄；不同平台（桌面/移动/Web）交互惯例差异大，联合或持续训练会出现行为模式混杂、平台专属能力退化与灾难性遗忘。
+
+**方法**
+- 构建高质量跨平台数据集 Uni-GUI；
+- 首个把"多教师 on-policy 蒸馏"引入 GUI Agent 持续学习：按当前环境动态选择平台专属教师，通过平台条件化蒸馏把平台行为先验注入共享策略；
+- 与普通 SFT/离线蒸馏的本质区别：蒸馏信号在学生自身 on-policy 轨迹上产生（教师对学生实际到达的状态给出监督），同时兼顾新平台适应与旧平台保持，直接针对分布漂移。
+
+**效果**
+- OSWorld 任务成功率 38.2%，MobileWorld 12.0%（摘要原文数字）。
+
+**UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks**
+📄 [arXiv 2607.08768](https://arxiv.org/abs/2607.08768) | 💻 [GitHub](https://github.com/HKU-MMLab/UniClawBench) | 🤗 HF ⭐ 27 | 机构：香港大学 MMLab
+
+**问题**
+现有 agent 基准依赖沙盒环境与单轮评测，且按"场景"分类把多种模型能力混入同一任务类，无法定位失败根因（是基座能力不足还是 agent 框架设计问题）。
+
+**方法**
+- 首个能力驱动的主动式 agent 基准：按技能使用、探索、长上下文推理、多模态理解、跨平台协同五项基础能力设计 400 个双语真实任务；
+- 实时 Docker 容器中以细粒度分步检查点评测（而非仅终态判定）；
+- executor–hidden supervisor–user 三 agent 闭环模拟多轮人类反馈且不泄露评分标准；
+- 同一模型跨多个 agent 框架评测，解耦基座能力与框架设计的贡献。
+
+**效果**
+- 评测框架型工作，摘要未给出各模型具体分数。
+
+### 🦾 具身智能 / 机器人
+
+**RynnWorld-4D: 4D Embodied World Models for Robotic Manipulation**
+📄 [arXiv 2607.06559](https://arxiv.org/abs/2607.06559) | 💻 [GitHub](https://github.com/alibaba-damo-academy/RynnWorld-4D) | 🤗 HF ⭐ 89 | 机构：阿里达摩院
+
+**问题**
+2D 像素视频世界模型与机器人低层末端执行器动作之间存在表征鸿沟（像素演化 ≠ 可执行控制信号）；且基于扩散的世界模型出动作需昂贵的多步去噪，无法满足闭环控制频率。
+
+**方法**
+- 以同步 RGB+深度+光流（RGB-DF）为物理接地的 4D 表征；
+- 单一扩散过程从一张 RGB-D 图+语言指令联合生成未来 RGB/深度/光流：三分支架构 + 跨模态注意力 + 逐帧 3D RoPE，保证外观-几何-运动一致演化；
+- 配套 Rynn4DDataset 1.0：2.544 亿帧，带深度/光流伪标签；
+- RynnWorld-4D-Policy：逆动力学头直接消费世界模型内部 4D 表征，单次前向输出动作，绕过多步去噪实现闭环控制——这是与"世界模型生成视频再反解动作"路线的本质区别。
+
+**效果**
+- 真实世界灵巧双臂操作任务 SOTA，尤其空间精度与时序协同类任务；摘要未给出具体数字。
+
+**Scaling Mixture-of-Experts Video Pretraining for Embodied Intelligence（LingBot-Video）**
+📄 [arXiv 2607.07675](https://arxiv.org/abs/2607.07675) | 💻 [GitHub](https://github.com/robbyant/lingbot-video) | 🤗 HF ⭐ 49 | 机构：蚂蚁灵波 LingBot
+
+**问题**
+现有视频生成模型为内容创作设计，优先视觉保真与创意而非计算效率与物理真实，直接用于机器人控制存在域失配。
+
+**方法**
+- 面向具身智能的 DiT 视频预训练范式：架构上从零训练并扩展 MoE（而非稠密 DiT），以平衡容量与推理效率；
+- 数据上用 profiling 引擎在互联网视频基础上大规模补充操作/导航/第一视角机器人素材；
+- 训练上引入多维奖励系统对齐物理合理性与任务完成度，超越美学/指令跟随/运动一致性等内容创作指标；
+- 自称首个大规模开源 MoE 视频基础模型。
+
+**效果**
+- 摘要未给出具体数字。
+
+### 🔬 AI for Science
+
+**SciReasoner: Accurate, Interdisciplinary and Transparent Structure-property Understanding with Deep Native Structural Reasoning**
+📄 [arXiv 2607.07708](https://arxiv.org/abs/2607.07708) | 💻 [GitHub](https://github.com/SpectrAI-Initiative/SciReasoner) | 🤗 HF ⭐ 84 | 机构：上海人工智能实验室（参与）
+
+**问题**
+结构-性质关系建模面临表征与推理双重挑战：模型须保留领域原生结构信息（立体化学、成键、对称性、能量学、周期序），同时要能展示具体结构证据如何支撑预测（可解释性），现有方法把结构压缩为不可寻址的隐向量。
+
+**方法**
+- 跨蛋白质/小分子/无机晶体的多模态科学基础模型；
+- 把坐标、拓扑、周期连接离散化为统一的结构感知词表（structure-aware vocabulary）；
+- 推理时将结构 token 作为可寻址的证据单元，使结构本身成为可检查的推理基底——与"隐向量 + 事后归因"范式的本质区别。
+
+**效果**
+- 同源控制 GO 预测中低同源/
