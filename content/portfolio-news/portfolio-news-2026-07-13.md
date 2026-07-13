@@ -9,7 +9,7 @@
 1. **Micron 官方指引 FQ4 营收 $50.0B ± $1.0B**、非 GAAP 摊薄 EPS $31.00 ± $1.00，并宣布 2035 年前对美投资累计超 **$250B**；管理层预计存储市场紧张至少持续到 2027 年。MU YTD +243.3%，为组合内最强。（来源：[SEC 8-K 新闻稿](https://www.sec.gov/Archives/edgar/data/0000723125/000072312526000013/a2026q3ex991-pressrelease.htm) · [Barron's](https://www.barrons.com/articles/micron-stock-price-memory-chips-b4a4eeb7)）
 2. **Tesla Robotaxi 于 2026-07-03 在迈阿密上线**，为德州、加州以外首个城市，且首日即为全无人（无安全员）运营；此前公布的 Q2 交付 480,126 辆同比 +25%，超共识约 18%。（来源：[Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/tesla-tsla-expands-robotaxi-miami-080943832.html) · [Automotive World](https://www.automotiveworld.com/news/tesla-quietly-rolls-out-limited-robotaxi-service-in-miami/)）
 3. **AMD 迎来目标价上调潮**：Stifel $450→$635、Goldman Sachs $450→$640、Wells Fargo $505→$615，Advancing AI 2026 大会定于 2026-07-22/23 举行；AMD YTD +160.5%。（来源：[AMD 官网](https://www.amd.com/en/corporate/events/advancing-ai.html) · [Barron's](https://www.barrons.com/articles/amd-stock-price-intel-cd026a13)）
-4. **Alphabet 两名资深 AI 研究员离职**（John Jumper 加入 Anthropic、Noam Shazeer 加入 OpenAI），叠加 2026 年 $180B–$190B 资本开支指引将 FCF 利润率压缩至 9.2%，股价承压，2026-07-29 的 Q2 财报成为关键节点。（来源：[Barron's](https://www.barrons.com/articles/amazon-alphabet-big-tech-stocks-earnings-ai-2c8774f5) · [Cryptonomist](https://en.cryptonomist.ch/2026/07/10/alphabet-stock-posts-21-8-revenue-growth-so-why-wont-it-break-out/)）
+4. **Alphabet 两名资深 AI 研究员离职**（John Jumper 加入 Anthropic、Noam Shazeer 加入 OpenAI），叠加 2026 年 $180B–$190B 资本开支指引将 FCF 利润率压缩至 9.2%，股价承压，2026-07-22 的 Q2 财报成为关键节点（官方 IR 于 2026-07-08 公告日期）。（来源：[Barron's](https://www.barrons.com/articles/amazon-alphabet-big-tech-stocks-earnings-ai-2c8774f5) · [Cryptonomist](https://en.cryptonomist.ch/2026/07/10/alphabet-stock-posts-21-8-revenue-growth-so-why-wont-it-break-out/)）
 5. **HIMS 本周 +14.9%**：Canaccord Genuity 目标价 $32→$40、BofA $25→$36；但 FDA 建议限制复配药房生产部分肽类，PCAC 将于 2026-07-23/24 审查 7 种肽，构成重大监管变数。（来源：[Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/hims-hers-hims-stock-may-031933736.html) · [Benzinga](https://www.benzinga.com/trading-ideas/movers/26/07/60229376/hims-hers-stock-surges-as-analysts-lift-price-targets)）
 
 ## 🌍 本周宏观背景
@@ -24,7 +24,7 @@
 | AMD ⭐ | AMD | $557.89 | +7.7% | +160.5% | 📈 | 2026-08-04 | 目标价上调潮至 $615–$640，Advancing AI 大会 2026-07-22/23 |
 | Nvidia | NVDA | $210.96 | +8.3% | +13.3% | 📈 | 2026-08-26 | 估值回落至远期约 21.7 倍，官方否认 Kyber 平台推迟 |
 | Palantir | PLTR | $126.79 | -1.9% | -28.7% | ➡️ | 2026-08-03（未确认） | 墨西哥商业新单与英国警方合同受阻并存，周内小幅回落 |
-| Google / Alphabet | GOOGL | $357.18 | -0.8% | +14.3% | ➡️ | 2026-07-29 | 两名资深 AI 研究员离职，$180B–$190B 资本开支压缩 FCF |
+| Google / Alphabet | GOOGL | $357.18 | -0.8% | +14.3% | ➡️ | 2026-07-22 | 两名资深 AI 研究员离职，$180B–$190B 资本开支压缩 FCF |
 | Micron | MU | $979.30 | +0.4% | +243.3% | ➡️ | 2026-09-29 | FQ4 营收指引 $50.0B，SK Hynix 赴美上市带来竞争压力 |
 | PayPal | PYPL | $46.32 | +1.9% | -20.2% | 📈 | 2026-07-28 | Goldman 目标价升至 $48，获欧洲支付理事会席位 |
 | Unity | U | $30.89 | +5.4% | -30.1% | 📈 | 2026-08-05 | Wells Fargo 目标价升至 $36，重申 Q4 GAAP 盈利目标 |
