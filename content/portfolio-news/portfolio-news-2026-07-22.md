@@ -2,11 +2,11 @@
 **更新日期：2026-07-22**
 **SKILL 版本：v1.3.0**
 
-> 注：本期为周三补跑（上期为 07-13 周一）。报告运行于 2026-07-21 美东盘中（≈ 北京时间 07-22 02:14），上一完整交易日为 2026-07-20，速览表股价与涨跌均以 2026-07-20 收盘为准。本周涨跌基准 = 上期报告价 2026-07-10 收盘；YTD 基准 = 2025-12-31 收盘。
+> 注：本期为周三补跑（上期为 07-13 周一）。报告运行于 2026-07-21 美东盘中（≈ 北京时间 07-22 02:14），上一完整交易日为 2026-07-20，速览表股价与涨跌均以 2026-07-20 收盘为准。本周涨跌基准 = 上期报告（2026-07-13 发布、定价基准 2026-07-10 收盘）；YTD 基准 = 2025-12-31 收盘。
 
 ## 🔥 本周亮点（Top 5）
 
-1. **PayPal** 遭 **Stripe** 与 **Advent International** 联合提出 **$53B** 收购要约，报价 **$60.50/股**、较要约前收盘溢价约 28%，附约 **$50B** 银行承诺融资；若成交将是史上最大金融科技并购。PYPL 本周收 $56.82、单周 **+22.7%**，为组合内周涨幅第一。（来源：[CNBC](https://www.cnbc.com/2026/07/15/stripe-advent-offer-to-buy-paypal-for-more-than-53-billion-reuters.html) · [Axios](https://www.axios.com/2026/07/15/paypal-bid-stripe-advent)）
+1. **PayPal** 遭 **Stripe** 与 **Advent International** 联合提出 **$53B** 收购要约，报价 **$60.50/股**、较要约前收盘溢价约 28%，附约 **$50B** 银行承诺融资；若成交将是史上最大金融科技并购。PYPL 本周收 $56.82、单周 **+22.7%** 为组合内周涨幅第一；但董事会于 2026-07-20 特别会议后拒绝该报价、认为低估公司价值，寻求更高出价。（来源：[Reuters](https://www.reuters.com/business/paypal-board-sees-stripe-advent-offer-inadequate-sources-say-2026-07-16/) · [CNBC](https://www.cnbc.com/2026/07/15/stripe-advent-offer-to-buy-paypal-for-more-than-53-billion-reuters.html)）
 2. **Tesla** 与 **Alphabet** 均于 2026-07-22 盘后发布 Q2 财报（态 2）。Tesla 已公布 Q2 交付创纪录 **480,126 辆**（同比 +25%），但 BYD 以 557,090 辆重夺全球纯电销冠；期权隐含财报后波动约 **±7.6%**。Alphabet 焦点在 **$180B–$190B** 资本开支与云增速。（来源：[TradingKey](https://www.tradingkey.com/analysis/stocks/us-stocks/262039494-tesla-tsla-q2-2026-earnings-preview-july-22-480k-deliveries-tradingkey) · [MarketBeat](https://www.marketbeat.com/articles/alphabets-ai-spending-question-looms-over-q2-earnings/)）
 3. **AMD** 的 **Advancing AI 2026** 大会于 2026-07-22 举行；会前 2026-07-20 **Microsoft** 宣布在 Azure 部署 AMD **Helios** 机架用于前沿模型推理，加入 Meta、OpenAI、Oracle 早期客户行列。KeyBanc 将目标价上调至 **$725**，AMD 单日反弹带动股价收 $503.57。（来源：[CNBC](https://www.cnbc.com/2026/07/20/amd-helios-microsoft-ai-nvidia.html) · [GlobeNewswire（AMD/微软联合新闻稿）](https://www.globenewswire.com/news-release/2026/07/20/3329775/0/en/microsoft-to-deploy-next-gen-amd-instinct-and-amd-epyc-processors-as-the-companies-expand-their-long-term-strategic-partnership.html)）
 4. 半导体剧烈震荡：费城半导体指数（SOX）在截至 2026-07-17 的一周内跌入技术性熊市（较 6 月峰值回撤逾 20%），因市场担忧 AI 资本开支回报与中国竞争；2026-07-20 又强劲反弹（SOX +逾 3%）。**Micron** 本周 **-11.6%** 为组合最大跌幅，随后急速反弹。（来源：[Clearbrook](https://www.clearbrookglobal.com/weekly-market-commentary-july-20-2026/) · [Barron's](https://www.barrons.com/articles/micron-stock-price-sk-hynix-memory-5c384a21)）
