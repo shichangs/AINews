@@ -62,7 +62,7 @@
 
 **🔔 本周财报（2026-07-28，盘前）**：共识 EPS **$1.28**（同比 -8.6%）、营收 **$8.52B**（同比 +2.76%）。管理层指引 Q2 货币中性营收低个位数增长、交易利润美元额下降约 3%、非 GAAP EPS 高个位数下滑（约 -9%）。上季基准见 Q1 报告。
 
-**PayPal** 本周核心事件是并购要约：据 Reuters，支付公司 **Stripe** 与私募 **Advent International** 于 2026-07-15 联合提出以 **$60.50/股**、总额逾 **$53B** 收购 PayPal，较要约前一日收盘溢价约 28%，并附约 $50B 银行承诺融资；两家拟对等共有 PayPal、且无意拆分公司，谈判据称将在数周内推进，更早一次接洽发生在 4 月。消息令 PYPL 于 2026-07-15 盘中一度涨约 16%–17%，本周收 $56.82、单周 **+22.7%**，YTD 由上期的 -20.2% 收窄至 -2.1%；股价较 $60.50 报价仍有约 6% 的并购套利折价，反映市场对交易完成度的观望。官方尚未对要约作出回应（PayPal 未确认）。2026-07-28 盘前财报将检验其交易利润率与品牌结账渗透，但料被并购进展盖过。（来源：[CNBC](https://www.cnbc.com/2026/07/15/stripe-advent-offer-to-buy-paypal-for-more-than-53-billion-reuters.html) · [Axios](https://www.axios.com/2026/07/15/paypal-bid-stripe-advent) · [MarketBeat](https://www.marketbeat.com/instant-alerts/paypal-pypl-expected-to-release-quarterly-earnings-on-tuesday-2026-07-21/)）
+**PayPal** 本周核心事件是并购要约：据 Reuters，支付公司 **Stripe** 与私募 **Advent International** 于 2026-07-15 联合提出以 **$60.50/股**、总额逾 **$53B** 收购 PayPal，较要约前一日收盘溢价约 28%，并附约 $50B 银行承诺融资；两家拟对等共有 PayPal、且无意拆分公司，谈判据称将在数周内推进，更早一次接洽发生在 4 月。消息令 PYPL 于 2026-07-15 盘中一度涨约 16%–17%，本周收 $56.82、单周 **+22.7%**，YTD 由上期的 -20.2% 收窄至 -2.1%。但 PayPal 董事会认为报价低估公司价值（Reuters 于 2026-07-16 引消息人士报道），并于 2026-07-20 特别会议后拒绝该要约、寻求更高出价；Cantor 的分部估值认为约 **$70/股**更能反映内在价值。股价较 $60.50 报价折价，反映市场对交易完成度、融资与反垄断审查的观望。2026-07-28 盘前财报将检验其交易利润率与品牌结账渗透，但料被并购进展盖过。（来源：[Reuters](https://www.reuters.com/business/paypal-board-sees-stripe-advent-offer-inadequate-sources-say-2026-07-16/) · [CNBC](https://www.cnbc.com/2026/07/15/stripe-advent-offer-to-buy-paypal-for-more-than-53-billion-reuters.html)）
 
 ## Google / Alphabet (GOOGL)
 
@@ -70,7 +70,7 @@
 
 **🔔 今日盘后将发布 Q2 财报（2026-07-22）**：共识 GAAP EPS **$2.86–$2.95**、营收 **$116.8B–$120.2B**（美东 16:30 电话会）。上季（Q1）云营收 $20.0B（同比 +63%）、运营利润率升至 32.9%、积压订单约 $462B。
 
-**Alphabet** 本周小幅回落 1.5%，市场在财报前聚焦两条主线。其一为资本开支：2026 年 AI 资本开支指引 **$180B–$190B**（Q1 资本开支 $35.7B、同比 +107%），公司并预告 2027 年开支将进一步显著上行，6 月 $84.75B 股权融资即为 AI 基础设施筹资，投资者担忧自由现金流受压。其二为云与 Gemini 的增长可持续性——Google Cloud 连续数季为大型云商中增速最快，积压订单近乎环比翻倍，本次财报将检验其变现节奏与 TPU 需求。产业面，公司据报在推进专用推理芯片 "Frozen v2"，2026-07-20 相关消息与 AMD 微软合作一同提振了半导体情绪。本季 EPS 可能受非经营性项目扰动，宜关注核心经营口径。（来源：[MarketBeat](https://www.marketbeat.com/articles/alphabets-ai-spending-question-looms-over-q2-earnings/) · [IG](https://www.ig.com/en/news-and-trade-ideas/alphabet-q2-2026-earnings-preview-260716)）
+**Alphabet** 本周小幅回落 1.5%，市场在财报前聚焦两条主线。其一为资本开支：2026 年 AI 资本开支指引 **$180B–$190B**（Q1 资本开支 $35.7B、同比 +107%），公司并预告 2027 年开支将进一步显著上行，6 月 $84.75B 股权融资即为 AI 基础设施筹资，投资者担忧自由现金流受压。其二为云与 Gemini 的增长可持续性——Google Cloud 连续数季为大型云商中增速最快，积压订单近乎环比翻倍，本次财报将检验其变现节奏与 TPU 需求。产业面，公司据报在推进专用推理芯片 "Frozen v2"，2026-07-20 相关消息与 AMD 微软合作一同提振了半导体情绪。本季 EPS 可能受非经营性项目扰动，宜关注核心经营口径。（来源：[CNBC](https://www.cnbc.com/2026/07/17/stock-market-next-week-outlook-for-july-20-24-2026.html) · [MarketBeat](https://www.marketbeat.com/articles/alphabets-ai-spending-question-looms-over-q2-earnings/)）
 
 ## Nvidia (NVDA)
 
