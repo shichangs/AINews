@@ -94,7 +94,7 @@
 
 **股价：** $29.86（本周 -3.3%，YTD -32.4%）｜**情绪：** ➡️｜**下次财报：** 2026-08-05
 
-**Unity** 本周基本走平（-0.7%）收 $30.68，多空交织。利好为分析师上调潮：Piper Sandler 于 2026-07-17 给予 Buy、Zacks 于 2026-07-13 上调至 Strong-Buy、Jefferies 上调目标价并维持 Buy，Wells Fargo 于 2026-07-07 将目标价升至 $36；23 位分析师共识 Moderate Buy、平均目标价升至 **$37.77**。此外，因估值处于低位，媒体报道潜在买家开始围观、引发并购猜测。利空为治理扰动：董事会成员 Shlomo Dovrat 将于 2026-07-24 离任。官方口径（Q1）：营收 $508M，管理层维持 2026 Q4 实现 GAAP 盈利的目标，AI 产品 Vector 扩张，战略营收同比 +35%、调整后 EBITDA 利润率 27%。YTD -30.5%（基准 2025-12-31 收盘 $44.17）。Q2 财报定于 2026-08-05 盘前。（来源：[Finviz（Jefferies）](https://finviz.com/news/117522/jefferies-lifts-unity-software-u-price-target-keeps-buy-rating) · [TipRanks（董事离任）](https://www.tipranks.com/news/company-announcements/unity-software-announces-upcoming-board-member-resignation)）
+**Unity** 本周 -3.3% 收 $29.86，多空交织。利好为分析师上调潮：Piper Sandler 于 2026-07-17 给予 Buy、Zacks 于 2026-07-13 上调至 Strong-Buy、Jefferies 上调目标价并维持 Buy，Wells Fargo 于 2026-07-07 将目标价升至 $36；23 位分析师共识 Moderate Buy、平均目标价升至 **$37.77**。此外，因估值处于低位，媒体报道潜在买家开始围观、引发并购猜测。利空为治理扰动：董事会成员 Shlomo Dovrat 将于 2026-07-24 离任。官方口径（Q1）：营收 $508M，管理层维持 2026 Q4 实现 GAAP 盈利的目标，AI 产品 Vector 扩张，战略营收同比 +35%、调整后 EBITDA 利润率 27%。YTD -32.4%（基准 2025-12-31 收盘 $44.17）。Q2 财报定于 2026-08-05 盘前。（来源：[StockTitan（官方财报日期）](https://www.stocktitan.net/news/U/unity-announces-date-of-second-quarter-2026-financial-results-di5er2kphop9.html) · [TipRanks（董事离任）](https://www.tipranks.com/news/company-announcements/unity-software-announces-upcoming-board-member-resignation) · [Finviz（Jefferies）](https://finviz.com/news/117522/jefferies-lifts-unity-software-u-price-target-keeps-buy-rating)）
 
 ## Hims & Hers Health (HIMS)
 
