@@ -48,7 +48,7 @@
 
 **🔔 今日盘后将发布 Q2 财报（2026-07-22）**：共识营收约 **$26.4B**（同比 +17%）、EPS 约 **$0.52**（同比约 +30%），市场尤其关注剔除监管积分后的汽车毛利率能否维持在 18% 以上。上季（Q1）能源储能装机 8.8 GWh。期权隐含财报后波动约 **±7.6%**。
 
-**Tesla** 已公布 Q2 交付 **480,126 辆**（同比 +25%、环比 +34%），为其近年最强单季；能源储能装机回升至 **13.5 GWh**。但同期 BYD 以 557,090 辆重夺全球纯电销量第一，竞争叙事再度升温。股价在财报前承压：2026-07-20 收 $369.57、单日跌 2.96%，为连续第 4 个交易日下跌。自动驾驶方面，Robotaxi 自 2026-07-03 在迈阿密上线（德州、加州以外首城）后，Musk 将车队规模化与 **FSD v15** 架构重写（参数量约从 10 亿扩至 100 亿）绑定，目标发布窗口已给到 2026 年底至 2027 年初；FSD v14 Lite 版本于 2026-07-20 推向更广用户。分析师 Gary Black 直言，在关键 FSD 目标达成前，Cybercab 车队里程碑"无关紧要"。风险面，奥斯汀受监督车队据报碰撞率约为人类平均的 4 倍并多次上报 NHTSA，成为扩张的安全约束。本次财报的核心检验点为汽车毛利率、Cybercab 量产节奏与资本开支流向。（来源：[TradingKey](https://www.tradingkey.com/analysis/stocks/us-stocks/262039494-tesla-tsla-q2-2026-earnings-preview-july-22-480k-deliveries-tradingkey) · [Tesla Oracle](https://www.teslaoracle.com/2026/07/15/tesla-tsla-scores-the-best-2nd-quarter-ever-energy-business-spikes-announces-q2-2026-earnings-call-schedule/) · [Electrek](https://electrek.co/2026/07/06/tesla-cybercab-production-before-autonomy/)）
+**Tesla** 已公布 Q2 交付 **480,126 辆**（同比 +25%、环比 +34%），为其近年最强单季；能源储能装机回升至 **13.5 GWh**。但同期 BYD 以 557,090 辆重夺全球纯电销量第一，竞争叙事再度升温。股价在财报前承压：2026-07-20 收 $369.57、单日跌 2.96%，为连续第 4 个交易日下跌。自动驾驶方面，Robotaxi 自 2026-07-03 在迈阿密上线（德州、加州以外首城）后，Musk 将车队规模化与 **FSD v15** 架构重写（参数量约从 10 亿扩至 100 亿）绑定，目标发布窗口已给到 2026 年底至 2027 年初；FSD v14 Lite 版本于 2026-07-20 推向更广用户。分析师 Gary Black 直言，在关键 FSD 目标达成前，Cybercab 车队里程碑"无关紧要"。风险面，奥斯汀受监督车队据报碰撞率约为人类平均的 4 倍并多次上报 NHTSA，成为扩张的安全约束。本次财报的核心检验点为汽车毛利率、Cybercab 量产节奏与资本开支流向。（来源：[CNBC](https://www.cnbc.com/2026/07/17/stock-market-next-week-outlook-for-july-20-24-2026.html) · [TradingKey](https://www.tradingkey.com/analysis/stocks/us-stocks/262039494-tesla-tsla-q2-2026-earnings-preview-july-22-480k-deliveries-tradingkey) · [Electrek](https://electrek.co/2026/07/06/tesla-cybercab-production-before-autonomy/)）
 
 ## ⭐ AMD (AMD) — 重点关注
 
@@ -98,9 +98,9 @@
 
 ## Hims & Hers Health (HIMS)
 
-**股价：** $32.70（本周 -4.9%，YTD +0.7%）｜**情绪：** 📉｜**下次财报：** 2026-08（未公告）
+**股价：** $32.70（本周 -4.9%，YTD +0.7%）｜**情绪：** 📉｜**下次财报：** 2026-08-10
 
-**HIMS** 本周 -4.9% 收 $32.70，为连续第 3 个交易日下跌，市场在关键监管事件前谨慎。最大变数：FDA 复配咨询委员会（PCAC）将于 2026-07-23/24 审查 7 种肽（含 **BPC-157**、**TB-500**）能否被特种药房合法复配，Hims 首席医疗官 Anant Vinjamoori 将于 2026-07-23 出席作证；该"肽类可及市场"（含灰市与健康优化用途）据估约 **$30B**，结果对其复配业务收入构成双向影响。情绪转弱的另一诱因是 CFO Oluyemi Okupe 于会前披露减持约 **$229k**。业务面，公司推进 GLP-1 策略调整：向客户提供 Novo Nordisk 一系列 FDA 批准的 GLP-1 药物（含 Wegovy 口服片），并以有限规模提供复配司美格鲁肽；RFK Jr. 早前释放的放宽肽类限制信号仍是中期政策顺风。YTD +0.7%（基准 2025-12-31 收盘 $32.47）。Q2 财报日期官方未公告（预计 2026-08）。（来源：[Fortune](https://fortune.com/2026/07/20/the-fda-peptide-vote-could-create-telehealths-next-multibillion-dollar-market-telehealth-hims-ro-glp1-ozempic-injectables/) · [Hims IR（GLP-1 上线）](https://investors.hims.com/news/news-details/2026/Novo-Nordisks-FDA-Approved-GLP-1s-Now-Available-With-Hims--Hers/default.aspx)）
+**HIMS** 本周 -4.9% 收 $32.70，为连续第 3 个交易日下跌，市场在关键监管事件前谨慎。最大变数：FDA 复配咨询委员会（PCAC）将于 2026-07-23/24 审查 7 种肽（含 **BPC-157**、**TB-500**）能否被特种药房合法复配，Hims 首席医疗官 Anant Vinjamoori 将于 2026-07-23 出席作证；该"肽类可及市场"（含灰市与健康优化用途）据估约 **$30B**，结果对其复配业务收入构成双向影响。情绪转弱的另一诱因是 CFO Oluyemi Okupe 于会前披露减持约 **$229k**。业务面，公司推进 GLP-1 策略调整：向客户提供 Novo Nordisk 一系列 FDA 批准的 GLP-1 药物（含 Wegovy 口服片），并以有限规模提供复配司美格鲁肽；RFK Jr. 早前释放的放宽肽类限制信号仍是中期政策顺风。YTD +0.7%（基准 2025-12-31 收盘 $32.47）。Q2 财报定于 2026-08-10 盘后（官方已公告）。（来源：[Hims IR（Q2 财报日期）](https://investors.hims.com/news/news-details/2026/Hims--Hers-to-Announce-Second-Quarter-2026-Financial-Results-on-August-10-2026/default.aspx) · [Hims IR（GLP-1 上线）](https://investors.hims.com/news/news-details/2026/Novo-Nordisks-FDA-Approved-GLP-1s-Now-Available-With-Hims--Hers/default.aspx) · [Fortune](https://fortune.com/2026/07/20/the-fda-peptide-vote-could-create-telehealths-next-multibillion-dollar-market-telehealth-hims-ro-glp1-ozempic-injectables/)）
 
 ## 🔭 下周值得盯
 
