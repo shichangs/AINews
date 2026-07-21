@@ -88,13 +88,11 @@
 
 **股价：** $865.46（本周 -11.6%，YTD +203.4%）｜**情绪：** ➡️｜**下次财报：** 2026-09-29（待确认）
 
-**Micron** 本周 **-11.6%** 收 $865.46，为组合内最大跌幅，随后在 2026-07-20/21 急速反弹（周一涨约 5.5%）。下跌导火索：中国 **CXMT** 于 2026-07-15 宣布 $8.5B IPO，且美方据报考虑新增 HBM 出口限制，当日 MU 跌约 7%；SK Hynix 的存储涨价预警亦加剧比价波动。反弹动能来自卖方回补：BofA 将 MU 纳入 "US 1 List"、称中国 AI"对存储需求不构成威胁"，Morgan Stanley 称此轮回调是"强力入场点"、预测存储价格将上涨约 25%，UBS 的 Timothy Arcuri 则看到 2028 年前大额回购空间。基本面（FQ3，截至 2026-05-29）：营收 **$10.85B**（同比 +37%）、GAAP EPS $2.52、非 GAAP 毛利率 41.3%；公司称 HBM 产能 2026 与 2027 年已售罄，并为 Anthropic 新一代 AI 系统主供内存与存储。52 周区间显示波动巨大（$103.38–$1,255.00）。下一季 FQ4 财报预计 2026-09 下旬（日期待官方确认）。（来源：[Barron's](https://www.barrons.com/articles/micron-stock-price-sk-hynix-memory-5c384a21) · [TipRanks（BofA US 1 List）](https://www.tipranks.com/news/buy-micron-stock-as-chinese-ai-is-no-threat-to-memory-demand-says-bofa)）
-
-> 数字诚信更正：上期（07-13）Micron 段落所载 "FQ4 营收 $50.0B、非 GAAP 毛利率 86%、EPS $31.00" 与公司实际量级不符（FQ3 实际营收 $10.85B、毛利率 41.3%、EPS $2.52），本期已按一手量级修正，不予沿用。
+**Micron** 本周 **-11.6%** 收 $865.46，为组合内最大跌幅，随后在 2026-07-20/21 急速反弹（周一涨约 5.5%）。下跌导火索：中国 **CXMT** 于 2026-07-15 宣布 $8.5B IPO，且美方据报考虑新增 HBM 出口限制，当日 MU 跌约 7%；SK Hynix 的存储涨价预警亦加剧比价波动。反弹动能来自卖方回补：BofA 将 MU 纳入 "US 1 List"、称中国 AI"对存储需求不构成威胁"，Morgan Stanley 称此轮回调是"强力入场点"、预测存储价格将上涨约 25%，UBS 的 Timothy Arcuri 则看到 2028 年前大额回购空间。基本面（FQ3，截至 2026-05-28）：营收创纪录 **$41.46B**（同比 +346%、环比 +74%）、非 GAAP 摊薄 EPS **$25.11**（超共识 $20.71）、非 GAAP 毛利率 84.9%（创纪录），其中 DRAM 营收 $31.3B（占 76%）；FQ4 指引营收 $50B、毛利率约 86%。公司称 HBM 产能 2026 与 2027 年已售罄，并为 Anthropic 新一代 AI 系统主供内存与存储。52 周区间显示波动巨大（$103.38–$1,255.00）。下一季 FQ4 财报预计 2026-09 下旬（日期待官方确认）。（来源：[Micron IR（FQ3 创纪录业绩）](https://investors.micron.com/news-releases/news-release-details/micron-technology-inc-reports-record-results-third-quarter) · [Barron's](https://www.barrons.com/articles/micron-stock-price-sk-hynix-memory-5c384a21) · [TipRanks（BofA US 1 List）](https://www.tipranks.com/news/buy-micron-stock-as-chinese-ai-is-no-threat-to-memory-demand-says-bofa)）
 
 ## Unity Software (U)
 
-**股价：** $30.68（本周 -0.7%，YTD -30.5%）｜**情绪：** ➡️｜**下次财报：** 2026-08-05
+**股价：** $29.86（本周 -3.3%，YTD -32.4%）｜**情绪：** ➡️｜**下次财报：** 2026-08-05
 
 **Unity** 本周基本走平（-0.7%）收 $30.68，多空交织。利好为分析师上调潮：Piper Sandler 于 2026-07-17 给予 Buy、Zacks 于 2026-07-13 上调至 Strong-Buy、Jefferies 上调目标价并维持 Buy，Wells Fargo 于 2026-07-07 将目标价升至 $36；23 位分析师共识 Moderate Buy、平均目标价升至 **$37.77**。此外，因估值处于低位，媒体报道潜在买家开始围观、引发并购猜测。利空为治理扰动：董事会成员 Shlomo Dovrat 将于 2026-07-24 离任。官方口径（Q1）：营收 $508M，管理层维持 2026 Q4 实现 GAAP 盈利的目标，AI 产品 Vector 扩张，战略营收同比 +35%、调整后 EBITDA 利润率 27%。YTD -30.5%（基准 2025-12-31 收盘 $44.17）。Q2 财报定于 2026-08-05 盘前。（来源：[Finviz（Jefferies）](https://finviz.com/news/117522/jefferies-lifts-unity-software-u-price-target-keeps-buy-rating) · [TipRanks（董事离任）](https://www.tipranks.com/news/company-announcements/unity-software-announces-upcoming-board-member-resignation)）
 
