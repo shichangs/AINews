@@ -88,7 +88,7 @@
 
 **本周财报（2026-08-06，盘前）**：实际 Non-GAAP EPS $0.28 vs 共识 $0.25（超 12.4%），营收 $546.5M vs 共识 $514.17M；当日股价 +15.05% 至 $40.81，次日再涨 5.37%。
 
-CEO Matt Bromberg 称"这可以说是 Unity 作为上市公司历史上最好的一个季度"（原话引用）。营收同比增长 **24%**，其中战略收入 $486M、同比增长 38%，调整后 EBITDA 同比增长 77%；自由现金流创纪录 **$202M**，公司转为净现金头寸，现金余额 $2.36B；股权激励费用同比下降 25%、占营收 14% 为历史最低。CFO Jarrod Yahes 在电话会上表示，公司将于 2026 年三季度实现 GAAP 净利润转正，较原指引提前一个季度。Q3 指引战略收入 $540M–$550M（同比增长 44%–47%）、调整后 EBITDA $185M–$190M。卖方反应罕见一致：BofA、Deutsche Bank、HSBC、Benchmark 上调评级至买入且目标价均设 $50，另有 9 家上调目标价至 $45–$55 区间，驱动力被普遍归因于 Vector AI 广告平台的加速（来源：[Unity Q2 2026 Results](https://www.businesswire.com/news/home/20260806640439/en/Unity-Reports-Second-Quarter-2026-Financial-Results/) · [TheFly](https://www.tipranks.com/news/the-fly/unity-upgraded-to-buy-at-bofa-on-sustainable-vector-growth-thefly-news)）
+CEO Matt Bromberg 称"这可以说是 Unity 作为上市公司历史上最好的一个季度"（原话引用）。营收同比增长 **24%**，其中战略收入 $486M、同比增长 38%，调整后 EBITDA 同比增长 77%；自由现金流创纪录 **$202M**，公司转为净现金头寸，现金余额 $2.36B。CFO Jarrod Yahes 在电话会上表示，公司将于 2026 年三季度实现 GAAP 净利润转正，较原指引提前一个季度。Q3 指引战略收入 $540M–$550M（同比增长 44%–47%）。卖方反应罕见一致：BofA、Deutsche Bank、HSBC、Benchmark 上调评级至买入且目标价均设 $50，另有 9 家上调目标价至 $45–$55 区间，驱动力被普遍归因于 Vector AI 广告平台的加速（来源：[Unity Q2 2026 Results](https://www.businesswire.com/news/home/20260806640439/en/Unity-Reports-Second-Quarter-2026-Financial-Results/) · [TheFly](https://www.tipranks.com/news/the-fly/unity-upgraded-to-buy-at-bofa-on-sustainable-vector-growth-thefly-news)）
 
 ## Nvidia (NVDA)
 
@@ -100,7 +100,7 @@ CEO Matt Bromberg 称"这可以说是 Unity 作为上市公司历史上最好的
 
 **股价：** $354.30（本周 -0.5%，YTD +13.2%）｜**情绪：** 📉｜**下次财报：** Q3 预计 2026-10（未公告）
 
-一周内先扬后抑。08-03 股价大涨 4.88%，Morgan Stanley 就 AI 基建创纪录投入向投资者作出正面解读；随后 08-05 至 08-07 三连跌，全周收跌 **0.5%**。最大单日利空是人事：任职 27 年的首席科学家 **Jeff Dean** 于 08-05 离职并创办 AI 科研公司 Discovery Loop，当日股价跌 4.03%；同日 Demis Hassabis 卸任 Google DeepMind CEO、转任 Alphabet 首席科学家兼 DeepMind 主席，Koray Kavukcuoglu 接管日常运营与 Gemini 路线图。融资端压力同步累积：公司 08-06 发行 **$25B** 投资级债券，分十档、期限 2 至 40 年，认购峰值约 $115B，为目标规模逾四倍——旺盛需求本身却被市场读作 AI 资本开支失控的信号。Q2 资本开支翻倍至约 $44.9B，全年指引已升至 $195B–$205B，并录得首次单季自由现金流赤字 -$5.9B（来源：[Alphabet Form FWP](https://www.sec.gov/Archives/edgar/data/0001652044/000119312526251733/d160205dfwp.htm) · [CNBC](https://www.cnbc.com/2026/08/05/google-chief-scientist-jeff-dean-leaving-company-after-27-years.html) · [Bloomberg](https://www.bloomberg.com/news/articles/2026-08-06/alphabet-returns-to-bond-market-amid-ai-spending-worries)）
+一周内先扬后抑。08-03 股价大涨 4.88%，Morgan Stanley 就 AI 基建创纪录投入作出正面解读；随后 08-05 至 08-07 三连跌，全周收跌 **0.5%**。最大单日利空是人事：任职 27 年的首席科学家 **Jeff Dean** 于 08-05 离职并创办 AI 科研公司 Discovery Loop，当日股价跌 4.03%；同日 Demis Hassabis 卸任 Google DeepMind CEO、转任 Alphabet 首席科学家兼 DeepMind 主席。融资端压力同步累积：公司 08-06 发行 **$25B** 投资级债券，分十档、期限 2 至 40 年，认购峰值约 $115B 为目标规模逾四倍——旺盛需求本身却被市场读作 AI 资本开支失控的信号。Q2 资本开支翻倍至约 $44.9B，全年指引已升至 $195B–$205B，并录得首次单季自由现金流赤字 -$5.9B（来源：[Alphabet Form FWP](https://www.sec.gov/Archives/edgar/data/0001652044/000119312526251733/d160205dfwp.htm) · [CNBC](https://www.cnbc.com/2026/08/05/google-chief-scientist-jeff-dean-leaving-company-after-27-years.html) · [Bloomberg](https://www.bloomberg.com/news/articles/2026-08-06/alphabet-returns-to-bond-market-amid-ai-spending-worries)）
 
 ## Micron (MU)
 
@@ -114,7 +114,7 @@ CEO Matt Bromberg 称"这可以说是 Unity 作为上市公司历史上最好的
 
 **上上周财报（2026-07-28，未在上期周报覆盖）**：实际 Non-GAAP EPS $1.38 vs 共识 $1.28（超 7.8%），营收 $8.68B vs 共识 $8.47B；盘后反应 +4.01%。全年 Non-GAAP EPS 指引上调至 $5.38，全年交易利润美元约 $15.6B。
 
-收购战仍是主线。Stripe 与 Advent International 提出的 **$60.50/股**、总额逾 $53B 的收购要约，据 Reuters 引述消息人士报道已在 2026-07-20 董事会特别会议上被拒绝，董事会认为报价未充分反映管理层战略执行到位后的潜在价值，并存在监管与融资障碍；报道称董事会立场为推动提价而非终局拒绝（官方未确认）。本期基本面消息偏正面：公司据报将首次为三大核心业务单元设定独立营收目标（官方未确认）；Cantor Fitzgerald 于 08-04 将目标价由 $54 上调至 $60，Truist 于 08-06 由 $57 上调至 **$59**（来源：[PayPal Q2 2026 新闻稿](https://newsroom.paypal-corp.com/2026-07-28-PayPal-Reports-Second-Quarter-2026-Results) · [Reuters/Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/exclusive-paypal-board-sees-stripe-222532613.html)）
+收购战仍是主线。Stripe 与 Advent International 提出的 **$60.50/股**、总额逾 $53B 的收购要约，据 Reuters 引述消息人士报道已在 2026-07-20 董事会特别会议上被拒绝，理由是报价未充分反映战略执行到位后的潜在价值，且存在监管与融资障碍；报道称董事会立场为推动提价而非终局拒绝（官方未确认）。本期基本面消息偏正面：Cantor Fitzgerald 于 08-04 将目标价由 $54 上调至 $60，Truist 于 08-06 由 $57 上调至 **$59**（来源：[PayPal Q2 2026 新闻稿](https://newsroom.paypal-corp.com/2026-07-28-PayPal-Reports-Second-Quarter-2026-Results) · [Reuters/Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/exclusive-paypal-board-sees-stripe-222532613.html)）
 
 ## 🔭 下周值得盯
 
