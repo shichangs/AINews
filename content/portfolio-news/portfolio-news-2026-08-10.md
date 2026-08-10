@@ -119,10 +119,10 @@ CEO Matt Bromberg 称"这可以说是 Unity 作为上市公司历史上最好的
 ## 🔭 下周值得盯
 
 - **2026-08-10（盘后）｜Hims & Hers Q2 财报**：共识营收 $698.9M、EPS -$0.05，期权隐含 ±14.5% 波动，是 FTC 诉讼后管理层首次公开面对投资者（[Hims & Hers IR](https://investors.hims.com/events-and-presentations/events-calendar/event-details/2026/Hims--Hers-Second-Quarter-2026-Earnings-Call/default.aspx)）
-- **2026-08-12（美东 08:30）｜美国 7 月 CPI**：共识同比 +3.4%、核心 +2.5%。7 月非农意外萎缩后，这份数据是"9 月暂停加息"定价能否成立的最直接检验（[BLS](https://www.bls.gov/cpi/)）
-- **2026-08-13｜美国 7 月 PPI**：与 CPI 交叉验证关税驱动的商品价格压力，对半导体与消费板块估值敏感度较高（[Capital Street FX](https://capitalstreetfx.com/market-analysis/week-ahead-1014-august-2026-july/)）
-- **2026-08-14｜7 月零售销售 + 密歇根大学消费者信心初值**：能源价格上行背景下，消费韧性数据将决定加息路径是否再度转鹰（[Kiplinger](https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar)）
-- **2026-08-14｜机构 Q2 13F 申报截止**：本期已出现凯茜·伍德减持 Palantir、迈克尔·伯里维持 PLTR 空头等仓位变动报道，13F 将给出可核验的机构持仓口径（[TipRanks](https://www.tipranks.com/news/cathie-wood-makes-a-22m-bet-on-block-after-earnings-sells-shopify-and-palantir)）
+- 2026-08-12（美东 08:30）｜美国 7 月 CPI：共识同比 +3.4%、核心 +2.5%。7 月非农意外萎缩后，这份数据是"9 月暂停加息"定价能否成立的最直接检验（[BLS](https://www.bls.gov/cpi/)）
+- 2026-08-13｜美国 7 月 PPI：与 CPI 交叉验证关税驱动的商品价格压力，对半导体与消费板块估值敏感度较高（[Capital Street FX](https://capitalstreetfx.com/market-analysis/week-ahead-1014-august-2026-july/)）
+- 2026-08-14｜7 月零售销售 + 密歇根大学消费者信心初值：能源价格上行背景下，消费韧性数据将决定加息路径是否再度转鹰（[Kiplinger](https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar)）
+- 2026-08-14｜机构 Q2 13F 申报截止：本期已出现凯茜·伍德减持 Palantir、迈克尔·伯里维持 PLTR 空头等仓位变动报道，13F 将给出可核验的机构持仓口径（[TipRanks](https://www.tipranks.com/news/cathie-wood-makes-a-22m-bet-on-block-after-earnings-sells-shopify-and-palantir)）
 
 *数据来源：公开财经资讯，截止 2026-08-07。本报告仅供参考，不构成任何投资建议。*
 
