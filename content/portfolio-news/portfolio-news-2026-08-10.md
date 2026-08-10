@@ -80,7 +80,7 @@
 
 **本周财报（2026-08-03）**：实际 Non-GAAP EPS $0.41 vs 共识 $0.35（超 17.1%），营收 $1.94B vs 共识 $1.81B；次日收涨 29.45% 至 $162.66。
 
-这是 Palantir 上市以来最有说服力的一份季报之一。营收同比增长 **93%**，美国商业收入同比增长 149% 至 $764M，调整后经营利润率 62%，调整后自由现金流 $1.22B（利润率 63%），Rule of 40 升至 155。合同侧同样强劲：Q2 总合同价值 $3.37B、同比增长 49%，美国商业 TCV 创纪录 $2.13B。公司把全年营收指引上调至 **$8.150B–$8.158B**，美国商业收入指引上调至逾 $3.424B，全年调整后自由现金流指引 $4.5B–$4.7B。CEO 卡普称"这个季度是超凡的……主权 AI 革命让我们对未来非常乐观"（原话引用）。08-07 股价再涨 10.32%，成交量为三个月均量的约 1.75 倍，催化剂是 Bank of America 重申买入并将目标价上调至 $255（来源：[Palantir Q2 2026 8-K](https://www.sec.gov/Archives/edgar/data/0001321655/000132165526000039/a2026q2ex991pressrelease.htm) · [CNBC](https://www.cnbc.com/2026/08/03/palantir-pltr-earnings-q2-2026.html) · [MarketWatch](https://www.marketwatch.com/story/palantirs-stock-stages-best-week-since-2024-showing-its-no-longer-an-ai-loser-2fc6c32b)）
+这是 Palantir 上市以来最有说服力的一份季报之一。营收同比增长 **93%**，美国商业收入同比增长 149% 至 $764M，调整后经营利润率 62%，调整后自由现金流 $1.22B，Rule of 40 升至 155。合同侧同样强劲：Q2 总合同价值 $3.37B、同比增长 49%，美国商业 TCV 创纪录 $2.13B。全年营收指引上调至 **$8.150B–$8.158B**，美国商业收入指引上调至逾 $3.424B。CEO 卡普称"这个季度是超凡的……主权 AI 革命让我们对未来非常乐观"（原话引用）。08-07 股价再涨 10.32%，催化剂是 Bank of America 重申买入并将目标价上调至 $255（来源：[Palantir Q2 2026 8-K](https://www.sec.gov/Archives/edgar/data/0001321655/000132165526000039/a2026q2ex991pressrelease.htm) · [CNBC](https://www.cnbc.com/2026/08/03/palantir-pltr-earnings-q2-2026.html) · [MarketWatch](https://www.marketwatch.com/story/palantirs-stock-stages-best-week-since-2024-showing-its-no-longer-an-ai-loser-2fc6c32b)）
 
 ## Unity Software (U)
 
