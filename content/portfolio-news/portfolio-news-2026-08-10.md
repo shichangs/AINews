@@ -88,7 +88,7 @@
 
 **本周财报（2026-08-06，盘前）**：实际 Non-GAAP EPS $0.28 vs 共识 $0.25（超 12.4%），营收 $546.5M vs 共识 $514.17M；当日股价 +15.05% 至 $40.81，次日再涨 5.37%。
 
-CEO Matt Bromberg 称"这可以说是 Unity 作为上市公司历史上最好的一个季度"（原话引用）。营收同比增长 **24%**，其中战略收入 $486M、同比增长 38%，调整后 EBITDA 同比增长 77%；自由现金流创纪录 **$202M**，公司转为净现金头寸，现金余额 $2.36B。CFO Jarrod Yahes 在电话会上表示，公司将于 2026 年三季度实现 GAAP 净利润转正，较原指引提前一个季度。Q3 指引战略收入 $540M–$550M（同比增长 44%–47%）。卖方反应罕见一致：BofA、Deutsche Bank、HSBC、Benchmark 上调评级至买入且目标价均设 $50，另有 9 家上调目标价至 $45–$55 区间，驱动力被普遍归因于 Vector AI 广告平台的加速（来源：[Unity Q2 2026 Results](https://www.businesswire.com/news/home/20260806640439/en/Unity-Reports-Second-Quarter-2026-Financial-Results/) · [TheFly](https://www.tipranks.com/news/the-fly/unity-upgraded-to-buy-at-bofa-on-sustainable-vector-growth-thefly-news)）
+CEO Matt Bromberg 称"这可以说是 Unity 作为上市公司历史上最好的一个季度"（原话引用）。营收同比增长 **24%**，其中战略收入 $486M、同比增长 38%，调整后 EBITDA 同比增长 77%；自由现金流创纪录 **$202M**，公司转为净现金头寸。CFO Jarrod Yahes 在电话会上表示，公司将于 2026 年三季度实现 GAAP 净利润转正，较原指引提前一个季度。Q3 指引战略收入 $540M–$550M。卖方反应罕见一致：BofA、Deutsche Bank、HSBC、Benchmark 上调评级至买入且目标价均设 $50，另有 9 家上调目标价至 $45–$55，驱动力被普遍归因于 Vector AI 广告平台的加速（来源：[Unity Q2 2026 Results](https://www.businesswire.com/news/home/20260806640439/en/Unity-Reports-Second-Quarter-2026-Financial-Results/) · [TheFly](https://www.tipranks.com/news/the-fly/unity-upgraded-to-buy-at-bofa-on-sustainable-vector-growth-thefly-news)）
 
 ## Nvidia (NVDA)
 
