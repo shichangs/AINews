@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T01:16:21.108Z",
+  "generatedAt": "2026-08-10T01:18:53.231Z",
   "sourceDirectories": {
     "daily": "/home/runner/work/AINews/AINews/content/daily-ai-news",
     "weekly": "/home/runner/work/AINews/AINews/content/daily-ai-news/weekly",
@@ -7,6 +7,178 @@
     "weeklyAiTech": "/home/runner/work/AINews/AINews/content/weekly-ai-tech"
   },
   "issues": [
+    {
+      "id": "2026-08-10",
+      "date": "2026-08-10",
+      "label": "8月10日",
+      "title": "每日前沿 AI 行业新闻 — 2026年8月10日",
+      "summary": "- 🔥 Amazon 德州自备燃气电厂或成全美最大单一排污源：Pecos County 的 35 台燃机、7.65GW 装机专供 AI 数据中心，许可获批年排 3,300 万吨 温室气体。\n- NVIDIA 拟向 Lancium 投最高 $30 亿：这家 Blackstone 支持的电力开发商持有 Stargate 首个运营站点 Abilene 园区，首轮 $20 亿换约 20% 股权。\n- 发改委披露算力底座数据：截至 6 月底全国智能算力规模 2,185 EFLOPS、同比 +177%，\"十五五\"算力网规划新增直接投资 4 万亿元。\n- Claude Code 将默认开启 auto mode：8/14 起 Pro / Max / Team 新会话默认由分类器代替逐条人工批准，1,053 人测试中拦下 89% 危险命令。\n- 苹果中国官网\"Apple 智能接入千问\"指南上线不足一日即撤下：客服称国行 AI 功能仍在审批流程中。",
+      "sections": [
+        "AI 基础设施与能源",
+        "中国 AI",
+        "AI Agent",
+        "AI Labs",
+        "产品",
+        "芯片"
+      ],
+      "stories": [
+        {
+          "tag": "AI 基础设施与能源",
+          "impact": "高热",
+          "title": "🔥 Amazon 德州 7.65GW 自备燃气电厂获批，年排放量或居全美电厂之首",
+          "detail": "获批年排 3,300 万吨 温室气体，将使这座电厂成为全美单一最大排污源。8/8 纽约时报依据项目许可披露：Amazon 参与投资的定制电厂位于德州 Pecos County，以 35 台燃气轮机提供最高 7.65GW 电力，与同址 AI 数据中心配套、不接入电网。对照系数很直…",
+          "links": [
+            {
+              "label": "The New York Times",
+              "url": "https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html"
+            },
+            {
+              "label": "TechCrunch",
+              "url": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/"
+            }
+          ],
+          "anchor": "amazon-德州-7-65gw-自备燃气电厂获批-年排放量或居全美电厂之首"
+        },
+        {
+          "tag": "AI 基础设施与能源",
+          "impact": "资本",
+          "title": "NVIDIA 拟投最高 $30 亿入股 Stargate 电力开发商 Lancium",
+          "detail": "Lancium 企业估值约 $100 亿、正探索 2027 年 IPO，NVIDIA 首轮 $20 亿换约 20% 股权。据 The Information 8/7 晚首发、Reuters 8/8 跟进，交易分两档：首轮 $20 亿，若达成电网接入等门槛再追加 $10 亿。La…",
+          "links": [
+            {
+              "label": "Reuters",
+              "url": "https://www.reuters.com/business/nvidia-invest-up-3-billion-lancium-information-reports-2026-08-08/"
+            },
+            {
+              "label": "The Information",
+              "url": "https://www.theinformation.com/articles/nvidia-invest-3-billion-blackstone-backed-power-firm-behind-stargate"
+            }
+          ],
+          "anchor": "nvidia-拟投最高-30-亿入股-stargate-电力开发商-lancium"
+        },
+        {
+          "tag": "中国 AI",
+          "impact": "关注",
+          "title": "发改委披露算力底座数据：智能算力 2,185 EFLOPS，\"十五五\"新增投资 4 万亿元",
+          "detail": "\"十五五\"算力网规划新增直接投资 4 万亿元，全国算力\"一张网\"进入并网阶段。8/9 国家发展改革委通过央视披露的这组数字包括：截至 6 月底全国智能算力规模 2,185 EFLOPS、同比 +177%，全国超六成算力已纳入统一监测。硬件侧的样本是国家超算互联网郑州核心节点——…",
+          "links": [
+            {
+              "label": "每日经济新闻（转央视新闻）",
+              "url": "https://www.nbd.com.cn/articles/2026-08-09/4536318.html"
+            },
+            {
+              "label": "新浪科技",
+              "url": "https://finance.sina.com.cn/tech/digi/2026-08-09/doc-inimswyr3491063.shtml"
+            }
+          ],
+          "anchor": "发改委披露算力底座数据-智能算力-2-185-eflops-十五五-新增投资-4-万亿元"
+        },
+        {
+          "tag": "中国 AI",
+          "impact": "更新",
+          "title": "苹果中国官网\"Apple 智能接入千问\"指南上线不足一日被撤下",
+          "detail": "国行 Apple 智能仍需过审——上线不足一日的千问使用指南 8/9 被撤回。这份指南 8/8 出现在苹果中国官网 Mac 板块，写明设置\"千问扩展\"后可用写作工具生成文本、通过 Siri 从千问获取答案；8/9 页面被删除，当前官网仅保留 Apple 智能搭配 ChatGPT…",
+          "links": [
+            {
+              "label": "新浪财经",
+              "url": "http://finance.sina.com.cn/roll/2026-08-08/doc-inimrkxi4018430.shtml"
+            },
+            {
+              "label": "每日经济新闻",
+              "url": "https://www.nbd.com.cn/articles/2026-08-09/4536326.html"
+            }
+          ],
+          "anchor": "苹果中国官网-apple-智能接入千问-指南上线不足一日被撤下"
+        },
+        {
+          "tag": "中国 AI",
+          "impact": "关注",
+          "title": "市场监管总局：上半年生成式 AI 新设企业 5.5 万户，同比增长 28.0%",
+          "detail": "上半年生成式 AI 新设企业 5.5 万户、同比 +28.0%，人形机器人 11.6 万户、同比 +9.5%。市场监管总局 8/8 公布的这组经营主体数据里，\"8 大新兴产业 + 9 大未来产业\"合计新设 56.1 万户。两条曲线的斜率差值得留意：生成式 AI 的增速接近人形机…",
+          "links": [
+            {
+              "label": "人民网",
+              "url": "http://finance.people.com.cn/n1/2026/0808/c1004-40776103.html"
+            },
+            {
+              "label": "央广网",
+              "url": "https://china.cnr.cn/news/20260809/t20260809_527754539.shtml"
+            }
+          ],
+          "anchor": "市场监管总局-上半年生成式-ai-新设企业-5-5-万户-同比增长-28-0"
+        },
+        {
+          "tag": "AI Agent",
+          "impact": "关注",
+          "title": "Claude Code 8/14 起把 auto mode 设为默认，分类器替代逐条人工批准",
+          "detail": "8/14 起 Pro / Max / Team 新会话默认开启 auto mode，已自设默认模式的用户会收到一次性切换询问。Anthropic 8/8 的公告给出的依据是一项 1,053 名付费测试者参与的研究：auto mode 拦下 89% 的危险命令，人工审批的拦截率只…",
+          "links": [
+            {
+              "label": "Anthropic 官方博客",
+              "url": "https://claude.com/blog/auto-mode-default-in-claude-code"
+            },
+            {
+              "label": "TechCrunch",
+              "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/"
+            }
+          ],
+          "anchor": "claude-code-8-14-起把-auto-mode-设为默认-分类器替代逐条人工批准"
+        },
+        {
+          "tag": "AI Labs",
+          "impact": "关注",
+          "title": "传 OpenAI 推进代号 Doug 的最大规模预训练项目",
+          "detail": "传 OpenAI 正推进代号 Doug 的新一轮预训练，规模为其历来最大，官方未确认。消息来自长期关注 OpenAI 模型动向的 X 用户 ChrisGPT 8/9 的爆料，转述称 Doug 与 GPT-6 并非同一模型，最迟可能在 11 月 前推出。该消息源同时称，GPT-6…",
+          "links": [
+            {
+              "label": "机器之心（转 X 爆料）",
+              "url": "http://k.sina.com.cn/article_5952915705_162d248f906703kud0.html"
+            },
+            {
+              "label": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-08-07/openai-pauses-some-work-on-new-astra-model-over-cyber-concerns"
+            }
+          ],
+          "anchor": "传-openai-推进代号-doug-的最大规模预训练项目"
+        },
+        {
+          "tag": "产品",
+          "impact": "关注",
+          "title": "📌 OpenAI Atlas 浏览器 8/9 停止工作，数据不自动迁移",
+          "detail": "书签、标签页与浏览历史不会自动迁移——Atlas 8/9 停服，用户须手动导出。这兑现了 7 月公布的下线时间表（前情见 08-04、08-06 归档\"本周值得盯\"）：OpenAI 把 agentic 浏览能力并入 ChatGPT 与 Codex，不再维护独立浏览器；官方给出的…",
+          "links": [
+            {
+              "label": "OpenAI Help Center",
+              "url": "https://help.openai.com/en/articles/20001371-evolving-atlas-into-chatgpt-for-browser-based-agentic-work"
+            },
+            {
+              "label": "TechRadar",
+              "url": "https://www.techradar.com/pro/openai-shuts-down-its-atlas-browser-after-not-even-a-year"
+            }
+          ],
+          "anchor": "openai-atlas-浏览器-8-9-停止工作-数据不自动迁移"
+        },
+        {
+          "tag": "芯片",
+          "impact": "资本",
+          "title": "Situational Awareness 向光刻创业公司 Source Foundry 追投 $4 亿",
+          "detail": "Source Foundry 估值约 $50 亿，Situational Awareness 追投 $4 亿、累计持仓达 $5 亿。据 Bloomberg 8/8 报道，这笔投资揭开了该基金此前未披露的一笔\"神秘投资\"标的；TechCrunch 8/9 跟进。时点是这条新闻的信…",
+          "links": [
+            {
+              "label": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-08-08/situational-awareness-s-mystery-investment-was-to-source-foundry"
+            },
+            {
+              "label": "TechCrunch",
+              "url": "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/"
+            }
+          ],
+          "anchor": "situational-awareness-向光刻创业公司-source-foundry-追投-4-亿"
+        }
+      ],
+      "sourceFile": "/home/runner/work/AINews/AINews/content/daily-ai-news/2026-08-10.md",
+      "htmlContent": "<p>&gt; 注：今日新闻稀疏，覆盖窗口 48h（UTC 2026-08-08 00:00 至 08-10 00:00，对应 CST 8/8 8:00 至 8/10 8:00）。8/8–8/9 为周末，严格 24h 窗口内条目仅 4 个，按规则扩窗。前两日归档 08-09、08-08 均缺失，去重比对以 08-06、08-04 为锚。一手来源核对：Anthropic Newsroom（站内最新 8/7 Fable 5 生物安全防护，窗口外；本期 §3 的 auto mode 出自 claude.com 官方博客 8/8）、OpenAI News（Product 线最新 8/6 GPT-5.6 Sol，Safety 线最新 7/20，Astra 暂停声明为 8/7、窗口外）、NVIDIA Newsroom / Meta AI Blog / Cursor Changelog / Google DeepMind（均无窗口内条目，站点直取受限时以 WebSearch 缓存标题核对）、Claude Code Releases（最新 v2.1.193，6/25）、DeepSeek 更新日志（最新 7/31）、Qwen（qwen.ai 为 JS 渲染、正文不可直取）、智谱（无窗口内官方发布）、Hugging Face 中文榜（JS 渲染不可直取）。窗口外不收录的重要事件：OpenAI 因网络安全能力暂停 Astra（8/7）、xAI 发布 Grok 4.6（8/7）、宇树科技定价 150.80 元/股（8/6 晚公告）、月之暗面改制为股份公司（7/29）——其中 Astra 线索仅作为 §4 的背景出现。</p>\n<h3 id=\"今日摘要\">今日摘要</h3>\n<ul><li>🔥 <strong>Amazon 德州自备燃气电厂或成全美最大单一排污源</strong>：Pecos County 的 <strong>35</strong> 台燃机、<strong>7.65GW</strong> 装机专供 AI 数据中心，许可获批年排 <strong>3,300 万吨</strong> 温室气体。</li><li><strong>NVIDIA 拟向 Lancium 投最高 $30 亿</strong>：这家 Blackstone 支持的电力开发商持有 Stargate 首个运营站点 Abilene 园区，首轮 $20 亿换约 <strong>20%</strong> 股权。</li><li><strong>发改委披露算力底座数据</strong>：截至 6 月底全国智能算力规模 <strong>2,185 EFLOPS</strong>、同比 <strong>+177%</strong>，&quot;十五五&quot;算力网规划新增直接投资 <strong>4 万亿元</strong>。</li><li><strong>Claude Code 将默认开启 auto mode</strong>：<strong>8/14</strong> 起 Pro / Max / Team 新会话默认由分类器代替逐条人工批准，1,053 人测试中拦下 <strong>89%</strong> 危险命令。</li><li><strong>苹果中国官网&quot;Apple 智能接入千问&quot;指南上线不足一日即撤下</strong>：客服称国行 AI 功能仍在审批流程中。</li></ul>\n<h3 id=\"1-ai-基础设施与能源\">1. AI 基础设施与能源</h3>\n<h4 class=\"entry-heading\" id=\"amazon-德州-7-65gw-自备燃气电厂获批-年排放量或居全美电厂之首\">🔥 Amazon 德州 7.65GW 自备燃气电厂获批，年排放量或居全美电厂之首</h4>\n<p>获批年排 <strong>3,300 万吨</strong> 温室气体，将使这座电厂成为全美单一最大排污源。8/8 纽约时报依据项目许可披露：Amazon 参与投资的定制电厂位于德州 Pecos County，以 <strong>35</strong> 台燃气轮机提供最高 <strong>7.65GW</strong> 电力，与同址 AI 数据中心配套、不接入电网。对照系数很直接——目前全美排放最高的在运电厂是阿拉巴马州 Quinton 的燃煤电厂 James H. Miller Jr.，年排约 <strong>1,600 万吨</strong>，新厂是其两倍有余。与之冲突的是 Amazon 自己 2040 年全球业务净零碳的承诺。行动项落在许可环节：Public Citizen 等环保组织已就本地空气污染与气候影响提出反对，德州环境质量委员会的许可复核是下一个可观测节点。 <span class=\"inline-source\">（来源：<a href=\"https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html\" target=\"_blank\" rel=\"noreferrer\">The New York Times</a> / <a href=\"https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/\" target=\"_blank\" rel=\"noreferrer\">TechCrunch</a> / <a href=\"https://www.tomshardware.com/tech-industry/data-centers/amazons-new-7-65gw-texas-ai-data-center-power-plant-could-become-the-largest-source-of-co2-pollution-in-the-us-custom-35-turbine-gas-plant-authorized-to-emit-33-million-tons-of-annual-greenhouse-gases\" target=\"_blank\" rel=\"noreferrer\">Tom's Hardware</a>）</span></p>\n<h4 class=\"entry-heading\" id=\"nvidia-拟投最高-30-亿入股-stargate-电力开发商-lancium\">NVIDIA 拟投最高 $30 亿入股 Stargate 电力开发商 Lancium</h4>\n<p><strong>Lancium</strong> 企业估值约 <strong>$100 亿</strong>、正探索 <strong>2027 年</strong> IPO，NVIDIA 首轮 $20 亿换约 <strong>20%</strong> 股权。据 The Information 8/7 晚首发、Reuters 8/8 跟进，交易分两档：首轮 $20 亿，若达成电网接入等门槛再追加 <strong>$10 亿</strong>。Lancium 由 Blackstone 支持，持有德州 Abilene 的 1,000 英亩 Lancium Clean Campus——即 SoftBank、OpenAI 与 Oracle 合资的 Stargate 计划首个投入运营的站点。芯片厂商直接持股上游电力开发商，把&quot;算力交付&quot;的瓶颈从晶圆前移到并网许可。三方均未发布官方新闻稿，交易条款以媒体口径为准；可观测节点是 Lancium 的 2027 年 IPO 申报。 <span class=\"inline-source\">（来源：<a href=\"https://www.reuters.com/business/nvidia-invest-up-3-billion-lancium-information-reports-2026-08-08/\" target=\"_blank\" rel=\"noreferrer\">Reuters</a> / <a href=\"https://www.theinformation.com/articles/nvidia-invest-3-billion-blackstone-backed-power-firm-behind-stargate\" target=\"_blank\" rel=\"noreferrer\">The Information</a>）</span></p>\n<h3 id=\"2-中国-ai-产业\">2. 中国 AI 产业</h3>\n<h4 class=\"entry-heading\" id=\"发改委披露算力底座数据-智能算力-2-185-eflops-十五五-新增投资-4-万亿元\">发改委披露算力底座数据：智能算力 2,185 EFLOPS，&quot;十五五&quot;新增投资 4 万亿元</h4>\n<p>&quot;十五五&quot;算力网规划新增直接投资 <strong>4 万亿元</strong>，全国算力&quot;一张网&quot;进入并网阶段。8/9 国家发展改革委通过央视披露的这组数字包括：截至 6 月底全国智能算力规模 <strong>2,185 EFLOPS</strong>、同比 <strong>+177%</strong>，全国超六成算力已纳入统一监测。硬件侧的样本是国家超算互联网郑州核心节点——首个全国产 <strong>10 万卡</strong> AI 超集群投入运行（曙光 8000&quot;登峰&quot;，采用浸没式液冷），据国家高性能计算机工程技术研究中心口径，其每秒峰值算力相当于全人类持续计算 200 年，目前支撑新材料、创新药、人工智能等 <strong>26</strong> 个领域、<strong>300</strong> 多种计算任务。粤港澳大湾区新启用的国产化超节点万卡集群则把万亿参数模型的训练周期从 1 年压到半年。需要区分的是：该超集群本身的落成在 7 月已有报道，8/9 属发改委层面的口径披露。下一个观测点是&quot;深贵线&quot;算力大通道的落地时点。 <span class=\"inline-source\">（来源：<a href=\"https://www.nbd.com.cn/articles/2026-08-09/4536318.html\" target=\"_blank\" rel=\"noreferrer\">每日经济新闻（转央视新闻）</a> / <a href=\"https://finance.sina.com.cn/tech/digi/2026-08-09/doc-inimswyr3491063.shtml\" target=\"_blank\" rel=\"noreferrer\">新浪科技</a>）</span></p>\n<h4 class=\"entry-heading\" id=\"苹果中国官网-apple-智能接入千问-指南上线不足一日被撤下\">苹果中国官网&quot;Apple 智能接入千问&quot;指南上线不足一日被撤下</h4>\n<p>国行 Apple 智能仍需过审——上线不足一日的千问使用指南 <strong>8/9</strong> 被撤回。这份指南 8/8 出现在苹果中国官网 Mac 板块，写明设置&quot;千问扩展&quot;后可用写作工具生成文本、通过 Siri 从千问获取答案；8/9 页面被删除，当前官网仅保留 Apple 智能搭配 ChatGPT 的说明。苹果客服的回应把时间表交给监管：中国大陆现阶段还无法使用该套功能，配套服务仍在推进审批流程，上线时间以官方公告为准。这是阿里千问首次以苹果官方文档形式出现在国行 AI 方案里，撤下动作说明发布节奏跑在了备案节奏前面。可观测节点：该功能在国家网信办生成式 AI 服务备案清单中的登记状态。 <span class=\"inline-source\">（来源：<a href=\"http://finance.sina.com.cn/roll/2026-08-08/doc-inimrkxi4018430.shtml\" target=\"_blank\" rel=\"noreferrer\">新浪财经</a> / <a href=\"https://www.nbd.com.cn/articles/2026-08-09/4536326.html\" target=\"_blank\" rel=\"noreferrer\">每日经济新闻</a>）</span></p>\n<h4 class=\"entry-heading\" id=\"市场监管总局-上半年生成式-ai-新设企业-5-5-万户-同比增长-28-0\">市场监管总局：上半年生成式 AI 新设企业 5.5 万户，同比增长 28.0%</h4>\n<p>上半年生成式 AI 新设企业 <strong>5.5 万户</strong>、同比 <strong>+28.0%</strong>，人形机器人 <strong>11.6 万户</strong>、同比 <strong>+9.5%</strong>。市场监管总局 8/8 公布的这组经营主体数据里，&quot;8 大新兴产业 + 9 大未来产业&quot;合计新设 <strong>56.1 万户</strong>。两条曲线的斜率差值得留意：生成式 AI 的增速接近人形机器人的 3 倍，而人形机器人的绝对户数是生成式 AI 的 2 倍多——前者仍在加速开户，后者已进入存量竞争的密度区间。这组数字与 §2.1 发改委的算力口径构成供需两侧的同期样本：基础设施投资 4 万亿元对应的是每半年数以万计的新增市场主体。下一份对照数据是市场监管总局的三季度经营主体统计。 <span class=\"inline-source\">（来源：<a href=\"http://finance.people.com.cn/n1/2026/0808/c1004-40776103.html\" target=\"_blank\" rel=\"noreferrer\">人民网</a> / <a href=\"https://china.cnr.cn/news/20260809/t20260809_527754539.shtml\" target=\"_blank\" rel=\"noreferrer\">央广网</a>）</span></p>\n<h3 id=\"3-ai-agent-与开发者生态\">3. AI Agent 与开发者生态</h3>\n<h4 class=\"entry-heading\" id=\"claude-code-8-14-起把-auto-mode-设为默认-分类器替代逐条人工批准\">Claude Code 8/14 起把 auto mode 设为默认，分类器替代逐条人工批准</h4>\n<p><strong>8/14</strong> 起 Pro / Max / Team 新会话默认开启 auto mode，已自设默认模式的用户会收到一次性切换询问。Anthropic 8/8 的公告给出的依据是一项 1,053 名付费测试者参与的研究：auto mode 拦下 <strong>89%</strong> 的危险命令，人工审批的拦截率只有 <strong>13.6%</strong>，且在长会话后期降至约 <strong>5%</strong>——理由是人对连续弹窗会疲劳。机制上，分类器对不可逆、破坏性或偏离用户意图的操作做拦截，工具返回结果也会被探针扫描以防间接提示注入；据 TechCrunch，第三方评测方 Trajectory Labs 对开启 auto mode 的 Fable 5、Opus 5、Sonnet 5 发起 <strong>720</strong> 次间接提示注入，无一成功。同时公布的是计费变化：分类器每次工具调用额外消耗的 token 对上述三档用户不再收费。Enterprise、API 与 Bedrock / Google Cloud / Microsoft Foundry 渠道暂为可选。行动项：依赖逐条批准做变更审计的团队须在 <strong>8/14</strong> 前显式改回原模式。 <span class=\"inline-source\">（来源：<a href=\"https://claude.com/blog/auto-mode-default-in-claude-code\" target=\"_blank\" rel=\"noreferrer\">Anthropic 官方博客</a> / <a href=\"https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/\" target=\"_blank\" rel=\"noreferrer\">TechCrunch</a> / <a href=\"https://thenewstack.io/claude-code-auto-mode/\" target=\"_blank\" rel=\"noreferrer\">The New Stack</a>）</span></p>\n<p><em>披露：本报告由 Claude 撰写，Anthropic 为 Claude 开发方。</em></p>\n<h3 id=\"4-主要-ai-labs-动态\">4. 主要 AI Labs 动态</h3>\n<h4 class=\"entry-heading\" id=\"传-openai-推进代号-doug-的最大规模预训练项目\">传 OpenAI 推进代号 Doug 的最大规模预训练项目</h4>\n<p>传 OpenAI 正推进代号 <strong>Doug</strong> 的新一轮预训练，规模为其历来最大，官方未确认。消息来自长期关注 OpenAI 模型动向的 X 用户 ChrisGPT 8/9 的爆料，转述称 Doug 与 GPT-6 并非同一模型，最迟可能在 <strong>11 月</strong> 前推出。该消息源同时称，GPT-6 很可能就是 8/7 因网络安全能力评估未能排除 Critical 档而暂缓发布的 Astra——这一关联同样未获 OpenAI 确认。可以核实的只有 8/7 那部分：OpenAI 官方博客写明&quot;初步评估显示性能足够强，目前无法排除 Critical 能力等级&quot;，并已对该模型启用隔离测试环境、权重加密与沙箱执行等控制措施，未给出公开发布日期。检验点是 OpenAI 是否更新 Astra 的 Preparedness 评估结论，那将决定 Doug 传闻的时间表是否成立。 <span class=\"inline-source\">（来源：<a href=\"http://k.sina.com.cn/article_5952915705_162d248f906703kud0.html\" target=\"_blank\" rel=\"noreferrer\">机器之心（转 X 爆料）</a> / <a href=\"https://www.bloomberg.com/news/articles/2026-08-07/openai-pauses-some-work-on-new-astra-model-over-cyber-concerns\" target=\"_blank\" rel=\"noreferrer\">Bloomberg</a>）</span></p>\n<h3 id=\"5-ai-产品更新\">5. AI 产品更新</h3>\n<h4 class=\"entry-heading\" id=\"openai-atlas-浏览器-8-9-停止工作-数据不自动迁移\">📌 OpenAI Atlas 浏览器 8/9 停止工作，数据不自动迁移</h4>\n<p>书签、标签页与浏览历史不会自动迁移——Atlas <strong>8/9</strong> 停服，用户须手动导出。这兑现了 7 月公布的下线时间表（前情见 08-04、08-06 归档&quot;本周值得盯&quot;）：OpenAI 把 agentic 浏览能力并入 ChatGPT 与 Codex，不再维护独立浏览器；官方给出的迁移路径是把 cookie 与密码导出到 ChatGPT 桌面应用、把书签导出到 Chrome。这款 2025 年 10 月发布的 macOS 优先浏览器存续不到 10 个月，期间始终未推出 Windows、iOS 与 Android 版本。产品形态的结论落在同一处：浏览器不是 agent 的必要载体，桌面应用加 Chrome 扩展的组合足以承接同样的任务。行动项：仍在 Atlas 内保留未导出书签或标签页的用户，数据已不可再从应用内取回，只能依赖此前的导出文件。 <span class=\"inline-source\">（来源：<a href=\"https://help.openai.com/en/articles/20001371-evolving-atlas-into-chatgpt-for-browser-based-agentic-work\" target=\"_blank\" rel=\"noreferrer\">OpenAI Help Center</a> / <a href=\"https://www.techradar.com/pro/openai-shuts-down-its-atlas-browser-after-not-even-a-year\" target=\"_blank\" rel=\"noreferrer\">TechRadar</a>）</span></p>\n<h3 id=\"6-芯片与创业融资\">6. 芯片与创业融资</h3>\n<h4 class=\"entry-heading\" id=\"situational-awareness-向光刻创业公司-source-foundry-追投-4-亿\">Situational Awareness 向光刻创业公司 Source Foundry 追投 $4 亿</h4>\n<p><strong>Source Foundry</strong> 估值约 <strong>$50 亿</strong>，Situational Awareness 追投 <strong>$4 亿</strong>、累计持仓达 <strong>$5 亿</strong>。据 Bloomberg 8/8 报道，这笔投资揭开了该基金此前未披露的一笔&quot;神秘投资&quot;标的；TechCrunch 8/9 跟进。时点是这条新闻的信息量所在——该基金 7 月净值下挫 <strong>67%</strong>、并已把多数公开持仓卖给 Citadel（仍保留 Anthropic 股份），随后把弹药集中投向一级市场的设备环节。Source Foundry 由斯坦福研究员 Abdulmalik Obaid 与 Joe Burg 于去年创立、此前获红杉支持，方向是挑战 ASML 的极紫外光刻机——后者单台售价可超 <strong>$4 亿</strong>、交付与安装周期以年计，是先进制程扩产的实际约束。公司仍处隐身状态，未公布技术路线与量产时间表。 <span class=\"inline-source\">（来源：<a href=\"https://www.bloomberg.com/news/articles/2026-08-08/situational-awareness-s-mystery-investment-was-to-source-foundry\" target=\"_blank\" rel=\"noreferrer\">Bloomberg</a> / <a href=\"https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/\" target=\"_blank\" rel=\"noreferrer\">TechCrunch</a>）</span></p>\n<h3 id=\"本周值得盯\">本周值得盯</h3>\n<ul><li>8/10 周一 09:30 — 宇树科技（688836）科创板网上网下申购，发行价 150.80 元/股、发行市值约 609.9 亿元、发行市盈率 219.23 倍，8/12 缴款</li><li>8/14 周五 — Claude Code 对 Pro / Max / Team 新会话默认开启 auto mode，依赖逐条批准做审计的团队须在此前改回原模式</li><li>8/16–8/22 — IEEE Humanoids 2026 在 Santa Clara 举行，本届主题定为劳动力替代</li><li>8/22 周六 — 第二届世界人形机器人运动会在北京开赛，新增百米全自主跑、乒乓球与搏击项目</li><li>8/26 周三 — NVIDIA Q2 FY27 财报，AMD 8/5 超预期后仍收跌 8.89%（详见 08-06 归档 §3）之后的下一份供给侧样本</li></ul>\n<hr class=\"report-rule\" />\n<p><em>报告生成：2026-08-10 CST · 调度任务：daily-ai-news-v2</em></p>"
+    },
     {
       "id": "2026-08-06",
       "date": "2026-08-06",
