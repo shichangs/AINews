@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T01:34:34.455Z",
+  "generatedAt": "2026-08-16T01:39:05.063Z",
   "sourceDirectories": {
     "daily": "/home/runner/work/AINews/AINews/content/daily-ai-news",
     "weekly": "/home/runner/work/AINews/AINews/content/daily-ai-news/weekly",
@@ -937,6 +937,161 @@
       ],
       "sourceFile": "/home/runner/work/AINews/AINews/content/daily-ai-news/2026-08-12.md",
       "htmlContent": "<p>&gt; 注：覆盖窗口 24h（UTC 2026-08-11 00:00 至 08-12 00:00，对应 CST 8/11 8:00 至 8/12 8:00）。前两日归档 08-11 缺失、08-10 存在，去重比对以 08-10、08-06 为锚。一手来源核对：OpenAI News（8/11 两条，全部收录）、NVIDIA Newsroom / Blog（8/11 四条，收录三条）、Google（8/11 Gemini 用户里程碑收 §1）、Anthropic（Newsroom 站内最新 8/7 Fable 5 生物安全防护为窗口外，claude.com 官方博客 8/11 Compliance API 收 §2，支持页水印说明收 §6）、Meta AI Blog（最新 7/27，窗口外）、Google DeepMind Blog（无窗口内新条目）、Cursor Changelog（最新 8/3，窗口外）、Claude Code Releases（最新 v2.1.227，8/10，窗口外）、DeepSeek 更新日志（最新 7/31，08-01 已报）、Qwen / 智谱 / Hugging Face 中文榜（JS 渲染不可直取，经 WebSearch 侧核对无窗口内条目）、xAI 公告（8/11 Grok Bot 收 §2）。<strong>8/10 事件的归属说明</strong>：NVIDIA $5,000 亿算力融资平台与 Anthropic-Macquarie-GIC 的 Theseus 合资均于 8/10 公布，落在缺失的 08-11 归档窗口内；因两者在 8/11 均有一手材料落地，本期以 📌 收录并在正文标明公布日，不作首发处理。窗口外不收录：OpenAI Daybreak 双档扩容与 ChatGPT Business 高级席位（8/10）、GPT-5.6-Cyber 与 Meta Muse Glimmer（8/10）、Claude Sonnet 5 定价定为长期价（8/10）、FLI 夏季 AI 安全指数（8/10）、Zoox 拉斯维加斯付费运营开启（8/10）、TSMC 7 月营收（8/10）、xAI Grok Imagine Image 2.0（8/7）。审稿说明：3 个审稿 agent 全部通过；Agent A 纠正了&quot;ChatGPT 2026 年 6 月破 10 亿&quot;的口径（原稿误写为周活，实为月活）与&quot;1 亿+ 苹果设备&quot;（官方口径为 iOS）；Agent B 补入 8/11 两条（Anthropic Compliance API、NVIDIA 800 VDC）。</p>\n<h3 id=\"今日摘要\">今日摘要</h3>\n<ul><li>🔥 <strong>Gemini app 月活突破 10 亿</strong>：由 7 月的 <strong>9.5 亿</strong> 增至 <strong>10 亿</strong>，成为 Google 第 <strong>14</strong> 个十亿级产品，其中 <strong>63%</strong> 的用户以语音交互、<strong>1 亿+</strong> 在 iOS 上。</li><li>🔥 <strong>xAI 发布 Grok Bot</strong>：常驻云端的 agent 团队，各自拥有独立云电脑并登录用户现有应用；不单卖，捆绑在 <strong>$200/月</strong> 的 Cursor Ultra、<strong>$120/席/月</strong> 的 Cursor Teams Premium 与 <strong>$300/月</strong> 的 SuperGrok Heavy 三档订阅内。</li><li>🔥 <strong>ChatGPT 广告扩至英国、墨西哥、巴西、日本、韩国</strong>：仅对 Free 与 Go 档已登录成年用户展示，Plus、Pro、Business、Enterprise、Edu 无广告。</li><li><strong>NVIDIA 发布 Nemotron 3.5 Lightning 与 NeMo Switchyard</strong>：<strong>300 亿</strong> 总参数 / <strong>30 亿</strong> 活跃参数的 MoE 开源模型，配套路由库在 LangChain 实测中把成本压低 <strong>74%</strong>。</li><li>📌 <strong>NVIDIA 联合六家资管撬动 $5,000 亿第三方资本</strong>（8/10 公布）：与 Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs、KKR 签谅解备忘录，把算力做成可抵押资产。</li></ul>\n<h3 id=\"1-主要-ai-labs-动态\">1. 主要 AI Labs 动态</h3>\n<h4 class=\"entry-heading\" id=\"gemini-app-月活破-10-亿-google-十亿级产品增至-14-个\">🔥 Gemini app 月活破 10 亿，Google 十亿级产品增至 14 个</h4>\n<p><strong>63%</strong> 的用户以语音交互、<strong>1 亿以上</strong> 月活来自 iOS——这两个数字把入口争夺推到了系统层。Google 8/11 公布该里程碑：Gemini app 月活跃用户从年初约 <strong>7.5 亿</strong>、7 月 <strong>9.5 亿</strong> 增至 <strong>10 亿</strong>，成为 Google 旗下第 14 个跨过十亿门槛的产品。对位关系是同口径的：OpenAI 的 ChatGPT 在 2026 年 6 月已宣布月活破 10 亿，Gemini 从 7.5 亿走到 10 亿用了约 7 个月。欧盟侧给这场入口战设了硬期限——DMA 令 Google 须在 <strong>2027 年 8 月 1 日</strong> 前把 11 项 Android 助手能力开放给 Claude、ChatGPT 等竞品。 <span class=\"inline-source\">（来源：<a href=\"https://blog.google/innovation-and-ai/products/gemini-app/one-billion-monthly-users/\" target=\"_blank\" rel=\"noreferrer\">Google 官方博客</a> / <a href=\"https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/\" target=\"_blank\" rel=\"noreferrer\">TechCrunch</a> / <a href=\"https://www.forbes.com/sites/antoniopequenoiv/2026/08/11/gemini-becomes-googles-fastest-growing-product-ever-after-hitting-1-billion-monthly-users/\" target=\"_blank\" rel=\"noreferrer\">Forbes</a>）</span></p>\n<h4 class=\"entry-heading\" id=\"anthropic-与-macquarie-gic-成立-theseus-承诺承担-100-电网升级成本\">📌 Anthropic 与 Macquarie、GIC 成立 Theseus，承诺承担 100% 电网升级成本</h4>\n<p>Anthropic 承诺支付 <strong>100%</strong> 电网升级成本、并覆盖因其数据中心用电导致的居民电价上涨。三方 <strong>8/10</strong> 公布这项合作：Macquarie Asset Management 旗下基金与新加坡主权基金 <strong>GIC</strong> 共同持有并出资 <strong>Theseus Infrastructure</strong> 平台各项目的多数股权，平台开发、运营并把数据中心长期出租给作为锚定租户的 Anthropic，首批选址在美国，未披露金额。这与既有算力协议是叠加而非替代——Anthropic 此前已就 Trainium 与 Graviton 产能与 AWS 签下十年期 $1,000 亿以上、至多 5GW 的承诺。电价条款延续并扩大了 Anthropic 2 月的承诺，对应美国多地数据中心选址听证会的核心争议；下一节点是首批站点选址公示。 <span class=\"inline-source\">（来源：<a href=\"https://www.bloomberg.com/news/articles/2026-08-10/anthropic-macquarie-and-gic-form-venture-for-ai-data-centers\" target=\"_blank\" rel=\"noreferrer\">Bloomberg</a> / <a href=\"https://www.macquarie.com/au/en/about/news/2026/anthropic-mam-gic-data-centre-infrastructure-partnership.html\" target=\"_blank\" rel=\"noreferrer\">Macquarie 集团公告</a> / <a href=\"https://www.datacenterdynamics.com/en/news/gic-and-macquarie-form-theseus-infrastructure-to-serve-anthropics-data-center-needs/\" target=\"_blank\" rel=\"noreferrer\">Data Center Dynamics</a>）</span></p>\n<p><em>披露：本报告由 Claude 撰写，Anthropic 为 Claude 开发方。</em></p>\n<h3 id=\"2-ai-agent-与开发者生态\">2. AI Agent 与开发者生态</h3>\n<h4 class=\"entry-heading\" id=\"xai-发布-grok-bot-捆绑在三档订阅内不单卖\">🔥 xAI 发布 Grok Bot，捆绑在三档订阅内不单卖</h4>\n<p>企业客户只能排候补名单——Grok Bot 首发即绑死在 Cursor 订阅体系内。xAI 8/11 发布这款 beta 产品：每个 Bot 在云端拥有自己的一台电脑，用人类员工的方式登录邮箱、网站与内部系统完成多步任务，因而能覆盖无 API 或 MCP 集成的平台；用户合上笔记本后任务继续跑，Bot 只在需要审批时回来找人，还能通过&quot;看一遍人怎么做&quot;学会流程并存为例程，多个 Bot 之间互发消息、在群聊里分派工作。获取路径只有三条：<strong>Cursor Ultra</strong>（$200/月）、<strong>Cursor Teams Premium</strong>（$120/席/月）、<strong>SuperGrok Heavy</strong>（$300/月）。桌面与 iOS 已上线，Android 即将推出。Musk 称本周晚些时候随 Grok 4.6 扩大推送。 <span class=\"inline-source\">（来源：<a href=\"https://x.ai/news/introducing-grok-bot\" target=\"_blank\" rel=\"noreferrer\">xAI 官方公告</a> / <a href=\"https://www.bloomberg.com/news/articles/2026-08-11/spacexai-unveils-grok-bot-to-work-like-a-team-of-ai-agents\" target=\"_blank\" rel=\"noreferrer\">Bloomberg</a> / <a href=\"https://venturebeat.com/orchestration/spacexais-grok-bot-turns-agents-into-persistent-digital-coworkers-that-can-operate-your-apps-for-120-per-month\" target=\"_blank\" rel=\"noreferrer\">VentureBeat</a>）</span></p>\n<h4 class=\"entry-heading\" id=\"nvidia-开源-nemotron-3-5-lightning-与模型路由库-nemo-switchyard\">NVIDIA 开源 Nemotron 3.5 Lightning 与模型路由库 NeMo Switchyard</h4>\n<p>NeMo Switchyard 把任务完成成本压到全程调用 Opus 4.8 的约 <strong>1/3</strong>。<strong>Nemotron 3.5 Lightning</strong> 是总参数 <strong>300 亿</strong>、活跃参数 <strong>30 亿</strong> 的 MoE 开源模型，8/11 随该路由库一同发布，定位是多 agent 系统里的高频专项层——代码审查、工具调用、告警监控；对比同尺寸开源模型输出速度最高提升 <strong>4 倍</strong>，PinchBench 上完成万级任务比 Qwen3.6 35B 快 <strong>30%</strong>。上述 1/3 为 NVIDIA 内部基准，合作方实测：LangChain 在 145 个多轮任务中只把 <strong>7%</strong> 调用给前沿模型，成本降 <strong>74%</strong>、准确率损失 <strong>6%</strong>；Ramp 降 <strong>58%</strong>，Cognition 降 <strong>28%</strong>。行动项：为 agent 栈做成本核算的团队可先跑路由基线。 <span class=\"inline-source\">（来源：<a href=\"https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/\" target=\"_blank\" rel=\"noreferrer\">NVIDIA 官方博客</a> / <a href=\"https://github.com/NVIDIA-NeMo/Switchyard\" target=\"_blank\" rel=\"noreferrer\">NeMo Switchyard GitHub</a>）</span></p>\n<h4 class=\"entry-heading\" id=\"anthropic-把-compliance-api-扩展到-claude-cowork-与-claude-code\">Anthropic 把 Compliance API 扩展到 Claude Cowork 与 Claude Code</h4>\n<p>企业管理员 8/11 起可拉取 Cowork 与 Claude Code 的完整会话记录。新增的三个端点复用已有的 Compliance Access Key 与 <code>read:compliance_user_data</code> 权限，返回服务端托管的合并 transcript：含 prompt、response、web 与 MCP 工具调用、skills 与 artifacts，以及已验证用户 ID、组织 ID、会话与消息 ID 和时间戳。覆盖有三处缺口——Claude Code on the web、经 Claude Platform 访问的 Claude Code，以及跑在 Bedrock、Vertex AI、Foundry 上的会话。合规团队的行动项是先核对这三处缺口是否落在自家审计范围内。 <span class=\"inline-source\">（来源：<a href=\"https://claude.com/blog/compliance-api-cowork-and-claude-code\" target=\"_blank\" rel=\"noreferrer\">Claude 官方博客</a> / <a href=\"https://docs.claude.com/en/release-notes/overview.md\" target=\"_blank\" rel=\"noreferrer\">Claude 平台发布说明</a>）</span></p>\n<p><em>披露：本报告由 Claude 撰写，Anthropic 为 Claude 开发方。</em></p>\n<h3 id=\"3-ai-产品更新\">3. AI 产品更新</h3>\n<h4 class=\"entry-heading\" id=\"chatgpt-广告落地英国-墨西哥-巴西-日本-韩国\">🔥 ChatGPT 广告落地英国、墨西哥、巴西、日本、韩国</h4>\n<p>Free 档想关广告须接受更低消息上限，广告数据删除后最长 <strong>30 天</strong> 才从服务器移除。这是 OpenAI 广告试点的第三阶段：<strong>2 月 9 日</strong> 在美国启动，<strong>3 月 26 日</strong> 宣布扩至加拿大、澳大利亚、新西兰，<strong>5 月 7 日</strong> 预告本轮五国，8/11 落地。产品边界写得比较死——广告出现在回答结束之后、与回答视觉分隔，广告主拿不到对话、聊天记录、记忆与个人信息，只收到浏览量与点击量的聚合报告；健康、心理健康与政治等敏感话题旁不投放，被判定为未成年的账号不展示，临时聊天与 Atlas 浏览器内不展示。对广告主而言，下一节点是 OpenAI 在这五国开放 Ads Manager 的时间。 <span class=\"inline-source\">（来源：<a href=\"https://openai.com/index/testing-ads-in-chatgpt/\" target=\"_blank\" rel=\"noreferrer\">OpenAI 官方博客</a> / <a href=\"https://help.openai.com/en/articles/20001047-ads-in-chatgpt\" target=\"_blank\" rel=\"noreferrer\">OpenAI Help Center</a> / <a href=\"https://digiday.com/media-buying/expand-thoughtfully-openai-offers-chatgpt-ads-to-new-markets-including-the-u-k-brazil-and-japan/\" target=\"_blank\" rel=\"noreferrer\">Digiday</a>）</span></p>\n<h4 class=\"entry-heading\" id=\"openai-把-daybreak-网络安全模型接入-amazon-bedrock\">OpenAI 把 Daybreak 网络安全模型接入 Amazon Bedrock</h4>\n<p>两档 <strong>Daybreak</strong> 模型上架 Amazon Bedrock，调用前须先过 Access 审批。OpenAI 8/11 宣布：<strong>Blue</strong> 档含 GPT‑5.6 Sol 等通用前沿模型、护栏面向获授权的防御性工作，<strong>Red</strong> 档是专训的网络安全模型、面向获授权的漏洞研究、漏洞验证与安全测试；入口走 Bedrock 控制台或 Responses API 的 bedrock-mantle 端点。这延续了 OpenAI 前沿模型与 Codex 今年早些时候在 AWS 上的一般可用性。能力本身不是新的（8/10 已随 Daybreak 双档扩容公布），变的是获取路径——从 OpenAI 直连改为企业已有 AWS 治理流程内的一个模型卡。 <span class=\"inline-source\">（来源：<a href=\"https://openai.com/index/daybreak-models-are-now-available-on-aws/\" target=\"_blank\" rel=\"noreferrer\">OpenAI 官方博客</a> / <a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards-openai.html\" target=\"_blank\" rel=\"noreferrer\">AWS Bedrock 文档</a>）</span></p>\n<h3 id=\"4-ai-基础设施与算力金融\">4. AI 基础设施与算力金融</h3>\n<h4 class=\"entry-heading\" id=\"nvidia-与六家资管签-5-000-亿备忘录-把算力做成可抵押资产\">📌 NVIDIA 与六家资管签 $5,000 亿备忘录，把算力做成可抵押资产</h4>\n<p>签的是谅解备忘录而非出资承诺，<strong>$5,000 亿</strong> 无公开落地时间表、仍待逐项目最终协议与债券发行。NVIDIA <strong>8/10</strong> 公布与 Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs、KKR 六家机构成立独立的算力融资平台：由外部投资者出资建设数据中心、电力与配套设施，不进 NVIDIA 自身资产负债表；资金通过特殊目的实体的私募发行与债券部署，NVIDIA 算力作为抵押品。Jensen Huang 在 CNBC 访谈中称只接触了这六家、无一拒绝。8/11 NVIDIA 官方博客把这套结构表述为&quot;AI 工厂算力正在成为一类可投资资产&quot;，类比商业地产与收费公路。检验点在财报：<strong>8/26</strong> NVIDIA 发布 Q2 FY27 业绩。 <span class=\"inline-source\">（来源：<a href=\"https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital\" target=\"_blank\" rel=\"noreferrer\">NVIDIA 官方新闻稿</a> / <a href=\"https://www.cnbc.com/2026/08/10/nvidia-wall-street-asset-managers-500-billion-ai-push.html\" target=\"_blank\" rel=\"noreferrer\">CNBC</a> / <a href=\"https://blogs.nvidia.com/blog/nvidia-ai-factory-compute/\" target=\"_blank\" rel=\"noreferrer\">NVIDIA 官方博客</a>）</span></p>\n<h4 class=\"entry-heading\" id=\"nvidia-公布-800-vdc-配电路线图-机柜级产品-2026-下半年到货\">NVIDIA 公布 800 VDC 配电路线图，机柜级产品 2026 下半年到货</h4>\n<p><strong>800 VDC</strong> 电源机柜 2026 下半年交付，可插入现有 AC 设施、不改建筑电气。NVIDIA 8/11 给出的三级路线是：MGX 兼容的机柜级产品先落地，单排支持 <strong>2 MW</strong> 的 row power center 于 <strong>2027 年</strong> 可用，新建设施再用 DC power block 做中压直转。规格由 NVIDIA 与 Google、Microsoft 经 OCP 共同制定——2026 年 3 月白皮书、7 月低压直流固态变压器规范 v0.3——目前已有 <strong>80 家以上</strong> 设备与基础设施厂商按规范造产品。这条与上一条是资本与电力的两端：Wood Mackenzie 估到 <strong>2040 年</strong> 全球 AI 与数据基础设施投资达 <strong>$9 万亿</strong>，配电架构决定其中有多少能真正通上电。 <span class=\"inline-source\">（来源：<a href=\"https://blogs.nvidia.com/blog/800-vdc-power-architecture-ai-factory/\" target=\"_blank\" rel=\"noreferrer\">NVIDIA 官方博客</a> / <a href=\"https://www.opencompute.org/blog/powering-the-next-era-of-ai-how-google-microsoft-and-nvidia-are-standardizing-and-accelerating-the-industry-transition-to-lvdc\" target=\"_blank\" rel=\"noreferrer\">Open Compute Project</a>）</span></p>\n<h3 id=\"5-创业融资\">5. 创业融资</h3>\n<h4 class=\"entry-heading\" id=\"river-ai-融资-11-亿-nvidia-与-amd-ventures-同轮入股\">River AI 融资 $11 亿，NVIDIA 与 AMD Ventures 同轮入股</h4>\n<p>两家竞争的 GPU 厂商同时进入同一轮，是对&quot;开源权重定制&quot;路线的双向下注。8/11 公布的 <strong>$11 亿</strong> 由 General Catalyst 与 AMP PBC 领投，NVIDIA 与 AMD Ventures 战略投资，Y Combinator、Temasek 跟投。<strong>River AI</strong> 由 xAI 联合创始人 <strong>Igor Babuschkin</strong> 任 CEO、成立仅约两个月，产品是面向前沿开源权重模型的全栈平台，通过 API 提供 LoRA 微调与强化学习，让开发者和企业不必自建基础设施团队或采购昂贵硬件就能训练、调优、部署与托管自有模型。公司称资金用于扩张运营与研发，未披露估值与本轮后的产品时间表。 <span class=\"inline-source\">（来源：<a href=\"https://techcrunch.com/2026/08/11/xai-cofounder-igor-babuschkins-river-ai-raises-1-1b/\" target=\"_blank\" rel=\"noreferrer\">TechCrunch</a> / <a href=\"https://www.finsmes.com/2026/08/river-ai-raises-1-1-billion-in-funding.html\" target=\"_blank\" rel=\"noreferrer\">FinSMEs</a> / <a href=\"https://www.hpcwire.com/aiwire/2026/08/11/river-ai-secures-1-1b-to-make-custom-ai-models-easier-to-train-and-deploy/\" target=\"_blank\" rel=\"noreferrer\">AIwire</a>）</span></p>\n<h3 id=\"6-政策与监管\">6. 政策与监管</h3>\n<h4 class=\"entry-heading\" id=\"anthropic-为-claude-文本输出加水印-对接欧盟-ai-法案透明度义务\">Anthropic 为 Claude 文本输出加水印，对接欧盟 AI 法案透明度义务</h4>\n<p>在欧盟基于 Claude 搭产品的企业须自行评估自身透明度义务，供应商侧水印不自动覆盖部署方。Anthropic 8/11 通过支持页说明：<strong>8 月 2 日</strong> 及之后在欧盟上线的 Claude 模型，生成文本会嵌入不可感知的水印，生成文件附带按 <strong>C2PA</strong> 标准签名的溯源元数据。水印在模型层施加，因而覆盖 API、Claude app、Claude Code、Cowork 与 Tag 全部界面，经 AWS、Google Cloud、Foundry 访问时同样适用，且全球生效。限制明确：检出水印只说明内容可能经 Claude 处理，校对或翻译过的文档同样带标；反之，早于水印支持的模型或经大幅改写的文本可能检不出。下一节点是欧盟 AI Office 在 <strong>2026 年 9 月</strong> 启动的两个签署方工作组。 <span class=\"inline-source\">（来源：<a href=\"https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content\" target=\"_blank\" rel=\"noreferrer\">Claude 支持中心</a> / <a href=\"https://digital-strategy.ec.europa.eu/en/policies/guidelines-ai-transparency-obligations\" target=\"_blank\" rel=\"noreferrer\">欧盟委员会透明度义务指南</a> / <a href=\"https://www.unite.ai/anthropic-watermarks-claude-text-output-to-meet-eu-transparency-rules/\" target=\"_blank\" rel=\"noreferrer\">Unite.AI</a>）</span></p>\n<p><em>披露：本报告由 Claude 撰写，Anthropic 为 Claude 开发方。</em></p>\n<h3 id=\"本周值得盯\">本周值得盯</h3>\n<ul><li>8/12 周三 — 宇树科技（688836）科创板新股缴款截止，发行价 150.80 元/股、发行市盈率 219.23 倍（行业平均 38.56 倍）</li><li>8/13–8/16 — Grok 4.6 更大范围推送，Grok Bot 同批放量（Musk 8/11 说法，未给确切日期，详见 §2）</li><li>8/14 周五 — Claude Code auto mode 对 Pro / Max / Team 新会话默认开启，依赖逐条批准做变更审计的团队须在此前改回原模式</li><li>8/20 周四 07:30 ET — 阿里巴巴发布季度财报，是千问系列商业化与云业务算力投入的下一份对照数据</li><li>8/26 周三 — NVIDIA Q2 FY27 财报，$5,000 亿算力融资平台公布后的首份业绩样本（详见 §4）</li></ul>\n<hr class=\"report-rule\" />\n<p><em>报告生成：2026-08-12 CST · 调度任务：daily-ai-news-v2</em></p>"
+    },
+    {
+      "id": "2026-08-11",
+      "date": "2026-08-11",
+      "label": "8月11日",
+      "title": "每日前沿 AI 行业新闻 — 2026年8月11日",
+      "summary": "- 🔥 OpenAI 发布 GPT-5.6-Cyber 并扩容 Daybreak：专训网络安全模型仅经 Daybreak Red 审批发放，内部完成率 95.0%（GPT-5.6 Sol 为 1.5%），已发现两个可组合利用的 Chrome V8 零日。\n- 🔥 NVIDIA 联合六家资管建算力融资平台：目标撬动 $5,000 亿以上 第三方资本，Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs、KKR 全部在列。\n- Meta 开源 Muse Glimmer：30B 开放权重 agent 模型，Apache 2.0，4-bit 量化后不到 20 GB，单张消费级显卡或 Apple Silicon 可全离线运行。\n- Zoox 拉斯维加斯开始收费：约 65 辆 无方向盘 robotaxi 全部转入付费运营，为 Amazon 旗下 Zoox 首次商业化收费。",
+      "sections": [
+        "AI Labs",
+        "AI 基础设施与算力金融",
+        "产品",
+        "中国 AI",
+        "自动驾驶",
+        "芯片"
+      ],
+      "stories": [
+        {
+          "tag": "AI Labs",
+          "impact": "高热",
+          "title": "🔥 OpenAI 发布 GPT-5.6-Cyber，Daybreak 分成 Blue、Red 两档",
+          "detail": "专训攻防的 GPT-5.6-Cyber 内部完成率 95.0%、通用档只有 1.5%，发放只走 Daybreak Red 审批通道。OpenAI 8/10 同日发布两份公告：Daybreak 计划拆为 Blue（通用前沿模型、面向获授权的防御性工作）与 Red（漏洞研究、漏洞验…",
+          "links": [
+            {
+              "label": "OpenAI 官方博客",
+              "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/"
+            },
+            {
+              "label": "SecurityWeek",
+              "url": "https://www.securityweek.com/openai-unveils-new-cybersecurity-model-gpt-5-6-cyber/"
+            }
+          ],
+          "anchor": "openai-发布-gpt-5-6-cyber-daybreak-分成-blue-red-两档"
+        },
+        {
+          "tag": "AI 基础设施与算力金融",
+          "impact": "高热",
+          "title": "🔥 NVIDIA 与六家资管签备忘录，撬动 $5,000 亿第三方资本",
+          "detail": "算力抵押的 $5,000 亿以上 第三方融资盘子成形：外部资本出钱建数据中心，不进 NVIDIA 资产负债表。NVIDIA 8/10 发布新闻稿，宣布与 Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs、KKR 六家机构分…",
+          "links": [
+            {
+              "label": "NVIDIA 官方新闻稿",
+              "url": "https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital"
+            },
+            {
+              "label": "CNBC",
+              "url": "https://www.cnbc.com/2026/08/10/nvidia-wall-street-asset-managers-500-billion-ai-push.html"
+            }
+          ],
+          "anchor": "nvidia-与六家资管签备忘录-撬动-5-000-亿第三方资本"
+        },
+        {
+          "tag": "AI 基础设施与算力金融",
+          "impact": "关注",
+          "title": "Anthropic 与 Macquarie、GIC 组建数据中心平台 Theseus",
+          "detail": "Anthropic 承诺承担 100% 电网升级成本，Macquarie 与 GIC 持多数股权出资建平台 Theseus Infrastructure。三方 8/10 公布：Macquarie Asset Management 旗下基金与新加坡主权基金 GIC 共同持有并出资…",
+          "links": [
+            {
+              "label": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-08-10/anthropic-macquarie-and-gic-form-venture-for-ai-data-centers"
+            },
+            {
+              "label": "Macquarie 集团公告",
+              "url": "https://www.macquarie.com/au/en/about/news/2026/anthropic-mam-gic-data-centre-infrastructure-partnership.html"
+            }
+          ],
+          "anchor": "anthropic-与-macquarie-gic-组建数据中心平台-theseus"
+        },
+        {
+          "tag": "产品",
+          "impact": "关注",
+          "title": "Meta 开源 30B 本地 agent 模型 Muse Glimmer",
+          "detail": "30B 权重 4-bit 量化后不到 20 GB，单张消费级显卡离线跑 agent——Muse Glimmer 以 Apache 2.0 开源。Meta 8/10 在研究博客发布该模型：面向本地自主任务设计，覆盖编码、日程管理、文件整理、函数调用、多步推理与失败恢复，权重上架…",
+          "links": [
+            {
+              "label": "Meta AI Research 博客",
+              "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model"
+            },
+            {
+              "label": "InfoQ",
+              "url": "https://www.infoq.com/news/2026/08/meta-muse-glimmer/"
+            }
+          ],
+          "anchor": "meta-开源-30b-本地-agent-模型-muse-glimmer"
+        },
+        {
+          "tag": "产品",
+          "impact": "资本",
+          "title": "Claude Sonnet 5 的 $2 / $10 定价转为长期价",
+          "detail": "Sonnet 5 的 $2 / $10 每百万 token 定价转为长期价，原定 9/1 上调至 $3 / $15 的计划取消。Anthropic 8/10 确认：6 月底随 Sonnet 5 发布的引入价（输入 $2、输出 $10 / 百万 token）不再于 8/31 到期…",
+          "links": [
+            {
+              "label": "Claude Platform 定价文档",
+              "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+            },
+            {
+              "label": "explainx",
+              "url": "https://explainx.ai/blog/anthropic-sonnet-5-permanent-pricing-august-2026"
+            }
+          ],
+          "anchor": "claude-sonnet-5-的-2-10-定价转为长期价"
+        },
+        {
+          "tag": "中国 AI",
+          "impact": "关注",
+          "title": "宇树科技完成科创板申购，中一签需缴款 7.54 万元",
+          "detail": "发行市盈率 219.23 倍、约为行业均值的 5.7 倍——宇树科技 8/10 完成网上网下申购，8/12 缴款。这家 A 股\"人形机器人第一股\"（证券代码 688836，申购代码 787836）发行价 150.80 元/股，中一签 500 股需缴款 7.54 万元，首发拟募资…",
+          "links": [
+            {
+              "label": "京报网",
+              "url": "https://news.bjd.com.cn/2026/08/10/11908672.shtml"
+            },
+            {
+              "label": "证券时报网",
+              "url": "https://www.stcn.com/article/detail/4065519.html"
+            }
+          ],
+          "anchor": "宇树科技完成科创板申购-中一签需缴款-7-54-万元"
+        },
+        {
+          "tag": "自动驾驶",
+          "impact": "关注",
+          "title": "Zoox 拉斯维加斯转入付费运营，约 65 辆全部收费",
+          "detail": "约 65 辆 无方向盘 robotaxi 8/10 起在拉斯维加斯全部收费，定价高出 UberX 约 20–40%。这是 Amazon 旗下 Zoox 的首次商业化收费：车辆为无方向盘、无踏板的专造车型，四座对坐布局，服务覆盖拉斯维加斯大道与市中心，此前的免费乘车计划同步结束；…",
+          "links": [
+            {
+              "label": "CNBC",
+              "url": "https://www.cnbc.com/2026/08/05/amazon-zoox-paid-robotaxi-rides-las-vegas.html"
+            },
+            {
+              "label": "Global Fleet",
+              "url": "https://www.globalfleet.com/en/technology-and-innovation/europe/news/zoox-launches-its-first-paid-robotaxi-rides-las-vegas"
+            }
+          ],
+          "anchor": "zoox-拉斯维加斯转入付费运营-约-65-辆全部收费"
+        },
+        {
+          "tag": "芯片",
+          "impact": "关注",
+          "title": "TSMC 7 月营收同比 +44.7%，跑在全年指引之上",
+          "detail": "7 月营收 NT$4,675.8 亿、同比 +44.7%、环比 +5.6%，高于全年\"略高于 40%\"的美元口径指引。TSMC 8/10 公布月度数字：2026 年前 7 个月累计营收 NT$2.87 万亿、同比 +37.0%。增长归因仍是 AI 芯片需求——公司 Q2 法说会…",
+          "links": [
+            {
+              "label": "TSMC 官方新闻稿",
+              "url": "https://pr.tsmc.com/english/news/3329"
+            },
+            {
+              "label": "CNBC",
+              "url": "https://www.cnbc.com/2026/08/10/tsmc-revenue-surge-ai-chip-big-tech.html"
+            }
+          ],
+          "anchor": "tsmc-7-月营收同比-44-7-跑在全年指引之上"
+        }
+      ],
+      "sourceFile": "/home/runner/work/AINews/AINews/content/daily-ai-news/2026-08-11.md",
+      "htmlContent": "<p>&gt; 注：覆盖窗口 24h（UTC 2026-08-10 00:00 至 08-11 00:00，对应 CST 8/10 8:00 至 8/11 8:00）。前两日归档 08-10、08-09 均存在，去重比对以此二日为锚。一手来源核对：OpenAI News（8/10 Daybreak 双档扩容与 GPT-5.6-Cyber 收 §1）、NVIDIA Newsroom（8/10 $5,000 亿算力融资平台新闻稿收 §2）、Anthropic（Newsroom 站内最新 8/7 窗口外；8/10 Theseus 合资经 Bloomberg 与 Macquarie 公告收 §2，Sonnet 5 定价经平台文档核对收 §3）、Meta（8/10 Muse Glimmer 研究博客收 §3）、Google DeepMind Blog（无窗口内条目）、Cursor Changelog（最新 8/3，窗口外）、Claude Code Releases（最新 v2.1.227，8/10 为例行 patch，未达门槛）、DeepSeek 更新日志（最新 7/31，08-01 已报）、Qwen / 智谱 / Hugging Face 中文榜（JS 渲染不可直取，经 WebSearch 侧核对无窗口内条目）。窗口外不收录：Amazon 德州 7.65GW 电厂（8/8，08-10 已报）、NVIDIA 拟投 Lancium（8/7–8/8，08-10 已报）、OpenAI 代号 Doug 传闻（8/9，08-10 已报）、xAI Grok Imagine Image 2.0（8/7）、FLI 夏季 AI 安全指数（发布时间跨 8/10 前后、条目单薄未达门槛）。</p>\n<h3 id=\"今日摘要\">今日摘要</h3>\n<ul><li>🔥 <strong>OpenAI 发布 GPT-5.6-Cyber 并扩容 Daybreak</strong>：专训网络安全模型仅经 Daybreak Red 审批发放，内部完成率 <strong>95.0%</strong>（GPT-5.6 Sol 为 1.5%），已发现两个可组合利用的 Chrome V8 零日。</li><li>🔥 <strong>NVIDIA 联合六家资管建算力融资平台</strong>：目标撬动 <strong>$5,000 亿以上</strong> 第三方资本，Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs、KKR 全部在列。</li><li><strong>Meta 开源 Muse Glimmer</strong>：<strong>30B</strong> 开放权重 agent 模型，Apache 2.0，4-bit 量化后不到 20 GB，单张消费级显卡或 Apple Silicon 可全离线运行。</li><li><strong>Zoox 拉斯维加斯开始收费</strong>：约 <strong>65 辆</strong> 无方向盘 robotaxi 全部转入付费运营，为 Amazon 旗下 Zoox 首次商业化收费。</li></ul>\n<h3 id=\"1-主要-ai-labs-动态\">1. 主要 AI Labs 动态</h3>\n<h4 class=\"entry-heading\" id=\"openai-发布-gpt-5-6-cyber-daybreak-分成-blue-red-两档\">🔥 OpenAI 发布 GPT-5.6-Cyber，Daybreak 分成 Blue、Red 两档</h4>\n<p>专训攻防的 GPT-5.6-Cyber 内部完成率 <strong>95.0%</strong>、通用档只有 1.5%，发放只走 Daybreak Red 审批通道。OpenAI <strong>8/10</strong> 同日发布两份公告：Daybreak 计划拆为 <strong>Blue</strong>（通用前沿模型、面向获授权的防御性工作）与 <strong>Red</strong>（漏洞研究、漏洞验证与红队测试）两档，并推出专训网络安全模型 <strong>GPT-5.6-Cyber</strong>——在内部 Advanced Cybersecurity Completion Rate 评测上完成 95.0% 的敏感安全请求，对照 GPT-5.6 Sol 仅 1.5%。能力证据是实战的：该模型在 Chrome 的 V8 引擎中发现两个此前未知、可组合成内存破坏并逃逸 V8 堆沙箱的漏洞，经协同披露后 Google 已以 <strong>CVE-2026-15903</strong> 修补。Red 档准入要求身份验证、法律承诺与用例审批，安全团队的行动项是先过 Daybreak 资格申请。 <span class=\"inline-source\">（来源：<a href=\"https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/\" target=\"_blank\" rel=\"noreferrer\">OpenAI 官方博客</a> / <a href=\"https://www.securityweek.com/openai-unveils-new-cybersecurity-model-gpt-5-6-cyber/\" target=\"_blank\" rel=\"noreferrer\">SecurityWeek</a> / <a href=\"https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands/\" target=\"_blank\" rel=\"noreferrer\">OpenAI · Putting frontier cyber models in more trusted hands</a>）</span></p>\n<h3 id=\"2-ai-基础设施与算力金融\">2. AI 基础设施与算力金融</h3>\n<h4 class=\"entry-heading\" id=\"nvidia-与六家资管签备忘录-撬动-5-000-亿第三方资本\">🔥 NVIDIA 与六家资管签备忘录，撬动 $5,000 亿第三方资本</h4>\n<p>算力抵押的 <strong>$5,000 亿以上</strong> 第三方融资盘子成形：外部资本出钱建数据中心，不进 NVIDIA 资产负债表。NVIDIA <strong>8/10</strong> 发布新闻稿，宣布与 <strong>Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs、KKR</strong> 六家机构分别成立独立算力融资平台：由第三方投资者出资建设数据中心、电力与配套设施，资金经特殊目的实体的私募发行与债券部署，NVIDIA 算力作为抵押品。当日只签谅解备忘录、无出资承诺与落地时间表，逐项目最终协议与债券发行待谈。Jensen Huang 8/10 在 CNBC 访谈中称只接触了这六家、无一拒绝。首个可核对节点是 <strong>8/26</strong> 的 NVIDIA Q2 FY27 财报。（次日 08-12.md 有跟进 📌） <span class=\"inline-source\">（来源：<a href=\"https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital\" target=\"_blank\" rel=\"noreferrer\">NVIDIA 官方新闻稿</a> / <a href=\"https://www.cnbc.com/2026/08/10/nvidia-wall-street-asset-managers-500-billion-ai-push.html\" target=\"_blank\" rel=\"noreferrer\">CNBC</a>）</span></p>\n<h4 class=\"entry-heading\" id=\"anthropic-与-macquarie-gic-组建数据中心平台-theseus\">Anthropic 与 Macquarie、GIC 组建数据中心平台 Theseus</h4>\n<p>Anthropic 承诺承担 <strong>100%</strong> 电网升级成本，Macquarie 与 GIC 持多数股权出资建平台 <strong>Theseus Infrastructure</strong>。三方 <strong>8/10</strong> 公布：Macquarie Asset Management 旗下基金与新加坡主权基金 GIC 共同持有并出资平台各项目的多数股权，平台开发、运营数据中心并长期租给作为锚定租户的 Anthropic，首批选址在美国，金额未披露。电价条款是差异点——Anthropic 同时承诺覆盖因其数据中心用电导致的居民电价上涨，回应美国多地选址听证会的核心争议。这与既有算力承诺叠加而非替代：Anthropic 此前已就 Trainium 产能与 AWS 签下十年期 <strong>$1,000 亿以上</strong>、至多 5GW 的协议。下一节点是首批站点选址公示。（次日 08-12.md 有跟进 📌） <span class=\"inline-source\">（来源：<a href=\"https://www.bloomberg.com/news/articles/2026-08-10/anthropic-macquarie-and-gic-form-venture-for-ai-data-centers\" target=\"_blank\" rel=\"noreferrer\">Bloomberg</a> / <a href=\"https://www.macquarie.com/au/en/about/news/2026/anthropic-mam-gic-data-centre-infrastructure-partnership.html\" target=\"_blank\" rel=\"noreferrer\">Macquarie 集团公告</a>）</span></p>\n<p><em>披露：本报告由 Claude 撰写，Anthropic 为 Claude 开发方。本条以 Bloomberg 与 Macquarie 公告为准。</em></p>\n<h3 id=\"3-ai-产品更新\">3. AI 产品更新</h3>\n<h4 class=\"entry-heading\" id=\"meta-开源-30b-本地-agent-模型-muse-glimmer\">Meta 开源 30B 本地 agent 模型 Muse Glimmer</h4>\n<p>30B 权重 4-bit 量化后不到 <strong>20 GB</strong>，单张消费级显卡离线跑 agent——<strong>Muse Glimmer</strong> 以 Apache 2.0 开源。Meta <strong>8/10</strong> 在研究博客发布该模型：面向本地自主任务设计，覆盖编码、日程管理、文件整理、函数调用、多步推理与失败恢复，权重上架 Hugging Face，可经 llama.cpp、vLLM 等推理框架在 24–32 GB 显存的 GPU 或 Apple Silicon 上全离线运行，无按 token 云端计费。同日 Mark Zuckerberg 发布公开信阐述&quot;通往积极 AI 未来&quot;的路线，把个人设备侧 AI 列为方向之一——Glimmer 是这条路线当天给出的具体产品。对个人与小团队，检验点是社区在消费级硬件上的实测吞吐。 <span class=\"inline-source\">（来源：<a href=\"https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model\" target=\"_blank\" rel=\"noreferrer\">Meta AI Research 博客</a> / <a href=\"https://www.infoq.com/news/2026/08/meta-muse-glimmer/\" target=\"_blank\" rel=\"noreferrer\">InfoQ</a> / <a href=\"https://www.forbes.com/sites/jonmarkman/2026/08/11/meta-unveils-muse-glimmer-a-30b-parameter-ai-model-that-runs-locally/\" target=\"_blank\" rel=\"noreferrer\">Forbes</a>）</span></p>\n<h4 class=\"entry-heading\" id=\"claude-sonnet-5-的-2-10-定价转为长期价\">Claude Sonnet 5 的 $2 / $10 定价转为长期价</h4>\n<p>Sonnet 5 的 <strong>$2 / $10</strong> 每百万 token 定价转为长期价，原定 <strong>9/1</strong> 上调至 $3 / $15 的计划取消。Anthropic <strong>8/10</strong> 确认：6 月底随 Sonnet 5 发布的引入价（输入 $2、输出 $10 / 百万 token）不再于 8/31 到期，直接成为标准价。对照组是上代 Sonnet 的 $3 / $15——新定价相当于把 Sonnet 档长期降价 <strong>1/3</strong>。对按月核算推理成本的团队，原本为 9/1 涨价预留的预算调整可以取消；API 计费页与平台定价文档为最终口径。 <span class=\"inline-source\">（来源：<a href=\"https://platform.claude.com/docs/en/about-claude/pricing\" target=\"_blank\" rel=\"noreferrer\">Claude Platform 定价文档</a> / <a href=\"https://explainx.ai/blog/anthropic-sonnet-5-permanent-pricing-august-2026\" target=\"_blank\" rel=\"noreferrer\">explainx</a>）</span></p>\n<p><em>披露：本报告由 Claude 撰写，Anthropic 为 Claude 开发方。</em></p>\n<h3 id=\"4-中国-ai-产业\">4. 中国 AI 产业</h3>\n<h4 class=\"entry-heading\" id=\"宇树科技完成科创板申购-中一签需缴款-7-54-万元\">宇树科技完成科创板申购，中一签需缴款 7.54 万元</h4>\n<p>发行市盈率 <strong>219.23 倍</strong>、约为行业均值的 5.7 倍——宇树科技 <strong>8/10</strong> 完成网上网下申购，8/12 缴款。这家 A 股&quot;人形机器人第一股&quot;（证券代码 688836，申购代码 787836）发行价 <strong>150.80 元/股</strong>，中一签 500 股需缴款 <strong>7.54 万元</strong>，首发拟募资约 <strong>61 亿元</strong>，网上预计发行 647.1 万股，市场预估中签率 0.02%–0.03%。募投方向集中：约 85% 资金投向智能机器人模型与本体研发、新型产品开发与制造基地建设。对照数字是行业平均市盈率 38.56 倍——二级市场是否接受这一溢价，8/12 缴款与后续挂牌首日走势是两个检验点。 <span class=\"inline-source\">（来源：<a href=\"https://news.bjd.com.cn/2026/08/10/11908672.shtml\" target=\"_blank\" rel=\"noreferrer\">京报网</a> / <a href=\"https://www.stcn.com/article/detail/4065519.html\" target=\"_blank\" rel=\"noreferrer\">证券时报网</a>）</span></p>\n<h3 id=\"5-自动驾驶\">5. 自动驾驶</h3>\n<h4 class=\"entry-heading\" id=\"zoox-拉斯维加斯转入付费运营-约-65-辆全部收费\">Zoox 拉斯维加斯转入付费运营，约 65 辆全部收费</h4>\n<p>约 <strong>65 辆</strong> 无方向盘 robotaxi <strong>8/10</strong> 起在拉斯维加斯全部收费，定价高出 UberX 约 20–40%。这是 Amazon 旗下 <strong>Zoox</strong> 的首次商业化收费：车辆为无方向盘、无踏板的专造车型，四座对坐布局，服务覆盖拉斯维加斯大道与市中心，此前的免费乘车计划同步结束；平台承诺绕远不加价。合规基础是 7 月联邦监管机构就&quot;无人工控制装置&quot;规则给出的临时豁免。对照系是 Waymo 的既有付费网络——Zoox 从免费试运营到收费商用花了约一年，下一个观测点是车队规模与服务时段是否扩大。 <span class=\"inline-source\">（来源：<a href=\"https://www.cnbc.com/2026/08/05/amazon-zoox-paid-robotaxi-rides-las-vegas.html\" target=\"_blank\" rel=\"noreferrer\">CNBC</a> / <a href=\"https://www.globalfleet.com/en/technology-and-innovation/europe/news/zoox-launches-its-first-paid-robotaxi-rides-las-vegas\" target=\"_blank\" rel=\"noreferrer\">Global Fleet</a>）</span></p>\n<h3 id=\"6-芯片与半导体\">6. 芯片与半导体</h3>\n<h4 class=\"entry-heading\" id=\"tsmc-7-月营收同比-44-7-跑在全年指引之上\">TSMC 7 月营收同比 +44.7%，跑在全年指引之上</h4>\n<p>7 月营收 <strong>NT$4,675.8 亿</strong>、同比 +44.7%、环比 +5.6%，高于全年&quot;略高于 40%&quot;的美元口径指引。TSMC <strong>8/10</strong> 公布月度数字：2026 年前 7 个月累计营收 <strong>NT$2.87 万亿</strong>、同比 +37.0%。增长归因仍是 AI 芯片需求——公司 Q2 法说会给出的全年指引是美元营收增长略高于 40%、资本开支 $600 亿–$640 亿。7 月单月增速跑在指引之上，意味着下一次法说会（10 月中旬）存在再度上修的空间；短期检验点是 <strong>9/10</strong> 前后发布的 8 月营收是否延续 40%+ 的同比增速。 <span class=\"inline-source\">（来源：<a href=\"https://pr.tsmc.com/english/news/3329\" target=\"_blank\" rel=\"noreferrer\">TSMC 官方新闻稿</a> / <a href=\"https://www.cnbc.com/2026/08/10/tsmc-revenue-surge-ai-chip-big-tech.html\" target=\"_blank\" rel=\"noreferrer\">CNBC</a>）</span></p>\n<h3 id=\"本周值得盯\">本周值得盯</h3>\n<ul><li>8/12 周三 — 宇树科技（688836）科创板新股缴款截止，中一签需缴款 7.54 万元（详见 §4）</li><li>8/14 周五 — Claude Code auto mode 对 Pro / Max / Team 新会话默认开启，依赖逐条批准做变更审计的团队须在此前改回原模式（详见 08-10 归档 §3）</li><li>8/20 周四 07:30 ET — 阿里巴巴发布季度财报，是千问系列商业化与云业务算力投入的下一份对照数据</li><li>8/26 周三 — NVIDIA Q2 FY27 财报，$5,000 亿算力融资平台公布后的首份业绩样本（详见 §2）</li></ul>\n<hr class=\"report-rule\" />\n<p><em>报告生成：2026-08-11 CST · 调度任务：daily-ai-news-v2</em></p>"
     },
     {
       "id": "2026-08-10",
