@@ -34,15 +34,15 @@
 | Unity | U | $46.25 | +7.6% | +4.8% | 📈 | Q3 预计 2026-11（未公告） | 九个交易日连涨累计 44%，Vector 年化收入跑通 $1B 并达成 Netflix 多年合作 |
 | Hims & Hers | HIMS | $28.15 | -10.9% | -13.3% | 📉 | Q3 预计 2026-11（未公告） | Q2 营收超预期但毛利率收缩 1,256bp、亏损扩大，全年指引上调仍难阻股价回落 |
 
-注：股价 = 报告日上一交易日（2026-08-14）收盘；本周涨跌基准 = 2026-08-07 收盘；YTD 基准 = 2025-12-31。🔔 = 财报日在报告日（2026-08-17）起 7 天内（含当日）。本期无组合公司触发 🔔。
+注：股价 = 报告日上一交易日（2026-08-14）收盘；本周涨跌基准 = 2026-08-07 收盘；YTD 基准 = 2025-12-31 未复权收盘价（含息复权口径下 GOOGL、PYPL 会高约 0.1–0.2 个百分点）。🔔 = 财报日在报告日（2026-08-17）起 7 天内（含当日）。本期无组合公司触发 🔔。
 
 ## ⚠️ 本周风险预警
 
-🔔 财报预警：报告日起 7 天内无组合公司发布财报；最近一场为 Nvidia 2026-08-26 盘后 Q2 FY27 财报，届时按态 3 处理。
+🔔 财报预警：报告日起 7 天内无组合公司发布财报；时间上第一场为 Nvidia 2026-08-26 盘后 Q2 FY27 财报，距报告日 9 天，本期按态 4 处理。
 
 **重大负面事件**：
 
-- Hims & Hers 盈利质量恶化。Q2 GAAP 每股亏损 **$0.37**、调整后每股亏损 $0.10（共识 -$0.07），毛利率由上年同期水平收缩 1,256 个基点至 63.8%，主因美国减重业务从复方制剂转向品牌 GLP-1 药物产生的重组费用；自由现金流转负。股价 2026-08-11 单日跌 3.97%，全周累计下跌 10.9%。同期 Berger Montague 等律所继续就董事会受托责任展开调查，7 月 29 日 FTC 诉讼的法律尾部风险仍未消除（来源：[Reuters 报道](https://www.reuters.com/business/healthcare-pharmaceuticals/hims-hers-shares-slide-costly-weight-loss-push-squeezes-margins-2026-08-11/) · [PRNewswire：律所调查](https://www.prnewswire.com/news-releases/berger-montague-pc-investigates-hims--hers-health-incs-board-of-directors-for-breach-of-fiduciary-duty-nyse-hims-302849248.html)）
+- Hims & Hers 盈利质量恶化。Q2 GAAP 每股亏损 **$0.37**、调整后每股亏损 $0.10（共识 -$0.07），净亏损 $86.3M（上年同期为净利润 $42.5M），毛利率由上年同期水平收缩 1,256 个基点至 63.8%，公司归因于美国减重业务转向品牌 GLP-1 药物的组合切换与国际业务扩张；自由现金流转负。股价 2026-08-11 单日跌 3.97%，全周累计下跌 10.9%。同期 Berger Montague 等律所继续就董事会受托责任展开调查，FTC 于 2026-07-29 提起的诉讼（指控向 Meta、Snap 等广告商共享用户健康信息并在问诊前预扣费用）法律尾部风险仍未消除（来源：[Reuters 报道](https://www.reuters.com/business/healthcare-pharmaceuticals/hims-hers-shares-slide-costly-weight-loss-push-squeezes-margins-2026-08-11/) · [PRNewswire：律所调查](https://www.prnewswire.com/news-releases/berger-montague-pc-investigates-hims--hers-health-incs-board-of-directors-for-breach-of-fiduciary-duty-nyse-hims-302849248.html)）
 - AI 基建杠杆度上升引发系统性担忧。据 CNBC 报道，超大规模厂商债券发行与 Nvidia $500B 融资平台叠加，使 AI 建设的债务结构更难追踪；Nvidia 同时把对 OpenAI 数据中心的 $250B 担保缩减为初期覆盖 10GW 项目的一半。Michael Burry 于二季度末仍持有针对 Nvidia、Micron 与 Palantir 的看跌期权（来源：[CNBC 报道](https://www.cnbc.com/2026/08/14/ai-infrastructure-debt-leverage-risks.html) · [Reuters 报道](https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/)）
 - 消费需求走弱信号。7 月零售销售环比 **-0.6%**，为 Dow Jones 共识（+0.1%）的大幅低于，扣除汽车项亦下滑 0.3%。对 PayPal、Hims & Hers 等直接暴露于消费支出的组合成员，这一数据抬高了下半年营收增速的不确定性（来源：[Yahoo Finance 市场综述](https://finance.yahoo.com/markets/stocks/articles/stock-market-news-aug-14-103100309.html) · [CNBC 市场收盘](https://www.cnbc.com/2026/08/13/stock-market-today-live-updates.html)）
 
