@@ -108,13 +108,13 @@ Q2 财报后的重估仍在延续。股价连续九个交易日收涨、区间�
 
 **本周财报（2026-08-10）**：实际 GAAP EPS -$0.37 vs 共识 -$0.05，调整后 EPS -$0.10 vs 共识 -$0.07（未达 42.9%），营收 $753.2M vs 共识 $691.65M（超 8.9%）；盘后反应 -6.3%，次日（2026-08-11）收盘跌 3.97%。
 
-增长与盈利的取舍被摆到台面上。营收同比增长 **38.2%**、订阅用户增至近 290 万（同比 +19%），公司据此把全年营收指引由 $2.8B–$3.0B 上调至 **$3.1B–$3.3B**、调整后 EBITDA 指引区间调整为 $275M–$325M；但毛利率同比收缩 **1,256 个基点**至 63.8%，源于美国减重业务从复方制剂转向品牌 GLP-1 药物的重组费用，自由现金流转负。卖方反应分化：至少六家机构在财报后上调目标价（Needham 由 $35 上调至 $42），理由是 GLP-1 品类的规模扩张；同时据 Reuters，多数分析师对肽类产品年内的贡献持谨慎态度。法律侧，Berger Montague 等律所就董事会受托责任的调查仍在推进，源头是 FTC 于 2026-07-29 提起的数据共享与计费诉讼（来源：[Hims & Hers IR 财报](https://investors.hims.com/news/news-details/2026/Hims--Hers-Health-Inc--Reports-Second-Quarter-2026-Financial-Results/default.aspx) · [Reuters：毛利率承压](https://www.reuters.com/business/healthcare-pharmaceuticals/hims-hers-shares-slide-costly-weight-loss-push-squeezes-margins-2026-08-11/) · [Reuters：肽类产品展望](https://www.reuters.com/legal/litigation/hims-prepares-peptides-launch-wall-street-cautious-prospects-this-year-2026-08-12/)）
+增长与盈利的取舍被摆到台面上。营收同比增长 **38.2%**、订阅用户增至近 290 万（同比 +19%），公司据此把全年营收指引由 $2.8B–$3.0B 上调至 **$3.1B–$3.3B**、调整后 EBITDA 指引区间调整为 $275M–$325M；但毛利率同比收缩 **1,256 个基点**至 63.8%，公司归因于美国减重业务从复方制剂转向品牌 GLP-1 药物的组合切换与国际业务扩张，当季净亏损 $86.3M（上年同期为净利润 $42.5M），自由现金流转负。卖方反应分化：至少六家机构在财报后上调目标价（Needham 由 $35 上调至 $42），理由是 GLP-1 品类的规模扩张；同时据 Reuters，多数分析师对肽类产品年内的贡献持谨慎态度。法律侧，Berger Montague 等律所就董事会受托责任的调查仍在推进，源头是 FTC 于 2026-07-29 提起的数据共享与计费诉讼（来源：[Hims & Hers IR 财报](https://investors.hims.com/news/news-details/2026/Hims--Hers-Health-Inc--Reports-Second-Quarter-2026-Financial-Results/default.aspx) · [Reuters：毛利率承压](https://www.reuters.com/business/healthcare-pharmaceuticals/hims-hers-shares-slide-costly-weight-loss-push-squeezes-margins-2026-08-11/) · [Reuters：肽类产品展望](https://www.reuters.com/legal/litigation/hims-prepares-peptides-launch-wall-street-cautious-prospects-this-year-2026-08-12/)）
 
 ## 🔭 下周值得盯
 
 - **2026-08-19（周三）· 7 月 FOMC 会议纪要**：对应 7 月 28–29 日会议，市场将从中检验鹰派分歧的强度，直接影响 9 月维持利率的 67.1% 定价（来源：[Federal Reserve 日历](https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm)）
-- **2026-08-26（周三）· Nvidia Q2 FY27 财报（盘后）**：结果于美东时间下午 5 点电话会公布，UBS 预计营收显著超出约 $91B 的公司指引，是组合内权重最高的单一事件（来源：[StockTitan：财报电话会公告](https://www.stocktitan.net/news/NVDA/nvidia-sets-conference-call-for-second-quarter-financial-t2wo8k69dark.html)）
-- **2026-08-26（周三）· 7 月 PCE 物价指数**：美东时间 8:30 随个人收入与支出报告发布，是 9 月议息前最后一份核心通胀读数（来源：[PCE 发布日历](https://www.smartcalendars.ai/en/feeds/pce-inflation-release-calendar)）
+- **2026-08-26（周三）· Nvidia Q2 FY27 财报（盘后）**：业绩约于美东时间 16:20 发布、17:00 召开分析师电话会，UBS 预计营收明显超出约 $91B 的公司指引，是组合内权重最高的单一事件（来源：[Investing.com：财报日程](https://www.investing.com/news/company-news/nvidia-schedules-q2-fiscal-2027-earnings-call-for-aug-26-93CH-4821814)）
+- **2026-08-26（周三，待 BEA 确认）· 7 月 PCE 物价指数**：美东时间 8:30 随个人收入与支出报告发布，是 9 月议息前最后一份核心通胀读数（来源：[BEA 发布日历](https://www.bea.gov/news/schedule)）
 - **2026-08-27 至 08-29 · Jackson Hole 全球央行年会**：主题为"金融创新：对支付与政策的影响"，新任美联储主席 Kevin Warsh 将于 8 月 28 日上午发表其首次主旨演讲（来源：[Kansas City Fed](https://www.kansascityfed.org/research/jackson-hole-economic-symposium/) · [会期与议程报道](https://www.regardsofwallstreet.com/news/jackson-hole-2026-dates-schedule-warsh-first-speech)）
 - **PayPal 与 Stripe / Advent 交易谈判**：截至基准交易日无约束性协议，任何价格或条款进展都会直接重定价 PYPL（来源：[WSJ 报道](https://www.wsj.com/business/deals/stripe-advent-in-talks-to-buy-paypal-ea6aa2ba)）
 
