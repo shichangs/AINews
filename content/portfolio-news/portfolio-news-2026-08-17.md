@@ -14,17 +14,17 @@
 
 4. Hims & Hers 于 2026-08-10 盘后发布 Q2 财报：营收 **$753.2M**、同比增长 38.2%，高于共识 $691.65M；但 GAAP 每股亏损 $0.37、调整后每股亏损 $0.10 均逊于预期，毛利率同比收缩 **1,256 个基点**至 63.8%，主因美国减重业务转向品牌 GLP-1 药物带来的重组费用。公司将全年营收指引上调至 $3.1B–$3.3B。股价全周 **-10.9%**，为组合内唯一两位数下跌（来源：[Hims & Hers IR 财报](https://investors.hims.com/news/news-details/2026/Hims--Hers-Health-Inc--Reports-Second-Quarter-2026-Financial-Results/default.aspx) · [Reuters 报道](https://www.reuters.com/business/healthcare-pharmaceuticals/hims-hers-shares-slide-costly-weight-loss-push-squeezes-margins-2026-08-11/)）
 
-5. Micron 全周上涨 **+10.7%** 至 $971.66，市值逼近 $1.1T。2026-08-14 New Street 将评级由中性上调至买入、目标价 **$1,250**，并称在 AI 拉动下 Micron 到 2030 年市值有望达到 $2T–$3T；该行预计 AI 将占存储需求的三分之二，2030 年后存储需求年增速 15%，高于过去二十年 10% 的历史均值（来源：[TheFly：New Street 上调](https://www.tipranks.com/news/the-fly/new-street-upgrades-micron-sees-multi-trillion-market-cap-by-2030-thefly-news) · [Stocktwits 报道](https://stocktwits.com/news-articles/markets/equity/micron-2-3-trillion-giant-2030-ai-memory-demand-new-street-mu-stock-target/cZotm2aRJ0L)）
+5. Micron 全周上涨 **+10.7%** 至 $971.66，市值约 $1.09T。2026-08-14 New Street 将评级由中性上调至买入、目标价 **$1,250**，并称在 AI 拉动下 Micron 到 2030 年市值有望达到 $2T–$3T；该行预计 AI 将占存储需求的三分之二，2030 年后存储需求年增速 15%，高于过去二十年 10% 的历史均值。需要说明的是，$1,250 并非街上最高值——KeyBanc 维持增持、目标价 $1,750，UBS 目标价 $1,625（来源：[Investing.com：New Street 上调](https://www.investing.com/news/stock-market-news/micron-new-street-upgrades-to-buy-says-memory-is-no-longer-a-cyclical-story-4860923) · [Investing.com：KeyBanc 目标价](https://www.investing.com/news/analyst-ratings/keybanc-reiterates-overweight-on-micron-stock-keeps-1750-target-93CH-4801097)）
 
 ## 🌍 本周宏观背景
 
-7 月 CPI 同比 **+3.4%**，与共识一致并较 6 月的 3.5% 回落，环比涨 0.1%；7 月 PPI 环比持平，低于共识的 +0.1%。但 7 月零售销售环比下滑 **0.6%**，远逊于 Dow Jones 共识的 +0.1%，扣除汽车后下滑 0.3%，消费端出现明显降温。据 CME FedWatch，市场对 9 月 FOMC 维持 3.50%–3.75% 利率区间的定价概率为 **67.1%**。指数层面，S&P 500 于 2026-08-14 收 7,785.76 点（单日 -0.2%、全周 +0.4%，为连续第三周上涨），Nasdaq 综指收 26,729.16 点（全周 +0.1%），道指收 53,732.41 点（全周 -0.6%，两周连涨中断），罗素 2000 于周内创历史新高（来源：[CNBC 市场收盘](https://www.cnbc.com/2026/08/13/stock-market-today-live-updates.html) · [Yahoo Finance 市场综述](https://finance.yahoo.com/markets/stocks/articles/stock-market-news-aug-14-103100309.html)）
+7 月 CPI 同比 **+3.4%**，与共识一致并较 6 月的 3.5% 回落，环比涨 0.1%，核心 CPI 同比 2.5%；7 月 PPI 环比持平，低于共识的 +0.2%。但 7 月零售销售环比下滑 **0.6%**，远逊于 Dow Jones 共识的 +0.1%，扣除汽车后下滑 0.3%，同日公布的 8 月密歇根大学消费者信心初值降至 **51.0**（7 月 55.2），消费端降温信号从支出扩散到预期。据 CME FedWatch（数据取自 2026-08-14 Zacks 汇总），市场对 9 月 FOMC 维持 3.50%–3.75% 利率区间的定价概率为 **67.1%**——需要留意的是，本轮争议方向是是否加息而非降息。指数层面，S&P 500 于 2026-08-14 收 7,785.76 点（单日 -0.2%、全周 +0.4%，为连续第三周上涨，周内曾创历史新高），Nasdaq 综指收 26,729.16 点（全周 +0.1%），道指收 53,732.41 点（全周 -0.6%，两周连涨中断），罗素 2000 于周内创历史新高（来源：[Yahoo Finance 市场收盘](https://finance.yahoo.com/markets/live/stock-market-today-friday-august-14-dow-sp-500-nasdaq-102635519.html) · [Yahoo Finance 市场综述](https://finance.yahoo.com/markets/stocks/articles/stock-market-news-aug-14-103100309.html) · [Charles Schwab 市场评论](https://www.schwab.com/learn/story/stock-market-update-open)）
 
 ## ⚡ 速览总结
 
 | 公司 | 代码 | 股价 | 本周涨跌 | YTD 涨跌 | 情绪 | 下次财报 | 一句话摘要 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Tesla ⭐ | TSLA | $342.27 | +4.2% | -23.9% | 📈 | Q3 预计 2026-10（未公告） | 马斯克披露 Terafab 算力约 25% 供 Optimus、75% 供 AI 航天器，TD Cowen 重申买入、目标价 $460 |
+| Tesla ⭐ | TSLA | $342.27 | +4.2% | -23.9% | 📈 | Q3 预计 2026-10（未公告） | 德州 $10.1B 太阳能工厂计划曝光、瑞典三年罢工以买断收场，TD Cowen 重申买入、目标价 $460 |
 | AMD ⭐ | AMD | $514.39 | +6.4% | +140.2% | 📈 | Q3 预计 2026-11（未公告） | 完成史上最大 $4.75B 债券发行，BofA 上调服务器 CPU 市场预测并列为首选 |
 | PayPal | PYPL | $61.66 | +4.4% | +6.2% | 📈 | Q3 预计 2026-10（未公告） | 据 WSJ 报道公司正与 Stripe、Advent 财团谈判出售，价格或高于此前 $60.50/股要约 |
 | Nvidia | NVDA | $225.16 | +0.5% | +20.9% | ➡️ | 2026-08-26 | 联合六家资管机构设立超 $500B AI 基建融资平台，同时缩减对 OpenAI 数据中心的担保规模 |
