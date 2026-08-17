@@ -43,16 +43,16 @@
 **重大负面事件**：
 
 - Hims & Hers 盈利质量恶化。Q2 GAAP 每股亏损 **$0.37**、调整后每股亏损 $0.10（共识 -$0.07），净亏损 $86.3M（上年同期为净利润 $42.5M），毛利率由上年同期水平收缩 1,256 个基点至 63.8%，公司归因于美国减重业务转向品牌 GLP-1 药物的组合切换与国际业务扩张；自由现金流转负。股价 2026-08-11 单日跌 3.97%，全周累计下跌 10.9%。同期 Berger Montague 等律所继续就董事会受托责任展开调查，FTC 于 2026-07-29 提起的诉讼（指控向 Meta、Snap 等广告商共享用户健康信息并在问诊前预扣费用）法律尾部风险仍未消除（来源：[Reuters 报道](https://www.reuters.com/business/healthcare-pharmaceuticals/hims-hers-shares-slide-costly-weight-loss-push-squeezes-margins-2026-08-11/) · [PRNewswire：律所调查](https://www.prnewswire.com/news-releases/berger-montague-pc-investigates-hims--hers-health-incs-board-of-directors-for-breach-of-fiduciary-duty-nyse-hims-302849248.html)）
-- AI 基建杠杆度上升引发系统性担忧。据 CNBC 报道，超大规模厂商债券发行与 Nvidia $500B 融资平台叠加，使 AI 建设的债务结构更难追踪；Nvidia 同时把对 OpenAI 数据中心的 $250B 担保缩减为初期覆盖 10GW 项目的一半。Michael Burry 于二季度末仍持有针对 Nvidia、Micron 与 Palantir 的看跌期权（来源：[CNBC 报道](https://www.cnbc.com/2026/08/14/ai-infrastructure-debt-leverage-risks.html) · [Reuters 报道](https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/)）
-- 消费需求走弱信号。7 月零售销售环比 **-0.6%**，为 Dow Jones 共识（+0.1%）的大幅低于，扣除汽车项亦下滑 0.3%。对 PayPal、Hims & Hers 等直接暴露于消费支出的组合成员，这一数据抬高了下半年营收增速的不确定性（来源：[Yahoo Finance 市场综述](https://finance.yahoo.com/markets/stocks/articles/stock-market-news-aug-14-103100309.html) · [CNBC 市场收盘](https://www.cnbc.com/2026/08/13/stock-market-today-live-updates.html)）
+- AI 基建杠杆度上升引发系统性担忧。据 CNBC 报道，超大规模厂商债券发行与 Nvidia $500B 融资平台叠加，使 AI 建设的债务结构更难追踪；Nvidia 同时把对 OpenAI 数据中心的 $250B 担保缩减为初期覆盖 10GW 项目的一半。据 Invezz 报道，Michael Burry 披露做空 Nvidia 与 Micron 的看跌期权头寸（来源：[CNBC 报道](https://www.cnbc.com/2026/08/14/ai-infrastructure-debt-leverage-risks.html) · [Reuters 报道](https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/)）
+- 消费需求走弱信号。7 月零售销售环比 **-0.6%**，大幅低于 Dow Jones 共识的 +0.1%，扣除汽车项亦下滑 0.3%；8 月密歇根大学消费者信心初值 51.0，逼近历史低位区间。对 PayPal、Hims & Hers 等直接暴露于消费支出的组合成员，这两项数据抬高了下半年营收增速的不确定性（来源：[Yahoo Finance 市场综述](https://finance.yahoo.com/markets/stocks/articles/stock-market-news-aug-14-103100309.html) · [Charles Schwab 市场评论](https://www.schwab.com/learn/story/stock-market-update-open)）
 
 ## ⭐ Tesla (TSLA) — 重点关注
 
 **股价：** $342.27（本周 +4.2%，YTD -23.9%）｜**情绪：** 📈｜**下次财报：** Q3 预计 2026-10（未公告）
 
-Terafab 仍是定价主线。继 2026-08-06 确认德州 Grimes County 选址、首期投入 **$16.8B** 后，马斯克在 X 上发布厂区视频并给出算力分配口径："我非常粗略的猜测是，Terafab 的 AI 算力产出约 25% 用于 Tesla Optimus，约 75% 用于 AI 航天器"（原话引用）。该表述把这座 1 亿平方英尺、规划年产出超 1 太瓦算力的厂区，明确定位为 Tesla 与 SpaceX 共享而非 Tesla 独占的资产，也解释了市场对资本开支归属的分歧。视频中同时露出两款尚未量产的产品——**Optimus** 与 Robovan；Tesla AI 负责人 Ashok Elluswamy 在 X 上确认，德州超级工厂的 Optimus 年产目标为 1,000 万台。
+本周的增量在德州的第二座工厂与欧洲的劳资出清。据 TechCrunch 报道，Tesla 于 2026-08-12 向德州州政府备案，计划投资 **$10.1B** 建设太阳能组件工厂，马斯克给出的长期目标是 Tesla 与 SpaceX 合计在美国建成 100GW 年产能——继 Terafab 之后，这是三个月内第二笔十亿美元量级的德州制造承诺，资本开支的久期因此进一步拉长。2026-08-13，持续三年的瑞典 IF Metall 罢工以员工买断方式结束，欧洲运营端一项长期悬置的劳资风险出清。作为背景，2026-08-06 确认落址 Grimes County、首期投入 **$16.8B** 的 Terafab 项目，马斯克在同日的 X 帖中给出算力分配口径：约 25% 用于 Tesla Optimus、约 75% 用于 AI 航天器——即该厂区是 Tesla 与 SpaceX 共享而非 Tesla 独占的资产。
 
-自动驾驶商业化的节奏由软件而非产能决定。Cybercab 已在德州超级工厂进入连续生产，累计无监督里程超过 38 万英里、覆盖 7 座城市；但公司在 Q1 财报电话会上明确，安全验证是 Robotaxi 扩张的限制因素，重写版 FSD v15 目标落在 2026 年底至 2027 年初，马斯克亦承认 Robotaxi 在 2027 年前难有实质营收。
+自动驾驶商业化的节奏由软件而非产能决定。Cybercab 已在德州超级工厂进入连续生产，累计无监督里程超过 38 万英里、覆盖 7 座城市；但公司在 2026 年 4 月的 Q1 财报电话会上明确，安全验证是 Robotaxi 扩张的限制因素，重写版 FSD v15 目标落在 2026 年底至 2027 年初，马斯克亦承认 Robotaxi 在 2027 年前难有实质营收。
 
 分析师侧出现边际改善。2026-08-14，TD Cowen 分析师 Itay Michaeli 重申买入、目标价 **$460**，对应当日收盘价约 34% 的上行空间，理由集中在自动驾驶市场卡位而非近端交付量；股价当日收涨 0.68% 至 $342.27，全周累计上涨 4.2%，为连续第二周走强，两周累计反弹约 10%。估值层面的核心矛盾没有变化：Terafab 与 Optimus 的资本承诺兑现期在 2027 年之后，而 2026 年的经营杠杆仍受高企的经营费用压制（来源：[Fortune 报道](https://fortune.com/2026/08/10/elon-musk-chip-factory-spacex-tesla-texas/) · [Yahoo Finance：马斯克算力分配](https://finance.yahoo.com/technology/ai/articles/elon-musk-says-spacex-consume-203118247.html) · [Motley Fool：TD Cowen 目标价](https://www.fool.com/coverage/stock-market-today/2026/08/14/stock-market-today-aug-14-tesla-gains-on-td-cowen-buy-reiteration-and-460-target/)）
 
