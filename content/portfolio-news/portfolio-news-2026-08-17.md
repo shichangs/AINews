@@ -54,15 +54,15 @@
 
 自动驾驶商业化的节奏由软件而非产能决定。Cybercab 已在德州超级工厂进入连续生产，累计无监督里程超过 38 万英里、覆盖 7 座城市；但公司在 2026 年 4 月的 Q1 财报电话会上明确，安全验证是 Robotaxi 扩张的限制因素，重写版 FSD v15 目标落在 2026 年底至 2027 年初，马斯克亦承认 Robotaxi 在 2027 年前难有实质营收。
 
-分析师侧出现边际改善。2026-08-14，TD Cowen 分析师 Itay Michaeli 重申买入、目标价 **$460**，对应当日收盘价约 34% 的上行空间，理由集中在自动驾驶市场卡位而非近端交付量；股价当日收涨 0.68% 至 $342.27，全周累计上涨 4.2%，为连续第二周走强，两周累计反弹约 10%。估值层面的核心矛盾没有变化：Terafab 与 Optimus 的资本承诺兑现期在 2027 年之后，而 2026 年的经营杠杆仍受高企的经营费用压制（来源：[Fortune 报道](https://fortune.com/2026/08/10/elon-musk-chip-factory-spacex-tesla-texas/) · [Yahoo Finance：马斯克算力分配](https://finance.yahoo.com/technology/ai/articles/elon-musk-says-spacex-consume-203118247.html) · [Motley Fool：TD Cowen 目标价](https://www.fool.com/coverage/stock-market-today/2026/08/14/stock-market-today-aug-14-tesla-gains-on-td-cowen-buy-reiteration-and-460-target/)）
+分析师侧出现边际改善。2026-08-14，TD Cowen 分析师 Itay Michaeli 重申买入、目标价 **$460**，对应当日收盘价约 34% 的上行空间，理由集中在自动驾驶市场卡位而非近端交付量；股价当日收涨 0.68% 至 $342.27，全周累计上涨 4.2%，为连续第二周走强，两周累计反弹约 10%。估值层面的核心矛盾没有变化：Terafab、太阳能工厂与 Optimus 的资本承诺兑现期都在 2027 年之后，而 2026 年的经营杠杆仍受高企的经营费用压制（来源：[TechCrunch：太阳能工厂](https://techcrunch.com/2026/08/12/tesla-wants-to-build-a-10b-solar-factory-in-texas/) · [Business Insider：瑞典罢工结束](https://www.businessinsider.com/tesla-ends-strike-sweden-worker-buyout-elon-musk-if-metall-2026-8) · [Motley Fool：TD Cowen 目标价](https://www.fool.com/coverage/stock-market-today/2026/08/14/stock-market-today-aug-14-tesla-gains-on-td-cowen-buy-reiteration-and-460-target/)）
 
 ## ⭐ AMD (AMD) — 重点关注
 
 **股价：** $514.39（本周 +6.4%，YTD +140.2%）｜**情绪：** 📈｜**下次财报：** Q3 预计 2026-11（未公告）
 
-资本结构与需求预期同时改善，把 Q2 财报后的回调完全收复。公司完成规模 **$4.75B** 的美元投资级债券发行，为其史上最大一笔，分四档定价：$1.25B 4.600% 到期 2029 年、$1.5B 5.000% 到期 2031 年、$1B 5.250% 到期 2033 年、$1B 5.500% 到期 2036 年，募资对应 AI 产能与并购扩张需求。发行完成当日（2026-08-14）股价涨 6.50% 至 $514.39，全周累计上涨 6.4%，收复 8 月 5 日因毛利率不及共识造成的 7.04% 单日跌幅。
+资本结构与需求预期同时改善，把 Q2 财报后的回调完全收复。公司为规模 **$4.75B** 的美元投资级债券定价，为其史上最大一笔，分四档：$1.25B 4.600% 到期 2029 年、$1.5B 5.000% 到期 2031 年、$1B 5.250% 到期 2033 年、$1B 5.500% 到期 2036 年，结算日为 2026-08-17。定价当日（2026-08-14）股价涨 6.50% 至 $514.39，全周累计上涨 6.4%，收复 8 月 5 日因毛利率不及共识造成的 7.04% 单日跌幅。
 
-需求侧的增量来自 CPU 而非仅 GPU。Bank of America 分析师 Vivek Arya 将 2030 年服务器 CPU 市场规模预测上调至 **超 $210B**，逻辑是 AI 智能体workload 放大了数据中心内 CPU 的角色，并把 AMD 列为该行 CPU 首选、Nvidia 列为半导体板块首选；2026-08-13 该报告发布当日 AMD 涨 2.7%。Bernstein 同期指出，AMD 在二季度继续从 Intel 手中夺取 CPU 出货份额，但 Intel 通过提价守住了营收份额。
+需求侧的增量来自 CPU 而非仅 GPU。Bank of America 分析师 Vivek Arya 将 2030 年服务器 CPU 市场规模预测上调至 **超 $210B**，逻辑是 AI 智能体工作负载放大了数据中心内 CPU 的角色，并把 AMD 列为该行 CPU 首选、Nvidia 列为半导体板块首选；2026-08-13 该报告发布当日 AMD 盘中一度涨约 2.7%（最高 $497.99），收盘基本持平于 $483.01。Bernstein 同期指出，AMD 在二季度继续从 Intel 手中夺取 CPU 出货份额，但 Intel 通过提价守住了营收份额。
 
 产品线口径维持不变：**Helios** 机架级系统整合 Instinct MI455X GPU、EPYC "Venice" CPU、Pensando 网络芯片与 ROCm 软件，计划 2026 年下半年向包括微软在内的客户出货；Anthropic 已签约部署最高 2 GW 的 Instinct MI450 系列，首个吉瓦级部署自 2027 年上半年启动。竞争格局的现实约束同样明确——Nvidia 在数据中心 GPU 市场占比仍在 95% 以上，AMD 约 4.5%，MI450/Helios 的份额兑现要等到 2027 年的部署曲线（来源：[Reuters：债券发行](https://www.reuters.com/technology/amd-looks-raise-4-billion-5-billion-debt-offering-source-says-2026-08-13/) · [Invezz：BofA 上调](https://invezz.com/news/2026/08/13/why-is-amd-stock-gaining-2-today/) · [Yahoo Finance：Helios 与 MI450](https://finance.yahoo.com/technology/ai/articles/amd-launches-helios-rack-system-133630311.html)）
 
