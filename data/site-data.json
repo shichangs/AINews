@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T02:29:06.726Z",
+  "generatedAt": "2026-08-20T01:16:31.698Z",
   "sourceDirectories": {
     "daily": "/home/runner/work/AINews/AINews/content/daily-ai-news",
     "weekly": "/home/runner/work/AINews/AINews/content/daily-ai-news/weekly",
@@ -7,6 +7,171 @@
     "weeklyAiTech": "/home/runner/work/AINews/AINews/content/weekly-ai-tech"
   },
   "issues": [
+    {
+      "id": "2026-08-20",
+      "date": "2026-08-20",
+      "label": "8月20日",
+      "title": "每日前沿 AI 行业新闻 — 2026年8月20日",
+      "summary": "- 🔥 H200 首批进入中国：字节跳动与腾讯各接收约 1 万颗，获批的 10 家 公司单家采购上限为 10 万颗。\n- 🔥 据 Bloomberg：SpaceX 曾接触收购 Cognition：Cognition 估值 5 月轮为 $260 亿，CEO 当日否认公司待售。\n- 三星先进制程代工涨价至多 15%：SF4 对中美客户涨 10–15%、对台湾客户涨 5–10%，7 月已生效。\n- 📌 宇树首日收涨 460.34%：开盘 1,100 元（+629.44%）后回落，收盘 845 元，总市值 ¥3,417.72 亿。\n- OpenAI 预览 Private Safety Processing：零数据留存承诺不变，跨会话风险监控 9 月 开始推送。",
+      "sections": [
+        "芯片",
+        "AI Labs",
+        "AI Agent",
+        "中国 AI",
+        "产品",
+        "AI 基础设施",
+        "AI 安全"
+      ],
+      "stories": [
+        {
+          "tag": "芯片",
+          "impact": "高热",
+          "title": "🔥 H200 首批进入中国，单家授权上限 10 万颗",
+          "detail": "获批的 10 家 中国公司单家最多可购 10 万颗 H200，首批已到字节跳动与腾讯。据 Financial Times 8/19 报道，两家公司过去数周各接收约 1 万颗，是北京放开进口后的首批到货；其他中国科技公司可能很快拿到同等规模的批次。附带条件限制了实际可用性：多数获…",
+          "links": [
+            {
+              "label": "Reuters / Business Recorder 转述 FT",
+              "url": "https://www.brecorder.com/news/40435527/nvidia-h200-chips-reach-china-in-small-shipments-ft-reports"
+            },
+            {
+              "label": "Tom's Hardware",
+              "url": "https://www.tomshardware.com/pc-components/gpus/first-nvidia-h200-shipments-reach-bytedance-and-tencent-as-beijing-loosens-its-import-block"
+            }
+          ],
+          "anchor": "h200-首批进入中国-单家授权上限-10-万颗"
+        },
+        {
+          "tag": "芯片",
+          "impact": "关注",
+          "title": "三星先进制程代工涨价至多 15%，7 月起已生效",
+          "detail": "SF4 对中美客户涨 10–15%、对台湾客户涨 5–10%，涨价 7 月已落地。Reuters 8/19 引消息人士报道，三星同步上调 SF5 制程 10–15%，连 8 纳米老产线也涨了近 10%。供给面是直接原因：台积电先进产能被 AI 订单排满，三星平泽 4 纳米产线自…",
+          "links": [
+            {
+              "label": "Reuters / KFGO",
+              "url": "https://kfgo.com/2026/08/19/samsung-hikes-chipmaking-prices-by-up-to-15-on-demand-spike-sources-say/"
+            },
+            {
+              "label": "Tom's Hardware",
+              "url": "https://www.tomshardware.com/tech-industry/samsung-raises-advanced-foundry-prices-by-up-to-15-percent-as-ai-demand-fills-its-4nm-lines"
+            }
+          ],
+          "anchor": "三星先进制程代工涨价至多-15-7-月起已生效"
+        },
+        {
+          "tag": "AI Labs",
+          "impact": "高热",
+          "title": "🔥 据 Bloomberg：SpaceX 曾接触收购 Cognition，CEO 当日否认",
+          "detail": "Cognition CEO Scott Wu 当日公开否认公司待售，称从未进入正式收购谈判。据 Bloomberg 8/19 报道，SpaceX 在推进对 Cursor 母公司 Anysphere 的收购（8/14 交割，详见 08-15 归档）之后接触了 Cognition，…",
+          "links": [
+            {
+              "label": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-08-19/spacex-attempted-to-acquire-ai-coding-startup-cognition"
+            },
+            {
+              "label": "TechCrunch",
+              "url": "https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup/"
+            }
+          ],
+          "anchor": "据-bloomberg-spacex-曾接触收购-cognition-ceo-当日否认"
+        },
+        {
+          "tag": "AI Labs",
+          "impact": "关注",
+          "title": "OpenAI 预览 Private Safety Processing，9 月起推送",
+          "detail": "零数据留存（ZDR）客户 9 月 起将收到跨会话风险监控，技术白皮书同月发布。OpenAI 8/19 公告说明了这套机制解决的矛盾：现有 ZDR 兼容的安全系统逐次独立评估每次交互，而长任务智能体的风险往往只在多次交互的关联中才显形。新机制下客户内容或留在客户自控的基础设施，或…",
+          "links": [
+            {
+              "label": "OpenAI",
+              "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models/"
+            }
+          ],
+          "anchor": "openai-预览-private-safety-processing-9-月起推送"
+        },
+        {
+          "tag": "AI Agent",
+          "impact": "关注",
+          "title": "Cursor 云端 Agent 可订阅事件源，自动跟进 PR 到完成",
+          "detail": "云端 Agent 现在能订阅 PR 与 Slack 线程，自行修 CI、回应机器人评论直到任务完成。Cursor 8/19 的 changelog 把这组能力称为 Subscriptions，目前仅对云端 agent 开放：agent 订阅一个事件源，事件发生时被唤醒；它创建的…",
+          "links": [
+            {
+              "label": "Cursor Changelog",
+              "url": "https://cursor.com/changelog/08-19-26"
+            },
+            {
+              "label": "TechCrunch",
+              "url": "https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development/"
+            }
+          ],
+          "anchor": "cursor-云端-agent-可订阅事件源-自动跟进-pr-到完成"
+        },
+        {
+          "tag": "AI Agent",
+          "impact": "更新",
+          "title": "Grok 4.6 上线 Amazon Bedrock，20 万 token 以上价格翻倍",
+          "detail": "AWS 全部支持区域即日可调 Grok 4.6，20 万提示 token 是价格分水岭。xAI 8/19 宣布该模型进入 Bedrock：20 万 token 以下按 $2 / $0.50 / $6（输入 / 缓存输入 / 输出，每百万 token）计费，以上翻倍至 $4 /…",
+          "links": [
+            {
+              "label": "xAI",
+              "url": "https://x.ai/news/grok-4-6-amazon-bedrock"
+            },
+            {
+              "label": "AWS What's New",
+              "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-grok-4-6/"
+            }
+          ],
+          "anchor": "grok-4-6-上线-amazon-bedrock-20-万-token-以上价格翻倍"
+        },
+        {
+          "tag": "中国 AI",
+          "impact": "关注",
+          "title": "📌 宇树首日收涨 460.34%，盘中高点至收盘市值缩水约 ¥1,031 亿",
+          "detail": "开盘 1,100 元 后一路回落，收盘 845 元，较盘中最高市值缩水约 ¥1,031 亿。宇树科技 8/19 在科创板挂牌，发行价 150.80 元，开盘涨 629.44%、总市值一度达 ¥4,449 亿，盘中最低触及 800 元，收盘涨 460.34%、总市值 ¥3,417…",
+          "links": [
+            {
+              "label": "新浪科技",
+              "url": "https://finance.sina.com.cn/tech/digi/2026-08-19/doc-ininvshu2695096.shtml"
+            },
+            {
+              "label": "科技日报",
+              "url": "https://www.stdaily.com/web/gdxw/2026-08/19/content_566457.html"
+            }
+          ],
+          "anchor": "宇树首日收涨-460-34-盘中高点至收盘市值缩水约-1-031-亿"
+        },
+        {
+          "tag": "AI 基础设施",
+          "impact": "关注",
+          "title": "欧洲新建 AI 数据中心平均距核心枢纽 175 公里",
+          "detail": "2026–2028 年规划的 AI 数据中心离主要枢纽平均 175 公里，接近历史平均 46 公里 的 3.8 倍。Reuters 8/19 报道了 JLL 的这组测算：选址决策的第一顺位从靠近人口与连接节点，换成了可得电力、地价与并网速度。受益的是瑞典北部、西班牙与葡萄牙乡村…",
+          "links": [
+            {
+              "label": "Reuters / TechStartups 摘要",
+              "url": "https://techstartups.com/2026/08/19/top-tech-news-today-august-19-2026-landspace-microsoft-nvidia-openai-samsung-unitree-z-ai-more/"
+            }
+          ],
+          "anchor": "欧洲新建-ai-数据中心平均距核心枢纽-175-公里"
+        },
+        {
+          "tag": "AI 安全",
+          "impact": "关注",
+          "title": "Copilot 一键漏洞细节公开，内存投毒可跨改密码存活",
+          "detail": "被投毒的 Copilot 长期记忆能挺过改密码、注销会话与设备重新注册，需人工清理。Varonis Threat Labs 8/19 公开了 CVE-2026-24301（代号 CoSnitch）的细节：微软 8/18 修复该漏洞，距收到报告已近 8 个月。攻击链由三个弱点串成…",
+          "links": [
+            {
+              "label": "Varonis",
+              "url": "https://www.varonis.com/blog/cosnitch"
+            },
+            {
+              "label": "The Hacker News",
+              "url": "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html"
+            }
+          ],
+          "anchor": "copilot-一键漏洞细节公开-内存投毒可跨改密码存活"
+        }
+      ],
+      "sourceFile": "/home/runner/work/AINews/AINews/content/daily-ai-news/2026-08-20.md",
+      "htmlContent": "<p>&gt; 注：覆盖窗口 24h（UTC 2026-08-19 00:00 至 08-20 00:00，对应 CST 8/19 8:00 至 8/20 8:00）。前两日归档 08-19、08-18 均存在，去重比对以此二日为锚。一手来源核对：OpenAI News（8/19「Offering Zero Data Retention for frontier models」，收 §2）、Cursor Changelog（8/19 Cloud Agents 与 Harness 更新，收 §3）、Anthropic Newsroom（站内最新 8/14 文本水印，窗口外）、NVIDIA Newsroom（最新 8/17 PORTS-Pike，08-18 已报）、Google DeepMind（最新为 8/13 Gemini 3.7 Flash，窗口外）、Meta AI Blog（最新 7/27，窗口外）、Claude Code Releases（GitHub 发布页缓存滞后，npm 侧最新 v2.1.236 为例行 patch，未达门槛）、DeepSeek / Qwen / 智谱 / Hugging Face 中文榜（JS 渲染与 provenance 限制不可直取，经 WebSearch 侧核对，窗口内均无新公告）。窗口外不收录：Cerebras CS-4 发布（官方新闻稿署 8/18）、Warp Factories 封测（TechCrunch 8/18，本报告在 §3 作对照提及）、Anthropic 7 月年化收入运行率破 $650 亿（8/17）、Z.ai GLM-5.3 发布（8/14，权重尚未公开）、Grok Bot 公测（8/11）。</p>\n<h3 id=\"今日摘要\">今日摘要</h3>\n<ul><li>🔥 <strong>H200 首批进入中国</strong>：字节跳动与腾讯各接收约 <strong>1 万颗</strong>，获批的 <strong>10 家</strong> 公司单家采购上限为 <strong>10 万颗</strong>。</li><li>🔥 <strong>据 Bloomberg：SpaceX 曾接触收购 Cognition</strong>：Cognition 估值 5 月轮为 <strong>$260 亿</strong>，CEO 当日否认公司待售。</li><li><strong>三星先进制程代工涨价至多 15%</strong>：SF4 对中美客户涨 <strong>10–15%</strong>、对台湾客户涨 <strong>5–10%</strong>，7 月已生效。</li><li>📌 <strong>宇树首日收涨 460.34%</strong>：开盘 1,100 元（+629.44%）后回落，收盘 845 元，总市值 <strong>¥3,417.72 亿</strong>。</li><li><strong>OpenAI 预览 Private Safety Processing</strong>：零数据留存承诺不变，跨会话风险监控 <strong>9 月</strong> 开始推送。</li></ul>\n<h3 id=\"1-芯片与出口管制\">1. 芯片与出口管制</h3>\n<h4 class=\"entry-heading\" id=\"h200-首批进入中国-单家授权上限-10-万颗\">🔥 H200 首批进入中国，单家授权上限 10 万颗</h4>\n<p>获批的 <strong>10 家</strong> 中国公司单家最多可购 <strong>10 万颗</strong> H200，首批已到字节跳动与腾讯。据 Financial Times <strong>8/19</strong> 报道，两家公司过去数周各接收约 <strong>1 万颗</strong>，是北京放开进口后的首批到货；其他中国科技公司可能很快拿到同等规模的批次。附带条件限制了实际可用性：多数获许可的芯片被要求留在香港，而字节与腾讯目前在港没有可供部署的数据中心。H200 属于上一代数据中心 GPU，中国客户仍无法购买英伟达最新代产品。下一个可核验节点是 <strong>8/26</strong> 英伟达 Q2 FY27 财报——中国区收入指引是否随这批出货恢复口径。 <span class=\"inline-source\">（来源：<a href=\"https://www.brecorder.com/news/40435527/nvidia-h200-chips-reach-china-in-small-shipments-ft-reports\" target=\"_blank\" rel=\"noreferrer\">Reuters / Business Recorder 转述 FT</a> / <a href=\"https://www.tomshardware.com/pc-components/gpus/first-nvidia-h200-shipments-reach-bytedance-and-tencent-as-beijing-loosens-its-import-block\" target=\"_blank\" rel=\"noreferrer\">Tom's Hardware</a>）</span></p>\n<h4 class=\"entry-heading\" id=\"三星先进制程代工涨价至多-15-7-月起已生效\">三星先进制程代工涨价至多 15%，7 月起已生效</h4>\n<p><strong>SF4</strong> 对中美客户涨 <strong>10–15%</strong>、对台湾客户涨 <strong>5–10%</strong>，涨价 7 月已落地。Reuters <strong>8/19</strong> 引消息人士报道，三星同步上调 <strong>SF5</strong> 制程 10–15%，连 8 纳米老产线也涨了近 <strong>10%</strong>。供给面是直接原因：台积电先进产能被 AI 订单排满，三星平泽 4 纳米产线自去年底起满产。承受最大涨幅的是中国芯片设计公司——受美国出口管制限制，它们对大陆以外代工厂的依赖度更高。这轮涨价对三星的意义在于代工业务的亏损收窄，下一个检验点是 <strong>10 月</strong> 的 Q3 财报。存储侧的涨价链条已先行（三星上半年 DRAM 份额 39.4%，详见 08-17 归档）。 <span class=\"inline-source\">（来源：<a href=\"https://kfgo.com/2026/08/19/samsung-hikes-chipmaking-prices-by-up-to-15-on-demand-spike-sources-say/\" target=\"_blank\" rel=\"noreferrer\">Reuters / KFGO</a> / <a href=\"https://www.tomshardware.com/tech-industry/samsung-raises-advanced-foundry-prices-by-up-to-15-percent-as-ai-demand-fills-its-4nm-lines\" target=\"_blank\" rel=\"noreferrer\">Tom's Hardware</a>）</span></p>\n<h3 id=\"2-主要-ai-labs-动态\">2. 主要 AI Labs 动态</h3>\n<h4 class=\"entry-heading\" id=\"据-bloomberg-spacex-曾接触收购-cognition-ceo-当日否认\">🔥 据 Bloomberg：SpaceX 曾接触收购 Cognition，CEO 当日否认</h4>\n<p>Cognition CEO <strong>Scott Wu</strong> 当日公开否认公司待售，称从未进入正式收购谈判。据 Bloomberg <strong>8/19</strong> 报道，SpaceX 在推进对 Cursor 母公司 Anysphere 的收购（8/14 交割，详见 08-15 归档）之后接触了 Cognition，对方未回应收购意向；报道称双方仍在谈另一种合作——让 Cognition 使用 SpaceX 的算力。Wu 的声明只否认了出售部分，未涉及算力合作。估值参照是这家 Devin 开发商 5 月轮的 <strong>$260 亿</strong>，公司已与投资人早期接触新一轮、估值至少 <strong>$400 亿</strong>（该洽谈 08-13 归档已报）。下一个可核验节点是新一轮融资条款落地时披露的投后估值。 <span class=\"inline-source\">（来源：<a href=\"https://www.bloomberg.com/news/articles/2026-08-19/spacex-attempted-to-acquire-ai-coding-startup-cognition\" target=\"_blank\" rel=\"noreferrer\">Bloomberg</a> / <a href=\"https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup/\" target=\"_blank\" rel=\"noreferrer\">TechCrunch</a>）</span></p>\n<h4 class=\"entry-heading\" id=\"openai-预览-private-safety-processing-9-月起推送\">OpenAI 预览 Private Safety Processing，9 月起推送</h4>\n<p>零数据留存（ZDR）客户 <strong>9 月</strong> 起将收到跨会话风险监控，技术白皮书同月发布。OpenAI <strong>8/19</strong> 公告说明了这套机制解决的矛盾：现有 ZDR 兼容的安全系统逐次独立评估每次交互，而长任务智能体的风险往往只在多次交互的关联中才显形。新机制下客户内容或留在客户自控的基础设施，或存放在 OpenAI 侧、用客户掌握的密钥加密；自动系统只回传告警的类别与严重程度，OpenAI 人员不接触内容本身。例外仍是法定的儿童性虐待材料（CSAM）图像，会保留人工复核。参与共同设计的客户包括 Glean、Databricks、Abridge 与 Microsoft。目前处于早期客户测试阶段，ZDR 合同客户需要在 9 月推送前确认内容存放位置的选项。 <span class=\"inline-source\">（来源：<a href=\"https://openai.com/index/offering-zero-data-retention-for-frontier-models/\" target=\"_blank\" rel=\"noreferrer\">OpenAI</a>）</span></p>\n<h3 id=\"3-ai-agent-与开发者工具\">3. AI Agent 与开发者工具</h3>\n<h4 class=\"entry-heading\" id=\"cursor-云端-agent-可订阅事件源-自动跟进-pr-到完成\">Cursor 云端 Agent 可订阅事件源，自动跟进 PR 到完成</h4>\n<p>云端 Agent 现在能订阅 PR 与 Slack 线程，自行修 CI、回应机器人评论直到任务完成。Cursor <strong>8/19</strong> 的 changelog 把这组能力称为 Subscriptions，目前仅对云端 agent 开放：agent 订阅一个事件源，事件发生时被唤醒；它创建的 PR 会自动订阅并推进到底。同批更新还有三项：子代理可各自跑在独立虚拟机上，每个拿到项目的干净副本与独立上下文；<code>/goal</code> 给出长期目标、agent 持续做到完成；任何 skill 可用 ⌥⏎ 固定为 Custom Mode 常驻会话。方向与 Warp <strong>8/18</strong> 推出的 Factories 一致（封闭测试，合格企业获 <strong>$10,000</strong> 免费额度）——都在把一次性对话变成常驻流水线。Subscriptions 下放到本地 agent 的时间表，官方未给。 <span class=\"inline-source\">（来源：<a href=\"https://cursor.com/changelog/08-19-26\" target=\"_blank\" rel=\"noreferrer\">Cursor Changelog</a> / <a href=\"https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development/\" target=\"_blank\" rel=\"noreferrer\">TechCrunch</a>）</span></p>\n<h4 class=\"entry-heading\" id=\"grok-4-6-上线-amazon-bedrock-20-万-token-以上价格翻倍\">Grok 4.6 上线 Amazon Bedrock，20 万 token 以上价格翻倍</h4>\n<p>AWS 全部支持区域即日可调 <strong>Grok 4.6</strong>，20 万提示 token 是价格分水岭。xAI <strong>8/19</strong> 宣布该模型进入 Bedrock：20 万 token 以下按 <strong>$2 / $0.50 / $6</strong>（输入 / 缓存输入 / 输出，每百万 token）计费，以上翻倍至 <strong>$4 / $1 / $12</strong>。模型规格为 <strong>500k</strong> 上下文窗口、四档推理力度（low / medium / high / xhigh），定位是长跑型智能体与交互式视觉任务。这是该模型在 8/12 Cursor 首发、8/14 打通 GitHub Copilot 全部 8 个入口（详见 08-16 归档）之后的第三个第三方分发面，也是 SpaceX 完成收购 Anysphere 后 Grok 首次进入 AWS 目录。跨云分发的下一个观察点是 Bedrock 侧的区域与配额扩展节奏。 <span class=\"inline-source\">（来源：<a href=\"https://x.ai/news/grok-4-6-amazon-bedrock\" target=\"_blank\" rel=\"noreferrer\">xAI</a> / <a href=\"https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-grok-4-6/\" target=\"_blank\" rel=\"noreferrer\">AWS What's New</a>）</span></p>\n<h3 id=\"4-机器人与中国-ai-产业\">4. 机器人与中国 AI 产业</h3>\n<h4 class=\"entry-heading\" id=\"宇树首日收涨-460-34-盘中高点至收盘市值缩水约-1-031-亿\">📌 宇树首日收涨 460.34%，盘中高点至收盘市值缩水约 ¥1,031 亿</h4>\n<p>开盘 <strong>1,100 元</strong> 后一路回落，收盘 <strong>845 元</strong>，较盘中最高市值缩水约 <strong>¥1,031 亿</strong>。宇树科技 <strong>8/19</strong> 在科创板挂牌，发行价 150.80 元，开盘涨 <strong>629.44%</strong>、总市值一度达 <strong>¥4,449 亿</strong>，盘中最低触及 800 元，收盘涨 <strong>460.34%</strong>、总市值 <strong>¥3,417.72 亿</strong>，中一签浮盈约 <strong>35 万元</strong>。本次发行 4,044.6434 万股，占发行后总股本 <strong>10%</strong>，募资总额 <strong>60.99 亿元</strong>。08-19 归档已报中签率 0.018% 与首日流通股占比 7.44%，首日走势给出的新信息是二级市场对这一定价的接受区间。下一个可核验节点是上市后首份季报，以及 <strong>8/22</strong> 世界人形机器人运动会上的公开表现。 <span class=\"inline-source\">（来源：<a href=\"https://finance.sina.com.cn/tech/digi/2026-08-19/doc-ininvshu2695096.shtml\" target=\"_blank\" rel=\"noreferrer\">新浪科技</a> / <a href=\"https://www.stdaily.com/web/gdxw/2026-08/19/content_566457.html\" target=\"_blank\" rel=\"noreferrer\">科技日报</a>）</span></p>\n<h4 class=\"entry-heading\" id=\"2026-世界机器人大会开幕-约-3-000-款产品参展\">2026 世界机器人大会开幕，约 3,000 款产品参展</h4>\n<p>约 <strong>3,000</strong> 款产品参展、会期 <strong>5 天</strong>，主线从舞台演示转向工厂与仓储落地。大会 <strong>8/19</strong> 在北京亦庄开幕，与宇树挂牌同日。展品分野明显：优必选的情感陪护人形可对话、做表情、转颈与摆手，面向个人买家定价 <strong>16.8 万元</strong>（约 <strong>$24,000</strong>）；宇树展台的机型在做拳击与舞蹈演示。落地能力仍是短板——美联社记者现场看到一台家务机器人尝试折叠衬衫数分钟未能完成。会期至 <strong>8/23</strong>，是宇树上市后国内行业的第一个主场。 <span class=\"inline-source\">（来源：<a href=\"https://abcnews.com/Technology/wireStory/robot-dogs-helpers-china-puts-robotics-ambitions-display-135767418\" target=\"_blank\" rel=\"noreferrer\">AP / ABC News</a> / <a href=\"https://www.washingtontimes.com/news/2026/aug/19/robot-dogs-helpers-china-puts-robotics-ambitions-display-world/\" target=\"_blank\" rel=\"noreferrer\">AP / Washington Times</a>）</span></p>\n<h3 id=\"5-ai-基础设施\">5. AI 基础设施</h3>\n<h4 class=\"entry-heading\" id=\"欧洲新建-ai-数据中心平均距核心枢纽-175-公里\">欧洲新建 AI 数据中心平均距核心枢纽 175 公里</h4>\n<p>2026–2028 年规划的 AI 数据中心离主要枢纽平均 <strong>175 公里</strong>，接近历史平均 <strong>46 公里</strong> 的 3.8 倍。Reuters <strong>8/19</strong> 报道了 JLL 的这组测算：选址决策的第一顺位从靠近人口与连接节点，换成了可得电力、地价与并网速度。受益的是瑞典北部、西班牙与葡萄牙乡村等电力经济性更好的地区；伦敦、法兰克福、阿姆斯特丹、巴黎与都柏林仍重要，但电网与土地约束在收紧。这与 §1 的芯片涨价是同一约束的两端——供给侧是产能与价格，部署侧是电力与选址。下一个可核验节点是这批 2026–2028 项目的并网时间表。 <span class=\"inline-source\">（来源：<a href=\"https://techstartups.com/2026/08/19/top-tech-news-today-august-19-2026-landspace-microsoft-nvidia-openai-samsung-unitree-z-ai-more/\" target=\"_blank\" rel=\"noreferrer\">Reuters / TechStartups 摘要</a>）</span></p>\n<h3 id=\"6-ai-安全\">6. AI 安全</h3>\n<h4 class=\"entry-heading\" id=\"copilot-一键漏洞细节公开-内存投毒可跨改密码存活\">Copilot 一键漏洞细节公开，内存投毒可跨改密码存活</h4>\n<p>被投毒的 Copilot 长期记忆能挺过改密码、注销会话与设备重新注册，需人工清理。Varonis Threat Labs <strong>8/19</strong> 公开了 CVE-2026-24301（代号 CoSnitch）的细节：微软 <strong>8/18</strong> 修复该漏洞，距收到报告已近 <strong>8 个月</strong>。攻击链由三个弱点串成——<code>?q=</code> 参数配合一个未公开参数让攻击者的提示在页面加载时立即执行；被注入的提示可查询受害者已连接的 Gmail、Drive、日历或 OneDrive，把结果编码进 URL 后经 Copilot 自带的取链能力外传到攻击者的 webhook；被 Copilot 摘要的恶意网页还能把指令写进永久记忆。研究者未发现修复前有在野利用。行动项：管理员应确认租户已收到更新，并复查 Copilot 的连接应用授权与记忆存储。 <span class=\"inline-source\">（来源：<a href=\"https://www.varonis.com/blog/cosnitch\" target=\"_blank\" rel=\"noreferrer\">Varonis</a> / <a href=\"https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html\" target=\"_blank\" rel=\"noreferrer\">The Hacker News</a>）</span></p>\n<h3 id=\"本周值得盯\">本周值得盯</h3>\n<ul><li>8/20 周四 — Pixel 11 系列正式开售，起售价 $899，涨价理由之一是内存供应紧张（涨价链条详见 §1）</li><li>8/22 周六 — 第二届世界人形机器人运动会在国家速滑馆开幕，8/23 单日产生 12 枚金牌</li><li>8/23 07:59 SGT — Manus 从 Meta 拆分后受影响用户的数据备份截止</li><li>8/26 周三 14:00 PT — 英伟达 Q2 FY27 财报，H200 对华出货与 $5,000 亿算力融资平台的首个业绩检验点</li><li>约 8/28 — Z.ai 称 GLM-5.3 权重将在 8/14 后约两周公开，届时是开放权重模型网络能力的首次外部复核窗口</li></ul>\n<p><em>报告生成：2026-08-20 CST · 调度任务：daily-ai-news-v2</em></p>"
+    },
     {
       "id": "2026-08-19",
       "date": "2026-08-19",
