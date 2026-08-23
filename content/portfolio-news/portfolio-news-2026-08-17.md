@@ -13,9 +13,9 @@
 
 3. Berkshire Hathaway 于 2026-08-14 提交的 Q2 13F 显示，二季度将 Alphabet 持仓增加 **83%**、增持金额约 **$17B**，季末持有约 1.06 亿股、市值约 $37.9B，Alphabet 由此超越美国银行成为 Berkshire 第三大股票持仓。据 CNBC 报道，其中约六成来自 6 月 Alphabet 直接配售，其余为公开市场买入（来源：[CNBC 报道](https://www.cnbc.com/2026/08/14/berkshire-hathaway-boosts-alphabet-to-a-top-three-holding-ups-delta-and-housing-bets.html) · [Reuters 报道](https://www.reuters.com/business/finance/berkshire-buys-more-alphabet-which-becomes-its-third-largest-stock-investment-2026-08-14/)）
 
-4. Hims & Hers 于 2026-08-10 盘后发布 Q2 财报：营收 **$753.2M**、同比增长 38.2%，高于共识 $691.65M；但 GAAP 每股亏损 $0.37、调整后每股亏损 $0.10 均逊于预期，毛利率同比收缩 **1,256 个基点**至 63.8%，主因美国减重业务转向品牌 GLP-1 药物带来的重组费用。公司将全年营收指引上调至 $3.1B–$3.3B。股价全周 **-10.9%**，为组合内唯一两位数下跌（来源：[Hims & Hers IR 财报](https://investors.hims.com/news/news-details/2026/Hims--Hers-Health-Inc--Reports-Second-Quarter-2026-Financial-Results/default.aspx) · [Reuters 报道](https://www.reuters.com/business/healthcare-pharmaceuticals/hims-hers-shares-slide-costly-weight-loss-push-squeezes-margins-2026-08-11/)）
+4. SpaceX 单周上涨 **+5.2%** 至 $140.00，其中 2026-08-12 单日暴涨 9.65% 至 $146.15——据 Invezz 与 startuphub 报道，触发因素是马斯克表示，基于 SpaceX 运营数据训练的 AI 业务收入有望在一至两个月内超过 Starlink 与发射服务，并在 2026 年四季度成为第一大收入来源。2026-08-10 该股收复 $135 发行价，为 7 月 15 日以来首次（来源：[CNBC 报道](https://www.cnbc.com/2026/08/10/spacex-spcx-stock-ipo-price.html) · [Invezz 报道](https://invezz.com/news/2026/08/12/why-spacex-stock-is-soaring-around-7-today/)）
 
-5. Micron 全周上涨 **+10.7%** 至 $971.66，市值约 $1.09T。2026-08-14 New Street 将评级由中性上调至买入、目标价 **$1,250**，并称在 AI 拉动下 Micron 到 2030 年市值有望达到 $2T–$3T；该行预计 AI 将占存储需求的三分之二，2030 年后存储需求年增速 15%，高于过去二十年 10% 的历史均值。需要说明的是，$1,250 并非街上最高值——KeyBanc 维持增持、目标价 $1,750，UBS 目标价 $1,625（来源：[Investing.com：New Street 上调](https://www.investing.com/news/stock-market-news/micron-new-street-upgrades-to-buy-says-memory-is-no-longer-a-cyclical-story-4860923) · [Investing.com：KeyBanc 目标价](https://www.investing.com/news/analyst-ratings/keybanc-reiterates-overweight-on-micron-stock-keeps-1750-target-93CH-4801097)）
+5. Hims & Hers 于 2026-08-10 盘后发布 Q2 财报：营收 **$753.2M**、同比增长 38.2%，高于共识 $691.65M；但 GAAP 每股亏损 $0.37、调整后每股亏损 $0.10 均逊于预期，毛利率同比收缩 **1,256 个基点**至 63.8%，主因美国减重业务转向品牌 GLP-1 药物带来的重组费用。公司将全年营收指引上调至 $3.1B–$3.3B。股价全周 **-10.9%**，为组合内唯一两位数下跌（来源：[Hims & Hers IR 财报](https://investors.hims.com/news/news-details/2026/Hims--Hers-Health-Inc--Reports-Second-Quarter-2026-Financial-Results/default.aspx) · [Reuters 报道](https://www.reuters.com/business/healthcare-pharmaceuticals/hims-hers-shares-slide-costly-weight-loss-push-squeezes-margins-2026-08-11/)）
 
 ## 🌍 本周宏观背景
 
@@ -26,7 +26,8 @@
 | 公司 | 代码 | 股价 | 本周涨跌 | YTD 涨跌 | 情绪 | 下次财报 | 一句话摘要 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Tesla ⭐ | TSLA | $342.27 | +4.2% | -23.9% | 📈 | Q3 预计 2026-10（未公告） | 德州 $10.1B 太阳能工厂计划曝光、瑞典三年罢工以买断收场，TD Cowen 重申买入、目标价 $460 |
-| AMD ⭐ | AMD | $514.39 | +6.4% | +140.2% | 📈 | Q3 预计 2026-11（未公告） | 完成史上最大 $4.75B 债券发行，BofA 上调服务器 CPU 市场预测并列为首选 |
+| AMD ⭐ | AMD | $514.39 | +6.4% | +140.2% | 📈 | Q3 预计 2026-11（未公告） | 为史上最大 $4.75B 债券发行定价，BofA 上调服务器 CPU 市场预测并列为首选 |
+| SpaceX ⭐ | SPCX | $140.00 | +5.2% | +3.7%※ | 📈 | Q3 预计 2026-11（未公告） | 收复 $135 发行价，马斯克称 AI 收入将于四季度成为第一大收入来源，08-12 单日涨 9.65% |
 | PayPal | PYPL | $61.66 | +4.4% | +6.2% | 📈 | Q3 预计 2026-10（未公告） | 据 WSJ 报道公司正与 Stripe、Advent 财团谈判出售，价格或高于此前 $60.50/股要约 |
 | Nvidia | NVDA | $225.16 | +0.5% | +20.9% | ➡️ | 2026-08-26 | 联合六家资管机构设立超 $500B AI 基建融资平台，同时缩减对 OpenAI 数据中心的担保规模 |
 | Palantir | PLTR | $174.04 | +1.2% | -2.1% | ➡️ | Q3 预计 2026-11（未公告） | 五角大楼草拟备忘录拟无竞标授予至多 $243.9M AI 数据分析合同 |
