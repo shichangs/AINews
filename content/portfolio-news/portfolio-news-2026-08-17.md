@@ -151,7 +151,7 @@
 
 **增长与盈利的取舍被摆到了台面上。** 营收同比增长 **38.2%**、订阅用户增至近 290 万（同比 +19%），全年营收指引上调至 **$3.1B–$3.3B**、调整后 EBITDA 指引 $275M–$325M；但毛利率同比收缩 **1,256 个基点**至 63.8%，公司归因于美国减重业务转向品牌 GLP-1 药物的组合切换与国际业务扩张，当季净亏损 $86.3M（上年同期为净利润 $42.5M），自由现金流转负。
 
-**卖方分歧扩大，法律风险尚未出清。** 至少六家机构上调目标价（Needham 由 $35 上调至 $42），理由是 GLP-1 品类扩张；但据 Reuters，多数分析师对肽类产品年内的贡献持谨慎态度。FTC 于 2026-07-29 提起的诉讼所引发的律所调查仍在推进（来源：[Hims & Hers IR 财报](https://investors.hims.com/news/news-details/2026/Hims--Hers-Health-Inc--Reports-Second-Quarter-2026-Financial-Results/default.aspx) · [Reuters：毛利率承压](https://www.reuters.com/business/healthcare-pharmaceuticals/hims-hers-shares-slide-costly-weight-loss-push-squeezes-margins-2026-08-11/) · [Reuters：肽类产品展望](https://www.reuters.com/legal/litigation/hims-prepares-peptides-launch-wall-street-cautious-prospects-this-year-2026-08-12/)）
+**卖方分歧扩大，法律风险尚未出清。** 至少六家机构上调目标价（Needham 由 $35 上调至 $42），理由是 GLP-1 品类扩张；但据 Reuters，多数分析师对肽类产品年内贡献持谨慎态度。FTC 于 2026-07-29 提起诉讼引发的律所调查仍在推进（来源：[Hims & Hers IR 财报](https://investors.hims.com/news/news-details/2026/Hims--Hers-Health-Inc--Reports-Second-Quarter-2026-Financial-Results/default.aspx) · [Reuters：毛利率承压](https://www.reuters.com/business/healthcare-pharmaceuticals/hims-hers-shares-slide-costly-weight-loss-push-squeezes-margins-2026-08-11/) · [Reuters：肽类产品展望](https://www.reuters.com/legal/litigation/hims-prepares-peptides-launch-wall-street-cautious-prospects-this-year-2026-08-12/)）
 
 ## 🔭 下周值得盯
 
