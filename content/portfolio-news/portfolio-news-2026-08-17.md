@@ -36,7 +36,7 @@
 | Unity | U | $46.25 | +7.6% | +4.8% | 📈 | Q3 预计 2026-11（未公告） | 九个交易日连涨累计 44%，Vector 年化收入跑通 $1B 并达成 Netflix 多年合作 |
 | Hims & Hers | HIMS | $28.15 | -10.9% | -13.3% | 📉 | Q3 预计 2026-11（未公告） | Q2 营收超预期但毛利率收缩 1,256bp、亏损扩大，全年指引上调仍难阻股价回落 |
 
-注：股价 = 报告日上一交易日（2026-08-14）收盘；本周涨跌基准 = 2026-08-07 收盘；YTD 基准 = 2025-12-31 未复权收盘价（含息复权口径下 GOOGL、PYPL 会高约 0.1–0.2 个百分点）。🔔 = 财报日在报告日（2026-08-17）起 7 天内（含当日）。本期无组合公司触发 🔔。
+注：股价 = 报告日上一交易日（2026-08-14）收盘；本周涨跌基准 = 2026-08-07 收盘；YTD 基准 = 2025-12-31 未复权收盘价（含息复权口径下 GOOGL、PYPL 会高约 0.1–0.2 个百分点）。※ SPCX 于 2026-06-12 上市，无 2025-12-31 基准，该列为"上市以来"涨跌，基准 = $135 IPO 发行价（若以首日收盘 $160.95 为基准则为 -13.0%）。🔔 = 财报日在报告日（2026-08-17）起 7 天内（含当日）。本期无组合公司触发 🔔。
 
 ## ⚠️ 本周风险预警
 
@@ -67,6 +67,18 @@
 需求侧的增量来自 CPU 而非仅 GPU。Bank of America 分析师 Vivek Arya 将 2030 年服务器 CPU 市场规模预测上调至 **超 $210B**，逻辑是 AI 智能体工作负载放大了数据中心内 CPU 的角色，并把 AMD 列为该行 CPU 首选、Nvidia 列为半导体板块首选；2026-08-13 该报告发布当日 AMD 盘中一度涨约 2.7%（最高 $497.99），收盘基本持平于 $483.01。Bernstein 同期指出，AMD 在二季度继续从 Intel 手中夺取 CPU 出货份额，但 Intel 通过提价守住了营收份额。
 
 产品线口径维持不变：**Helios** 机架级系统整合 Instinct MI455X GPU、EPYC "Venice" CPU、Pensando 网络芯片与 ROCm 软件，计划 2026 年下半年向包括微软在内的客户出货；Anthropic 已签约部署最高 2 GW 的 Instinct MI450 系列，首个吉瓦级部署自 2027 年上半年启动。竞争格局的现实约束同样明确——Nvidia 在数据中心 GPU 市场占比仍在 95% 以上，AMD 约 4.5%，MI450/Helios 的份额兑现要等到 2027 年的部署曲线（来源：[Reuters：债券发行](https://www.reuters.com/technology/amd-looks-raise-4-billion-5-billion-debt-offering-source-says-2026-08-13/) · [Invezz：BofA 上调](https://invezz.com/news/2026/08/13/why-is-amd-stock-gaining-2-today/) · [Yahoo Finance：Helios 与 MI450](https://finance.yahoo.com/technology/ai/articles/amd-launches-helios-rack-system-133630311.html)）
+
+## ⭐ SpaceX (SPCX) — 重点关注
+
+**股价：** $140.00（本周 +5.2%，上市以来 +3.7%）｜**情绪：** 📈｜**下次财报：** Q3 预计 2026-11（未公告）
+
+**上上周财报（2026-08-04）**：上市后首份季报，实际营收 **$7.814B** vs FactSet 共识 $6.8B（超 14.9%、同比增长 92%），净亏损 $541M（上年同期亏损约 $10 亿），调整后 EBITDA $3.5B、同比增长 191%；但当季资本开支 $18.4B（其中 AI 相关 $15.83B），远高于共识约 $13B，盘后一度跌 8%。详见上期周报。
+
+叙事在报告周内从"资本开支失控"切换到"AI 收入曲线"。2026-08-10 股价涨 4.23% 至 $138.74，收复 $135 发行价，为 7 月 15 日以来首次；2026-08-12 再涨 **9.65%** 至 $146.15，据 Invezz 与 startuphub 报道，触发点是马斯克表示基于 SpaceX 运营数据训练的 AI 业务收入将在一至两个月内超过 Starlink 与发射服务，并于四季度成为第一大收入来源。全周收于 $140.00、累计 **+5.2%**，但 08-13、08-14 连续两日回落，说明市场对该口径尚未完全定价。
+
+三条基本面主线值得持续跟踪。其一，**Starlink** 订阅数在 Q2 达到 1,200 万，并与 SoftBank、NTT DoCoMo、Spark New Zealand 等运营商推进移动业务合作，近端优先级是用 Starship 发射移动 V2 卫星。其二，**Starship** 的下一次试飞将首次尝试在发射场回收上面级，并部署可运营的 Starlink V3 卫星——马斯克在 08-04 电话会上把时间目标定在 8 月内。其三，算力与航天的交叉：Terafab 的算力产出约 75% 规划给 AI 航天器，Nvidia 在 08-14 提交的 13F 中披露持有 SpaceX 约 **$21B** 股权，Alphabet 披露的持股价值约 $94B。
+
+技术面上最大的变量是解禁节奏：首批约 20% 的员工股份在 Q2 财报后（2026-08-06 起）解锁，此后每 2–4 周释放约 7% 的批次，一直延续到 10 月。这意味着任何基本面利好都要与持续的供给压力对冲，短期股价波动率会显著高于组合内其他标的（来源：[SpaceX IR：Q2 2026 业绩](https://ir.spacex.com/events/event-details/2026/SpaceX-Q2-2026-Earnings/default.aspx) · [CNBC：收复发行价](https://www.cnbc.com/2026/08/10/spacex-spcx-stock-ipo-price.html) · [CNBC：解禁安排](https://www.cnbc.com/2026/07/21/spacex-spcx-earnings-lock-up-expiration.html)）
 
 ## PayPal (PYPL)
 
