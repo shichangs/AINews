@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T01:33:19.005Z",
+  "generatedAt": "2026-08-23T01:27:09.907Z",
   "sourceDirectories": {
     "daily": "/home/runner/work/AINews/AINews/content/daily-ai-news",
     "weekly": "/home/runner/work/AINews/AINews/content/daily-ai-news/weekly",
@@ -7,6 +7,57 @@
     "weeklyAiTech": "/home/runner/work/AINews/AINews/content/weekly-ai-tech"
   },
   "issues": [
+    {
+      "id": "2026-08-23",
+      "date": "2026-08-23",
+      "label": "8月23日",
+      "title": "每日前沿 AI 行业新闻 — 2026年8月23日",
+      "summary": "- 🔥 天工Ultra 机器人百米预赛跑出 9.39 秒，打破博尔特人类纪录：博尔特纪录为 9.58 秒；开幕式表演环节机器人原地跳高达 2.88 米，超人类纪录 2.45 米。\n- 据 Bloomberg：英伟达 AI 服务器涨价超 15%：2027 年初起出货的 Vera Rubin 与 Grace Blackwell 系统均受影响。\n- 据 Bloomberg：Anthropic 招募 Google 前 TPU 芯片负责人 Salek：此前已向 Fractile 下单约 $2.5 亿，加码自研 AI 芯片路线。\n- 据 Bloomberg：Apple 裁撤 Vision Pro 与 Siri 团队约 200 人：硬件重心转向类 Meta 智能眼镜。",
+      "sections": [
+        "中国 AI",
+        "机器人",
+        "AI Labs",
+        "芯片"
+      ],
+      "stories": [
+        {
+          "tag": "芯片",
+          "impact": "关注",
+          "title": "据 Bloomberg：Apple 裁撤 Vision Pro 与 Siri 团队约 200 人，押注 AI 眼镜",
+          "detail": "此次裁员精准指向旧版 Siri 团队——新版大模型 Siri 已随 iOS 27 上线，人才结构今非昔比。Bloomberg 8/21 报道，苹果裁撤 Vision Pro 与 Siri 团队约 200 人：约 100 个岗位来自 Vision Pro 游戏与沉浸视频团队，另…",
+          "links": [
+            {
+              "label": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-08-21/apple-cuts-jobs-in-siri-vision-pro-immersive-video-and-gaming-teams"
+            },
+            {
+              "label": "TechCrunch",
+              "url": "https://techcrunch.com/2026/08/21/apple-is-reportedly-cutting-hundreds-of-jobs-from-siri-vision-pro-teams/"
+            }
+          ],
+          "anchor": "据-bloomberg-apple-裁撤-vision-pro-与-siri-团队约-200-人-押注-ai-眼镜"
+        },
+        {
+          "tag": "芯片",
+          "impact": "关注",
+          "title": "据 Bloomberg：英伟达 AI 服务器涨价超 15%，波及 Vera Rubin 与 Grace Blackwell",
+          "detail": "2027 年初起，英伟达 AI 服务器价格普涨超 15%，成本压力传导至微软、谷歌等云厂商。Bloomberg 8/22 报道，涨幅因芯片世代与内存配置而异，主因是存储芯片成本飙升；为大型数据中心运营商代工服务器的厂商近期已将新报价通知客户，涉及机型包括英伟达旗舰 Vera R…",
+          "links": [
+            {
+              "label": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-08-22/nvidia-customers-notified-about-ai-related-price-hikes-above-15"
+            },
+            {
+              "label": "CNBC",
+              "url": "https://www.cnbc.com/2026/08/22/nvidia-customers-reportedly-warned-about-ai-related-price-hikes-.html"
+            }
+          ],
+          "anchor": "据-bloomberg-英伟达-ai-服务器涨价超-15-波及-vera-rubin-与-grace-blackwell"
+        }
+      ],
+      "sourceFile": "/home/runner/work/AINews/AINews/content/daily-ai-news/2026-08-23.md",
+      "htmlContent": "<p>&gt; 注：今日新闻稀疏，覆盖窗口扩至 48h（UTC 2026-08-21 00:00 至 08-23 00:00，对应 CST 8/21 8:00 至 8/23 8:00）。前两日归档 08-22、08-21 均存在，去重比对以此二日为锚，本篇所有条目均未在其中出现。一手来源核对：Anthropic Newsroom（站内最新 8/14 文本水印，窗口外，无新公告）、OpenAI News（站内最新 8/20 AI Futures，08-21 已报，无新公告）、NVIDIA Newsroom（站内最新 8/17 PORTS-Pike，08-18 已报，窗口内无新公告）、Meta AI Blog（站内最新 8/12 Zuckerberg 公开信，窗口外）、Google DeepMind Blog（站内最新 8/21 游戏研究博客，属科研合作性质，未达行业门槛）、Cursor Changelog（站内最新 8/19 Cloud Agents，08-21 已报）、Claude Code Releases（GitHub 发布页缓存滞后，npm 侧最新 v2.1.239 为 8/21 例行 patch，未达门槛）、DeepSeek News（最新 8/21 V4-Flash-Vision-Exp，08-22 已报）、Qwen Blog（页面缓存滞后，经 WebSearch 侧核对最新为 8/12 Qwen3.8-Max 开源权重，窗口外）、智谱 News（页面无法直接抓取，经 WebSearch 侧核对窗口内无新公告）、Hugging Face 中文榜（JS 渲染无法直取，经 WebSearch 侧核对窗口内无新公告）。窗口内经 WebSearch 补充收录：Anthropic 招募 Google 芯片老将（Bloomberg 8/21）、Apple 裁员（Bloomberg 8/21）、Dexmal 融资洽谈（Bloomberg 8/21）、世界人形机器人运动会开幕（8/22）、英伟达服务器涨价（Bloomberg 8/22）。窗口外不收录：Anthropic 预期 IPO 规模匹敌 SpaceX、Anthropic 数据留存政策调整、Meta 成微软最大 AI 客户（均 8/20，08-21 已报）、DeepSeek V4-Flash-Vision-Exp、Binance Agent OS、Grok Bot 扩容、Google Preferred Sources、内华达 robotaxi 许可、英伟达与 Rebellions 洽谈、宇树上市三日交易数据（均 8/20-8/21，08-22 已报）。审稿说明：3 个审稿 agent 全部通过。Agent A 核 9 条、纠正两处——Anthropic 招募 Salek 与 Apple 裁员两条 Bloomberg 稿件实际发布时间为 UTC 8/21 18:45–19:59（而非最初误判的窗口外），据此本刊改用 48h 扩窗规则收录；另将机器人跳高 2.88 米澄清为开幕式表演项目而非正式比赛成绩，宇树跌幅表述改为&quot;较上市首日盘中最高市值&quot;口径。Agent B 排查确认无新遗漏，同时核实 Dexmal 融资洽谈（Bloomberg 8/21 05:31 UTC）落入扩窗后的覆盖范围，补收为一条动态。Agent C 的 Lede 评分为 A×2 / B×2、无 D 等，机器人段与 Anthropic 段首句已按建议改写，板块顺序按其意见把机器人板块上移至第一。</p>\n<h3 id=\"今日摘要\">今日摘要</h3>\n<ul><li>🔥 <strong>天工Ultra 机器人百米预赛跑出 9.39 秒，打破博尔特人类纪录</strong>：博尔特纪录为 <strong>9.58 秒</strong>；开幕式表演环节机器人原地跳高达 <strong>2.88 米</strong>，超人类纪录 2.45 米。</li><li><strong>据 Bloomberg：英伟达 AI 服务器涨价超 15%</strong>：2027 年初起出货的 <strong>Vera Rubin</strong> 与 <strong>Grace Blackwell</strong> 系统均受影响。</li><li><strong>据 Bloomberg：Anthropic 招募 Google 前 TPU 芯片负责人 Salek</strong>：此前已向 Fractile 下单约 <strong>$2.5 亿</strong>，加码自研 AI 芯片路线。</li><li><strong>据 Bloomberg：Apple 裁撤 Vision Pro 与 Siri 团队约 200 人</strong>：硬件重心转向类 Meta 智能眼镜。</li></ul>\n<h3 id=\"1-机器人与中国-ai\">1. 机器人与中国 AI</h3>\n<h4 class=\"entry-heading\" id=\"人形机器人百米预赛跑进-9-39-秒-打破博尔特世界纪录\">🔥 人形机器人百米预赛跑进 9.39 秒，打破博尔特世界纪录</h4>\n<p>天工Ultra 机器人预赛 <strong>9.39 秒</strong> 反超博尔特纪录 0.19 秒，同场淘汰宇树代表队夺组内头名。北京人形机器人创新中心的天工Ultra，在 <strong>8/22</strong> 开幕的第二届<strong>世界人形机器人运动会</strong>百米预赛跑出该成绩，快于博尔特 2009 年保持的人类纪录 <strong>9.58 秒</strong>；宇树股价较上市首日盘中最高市值已累计跌超 <strong>38%</strong>（详见 08-22 归档）。开幕式表演环节，天工Ultra 另跳出 <strong>2.88 米</strong>，超过人类跳高纪录 2.45 米——该数字来自表演项目，非正式比赛成绩。本届赛事 8/22 至 8/26 举行，16 国 <strong>666 支</strong> 队伍、<strong>2,056 台</strong> 机器人参赛；荣耀&quot;闪电&quot;机器人赛前测试曾跑出 9.32 秒（非正式成绩）。赛事 <strong>8/26</strong> 收官，安排 5 人制足球与自由搏击决赛（详见&quot;本周值得盯&quot;）。 <span class=\"inline-source\">（来源：<a href=\"https://www.globaltimes.cn/page/202608/1368761.shtml\" target=\"_blank\" rel=\"noreferrer\">Global Times</a> / <a href=\"https://www.news.cn/tech/20260822/1f62f563c72241cbae252030caeabc5d/c.html\" target=\"_blank\" rel=\"noreferrer\">新华网</a> / <a href=\"https://fortune.com/2026/08/22/chinese-robots-beijing-games-athletic-records-humans-usain-bolt/\" target=\"_blank\" rel=\"noreferrer\">Fortune</a>）</span></p>\n<h3 id=\"2-主要-ai-labs-动态\">2. 主要 AI Labs 动态</h3>\n<h4 class=\"entry-heading\" id=\"据-bloomberg-anthropic-招募-google-芯片老将-筹建自研-ai-芯片团队\">据 Bloomberg：Anthropic 招募 Google 芯片老将，筹建自研 AI 芯片团队</h4>\n<p>Salek 曾主导 Google 前七代 TPU 交付，如今加入 Anthropic 将补齐其自建硅片的核心技术拼图。Bloomberg 8/21 报道，<strong>Amir Salek</strong> 曾创立 Google 定制芯片项目、执掌该业务至 2022 年，此后任 Cerberus Capital Management 高级董事总经理；此次将加入 Anthropic 算力团队，向 James Bradbury 汇报。Anthropic 目前芯片采购来自英伟达、Google 与亚马逊三方，此次招募是其自建硅片能力的关键落子，此前已与英国芯片商 <strong>Fractile</strong> 签下约 <strong>$2.5 亿</strong> 首批订单、并有意扩大合作。下一个可观察信号是 Anthropic 自研芯片能否进入流片阶段，公司目前未公开具体时间表。 <span class=\"inline-source\">（来源：<a href=\"https://www.bloomberg.com/news/articles/2026-08-21/anthropic-taps-google-chip-veteran-as-part-of-push-into-hardware\" target=\"_blank\" rel=\"noreferrer\">Bloomberg</a> / <a href=\"https://www.investing.com/news/stock-market-news/anthropic-hires-exgoogle-chip-chief-as-ai-lab-pushes-into-hardware--bloomberg-4872148\" target=\"_blank\" rel=\"noreferrer\">Investing.com</a>）</span></p>\n<p><em>披露：本报告由 Claude 撰写，Anthropic 为 Claude 开发方。</em></p>\n<h4 class=\"entry-heading\" id=\"据-bloomberg-apple-裁撤-vision-pro-与-siri-团队约-200-人-押注-ai-眼镜\">据 Bloomberg：Apple 裁撤 Vision Pro 与 Siri 团队约 200 人，押注 AI 眼镜</h4>\n<p>此次裁员精准指向旧版 Siri 团队——新版大模型 Siri 已随 <strong>iOS 27</strong> 上线，人才结构今非昔比。Bloomberg 8/21 报道，苹果裁撤 Vision Pro 与 Siri 团队约 <strong>200</strong> 人：约 100 个岗位来自 Vision Pro 游戏与沉浸视频团队，另 100 个来自 Siri 旧版语音助手团队及负责设备 AI 整合的 Intelligent Systems Experience 团队；公司同时被曝正把硬件重心从 Vision Pro 沉浸内容转向不支持沉浸视频与游戏的智能眼镜。苹果表示将为受影响员工提供内部转岗机会，未披露具体裁员比例。下一个可观察节点是苹果智能眼镜产品路线图的公开时间，目前公司尚未给出发布窗口。 <span class=\"inline-source\">（来源：<a href=\"https://www.bloomberg.com/news/articles/2026-08-21/apple-cuts-jobs-in-siri-vision-pro-immersive-video-and-gaming-teams\" target=\"_blank\" rel=\"noreferrer\">Bloomberg</a> / <a href=\"https://techcrunch.com/2026/08/21/apple-is-reportedly-cutting-hundreds-of-jobs-from-siri-vision-pro-teams/\" target=\"_blank\" rel=\"noreferrer\">TechCrunch</a>）</span></p>\n<h3 id=\"3-芯片与半导体\">3. 芯片与半导体</h3>\n<h4 class=\"entry-heading\" id=\"据-bloomberg-英伟达-ai-服务器涨价超-15-波及-vera-rubin-与-grace-blackwell\">据 Bloomberg：英伟达 AI 服务器涨价超 15%，波及 Vera Rubin 与 Grace Blackwell</h4>\n<p>2027 年初起，英伟达 AI 服务器价格普涨超 <strong>15%</strong>，成本压力传导至微软、谷歌等云厂商。Bloomberg 8/22 报道，涨幅因芯片世代与内存配置而异，主因是存储芯片成本飙升；为大型数据中心运营商代工服务器的厂商近期已将新报价通知客户，涉及机型包括英伟达旗舰 <strong>Vera Rubin</strong> 与 <strong>Grace Blackwell</strong> 系列。下一个可核验节点是 <strong>8/26</strong> 英伟达 Q2 FY27 财报电话会是否正面回应涨价原因与利润率影响。 <span class=\"inline-source\">（来源：<a href=\"https://www.bloomberg.com/news/articles/2026-08-22/nvidia-customers-notified-about-ai-related-price-hikes-above-15\" target=\"_blank\" rel=\"noreferrer\">Bloomberg</a> / <a href=\"https://www.cnbc.com/2026/08/22/nvidia-customers-reportedly-warned-about-ai-related-price-hikes-.html\" target=\"_blank\" rel=\"noreferrer\">CNBC</a>）</span></p>\n<h3 id=\"其他动态\">其他动态</h3>\n<ul><li>据 Bloomberg：阿里巴巴投资的具身智能公司 Dexmal 新一轮融资寻求约 <strong>¥200 亿</strong>（<strong>$30 亿</strong>）估值，谈判尚处早期（<a href=\"https://www.bloomberg.com/news/articles/2026-08-21/alibaba-backed-robot-firm-seeks-3-billion-value-in-new-funding\" target=\"_blank\" rel=\"noreferrer\">Bloomberg</a>）</li></ul>\n<h3 id=\"本周值得盯\">本周值得盯</h3>\n<ul><li>8/26 周三 — 世界人形机器人运动会闭幕，5 人制足球与自由搏击决赛收官（详见 §1）</li><li>8/26 周三 14:00 PT — 英伟达 Q2 FY27 财报电话会，服务器涨价与此前 $5,000 亿算力融资平台的下一个业绩检验点（详见 §3）</li><li>8/27 周四 — Marvell Q2 FY27 财报，此前对 Google 授出的 $122 亿认股权证细节可能进一步披露</li><li>9/3 周四 — Broadcom Q3 FY26 财报，此前洽谈中的 $600 亿 AI 芯片债务融资进展的首个业绩检验点</li></ul>\n<p><em>报告生成：2026-08-23 CST · 调度任务：daily-ai-news-v2</em></p>"
+    },
     {
       "id": "2026-08-22",
       "date": "2026-08-22",
