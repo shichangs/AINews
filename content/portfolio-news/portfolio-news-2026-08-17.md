@@ -83,6 +83,18 @@
 
 **短期最大的技术面变量是解禁节奏。** 首批约 20% 的员工股份在 Q2 财报后（2026-08-06 起）解锁，此后每 2–4 周释放约 7% 的批次，一直延续到 10 月。这意味着任何基本面利好都要与持续的供给压力对冲，短期波动率会显著高于组合内其他标的（来源：[SpaceX IR：Q2 2026 业绩](https://ir.spacex.com/events/event-details/2026/SpaceX-Q2-2026-Earnings/default.aspx) · [CNBC：收复发行价](https://www.cnbc.com/2026/08/10/spacex-spcx-stock-ipo-price.html) · [CNBC：解禁安排](https://www.cnbc.com/2026/07/21/spacex-spcx-earnings-lock-up-expiration.html)）
 
+## ⭐ Oracle (ORCL) — 重点关注
+
+**股价：** $150.52（本周 +2.4%，YTD -22.0%）｜**情绪：** ➡️｜**下次财报：** FQ1 FY27 预计 2026-09（未公告）
+
+**Oracle 是组合里唯一一家"AI 需求越强、财务风险越大"的公司。** 报告周内股价先扬后抑：08-10 涨 2.74% 至 $151.05、08-12 涨 5.36% 至 $153.28、08-13 再涨 1.92% 至 $156.22，但 08-14 单日跌 **3.65%** 至 $150.52，全周仍收涨 2.4%。回撤的直接触发点不在需求端而在电力——Energy Transfer 子公司 Transwestern Pipeline 在监管文件中把为新墨西哥 AI 数据中心供气的 Green Chile 管道投产日期从 2026-08-15 推迟到 **2027-02-01**。
+
+**需求侧的数字依旧惊人，问题是兑现要先烧掉几年现金流。** FY26 Q4（财年于 2026-05-31 结束）剩余履约义务 **$638B**、同比增长 363%，OCI 收入同比增长 93%；但公司同时说明，未来 12 个月只确认其中 12%、13 至 36 个月再确认 34%，绝大部分收入落在 2029 年之后。代价是现金流：FY26 资本开支 **$55.66B**、自由现金流 **-$23.69B**，FY27（2026-06 至 2027-05）资本开支指引约 $70B。
+
+**融资缺口与客户集中度已经被评级机构标价。** 公司披露 FY27 需通过债与股合计融资约 **$40B**，其中含 $20B 的 ATM 增发计划，稀释成本直接落在股东端；S&P 已于 2026-07-09 把长期评级下调至 **BBB-**——投资级最低档、距投机级仅一档，理由是调整后杠杆超过 EBITDA 四倍且看不到回落路径。更结构性的隐患是对手方集中：$638B 积压中约一半来自 OpenAI 一家客户。
+
+**对组合而言，Oracle 是 AI 算力的买方，不是卖方。** $150.52 对应 YTD **-22.0%**（基准 = 2025-12-31 收盘 $193.05），与 Nvidia、AMD、Micron 的涨幅形成镜像：同一条 AI 基建链上，芯片端在赚订单，租赁与托管端在承担杠杆与折旧。因此它的资本开支节奏既是自身风险来源，也是判断另外三家订单持续性的先行指标（来源：[Oracle IR：Q4 FY2026 业绩](https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Record-Q4-and-FY-2026-Results-Driven-by-Cloud-Infrastructure--Cloud-Applications/default.aspx) · [Investing.com：08-14 下跌原因](https://www.investing.com/news/stock-market-news/why-is-oracle-stock-sliding-today-93CH-4861443) · [Yahoo Finance：S&P 下调评级](https://finance.yahoo.com/markets/stocks/articles/oracle-stock-shrugs-off-p-185346661.html)）
+
 ## PayPal (PYPL)
 
 **股价：** $61.66（本周 +4.4%，YTD +6.2%）｜**情绪：** 📈｜**下次财报：** Q3 预计 2026-10（未公告）
