@@ -29,6 +29,7 @@
 | Tesla ⭐ | TSLA | $342.27 | +4.2% | -23.9% | 📈 | Q3 预计 2026-10（未公告） | 德州 $10.1B 太阳能工厂计划曝光、瑞典三年罢工以买断收场，TD Cowen 重申买入、目标价 $460 |
 | AMD ⭐ | AMD | $514.39 | +6.4% | +140.2% | 📈 | Q3 预计 2026-11（未公告） | 为史上最大 $4.75B 债券发行定价，BofA 上调服务器 CPU 市场预测并列为首选 |
 | SpaceX ⭐ | SPCX | $140.00 | +5.2% | +3.7%※ | 📈 | Q3 预计 2026-11（未公告） | 收复 $135 发行价，马斯克称 AI 收入将于四季度成为第一大收入来源，08-12 单日涨 9.65% |
+| Oracle ⭐ | ORCL | $150.52 | +2.4% | -22.0% | ➡️ | FQ1 FY27 预计 2026-09（未公告） | 供气管道推迟六个月致 08-14 单日跌 3.65%，$638B 积压与 $40B 融资缺口并存 |
 | PayPal | PYPL | $61.66 | +4.4% | +6.2% | 📈 | Q3 预计 2026-10（未公告） | 据 WSJ 报道公司正与 Stripe、Advent 财团谈判出售，价格或高于此前 $60.50/股要约 |
 | Nvidia | NVDA | $225.16 | +0.5% | +20.9% | ➡️ | 2026-08-26 | 联合六家资管机构设立超 $500B AI 基建融资平台，同时缩减对 OpenAI 数据中心的担保规模 |
 | Palantir | PLTR | $174.04 | +1.2% | -2.1% | ➡️ | Q3 预计 2026-11（未公告） | 五角大楼草拟备忘录拟无竞标授予至多 $243.9M AI 数据分析合同 |
@@ -47,6 +48,7 @@
 
 - **Hims & Hers 的增长是用盈利质量换来的。** Q2 GAAP 每股亏损 **$0.37**、调整后每股亏损 $0.10（共识 -$0.07），净亏损 $86.3M（上年同期为净利润 $42.5M），毛利率收缩 1,256 个基点至 63.8%，公司归因于美国减重业务转向品牌 GLP-1 药物的组合切换与国际业务扩张，自由现金流转负。股价 2026-08-11 单日跌 3.97%、全周累计下跌 10.9%；法律侧，Berger Montague 等律所就董事会受托责任的调查仍在推进，源头是 FTC 于 2026-07-29 提起的诉讼（指控向 Meta、Snap 等广告商共享用户健康信息并在问诊前预扣费用）（来源：[Reuters 报道](https://www.reuters.com/business/healthcare-pharmaceuticals/hims-hers-shares-slide-costly-weight-loss-push-squeezes-margins-2026-08-11/) · [PRNewswire：律所调查](https://www.prnewswire.com/news-releases/berger-montague-pc-investigates-hims--hers-health-incs-board-of-directors-for-breach-of-fiduciary-duty-nyse-hims-302849248.html)）
 - **AI 基建的杠杆正在变得难以追踪。** 据 CNBC 报道，超大规模厂商债券发行与 Nvidia $500B 融资平台叠加，使 AI 建设的债务结构更难穿透；Nvidia 同时把对 OpenAI 数据中心的 $250B 担保缩减为初期覆盖 10GW 项目的一半。据 Invezz 报道，Michael Burry 披露做空 Nvidia 与 Micron 的看跌期权头寸（来源：[CNBC 报道](https://www.cnbc.com/2026/08/14/ai-infrastructure-debt-leverage-risks.html) · [Reuters 报道](https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/)）
+- **Oracle 的 AI 扩张开始同时受制于电力交付与融资成本。** 2026-08-14，Energy Transfer 子公司 Transwestern Pipeline 在监管文件中把为新墨西哥 AI 数据中心供气的 Green Chile 管道投产日期由 2026-08-15 推迟至 **2027-02-01**，整整六个月，当日股价跌 3.65% 至 $150.52。这一延期落在既有的财务约束之上：S&P 已于 2026-07-09 将其长期评级下调至 **BBB-**（投资级最低档），公司披露 FY27 需融资约 $40B（含 $20B ATM 增发），而 $638B 积压中约一半来自 OpenAI 单一客户（来源：[Oracle IR：Q4 FY2026 业绩](https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Record-Q4-and-FY-2026-Results-Driven-by-Cloud-Infrastructure--Cloud-Applications/default.aspx) · [Investing.com：08-14 下跌原因](https://www.investing.com/news/stock-market-news/why-is-oracle-stock-sliding-today-93CH-4861443)）
 - **消费端的降温已从支出扩散到预期。** 7 月零售销售环比 **-0.6%**，大幅低于 Dow Jones 共识的 +0.1%，扣除汽车项亦下滑 0.3%；8 月密歇根大学消费者信心初值 51.0，逼近历史低位区间。对 PayPal、Hims & Hers 等直接暴露于消费支出的组合成员，这两项数据抬高了下半年营收增速的不确定性（来源：[Yahoo Finance 市场综述](https://finance.yahoo.com/markets/stocks/articles/stock-market-news-aug-14-103100309.html) · [Charles Schwab 市场评论](https://www.schwab.com/learn/story/stock-market-update-open)）
 
 ## ⭐ Tesla (TSLA) — 重点关注
