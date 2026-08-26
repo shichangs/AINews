@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T01:38:32.447Z",
+  "generatedAt": "2026-08-26T18:20:03.250Z",
   "sourceDirectories": {
     "daily": "/home/runner/work/AINews/AINews/content/daily-ai-news",
     "weekly": "/home/runner/work/AINews/AINews/content/daily-ai-news/weekly",
@@ -7,6 +7,208 @@
     "weeklyAiTech": "/home/runner/work/AINews/AINews/content/weekly-ai-tech"
   },
   "issues": [
+    {
+      "id": "2026-08-27",
+      "date": "2026-08-27",
+      "label": "8月27日",
+      "title": "每日前沿 AI 行业新闻 — 2026年8月27日",
+      "summary": "- 🔥 Meta 以最高 $166.8 亿和解 29 州青少年诉讼：同意判决要求 18 岁以下用户默认每日 2 小时 使用上限、午夜至 6 时锁定，Meta 盘前涨 4.4%。\n- 🔥 智谱上线并开源 GLM-5.3-Flash：320B-A18B、GLM-5 系首个原生多模态模型，AA 智能指数 57 分；OpenRouter 匿名榜首模型 Ox Alpha 同日被确认为该系新版本。\n- 🔥 据 Reuters：Moonshot 与微软、亚马逊、谷歌洽谈 Kimi K3 上云分成：Moonshot 寻求相关云服务收入最高 30% 分成，谈判仍在早期。\n- 阿里开源 Qwen3.8-Flash-Next：Qwen4 架构预览，125B 总参、每 token 激活 6B，训练成本约为 Qwen3.7-Plus 的 1/9。\n- DeepSeek 财务与融资双线曝光：据 The Information，2026 年 1–7 月营收约 RMB 4.75 亿、净亏 RMB 7.15 亿；据 SCMP，新一轮 RMB 500 亿 融资以投前 RMB 5,000 亿 估值推进、拟 8 月底前关闭。",
+      "sections": [
+        "中国 AI",
+        "AI Labs",
+        "产品",
+        "AI Agent",
+        "机器人",
+        "自动驾驶"
+      ],
+      "stories": [
+        {
+          "tag": "焦点",
+          "impact": "高热",
+          "title": "🔥 Meta 最高 $166.8 亿和解 29 州诉讼，青少年限制写入同意判决",
+          "detail": "未成年人使用限制首次写进可执行的同意判决——Meta 以最高 $166.8 亿 了结 29 州诉讼。和解 8/26 在 Oakland 联邦审判第二周达成，加州总检察长 Rob Bonta 牵头宣布：18 岁以下用户默认每日 2 小时 使用上限、午夜至清晨 6 时锁定（家长可解…",
+          "links": [
+            {
+              "label": "CNBC",
+              "url": "https://www.cnbc.com/2026/08/26/meta-social-media-trial-settlement.html"
+            },
+            {
+              "label": "Reuters / Yahoo",
+              "url": "https://finance.yahoo.com/media-advertising/articles/meta-settles-29-states-over-132242399.html"
+            }
+          ],
+          "anchor": "meta-最高-166-8-亿和解-29-州诉讼-青少年限制写入同意判决"
+        },
+        {
+          "tag": "中国 AI",
+          "impact": "高热",
+          "title": "🔥 智谱开源 GLM-5.3-Flash，OpenRouter 匿名榜首 Ox Alpha 揭盅",
+          "detail": "匿名霸榜的 Ox Alpha 揭盅：智谱开源 GLM-5.3-Flash，定价压到 Opus 4.8 的 1/40。该模型 8/26 晚上线，为 320B-A18B 结构、GLM-5 系首个原生多模态模型，Artificial Analysis 智能指数 57 分（AA 官网收…",
+          "links": [
+            {
+              "label": "界面新闻 / 网易",
+              "url": "https://www.163.com/dy/article/L59RD82A0534A4SC.html"
+            },
+            {
+              "label": "IT之家 / 凤凰网",
+              "url": "https://tech.ifeng.com/c/8vuQjEkQDAY"
+            }
+          ],
+          "anchor": "智谱开源-glm-5-3-flash-openrouter-匿名榜首-ox-alpha-揭盅"
+        },
+        {
+          "tag": "中国 AI",
+          "impact": "关注",
+          "title": "阿里开源 Qwen3.8-Flash-Next，Qwen4 架构提前试跑",
+          "detail": "Qwen4 架构首次公开交付：Flash-Next 每 token 只激活 6B、当晚即获 day-zero 适配。阿里 Qwen 团队 8/26 晚在 ModelScope 与 Hugging Face 开源该模型（含 FP8 版）：125B 总参数外挂 51B n-gram…",
+          "links": [
+            {
+              "label": "Qwen Blog",
+              "url": "https://qwen.ai/blog?id=qwen3.8-flash-next"
+            },
+            {
+              "label": "TechNode",
+              "url": "https://technode.com/2026/08/26/alibabas-qwen-to-open-source-qwen3-8-flash-next-previewing-qwen4-architecture/"
+            }
+          ],
+          "anchor": "阿里开源-qwen3-8-flash-next-qwen4-架构提前试跑"
+        },
+        {
+          "tag": "中国 AI",
+          "impact": "高热",
+          "title": "🔥 据 Reuters：Moonshot 与微软、亚马逊、谷歌洽谈 Kimi K3 上云",
+          "detail": "Moonshot 为 Kimi K3 争取最高 30% 云收入分成，中国前沿模型或首次整建制上美国三大云。据 Reuters 8/26 报道，Moonshot AI 正与微软、亚马逊、谷歌就把 K3 引入 Azure、AWS 与 Google Cloud 进行早期洽谈，分成计算…",
+          "links": [
+            {
+              "label": "Reuters / Express Tribune",
+              "url": "https://tribune.com.pk/story/2625954/chinas-moonshot-in-talks-with-microsoft-amazon-google-over-k3-revenue-sharing-sources-say"
+            },
+            {
+              "label": "TechStartups",
+              "url": "https://techstartups.com/2026/08/26/top-tech-news-today-august-26-2026-amazon-anthropic-google-microsoft-waymo-more/"
+            }
+          ],
+          "anchor": "据-reuters-moonshot-与微软-亚马逊-谷歌洽谈-kimi-k3-上云"
+        },
+        {
+          "tag": "中国 AI",
+          "impact": "关注",
+          "title": "DeepSeek 财务首曝：1–7 月营收 RMB 4.75 亿，算力投入 23 倍于营收",
+          "detail": "DeepSeek 2026 年 1–7 月 AI 基建投入约 RMB 110 亿，为同期营收的 23 倍。据 The Information 援引两名知情人士（8/26 中文媒体跟进）：同期营收约 RMB 4.75 亿、约为 2025 全年的 10 倍，净亏约 RMB 7.15…",
+          "links": [
+            {
+              "label": "The Information / 新浪财经",
+              "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-26/doc-iniprqcs5516828.shtml"
+            },
+            {
+              "label": "SCMP",
+              "url": "https://www.scmp.com/tech/big-tech/article/3365280/deepseek-nears-pre-ipo-funding-round-2027-market-debut-takes-shape-sources"
+            }
+          ],
+          "anchor": "deepseek-财务首曝-1-7-月营收-rmb-4-75-亿-算力投入-23-倍于营收"
+        },
+        {
+          "tag": "中国 AI",
+          "impact": "资本",
+          "title": "据 Bloomberg：软银磋商发债最高 $200 亿，置换 OpenAI 过桥贷款",
+          "detail": "软银拟发最高 $200 亿 美元/欧元债券，置换支撑 OpenAI 投资的 $400 亿 过桥贷款。据 Bloomberg 8/26 报道，软银正与投行磋商 $100 亿–$200 亿 规模的债券发行、最早 9 月落地，触顶即为 2026 年亚洲最大公司债；所置换的过桥贷款于…",
+          "links": [
+            {
+              "label": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-08-26/softbank-mulls-up-to-20-billion-bond-sale-for-openai-financing"
+            },
+            {
+              "label": "Reuters / TradingView",
+              "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN44M0YX:0-softbank-mulls-up-to-20-billion-bond-sale-for-openai-financing-bloomberg-news-reports/"
+            }
+          ],
+          "anchor": "据-bloomberg-软银磋商发债最高-200-亿-置换-openai-过桥贷款"
+        },
+        {
+          "tag": "AI Labs",
+          "impact": "资本",
+          "title": "📌 据 WSJ：Anthropic 拟向 IPO 投资者提出超 $30 万亿 TAM",
+          "detail": "Anthropic 拟向 IPO 投资者提出超 $30 万亿 TAM，高于 SpaceX 的 $28.5 万亿 口径。据华尔街日报 8/26 报道，这一总可及市场估算预计将成为其路演核心论据——Claude 类模型可承接软件、研究、专业服务、客服与编码等知识密集行业的大量工作；…",
+          "links": [
+            {
+              "label": "WSJ / Investing.com",
+              "url": "https://www.investing.com/news/stock-market-news/anthropic-expected-to-tell-investors-it-sees-over-30-trillion-in-potential-revenue-wsj-reports-4875772"
+            },
+            {
+              "label": "TipRanks",
+              "url": "https://www.tipranks.com/news/anthropic-pitches-investors-a-30t-revenue-opportunity-bigger-than-spacexs-spcx-ipo-record"
+            }
+          ],
+          "anchor": "据-wsj-anthropic-拟向-ipo-投资者提出超-30-万亿-tam"
+        },
+        {
+          "tag": "产品",
+          "impact": "关注",
+          "title": "OpenAI 把 ChatGPT for Teachers 扩到 55 个新学区，签 16 州统一隐私协议",
+          "detail": "ChatGPT for Teachers 扩至 30 州逾 30 万 教育者，免费期到 2028 年 6 月。OpenAI 8/26 宣布新增 55 个 学区系统、跨 20 个州、带来超 10 万名新教育者与职员，含全美 20 大学区中的 4 个；累计合作 K-12 组织超 1…",
+          "links": [
+            {
+              "label": "OpenAI",
+              "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts/"
+            },
+            {
+              "label": "OpenAI 分析报告",
+              "url": "https://openai.com/index/learning-never-stops/"
+            }
+          ],
+          "anchor": "openai-把-chatgpt-for-teachers-扩到-55-个新学区-签-16-州统一隐私协议"
+        },
+        {
+          "tag": "产品",
+          "impact": "关注",
+          "title": "Amazon 定 9/30 关停 Mechanical Turk，21 年众包标注市场谢幕",
+          "detail": "Amazon 定 9/30 关停运营 21 年的 Mechanical Turk，存量数据管线只剩五周迁移窗口。8/26 发给工人与需求方的通知确认了这一截止日；新客户注册已于 7/30 停止，同日 SageMaker Ground Truth 与 Augmented AI 也…",
+          "links": [
+            {
+              "label": "TechStartups",
+              "url": "https://techstartups.com/2026/08/26/amazon-is-shutting-down-mechanical-turk-after-21-years-as-ai-reshapes-crowdsourced-work/"
+            },
+            {
+              "label": "CNBC 转述",
+              "url": "https://techstartups.com/2026/08/26/top-tech-news-today-august-26-2026-amazon-anthropic-google-microsoft-waymo-more/"
+            }
+          ],
+          "anchor": "amazon-定-9-30-关停-mechanical-turk-21-年众包标注市场谢幕"
+        },
+        {
+          "tag": "AI Agent",
+          "impact": "关注",
+          "title": "IBM 开源 Granite 4.2：3B–30B 三档，agent 能力下放本地部署",
+          "detail": "IBM 开源 Granite 4.2：3B–30B 三档、Apache 2.0，agent 能力下放本地部署。8/26 发布的该系列原生 128K 上下文，8B 与 30B 针对工具调用、终端操作、信息检索与多步指令做了专门强化学习，带推理模式与原生 tool calling，…",
+          "links": [
+            {
+              "label": "Ars Technica / TechStartups",
+              "url": "https://techstartups.com/2026/08/26/top-tech-news-today-august-26-2026-amazon-anthropic-google-microsoft-waymo-more/"
+            },
+            {
+              "label": "IBM / Hugging Face",
+              "url": "https://huggingface.co/ibm-granite"
+            }
+          ],
+          "anchor": "ibm-开源-granite-4-2-3b-30b-三档-agent-能力下放本地部署"
+        },
+        {
+          "tag": "自动驾驶",
+          "impact": "关注",
+          "title": "据 FT：伦敦全无人 robotaxi 年内落地无望，三家运营商卡在审批",
+          "detail": "Waymo、Wayve 与百度 2026 年内在伦敦跑全无人 robotaxi 无望，卡在 TfL 审批指引缺位。据 Financial Times 8/26 报道，伦敦交通局（TfL）尚未出台运营商完成审批所需的关键指引，技术与监管要求均未定稿；带安全员的试点仍将推进，但尚无…",
+          "links": [
+            {
+              "label": "FT / TechStartups",
+              "url": "https://techstartups.com/2026/08/26/top-tech-news-today-august-26-2026-amazon-anthropic-google-microsoft-waymo-more/"
+            }
+          ],
+          "anchor": "据-ft-伦敦全无人-robotaxi-年内落地无望-三家运营商卡在审批"
+        }
+      ],
+      "sourceFile": "/home/runner/work/AINews/AINews/content/daily-ai-news/2026-08-27.md",
+      "htmlContent": "<p>&gt; 注：覆盖窗口为默认 24h（UTC 2026-08-26 00:00 至 08-27 00:00，对应 CST 8/26 8:00 至 8/27 8:00）。本篇生成于 UTC 8/26 约 18:00（CST 8/27 凌晨），窗口尾段（UTC 8/26 18:00–24:00，含英伟达 Q2 FY27 财报发布、5 人制足球决赛赛果报道）截稿时尚未发生或未入索引，由次日日报以 📌 跟进。去重比对锚为 08-25、08-24 归档（08-26 归档缺失，按回补规则另行处理）。一手来源核对：Anthropic Newsroom（站内最新 8/25 wellbeing 研究资助，归回补日窗口）、OpenAI News（8/26 ChatGPT for Teachers 扩区与 Learning never stops 报告，收 §5；8/25 Jalapeño 首批成绩归回补日窗口）、NVIDIA Newsroom（站内最新 8/25 Jetson Orin Nano 2，归回补日窗口；8/26 财报见&quot;本周值得盯&quot;）、Meta AI Blog（站内最新 7/27，窗口内无新公告）、Google DeepMind Blog（经 WebSearch 侧核对，站内最新 8/21，窗口内无新公告）、Cursor Changelog（站内最新 8/19 Cloud Agents，08-21 已报）、Claude Code Releases（npm 侧最新 v2.1.246 为例行 patch，未达门槛）、DeepSeek News（站内最新 8/21，08-22 已报；8/26 财务与融资报道收 §2）、Qwen Blog（8/26 Qwen3.8-Flash-Next，收 §2）、智谱 News（页面无法直取，经 WebSearch 与界面新闻侧核对 8/26 GLM-5.3-Flash，收 §2）、Hugging Face 中文榜（JS 渲染无法直取，经 WebSearch 侧核对窗口内无新公告）。窗口外不收录：OpenAI Jalapeño 首批实测与 CFO 全栈文章、NVIDIA Jetson Orin Nano 2、Anthropic wellbeing 研究资助、三星 LPDDR5X-PIM（Hot Chips 场次，均为 UTC 8/25，归回补日 08-26 窗口）、Claude 多产品宕机（8/24 已恢复，超窗）、Gatik $2 亿 D 轮（8/25）。审稿说明：3 个审稿 agent 全部通过。Agent A 核 8 条、5 条准确，纠正 Meta 和解拆分口径（$127 亿+$53 亿属约 $180 亿含条件总口径，非 $166.8 亿的拆分）、软银过桥贷款到期表述、Moonshot&quot;累计融资&quot;应为 5 月单轮；Agent B 补入自由搏击决赛结果、智元奖牌榜（自报口径）与 Emerald AI 融资，并确认足球决赛赛果截稿未入索引；Agent C 的 Lede 评分 A×2 / B×9 / C×1、无 D 等，9 条超字首句已压缩改写，§3/§4 板块按融资优先级对调。</p>\n<h3 id=\"今日摘要\">今日摘要</h3>\n<ul><li>🔥 <strong>Meta 以最高 $166.8 亿和解 29 州青少年诉讼</strong>：同意判决要求 18 岁以下用户默认每日 <strong>2 小时</strong> 使用上限、午夜至 6 时锁定，Meta 盘前涨 <strong>4.4%</strong>。</li><li>🔥 <strong>智谱上线并开源 GLM-5.3-Flash</strong>：320B-A18B、GLM-5 系首个原生多模态模型，AA 智能指数 <strong>57 分</strong>；OpenRouter 匿名榜首模型 Ox Alpha 同日被确认为该系新版本。</li><li>🔥 <strong>据 Reuters：Moonshot 与微软、亚马逊、谷歌洽谈 Kimi K3 上云分成</strong>：Moonshot 寻求相关云服务收入最高 <strong>30%</strong> 分成，谈判仍在早期。</li><li><strong>阿里开源 Qwen3.8-Flash-Next</strong>：Qwen4 架构预览，<strong>125B</strong> 总参、每 token 激活 <strong>6B</strong>，训练成本约为 Qwen3.7-Plus 的 <strong>1/9</strong>。</li><li><strong>DeepSeek 财务与融资双线曝光</strong>：据 The Information，2026 年 1–7 月营收约 <strong>RMB 4.75 亿</strong>、净亏 <strong>RMB 7.15 亿</strong>；据 SCMP，新一轮 <strong>RMB 500 亿</strong> 融资以投前 <strong>RMB 5,000 亿</strong> 估值推进、拟 8 月底前关闭。</li></ul>\n<h3 id=\"1-政策与监管\">1. 政策与监管</h3>\n<h4 class=\"entry-heading\" id=\"meta-最高-166-8-亿和解-29-州诉讼-青少年限制写入同意判决\">🔥 Meta 最高 $166.8 亿和解 29 州诉讼，青少年限制写入同意判决</h4>\n<p>未成年人使用限制首次写进可执行的同意判决——Meta 以最高 <strong>$166.8 亿</strong> 了结 29 州诉讼。和解 8/26 在 Oakland 联邦审判第二周达成，加州总检察长 Rob Bonta 牵头宣布：18 岁以下用户默认每日 <strong>2 小时</strong> 使用上限、午夜至清晨 6 时锁定（家长可解除），并引入年龄核验与独立审计。约 <strong>$127 亿</strong> 无条件分十年拨付参与州；若 TikTok 与 YouTube 跟进同类限制，另触发 <strong>$53 亿</strong>（含条件项的媒体总口径约 $180 亿，与法庭文件&quot;最高 $166.8 亿&quot;并存）。Meta 否认不当行为，股价盘前涨 <strong>4.4%</strong>、开盘后回吐——市场把和解读作 AI 资本开支主线上的法律风险出清。社交平台 <strong>3,300 余件</strong> 人身伤害诉讼仍在加州联邦法院合并推进，整改条款料成后续和解模板。 <span class=\"inline-source\">（来源：<a href=\"https://www.cnbc.com/2026/08/26/meta-social-media-trial-settlement.html\" target=\"_blank\" rel=\"noreferrer\">CNBC</a> / <a href=\"https://finance.yahoo.com/media-advertising/articles/meta-settles-29-states-over-132242399.html\" target=\"_blank\" rel=\"noreferrer\">Reuters / Yahoo</a> / <a href=\"https://www.scientificamerican.com/article/meta-to-pay-18-billion-and-make-sweeping-app-changes-to-settle-social-media-harms-lawsuit/\" target=\"_blank\" rel=\"noreferrer\">Scientific American</a>）</span></p>\n<h3 id=\"2-中国-ai-产业\">2. 中国 AI 产业</h3>\n<h4 class=\"entry-heading\" id=\"智谱开源-glm-5-3-flash-openrouter-匿名榜首-ox-alpha-揭盅\">🔥 智谱开源 GLM-5.3-Flash，OpenRouter 匿名榜首 Ox Alpha 揭盅</h4>\n<p>匿名霸榜的 Ox Alpha 揭盅：智谱开源 <strong>GLM-5.3-Flash</strong>，定价压到 Opus 4.8 的 1/40。该模型 8/26 晚上线，为 <strong>320B-A18B</strong> 结构、GLM-5 系首个原生多模态模型，Artificial Analysis 智能指数 <strong>57 分</strong>（AA 官网收录），智谱称与 Claude Opus 4.8 持平；定价为 GLM-5.3 的 1/10、限时折扣内 1/20。同日据彭博社，智谱确认 8/20 起在 <strong>OpenRouter</strong> 免费预览、冲上调用量榜首的匿名模型 Ox Alpha 即 GLM 系新版本，当晚发布权重；此前研究者已通过分词器指纹比对锁定其 GLM-5.3 血统。下一个观察点：GLM-5.3 完整版权重是否按&quot;两周&quot;口径在 8/28 前后开源。 <span class=\"inline-source\">（来源：<a href=\"https://www.163.com/dy/article/L59RD82A0534A4SC.html\" target=\"_blank\" rel=\"noreferrer\">界面新闻 / 网易</a> / <a href=\"https://tech.ifeng.com/c/8vuQjEkQDAY\" target=\"_blank\" rel=\"noreferrer\">IT之家 / 凤凰网</a>）</span></p>\n<h4 class=\"entry-heading\" id=\"阿里开源-qwen3-8-flash-next-qwen4-架构提前试跑\">阿里开源 Qwen3.8-Flash-Next，Qwen4 架构提前试跑</h4>\n<p>Qwen4 架构首次公开交付：Flash-Next 每 token 只激活 <strong>6B</strong>、当晚即获 day-zero 适配。阿里 Qwen 团队 8/26 晚在 ModelScope 与 Hugging Face 开源该模型（含 FP8 版）：<strong>125B</strong> 总参数外挂 <strong>51B</strong> n-gram 嵌入表与 4B MTP 模块，原生 <strong>262K</strong> 上下文、经 YaRN 可扩至 100 万 token；官方称训练开销仅为 Qwen3.7-Plus 的约 1/9，编程与办公任务表现反超，Unsloth、SGLang 等项目已完成适配。1/9 成本与性能口径出自官方技术报告，待 Artificial Analysis 等第三方复测，为下一验证点；Qwen4 本体的发布时间官方尚未给出。 <span class=\"inline-source\">（来源：<a href=\"https://qwen.ai/blog?id=qwen3.8-flash-next\" target=\"_blank\" rel=\"noreferrer\">Qwen Blog</a> / <a href=\"https://technode.com/2026/08/26/alibabas-qwen-to-open-source-qwen3-8-flash-next-previewing-qwen4-architecture/\" target=\"_blank\" rel=\"noreferrer\">TechNode</a> / <a href=\"https://huggingface.co/Qwen/Qwen3.8-Flash-Next\" target=\"_blank\" rel=\"noreferrer\">Hugging Face</a>）</span></p>\n<h4 class=\"entry-heading\" id=\"据-reuters-moonshot-与微软-亚马逊-谷歌洽谈-kimi-k3-上云\">🔥 据 Reuters：Moonshot 与微软、亚马逊、谷歌洽谈 Kimi K3 上云</h4>\n<p>Moonshot 为 <strong>Kimi K3</strong> 争取最高 <strong>30%</strong> 云收入分成，中国前沿模型或首次整建制上美国三大云。据 Reuters 8/26 报道，Moonshot AI 正与微软、亚马逊、谷歌就把 K3 引入 Azure、AWS 与 Google Cloud 进行早期洽谈，分成计算方式、数据访问与用量审计等条款未决。K3 为 <strong>2.8 万亿</strong> 参数模型，算力门槛使多数企业无法自部署，云分发因此成为其商业化主通道；这家阿里参投、5 月完成超 <strong>$20 亿</strong> 融资的公司同时在筹备香港上市，且正因知识产权与先进芯片获取问题受到华盛顿审视。确认信号看 Azure、AWS、GCP 任一模型目录上架 K3——Reuters 称谈判尚无时间表。 <span class=\"inline-source\">（来源：<a href=\"https://tribune.com.pk/story/2625954/chinas-moonshot-in-talks-with-microsoft-amazon-google-over-k3-revenue-sharing-sources-say\" target=\"_blank\" rel=\"noreferrer\">Reuters / Express Tribune</a> / <a href=\"https://techstartups.com/2026/08/26/top-tech-news-today-august-26-2026-amazon-anthropic-google-microsoft-waymo-more/\" target=\"_blank\" rel=\"noreferrer\">TechStartups</a>）</span></p>\n<h4 class=\"entry-heading\" id=\"deepseek-财务首曝-1-7-月营收-rmb-4-75-亿-算力投入-23-倍于营收\">DeepSeek 财务首曝：1–7 月营收 RMB 4.75 亿，算力投入 23 倍于营收</h4>\n<p>DeepSeek 2026 年 1–7 月 AI 基建投入约 <strong>RMB 110 亿</strong>，为同期营收的 23 倍。据 The Information 援引两名知情人士（8/26 中文媒体跟进）：同期营收约 <strong>RMB 4.75 亿</strong>、约为 2025 全年的 10 倍，净亏约 RMB 7.15 亿，整体毛利率 44.6%、API 业务毛利率 <strong>82.9%</strong>。融资侧据 SCMP 同日报道：新一轮约 <strong>RMB 500 亿</strong>（约 $70 亿）融资以投前约 <strong>RMB 5,000 亿</strong>（SCMP 折算约 $740 亿）估值推进、预计 8 月底前关闭，Monolith、势乘资本与宁德时代参与；公司已启动上交所科创板上市准备，最早年内递交、目标 2027 年挂牌。API 毛利率能否撑起估值叙事，科创板问询是第一场公开检验。 <span class=\"inline-source\">（来源：<a href=\"https://finance.sina.com.cn/stock/usstock/c/2026-08-26/doc-iniprqcs5516828.shtml\" target=\"_blank\" rel=\"noreferrer\">The Information / 新浪财经</a> / <a href=\"https://www.scmp.com/tech/big-tech/article/3365280/deepseek-nears-pre-ipo-funding-round-2027-market-debut-takes-shape-sources\" target=\"_blank\" rel=\"noreferrer\">SCMP</a>）</span></p>\n<h3 id=\"3-创业融资与并购\">3. 创业融资与并购</h3>\n<h4 class=\"entry-heading\" id=\"据-bloomberg-软银磋商发债最高-200-亿-置换-openai-过桥贷款\">据 Bloomberg：软银磋商发债最高 $200 亿，置换 OpenAI 过桥贷款</h4>\n<p>软银拟发最高 <strong>$200 亿</strong> 美元/欧元债券，置换支撑 OpenAI 投资的 <strong>$400 亿</strong> 过桥贷款。据 Bloomberg 8/26 报道，软银正与投行磋商 $100 亿–$200 亿 规模的债券发行、最早 9 月落地，触顶即为 2026 年亚洲最大公司债；所置换的过桥贷款于 2026-03-27 签订。软银 10/1 还须支付对 OpenAI 的最后一笔 <strong>$100 亿</strong> 出资，届时累计投入约 <strong>$650 亿</strong>、对应估算持股约 13%；公司另在筹备日本国内 1 万亿日元零售债，并已完成以 OpenAI 股份作押的 $100 亿 保证金贷款。软银发言人称各方案均未定案。AI 融资链条由此从一级股权市场正式延伸进全球债券市场。 <span class=\"inline-source\">（来源：<a href=\"https://www.bloomberg.com/news/articles/2026-08-26/softbank-mulls-up-to-20-billion-bond-sale-for-openai-financing\" target=\"_blank\" rel=\"noreferrer\">Bloomberg</a> / <a href=\"https://www.tradingview.com/news/reuters.com,2026:newsml_FWN44M0YX:0-softbank-mulls-up-to-20-billion-bond-sale-for-openai-financing-bloomberg-news-reports/\" target=\"_blank\" rel=\"noreferrer\">Reuters / TradingView</a>）</span></p>\n<h3 id=\"4-主要-ai-labs-动态\">4. 主要 AI Labs 动态</h3>\n<h4 class=\"entry-heading\" id=\"据-wsj-anthropic-拟向-ipo-投资者提出超-30-万亿-tam\">📌 据 WSJ：Anthropic 拟向 IPO 投资者提出超 $30 万亿 TAM</h4>\n<p>Anthropic 拟向 IPO 投资者提出超 <strong>$30 万亿</strong> TAM，高于 SpaceX 的 <strong>$28.5 万亿</strong> 口径。据华尔街日报 8/26 报道，这一总可及市场估算预计将成为其路演核心论据——Claude 类模型可承接软件、研究、专业服务、客服与编码等知识密集行业的大量工作；报道同时提及其 IPO 或募资超 <strong>$100 亿</strong>、估值指向约 <strong>$2 万亿</strong>。TAM 是理论上限而非收入预测；8/21 Bloomberg 已报其 IPO 预期对标 SpaceX 首发 $750 亿（超额配售后 $857 亿）纪录（详见 08-21 归档），&quot;最快 8 月底公开递表&quot;的时间窗还剩一周，S-1 何时出现是最硬的检验点。 <span class=\"inline-source\">（来源：<a href=\"https://www.investing.com/news/stock-market-news/anthropic-expected-to-tell-investors-it-sees-over-30-trillion-in-potential-revenue-wsj-reports-4875772\" target=\"_blank\" rel=\"noreferrer\">WSJ / Investing.com</a> / <a href=\"https://www.tipranks.com/news/anthropic-pitches-investors-a-30t-revenue-opportunity-bigger-than-spacexs-spcx-ipo-record\" target=\"_blank\" rel=\"noreferrer\">TipRanks</a>）</span></p>\n<p><em>披露：本报告由 Claude 撰写，Anthropic 为 Claude 开发方。</em></p>\n<h3 id=\"5-ai-产品更新\">5. AI 产品更新</h3>\n<h4 class=\"entry-heading\" id=\"openai-把-chatgpt-for-teachers-扩到-55-个新学区-签-16-州统一隐私协议\">OpenAI 把 ChatGPT for Teachers 扩到 55 个新学区，签 16 州统一隐私协议</h4>\n<p>ChatGPT for Teachers 扩至 30 州逾 <strong>30 万</strong> 教育者，免费期到 2028 年 6 月。OpenAI 8/26 宣布新增 <strong>55 个</strong> 学区系统、跨 20 个州、带来超 10 万名新教育者与职员，含全美 20 大学区中的 4 个；累计合作 K-12 组织超 100 家。同时通过 Student Data Privacy Consortium 框架签署覆盖 <strong>16 州</strong> 的全国数据隐私协议（OpenAI 称行业首例），学区无须逐一谈判即可按既有隐私流程评估接入。配套发布的使用分析显示：2026/1/1–7/16 教育者发送超 <strong>190 万条</strong> 省时类请求，其中 90 万条涉成绩单与进度报告、80 万条涉备课。 <span class=\"inline-source\">（来源：<a href=\"https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts/\" target=\"_blank\" rel=\"noreferrer\">OpenAI</a> / <a href=\"https://openai.com/index/learning-never-stops/\" target=\"_blank\" rel=\"noreferrer\">OpenAI 分析报告</a>）</span></p>\n<h4 class=\"entry-heading\" id=\"amazon-定-9-30-关停-mechanical-turk-21-年众包标注市场谢幕\">Amazon 定 9/30 关停 Mechanical Turk，21 年众包标注市场谢幕</h4>\n<p>Amazon 定 <strong>9/30</strong> 关停运营 21 年的 Mechanical Turk，存量数据管线只剩五周迁移窗口。8/26 发给工人与需求方的通知确认了这一截止日；新客户注册已于 7/30 停止，同日 SageMaker Ground Truth 与 Augmented AI 也对新用户关闭。该 2005 年上线的平台以每单几美分的价格向逾 <strong>50 万</strong> 工人分发图像标注、转录、问卷等&quot;人类智能任务&quot;，是第一代机器学习数据供应链的底座；高价值标注已流向 Scale AI、Mercor、Prolific 等专业厂商，低端分类任务则被大模型直接接管——2023 年即有研究发现大量 MTurk 工人用 AI 完成本该训练 AI 的任务。 <span class=\"inline-source\">（来源：<a href=\"https://techstartups.com/2026/08/26/amazon-is-shutting-down-mechanical-turk-after-21-years-as-ai-reshapes-crowdsourced-work/\" target=\"_blank\" rel=\"noreferrer\">TechStartups</a> / <a href=\"https://techstartups.com/2026/08/26/top-tech-news-today-august-26-2026-amazon-anthropic-google-microsoft-waymo-more/\" target=\"_blank\" rel=\"noreferrer\">CNBC 转述</a>）</span></p>\n<h3 id=\"6-ai-agent-与企业-ai\">6. AI Agent 与企业 AI</h3>\n<h4 class=\"entry-heading\" id=\"ibm-开源-granite-4-2-3b-30b-三档-agent-能力下放本地部署\">IBM 开源 Granite 4.2：3B–30B 三档，agent 能力下放本地部署</h4>\n<p>IBM 开源 <strong>Granite 4.2</strong>：3B–30B 三档、Apache 2.0，agent 能力下放本地部署。8/26 发布的该系列原生 <strong>128K</strong> 上下文，8B 与 30B 针对工具调用、终端操作、信息检索与多步指令做了专门强化学习，带推理模式与原生 tool calling，已分发至 Hugging Face、Ollama、GitHub、LM Studio 及多家推理服务商。IBM 的卡位与前沿实验室相反：企业内部 agent 处理敏感数据时，本地可部署、成本可预期比榜单名次更重要——这与今日 GLM-5.3-Flash、Qwen3.8-Flash-Next 的低价开源潮（详见 §2）指向同一趋势；下一验证点是 8B/30B 在工具调用公开榜的第三方成绩。 <span class=\"inline-source\">（来源：<a href=\"https://techstartups.com/2026/08/26/top-tech-news-today-august-26-2026-amazon-anthropic-google-microsoft-waymo-more/\" target=\"_blank\" rel=\"noreferrer\">Ars Technica / TechStartups</a> / <a href=\"https://huggingface.co/ibm-granite\" target=\"_blank\" rel=\"noreferrer\">IBM / Hugging Face</a>）</span></p>\n<h3 id=\"7-机器人与物理-ai\">7. 机器人与物理 AI</h3>\n<h4 class=\"entry-heading\" id=\"机器人运动会收官-华电遥控宇树-g1-摘搏击金牌-智元自报-18-金居首\">📌 机器人运动会收官：华电遥控宇树 G1 摘搏击金牌，智元自报 18 金居首</h4>\n<p>5 天 <strong>1,301 场</strong> 比赛收官：第二届世界人形机器人运动会 8/26 在国家速滑馆闭幕。闭幕日自由搏击 40 公斤级决赛上演&quot;弟子赢师傅&quot;——华北电力大学赛队遥控宇树 G1 击败宇树科技自家赛队夺冠，华电队机器人调整速度更快、倒地后可自行起身。奖牌榜方面，智元自报以 <strong>18 金 16 银 12 铜</strong> 居金牌、奖牌双榜第一，其中子公司临界点在灵巧手 8 个专项赛拿下 7 金；组委会官方总榜与 5 人制足球（大型组）决赛赛果截稿时未入公开报道，次日跟进。本届 16 国 <strong>666 支</strong> 队伍、<strong>2,056 台</strong> 机器人参赛，规模较首届（26 个赛项、500 余台）翻了数倍；天工Ultra 百米 9.39 秒、400 米 38.15 秒两度快于人类世界纪录（详见 08-23、08-24 归档）。 <span class=\"inline-source\">（来源：<a href=\"https://xinwen.bjd.com.cn/content/s6a8ed9cae4b0e45f3fd688a9\" target=\"_blank\" rel=\"noreferrer\">京报网</a> / <a href=\"https://finance.sina.com.cn/jjxw/2026-08-26/doc-inipqxha2216260.shtml\" target=\"_blank\" rel=\"noreferrer\">新浪财经</a> / <a href=\"https://www.stdaily.com/web/gdxw/2026-08/22/content_568213.html\" target=\"_blank\" rel=\"noreferrer\">科技日报</a>）</span></p>\n<h3 id=\"8-自动驾驶\">8. 自动驾驶</h3>\n<h4 class=\"entry-heading\" id=\"据-ft-伦敦全无人-robotaxi-年内落地无望-三家运营商卡在审批\">据 FT：伦敦全无人 robotaxi 年内落地无望，三家运营商卡在审批</h4>\n<p>Waymo、Wayve 与百度 2026 年内在伦敦跑全无人 robotaxi 无望，卡在 TfL 审批指引缺位。据 Financial Times 8/26 报道，伦敦交通局（TfL）尚未出台运营商完成审批所需的关键指引，技术与监管要求均未定稿；带安全员的试点仍将推进，但尚无任何车辆取得 DVSA 全无人商业运营许可。英国政府仍维持 2027 年起更大范围部署的时间表。伦敦聚齐了美中英三国头部自动驾驶公司，这一延期把&quot;一套监管框架能否容纳多种技术路线&quot;的测试推迟到了明年。 <span class=\"inline-source\">（来源：<a href=\"https://techstartups.com/2026/08/26/top-tech-news-today-august-26-2026-amazon-anthropic-google-microsoft-waymo-more/\" target=\"_blank\" rel=\"noreferrer\">FT / TechStartups</a>）</span></p>\n<h3 id=\"其他动态\">其他动态</h3>\n<ul><li>SpaceX 计划投入约 <strong>$1,000 亿</strong> 在路易斯安那州建第四个也是最大发射场，占地 12.5 万英亩、2027 年动工、2029 年首飞，服务 Starship 量产化发射（含 Starmind AI 卫星系，详见 08-25 归档）（<a href=\"https://techstartups.com/2026/08/26/top-tech-news-today-august-26-2026-amazon-anthropic-google-microsoft-waymo-more/\" target=\"_blank\" rel=\"noreferrer\">AP / TechStartups</a>）</li><li>Emerald AI 完成 <strong>$1.5 亿</strong> A 轮、投后估值 <strong>$10.5 亿</strong>，Energize Capital 与 DCVC 领投，产品让数据中心用电随电网负荷动态调节（<a href=\"https://techstartups.com/2026/08/26/startup-funding-news-today-august-26-2026-emerald-ai-gatik-stellaria-more/\" target=\"_blank\" rel=\"noreferrer\">TechStartups</a>）</li><li>微软与沙特 PIF 旗下 HUMAIN 达成长期合作，将阿拉伯语模型 ALLAM 引入 Microsoft Foundry 并规划接入 Microsoft 365 Copilot，上线时间未公布（<a href=\"https://techstartups.com/2026/08/26/top-tech-news-today-august-26-2026-amazon-anthropic-google-microsoft-waymo-more/\" target=\"_blank\" rel=\"noreferrer\">Sharikat Mubasher / TechStartups</a>）</li><li>据 WSJ：OpenAI 数据中心负责人 Chris Malone 离职，其 2025 年 3 月入职、恰逢 Stargate 启动，公司基建团队持续重组（<a href=\"https://www.wsj.com/tech/ai/openais-head-of-data-centers-has-left-company-6d24fd83\" target=\"_blank\" rel=\"noreferrer\">WSJ</a>）</li><li>Bill Gates 发表长文提出设立&quot;人类保留岗位&quot;（护理、临终告知、儿童看护等），并重提对 AI token 与机器人征税；他称极端版本下初期可保留多至 <strong>40%</strong> 岗位（<a href=\"https://techstartups.com/2026/08/26/top-tech-news-today-august-26-2026-amazon-anthropic-google-microsoft-waymo-more/\" target=\"_blank\" rel=\"noreferrer\">The Guardian / TechStartups</a>）</li></ul>\n<h3 id=\"本周值得盯\">本周值得盯</h3>\n<ul><li>8/26 美股盘后（CST 8/27 凌晨）— 英伟达 Q2 FY27 财报与 14:00 PT 电话会：共识营收 <strong>$922 亿</strong>、Q3 指引共识约 $1,040 亿；服务器涨价与 Groq 3 LPX 量产后的首个业绩检验点，本篇截稿时尚未发布，次日日报跟进</li><li>8/27 周四 — Marvell Q2 FY27 财报，此前对 Google 授出的 $122 亿认股权证细节可能进一步披露</li><li>8/28 前后 — GLM-5.3 完整版权重是否按&quot;发布后两周&quot;口径开源（8/26 已先开 Flash 版，详见 §2）</li><li>8/31 前 — DeepSeek 约 RMB 500 亿新一轮融资按 SCMP 口径在 8 月底前关闭（详见 §2）</li></ul>\n<p><em>报告生成：2026-08-27 CST · 调度任务：daily-ai-news-v2</em></p>"
+    },
     {
       "id": "2026-08-25",
       "date": "2026-08-25",
