@@ -47,28 +47,28 @@
 
 - **PayPal 失去了并购底价的支撑。** 据 Bloomberg 于 2026-08-27 晚间报道，Stripe 与 Advent International 放弃 $53B 收购要约，2026-08-28 股价单日跌 **12.71%** 至 $53.66；Mizuho 与 Loop Capital 同日下调目标价（Loop 由 $62 降至 $50）。要约公布前（2026-07-14 收盘）股价为 $47.37，若"财团回归"预期继续消退，仍有回补空间（来源：[Investopedia 报道](https://www.investopedia.com/market-update-paypal-stock-tumbles-on-report-of-advent-stripe-dropping-takeover-bid-12071120) · [Schaeffer's 报道](https://www.schaeffersresearch.com/content/news/2026/08/28/paypal-stock-eyes-worst-day-since-february-on-m-a-fumble)）
 - **Hims & Hers 的支付通道处罚可能先于监管处罚落地。** 据 Bloomberg 报道，Visa 因减重订阅业务信用卡争议激增将公司列入收单监控计划，争议率需连续三个月降至 1.5% 以下方可退出，每笔争议附加 $8 费用、9 月账单约 **$75,000**；Pomerantz、Howard G. Smith、Frank R. Cruz 等律所于 2026-08-24 至 08-26 相继宣布证券欺诈方向的调查（来源：[Bloomberg 报道](https://www.bloomberg.com/news/articles/2026-08-21/hims-weight-loss-plans-draw-penalties-over-credit-card-disputes) · [PRNewswire：Pomerantz 调查](http://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-hims--hers-health-inc---hims-302862268.html)）
-- **Micron 面临 ITC 进口排除令的尾部风险。** Netlist 于 2026-08-24 就 DDR5 RDIMM/MRDIMM 向 ITC 与联邦法院提起新专利诉讼、寻求排除令，若成立可能阻止部分 Micron 存储产品在美进口与销售；当日股价跌 **5.83%**，Mizuho 同期把目标价从 $1,375 下调至 $1,300（来源：[StocksToTrade 报道](https://stockstotrade.com/news/micron-technology-inc-mu-news-2026_08_24/) · [Barron's 报道](https://www.barrons.com/articles/micron-stock-sk-hynix-memory-7b243194)）
+- **Micron 面临 ITC 进口排除令的尾部风险。** Netlist 于 2026-08-12 就 DDR5 RDIMM/MRDIMM 向 ITC 与加州联邦法院提起新专利诉讼、寻求排除令，若成立可能阻止部分 Micron 存储产品在美进口与销售；该风险于 2026-08-24 集中发酵、当日股价跌 **5.83%**，Mizuho 于 2026-08-25 把目标价从 $1,375 下调至 $1,300（维持跑赢评级）（来源：[StreetInsider：ITC 立案](https://www.streetinsider.com/Corporate+News/Netlist+files+ITC+complaint+against+Micron+over+patent+claims/26909224.html) · [Barron's 报道](https://www.barrons.com/articles/micron-stock-sk-hynix-memory-7b243194)）
 - **加息风险重新进入资产定价。** Warsh 2026-08-28 的 Jackson Hole 表态使债市开始计价加息可能，10 年期美债收益率当日升至 **4.72%**；对组合内高久期成长股（PLTR、U、HIMS）与高杠杆 AI 基建标的（ORCL、SPCX）构成共同的贴现率压力（来源：[Axios 报道](https://www.axios.com/2026/08/28/kevin-warsh-federal-reserve-jackson-hole) · [Washington Post 报道](https://www.washingtonpost.com/business/2026/08/28/fed-chair-warsh-speaks-jackson-hole-conference/)）
 
 ## ⭐ Tesla (TSLA) — 重点关注
 
 **股价：** $348.75（本周 -3.9%，YTD -22.5%）｜**情绪：** ➡️｜**下次财报：** Q3 预计 2026-10（未公告）
 
-**中国的监管出清以一次史上最大召回的形式落地，但实际整改成本有限。** 公司 2026-08-21 向中国监管部门备案召回 **2,975,910** 辆进口与国产 Model 3/Y/S/X，为中国汽车行业单次规模之最，问题指向碰撞后电子门把手失效与应急机械拉手难以定位；整改以 OTA 软件更新（碰撞后自动降窗）与警示标识为主，2026-09-25 启动。同批另有八家车企合计约 430 万辆被要求整改，指向行业性隐藏式门把手新规而非 Tesla 单点缺陷。
+**中国的监管出清以一次史上最大召回的形式落地，但实际整改成本有限。** 公司 2026-08-21 向中国监管部门备案召回 **2,975,910** 辆进口与国产 Model 3/Y/S/X，为中国汽车行业单次规模之最，问题指向碰撞后电子门把手失效与应急机械拉手难以定位；整改以 OTA 软件更新（碰撞后自动降窗）与警示标识为主，2026-09-25 启动。同批共九家车企合计约 427 万辆被要求整改（含 Tesla 约 297.6 万辆，其余八家约 130 万辆），指向行业性隐藏式门把手新规而非 Tesla 单点缺陷。
 
 **Robotaxi 的车队上限第一次不再由监管卡死。** 2026-08-20，内华达州运输局全票通过将 Tesla 在克拉克县（含拉斯维加斯）的 Robotaxi 车队上限从 10 辆提高至 **5,000** 辆（12 个月内），同场 Waymo 与 Uber 各获 1,000 辆额度；Tesla 表示不会立即满额投放。约束仍在：限速 45 英里/小时、限于大道走廊、禁入 Harry Reid 国际机场。这是 2026-07-27 首张 10 辆许可以来最大幅度的运营松绑。
 
-**股价连续回撤，市场开始向德州太阳能工厂要资本开支的答案。** 全周 -3.9% 收 $348.75（2026-08-28 收盘），其中 2026-08-24 单日跌 3.83%、08-26 太阳能工厂前景遭质疑再跌 1.26%；据 Barron's 分析，Tesla 过去五年累计跑输 S&P 500，核心症结是汽车业务盈利收缩而 Robotaxi、Optimus 等承诺的兑现期都在 2027 年之后（来源：[Bloomberg：中国召回](https://www.bloomberg.com/news/articles/2026-08-21/tesla-recalls-3-million-evs-as-china-cracks-down-on-door-handles) · [Axios：内华达许可](https://www.axios.com/2026/08/14/tesla-sought-permit-for-5000-robotaxis-in-las-vegas-it-got-10) · [Barron's：五年跑输](https://www.barrons.com/articles/tesla-stock-why-its-falling-musk-7aad56c1)）
+**股价连续回撤，市场开始向德州太阳能工厂要资本开支的答案。** 全周 -3.9% 收 $348.75（2026-08-28 收盘），其中 2026-08-24 单日跌 3.83%、08-26 太阳能工厂前景遭质疑再跌 1.26%；据 Barron's 分析，Tesla 过去五年累计跑输 S&P 500，核心症结是汽车业务盈利收缩而 Robotaxi、Optimus 等承诺的兑现期都在 2027 年之后（来源：[Bloomberg：中国召回](https://www.bloomberg.com/news/articles/2026-08-21/tesla-recalls-3-million-evs-as-china-cracks-down-on-door-handles) · [Barron's：五年跑输](https://www.barrons.com/articles/tesla-stock-why-its-falling-musk-7aad56c1) · [Motley Fool：内华达扩容](https://www.fool.com/investing/2026/08/25/nevada-just-raised-tesla-s-las-vegas-robotaxi-cap-from-10-vehicles-to-5-000/)）
 
 ## ⭐ AMD (AMD) — 重点关注
 
 **股价：** $465.58（本周 -1.6%，YTD +117.4%）｜**情绪：** ➡️｜**下次财报：** Q3 预计 2026-11（未公告）
 
-**本周的下跌是仓位问题，不是基本面问题。** 全周 -1.6% 收 $465.58（2026-08-28 收盘）：2026-08-24 随芯片板块获利了结跌 3.49%，08-25 反弹 4.91%，08-27 至 08-28 在 Nvidia 财报超预期后不涨反跌（合计约 -3.2%）。据 Barron's 报道，Cathie Wood 旗下 **ARK** 于 2026-08-26 前后减持 AMD、转investing Cerebras 等 AI 芯片新贵，资金在 AI 芯片内部做相对选择而非撤离。
+**本周的下跌是仓位问题，不是基本面问题。** 全周 -1.6% 收 $465.58（2026-08-28 收盘）：2026-08-24 随芯片板块获利了结跌 3.49%；2026-08-25，Raymond James 分析师 Simon Leopold 将评级从跑赢上调至**强力买入**、目标价从 $565 升至 **$641**，当日股价反弹 4.91%；08-27 至 08-28 在 Nvidia 财报超预期后不涨反跌（合计约 -3.2%）。据 Barron's 报道，Cathie Wood 旗下 **ARK** 于 2026-08-26 前后减持 AMD、转投 Cerebras 等 AI 芯片新贵，资金在 AI 芯片内部做相对选择而非撤离。
 
 **OpenAI 合同进入交付期，权证结构把最大客户变成了潜在股东。** 首个 **1 吉瓦** Instinct MI450 部署于 2026 年下半年启动（协议总量 6 吉瓦）；AMD 向 OpenAI 发行最多 **1.6 亿股**认股权证，按采购里程碑与股价目标分批归属，若全部行权约占总股本 10%。Q2 基本面背景：数据中心营收 $6.718B、同比 +107%、占公司营收 58%，Q3 营收指引约 $13B ±$300M（同比约 +41%）。
 
-**卖方在 AMD 与 Intel 的相对论里仍站 AMD 一边。** 2026-08-28，Raymond James 在两者对比中继续偏好 AMD；Stockanalysis 汇总的 54 位分析师平均评级为"强力买入"、12 个月平均目标价 **$612.29**（较 2026-08-28 收盘 +28.45%，仅作辅证）。产品线兑现节奏未变：Helios 机架系统 2026 年下半年向微软等客户出货，Anthropic 最高 2 吉瓦 MI450 部署自 2027 年上半年启动（来源：[AMD IR：OpenAI 合作](https://ir.amd.com/news-events/press-releases/detail/1260/amd-and-openai-announce-strategic-partnership-to-deploy-6-gigawatts-of-amd-gpus) · [Barron's：ARK 减持](https://www.barrons.com/articles/amd-stock-price-cathie-wood-ark-476a7789) · [Stockanalysis：AMD 数据页](https://stockanalysis.com/stocks/amd/)）
+**卖方在 AMD 与 Intel 的相对论里仍站 AMD 一边。** 2026-08-28，Raymond James 在两者对比中继续偏好 AMD；Stockanalysis 汇总的 54 位分析师平均评级为"强力买入"、12 个月平均目标价 **$612.29**（截至 2026-08-28，仅作辅证）。产品线兑现节奏未变：Helios 机架系统 2026 年下半年向微软等客户出货，Anthropic 最高 2 吉瓦 MI450 部署自 2027 年上半年启动（来源：[AMD IR：OpenAI 合作](https://ir.amd.com/news-events/press-releases/detail/1260/amd-and-openai-announce-strategic-partnership-to-deploy-6-gigawatts-of-amd-gpus) · [Barron's：ARK 减持](https://www.barrons.com/articles/amd-stock-price-cathie-wood-ark-476a7789) · [Yahoo Finance：Raymond James 上调](https://finance.yahoo.com/markets/stocks/articles/top-analyst-resets-amd-stock-213300157.html)）
 
 ## ⭐ SpaceX (SPCX) — 重点关注
 
@@ -78,7 +78,7 @@
 
 **马斯克把远期营收锚从 $1T 提到了 $3.5T。** 2026-08-27 马斯克表示"约 $3.5T 营收的最佳猜测大致在 2033 年前后"（原话引用），比 Morgan Stanley 模型提前约七年；此前公司已把 $1T 年化营收的内部预测从 2031 年提前至 2030 年。Q2 背景：AI 分部营收 **$2.6B**、同比 +247%，Connectivity 分部营收 $4.3B、净增订户 170 万。
 
-**解禁供给仍在滴灌，股价却站稳了发行价上方。** 全周 +3.3% 收 $141.50（2026-08-28 收盘），2026-08-24 一度跌回 $135.00 后连涨四日；8 月启动的分批解禁计划持续至 2026 年 12 月（08-06 首批约 9.115 亿股解禁后，公众流通盘占比从 4.9% 升至 11.8%）。分析师端 Wolfe Research 维持跑赢评级、目标价 **$175**，Stockanalysis 汇总 35 位分析师平均目标价 $219.22（仅作辅证）（来源：[CNBC：路州发射场](https://www.cnbc.com/2026/08/25/spacex-louisiana-spaceport.html) · [Barron's：$3.5T 营收](https://www.barrons.com/articles/spacex-stock-sales-musk-b155ec1c) · [CNBC：解禁](https://www.cnbc.com/2026/08/06/spacex-faces-test-as-shares-unlock-allowing-early-investors-cash-out.html)）
+**解禁供给仍在滴灌，股价却站稳了发行价上方。** 全周 +3.3% 收 $141.50（2026-08-28 收盘），2026-08-24 一度跌回 $135.00 后连涨四日；8 月启动的分批解禁计划持续至 2026 年 12 月（08-06 首批约 9.115 亿股解禁后，公众流通盘占比从 4.9% 升至 11.8%）。分析师端本周集中表态：Morgan Stanley 分析师 Adam Jonas 2026-08-26 重申增持、目标价 **$300** 并称估值有吸引力，JPMorgan 2026-08-25 重申增持、目标价 $240，此前 Wolfe Research 维持跑赢、目标价 $175——马斯克的 $3.5T 表态正是对 Morgan Stanley "2040 年 $3.5T" 模型的隔空回应（来源：[CNBC：路州发射场](https://www.cnbc.com/2026/08/25/spacex-louisiana-spaceport.html) · [Barron's：$3.5T 营收](https://www.barrons.com/articles/spacex-stock-sales-musk-b155ec1c) · [CNBC：解禁](https://www.cnbc.com/2026/08/06/spacex-faces-test-as-shares-unlock-allowing-early-investors-cash-out.html)）
 
 ## ⭐ Oracle (ORCL) — 重点关注
 
