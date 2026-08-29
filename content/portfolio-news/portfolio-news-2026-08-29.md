@@ -114,7 +114,7 @@
 
 **Maven 的 $1B ARR 叙事把估值再往"军工 AI 平台"推了一步。** 2026-08-26，William Blair 表示 **Maven** 智能系统有望达 $1B ARR，Truist 于 08-25 前后重申看多；全周 +3.5% 收 $186.29（2026-08-28 收盘），其中 08-27 单日 +4.75%，股价逼近历史高位，8 月 3 日 Q2 财报以来累计涨约 43%。
 
-**Karp 把"主权 AI"定为下一阶段商业叙事，而估值已经先行。** 2026-08-26，CEO Alex Karp 表示企业与国家"拥有自己的 AI、拥有主权，是未来"（原话引用，据 New York Post）；Forbes 08-28 的复盘则提醒，突破行情已计价大量远期预期，Stockanalysis 汇总的 32 位分析师平均目标价 $191.68、较现价仅 +8% 左右（仅作辅证）（来源：[Barron's：本周异动股](https://www.barrons.com/articles/stock-movers-6a7eb3fe) · [New York Post：Karp 访谈](https://nypost.com/2026/08/26/business/palantir-ceo-alex-karp-says-ai-sovereignty-is-the-future/) · [TipRanks：William Blair 观点](https://www.tipranks.com/news/palantir-stock-pltr-gains-as-william-blair-flags-maven-as-on-track-for-1b-arr)）
+**Karp 一边讲"主权 AI"叙事，一边在高位兑现筹码。** 2026-08-26，CEO Alex Karp 表示企业与国家"拥有自己的 AI、拥有主权，是未来"（原话引用，据 New York Post）；同一周披露的 Form 4 显示，Karp 于 2026-08-20 卖出 **492,348 股**（约 $86.06M），并备案拟在 90 天内再出售 402,000 股。Forbes 08-28 的复盘提醒，突破行情已计价大量远期预期，Stockanalysis 汇总的 32 位分析师平均目标价 $191.68、较 2026-08-28 收盘仅 +8% 左右（仅作辅证）（来源：[SEC Form 4](https://www.sec.gov/Archives/edgar/data/0001321655/000182415926000013/wk-form4_1786579300.xml) · [Barron's：本周异动股](https://www.barrons.com/articles/stock-movers-6a7eb3fe) · [New York Post：Karp 访谈](https://nypost.com/2026/08/26/business/palantir-ceo-alex-karp-says-ai-sovereignty-is-the-future/)）
 
 ## Google / Alphabet (GOOGL)
 
@@ -128,9 +128,9 @@
 
 **股价：** $932.86（本周 -3.5%，YTD +227.1%）｜**情绪：** ➡️｜**下次财报：** 2026-09-30
 
-**专利战与目标价下调给存储行情踩了一脚刹车。** 2026-08-24，Netlist 就 DDR5 RDIMM/MRDIMM 向 ITC 与联邦法院提起新专利诉讼并寻求进口排除令，当日股价跌 **5.83%** 至 $910.43，Mizuho 同期把目标价从 $1,375 下调至 $1,300；全周 -3.5% 收 $932.86（2026-08-28 收盘）。竞争信号亦在积累：据 MarketWatch（2026-08-28），中国存储对手上市后首份财报销售强劲，SK Hynix 的行业乐观表态也未能带动 MU 反弹。
+**专利战与目标价下调给存储行情踩了一脚刹车。** Netlist 于 2026-08-12 就 DDR5 RDIMM/MRDIMM 向 ITC 与加州联邦法院提起新专利诉讼并寻求进口排除令，该风险在 2026-08-24 集中发酵、当日股价跌 **5.83%** 至 $910.43，Mizuho 于 08-25 把目标价从 $1,375 下调至 $1,300（维持跑赢）；全周 -3.5% 收 $932.86（2026-08-28 收盘）。竞争信号亦在积累：据 MarketWatch（2026-08-28），中国存储对手上市后首份财报销售强劲，SK Hynix 的行业乐观表态也未能带动 MU 反弹。
 
-**供给端的好消息被"涨价周期见顶"的定价疲劳对冲。** 公司已就 2026 自然年全部 HBM 供应（含最新 HBM4）敲定量价协议；特朗普 2026-08-27 公开称 Micron 为"世界上最热的公司之一"（原话引用），背景是其十年 **$10B** 美国存储供应链研究实验室投资计划。FQ4 FY26 财报定于 2026-09-30 发布（来源：[Barron's：SK Hynix 与 MU](https://www.barrons.com/articles/micron-stock-sk-hynix-memory-7b243194) · [Yahoo Finance：特朗普表态](https://finance.yahoo.com/markets/stocks/articles/mu-stock-focus-trump-hails-202434730.html) · [Motley Fool：HBM 售罄](https://www.fool.com/investing/2026/08/24/management-delivers-fantastic-news-for-micron-stoc/)）
+**供给端的好消息被"涨价周期见顶"的定价疲劳对冲。** 公司已就 2026 自然年全部 HBM 供应（含最新 HBM4）敲定量价协议；2026-08-26 公司通过 8-K 宣布 Manish Bhatia 升任总裁兼 COO、Scott DeBoer 升任总裁兼首席技术与产品官；特朗普 2026-08-27 公开称 Micron 为"世界上最热的公司之一"（原话引用），背景是其十年 **$10B** 美国存储供应链研究实验室投资计划。FQ4 FY26 财报定于 2026-09-30 发布（来源：[SEC 8-K：高管任命](https://www.sec.gov/Archives/edgar/data/0000723125/000110465926101067/tm2624017d1_8k.htm) · [Barron's：SK Hynix 与 MU](https://www.barrons.com/articles/micron-stock-sk-hynix-memory-7b243194) · [Yahoo Finance：特朗普表态](https://finance.yahoo.com/markets/stocks/articles/mu-stock-focus-trump-hails-202434730.html)）
 
 ## Unity (U)
 
