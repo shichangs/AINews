@@ -37,7 +37,7 @@
 | Unity | U | $43.31 | -7.7% | -1.9% | 📉 | Q3 预计 2026-11（未公告） | 无重大新闻背景下五连跌，回吐 8 月 Vector 行情部分涨幅 |
 | Hims & Hers | HIMS | $29.68 | -12.1% | -8.6% | 📉 | Q3 预计 2026-11（未公告） | Visa 将其列入收单监控计划，多家律所跟进证券调查 |
 
-注：股价 = 报告日上一交易日（2026-08-28）收盘；本周涨跌基准 = 2026-08-21 收盘；YTD 基准 = 2025-12-31 未复权收盘价。※ SPCX 于 2026-06-12 上市，无 2025-12-31 基准，该列为"上市以来"涨跌，基准 = $135（2026-06-12 上市，IPO 发行价）。🔔 = 财报日在报告日（2026-08-29）起 7 天内（含当日）。本期无组合公司触发 🔔。
+注：股价 = 报告日上一交易日（2026-08-28）收盘；本周涨跌基准 = 2026-08-21 收盘；YTD 基准 = 2025-12-31 未复权收盘价。※ SPCX 于 2026-06-12 上市，无 2025-12-31 基准，该列为"上市以来"涨跌，基准 = $135（IPO 发行价，2026-06-12 上市）。🔔 = 财报日在报告日（2026-08-29）起 7 天内（含当日）。本期无组合公司触发 🔔。
 
 ## ⚠️ 本周风险预警
 
@@ -94,9 +94,9 @@
 
 **股价：** $53.66（本周 -12.8%，YTD -7.6%）｜**情绪：** 📉｜**下次财报：** Q3 预计 2026-10（未公告）
 
-**并购期权归零，股价重回独立经营的估值锚。** 据 Bloomberg 报道（Investopedia、Forbes 转引），Stripe 与 Advent International 财团于 2026-08-28 放弃对 PayPal 超 **$53B** 的收购追逐，此前 $60.50/股的要约被 PayPal 视为过低、而财团拒绝加价；当日股价跌 **12.71%** 收 $53.66，为 2026 年 2 月以来最大单日跌幅，全周 -12.8%。Bloomberg 同时称财团不排除以修改后的条款回归，官方未确认。
+**并购期权归零，股价重回独立经营的估值锚。** 据 Bloomberg 于 2026-08-27 晚间报道（Investopedia、Forbes 转引），Stripe 与 Advent International 财团放弃对 PayPal 超 **$53B** 的收购追逐，此前 $60.50/股的要约被 PayPal 视为过低、而财团拒绝加价；2026-08-28 股价跌 **12.71%** 收 $53.66，为 2026 年 2 月以来最大单日跌幅，全周 -12.8%。Bloomberg 同时称财团不排除以修改后的条款回归，官方未确认。
 
-**卖方迅速下修，但当下股价仍隐含部分"要约回归"预期。** Mizuho 与 Loop Capital 于 2026-08-28 下调目标价（Loop 由 $62 至 $50），Keefe 称对交易告吹不感意外；要约公布前的 2026-07-14 收盘价为 $47.37，当下 $53.66 与之相差约 13%。失去并购叙事后，公司需在 Apple Pay、Google 与 Stripe 的竞争中独立证明运营改善（来源：[Investopedia 报道](https://www.investopedia.com/market-update-paypal-stock-tumbles-on-report-of-advent-stripe-dropping-takeover-bid-12071120) · [CNBC：7 月要约](https://www.cnbc.com/2026/07/15/stripe-advent-offer-to-buy-paypal-for-more-than-53-billion-reuters.html) · [Forbes 报道](https://www.forbes.com/sites/fionariley/2026/08/28/paypal-plunges-15-after-reports-that-advent-stripe-abandon-53-billion-bid/)）
+**卖方迅速下修，但 2026-08-28 的收盘价仍隐含部分"要约回归"预期。** Mizuho 与 Loop Capital 于 2026-08-28 下调目标价（Loop 由 $62 至 $50），Keefe 称对交易告吹不感意外；要约公布前的 2026-07-14 收盘价为 $47.37，2026-08-28 收盘的 $53.66 与之相差约 13%。失去并购叙事后，公司需在 Apple Pay、Google 与 Stripe 的竞争中独立证明运营改善（来源：[Investopedia 报道](https://www.investopedia.com/market-update-paypal-stock-tumbles-on-report-of-advent-stripe-dropping-takeover-bid-12071120) · [CNBC：7 月要约](https://www.cnbc.com/2026/07/15/stripe-advent-offer-to-buy-paypal-for-more-than-53-billion-reuters.html) · [Forbes 报道](https://www.forbes.com/sites/fionariley/2026/08/28/paypal-plunges-15-after-reports-that-advent-stripe-abandon-53-billion-bid/)）
 
 ## Nvidia (NVDA)
 
@@ -122,7 +122,7 @@
 
 **监管在美欧两线同时逼近，但都还没有触及广告现金流。** 据 Bloomberg 报道（Reuters 转述，2026-08-27），FTC 就 YouTube 封禁社交媒体账号的政策展开调查；2026-08-28，Google 宣布在欧盟修改针对发布商的搜索排名"垃圾内容"处罚政策，以避免一笔反垄断罚款。两起事件都指向平台治理权，而非搜索与 YouTube 的广告收入本身，股价全周 +0.5% 收 $346.59（2026-08-28 收盘）、08-28 单日 +1.74%。
 
-**业务面用 Waymo 出海与 Gemini 迭代对冲监管噪音。** **Waymo** 于报告周内宣布 2027 年在德国推出无人驾驶服务，将成为其美国以外第三个市场；据 Business Insider（2026-08-27），员工已在内测下一代 Gemini Flash 模型；人才端，Thinking Machines 联合创始人 Barret Zoph 于 08-27 被证实加入 Google。监管与业务的并行状态延续了 8 月中旬以来的横盘结构（来源：[Reuters：FTC 调查 YouTube](https://www.reuters.com/legal/government/us-ftc-probes-youtube-over-social-media-policies-bloomberg-news-reports-2026-08-27/) · [Reuters：欧盟政策让步](https://www.reuters.com/legal/litigation/google-changes-spam-policy-eu-avert-antitrust-fine-2026-08-28/) · [Business Insider：Gemini Flash](https://www.businessinsider.com/google-employees-testing-next-gemini-flash-3-8-model-2026-8)）
+**业务面用 Waymo 出海与 Gemini 迭代对冲监管噪音。** **Waymo** 已宣布 2027 年在德国推出无人驾驶服务，德国将成为其美国以外第三个市场；据 Business Insider（2026-08-27），员工已在内测下一代 Gemini Flash 模型；人才端，Thinking Machines 联合创始人 Barret Zoph 于 08-27 被证实加入 Google。监管与业务的并行状态延续了 8 月中旬以来的横盘结构（来源：[Reuters：FTC 调查 YouTube](https://www.reuters.com/legal/government/us-ftc-probes-youtube-over-social-media-policies-bloomberg-news-reports-2026-08-27/) · [Reuters：欧盟政策让步](https://www.reuters.com/legal/litigation/google-changes-spam-policy-eu-avert-antitrust-fine-2026-08-28/) · [Business Insider：Gemini Flash](https://www.businessinsider.com/google-employees-testing-next-gemini-flash-3-8-model-2026-8)）
 
 ## Micron (MU)
 
@@ -138,7 +138,7 @@
 
 **没有新增催化时，动量股的重力开始起作用。** 报告周内五连跌（2026-08-24 至 08-28 每日收跌），全周 -7.7% 收 $43.31（2026-08-28 收盘）；期间无公司层面重大新闻，跌势属于 8 月上旬 Q2 财报行情（Vector ARR 提前两个季度突破 $1B、多家投行集中上调）后的获利了结，叠加 Warsh 转鹰对高贝塔软件股的贴现率压力。
 
-**基本面锚没有移动。** Q2 营收 **$546.47M**、同比 +24%，调整后 EBITDA 利润率 29%（同比提升约 8 个百分点），自由现金流 $202M，GAAP 盈利目标已提前至 2026 年 Q3；组合内该股 8 月累计涨幅仍居前列，回撤后估值回到 Q2 财报后首个交易日附近（一手来源不可达，转引 T3）（来源：[Yahoo Finance：Vector 动量](https://finance.yahoo.com/markets/stocks/articles/unity-gains-vector-momentum-play-153000773.html) · [Investing.com：历史行情](https://www.investing.com/equities/unity-software-inc-historical-data)）
+**基本面锚没有移动，回撤更像估值层面的均值回归。** Q2 营收 **$546.47M**、同比 +24%，调整后 EBITDA 利润率 29%（同比提升约 8 个百分点），自由现金流 $202M，GAAP 盈利目标已提前至 2026 年 Q3；组合内该股 8 月累计涨幅仍居前列，回撤后估值回到 Q2 财报后首个交易日附近（报告周内无 T1/T2 级新闻，转引 T3）（来源：[Benzinga：Q2 财报](https://www.benzinga.com/trading-ideas/movers/26/08/61011305/unity-software-stock-surges-as-q2-earnings-top-wall-street-estimates) · [Yahoo Finance：Vector 动量](https://finance.yahoo.com/markets/stocks/articles/unity-gains-vector-momentum-play-153000773.html) · [Investing.com：历史行情](https://www.investing.com/equities/unity-software-inc-historical-data)）
 
 ## Hims & Hers Health (HIMS)
 
