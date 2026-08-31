@@ -797,7 +797,7 @@ Prompt injection 被列为 AI agent 的头号威胁。防御方训练的「安�
 
 - **报告生成时间**：2026-08-31
 - **数据截止时间**：2026-08-31（GitHub star 数据与 HF Daily Papers 均为当日实时抓取）
-- **论文 arXiv ID 覆盖范围**：`2608.08676` – `2608.27456`，全部为 2026 年 8 月提交的预印本；本期未收录任何 2607 及更早的论文
+- **论文 arXiv ID 覆盖范围**：本期收录 25 篇，ID 区间 `2608.15875` – `2608.27456`，全部为 2026 年 8 月提交的预印本；本期未收录任何 2607 及更早的论文
 - **论文来源**：Hugging Face Daily Papers API（`/api/daily_papers`，date 参数覆盖 2026-08-24 至 2026-08-31）与 `/api/papers/{id}`，upvote 数与 GitHub star 数为 2026-08-31 快照
 - **模型来源**：Qwen Blog、Z.ai Blog、腾讯官方、Google Blog、Cohere Blog、OpenAI Help Center Model Release Notes、HuggingFace Model Hub、theopenweights.com/trending、llm-stats、TechNode、Bloomberg、MarkTechPost
 - **开源项目来源**：GitHub Trending 周榜（总榜 / Python / TypeScript）+ GitHub REST API 核对总 star
