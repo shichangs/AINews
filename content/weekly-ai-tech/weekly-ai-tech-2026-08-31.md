@@ -607,5 +607,210 @@ Prompt injection 被列为 AI agent 的头号威胁。防御方训练的「安�
 - **UnitreeG1TransportBox-v1 成功率从 19.8% 提升到 96.4%**。
 - MuJoCo Playground 上平均归一化 wall-time AUC **+19.1%**；Unitree G1 上 sim-to-real 部署比 FlashSAC **快 36.4%**。
 
-<!--PART3-->
+---
+
+## 【模块四】开源项目周榜
+
+> 数据抓取时间：2026-08-31。本周增量取自 GitHub Trending 周榜的 "X stars this week" 字段，总 star 数经 GitHub REST API 二次核对。
+
+**本周榜单被 Agent Skills 与插件生态占领，而不是模型本身。** 前十里有六个是给编码 Agent 装能力的技能包或插件市场，说明竞争焦点已从「谁的模型强」转向「谁能把模型接进具体工作流」。
+
+**[tt-a1i/archify](https://github.com/tt-a1i/archify) ⭐ 34,636（本周 +18,103）**
+
+- 给 AI Agent 用的架构图技能包，输出自带动效、可导出的自包含 HTML 架构图 / 流程图 / 时序图 / 数据流图。
+- 上手难度：⭐☆☆ 简单 —— `npx skills add tt-a1i/archify -g`，支持 `--agent cursor` / `--agent codex`
+- 适用场景：技术方案评审、系统设计文档、周报架构示意图。MIT，最后 push 2026-08-30。
+
+**[freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) ⭐ 25,669（本周 +13,413）**
+
+- GPT-Image2 提示词工程库，宣称逆向 530+ 案例、20+ 套工业级模板并沉淀为 Skills。中文项目。
+- 上手难度：⭐☆☆ 简单（纯提示词资产，需自备 GPT-Image2 访问权）
+- 适用场景：电商主图、海报、封面图批量生成。MIT。
+
+**[openai/codex](https://github.com/openai/codex) ⭐ 120,101（本周 +5,510）**
+
+- OpenAI 官方终端编码 Agent，另提供 VS Code / Cursor / Windsurf 插件与桌面端。
+- 上手难度：⭐☆☆ 简单 —— `curl -fsSL https://chatgpt.com/codex/install.sh | sh`（需 ChatGPT 账号）
+- 适用场景：终端内重构、跑测试、批量改代码。Apache-2.0，8/31 当天仍在更新。
+
+**[MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) ⭐ 38,532（本周 +5,348）**
+
+- 基于 Claude Code 的本地求职 Agent 框架：评估岗位、定制简历、写求职信、面试准备。
+- 上手难度：⭐⭐☆ 中等（需已装 Claude Code 并配 API，作者定位是「fork 后自己改」）
+- 适用场景：个人求职流水线，也是「把 Agent 接进个人事务」的模板。MIT。
+
+**[calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) ⭐ 54,647（本周 +4,974）**
+
+- 自称首个开源 Agent 化视频生产系统：12 条生产流水线、100+ 工具、700+ 技能与制作知识文件。
+- 上手难度：⭐⭐⭐ 较难（依赖 FFmpeg + Python venv + Node/Remotion + piper-tts）
+- 适用场景：短视频 / 宣传片 / 口播视频自动化产线。**AGPL-3.0，商用需评估传染性**。
+
+**[K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) ⭐ 39,264（本周 +4,309）**
+
+- 科研向 Agent 技能库：165 个验证过的技能 + 100+ 科学数据库，覆盖生物、化学、医学与药物发现；兼容 Cursor / Claude Code / Codex 的 Agent Skills 标准。
+- 上手难度：⭐⭐☆ 中等（技能即插即用，但用满数据库需各自账号与 API key）
+- 适用场景：文献综述、实验设计、化合物检索、生信分析。MIT。
+
+**[AgriciDaniel/claude-obsidian](https://github.com/AgriciDaniel/claude-obsidian) ⭐ 14,398（本周 +3,156）**
+
+- Obsidian + Claude Code 的自组织第二大脑：投入任意素材，自动阅读、建链接、归档进纯 Markdown 知识图谱。
+- 上手难度：⭐⭐☆ 中等（需已有 Obsidian 库与 Claude Code）
+- 适用场景：个人知识管理、研究笔记自动整理。MIT。**注意其 homepage 指向付费社群，属导流型开源项目**。
+
+**[anthropics/claude-plugins-community](https://github.com/anthropics/claude-plugins-community) ⭐ 2,884（本周 +2,162）**
+
+- Claude Code / Cowork 的社区插件市场（只读镜像）。配套的官方目录 [claude-plugins-official](https://github.com/anthropics/claude-plugins-official) 本周 +1,940（总 35,614）。
+- 上手难度：⭐☆☆ 简单
+- 适用场景：找现成插件、了解官方插件规范。Apache-2.0。
+
+**[apache/maka](https://github.com/apache/maka) ⭐ 4,195（本周 +1,973）**
+
+- Apache Maka（孵化中），本地优先的 AI Agent 工作台；模型消息、工具调用、工具结果、权限决策、终止事件全部记为 append-only 日志。
+- 上手难度：⭐⭐☆ 中等（孵化期项目，文档随版本变动）
+- 适用场景：需要可审计 Agent 行为的企业场景、Agent 可观测性与合规。Apache-2.0，8/31 当天更新。
+
+### ⚠️ 榜上但不建议采用的两个项目
+
+**两个高增速仓库靠「免费 LLM 额度」引流，存在服务条款与凭据安全风险。** [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code)（⭐ 51,945，本周 +4,324）宣称「1.3B+ 免费 token 免费用 Claude Code / Codex」；[tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi)（⭐ 22,787，本周 +3,037）聚合 34 家供应商共 635 个端点，README 自己标注「仅限个人实验」。两者都要求把各家 API key 交给第三方路由层，且规避官方计费的做法大概率违反上游 ToS。数据真实，但不建议在生产或团队环境采用。
+
+---
+
+## 【模块五】行业动态简报
+
+📅 08/26 | [并购] 英伟达据报以 **129 亿美元**收购 Hugging Face。The Information 首报，Business Insider 同日称**尚未签署最终协议、仍可能告吹**，双方均未置评。（[TechCrunch](https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/)）
+
+📅 08/26 | [财报] 英伟达 FY2027 Q2 营收 **962 亿美元，同比 +106%**。数据中心 890 亿（环比 +18%、同比 +117%，占总营收 92.5%），其中超大规模客户 487 亿、ACIE 403 亿。Q3 指引 1080 亿 ±2%。（[NVIDIA 财报稿](https://www.stocktitan.net/news/NVDA/nvidia-announces-financial-results-for-second-quarter-fiscal-98x41cxh35vk.html)）
+
+📅 08/26 | [算力] Anthropic 与英国 Nscale 签下约 **450 亿美元**算力租赁协议，通过英伟达 Vera Rubin 芯片系统供给。（[TechCrunch](https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/)）
+
+📅 08/26 | [芯片] 亚马逊追加 **200 万颗**英伟达 GPU 订单，涵盖 Blackwell Ultra、Rubin、Rubin Ultra，2027 年交付 AWS 数据中心。（[TechCrunch](https://techcrunch.com/2026/08/26/amazon-just-tripled-its-order-of-nvidia-chips-over-surging-demand/)）
+
+📅 08/26 | [模型] 智谱开源 **GLM-5.3-Flash**（320B-A18B，MIT，1M 上下文），揭底其匿名代号 "Ox Alpha"。（[量子位](https://www.qbitai.com/2026/08/479919.html)）｜同日阿里开源 **Qwen3.8-Flash-Next**。
+
+📅 08/26 | [融资] AI 助手创业公司 **Instinct** 完成 2.5 亿美元 B 轮，累计融资 3.5 亿美元，估值 **25 亿美元**。公司成立于 2025 年，创始人 23 岁。（[TechCrunch](https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/)）
+
+📅 08/27 | [安全] OpenAI、Anthropic、Google、微软等 **100 余家**公司联署公开信，呼吁公私部门合作防御 AI 相关网络威胁；联署方含 CrowdStrike、Okta、Fortinet 及多家金融机构。（[TechCrunch](https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/)）
+
+📅 08/27 | [商业化] OpenAI 宣布在**印度**对 ChatGPT 免费版与 Go 档位展示广告。（[TechCrunch](https://techcrunch.com/2026/08/27/openai-to-start-showing-ads-on-chatgpts-free-and-go-tiers-in-india/)）
+
+📅 08/27 | [融资] 国内 **基元律动（TokenRhythm）** 完成新一轮数千万美元融资，弘晖基金领投；同步启动对标 OpenRouter 的多模型 API 平台公测，兼容 OpenAI 与 Claude 协议。（[量子位](https://www.qbitai.com/2026/08/480079.html)）
+
+📅 08/28 | [模型] 腾讯开源 **Hy4 preview**（770B-A49B，Apache 2.0，1M 上下文），同步上线 TokenHub 与 OpenRouter。（[AIbase](https://www.aibase.com/zh/news/30698)）
+
+📅 08/28 | [政策/司法] Anthropic 就五角大楼「供应链风险」标签取得**首个法院胜诉**。（[TechCrunch](https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/)）
+
+📅 08/28 | [反垄断] 英伟达叫停 7 月推出的「信用支持换云营收分成」计划，推出不足两个月即暂停，部分员工担忧触发反垄断审查。（[AIbase 转《华尔街日报》](https://www.aibase.com/zh/news/30684)）
+
+📅 08/28 | [融资] Neocloud 厂商 **Lambda** 募得 **10 亿美元**短期私募债（摩根大通安排），用于采购英伟达芯片并租给微软。（[TechCrunch](https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/)）
+
+📅 08/28 | [标准] Anthropic 发布 **MHS（Model Hardware Standard）** 研究预览——面向硬件的 MCP，源于与霍华德·休斯医学研究所 Janelia 园区的合作，官方称可将硬件集成时间从数周至数月大幅压缩。（[AIbase](https://www.aibase.com/zh/news/30693)）
+
+📅 08/29 | [商业冲突] OpenAI 通知 SpaceX，将于 **11 月 12 日**停止向 **Cursor** 提供模型。起因是 SpaceX 于 8/14 完成对 Cursor 母公司 Anysphere 的 600 亿美元收购。Cursor CEO 称 OpenAI 模型仅占其用户流量约 **5%**。（[CNBC](https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html)）
+
+📅 08/29 | [法务] 索尼音乐版权、华纳 Chappell 等音乐出版商起诉 Anthropic，指控其进行「肆无忌惮的知识产权盗窃运动」。（[TechCrunch](https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/)）
+
+📅 08/31 | [模型] 字节跳动**豆包 2.2 宣布推迟发布**，原因是编程、工具调用与 Agent 能力未达预期。（[AIbase](https://www.aibase.com/zh/news/30702)）
+
+---
+
+## 【模块六】中文社区热点
+
+**话题：英伟达 129 亿美元收购 Hugging Face**
+
+- 为什么热：8/26–8/27 消息扩散，量子位标题直接写「全球最大 AI 开源平台改姓黄」，三小时内被新浪、网易、CNMO 大规模转载。
+- 主要观点分歧：正方认为打通「硬件—模型—部署」是必然演进，收购后两三年内 HF 大概率仍会支持 AMD、Intel、AWS Trainium 等异构后端，「开放」与「中立」应分开看；反方认为 HF 的核心资产恰恰是中立——易主后推荐位是否向 CUDA 倾斜、**国产芯片适配优先级是否下降**，是中文社区最直接的焦虑点，另有观点担忧垂直整合会引来反垄断审查。
+- 代表性内容：[量子位](https://www.qbitai.com/2026/08/480186.html) ｜ [网易「开源生态进入收费站时代」](https://www.163.com/dy/article/L5EGD0HQ0519DG1H.html) ｜ [CNMO「开源 AI 迎来信任考验」](https://ai.cnmo.com/news/817137.html)
+
+**话题：国产开源模型「一周双杀」——GLM-5.3-Flash × 混元 Hy4 preview**
+
+- 为什么热：8/26 智谱揭底「牛来 / Ox Alpha」即 GLM-5.3-Flash，且用国产卡训练、AA 指数 57 持平 Claude Opus 4.8；8/28 腾讯开源 770B / 1M 上下文的 Hy4 preview，官方盲测均分反超 GLM-5.3 与 Kimi K3。讨论焦点从「能不能追上」转向「怎么选」。
+- 主要观点分歧：一是盲测由腾讯内部 163 名专家组织，社区对「自家评自家」的可信度存疑；二是 Hy4 preview 770B 的本地部署门槛 vs GLM-5.3-Flash 320B-A18B 的成本优势之争；三是「国产卡跑通 320B」的实际效率是否被过度叙事。
+- 代表性内容：[知乎「如何评价腾讯混元 Hy4 preview」](https://www.zhihu.com/question/2076674418479257365) ｜ [量子位](https://www.qbitai.com/2026/08/479919.html) ｜ [模型横评](https://notes.kamacoder.com/llm/news/hunyuan-hy4-preview.html)
+
+**话题：OpenAI 断供 Cursor**
+
+- 为什么热：8/29 OpenAI 宣布因 Cursor 被 SpaceX 收购而自 11/12 起停止供模。新浪财经标题即「OpenAI 对马斯克下狠手」，快科技强调「刚花 600 亿收购两周就被断供」。中文社区把它当商战剧看，而非普通 API 政策调整。
+- 主要观点分歧：正方认为合同本就含控制权变更后的有限撤销窗口，OpenAI 属合法行权；反方认为这是把商业竞争转嫁给开发者，动摇「模型即公共基础设施」的预期，Cursor CEO 称 OpenAI 模型仅占 5% 流量被解读为止损话术。
+- 代表性内容：[新浪财经](https://finance.sina.com.cn/roll/2026-08-29/doc-inipyfht3784481.shtml) ｜ [蓝点网（含 11/12 时间线细节）](https://www.landian.news/archives/126500.html) ｜ [LINUX DO 开发者讨论帖](https://linux.do/t/topic/2827496)
+
+**话题：Anthropic 的双重信任危机——Claude 误删 700GB + Claude Code 额度「明升实降」**
+
+- 为什么热：两件事叠在同一周。其一，开发者 Sebastien Guillemot 在测试文件删除防护机制时，Claude 删掉了约 **700GB** 数据（整个用户主目录）；讽刺之处在于安全机制因判定任务高风险已自动降级模型，结果 `/tmp` 被完美保留、主目录被清空（后经 Git、Nix、会话日志恢复大部分）。其二，Anthropic 宣布自 9/14 起永久提升 Claude Code 周额度 25%，但基准是原始基线（100%）而非用户当前的临时额度（150%），**实际缩水 17%**，X 上该推文被加了 Community Note。
+- 主要观点分歧：删库一事，一方认为智能体高危操作缺乏硬隔离是系统性设计缺陷、「降级模型」反而制造虚假安全感；另一方认为在无沙箱环境让 Agent 执行删除逻辑本身就是操作问题。额度一事几乎无争议，社区普遍视为话术。
+- 代表性内容：[IT之家](https://www.ithome.com/0/996/031.htm) ｜ [蓝点网额度分析](https://www.landian.news/archives/126532.html) ｜ 机器之心《Claude 安全机制大翻车》08/30（[文章库入口](https://www.jiqizhixin.com/articles)，该站单篇链接由 JS 绑定、无 href，无法直接引用）
+
+**话题：Claude 训练 Claude——RSI 递归自我改进的现实进度条**
+
+- 为什么热：Anthropic 发表《自动化研究员能够有效缓解 AI 对齐失败》，基于 Claude Opus 4.8 搭建 AAR 自动化对齐研究员系统：自主查论文、提方案、造数据、微调、跑评测，一轮约 30 分钟；在欺骗、谄媚、奖励黑客、隐私侵犯、越狱等 10 类安全问题上全部找到改进方案，部分任务优于 28 名人类安全研究员。**时薪 4 美元 vs 人类 150 美元**——讨论第一次从科幻话题落到成本表上。
+- 主要观点分歧：乐观方引 Anthropic 自曝的 80% 代码已由 Claude 编写、以及 Jack Clark「2028 年底 RSI 发生概率 60%」的判断，认为飞轮已启动；谨慎方指出人类仍负责出题、提供模型与评测标准，「闭环」是被人类框定的闭环，且用 AI 做 AI 对齐研究存在评估者与被评估者同源的问题。
+- 代表性内容：[量子位（2026-08-29）](https://www.qbitai.com/2026/08/481223.html) ｜ [知乎专栏](https://zhuanlan.zhihu.com/p/2047076792234684529)
+
+**话题：OpenClaw 的谢幕——AI Agent 产品保质期开始按「月」算**
+
+- 为什么热：X 上对 OpenClaw 的「集体悼念」被量子位 8/29 成文。几个月前还是全民养龙虾、抢 Mac mini、付费上门部署的现象级产品，如今讨论热度已被 Claude Code、Codex、Skills 与 Harness 全面接管。
+- 主要观点分歧：一派认为 OpenClaw 只是形态早了半步，其「常驻本机的自主智能体」理念已被 Claude Code / Harness 类产品吸收，属被继承而非失败；另一派认为这暴露了独立 Agent 产品的根本困境——**一旦模型厂商自己下场做 Harness 层，第三方壳的生存窗口极短**。
+- 代表性内容：[量子位（2026-08-29）](https://www.qbitai.com/2026/08/480855.html)
+
+---
+
+## 【模块七】本周实用工具推荐
+
+**Wispr Flow**（https://wisprflow.ai）
+
+- 解决什么问题：在任何 App 里用说话代替打字（100+ 语言），并把会议与语音备忘录转成可检索笔记；笔记可通过 MCP 直接喂给 Claude、ChatGPT。
+- 如何快速上手：① 从官网下载客户端（Mac / Windows / iOS / Android），无需信用卡；② 授予麦克风与辅助功能权限后，在任意输入框按快捷键口述。
+- 适合：两者皆可（开发者可额外用 MCP 接口）
+- 费用：Free 档 **$0/月**（含跨 App 语音输入、Mac 版会议记录、MCP 接入）；Pro **$15/用户/月**（月付）或 **$12/用户/月**（年付）；Growth/Enterprise 起 **$23/用户/月**，含 SAML SSO 与审计日志。
+
+**Kilo Code**（https://kilocode.ai）
+
+- 解决什么问题：编辑器内的 Agent 化编码、补全与生成，**不锁定模型供应商**——可跑免费模型、本地模型、自带 key（BYOK），或走 Kilo Gateway 按量计费。
+- 如何快速上手：① VS Code 扩展市场搜 "Kilo Code" 安装（JetBrains 与 CLI 同名）；② 设置里选 Auto Free 直接用免费模型，或填入自己的 Anthropic / OpenAI / Google / Bedrock key，或指向本地 Ollama / LM Studio。
+- 适合：开发者
+- 费用：个人版**免费且开源**，平台层 $0，推理费用单独计（可为 $0）；Teams **$15/用户/月**，提供 14 天 Enterprise 试用；Enterprise 定制报价。
+- 注：其定价页顶部横幅显示 **Kilo 已被 Anaconda 收购**，收购细节建议以一手公告为准。
+
+**oMLX**（https://github.com/jundot/omlx ⭐ 21,060，本周 +607）
+
+- 解决什么问题：Apple Silicon 上的本地 LLM 推理服务，支持连续批处理与分层 KV 缓存（内存 + SSD），跨请求持久化 KV cache；常用模型常驻内存、重模型按需换入。
+- 如何快速上手：① `brew install jundot/omlx/omlx`；② `omlx serve`（零配置，默认 `~/.omlx/models`、端口 8000）。需要 MCP 时加 `pip install mcp`。
+- 适合：开发者（Apple Silicon 专属，Python 3.11–3.13）
+- 费用：**完全免费**，Apache-2.0。
+
+**Open Notebook**（https://github.com/lfnovo/open-notebook ⭐ 37,957，本周 +565）
+
+- 解决什么问题：隐私优先的 Google NotebookLM 开源替代，把自有资料变成可问答的知识库，且可自由换模型。
+- 如何快速上手：① `curl -o docker-compose.yml https://raw.githubusercontent.com/lfnovo/open-notebook/main/docker-compose.yml`；② `docker compose up -d`。想零 API 成本就用仓库里的 `examples/docker-compose-ollama.yml` 配 Ollama。
+- 适合：开发者 / 有 Docker 基础的进阶用户
+- 费用：**免费开源**（MIT）；走 Ollama 本地模型可做到 **$0**，走商用 API 按各家计费。
+
+**Pipecat**（https://github.com/pipecat-ai/pipecat ⭐ 14,982，本周 +470）
+
+- 解决什么问题：用 Python 搭实时语音对话 Agent，支持多 Agent 交接、并行扇出、共享总线协调，可本地跑也可跨进程/跨机分布式。
+- 如何快速上手：① `pip install pipecat-ai`；② `pipecat init quickstart` 直接跑起一个语音 Agent。
+- 适合：开发者
+- 费用：**免费开源**（BSD-2-Clause）；STT / TTS / LLM 服务商需另行付费。
+
+---
+
+## 【数据源与生成说明】
+
+- **报告生成时间**：2026-08-31
+- **数据截止时间**：2026-08-31（GitHub star 数据与 HF Daily Papers 均为当日实时抓取）
+- **论文 arXiv ID 覆盖范围**：`2608.08676` – `2608.27456`，全部为 2026 年 8 月提交的预印本；本期未收录任何 2607 及更早的论文
+- **论文来源**：Hugging Face Daily Papers API（`/api/daily_papers`，date 参数覆盖 2026-08-24 至 2026-08-31）与 `/api/papers/{id}`，upvote 数与 GitHub star 数为 2026-08-31 快照
+- **模型来源**：Qwen Blog、Z.ai Blog、腾讯官方、Google Blog、Cohere Blog、OpenAI Help Center Model Release Notes、HuggingFace Model Hub、theopenweights.com/trending、llm-stats、TechNode、Bloomberg、MarkTechPost
+- **开源项目来源**：GitHub Trending 周榜（总榜 / Python / TypeScript）+ GitHub REST API 核对总 star
+- **行业与社区来源**：TechCrunch、CNBC、VentureBeat、StockTitan、量子位、机器之心、AIbase、IT之家、蓝点网、知乎、LINUX DO
+
+### 数据可靠性标注（重要）
+
+1. **除 Artificial Analysis 智能指数、WER、ParseBench 公开榜外，模块二的全部 benchmark 数字均为厂商自报**，且各家 harness 设置不同（GLM-5.3-Flash 的模型卡为每项 benchmark 单独规定了温度、上下文上限与裁判模型）。跨模型对比对设置极度敏感。
+2. **Qwen3.8-Flash-Next 的 QSA 加速倍数存在两套数字**（官方 X 帖 7.6×/4.9× vs SGLang & vLLM 文档 10.2×/6.6×），均未经独立复现。
+3. **腾讯 Hy4 preview 的 2.99/4 是内部盲评**，非公开 benchmark；「帮助优化自身训练系统、吞吐 +31.8%」同为自证数据。
+4. **Cohere ParseBench 79.2 是五维基准中三维的子集平均**，不是完整榜单排名——这是本期素材里最容易被误引的数字。
+5. **英伟达收购 Hugging Face 尚未官宣**，Business Insider 明确指出交易未签署最终协议、仍可能作废。
+6. **模块三中标注「摘要未给绝对数字」的论文**（Apodex 1.1、Self-OPD、GigaBrain-0.7、StreamPI、Evolution Strategies），其量化结果需以论文正文表格为准，本报告不做估算。
+7. **未能覆盖的来源**：即刻与小红书（需登录，无公开可读列表）；Product Hunt 2026 年 8 月月度榜（Cloudflare 拦截）；机器之心单篇文章链接（由 JS 事件绑定、无 href 属性，仅能给出文章库入口与标题日期，相关事实已用 IT之家、CNBC 等可定位来源交叉验证）。
+
 
