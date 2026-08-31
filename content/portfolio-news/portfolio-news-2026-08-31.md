@@ -127,7 +127,7 @@
 
 **股价：** $346.59（本周 +0.5%，YTD +10.7%）｜**情绪：** ➡️｜**下次财报：** Q3 预计 2026-10（未公告）
 
-**Alphabet 在报告周内做了一件被低估的事：把 Gemini 卖进了律师事务所。** Google Cloud 于 2026-08-25 发布 **Gemini Enterprise for Legal**（当前为预览版），首批客户包括 Weil、Cleary Gottlieb、Freshfields 与 Williams & Connolly 四家国际律所，同日另发布面向金融服务业的对应产品。法律是典型的高单价、高留存、对准确率极度敏感的垂直场景，拿下头部律所的意义不在于当期收入，而在于为企业级 Gemini 建立可对外引用的合规参照。
+**Alphabet 在报告周内做了一件被低估的事：把 Gemini 卖进了律师事务所。** Google Cloud 于 2026-08-25 发布 **Gemini Enterprise for Legal**（该产品处于预览版），首批客户包括 Weil、Cleary Gottlieb、Freshfields 与 Williams & Connolly 四家国际律所，同日另发布面向金融服务业的对应产品。法律是典型的高单价、高留存、对准确率极度敏感的垂直场景，拿下头部律所的意义不在于当期收入，而在于为企业级 Gemini 建立可对外引用的合规参照。
 
 **监管侧维持"欧盟以让步换空间、美国持续收紧"的分化格局。** 欧洲方向，公司于 2026-08-28 宣布自 08-30 起在欧洲经济区停止执行站点声誉滥用政策项下的人工处罚，以满足欧盟委员会依《数字市场法》(DMA) 提出的整改要求，规避的是全球营业额 10% 上限的罚则敞口。美国方向，据 Bloomberg 于 2026-08-27 报道，联邦贸易委员会就 YouTube 封停用户账号是否违反消费者保护法的调查已进入准备诉讼的后期阶段，起诉时点未定（来源：[Reuters 报道](https://www.reuters.com/business/google-expands-gemini-ai-platform-law-firms-lawyers-2026-08-25/) · [Google Cloud 官方博客](https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-for-legal) · [Bloomberg：FTC 调查 YouTube](https://www.bloomberg.com/news/articles/2026-08-27/us-ftc-probing-youtube-over-social-media-policies)）
 
@@ -137,7 +137,7 @@
 
 **在存储周期最热的时点重构指挥系统，说明管理层认为瓶颈已从需求转到执行。** 公司 2026-08-26 宣布设立双总裁架构：**Manish Bhatia** 任总裁兼首席运营官，对全球运营与经营损益负责，涵盖资本投资、制造执行、客户需求与定价交付；**Scott DeBoer** 任总裁兼首席技术与产品官，主管存储路线图与 Micron Research Labs，其在职期间已主导 15 个技术节点的开发；原首席商务官 Sumit Sadana 转任 CEO 高级顾问。同日公司发布定档新闻稿，确认 FQ4 FY26（对应自然季度约 2026-06 至 2026-09 初）财报电话会定于 **2026-09-30** 美国山地时间 14:30。
 
-**现货涨价正在超过 Micron 长约结构所能捕获的幅度，这是本轮周期里第一次出现"涨价利空"的结构。** 据 DigiTimes 汇总，SK 海力士将 DRAM 合约价环比上调约 **30%**、三星上调逾 **40%**，且 SK 海力士已取消长约（LTA）价格上限；Micron 则同时保留上限与下限，16 份长约覆盖约 20% 的 DRAM 销售额，意味着在极端上行周期中其平均售价弹性小于同业。股价 YTD **+226.9%** 为组合内最高，报告周内跌 -3.5%，主因是 Netlist 于 2026-08-12 就 DDR5 RDIMM/MRDIMM 向 ITC 提起的排除令诉求持续发酵，以及 Mizuho 于 2026-08-25 将目标价从 $1,375 下调至 $1,300（维持跑赢）。需说明的是，多家聚合站给出的 MU 目标价相差近四倍，疑为拆股基准混用，本报告不引用共识目标价（来源：[GlobeNewswire：Micron 领导层公告](https://www.globenewswire.com/news-release/2026/08/26/3351270/14450/en/micron-announces-leadership-appointments-to-accelerate-innovation-and-growth.html) · [GlobeNewswire：财报定档](https://www.globenewswire.com/news-release/2026/08/26/3351673/14450/en/micron-technology-to-report-fiscal-fourth-quarter-results-on-september-30-2026.html) · [DigiTimes：DRAM 定价](https://www.digitimes.com/news/a20260805PD224/dram-samsung-micron-price-sk-hynix.html)）
+**现货涨价正在超过 Micron 长约结构所能捕获的幅度，这是本轮周期里第一次出现"涨价利空"的结构。** 据 DigiTimes 汇总，SK 海力士将 DRAM 合约价环比上调约 **30%**、三星上调逾 40%，且 SK 海力士已取消长约（LTA）价格上限；Micron 则同时保留上限与下限，16 份长约覆盖约 20% 的 DRAM 销售额，意味着在极端上行周期中其平均售价弹性小于同业。股价 YTD +226.9% 为组合内最高，报告周内跌 -3.5%，主因是 Netlist 于 2026-08-12 就 DDR5 RDIMM/MRDIMM 向 ITC 提起的排除令诉求持续发酵，以及 Mizuho 于 2026-08-25 将目标价从 $1,375 下调至 $1,300（维持跑赢）。需说明的是，多家聚合站给出的 MU 目标价相差近四倍，疑为拆股基准混用，本报告不引用共识目标价（来源：[GlobeNewswire：Micron 领导层公告](https://www.globenewswire.com/news-release/2026/08/26/3351270/14450/en/micron-announces-leadership-appointments-to-accelerate-innovation-and-growth.html) · [GlobeNewswire：财报定档](https://www.globenewswire.com/news-release/2026/08/26/3351673/14450/en/micron-technology-to-report-fiscal-fourth-quarter-results-on-september-30-2026.html) · [DigiTimes：DRAM 定价](https://www.digitimes.com/news/a20260805PD224/dram-samsung-micron-price-sk-hynix.html)）
 
 ## Unity Software (U)
 
