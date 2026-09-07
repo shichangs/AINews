@@ -78,15 +78,15 @@
 
 **唯一的公司级实证来自中东，且已经进入生产状态。** 公司于 **2026-08-31** 发布新闻稿，宣布与 Cisco 及沙特本土伙伴 HUMAIN 共建的 AI 基础设施正式投产，算力由 **Instinct MI355X** GPU 搭配 EPYC CPU 与 Cisco Silicon One 网络提供，用于大模型训练与推理。这是"主权 AI"订单从签约转为交付的第一批可核验样本，重要性高于任何一次目标价调整。
 
-**三份吉瓦级合同的交付曲线，决定 2026 下半年到 2027 上半年的收入斜率。** 其一，OpenAI 的 6 吉瓦框架下首个 1 吉瓦 **MI450** 部署自 2026 下半年启动；其二，Meta 于 2026-02-24 签署的 6 吉瓦扩展协议总价值最高 **$60B**，首个吉瓦的出货同样排在 2026 下半年，采用为 Meta 工作负载定制的 MI450 架构芯片，并附带 1.6 亿股、行权价 1 美分的业绩挂钩认股权证；其三，Anthropic 的最高 2 吉瓦协议首个吉瓦排在 2027 上半年。**Helios** 整机架已进入满产，出货自第三季度末开始。
+**三份吉瓦级合同的交付曲线，决定 2026 下半年到 2027 上半年的收入斜率。** 其一，OpenAI 的 6 吉瓦框架下首个 1 吉瓦 **MI450** 部署自 2026 下半年启动；其二，Meta 于 2026-02-24 签署的 6 吉瓦扩展协议总价值最高 **$60B**，首个吉瓦出货同样排在 2026 下半年，芯片为 Meta 工作负载定制，并附带 1.6 亿股、行权价 1 美分的业绩挂钩认股权证；其三，Anthropic 的最高 2 吉瓦协议首个吉瓦排在 2027 上半年。
 
-**估值的脆弱点仍是时间差而非订单质量。** YTD **+123.0%** 已提前贴现了上述三份合同，而其中两份的收入确认要到 2026 年末与 2027 年才开始；期间任何良率、供电或机架交付延迟都会直接压缩预期与现金流之间的空档。卖方共识目标价 **$613.84**（54 位分析师），较 09-04 收盘约 28.5% 空间，较上期报告的 32% 收窄，反映的是股价上行而非目标价上调（来源：[AMD Newsroom：沙特 HUMAIN 项目投产](https://www.globenewswire.com/news-release/2026/08/31/3353190/0/en/amd-cisco-and-humain-expand-saudi-arabia-s-ai-infrastructure-as-amd-instinct-systems-go-live.html) · [AMD IR：Meta 6GW 扩展协议](https://ir.amd.com/news-events/press-releases/detail/1279/amd-and-meta-announce-expanded-strategic-partnership-to-deploy-6-gigawatts-of-amd-gpus) · [Stockanalysis.com 行情与共识](https://stockanalysis.com/stocks/amd/)）
+**估值的脆弱点仍是时间差而非订单质量，而机构资金已经开始按这个逻辑调仓。** YTD **+123.0%** 已提前贴现上述三份合同，其中两份的收入确认要到 2026 年末与 2027 年才开始；**Helios** 整机架虽已满产、出货自第三季度末启动，但任何良率、供电或机架交付延迟都会压缩预期与现金流之间的空档。据 Invezz 于 09-04 报道，ARK Invest 当日减持约 **$7,280 万** AMD 并加仓 Nvidia——同一天 AMD 逆势涨 4.69%，机构流向与价格出现背离。卖方共识目标价 **$613.84**（54 位分析师），较 09-04 收盘约 28.5% 空间，较上期报告的 32% 收窄，反映的是股价上行而非目标价上调（来源：[AMD Newsroom：沙特 HUMAIN 项目投产](https://www.globenewswire.com/news-release/2026/08/31/3353190/0/en/amd-cisco-and-humain-expand-saudi-arabia-s-ai-infrastructure-as-amd-instinct-systems-go-live.html) · [AMD IR：Meta 6GW 扩展协议](https://ir.amd.com/news-events/press-releases/detail/1279/amd-and-meta-announce-expanded-strategic-partnership-to-deploy-6-gigawatts-of-amd-gpus) · [Stockanalysis.com 行情与共识](https://stockanalysis.com/stocks/amd/)）
 
 ## ⭐ SpaceX (SPCX) — 重点关注
 
 **股价：** $147.95（本周 +4.6%，上市以来 +9.6%）｜**情绪：** 📈｜**下次财报：** Q3 预计 2026-11（未公告）
 
-**SpaceX 的估值锚正在从发射业务迁移到算力业务，这是本期最值得记录的结构变化。** 股价 09-03 单日涨约 6.4%，市值时隔近两个月重回 **$2T** 上方，全周涨 **+4.6%** 收 **$147.95**。驱动因素不是发射节奏，而是两份 AI 业务上修：Oppenheimer 将目标价由 $250 上调至 **$280** 并维持跑赢评级，理由是算力使用量与单位经济性好于预期；Bernstein 分析师 Douglas Harned 预计公司 AI 收入将从 2026 年的 **$24.6B** 增至 2027 年的 **$115.1B**，届时 AI 将成为其最大分部。
+**SpaceX 的估值锚正在从发射业务迁移到算力业务，这是本期最值得记录的结构变化。** 股价 09-03 单日涨约 6.4%，市值时隔近两个月重回 **$2T** 上方，全周涨 **+4.6%** 收 **$147.95**。驱动因素不是发射节奏，而是两份 AI 业务上修：据 TheFly 报道，Oppenheimer 将目标价由 $250 上调至 **$280** 并维持跑赢评级，理由是算力使用量与单位经济性好于预期；据同源报道，Bernstein 分析师 Douglas Harned 预计公司 AI 收入将从 2026 年的 **$24.6B** 增至 2027 年的 **$115.1B**，届时 AI 将成为其最大分部。
 
 **这套预测的可信度取决于电力而非火箭，而电力是目前唯一无法靠垂直整合解决的瓶颈。** 管理层在 Q2 财报中给出的目标是 2027 年底前部署 **15–20 吉瓦** 算力，对应的季度资本开支已达 **$18.4B**。CEO 关于自制电力涡轮部件的表态在 2026-09-01 前后压低了叶片与导叶制造商的股价，说明市场相信这家公司会为解决供电问题而向上游扩张——但也意味着资本开支的顶部尚未出现。
 
