@@ -118,7 +118,7 @@
 
 **股价：** $230.36（本周 +5.9%，YTD +23.6%）｜**情绪：** 📈｜**下次财报：** Q3 FY27 预计 2026-11（未公告）
 
-**Nvidia 花约 129 亿美元买下的是开发者的默认入口，这是防守而非扩张。** 公司于 **2026-09-03** 宣布收购 **Hugging Face**，对价约 **$12.9B**，据 CNBC 报道为其史上第二大收购，预计 2027 年上半年完成交割，尚需监管批准。该平台聚集超过 **1,800 万** 开发者与逾 300 万个模型。CEO 黄仁勋在官方博客中承诺继续支持开源与开放权重模型。分析普遍认为，此举的核心是把 CUDA 生态的护城河从硬件层前移到模型分发层。
+**Nvidia 花约 129 亿美元买下的是开发者的默认入口，这是防守而非扩张。** 公司于 2026-09-03 宣布收购 **Hugging Face**，对价约 **$12.9B**，据 CNBC 报道为其史上第二大收购，预计 2027 年上半年完成交割，尚需监管批准。该平台聚集超过 1,800 万开发者与逾 300 万个模型。CEO 黄仁勋在官方博客中承诺继续支持开源与开放权重模型。分析普遍认为，此举的核心是把 CUDA 生态的护城河从硬件层前移到模型分发层。
 
 **资本运作正在成为 Nvidia 除芯片之外的第二条护城河。** 截至 2026-07-26，公司股权投资组合规模达 **$99B**，较一年前约 $7B 增长十四倍，覆盖前沿实验室、云厂商与基础设施企业；据 Bloomberg 报道，公司还在洽谈向 AI 云企业 Nscale 投资最高 **$2B**，后者正筹备 IPO。股价报告周涨 **+5.9%** 收 **$230.36**，距 52 周高点 $236.54 仅约 2.7%。风险点在于监管：NYTimes 于 09-06 报道称，被列入制裁名单的中国企业浪潮通过子公司持续获取其高端芯片（来源：[NVIDIA 官方博客](https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/) · [SEC EDGAR：NVDA 8-K](https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000078/nvda-20260902.htm) · [CNBC：$99B 股权投资组合](https://www.cnbc.com/2026/09/04/nvidia-ai-investments-99-billion.html)）
 
@@ -126,7 +126,7 @@
 
 **股价：** $174.33（本周 -6.4%，YTD -1.9%）｜**情绪：** 📉｜**下次财报：** Q3 预计 2026-11（未公告）
 
-**Palantir 的多空分歧第一次完整地表现为估值分歧，而不是订单分歧。** 股价 09-02 单日跌 **5.81%**，为 2026-02 以来最差单日之一；09-03 因 **PwC** 宣布扩大战略联盟单日涨 **7.71%** 至 $182.53；09-04 又回吐 **4.49%** 收 **$174.33**。三天内的反向摆动幅度合计接近 18 个百分点，而期间公司未调整任何财务指引。全周累计 **-6.4%**，YTD 转为 **-1.9%**。
+**Palantir 的多空分歧第一次完整地表现为估值分歧，而不是订单分歧。** 股价 09-02 单日跌 5.81%，为 2026-02 以来最差单日之一；09-03 因 **PwC** 宣布扩大战略联盟单日涨 7.71% 至 $182.53；09-04 又回吐 4.49% 收 **$174.33**。三天内的反向摆动幅度合计接近 18 个百分点，而期间公司未调整任何财务指引。全周累计 **-6.4%**，YTD 转为 -1.9%。
 
 **空头论据的公开化，是这轮回撤区别于以往的地方。** Michael Burry 于 2026-09-03 前后公开将 Palantir 定性为"骑在 AI FOMO 泡沫之上"，并预判市值将跌破 $1,000 亿；对手方论据则是 PwC 联盟扩容所代表的企业级落地通道——四大会计师事务所的实施能力，恰好补上 Palantir 长期被诟病的交付瓶颈。此外，伦敦市长 Sadiq Khan 于 09-03 同意在与 Palantir 相关的法律纠纷中交出个人短信与邮件，构成英国公共部门合同的次级风险（来源：[PRNewswire：PwC 与 Palantir 扩大联盟](https://www.prnewswire.com/news-releases/pwc-and-palantir-expand-strategic-alliance-to-help-organizations-scale-enterprise-ai-302868284.html) · [The Guardian 报道](https://www.theguardian.com/politics/2026/sep/03/sadiq-khan-agrees-have-texts-emails-searched-palantir-legal-battle) · [MarketWatch 报道](https://www.marketwatch.com/story/why-palantirs-stock-is-suffering-its-worst-slump-since-february-7fb3b289)）
 
