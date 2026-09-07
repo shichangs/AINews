@@ -154,15 +154,15 @@
 
 **Amazon 是 Magnificent 7 中唯一在 AI 情绪回暖周里下跌的成员，原因不在 AWS 而在节奏。** 股价 08-28 单日涨 3.97% 至 $266.43 后，08-31 回落 2.50%、09-01 再跌 1.87%，报告周累计 **-3.0%** 收 **$258.51**，YTD 仍有 **+12.0%**。分部层面的正面证据来自卖方：据 Barron's 于 2026-09-03 报道，Jefferies 将 Amazon 列入其 **$26 万亿** AI 市场的受益名单，逻辑是 **AWS** 分部在 Project Rainier 产能投放后重回加速。此处 AWS 为分部口径，与合并营收不可混用。
 
-**自动驾驶与物流两条线在同一周给出了方向相反的信号。** 正面一侧，旗下 **Zoox** 于 2026-09-03 将 robotaxi 服务扩展至拉斯维加斯 Harry Reid 国际机场——机场是自动驾驶商业化中审批门槛最高的场景之一，落地本身即是监管信任的体现。负面一侧，据 Reuters 报道，一架 Prime Air 的波音 767 货机于 2026-09-06 在迈阿密国际机场冲出跑道并撞及地面车辆。该事件发生在报告周最后一天，尚不足以判断对物流成本与保险费率的实际影响（来源：[Reuters：Prime Air 货机冲出跑道](https://www.reuters.com/business/aerospace-defense/amazon-prime-air-boeing-767-overruns-runway-miami-airport-2026-09-06/) · [TechCrunch：Zoox 进驻拉斯维加斯机场](https://techcrunch.com/2026/09/03/amazons-zoox-expands-its-robotaxi-service-to-las-vegas-airport/) · [Yahoo Finance：Wells Fargo 上调评级](https://finance.yahoo.com/news/amazon-amzn-stock-upgraded-overweight-224237792.html)）
+**自动驾驶与物流两条线在同一周给出了方向相反的信号。** 正面一侧，旗下 **Zoox** 于 2026-09-03 将 robotaxi 服务扩展至拉斯维加斯 Harry Reid 国际机场——机场是自动驾驶商业化中审批门槛最高的场景之一，落地本身即是监管信任的体现。负面一侧，据 Reuters 报道，一架 Prime Air 的波音 767 货机于 2026-09-06 在迈阿密国际机场冲出跑道并撞及地面车辆。该事件发生在报告周最后一天，尚不足以判断对物流成本与保险费率的实际影响（来源：[Reuters：Prime Air 货机冲出跑道](https://www.reuters.com/business/aerospace-defense/amazon-prime-air-boeing-767-overruns-runway-miami-airport-2026-09-06/) · [TechCrunch：Zoox 进驻拉斯维加斯机场](https://techcrunch.com/2026/09/03/amazons-zoox-expands-its-robotaxi-service-to-las-vegas-airport/) · [Barron's：AI 受益名单](https://www.barrons.com/articles/microsoft-stock-amazon-google-ai-c1f27f95)）
 
 ## Micron (MU)
 
 **股价：** $1,016.59（本周 +9.0%，YTD +256.2%）｜**情绪：** 📈｜**下次财报：** 2026-09-30（已官宣）
 
-**Micron 首次收在四位数上方，而推动它的是合约价而非情绪。** 股价 09-04 单日涨 **6.10%**、单日增 $58.43，收 **$1,016.59**，报告周累计 **+9.0%**，YTD 达 **+256.2%**——为组合内最高。同日 SanDisk 涨 11.9%、SK 海力士涨 8.1%，存储板块整体走强。基本面依据是 DRAM 与 NAND 合约价涨幅超过 50%，以及公司据报正在扩大利润率更高的产品线产能。这类价格信号会在下一份财报中直接体现为毛利率，与叙事驱动的上涨性质不同。
+**Micron 重新收复四位数，而推动它的是合约价而非情绪。** 股价 09-04 单日涨 **6.10%**、单日增 $58.43，收 **$1,016.59**，报告周累计 **+9.0%**，YTD 达 **+256.2%**——为组合内最高。此前该股已于 2026-08-18 收在 $1,011.75，本次是回撤后的再度站上 $1,000。同日 SanDisk 涨 11.9%、SK 海力士涨 8.1%，存储板块整体走强。基本面依据是 DRAM 与 NAND 合约价涨幅超过 50%，以及公司据报正在扩大利润率更高的产品线产能。这类价格信号会在下一份财报中直接体现为毛利率，与叙事驱动的上涨性质不同。
 
-**报告周内的三条负面信息，划出了这轮周期的三个边界。** 一是竞争边界：09-03 数据显示中国长鑫存储（CXMT）在全球 DRAM 的份额较此前翻倍有余，当日股价承压；二是供给边界：09-01 台湾工会就年终奖金威胁罢工，股价当日跌 3%；三是需求边界，也是最远的一条——最大买方 Nvidia 的存储采购预算仅锁定至 2030 年，卖方据此提示 2028 年末可能出现景气顶部。公司已于 2026-08-26 官宣 FQ4 FY26（对应自然月 2026-06 至 2026-08）财报定于 **2026-09-30**，届时才是验证合约价传导的时点（来源：[Investopedia：存储与 AI 股领涨](https://www.investopedia.com/market-update-memory-other-ai-related-stocks-lead-the-markets-top-performers-friday-12108315) · [MarketWatch：Micron 加码 AI 存储产能](https://www.marketwatch.com/story/micron-is-doubling-down-on-ai-memory-chips-that-could-pay-off-big-time-for-investors-da9e7f5e) · [Barron's：中国厂商份额变化](https://www.barrons.com/articles/micron-stock-china-memory-chip-493ec42b)）
+**报告周内的三条负面信息，划出了这轮周期的三个边界。** 一是竞争边界：09-03 数据显示中国长鑫存储（CXMT）在全球 DRAM 的份额较此前翻倍有余，当日股价承压；二是供给边界：据 Invezz 报道，09-01 台湾工会就年终奖金威胁罢工，股价当日跌约 3%；三是需求边界，也是最远的一条——最大买方 Nvidia 的存储采购预算仅锁定至 2030 年，卖方据此提示 2028 年末可能出现景气顶部。公司已确认 FQ4 FY26（对应自然月 2026-06 至 2026-08）财报定于 **2026-09-30**，届时才是验证合约价传导的时点（来源：[Investopedia：存储与 AI 股领涨](https://www.investopedia.com/market-update-memory-other-ai-related-stocks-lead-the-markets-top-performers-friday-12108315) · [MarketWatch：Micron 加码 AI 存储产能](https://www.marketwatch.com/story/micron-is-doubling-down-on-ai-memory-chips-that-could-pay-off-big-time-for-investors-da9e7f5e) · [Barron's：中国厂商份额变化](https://www.barrons.com/articles/micron-stock-china-memory-chip-493ec42b)）
 
 ## PayPal (PYPL)
 
@@ -170,7 +170,7 @@
 
 **要约失败之后，PayPal 的每一步都在证明它必须自己完成转型。** 股价报告周涨 **+2.4%** 收 **$54.96**，从 08-28 要约破裂后的低位小幅修复，YTD 为 **-5.9%**。执行层面的动作有两项：据 Reuters 于 2026-09-03 报道，公司在印度裁撤约 **220** 个岗位，属年内既定的多年期重组计划的一部分；据 Axios Pro 与 Seeking Alpha 于 09-04 报道，公司暂停出售规模约 **$1B** 的创投组合，原因是报价最高仅为账面价值的 **60%**。
 
-**创投组合流拍是一个比裁员更值得注意的信号。** 它说明公司在非核心资产变现上的议价能力弱于预期，短期内难以通过出售资产为重组提供弹药。市场情绪的另一面来自并购传闻——TheFly 于 09-03 引述 Betaville 博客称公司收到新的收购接洽，官方未确认，此类单一匿名来源不构成可靠依据。卖方共识目标价 **$57.07**（43 位分析师，评级中性），较 09-04 收盘仅约 3.8% 空间，是组合内最窄（来源：[Reuters：印度裁员 220 人](https://www.reuters.com/world/india/paypal-cuts-220-india-jobs-part-previously-announced-restructuring-plan-source-2026-09-03/) · [PYMNTS：暂停出售创投组合](https://www.pymnts.com/news/investment-tracker/2026/paypal-pauses-venture-capital-portfolio-sale-after-lowball-offers/) · [Stockanalysis.com 行情与共识](https://stockanalysis.com/stocks/pypl/)）
+**创投组合流拍是一个比裁员更值得注意的信号。** 它说明公司在非核心资产变现上的议价能力弱于预期，短期内难以通过出售资产为重组提供弹药。卖方分歧同步扩大：据 TheFly 报道，08-31 至 09-01 之间 RBC 将目标价由 $65 上调至 **$70** 并维持跑赢，Truist 由 $62 下调至 **$53**、Clear Street 由 $61 下调至 **$55**，两者均维持中性。并购传闻方面，TheFly 于 09-03 引述 Betaville 博客称公司收到新的收购接洽，官方未确认，此类单一匿名来源不构成可靠依据。卖方共识目标价 **$57.07**（43 位分析师，评级中性），较 09-04 收盘仅约 3.8% 空间，为组合内最窄（来源：[Reuters：印度裁员 220 人](https://www.reuters.com/world/india/paypal-cuts-220-india-jobs-part-previously-announced-restructuring-plan-source-2026-09-03/) · [PYMNTS：暂停出售创投组合](https://www.pymnts.com/news/investment-tracker/2026/paypal-pauses-venture-capital-portfolio-sale-after-lowball-offers/) · [Stockanalysis.com 行情与共识](https://stockanalysis.com/stocks/pypl/)）
 
 ## Unity Software (U)
 
