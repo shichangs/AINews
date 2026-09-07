@@ -142,15 +142,17 @@
 
 **股价：** $616.77（本周 +6.7%，YTD -9.7%）｜**情绪：** 📈｜**下次财报：** Q3 预计 2026-10（未公告）
 
-**和解把一个不可量化的诉讼风险换成了一个可量化的现金支出，这是 Meta 报告周内领涨的根本原因。** 公司于 2026-08-26 与各州总检察长达成青少年安全和解，十年内最高支付 **$17B**：参与州确定可得约 70%（约 **$12.7B**），剩余 30%（约 **$5.3B**）以 YouTube 与 TikTok 采取同等保护措施并对等付款为前提。作为条件，公司须引入独立审计方、为青少年设置每日使用时长上限与"夜间锁定"，并接受禁止就安全功能作虚假陈述的禁令。Morgan Stanley 于 09-02 指出，此类大额诉讼了结之后企业通常会加速产品发布。
+**和解把一个不可量化的诉讼风险换成了一个可量化的现金支出，这是 Meta 报告周内领涨的根本原因。** 公司于 2026-08-26 与各州总检察长达成青少年安全和解，十年内最高支付 **$17B**：参与州确定可得约 70%（约 **$12.7B**），剩余 30% 以 YouTube 与 TikTok 采取同等保护措施并对等付款为前提。作为条件，公司须引入独立审计方，并为青少年设置每日使用时长上限与"夜间锁定"。
 
-**估值修复的速度快于业绩修复，资本开支仍是未拆除的引信。** 股价报告周四连阳、累计涨 **+6.7%** 收 **$616.77**，YTD 收窄至 **-9.7%**。产品端，公司在 09-01 至 09-03 之间连续发布 **Muse Voice Transcribe**（实时语音转写，定价 $0.18/小时，支持 20 人以上说话人分离）与 **Muse Spark 1.3**。但 Q2 2026 资本开支已升至 **$31.1B**、接近上年同期两倍，管理层明确 2026 年资本开支的美元增量将显著大于 2025 年；同期 Family of Apps 分部经营利润下滑——收入增长与分部盈利背离的结构尚未改变。需要注意的是，$31.1B 为资本开支口径，不可与合并经营利润混用（来源：[NPR：$17B 和解](https://www.npr.org/2026/08/26/nx-s1-5945010/meta-agrees-to-17-billion-settlement-and-new-protections-for-teens) · [CNBC：和解后的产品节奏](https://www.cnbc.com/2026/09/02/meta-18-billion-settlement-ai-products.html) · [Fortune：Q2 资本开支与自由现金流](https://fortune.com/2026/07/29/meta-earnings-zuckerberg-hints-cloud-business-free-cash-flow-capex/)）
+**估值修复的速度快于业绩修复，产品节奏则明显加快。** 股价报告周四连阳、累计涨 **+6.7%** 收 **$616.77**，YTD 收窄至 **-6.4%**。公司在 09-01 至 09-03 之间连续发布 **Muse Voice Transcribe**（实时语音转写，定价 $0.18/小时）与 **Muse Spark 1.3**。Morgan Stanley 于 09-02 指出，此类大额诉讼了结之后企业通常会加速产品发布。
+
+**资本开支仍是未拆除的引信，其量级已压过收入增速这条好消息。** Q2 2026（自然季度 2026-04 至 06）资本开支升至 **$31.1B**、接近上年同期两倍，管理层明确 2026 全年资本开支的美元增量将显著大于 2025 年；同期收入同比增长 28% 并超预期，自由现金流却被这笔支出吞噬。需说明的是，$31.1B 为资本开支口径，与 Reality Labs 等分部的经营亏损及公司合并经营利润均不可混用（来源：[NPR：$17B 和解](https://www.npr.org/2026/08/26/nx-s1-5945010/meta-agrees-to-17-billion-settlement-and-new-protections-for-teens) · [CNBC：和解后的产品节奏](https://www.cnbc.com/2026/09/02/meta-18-billion-settlement-ai-products.html) · [Fortune：Q2 资本开支与自由现金流](https://fortune.com/2026/07/29/meta-earnings-zuckerberg-hints-cloud-business-free-cash-flow-capex/)）
 
 ## Amazon (AMZN)
 
 **股价：** $258.51（本周 -3.0%，YTD +12.0%）｜**情绪：** ➡️｜**下次财报：** Q3 预计 2026-10（未公告）
 
-**Amazon 是 Magnificent 7 中唯一在 AI 情绪回暖周里下跌的成员，原因不在 AWS 而在节奏。** 股价 08-28 单日涨 3.97% 至 $266.43 后，08-31 回落 2.50%、09-01 再跌 1.87%，报告周累计 **-3.0%** 收 **$258.51**，YTD 仍有 **+12.0%**。分部层面的正面证据来自卖方：Wells Fargo 分析师 Ken Gawrelski 将评级由中性上调至增持、目标价 **$280**，理由是 Project Rainier 的产能投放将驱动 **AWS** 分部收入在 2026 年加速，且 2025 年的份额流失已见底。此处 AWS 为分部口径，与合并营收不可混用。
+**Amazon 是 Magnificent 7 中唯一在 AI 情绪回暖周里下跌的成员，原因不在 AWS 而在节奏。** 股价 08-28 单日涨 3.97% 至 $266.43 后，08-31 回落 2.50%、09-01 再跌 1.87%，报告周累计 **-3.0%** 收 **$258.51**，YTD 仍有 **+12.0%**。分部层面的正面证据来自卖方：据 Barron's 于 2026-09-03 报道，Jefferies 将 Amazon 列入其 **$26 万亿** AI 市场的受益名单，逻辑是 **AWS** 分部在 Project Rainier 产能投放后重回加速。此处 AWS 为分部口径，与合并营收不可混用。
 
 **自动驾驶与物流两条线在同一周给出了方向相反的信号。** 正面一侧，旗下 **Zoox** 于 2026-09-03 将 robotaxi 服务扩展至拉斯维加斯 Harry Reid 国际机场——机场是自动驾驶商业化中审批门槛最高的场景之一，落地本身即是监管信任的体现。负面一侧，据 Reuters 报道，一架 Prime Air 的波音 767 货机于 2026-09-06 在迈阿密国际机场冲出跑道并撞及地面车辆。该事件发生在报告周最后一天，尚不足以判断对物流成本与保险费率的实际影响（来源：[Reuters：Prime Air 货机冲出跑道](https://www.reuters.com/business/aerospace-defense/amazon-prime-air-boeing-767-overruns-runway-miami-airport-2026-09-06/) · [TechCrunch：Zoox 进驻拉斯维加斯机场](https://techcrunch.com/2026/09/03/amazons-zoox-expands-its-robotaxi-service-to-las-vegas-airport/) · [Yahoo Finance：Wells Fargo 上调评级](https://finance.yahoo.com/news/amazon-amzn-stock-upgraded-overweight-224237792.html)）
 
