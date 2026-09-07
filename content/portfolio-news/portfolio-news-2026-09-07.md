@@ -20,11 +20,11 @@
 
 ## 🌍 本周宏观背景
 
-**劳动力市场的意外强劲，把 9 月 FOMC 的天平进一步推向加息一侧。** 就业端，8 月非农新增 **162,000** 人，是道琼斯共识 **53,000** 人的三倍有余，失业率 **4.1%** 与预期一致——这组数据消除了"就业转弱迫使美联储按兵不动"的路径。利率端，CME FedWatch 的 9 月加息概率由上期报告日的 **55.7%** 升至 **58%**，2 年期美债收益率触及 2025 年 1 月以来最高水平。
+**劳动力市场的意外强劲，把 9 月 FOMC 的天平进一步推向加息一侧。** 就业端，2026-09-04 公布的 8 月非农新增 **162,000** 人，是道琼斯共识 **53,000** 人的三倍有余，失业率 4.1% 与预期一致——这组数据消除了"就业转弱迫使美联储按兵不动"的路径。利率端，CME FedWatch 的 9 月加息概率由 2026-08-28 的 55.7% 升至 **58%**，2 年期美债收益率触及 2025 年 1 月以来最高水平。
 
-**指数层面表现为"强数据即坏消息"的经典结构，但 AI 交易走出了独立行情。** 指数端，2026-09-04 标普 500 收 **7,718.60** 点（当日 -0.38%、周 +0.1%）、纳斯达克综指收 **26,506.99** 点（当日 -0.29%、周 +0.4%）、道琼斯工业指数收 **53,414.25** 点（当日 -0.51%、周 -0.3%）。在指数下跌的同一天，存储与 AI 半导体逆势领涨，Micron、SanDisk、SK 海力士当日分别涨 6.1%、11.9%、8.1%，说明贴现率压力与 AI 盈利预期正在被市场分开定价。
+**指数层面表现为"强数据即坏消息"的经典结构，但 AI 交易走出了独立行情。** 指数端，2026-09-04 标普 500 收 **7,718.60** 点（当日 -0.38%、周 +0.1%）、纳斯达克综指收 **26,506.99** 点（当日 -0.29%、周 +0.4%）、道琼斯工业指数收 53,414.25 点（当日 -0.51%、周 -0.3%）。在指数下跌的同一天，存储与 AI 半导体逆势领涨，Micron、SanDisk、SK 海力士当日分别涨 6.1%、11.9%、8.1%，说明贴现率压力与 AI 盈利预期正在被市场分开定价。
 
-**接下来两周的两个日期，决定这套定价能否延续。** 事件端，8 月 CPI 定于 **2026-09-11** 发布，Barron's 称其可能是多年来最具决定性的一次数据；FOMC 会期为 **2026-09-15 至 09-16**。组合内高久期成长股（Palantir、Unity、HIMS）对这两个日期的敏感度显著高于已有现金流支撑的超大市值科技股（来源：[CNBC 市场实录](https://www.cnbc.com/2026/09/03/stock-market-today-live-updates.html) · [TheStreet 收盘综述](https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-04-2026) · [Investopedia：本期市场前瞻](https://www.investopedia.com/what-to-expect-in-markets-this-week-fresh-inflation-data-apple-fall-launch-event-and-oracle-earnings-12100794)）
+**2026-09-11 与 2026-09-15 至 09-16 这两个日期，决定这套定价能否延续。** 事件端，8 月 CPI 定于 **2026-09-11** 发布，Barron's 称其可能是多年来最具决定性的一次数据；FOMC 会期为 **2026-09-15 至 09-16**。组合内高久期成长股（Palantir、Unity、HIMS）对这两个日期的敏感度显著高于已有现金流支撑的超大市值科技股（来源：[CNBC 市场实录](https://www.cnbc.com/2026/09/03/stock-market-today-live-updates.html) · [TheStreet 收盘综述](https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-04-2026) · [Investopedia：本期市场前瞻](https://www.investopedia.com/what-to-expect-in-markets-this-week-fresh-inflation-data-apple-fall-launch-event-and-oracle-earnings-12100794)）
 
 ## ⚡ 速览总结
 
@@ -38,9 +38,9 @@
 | Nvidia | NVDA | $230.36 | +5.9% | +23.6% | 📈 | Q3 FY27 预计 2026-11（未公告） | 09-03 宣布以 $12.93B 收购 Hugging Face，股价逼近历史高位 |
 | Palantir | PLTR | $174.33 | -6.4% | -1.9% | 📉 | Q3 预计 2026-11（未公告） | Michael Burry 公开做空论调压过 09-03 PwC 联盟扩容利好 |
 | Google / Alphabet | GOOGL | $338.46 | -2.3% | +8.1% | ➡️ | Q3 预计 2026-10（未公告） | 09-02 法院驳回广告业务拆分诉求，股价仍延续四个月连跌 |
-| Meta | META | $616.77 | +6.7% | -9.7% | 📈 | Q3 预计 2026-10（未公告） | 青少年安全和解落地后估值修复，报告周内四连阳累涨 6.7% |
+| Meta | META | $616.77 | +6.7% | -6.4% | 📈 | Q3 预计 2026-10（未公告） | 青少年安全和解落地后估值修复，报告周内四连阳累涨 6.7% |
 | Amazon | AMZN | $258.51 | -3.0% | +12.0% | ➡️ | Q3 预计 2026-10（未公告） | 09-03 Zoox robotaxi 进驻拉斯维加斯机场，09-06 一架 Prime Air 货机冲出跑道 |
-| Micron | MU | $1,016.59 | +9.0% | +256.2% | 📈 | 2026-09-30（已官宣） | 09-04 存储股集体反弹，MU 单日涨 6.10% 首次收在 $1,000 上方 |
+| Micron | MU | $1,016.59 | +9.0% | +256.2% | 📈 | 2026-09-30（已官宣） | 09-04 存储股集体反弹，MU 单日涨 6.10% 收复 $1,000 关口 |
 | PayPal | PYPL | $54.96 | +2.4% | -5.9% | ➡️ | Q3 预计 2026-10（未公告） | 09-04 因报价不足暂停出售创投组合，09-03 印度裁员 220 人 |
 | Unity | U | $41.66 | -3.8% | -5.7% | ➡️ | Q3 预计 2026-11（未公告） | 报告周内无 T1/T2 级公司公告，股价随小盘成长股回落 3.8% |
 | Hims & Hers | HIMS | $27.71 | -3.9% | -14.7% | 📉 | Q3 预计 2026-11（未公告） | 08-31 澳洲上线，09-01 FDA 对未批准 GLP-1 发出警示盖过扩张利好 |
@@ -68,7 +68,7 @@
 
 **报告周的价格轨迹说明市场对 Robotaxi 的定价方式已经改变。** 09-03 活动前股价单日涨超 5% 至 **$376.37**，09-04 回吐 5.92%，全周净涨 **+1.5%**——先买预期、后卖事实的完整循环在两个交易日内跑完。这与 2025 年"任何 Robotaxi 消息都推高股价"的状态明显不同：市场开始要求可核验的车队规模与单车经济性，而非日期承诺。
 
-**估值的支撑点因此重新落回可以自己走完的路径上。** Semi 首车下线活动仍定于 **2026-09-24**（内华达州斯帕克斯工厂），重卡交付量只取决于产线爬坡，不需要监管放行；Q3 交付量通常在 10 月初公布。卖方共识目标价为 **$390.09**（46 位分析师），较 09-04 收盘仅约 10% 空间，是组合内 ⭐ 四家中最窄的一个（来源：[Reuters 报道](https://www.reuters.com/legal/litigation/musk-pushes-regulatory-limits-with-teslas-cybercab-robotaxi-service-2026-09-04/) · [NYTimes 报道](https://www.nytimes.com/2026/09/04/business/tesla-cybercab-nhtsa-investigation.html) · [Stockanalysis.com 行情与共识](https://stockanalysis.com/stocks/tsla/)）
+**去掉监管变量之后，Tesla 只剩 Semi 与 Q3 交付两个能自己兑现的催化剂。** Semi 首车下线活动仍定于 **2026-09-24**（内华达州斯帕克斯工厂），重卡交付量只取决于产线爬坡，不需要监管放行；Q3 交付量通常在 10 月初公布。卖方共识目标价为 **$390.09**（46 位分析师），较 09-04 收盘仅约 10% 空间，是组合内 ⭐ 四家中最窄的一个（来源：[Reuters 报道](https://www.reuters.com/legal/litigation/musk-pushes-regulatory-limits-with-teslas-cybercab-robotaxi-service-2026-09-04/) · [NYTimes 报道](https://www.nytimes.com/2026/09/04/business/tesla-cybercab-nhtsa-investigation.html) · [Stockanalysis.com 行情与共识](https://stockanalysis.com/stocks/tsla/)）
 
 ## ⭐ AMD (AMD) — 重点关注
 
