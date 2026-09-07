@@ -102,9 +102,9 @@
 
 **Oracle 的这份财报是本轮 AI 交易第一次被要求出示现金流证据，而不是订单证据。** $638B 的剩余履约义务已经证明需求存在；市场未解决的问题是这些订单以何种速度转化为收入、以及转化过程中需要预先投入多少资本开支和债务。FQ1 FY27 对应自然月 2026-06 至 2026-08，是签约高峰之后的第一个完整交付季度，云收入增速能否落在 58%–64% 指引区间的上沿，比 EPS 是否达标更重要。
 
-**卖方在财报前的分歧幅度本身构成信息。** Jefferies 于 2026-09-02 前后将目标价由 $320 下调至 **$290** 但维持买入；Morgan Stanley 将目标价由 $207 微调至 **$210** 并维持中性；BofA 在 09-06 前后的对比报告中给出卖出一侧的判断。共识目标价 **$242.69**（44 位分析师），较 09-04 收盘 $158.78 有约 53% 空间——这是组合内共识空间最大的标的，也说明卖方模型与市场定价之间的裂口尚未收敛。
+**卖方在财报前的分歧幅度本身构成信息。** 据 TheFly 报道，Jefferies 将目标价由 $320 下调至 **$290** 但维持买入；Morgan Stanley 将目标价由 $207 微调至 **$210** 并维持中性；BofA 在 09-06 前后的对比报告中给出卖出一侧的判断。共识目标价 **$242.69**（44 位分析师），较 09-04 收盘 $158.78 有约 53% 空间——这是组合内共识空间最大的标的，也说明卖方模型与市场定价之间的裂口尚未收敛。
 
-**股价的技术性反弹并未改变年内的相对位置。** 报告周内股价连涨，09-03 单日涨约 5%、09-04 再涨 **3.08%**，全周 **+5.3%**；但 YTD 仍为 **-18.5%**，52 周区间下沿 $114.50、上沿 $345.72，意味着当前价位处于区间偏下。HPE 于 2026-09-02 前后宣布扩大合作，为 Oracle 全球 AI 数据中心部署 Juniper 网络设备，这是交付端在推进的旁证（来源：[Oracle 新闻稿：FQ1 FY27 财报定档](https://www.prnewswire.com/news-releases/oracle-sets-the-date-for-its-first-quarter-fiscal-year-2027-earnings-announcement-302868030.html) · [Oracle IR：FQ4 FY26 业绩](https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Record-Q4-and-FY-2026-Results-Driven-by-Cloud-Infrastructure--Cloud-Applications/default.aspx) · [MarketWatch：财报前评估](https://www.marketwatch.com/story/why-oracles-stock-looks-like-a-compelling-buy-ahead-of-earnings-12a04d7b)）
+**报告周的价格轨迹先被债务问题击穿，再被财报预期修复，这才是完整的图景。** 08-31 跌 1.15%、09-01 因债市抛售冲击其债务融资型 AI 扩张而跌 **5.23%**，随后 09-02 涨 3.13%、09-03 涨 5.69%、09-04 再涨 **3.08%**，全周净收 **+5.3%**。但 YTD 仍为 **-18.5%**，52 周区间下沿 $114.50、上沿 $345.72，意味着 09-04 收盘价处于区间偏下。据 TheFly 报道，HPE 于 2026-09-02 前后宣布扩大合作，为 Oracle 全球 AI 数据中心部署 Juniper 网络设备，这是交付端在推进的旁证（来源：[Oracle 新闻稿：FQ1 FY27 财报定档](https://www.prnewswire.com/news-releases/oracle-sets-the-date-for-its-first-quarter-fiscal-year-2027-earnings-announcement-302868030.html) · [Oracle IR：FQ4 FY26 业绩](https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Record-Q4-and-FY-2026-Results-Driven-by-Cloud-Infrastructure--Cloud-Applications/default.aspx) · [MarketWatch：财报前评估](https://www.marketwatch.com/story/why-oracles-stock-looks-like-a-compelling-buy-ahead-of-earnings-12a04d7b)）
 
 ## Apple (AAPL)
 
@@ -118,7 +118,7 @@
 
 **股价：** $230.36（本周 +5.9%，YTD +23.6%）｜**情绪：** 📈｜**下次财报：** Q3 FY27 预计 2026-11（未公告）
 
-**Nvidia 花 129 亿美元买下的是开发者的默认入口，这是防守而非扩张。** 公司于 **2026-09-03** 宣布收购 **Hugging Face**，对价 **$12,930,300,000**，为其史上第二大收购（仅次于约 $20B 的 Groq 资产交易），预计 2027 年上半年完成交割。该平台聚集超过 **1,800 万** 开发者、300 万个模型、50 万个数据集与 100 万个应用。CEO 黄仁勋在博客中承诺继续支持开源与开放权重模型。分析普遍认为，此举的核心是把 CUDA 生态的护城河从硬件层前移到模型分发层。
+**Nvidia 花约 129 亿美元买下的是开发者的默认入口，这是防守而非扩张。** 公司于 **2026-09-03** 宣布收购 **Hugging Face**，对价约 **$12.9B**，据 CNBC 报道为其史上第二大收购，预计 2027 年上半年完成交割，尚需监管批准。该平台聚集超过 **1,800 万** 开发者与逾 300 万个模型。CEO 黄仁勋在官方博客中承诺继续支持开源与开放权重模型。分析普遍认为，此举的核心是把 CUDA 生态的护城河从硬件层前移到模型分发层。
 
 **资本运作正在成为 Nvidia 除芯片之外的第二条护城河。** 截至 2026-07-26，公司股权投资组合规模达 **$99B**，较一年前约 $7B 增长十四倍，覆盖前沿实验室、云厂商与基础设施企业；据 Bloomberg 报道，公司还在洽谈向 AI 云企业 Nscale 投资最高 **$2B**，后者正筹备 IPO。股价报告周涨 **+5.9%** 收 **$230.36**，距 52 周高点 $236.54 仅约 2.7%。风险点在于监管：NYTimes 于 09-06 报道称，被列入制裁名单的中国企业浪潮通过子公司持续获取其高端芯片（来源：[NVIDIA 官方博客](https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/) · [SEC EDGAR：NVDA 8-K](https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000078/nvda-20260902.htm) · [CNBC：$99B 股权投资组合](https://www.cnbc.com/2026/09/04/nvidia-ai-investments-99-billion.html)）
 
@@ -126,9 +126,9 @@
 
 **股价：** $174.33（本周 -6.4%，YTD -1.9%）｜**情绪：** 📉｜**下次财报：** Q3 预计 2026-11（未公告）
 
-**Palantir 的多空分歧第一次完整地表现为估值分歧，而不是订单分歧。** 股价 09-02 单日跌 **5.81%**，为 2026-02 以来最差单日之一；09-03 因 **PwC** 宣布扩大战略联盟单日涨 **7.71%** 至 $182.53；09-04 又回吐 **4.49%** 收 **$174.33**。三天内的反向摆动幅度合计接近 18 个百分点，而期间没有任何合同金额或指引变化。全周累计 **-6.4%**，YTD 转为 **-1.9%**。
+**Palantir 的多空分歧第一次完整地表现为估值分歧，而不是订单分歧。** 股价 09-02 单日跌 **5.81%**，为 2026-02 以来最差单日之一；09-03 因 **PwC** 宣布扩大战略联盟单日涨 **7.71%** 至 $182.53；09-04 又回吐 **4.49%** 收 **$174.33**。三天内的反向摆动幅度合计接近 18 个百分点，而期间公司未调整任何财务指引。全周累计 **-6.4%**，YTD 转为 **-1.9%**。
 
-**空头论据的公开化，是这轮回撤区别于以往的地方。** Michael Burry 在报告周内公开将 Palantir 定性为"骑在 AI FOMO 泡沫之上"，并预判市值将跌破 $1,000 亿；对手方论据则是 PwC 联盟扩容所代表的企业级落地通道——四大会计师事务所的实施能力，恰好补上 Palantir 长期被诟病的交付瓶颈。此外，伦敦市长 Sadiq Khan 于 09-03 同意在与 Palantir 相关的法律纠纷中交出个人短信与邮件，构成英国公共部门合同的次级风险（来源：[PRNewswire：PwC 与 Palantir 扩大联盟](https://www.prnewswire.com/news-releases/pwc-and-palantir-expand-strategic-alliance-to-help-organizations-scale-enterprise-ai-302868284.html) · [The Guardian 报道](https://www.theguardian.com/politics/2026/sep/03/sadiq-khan-agrees-have-texts-emails-searched-palantir-legal-battle) · [MarketWatch 报道](https://www.marketwatch.com/story/why-palantirs-stock-is-suffering-its-worst-slump-since-february-7fb3b289)）
+**空头论据的公开化，是这轮回撤区别于以往的地方。** Michael Burry 于 2026-09-03 前后公开将 Palantir 定性为"骑在 AI FOMO 泡沫之上"，并预判市值将跌破 $1,000 亿；对手方论据则是 PwC 联盟扩容所代表的企业级落地通道——四大会计师事务所的实施能力，恰好补上 Palantir 长期被诟病的交付瓶颈。此外，伦敦市长 Sadiq Khan 于 09-03 同意在与 Palantir 相关的法律纠纷中交出个人短信与邮件，构成英国公共部门合同的次级风险（来源：[PRNewswire：PwC 与 Palantir 扩大联盟](https://www.prnewswire.com/news-releases/pwc-and-palantir-expand-strategic-alliance-to-help-organizations-scale-enterprise-ai-302868284.html) · [The Guardian 报道](https://www.theguardian.com/politics/2026/sep/03/sadiq-khan-agrees-have-texts-emails-searched-palantir-legal-battle) · [MarketWatch 报道](https://www.marketwatch.com/story/why-palantirs-stock-is-suffering-its-worst-slump-since-february-7fb3b289)）
 
 ## Google / Alphabet (GOOGL)
 
