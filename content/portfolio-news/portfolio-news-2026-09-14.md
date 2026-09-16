@@ -90,7 +90,7 @@
 
 **技术面在报告周内的主导变量是解禁而不是基本面。** 第三批锁定期于 2026-09-09 释放至多 **3.19 亿股** A 类股，当日股价收跌约 **3.9%**；全周仍涨 **+2.2%** 收 $151.21，说明承接力量高于预期。同期两条事件强化了政府侧需求：英国累计在 SpaceX 卫星服务上支出近 **$4,000 万**（据 Reuters 于 09-10 报道），而公司就德州 Terafab 项目的税收优惠档案公开问题起诉了德州总检察长。
 
-**卖方的分歧不在方向，而在应该用什么估值框架。** 截至 2026-09-11，36 位分析师共识评级为"买入"、平均目标价 **$220.68**，较 09-11 收盘有 45.94% 空间；Barron's 于 09-13 发文承认其 2026-06 给出的每股约 $90 的估值过低。同时据 The Information 报道，公司正在调整数据中心建设方案。当一家公司的估值分歧来自"它到底是什么行业"，波动率就不会因为业绩兑现而收敛（来源：[SEC：SPCX CFO 访谈 FWP 文件](https://www.sec.gov/Archives/edgar/data/0001181412/000162828026041761/fwp_cfointerview.htm) · [Business Insider：逾 $1B/月 算力合同](https://www.businessinsider.com/spacex-strikes-billion-a-month-compute-deal-with-mystery-customer-2026-9) · [Reuters：英国采购卫星服务](https://www.reuters.com/business/media-telecom/uk-deepens-reliance-musks-spacex-spending-nearly-40-million-satellite-services-2026-09-10/)）
+**卖方的分歧不在方向，而在应该用什么估值框架。** 截至 2026-09-11，36 位分析师共识评级为"买入"、平均目标价 **$220.68**，较 09-11 收盘有 45.94% 空间；Barron's 于 09-13 发文承认其 2026-06 给出的每股约 $90 的估值过低。同时据 The Information 报道，公司正在调整数据中心建设方案。当一家公司的估值分歧来自"它到底是什么行业"，波动率就不会因为业绩兑现而收敛（来源：[Barron's：CFO 在高盛会议上的五点披露](https://www.barrons.com/articles/spacex-stock-orbital-ai-cfo-1ced4262) · [Business Insider：逾 $1B/月 算力合同](https://www.businessinsider.com/spacex-strikes-billion-a-month-compute-deal-with-mystery-customer-2026-9) · [Reuters：英国采购卫星服务](https://www.reuters.com/business/media-telecom/uk-deepens-reliance-musks-spacex-spending-nearly-40-million-satellite-services-2026-09-10/)）
 
 ## ⭐ Oracle (ORCL) — 重点关注
 
@@ -104,7 +104,7 @@
 
 **内部人减持计划的设立与取消，把治理变量叠加到了财务变量上。** 公司于 **2026-09-11** 披露 Ellison 设立 10b5-1 计划、拟售最多 5,000 万股；**09-12** 宣布取消，且未售出任何股份。同日文件还显示公司将追加约 **$7 亿** 重组费用。在刚完成 $20B 股权融资的时点上，创始人减持计划即便最终撤回，也已经完成了一次信号释放。
 
-**估值分歧现在完全落在"AI 需求持续性"这一个变量上。** 43 位分析师共识评级"买入"、平均目标价 **$239.10**，较 09-11 收盘有 59.1% 空间——这是组合内目标价与现价背离最大的一只。指引方面，FY27（对应自然月 2026-06 至 2027-05）全年收入指引上调至至少 **$90B**、非 GAAP EPS **$8.10**；FQ2 FY27 收入指引为同比增长 30%–34%。若需求如期兑现，当前 17.6 倍的前瞻市盈率显著偏低；若不兑现，负向自由现金流会先于收入放缓显现（来源：[Oracle 新闻稿：Q1 FY27 业绩](https://www.oracle.com/news/announcement/q1fy27-earnings-release-2026-09-10/) · [PRNewswire：Ellison 取消减持计划](https://www.prnewswire.com/news-releases/larry-ellison-cancels-his-plan-to-sell-oracle-stock-302876875.html) · [CNBC 报道](https://www.cnbc.com/2026/09/10/oracle-orcl-q1-earnings-report-2027.html)）
+**估值分歧已经完全落在"AI 需求持续性"这一个变量上。** 截至 2026-09-11，43 位分析师共识评级"买入"、平均目标价 **$239.10**，较 09-11 收盘有 59.1% 空间——这是组合内目标价与现价背离最大的一只。指引方面，FY27（对应自然月 2026-06 至 2027-05）全年收入指引上调至至少 **$90B**、非 GAAP EPS **$8.10**；FQ2 FY27（对应自然月 2026-09 至 2026-11）收入指引为同比增长 30%–34%。若需求如期兑现，按 09-11 收盘计 17.6 倍的前瞻市盈率显著偏低；若不兑现，负向自由现金流会先于收入放缓显现（来源：[Oracle 新闻稿：Q1 FY27 业绩](https://www.oracle.com/news/announcement/q1fy27-earnings-release-2026-09-10/) · [PRNewswire：Ellison 取消减持计划](https://www.prnewswire.com/news-releases/larry-ellison-cancels-his-plan-to-sell-oracle-stock-302876875.html) · [CNBC 报道](https://www.cnbc.com/2026/09/10/oracle-orcl-q1-earnings-report-2027.html)）
 
 ## Nvidia (NVDA)
 
