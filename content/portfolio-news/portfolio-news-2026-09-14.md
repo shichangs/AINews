@@ -170,9 +170,9 @@
 
 **股价：** $53.72（本周 -2.3%，YTD -8.0%）｜**情绪：** ➡️｜**下次财报：** 2026-10-27（预估）
 
-**PayPal 正式放弃了"被人收购"这条路径，接下来只能靠自己证明估值。** 据 WSJ 于 **2026-09-11** 报道，上任约六个月的首席执行官 **Enrique Lores** 已制定按独立公司经营的计划，核心是削减数十亿美元成本；此前 Advent International 与 Stripe 于 2026-08-28 放弃了逾 **$500 亿** 的收购要约，当日股价跌约 12%。报道同时披露，若资本市场认可其转型方案，Lores 可获得最高 **$2,500 万** 的奖金——这把管理层激励与股价直接绑定。
+**PayPal 正式放弃了"被人收购"这条路径，接下来只能靠自己证明估值。** 据 WSJ 于 2026-09-11 报道，上任约六个月的首席执行官 **Enrique Lores** 已制定按独立公司经营的计划，核心是削减数十亿美元成本；此前 Advent International 与 Stripe 于 2026-08-28 放弃了逾 **$500 亿** 的收购要约，当日股价跌约 12%。报道同时披露，若资本市场认可其转型方案，Lores 可获得最高 $2,500 万 的奖金——这把管理层激励与股价直接绑定。
 
-**产品侧的进展集中在稳定币与 BNPL，但尚未进入财务口径。** 公司于 09-09 与 M0、MoonPay 合作推出基于 **PYUSD** 稳定币的开发者平台，允许第三方在其上构建金融产品；在高盛 Communacopia 会议上，管理层将重点表述为向消费者业务倾斜、深化先买后付整合，并维持了 EPS 与交易利润率增长指引。全周跌 **-2.3%** 收 **$53.72**，当前市盈率 10.13 倍，43 位分析师共识评级"持有"、平均目标价 **$57.07**——收购溢价消失后，估值重新回到了转型进度这一个变量上（来源：[WSJ：Lores 的独立经营计划](https://www.wsj.com/finance/banking/how-paypals-ceo-is-planning-to-go-it-alone-and-fix-the-payments-giant-ec0daf22) · [PYMNTS：PYUSD 开发者平台](https://www.pymnts.com/cryptocurrency/2026/paypal-debuts-developer-platform-tied-to-pyusd-stablecoin/)）
+**产品侧的进展集中在稳定币与 BNPL，但尚未进入财务口径。** 公司于 09-09 与 M0、MoonPay 合作推出基于 **PYUSD** 稳定币的开发者平台，允许第三方在其上构建金融产品；在高盛 Communacopia 会议上，管理层将重点表述为向消费者业务倾斜、深化先买后付整合，并维持了 EPS 与交易利润率增长指引。全周跌 **-2.3%** 收 $53.72，按 09-11 收盘计市盈率 10.13 倍，截至同日 43 位分析师共识评级"持有"、平均目标价 **$57.07**——收购溢价消失后，估值重新回到了转型进度这一个变量上（来源：[WSJ：Lores 的独立经营计划](https://www.wsj.com/finance/banking/how-paypals-ceo-is-planning-to-go-it-alone-and-fix-the-payments-giant-ec0daf22) · [PYMNTS：PYUSD 开发者平台](https://www.pymnts.com/cryptocurrency/2026/paypal-debuts-developer-platform-tied-to-pyusd-stablecoin/)）
 
 ## Unity Software (U)
 
@@ -180,7 +180,7 @@
 
 **Unity 本周的涨幅完全来自市场风格，而不是公司公告——这本身就是它当前定价状态的说明。** 报告周内公司没有发布 T1 级重大公告，股价却涨 **+5.5%** 至 **$43.96**，其中 09-11 单日涨 **4.49%**，与 CPI 公布后高贝塔软件股的反弹同步（公司贝塔为 2.06）。年内涨跌收窄至 **-0.5%**，基本回到起点，但距 52 周低点 $16.78 已翻逾一倍。
 
-**支撑这轮反弹的是 Vector 广告平台在 Q2 留下的预期缺口。** 公司 **2026-08-06** 发布的 Q2 2026 财报显示，战略收入同比增长 38%、调整后 EBITDA 增长 77%，管理层称为"公司最好的一个季度"，并把盈利目标提前；此后包括 Needham（目标价升至 $54）、BofA 与 Deutsche Bank（均上调至买入）在内的十余家机构集中上修。26 位分析师当前共识评级为"强力买入"、平均目标价 **$49.39**。在没有新增催化剂的一周里，股价靠上一份财报的余温上涨，意味着 Q3 财报的验证压力会更集中（来源：[Business Wire：Unity 2026 年第二季度财报](https://www.businesswire.com/news/home/20260806640439/en/Unity-Reports-Second-Quarter-2026-Financial-Results/) · [TheFly：Needham 上调目标价至 $54](https://www.tipranks.com/news/the-fly/unity-price-target-raised-to-54-from-40-at-needham-thefly-news)）
+**支撑这轮反弹的是 Vector 广告平台在 Q2 留下的预期缺口。** 公司 **2026-08-06** 发布的 Q2 2026 财报显示，战略收入同比增长 38%、调整后 EBITDA 增长 77%，管理层称为"公司最好的一个季度"，并把盈利目标提前；此后包括 Needham（目标价升至 $54）、BofA 与 Deutsche Bank（均上调至买入）在内的十余家机构集中上修。按 Stockanalysis.com 截至 2026-09-11 的统计，26 位分析师共识评级为"强力买入"、平均目标价 **$49.39**（口径不同的机构汇总存在差异，MarketBeat 同期为 23 家、$45.16）。在没有新增催化剂的一周里，股价靠上一份财报的余温上涨，意味着 Q3 财报的验证压力会更集中（来源：[Business Wire：Unity 2026 年第二季度财报](https://www.businesswire.com/news/home/20260806640439/en/Unity-Reports-Second-Quarter-2026-Financial-Results/) · [TheFly：Needham 上调目标价至 $54](https://www.tipranks.com/news/the-fly/unity-price-target-raised-to-54-from-40-at-needham-thefly-news)）
 
 ## Hims & Hers Health (HIMS)
 
@@ -188,7 +188,7 @@
 
 **HIMS 的估值现在由法律日程而不是业务日程决定。** 报告周内唯一密集的信息流来自原告律所：Kaplan Fox 于 09-09 与 09-11 连续发布公告，提示证券集体诉讼的首席原告申请截止日为 **2026-11-02**；Berger Montague 则在调查董事会是否违反受托义务。这些公告本身不构成新的事实，但它们把 2026-07 的联邦贸易委员会诉讼、Visa 收单监控与 08-11 的 Q2 财报失速串成了一条连续的负面叙事。
 
-**卖方的新覆盖给出的是最没有方向性的那种结论。** 摩根大通分析师 Bryan Smilek 于 **2026-09-11** 以持有评级、**$32** 目标价首次覆盖，肯定其订阅规模但对利润率修复持保留态度；15 位分析师的共识评级同为"持有"、平均目标价 **$31.23**。全周微跌 **-0.7%** 收 **$27.51**，年内 **-15.3%**，距 52 周高点 $65.30 已回撤近六成。在 11 月财报之前，公司缺少能改变叙事的自有事件（来源：[Hims IR：回应 FTC 诉讼](https://investors.hims.com/news/news-details/2026/Hims--Hers-Responds-to-FTC-Lawsuit/default.aspx) · [Reuters：Q2 利润率承压](https://www.reuters.com/business/healthcare-pharmaceuticals/hims-hers-shares-slide-costly-weight-loss-push-squeezes-margins-2026-08-11/)）
+**卖方给出的是最没有方向性的那种结论。** 摩根大通分析师 Bryan Smilek 于 2026-09-11 给予中性评级与 **$32** 目标价，肯定其订阅规模但对利润率修复持保留态度；截至同日，15 位分析师的共识评级同为"持有"、平均目标价 **$31.23**。全周微跌 **-0.7%** 收 $27.51，年内 **-15.3%**，距 52 周高点 $65.30 已回撤近六成。在 11 月财报之前，公司缺少能改变叙事的自有事件（来源：[Hims IR：回应 FTC 诉讼](https://investors.hims.com/news/news-details/2026/Hims--Hers-Responds-to-FTC-Lawsuit/default.aspx) · [Reuters：Q2 利润率承压](https://www.reuters.com/business/healthcare-pharmaceuticals/hims-hers-shares-slide-costly-weight-loss-push-squeezes-margins-2026-08-11/)）
 
 ## 🔭 下周值得盯
 
