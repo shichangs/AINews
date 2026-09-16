@@ -146,25 +146,25 @@
 
 **股价：** $256.78（本周 -0.7%，YTD +11.2%）｜**情绪：** ➡️｜**下次财报：** 2026-10-29（预估）
 
-**Amazon 本周的动作集中在把既有流量变现，而不是扩大基础设施口径。** 广告端，公司于 **2026-09-10** 与 OpenAI 合作，允许部分美国品牌在 ChatGPT 内投放广告——这是把自有广告主资源接入第三方分发渠道的首次尝试；同日宣布在 Prime Video 内打通"边看边买"。零售端，宣布未来一年在 Whole Foods 追加投入超过 **$2.3 亿** 用于薪酬与福利，背景是该连锁的工会化推进。治理端，Mandiant 创始人 **Kevin Mandia** 于 09-09 加入董事会，补上前国家安全局局长离任后的安全专业缺口。
+**Amazon 在报告周内的动作集中在把既有流量变现，而不是扩大基础设施口径。** 广告端，公司于 2026-09-10 与 OpenAI 合作，允许部分美国品牌在 ChatGPT 内投放广告——这是把自有广告主资源接入第三方分发渠道的首次尝试；同日宣布在 Prime Video 内打通"边看边买"。零售端，据 TheFly 报道公司将在未来一年于 Whole Foods 追加投入超过 **$2.3 亿** 用于薪酬与福利，背景是该连锁的工会化推进。治理端，8-K 载明董事会于 **2026-09-08** 选举 Mandiant 创始人 **Kevin Mandia** 为董事并加入审计与安全委员会。卫星侧，Amazon Leo 于 09-09 向 Arianespace 追加 6 次 Ariane 6 发射订单，累计合同发射次数由 18 次增至 **24 次**。全周微跌 **-0.7%** 收 $256.78。
 
-**AWS 的资本开支正在遭遇地方财政层面的逆风，这是新增的分部级风险。** 据报道，公司在俄亥俄州近 **$400 亿** 的数据中心建设面临当地议员重新审视税收优惠；WSJ 于 09-08 报道多州正在撕毁给数据中心的长期减免协议，Amazon、Meta、Google 均在其列。需要注意这属于 AWS 分部的建设成本变量，与合并口径的零售利润率不应混用。卫星侧，Amazon Leo 于 09-09 向 Arianespace 追加 6 次 Ariane 6 发射订单，累计合同发射次数由 18 次增至 **24 次**。全周微跌 **-0.7%** 收 **$256.78**（来源：[CNBC：开放广告主投放 ChatGPT](https://www.cnbc.com/2026/09/10/amazon-chatgptads-open-ai.html) · [Reuters：追加 Ariane 6 订单](https://www.reuters.com/business/media-telecom/europes-ariane-wins-amazon-boost-space-gathering-2026-09-09/) · [CNBC：Mandia 加入董事会](https://www.cnbc.com/2026/09/09/amazon-adds-cybersecurity-vet-ex-google-exec-kevin-mandia-to-board.html)）
+**AWS 的资本开支正在遭遇地方财政层面的逆风，这是新增的分部级风险。** 据 WSJ 于 09-08 报道，多州正在重新审视甚至撕毁给数据中心的长期税收减免协议，Amazon、Meta、Google 均在其列；公司在俄亥俄州近 **$400 亿** 的数据中心建设正处在这一审视范围内。需要说明的是，这属于 AWS 分部的建设成本变量，与合并口径的零售利润率、以及 Leo 卫星业务的资本开支都不应混用——三者在同一份财报里分属不同披露层级（来源：[SEC EDGAR：AMZN 8-K（2026-09-08）](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000036/amzn-20260908.htm) · [CNBC：开放广告主投放 ChatGPT](https://www.cnbc.com/2026/09/10/amazon-chatgptads-open-ai.html) · [Reuters：追加 Ariane 6 订单](https://www.reuters.com/business/media-telecom/europes-ariane-wins-amazon-boost-space-gathering-2026-09-09/)）
 
 ## Apple (AAPL)
 
 **股价：** $332.27（本周 +3.8%，YTD +22.4%）｜**情绪：** 📈｜**下次财报：** FQ4 FY26 预计 2026-10-29（预估）
 
-**折叠屏 iPhone 的意义不在销量，而在它重新确立了硬件迭代的叙事权。** 新任首席执行官 **John Ternus** 于 **2026-09-09** 主持其上任后首场发布会，推出 **iPhone Duo**——展开后屏幕面积较现款 Pro 大 80%，起售价 **$1,999**，10-16 预购、10-23 在 70 个国家开售，中国定价 15,999 元人民币。同场还发布 iPhone 18 Pro 与 Pro Max，以及新款 Apple Watch 与 AirPods；CNBC 指出七年来最大的变化其实是发布节奏的调整。Deepwater 的 Gene Munster 预计折叠机型最终将占 iPhone 销量的 10%。
+**折叠屏 iPhone 的意义不在销量，而在它重新确立了硬件迭代的叙事权。** 新任首席执行官 **John Ternus** 于 2026-09-09 主持其上任后首场发布会，推出 **iPhone Duo**——展开后屏幕面积较现款 Pro 大 80%，起售价 **$1,999**，10-16 预购、10-23 在逾 70 个国家和地区开售，中国定价 15,999 元人民币。同场还发布 iPhone 18 Pro 与 Pro Max，以及新款 Apple Watch 与 AirPods；CNBC 指出七年来最大的变化其实是发布节奏的调整。Deepwater 的 Gene Munster 预计折叠机型最终将占 iPhone 销量的 10%。
 
-**卖方对产品的评价与对财务的评价出现了罕见的背离。** 多家机构认可产品力，但同时提示铰链与面板带来的毛利率压力；44 位分析师的平均目标价为 **$324.40**，反而比 09-11 收盘价 **$332.27** 低 2.37%——这是组合内唯一共识目标价低于现价的公司。全周涨 **+3.8%**，年内 **+22.4%**。需要注意财年口径：FQ4 FY26 对应自然月 2026-07 至 2026-09，iPhone Duo 的首销收入将落在 FQ1 FY27（自然月 2026-10 至 2026-12），本次发布对下一份财报的直接贡献有限（来源：[CNBC：发布会实录](https://www.cnbc.com/2026/09/09/apple-event-today-live-updates.html) · [Reuters：$1,999 定价面向谁](https://www.reuters.com/business/retail-consumer/apples-foldable-iphone-poses-1999-question-who-is-it-2026-09-10/) · [CNBC：七年来最大发布节奏调整](https://www.cnbc.com/2026/09/10/apple-makes-biggest-change-to-iphone-release-cadence-in-7-years.html)）
+**卖方对产品的评价与对财务的评价出现了罕见的背离。** 多家机构认可产品力，但同时提示铰链与面板带来的毛利率压力；截至 2026-09-11，44 位分析师的平均目标价为 **$324.40**，反而比 09-11 收盘价 $332.27 低 2.37%——这是组合内唯一共识目标价低于现价的公司。全周涨 **+3.8%**，年内 **+22.4%**。需要注意财年口径：FQ4 FY26 对应自然月 2026-07 至 2026-09，iPhone Duo 的首销收入将落在 FQ1 FY27（自然月 2026-10 至 2026-12），本次发布对下一份财报的直接贡献有限（来源：[CNBC：发布会实录](https://www.cnbc.com/2026/09/09/apple-event-today-live-updates.html) · [Reuters：$1,999 定价面向谁](https://www.reuters.com/business/retail-consumer/apples-foldable-iphone-poses-1999-question-who-is-it-2026-09-10/) · [CNBC：七年来最大发布节奏调整](https://www.cnbc.com/2026/09/10/apple-makes-biggest-change-to-iphone-release-cadence-in-7-years.html)）
 
 ## Micron (MU)
 
 **股价：** $975.26（本周 -4.1%，YTD +241.7%）｜**情绪：** 📉｜**下次财报：** 2026-09-30（已官宣）
 
-**存储的基本面本周没有变化，变化的是贴现率。** 全周跌 **-4.1%** 至 **$975.26**，重新跌回 $1,000 关口之下。09-09 存储股受"内存价格可能上涨 60%"的行业预期推动走强，09-10 即因油价跳涨与美债收益率上行而回落——高贝塔标的在利率冲击下的典型表现。另有两条负面扰动：英特尔支持的初创企业 Kepler Computing 宣称要颠覆内存市场，以及 09-13 关于 AI 头部公司推动放缓扩张节奏的报道。
+**存储的基本面在报告周内没有变化，变化的是贴现率。** 全周跌 **-4.1%** 至 $975.26，重新跌回 $1,000 关口之下。09-09 存储股受行业对内存价格可能上涨六成的预期推动走强（据 Invezz 报道），09-10 即因油价跳涨与美债收益率上行而回落——高贝塔标的在利率冲击下的典型表现。另有两条负面扰动：英特尔支持的初创企业 Kepler Computing 宣称要颠覆内存市场，以及 09-13 关于 AI 头部公司推动放缓扩张节奏的报道。
 
-**公司层面唯一的新增信息，反而是对景气度最直接的确认。** Micron 于 **2026-09-11** 宣布，台湾直接生产员工的 FY2026 总奖励相当于 **35 至 68 个月** 薪资，最低现金报酬为新台币 **170 万元**——用薪酬而非指引的方式确认了这一年的盈利水平。FQ4 FY26 财报定于 **2026-09-30**，市场预期单季收入约 **$50.41B**、调整后每股收益约 **$30.89**；高盛维持中性评级与 $1,100 目标价。49 位分析师平均目标价 **$1,513.11**，前瞻市盈率仅 6.76 倍——市场仍在为"周期终将回归"预留折价（来源：[Reuters：台湾员工奖金最高 68 个月薪资](https://www.reuters.com/world/asia-pacific/microns-taiwan-workers-get-rewards-worth-up-68-months-pay-2026-09-11/) · [Barron's：Kepler Computing 冲击](https://www.barrons.com/articles/micron-stock-price-memory-chips-intel-e84cd499)）
+**公司层面唯一的新增信息，反而是对景气度最直接的确认。** Micron 于 **2026-09-11** 宣布，台湾直接生产员工的 FY2026 总奖励相当于 **35 至 68 个月** 薪资，最低现金报酬为新台币 **170 万元**——用薪酬而非指引的方式确认了这一年的盈利水平。公司已于 2026-08-26 官宣 FQ4 FY26（对应自然月 2026-06 至 2026-08）财报电话会定于 **2026-09-30** 山区时间下午 2:30 举行，市场预期单季收入约 **$50.41B**、调整后每股收益约 **$30.89**；高盛维持中性评级与 $1,100 目标价。截至 09-11，49 位分析师平均目标价 **$1,513.11**，前瞻市盈率仅 6.76 倍——市场仍在为"周期终将回归"预留折价（来源：[Micron IR：财报日公告](https://investors.micron.com/news/press-release/2026/Micron-Technology-to-Report-Fiscal-Fourth-Quarter-Results-on-September-30-2026/default.aspx) · [Reuters：台湾员工奖金最高 68 个月薪资](https://www.reuters.com/world/asia-pacific/microns-taiwan-workers-get-rewards-worth-up-68-months-pay-2026-09-11/) · [Barron's：Kepler Computing 冲击](https://www.barrons.com/articles/micron-stock-price-memory-chips-intel-e84cd499)）
 
 ## PayPal (PYPL)
 
