@@ -38,10 +38,10 @@
 | Meta | META | $648.03 | +5.1% | -1.7% | 📈 | 2026-10-28（预估） | 09-08 上线个人 AI 代理 Muse，09-10 摩根大通上调至增持、目标价 $820 |
 | Amazon | AMZN | $256.78 | -0.7% | +11.2% | ➡️ | 2026-10-29（预估） | 09-08 Mandiant 创始人 Kevin Mandia 获选入董事会，09-10 开放广告主投放 ChatGPT |
 | Apple | AAPL | $332.27 | +3.8% | +22.4% | 📈 | FQ4 FY26 预计 2026-10-29（预估） | 09-09 发布 $1,999 折叠屏 iPhone Duo，10-23 在 70 国开售 |
-| Micron | MU | $975.26 | -4.1% | +241.7% | 📉 | 2026-09-30（已官宣） | 09-10 因油价与利率回落跌破 $1,000，09-11 披露台湾员工奖金最高达 68 个月薪资 |
+| Micron | MU | $975.26 | -4.1% | +241.7% | 📉 | 2026-09-30（已官宣） | 09-10 因油价跳涨与美债收益率上行跌破 $1,000，09-11 披露台湾员工奖金最高达 68 个月薪资 |
 | PayPal | PYPL | $53.72 | -2.3% | -8.0% | ➡️ | 2026-10-27（预估） | 09-11 新任 CEO Lores 明确放弃出售、转为独立经营并大幅削减成本 |
 | Unity | U | $43.96 | +5.5% | -0.5% | 📈 | Q3 预计 2026-11（未公告） | 09-11 单日涨 4.49%，随高贝塔软件股在 CPI 后反弹并逼近周内高点 |
-| Hims & Hers | HIMS | $27.51 | -0.7% | -15.3% | 📉 | Q3 预计 2026-11（未公告） | 09-11 摩根大通以 Hold 起评、目标价 $32，证券集体诉讼首席原告截止日定于 11-02 |
+| Hims & Hers | HIMS | $27.51 | -0.7% | -15.3% | 📉 | Q3 预计 2026-11（未公告） | 09-11 摩根大通给予中性评级、目标价 $32，09-09 起原告律所密集征集集体诉讼 |
 
 注：股价 = 报告日上一交易日（2026-09-11）收盘；本周涨跌基准 = 2026-09-04 收盘；YTD 基准 = 2025-12-31 未复权收盘价。※ SPCX 于 2026-06-12 上市，无 2025-12-31 基准，该列为"上市以来"涨跌，基准 = $135（IPO 发行价）。🔔 = 财报日在报告日（2026-09-14）起 7 天内（含当日）；本期无此类公司。
 
@@ -51,9 +51,9 @@
 
 **重大负面事件**：
 
-- **Oracle 的问题不再是订单能不能拿到，而是钱从哪里来。** FQ1 FY27 单季资本开支 **$28.5B**、自由现金流 **−$5B**，公司在同一季度以 ATM 方式卖出 **$20B** 普通股补充资金。管理层称新签的 $30B AI 云合同多采用客户预付或自带硬件结构、不增加额外资本需求，但股价 09-11 高开 8% 后收跌 1.74%，说明卖方对"订单质量"的解释接受度有限。执行董事长 Ellison 于 09-11 披露、09-12 取消最多 $7.5B 的减持计划，进一步把注意力集中在资产负债表而非 RPO 上（来源：[Oracle 新闻稿：Q1 FY27 业绩](https://www.oracle.com/news/announcement/q1fy27-earnings-release-2026-09-10/) · [WSJ 报道](https://www.wsj.com/business/larry-ellison-scraps-plan-to-sell-up-to-7-5-billion-worth-of-oracle-stock-9f41edd2)）
-- **Nvidia 的监管风险从出口管制扩展到了反垄断。** 据纽约时报 2026-09-09 报道、Bloomberg 与 Axios 于 09-10 跟进，美国司法部正在调查公司与芯片初创企业 **Groq** 的非独家授权交易——交易金额 NYT 口径为 $17B、Bloomberg 口径为 $20B，结构上包含授权技术加聘用创始人 Jonathan Ross 等核心高管，而不构成正式收购。司法部已发出正式信息索取函。这类"授权 + 挖角"结构近两年在 AI 行业普遍使用，若被认定为规避审查，影响将超出单笔交易本身（来源：[Bloomberg 报道](https://www.bloomberg.com/news/articles/2026-09-10/doj-probes-nvidia-s-license-deal-with-groq-on-antitrust-concerns) · [Axios 报道](https://www.axios.com/2026/09/10/doj-nvidia-groq-antitrust)）
-- **Hims & Hers 的法律日程已经先于业务日程被排定。** 证券集体诉讼的首席原告申请截止日为 **2026-11-02**，多家原告律所在报告周内密集发布征集公告；摩根大通于 09-11 以 Hold 起评、目标价 $32。叠加 2026-07 联邦贸易委员会提起的欺骗性计费诉讼与此前 Visa 将其列入收单监控计划，公司同时面临诉讼、支付渠道与产品合规三条线（来源：[Kaplan Fox 公告（2026-09-11）](https://www.newsfilecorp.com/release/314014/Kaplan-Fox-Encourages-Hims-Hers-Health-Inc.-HIMS-Investors-to-Contact-the-Firm-Before-the-Deadline-on-November-2-2026-for-a-Leadership-Role) · [Hims IR：回应 FTC 诉讼](https://investors.hims.com/news/news-details/2026/Hims--Hers-Responds-to-FTC-Lawsuit/default.aspx)）
+- **Oracle 的问题不再是订单能不能拿到，而是钱从哪里来。** FQ1 FY27 单季资本开支 **$28.5B**、自由现金流 **−$5B**，公司在同一季度以 ATM 方式卖出 **$20B** 普通股补充资金。管理层称新签的 $30B AI 云合同多采用客户预付或自带硬件结构、不增加额外资本需求，但股价 09-11 高开 7.5%（盘中最高 +8.5%）后收跌 1.74%，说明卖方对"订单质量"的解释接受度有限。执行董事长 Ellison 于 09-11 披露、09-12 取消最多 $7.5B 的减持计划，进一步把注意力集中在资产负债表而非 RPO 上（来源：[Oracle 新闻稿：Q1 FY27 业绩](https://www.oracle.com/news/announcement/q1fy27-earnings-release-2026-09-10/) · [WSJ 报道](https://www.wsj.com/business/larry-ellison-scraps-plan-to-sell-up-to-7-5-billion-worth-of-oracle-stock-9f41edd2)）
+- **Nvidia 的监管风险从出口管制扩展到了反垄断。** 据纽约时报 2026-09-09 报道、Bloomberg 与 Axios 于 09-10 跟进，美国司法部正在调查公司与芯片初创企业 **Groq** 的非独家授权交易——交易金额 NYT 口径为 $17B、Bloomberg 口径为 $20B，结构上包含授权技术加聘用创始人 Jonathan Ross 等核心高管，而不构成正式收购。司法部已发出正式信息索取函。这类"授权 + 挖角"结构自 2024 年起在 AI 行业普遍使用，若被认定为规避审查，影响将超出单笔交易本身（来源：[Bloomberg 报道](https://www.bloomberg.com/news/articles/2026-09-10/doj-probes-nvidia-s-license-deal-with-groq-on-antitrust-concerns) · [Axios 报道](https://www.axios.com/2026/09/10/doj-nvidia-groq-antitrust)）
+- **Hims & Hers 的法律日程已经先于业务日程被排定。** 证券集体诉讼的首席原告申请截止日为 **2026-11-02**，多家原告律所在报告周内密集发布征集公告；摩根大通于 09-11 给予中性评级、目标价 $32。叠加 2026-07 联邦贸易委员会提起的欺骗性计费诉讼与此前 Visa 将其列入收单监控计划，公司同时面临诉讼、支付渠道与产品合规三条线（来源：[Kaplan Fox 公告（2026-09-11）](https://www.newsfilecorp.com/release/314014/Kaplan-Fox-Encourages-Hims-Hers-Health-Inc.-HIMS-Investors-to-Contact-the-Firm-Before-the-Deadline-on-November-2-2026-for-a-Leadership-Role) · [Hims IR：回应 FTC 诉讼](https://investors.hims.com/news/news-details/2026/Hims--Hers-Responds-to-FTC-Lawsuit/default.aspx)）
 - **能源价格正在成为整个组合的共同贴现因子。** WTI 全周涨 **9.4%** 至 $100.05、布伦特涨 **8.7%** 至 $104.61，直接结果是 8 月核心 CPI 超预期、9 月加息概率升至约 90%。组合内久期最长的三只（Palantir、Unity、Hims & Hers）本周合计跑输标普 500，而现金流确定性高的 Apple 与 Alphabet 相对抗跌——这是利率敏感度差异的直接体现，与各自基本面无关（来源：[CNBC 原油报道](https://www.cnbc.com/2026/09/11/oil-price-today-iran-brent-wti-trump.html) · [TheStreet 收盘综述](https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-11-2026)）
 
 ## ⭐ Tesla (TSLA) — 重点关注
