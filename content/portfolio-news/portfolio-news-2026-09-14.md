@@ -110,13 +110,13 @@
 
 **股价：** $218.29（本周 -5.2%，YTD +17.1%）｜**情绪：** 📉｜**下次财报：** Q3 FY27 预计 2026-11（未公告）
 
-**Nvidia 第一次在自己的主场被同业全面跑输，原因不在需求而在监管。** 据纽约时报 2026-09-09 报道、Bloomberg 与 Axios 于 09-10 跟进，美国司法部正调查公司与 **Groq** 的非独家授权交易是否刻意规避并购审查——交易于 2025-12 宣布，NYT 口径金额 **$17B**、Bloomberg 口径 $20B，结构为授权技术加聘用创始人 Jonathan Ross 等高管而不收购主体。司法部已发出正式信息索取函。全周跌 **-5.2%** 收 **$218.29**，Barron's 以"被芯片同业甩在身后"概括这一周。
+**Nvidia 第一次在自己的主场被同业全面跑输，原因不在需求而在监管。** 据纽约时报 2026-09-09 报道、Bloomberg 与 Axios 于 09-10 跟进，美国司法部正调查公司与 **Groq** 的非独家授权交易是否刻意规避并购审查——交易于 2025-12 宣布，NYT 口径金额 **$17B**、Bloomberg 口径 $20B，结构为授权技术加聘用创始人等核心高管而不收购主体。全周跌 **-5.2%** 收 $218.29，Barron's 以"被芯片同业甩在身后"概括这一周。
 
 **管理层给出的需求口径比任何时候都更激进，但股价没有响应。** 首席执行官黄仁勋在 09-10 的高盛 Communacopia 会议上重申，AI 基础设施支出到 2030 年将达 **$3T–$4T**，并解释公司下一财年仍可实现约 70% 的收入增长；他还用"投入 $1 收回 $100"回应关于为客户提供融资的质疑。市场对这套说法的反应是当日跌超 2%——叙事的边际说服力正在下降。
 
 **资本动作仍在加速，这是理解其估值的关键。** 据 Reuters 于 2026-09-11 报道，公司正洽谈以最多 **$10B** 成为 Anthropic 首次公开发行的基石投资者；此前已于 2026-09-03 宣布以约 $12.9B 收购 Hugging Face。同期与 Palantir 达成主权 AI 供应链合作。
 
-**内部人的动作方向与公司的资本动作相反，这是本期新增的一处噪音。** 据 SEC Form 4 披露并在报告周内被广泛报道，董事 Mark Stevens 旗下信托于 2026-08-31 至 09-02 分批卖出 1,848,501 股（成交价区间 $220.06–$226.27、合计约 **$410.8M**），为公司史上金额最大的一笔内幕卖出。截至 2026-09-11，60 位分析师共识评级"强力买入"、平均目标价 **$327.65**（来源：[Bloomberg：DOJ 调查 Groq 交易](https://www.bloomberg.com/news/articles/2026-09-10/doj-probes-nvidia-s-license-deal-with-groq-on-antitrust-concerns) · [Reuters：洽谈投资 Anthropic IPO](https://www.reuters.com/legal/transactional/nvidia-talks-invest-anthropics-mega-ipo-sources-say-2026-09-11/) · [TechCrunch：黄仁勋解释 70% 增长](https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/) · [Investing.com：Stevens 卖出 $410.8M（依据 Form 4）](https://www.investing.com/news/insider-trading-news/nvidia-director-mark-stevens-sells-4108-million-in-company-stock-93CH-4888075)）
+**内部人的动作方向与公司的资本动作相反，这是本期新增的一处噪音。** 据 SEC Form 4 披露并在报告周内被广泛报道，董事 Mark Stevens 旗下信托于 2026-08-31 至 09-02 分批卖出 1,848,501 股、合计约 **$410.8M**，为公司史上金额最大的一笔内幕卖出。截至 2026-09-11，60 位分析师共识评级"强力买入"、平均目标价 **$327.65**（来源：[Bloomberg：DOJ 调查 Groq 交易](https://www.bloomberg.com/news/articles/2026-09-10/doj-probes-nvidia-s-license-deal-with-groq-on-antitrust-concerns) · [Reuters：洽谈投资 Anthropic IPO](https://www.reuters.com/legal/transactional/nvidia-talks-invest-anthropics-mega-ipo-sources-say-2026-09-11/) · [TechCrunch：黄仁勋解释 70% 增长](https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/) · [Investing.com：Stevens 卖出 $410.8M（依据 Form 4）](https://www.investing.com/news/insider-trading-news/nvidia-director-mark-stevens-sells-4108-million-in-company-stock-93CH-4888075)）
 
 ## Palantir (PLTR)
 
