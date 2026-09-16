@@ -84,13 +84,13 @@
 
 **股价：** $151.21（本周 +2.2%，上市以来 +12.0%）｜**情绪：** 📈｜**下次财报：** Q3 预计 2026-11（未公告）
 
-**SpaceX 正在被重新分类：从发射服务商变成算力供应商，而市场刚开始接受这个标签。** 首席财务官 **Bret Johnsen** 于 **2026-09-10** 在高盛 Communacopia 会议上披露，公司新签一笔 AI 算力托管合同，月度金额超过 **$10 亿**（按年化约 $13B），客户身份未披露。这是继此前多笔算力合作之后规模最大的一笔，也直接支撑了管理层对 **$100B** 年化收入目标在 2026 年底达成的信心。公司当前三个经营分部为 Space、Connectivity 与 AI，AI 已不再是附属项。
+**SpaceX 正在被重新分类：从发射服务商变成算力供应商，而市场刚开始接受这个标签。** 首席财务官 **Bret Johnsen** 于 2026-09-10 在高盛 Communacopia 会议上披露，公司新签一笔 AI 算力托管合同，自 **2026-12-01** 起按月计费 **$11.1 亿**（年化逾 $13B），客户身份未披露。这是继此前多笔算力合作之后规模最大的一笔，也直接支撑了管理层对 **$100B** 年化收入目标在 2026 年底达成的信心。公司当前三个经营分部为 Space、Connectivity 与 AI，AI 已不再是附属项。
 
-**Starship 的商业化进度，是这套算力叙事能否成立的前置条件。** Johnsen 在同场会议上确认，**Flight 14** 将是首次产生收入的飞行，目前定于 **2026-09-18** 发射，携带约 20 颗运营型 Starlink V3 卫星——这是 Starship 首次搭载真实商业载荷。轨道算力的发射窗口被管理层指向 2027 年。对一家把 2027 年底算力目标定在 15–20 吉瓦的公司而言，运力本身就是产能。
+**Starship 的商业化进度，是这套算力叙事能否成立的前置条件。** Johnsen 在同场会议上确认，**Flight 14** 将是首次产生收入的飞行；按美国联邦航空管理局公布的窗口，该次发射定于 **2026-09-18**，携带约 20 颗运营型 Starlink V3 卫星——这是 Starship 首次搭载真实商业载荷。轨道算力的发射窗口被管理层指向 2027 年。对一家把 2027 年底算力目标定在 15–20 吉瓦的公司而言，运力本身就是产能。
 
-**技术面本周的主导变量是解禁而不是基本面。** 第三批锁定期于 **2026-09-09** 释放至多 **3.19 亿股** A 类股，当日股价一度跌 5%；全周仍涨 **+2.2%** 收 **$151.21**，说明承接力量高于预期。同期两条事件强化了政府侧需求：英国累计在 SpaceX 卫星服务上支出近 **$4,000 万**（Reuters 于 09-10 报道），而公司就德州 Terafab 项目的税收优惠档案公开问题起诉了德州总检察长。
+**技术面在报告周内的主导变量是解禁而不是基本面。** 第三批锁定期于 2026-09-09 释放至多 **3.19 亿股** A 类股，当日股价收跌约 **3.9%**；全周仍涨 **+2.2%** 收 $151.21，说明承接力量高于预期。同期两条事件强化了政府侧需求：英国累计在 SpaceX 卫星服务上支出近 **$4,000 万**（据 Reuters 于 09-10 报道），而公司就德州 Terafab 项目的税收优惠档案公开问题起诉了德州总检察长。
 
-**卖方的分歧不在方向，而在应该用什么估值框架。** 36 位分析师共识评级为"买入"、平均目标价 **$220.68**，较 09-11 收盘有 45.94% 空间；Barron's 于 09-13 发文承认其 6 月给出的每股约 $90 的估值过低。同时据 The Information 报道，公司正在调整数据中心建设方案。当一家公司的估值分歧来自"它到底是什么行业"，波动率就不会因为业绩兑现而收敛（来源：[TheFly：CFO 称 Flight 14 将产生收入](https://www.tipranks.com/news/the-fly/spacex-cfo-says-flight-14-later-this-month-to-be-revenue-generating-thefly-news) · [Business Insider：超 $1B/月 算力合同](https://www.businessinsider.com/spacex-strikes-billion-a-month-compute-deal-with-mystery-customer-2026-9) · [Reuters：英国采购卫星服务](https://www.reuters.com/business/media-telecom/uk-deepens-reliance-musks-spacex-spending-nearly-40-million-satellite-services-2026-09-10/)）
+**卖方的分歧不在方向，而在应该用什么估值框架。** 截至 2026-09-11，36 位分析师共识评级为"买入"、平均目标价 **$220.68**，较 09-11 收盘有 45.94% 空间；Barron's 于 09-13 发文承认其 2026-06 给出的每股约 $90 的估值过低。同时据 The Information 报道，公司正在调整数据中心建设方案。当一家公司的估值分歧来自"它到底是什么行业"，波动率就不会因为业绩兑现而收敛（来源：[SEC：SPCX CFO 访谈 FWP 文件](https://www.sec.gov/Archives/edgar/data/0001181412/000162828026041761/fwp_cfointerview.htm) · [Business Insider：逾 $1B/月 算力合同](https://www.businessinsider.com/spacex-strikes-billion-a-month-compute-deal-with-mystery-customer-2026-9) · [Reuters：英国采购卫星服务](https://www.reuters.com/business/media-telecom/uk-deepens-reliance-musks-spacex-spending-nearly-40-million-satellite-services-2026-09-10/)）
 
 ## ⭐ Oracle (ORCL) — 重点关注
 
