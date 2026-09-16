@@ -136,9 +136,11 @@
 
 **股价：** $648.03（本周 +5.1%，YTD -1.7%）｜**情绪：** 📈｜**下次财报：** 2026-10-28（预估）
 
-**Meta 用一个消费级 AI 产品，回应了市场关于"资本开支换不来收入"的核心质疑。** 公司于 **2026-09-08** 推出个人 AI 代理 **Muse**，可代用户发邮件、订票、完成购物与支付；09-09 股价涨约 5%，09-10 该应用升至美国应用商店第二名，管理层称早期需求"远超预期"。摩根大通分析师据此推荐买入，理由是它标志着消费级 AI 应用取得可验证进展——这正是过去四个季度压制估值的那个变量。全周涨 **+5.1%** 收 **$648.03**，年内跌幅收窄至 -1.7%。
+**Meta 用一个消费级 AI 产品，回应了市场关于"资本开支换不来收入"的核心质疑。** 公司于 2026-09-08 推出个人 AI 代理 **Muse**，可代用户发邮件、订票、完成购物与支付；09-09 股价涨约 5%，据 TechCrunch 于 09-10 报道该应用已升至美国应用商店第二名（摩根大通同日研报记录为上线次日第三、早期使用量为训练队列的 10 倍），管理层称早期需求"远超预期"。全周涨 **+5.1%** 收 $648.03，年内跌幅收窄至 -1.7%。
 
-**产品成功的同时，监管与人才两条线的压力都在加重。** 治理端，Meta 监督委员会于 09-11 至 09-12 公开要求公司不要以社区笔记（Community Notes）取代第三方事实核查；葡萄牙数字权利组织 D3 于 09-10 就"成瘾性设计"起诉 Facebook、Instagram、TikTok 与 YouTube。人才端，据 WSJ 于 09-09 报道，明星 AI 研究员 Andrew Tulloch 在获得十亿美元级薪酬包不到一年后离职。公司董事会于 **2026-09-10** 宣布季度现金股息 **$0.525/股**（来源：[PRNewswire：Meta 宣布季度股息](https://www.prnewswire.com/news-releases/meta-announces-quarterly-cash-dividend-302875821.html) · [Reuters：Muse 代理上线](https://www.reuters.com/business/meta-launches-ai-agent-that-can-access-other-apps-send-emails-make-payments-2026-09-08/) · [MarketWatch 报道](https://www.marketwatch.com/story/meta-is-winning-over-wall-street-with-its-new-muse-ai-agent-0700ca87)）
+**卖方的响应不是措辞升级，而是一次完整的评级升档。** 摩根大通分析师 Doug Anmuth 于 **2026-09-10** 将评级由中性上调至增持、目标价由 $640 上调至 **$820**，理由是 Meta 的超级智能实验室已在一年内基本达成"进入前沿"的目标，模型发布节奏持续加快。值得注意的是，他明确表示 Muse 的近期重点不是变现——这意味着这次上调定价的是能力而不是收入。
+
+**产品成功的同时，监管与人才两条线的压力都在加重。** 治理端，Meta 监督委员会于 09-11 至 09-12 公开要求公司不要以社区笔记（Community Notes）取代第三方事实核查；葡萄牙数字权利组织 D3 于 09-10 就"成瘾性设计"起诉 Facebook、Instagram、TikTok 与 YouTube。人才端，据 WSJ 于 09-09 报道，明星 AI 研究员 Andrew Tulloch 在获得十亿美元级薪酬包不到一年后离职。公司董事会于 2026-09-10 宣布季度现金股息 **$0.525/股**（来源：[PRNewswire：Meta 宣布季度股息](https://www.prnewswire.com/news-releases/meta-announces-quarterly-cash-dividend-302875821.html) · [Reuters：Muse 代理上线](https://www.reuters.com/business/meta-launches-ai-agent-that-can-access-other-apps-send-emails-make-payments-2026-09-08/) · [MarketWatch：摩根大通上调评级](https://www.marketwatch.com/story/meta-is-winning-over-wall-street-with-its-new-muse-ai-agent-0700ca87) · [TechCrunch：Muse 升至美国应用榜第二](https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/)）
 
 ## Amazon (AMZN)
 
