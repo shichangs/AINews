@@ -54,13 +54,13 @@
 - **Oracle 的问题不再是订单能不能拿到，而是钱从哪里来。** FQ1 FY27 单季资本开支 **$28.5B**、自由现金流 **−$5B**，公司在同一季度以 ATM 方式卖出 **$20B** 普通股补充资金。管理层称新签的 $30B AI 云合同多采用客户预付或自带硬件结构、不增加额外资本需求，但股价 09-11 高开 7.5%（盘中最高 +8.5%）后收跌 1.74%，说明卖方对"订单质量"的解释接受度有限。执行董事长 Ellison 于 09-11 披露、09-12 取消最多 $7.5B 的减持计划，进一步把注意力集中在资产负债表而非 RPO 上（来源：[Oracle 新闻稿：Q1 FY27 业绩](https://www.oracle.com/news/announcement/q1fy27-earnings-release-2026-09-10/) · [WSJ 报道](https://www.wsj.com/business/larry-ellison-scraps-plan-to-sell-up-to-7-5-billion-worth-of-oracle-stock-9f41edd2)）
 - **Nvidia 的监管风险从出口管制扩展到了反垄断。** 据纽约时报 2026-09-09 报道、Bloomberg 与 Axios 于 09-10 跟进，美国司法部正在调查公司与芯片初创企业 **Groq** 的非独家授权交易——交易金额 NYT 口径为 $17B、Bloomberg 口径为 $20B，结构上包含授权技术加聘用创始人 Jonathan Ross 等核心高管，而不构成正式收购。司法部已发出正式信息索取函。这类"授权 + 挖角"结构自 2024 年起在 AI 行业普遍使用，若被认定为规避审查，影响将超出单笔交易本身（来源：[Bloomberg 报道](https://www.bloomberg.com/news/articles/2026-09-10/doj-probes-nvidia-s-license-deal-with-groq-on-antitrust-concerns) · [Axios 报道](https://www.axios.com/2026/09/10/doj-nvidia-groq-antitrust)）
 - **Hims & Hers 的法律日程已经先于业务日程被排定。** 证券集体诉讼的首席原告申请截止日为 **2026-11-02**，多家原告律所在报告周内密集发布征集公告；摩根大通于 09-11 给予中性评级、目标价 $32。叠加 2026-07 联邦贸易委员会提起的欺骗性计费诉讼与此前 Visa 将其列入收单监控计划，公司同时面临诉讼、支付渠道与产品合规三条线（来源：[Kaplan Fox 公告（2026-09-11）](https://www.newsfilecorp.com/release/314014/Kaplan-Fox-Encourages-Hims-Hers-Health-Inc.-HIMS-Investors-to-Contact-the-Firm-Before-the-Deadline-on-November-2-2026-for-a-Leadership-Role) · [Hims IR：回应 FTC 诉讼](https://investors.hims.com/news/news-details/2026/Hims--Hers-Responds-to-FTC-Lawsuit/default.aspx)）
-- **能源价格正在成为整个组合的共同贴现因子。** WTI 全周涨 **9.4%** 至 $100.05、布伦特涨 **8.7%** 至 $104.61，直接结果是 8 月核心 CPI 超预期、9 月加息概率升至约 90%。组合内久期最长的三只（Palantir、Unity、Hims & Hers）本周合计跑输标普 500，而现金流确定性高的 Apple 与 Alphabet 相对抗跌——这是利率敏感度差异的直接体现，与各自基本面无关（来源：[CNBC 原油报道](https://www.cnbc.com/2026/09/11/oil-price-today-iran-brent-wti-trump.html) · [TheStreet 收盘综述](https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-11-2026)）
+- **能源价格正在成为整个组合的共同贴现因子。** WTI 全周涨 **9.4%** 至 $100.05、布伦特涨 **8.7%** 至 $104.61，直接结果是 8 月核心 CPI 环比超预期、9 月加息概率升至约 90%。组合内久期最长的标的中，Palantir 全周跌 **4.1%**、跑输标普 500 的 -0.8%，Micron 同样跌 4.1%；但 Unity 因 CPI 公布后的高贝塔反弹逆势涨 5.5%，说明利率敏感度只解释了一部分，个股事件仍是主导变量（来源：[CNBC 原油报道](https://www.cnbc.com/2026/09/11/oil-price-today-iran-brent-wti-trump.html) · [TheStreet 收盘综述](https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-11-2026)）
 
 ## ⭐ Tesla (TSLA) — 重点关注
 
 **股价：** $365.44（本周 +3.2%，YTD -18.8%）｜**情绪：** 📈｜**下次财报：** Q3 预计 2026-10-21（预估）
 
-**Tesla 本周把叙事重心从 Robotaxi 挪回了硬件，这是一次风险更低的选择。** 上周 Cybercab 上线遭遇 NHTSA 审计问询后，公司本周的三条主要信息全部与可交付的实体产品有关：09-11 确认 **Semi** 电动重卡将于 2027 年进入欧洲并开始交付，09-12 在官网挂出倒计时、预告二代 **Roadster** 于 **2026-10-01** 发布，同期在中国上线 Model Y Performance。硬件节奏由产线决定，不需要监管放行，这是与 Robotaxi 最本质的区别。
+**Tesla 本周把叙事重心从 Robotaxi 挪回了硬件，这是一次风险更低的选择。** 2026-09-03 Cybercab 上线并随即遭遇 NHTSA 审计问询之后，公司在报告周内的三条主要信息全部与可交付的实体产品有关：09-11 确认 **Semi** 电动重卡将于 2027 年进入欧洲并开始交付，09-12 在官网挂出倒计时、预告二代 **Roadster** 于 **2026-10-01** 发布，同期在中国上线 Model Y Performance。硬件节奏由产线决定，不需要监管放行，这是与 Robotaxi 最本质的区别。
 
 **卖方对 Semi 的重估幅度，远大于对整车业务的重估幅度。** 摩根士丹利分析师 Andrew Percoco 于 09-12 将牛市情景目标价由 $820 上调至 **$840**，理由是货运团队对自动驾驶重卡的判断转向积极；但同一分析师维持持有评级与 **$400** 的基准目标价。这种"牛市情景大幅上调、基准情景不动"的组合，说明机构把 Semi 当作期权而非现金流。柴油价格创新高进一步强化了重卡电动化的经济性论据。
 
@@ -74,11 +74,11 @@
 
 **AMD 这一周终于用自己的口径驱动了自己的股价，而不是跟着 Nvidia 的新闻涨。** 首席财务官 **Jean Hu** 于 **2026-09-08** 在花旗 2026 全球 TMT 会议上表示，公司 2030 年可及市场（TAM）可达 **$2T 至 $3T**——此前公司自 2026-07 的 Advancing AI 活动起一直沿用约 $2T 的口径。当日股价涨 6.45%，是上修口径后的直接反应。全周涨 **+8.1%**，同期 Nvidia 跌 5.2%，两者之差超过 13 个百分点。
 
-**支撑这次重估的不是 GPU，而是被长期低估的 CPU 基本盘。** Stifel 分析师 Ruben Roy 在 09-11 的报告中把买入理由明确为"EPYC 放量的持续性"；花旗分析师 Atif Malik 则于 09-10 前后以 **$237B** 的 CPU 市场规模为基础，称 AMD 是 CPU 市场复苏的关键受益者。这一组论据的价值在于，它把 AMD 的增长与 AI 训练需求的周期部分脱钩——服务器 CPU 的替换需求受 AI 数据中心建设拉动，但不直接与加速卡份额竞争挂钩。
+**支撑这次重估的不是 GPU，而是被长期低估的 CPU 基本盘。** Stifel 分析师 Ruben Roy 在 09-11 的报告中把买入理由明确为"EPYC 放量的持续性"；花旗分析师 Atif Malik 则在报告周内以 **$237B** 的 CPU 市场规模为基础，称 AMD 是 CPU 市场复苏的关键受益者。这一组论据的价值在于，它把 AMD 的增长与 AI 训练需求的周期部分脱钩——服务器 CPU 的替换需求受 AI 数据中心建设拉动，但不直接与加速卡份额竞争挂钩。
 
-**新覆盖的集中出现，说明卖方定价仍在追赶而非领先。** Piper Sandler 分析师 David O'Connor 于 **2026-09-10** 首次覆盖，给予增持评级与 **$600** 目标价，同时对高通给出持有；55 位分析师的共识评级为"强力买入"，平均目标价 **$615.07**，较 09-11 收盘仍有 19.17% 空间。在一只年内已涨 141.0% 的股票上，共识目标价仍高出现价近两成，是典型的估值追赶形态，也意味着下修风险更集中在少数几家机构手里。
+**新覆盖的集中出现，说明卖方定价仍在追赶而非领先。** Piper Sandler 分析师 David O'Connor 于 2026-09-10 首次覆盖，给予增持评级与 **$600** 目标价，同时对高通给出持有；截至 2026-09-11，55 位分析师的共识评级为"强力买入"，平均目标价 **$615.07**，较 09-11 收盘仍有 19.17% 空间。在一只年内已涨 141.0% 的股票上，共识目标价仍高出现价近两成，是典型的估值追赶形态，也意味着下修风险更集中在少数几家机构手里。
 
-**风险来自需求侧的口径本身，而不是竞争格局。** 2026-09-13 有报道称 Anthropic 与 OpenAI 的高层正在推动放缓 AI 扩张节奏，Micron、Nvidia、AMD 被点名为潜在受影响标的。公司层面的支撑仍然稳固——Q2 2026 数据中心收入同比 +107% 至 **$6.72B**、占总收入 58%，管理层称 2027 年数据中心收入将翻倍以上，且晶圆、先进封装与 HBM 三个环节供给全面偏紧。真正需要盯的是这套增长叙事的兑现节奏，而不是它是否成立（来源：[AMD 花旗 TMT 会议纪要](https://stockanalysis.com/stocks/amd/transcripts/736068-citi-s-2026-global-tmt-conference/) · [AMD 高盛 Communacopia 会议纪要](https://stockanalysis.com/stocks/amd/transcripts/738878-goldman-sachs-communacopia-technology-conference-2026/) · [Motley Fool：TAM 上调至 $3T](https://www.fool.com/investing/2026/09/12/amd-just-raised-the-top-of-the-company-s-2030-market-to-usd3-trillion/)）
+**风险来自需求侧的口径本身，而不是竞争格局。** 据 Invezz 于 2026-09-13 报道，Anthropic 与 OpenAI 的高层正在推动放缓 AI 扩张节奏，Micron、Nvidia、AMD 被点名为潜在受影响标的。公司层面的支撑仍然稳固——Q2 2026 数据中心收入同比 +107% 至 **$6.72B**、占总收入 58%，管理层称 2027 年数据中心收入将翻倍以上，且晶圆、先进封装与 HBM 三个环节供给全面偏紧。真正需要盯的是这套增长叙事的兑现节奏，而不是它是否成立（来源：[AMD 花旗 TMT 会议纪要](https://stockanalysis.com/stocks/amd/transcripts/736068-citi-s-2026-global-tmt-conference/) · [AMD 高盛 Communacopia 会议纪要](https://stockanalysis.com/stocks/amd/transcripts/738878-goldman-sachs-communacopia-technology-conference-2026/) · [Motley Fool：TAM 上调至 $3T](https://www.fool.com/investing/2026/09/12/amd-just-raised-the-top-of-the-company-s-2030-market-to-usd3-trillion/)）
 
 ## ⭐ SpaceX (SPCX) — 重点关注
 
