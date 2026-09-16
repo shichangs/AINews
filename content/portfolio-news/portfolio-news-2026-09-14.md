@@ -148,9 +148,9 @@
 
 **股价：** $256.78（本周 -0.7%，YTD +11.2%）｜**情绪：** ➡️｜**下次财报：** 2026-10-29（预估）
 
-**Amazon 在报告周内的动作集中在把既有流量变现，而不是扩大基础设施口径。** 广告端，公司于 2026-09-10 与 OpenAI 合作，允许部分美国品牌在 ChatGPT 内投放广告——这是把自有广告主资源接入第三方分发渠道的首次尝试；同日宣布在 Prime Video 内打通"边看边买"。零售端，据 TheFly 报道公司将在未来一年于 Whole Foods 追加投入超过 **$2.3 亿** 用于薪酬与福利，背景是该连锁的工会化推进。治理端，8-K 载明董事会于 **2026-09-08** 选举 Mandiant 创始人 **Kevin Mandia** 为董事并加入审计与安全委员会。卫星侧，Amazon Leo 于 09-09 向 Arianespace 追加 6 次 Ariane 6 发射订单，累计合同发射次数由 18 次增至 **24 次**。全周微跌 **-0.7%** 收 $256.78。
+**Amazon 在报告周内的动作集中在把既有流量变现，而不是扩大基础设施口径。** 广告端，公司于 2026-09-10 与 OpenAI 合作，允许部分美国品牌在 ChatGPT 内投放广告——这是把自有广告主资源接入第三方分发渠道的首次尝试，同日还在 Prime Video 内打通"边看边买"。治理端，8-K 载明董事会于 **2026-09-08** 选举 Mandiant 创始人 **Kevin Mandia** 为董事并加入审计与安全委员会。卫星侧，Amazon Leo 于 09-09 向 Arianespace 追加 6 次 Ariane 6 发射订单，累计合同发射次数由 18 次增至 **24 次**。全周微跌 **-0.7%** 收 $256.78。
 
-**AWS 的资本开支正在遭遇地方财政层面的逆风，这是新增的分部级风险。** 据 WSJ 于 09-08 报道，多州正在重新审视甚至撕毁给数据中心的长期税收减免协议，Amazon、Meta、Google 均在其列；公司在俄亥俄州近 **$400 亿** 的数据中心建设正处在这一审视范围内。需要说明的是，这属于 AWS 分部的建设成本变量，与合并口径的零售利润率、以及 Leo 卫星业务的资本开支都不应混用——三者在同一份财报里分属不同披露层级（来源：[SEC EDGAR：AMZN 8-K（2026-09-08）](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000036/amzn-20260908.htm) · [CNBC：开放广告主投放 ChatGPT](https://www.cnbc.com/2026/09/10/amazon-chatgptads-open-ai.html) · [Reuters：追加 Ariane 6 订单](https://www.reuters.com/business/media-telecom/europes-ariane-wins-amazon-boost-space-gathering-2026-09-09/)）
+**AWS 的资本开支正在遭遇地方财政层面的逆风，这是新增的分部级风险。** 据 WSJ 于 09-08 报道，多州正在重新审视甚至撕毁给数据中心的长期税收减免协议，Amazon、Meta、Google 均在其列；公司在俄亥俄州近 **$400 亿** 的数据中心建设正处在这一审视范围内。需要说明的是，这属于 AWS 分部的建设成本变量，与合并口径的零售利润率不应混用（来源：[SEC EDGAR：AMZN 8-K（2026-09-08）](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000036/amzn-20260908.htm) · [CNBC：开放广告主投放 ChatGPT](https://www.cnbc.com/2026/09/10/amazon-chatgptads-open-ai.html) · [Reuters：追加 Ariane 6 订单](https://www.reuters.com/business/media-telecom/europes-ariane-wins-amazon-boost-space-gathering-2026-09-09/)）
 
 ## Apple (AAPL)
 
@@ -166,7 +166,7 @@
 
 **存储的基本面在报告周内没有变化，变化的是贴现率。** 全周跌 **-4.1%** 至 $975.26，重新跌回 $1,000 关口之下。09-09 存储股受行业对内存价格可能上涨六成的预期推动走强（据 Invezz 报道），09-10 即因油价跳涨与美债收益率上行而回落——高贝塔标的在利率冲击下的典型表现。另有两条负面扰动：英特尔支持的初创企业 Kepler Computing 宣称要颠覆内存市场，以及 09-13 关于 AI 头部公司推动放缓扩张节奏的报道。
 
-**公司层面唯一的新增信息，反而是对景气度最直接的确认。** Micron 于 **2026-09-11** 宣布，台湾直接生产员工的 FY2026 总奖励相当于 **35 至 68 个月** 薪资，最低现金报酬为新台币 **170 万元**——用薪酬而非指引的方式确认了这一年的盈利水平。公司已于 2026-08-26 官宣 FQ4 FY26（对应自然月 2026-06 至 2026-08）财报电话会定于 **2026-09-30** 山区时间下午 2:30 举行，市场预期单季收入约 **$50.41B**、调整后每股收益约 **$30.89**；高盛维持中性评级与 $1,100 目标价。截至 09-11，49 位分析师平均目标价 **$1,513.11**，前瞻市盈率仅 6.76 倍——市场仍在为"周期终将回归"预留折价（来源：[Micron IR：财报日公告](https://investors.micron.com/news/press-release/2026/Micron-Technology-to-Report-Fiscal-Fourth-Quarter-Results-on-September-30-2026/default.aspx) · [Reuters：台湾员工奖金最高 68 个月薪资](https://www.reuters.com/world/asia-pacific/microns-taiwan-workers-get-rewards-worth-up-68-months-pay-2026-09-11/) · [Barron's：Kepler Computing 冲击](https://www.barrons.com/articles/micron-stock-price-memory-chips-intel-e84cd499)）
+**公司层面唯一的新增信息，反而是对景气度最直接的确认。** Micron 于 2026-09-11 宣布，台湾直接生产员工的 FY2026 总奖励相当于 **35 至 68 个月** 薪资，最低现金报酬为新台币 170 万元——用薪酬而非指引的方式确认了这一年的盈利水平。公司已于 2026-08-26 官宣 FQ4 FY26（对应自然月 2026-06 至 2026-08）财报电话会定于 **2026-09-30** 举行，市场预期单季收入约 $50.41B、调整后每股收益约 $30.89；高盛维持中性评级与 $1,100 目标价。截至 09-11，49 位分析师平均目标价 $1,513.11，前瞻市盈率仅 **6.76 倍**——市场仍在为"周期终将回归"预留折价（来源：[Micron IR：财报日公告](https://investors.micron.com/news/press-release/2026/Micron-Technology-to-Report-Fiscal-Fourth-Quarter-Results-on-September-30-2026/default.aspx) · [Reuters：台湾员工奖金最高 68 个月薪资](https://www.reuters.com/world/asia-pacific/microns-taiwan-workers-get-rewards-worth-up-68-months-pay-2026-09-11/) · [Barron's：Kepler Computing 冲击](https://www.barrons.com/articles/micron-stock-price-memory-chips-intel-e84cd499)）
 
 ## PayPal (PYPL)
 
@@ -182,7 +182,7 @@
 
 **Unity 的涨幅完全来自市场风格，而不是公司公告——这本身就是它眼下定价状态的说明。** 报告周内公司没有发布 T1 级重大公告，股价却涨 **+5.5%** 至 $43.96，其中 09-11 单日涨 **4.49%**，与 CPI 公布后高贝塔软件股的反弹同步（公司贝塔为 2.06）。年内涨跌收窄至 **-0.5%**，基本回到起点，但距 52 周低点 $16.78 已翻逾一倍。
 
-**支撑这轮反弹的是 Vector 广告平台在 Q2 留下的预期缺口。** 公司 **2026-08-06** 发布的 Q2 2026 财报显示，战略收入同比增长 38%、调整后 EBITDA 增长 77%，管理层称为"公司最好的一个季度"，并把盈利目标提前；此后包括 Needham（目标价升至 $54）、BofA 与 Deutsche Bank（均上调至买入）在内的十余家机构集中上修。按 Stockanalysis.com 截至 2026-09-11 的统计，26 位分析师共识评级为"强力买入"、平均目标价 **$49.39**（口径不同的机构汇总存在差异，MarketBeat 同期为 23 家、$45.16）。在没有新增催化剂的一周里，股价靠上一份财报的余温上涨，意味着 Q3 财报的验证压力会更集中（来源：[Business Wire：Unity 2026 年第二季度财报](https://www.businesswire.com/news/home/20260806640439/en/Unity-Reports-Second-Quarter-2026-Financial-Results/) · [TheFly：Needham 上调目标价至 $54](https://www.tipranks.com/news/the-fly/unity-price-target-raised-to-54-from-40-at-needham-thefly-news)）
+**支撑这轮反弹的是 Vector 广告平台在 Q2 留下的预期缺口。** 公司 2026-08-06 发布的 Q2 2026 财报显示，战略收入同比增长 **38%**、调整后 EBITDA 增长 77%，此后包括 Needham（目标价升至 $54）、BofA 与 Deutsche Bank（均上调至买入）在内的十余家机构集中上修。按 Stockanalysis.com 截至 09-11 的统计，26 位分析师共识评级为"强力买入"、平均目标价 **$49.39**（MarketBeat 同期口径为 23 家、$45.16）。在没有新增催化剂的一周里靠上一份财报的余温上涨，意味着 Q3 财报的验证压力会更集中（来源：[Business Wire：Unity 2026 年第二季度财报](https://www.businesswire.com/news/home/20260806640439/en/Unity-Reports-Second-Quarter-2026-Financial-Results/) · [TheFly：Needham 上调目标价至 $54](https://www.tipranks.com/news/the-fly/unity-price-target-raised-to-54-from-40-at-needham-thefly-news)）
 
 ## Hims & Hers Health (HIMS)
 
