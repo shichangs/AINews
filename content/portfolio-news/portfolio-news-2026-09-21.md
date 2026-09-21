@@ -75,7 +75,7 @@
 
 **AMD 这一周做的事情，本质上是把成本压力转成了定价权的公开证明。** 公司于 **2026-09-17** 通知合作伙伴，自 2026 年第四季度起对 AI 加速卡、Radeon 显卡与主板芯片组提价约 **10%**，理由是台积电晶圆成本上行；值得注意的是 Ryzen 桌面与笔记本 CPU 未被纳入。这个取舍很能说明问题：在供给紧张的品类上提价，在竞争充分的消费品类上不提价，意味着管理层认为 AI 相关需求的价格弹性极低。
 
-**同日的第三方定价动作，为这次提价提供了独立佐证。** 云厂商 Nebius 于 09-17 上调算力租金，其中 AMD EPYC Genoa CPU 租金涨 **25%**、Nvidia GPU 租金涨 17% 至 21%、供给受限的内存产品涨 41%。租赁端涨价幅度高于芯片端提价幅度，说明议价权目前集中在离终端算力最近的环节，而 AMD 的 CPU 基本盘恰好在这条链上享受了最大涨幅。股价当日涨 **6.36%**。
+**同日的第三方定价动作，为这次提价提供了独立佐证。** 云厂商 Nebius 于 09-17 上调算力租金，其中 AMD EPYC Genoa CPU 租金涨 **25%**、Nvidia GPU 租金涨 17% 至 21%、供给受限的内存产品涨 41%。租赁端涨价幅度高于芯片端提价幅度，说明议价权集中在离终端算力最近的环节，而 AMD 的 CPU 基本盘恰好在这条链上享受了最大涨幅。股价当日涨 **6.36%**。
 
 **首席技术官在周五给出了需求侧的对应口径，两条信息合起来才构成完整逻辑。** Mark Papermaster 于 **2026-09-18** 表示，公司在 AI 需求上没有看到任何放缓迹象，企业对 AI 的采用仍处在早期阶段，驱动力是对更大生产率提升的追求。这段表态的时点很关键——它出现在 09-14 因"AI 扩张应当放缓"的行业呼声而单日跌约 5%、股价跌破 $500 之后，等于是公司对那次回调的正面回应。
 
@@ -121,7 +121,7 @@
 
 **Palantir 靠一份来自客户会议的卖方复盘，抹平了年内全部跌幅。** UBS 分析师 Karl Keirstead 于 **2026-09-15** 将目标价由 $220 上调至 **$250**、维持买入评级，依据是 09-10 AIPCon 11 的客户对话——他表示"把前沿模型与 AI 变得对大型企业有用的最佳 AI 使能者"这一判断在会后得到强化，需求势头稳健。股价全周涨 **+6.2%** 至 $177.64，YTD 回到 **-0.1%**，几乎与 2025-12-31 的 $177.75 持平。
 
-**首席执行官的表态则把监管议题拉到了一个极端位置。** Alex Karp 于 **2026-09-17** 对 CNBC 表示，Anthropic 等前沿 AI 实验室可能需要国有化，理由是"如果不国有化，我的每一个客户都会起诉它们"；他进一步称当前的 AI 安全讨论真正的驱动力是对民事与刑事责任的恐惧，而非对政府监督的需求。这段表态对 Palantir 是双刃的：它强化了公司作为"可控可审计 AI"供应商的定位，但也把公司推到了监管辩论的对立面（来源：[TheStreet：UBS 上调目标价至 $250](https://www.thestreet.com/investing/stocks/ubs-raises-palantir-stock-price-target-for-rest-of-2026) · [TipRanks：Karp 称 AI 实验室需国有化](https://www.tipranks.com/news/palantir-ceo-alex-karp-says-ai-labs-need-nationalization-because-every-single-one-of-my-clients-is-going-to-sue)）
+**首席执行官的表态则把监管议题拉到了一个极端位置。** Alex Karp 于 **2026-09-17** 对 CNBC 表示，Anthropic 等前沿 AI 实验室可能需要国有化，理由是"如果不国有化，我的每一个客户都会起诉它们"；他进一步称这场 AI 安全讨论真正的驱动力是对民事与刑事责任的恐惧，而非对政府监督的需求。这段表态对 Palantir 是双刃的：它强化了公司作为"可控可审计 AI"供应商的定位，但也把公司推到了监管辩论的对立面（来源：[TheStreet：UBS 上调目标价至 $250](https://www.thestreet.com/investing/stocks/ubs-raises-palantir-stock-price-target-for-rest-of-2026) · [TipRanks：Karp 称 AI 实验室需国有化](https://www.tipranks.com/news/palantir-ceo-alex-karp-says-ai-labs-need-nationalization-because-every-single-one-of-my-clients-is-going-to-sue)）
 
 ## Google / Alphabet (GOOGL)
 
@@ -145,7 +145,7 @@
 
 **Amazon 用认股权证换供电确定性，把电力短缺明确定价成了股权成本。** 据 Generac 于 **2026-09-16** 提交的 8-K，双方签订交易协议：Generac 向 Amazon 发行认股权证，可按行权价 **$200.9266** 购买最多 **1,693,745 股**普通股，其中 307,954 股立即归属，其余随 Amazon 为数据中心备用发电机支付的累计金额归属，上限对应 **$8B** 采购额；同日签署的长期供货协议中，2027 与 2028 年的首批交付预计合计 **$2.4B**。消息公布后 Generac 盘后一度涨 45%。
 
-**AWS 的分部数据仍是这只股票的主驱动，但本周没有新增量。** 最近一个季度 AWS 分部营收同比增长 **36.7%** 至 **$42.2B**，为 18 个季度以来最快；分部经营利润同比增长 43% 至 **$27.5B**，增速高于营收增速。公司已将 2026 年资本开支指引由 $200B 上调至 **$220B**，主要投向 AI 基础设施。上述均为分部与合并口径分列数据，不可与公司整体口径混用。股价全周跌 **-1.2%**（来源：[SEC EDGAR：Generac 8-K（2026-09-15）](https://www.sec.gov/Archives/edgar/data/0001474735/000143774926030550/gnrc20260915_8k.htm) · [Bloomberg：Generac 因 $8B 供货协议大涨](https://www.bloomberg.com/news/articles/2026-09-16/generac-shares-jump-on-8-billion-amazon-data-center-supply-pact)）
+**AWS 的分部数据仍是这只股票的主驱动，但本周没有新增量。** 已披露的 2026 年第二季度（自然月 2026-04 至 2026-06）AWS 分部营收同比增长 **36.7%** 至 **$42.2B**，为 18 个季度以来最快；分部经营利润同比增长 43% 至 **$27.5B**，增速高于营收增速。公司已将 2026 年资本开支指引由 $200B 上调至 **$220B**，主要投向 AI 基础设施。上述均为分部与合并口径分列数据，不可与公司整体口径混用。股价全周跌 **-1.2%**（来源：[SEC EDGAR：Generac 8-K（2026-09-15）](https://www.sec.gov/Archives/edgar/data/0001474735/000143774926030550/gnrc20260915_8k.htm) · [Bloomberg：Generac 因 $8B 供货协议大涨](https://www.bloomberg.com/news/articles/2026-09-16/generac-shares-jump-on-8-billion-amazon-data-center-supply-pact)）
 
 ## Apple (AAPL)
 
@@ -185,7 +185,7 @@
 
 **HIMS 在诉讼日程压顶的一周里小幅收涨，说明坏消息已被定价。** 股价全周涨 **+1.7%** 至 $27.99，YTD 为 **-13.8%**。美国银行证券于 **2026-09-15** 维持持有评级，摩根大通于 09-11 同样给出持有——两家大行在一周内先后确认中性立场，本身就是对"不再进一步恶化"的确认。
 
-**估值区间的极端离散，才是这只股票当前的真实状态。** 16 位分析师的平均目标价为 **$31.29**，最高 **$42**、最低 **$23**，高低差接近一倍；52 周区间 $13.74–$65.30，现价大致位于中段偏下。背景是三条同时推进的法律与合规线：证券集体诉讼的首席原告申请截止日为 **2026-11-02**（与 Q3 财报同日）、2026 年 7 月联邦贸易委员会提起的欺骗性计费诉讼，以及 Visa 的收单监控计划。在这三条线出结果之前，卖方无法收敛（来源：[Hims IR：回应 FTC 诉讼](https://investors.hims.com/news/news-details/2026/Hims--Hers-Responds-to-FTC-Lawsuit/default.aspx) · [CNBC：HIMS 报价与新闻](https://www.cnbc.com/quotes/HIMS)）
+**估值区间的极端离散，才是这只股票的真实状态。** 16 位分析师的平均目标价为 **$31.29**，最高 **$42**、最低 **$23**，高低差接近一倍；52 周区间 $13.74–$65.30，09-18 收盘价位于中段偏下。背景是三条同时推进的法律与合规线：证券集体诉讼的首席原告申请截止日为 **2026-11-02**（与 Q3 财报同日）、2026 年 7 月联邦贸易委员会提起的欺骗性计费诉讼，以及 Visa 的收单监控计划。在这三条线出结果之前，卖方无法收敛（来源：[Hims IR：回应 FTC 诉讼](https://investors.hims.com/news/news-details/2026/Hims--Hers-Responds-to-FTC-Lawsuit/default.aspx) · [CNBC：HIMS 报价与新闻](https://www.cnbc.com/quotes/HIMS)）
 
 ## 🔭 下周值得盯
 
