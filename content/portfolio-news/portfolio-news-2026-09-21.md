@@ -162,14 +162,6 @@
 
 **消费者的等待行为本身，说明定价策略正在按计划生效。** 两位分析师都把预购疲弱归因于消费者在等 iPhone Duo——这款起售价 **$1,999** 的折叠屏机型 10-16 开启预购、10-23 开售，正好落在 FQ4 FY26（对应自然月 2026-07 至 2026-09）之后、FQ1 FY27（对应自然月 2026-10 至 2026-12）之内。需求没有消失，只是被推迟到了下一个财季，代价是 FQ4 FY26 的出货量读数会偏弱（来源：[Apple Newsroom：iPhone Duo 发布](https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/) · [MacRumors：预购开局平淡](https://www.macrumors.com/2026/09/15/iphone-18-pro-orders-muted-start/)）
 
-## Micron (MU)
-
-**股价：** $1,015.80（本周 +4.2%，YTD +255.9%）｜**情绪：** 📈｜**下次财报：** FQ4 FY26 2026-09-30（已官宣）
-
-**Micron 两周内重新收回 $1,000，靠的不是涨价预期，而是已经卖光的产能。** 09-18 收 **$1,015.80**、当日涨 3.92%；09-17 单日已涨 5.5% 收 $977.50。09-10 该股曾因油价跳涨与美债收益率上行跌破 $1,000，两周内完成修复。基本面依据是公司 2026 年 HBM4 产能全部售罄、且提前一个季度进入量产。
-
-**接下来两周的关键变量从供给转向指引。** 公司将于 **2026-09-30** 发布 FQ4 FY26（对应自然月 2026-06 至 2026-08）财报，卖方口径已经分化：RBC 在 09-18 的前瞻中称这将是"又一个强劲季度"，而 Goldman Sachs 分析师 James Schneider 同日维持中性评级与 **$1,100** 目标价。期权市场隐含财报日波动约 **±11%**。真正的看点不是本季数字，而是管理层对 2027 自然年供需的口径——以 +255.9% 的 YTD 与 52 周高点 $1,255.00 计，任何一句对产能释放节奏的松口都会被放大（来源：[Micron IR：FQ4 FY26 财报日公告](https://investors.micron.com/news/press-release/2026/Micron-Technology-to-Report-Fiscal-Fourth-Quarter-Results-on-September-30-2026/default.aspx) · [Investing.com：售罄的 HBM 供给重塑盈利故事](https://www.investing.com/analysis/micron-faces-a-rerating-moment-as-soldout-hbm-supply-reshapes-the-earnings-story-200676155)）
-
 ## PayPal (PYPL)
 
 **股价：** $52.41（本周 -2.4%，YTD -10.2%）｜**情绪：** 📉｜**下次财报：** 2026-10-27（预估）
