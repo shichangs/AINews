@@ -122,6 +122,30 @@
 
 **股价的反应温和，说明市场仍在给监管消息打折扣。** 09-18 收 **$222.27**、当日涨 1.34%，全周涨 +1.8%，跑输 AMD 近 7 个百分点；YTD 为 +19.2%，仍显著落后于同业。压制因素是 09-09 曝出的司法部对 $17B Groq 授权交易的反垄断调查，以及 09-18 加州签署的 AI 监管行政命令。61 位分析师的共识评级为"强力买入"、平均目标价 **$328.66**，较 09-18 收盘有 47.9% 空间（来源：[CNBC：加州 AI 行政命令](https://www.cnbc.com/2026/09/18/california-newsom-executive-order-ai.html) · [Motley Fool：黄仁勋给出的翻倍承诺](https://www.fool.com/investing/2026/09/20/jensen-huang-just-announced-fantastic-news-for-nvidia-shareholders/)）
 
+## Broadcom (AVGO)
+
+**股价：** $357.61（本周 -1.2%，YTD +3.3%）｜**情绪：** ➡️｜**下次财报：** FQ4 FY26 预计 2026-12（未公告）
+
+**Broadcom 的问题从来不是订单不够，而是订单已经被提前定价了三年。** FQ3 FY26（财季截至 2026-08-02，对应自然月 2026-05 至 2026-08）于 2026-09-02 发布：合并营收 **$29.6B**、同比增长 86%，其中 AI 半导体收入 $16.7B、同比增长 221%、环比增长 54%；公司同时指引 FQ4 AI 半导体收入达 $21.7B。这份财报之后股价却持续回落，09-18 收 $357.61，距 52 周高点 $495.00 回撤约 28%，YTD 仅 **+3.3%**——组合内 YTD 第二低的科技标的。
+
+**报告周内的价格修复靠的是抄底盘，而不是新增信息。** 股价在 09-16 收 **$339.51** 触及周内低点后连续两日反弹，09-18 开盘涨 4.16%、收涨 2.97%，全周仍跌 1.2%。同周唯一的公司层面发声是首席执行官 Hock Tan 于 09-14 接受 CNBC 专访。卖方与现价的裂口依旧很宽：50 位分析师共识评级为"强力买入"、平均目标价 **$531.85**，较 09-18 收盘有 48.7% 空间。真正需要跟踪的是客户集中度——公司为 Google、Meta 与 OpenAI 设计定制加速器，与 OpenAI 合作的 Jalapeño 推理芯片是其中规模最大的一笔（来源：[Broadcom IR：FQ3 FY26 业绩公告](https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announce-third-quarter-fiscal-year-2026-financial) · [CNBC：Broadcom FQ3 财报](https://www.cnbc.com/2026/09/02/broadcom-avgo-q3-earnings-report-2026.html)）
+
+## Taiwan Semiconductor (TSM)
+
+**股价：** $434.67（本周 +0.3%，YTD +43.0%）｜**情绪：** ➡️｜**下次财报：** 2026-10-15（已官宣）
+
+**约束 TSMC 的不再是制程节点，而是先进封装的产能与排期。** ADR 于 **2026-09-14** 单日跌 3.5% 至 $418.01，媒体归因为获利了结、宏观谨慎与先进封装产能约束三重因素；09-18 收涨 1.02% 至 **$434.67**，全周仅 +0.3%，YTD 为 **+43.0%**。同日台股本体（2330.TW）涨 1.44% 收 **TWD 2,460.00**——两地同向，本周不存在汇率或时区错位。
+
+**扩产的时间表比需求曲线慢，这个缺口决定了下游谁能拿到货。** UBS 将 2027 年 CoWoS 行业产能预测上调至每月 **27 万片**，其中 TSMC 一家到 2027 年底达每月 18 万片。产能是排他性资源：公司的先进封装同时供应 Nvidia、AMD 与 Broadcom 设计的 AI 芯片，分配权本身就是定价权。基础设施投入仍在铺开——据路透社报道，台湾于 2026-09-21（报告周之后）在高雄白埔工业园区为先进封装产业园动土，TSMC 将在园区内建设技术验证实验室与人才培训中心，预计 2029 年第四季度投产。Q3 2026 法说会已定于 **2026-10-15**（来源：[TSMC IR：财务日历](https://investor.tsmc.com/english/financial-calendar) · [Reuters（经 The Star 转载）：高雄先进封装园区动土](https://www.thestar.com.my/tech/tech-news/2026/09/21/taiwan-breaks-ground-on-advanced-packaging-park-anchored-by-tsmc)）
+
+## Micron (MU)
+
+**股价：** $1,015.80（本周 +4.2%，YTD +255.9%）｜**情绪：** 📈｜**下次财报：** FQ4 FY26 2026-09-30（已官宣）
+
+**Micron 两周内重新收回 $1,000，靠的不是涨价预期，而是已经卖光的产能。** 09-18 收 **$1,015.80**、当日涨 3.92%；09-17 单日已涨 5.5% 收 $977.50。09-10 该股曾因油价跳涨与美债收益率上行跌破 $1,000，两周内完成修复。基本面依据是公司 2026 年 HBM4 产能全部售罄、且提前一个季度进入量产。
+
+**接下来两周的关键变量从供给转向指引。** 公司将于 **2026-09-30** 发布 FQ4 FY26（对应自然月 2026-06 至 2026-08）财报，卖方口径已经分化：RBC 在 09-18 的前瞻中称这将是"又一个强劲季度"，而 Goldman Sachs 分析师 James Schneider 同日维持中性评级与 **$1,100** 目标价。期权市场隐含财报日波动约 **±11%**。真正的看点不是本季数字，而是管理层对 2027 自然年供需的口径——以 +255.9% 的 YTD 与 52 周高点 $1,255.00 计，任何一句对产能释放节奏的松口都会被放大（来源：[Micron IR：FQ4 FY26 财报日公告](https://investors.micron.com/news/press-release/2026/Micron-Technology-to-Report-Fiscal-Fourth-Quarter-Results-on-September-30-2026/default.aspx) · [Investing.com：售罄的 HBM 供给重塑盈利故事](https://www.investing.com/analysis/micron-faces-a-rerating-moment-as-soldout-hbm-supply-reshapes-the-earnings-story-200676155)）
+
 ## Palantir (PLTR)
 
 **股价：** $177.64（本周 +6.2%，YTD -0.1%）｜**情绪：** 📈｜**下次财报：** 2026-11-02（预估）
