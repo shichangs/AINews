@@ -126,9 +126,9 @@
 
 **股价：** $357.61（本周 -1.2%，YTD +3.3%）｜**情绪：** ➡️｜**下次财报：** FQ4 FY26 预计 2026-12（未公告）
 
-**Broadcom 的问题从来不是订单不够，而是订单已经被提前定价了三年。** FQ3 FY26（财季截至 2026-08-02，对应自然月 2026-05 至 2026-08）于 2026-09-02 发布：合并营收 **$29.6B**、同比增长 86%，其中 AI 半导体收入 $16.7B、同比增长 221%、环比增长 54%；公司同时指引 FQ4 AI 半导体收入达 $21.7B。这份财报之后股价却持续回落，09-18 收 $357.61，距 52 周高点 $495.00 回撤约 28%，YTD 仅 **+3.3%**——在组合内五家半导体标的中垫底（Micron +255.9%、AMD +161.4%、TSMC +43.0%、Nvidia +19.2%）。
+**Broadcom 的问题从来不是订单不够，而是订单已经被提前定价了三年。** FQ3 FY26（财季截至 2026-08-02，对应自然月 2026-05 至 2026-08）于 2026-09-02 发布：合并营收 **$29.6B**、同比增长 86%，其中 AI 半导体收入 $16.7B、同比增长 221%；公司指引 FQ4 该口径达 $21.7B。财报之后股价反而持续回落，09-18 收 $357.61，距 52 周高点 $495.00 回撤约 28%，YTD 仅 **+3.3%**，在组合内五家半导体标的中垫底。
 
-**报告周内的价格修复靠的是抄底盘，而不是新增信息。** 股价在 09-16 收 **$339.51** 触及周内低点后连续两日反弹，09-18 开盘涨 4.16%、收涨 2.97%，全周仍跌 1.2%。同周唯一的公司层面发声是首席执行官 Hock Tan 于 09-14 接受 CNBC 专访。卖方与现价的裂口依旧很宽：50 位分析师共识评级为"强力买入"、平均目标价 **$531.85**，较 09-18 收盘有 48.7% 空间。真正需要跟踪的是客户集中度——公司为 Google、Meta 与 OpenAI 设计定制加速器，与 OpenAI 合作的 Jalapeño 推理芯片是其中规模最大的一笔（来源：[Broadcom IR：FQ3 FY26 业绩公告](https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announce-third-quarter-fiscal-year-2026-financial) · [CNBC：Broadcom FQ3 财报](https://www.cnbc.com/2026/09/02/broadcom-avgo-q3-earnings-report-2026.html)）
+**报告周内的价格修复靠的是抄底盘，而不是新增信息。** 股价在 09-16 收 **$339.51** 触及周内低点后连续两日反弹，09-18 收涨 2.97%，全周仍跌 1.2%。同周唯一的公司层面发声是首席执行官 Hock Tan 于 09-14 接受 CNBC 专访。50 位分析师共识评级为"强力买入"、平均目标价 **$531.85**，较 09-18 收盘有 48.7% 空间。真正需要跟踪的是客户集中度——公司为 Google、Meta 与 OpenAI 设计定制加速器（来源：[Broadcom IR：FQ3 FY26 业绩公告](https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announce-third-quarter-fiscal-year-2026-financial) · [CNBC：Broadcom FQ3 财报](https://www.cnbc.com/2026/09/02/broadcom-avgo-q3-earnings-report-2026.html)）
 
 ## Taiwan Semiconductor (TSM)
 
