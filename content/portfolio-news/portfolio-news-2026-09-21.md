@@ -23,7 +23,7 @@
 
 **指数端的反应高度分化，长久期科技反而赢了。** 2026-09-18 收盘，标普 500 报 **7,650.50** 点（当日 +0.17%、全周 -0.1%）、纳斯达克综指报 **26,522.55** 点（当日 +0.39%、全周 +0.7%）、道琼斯工业指数报 **51,682.64** 点（当日 -0.18%、全周 -1.7%）。一次加息之后纳指跑赢道指 2.4 个百分点，说明市场把这次加息读成了"通胀是能源引起的、不是需求过热"，因此没有下修盈利预期。10 年期美债收益率则在 5% 附近徘徊，是道指承压的主因。
 
-**组合层面的定价权仍在个股手里，而不是在美联储手里。** 涨幅前三的 AMD（+8.5%）、Palantir（+6.2%）、Micron（+4.2%）分别对应提价落地、卖方上调目标价与存储缺口；跌幅前三的 Unity（-5.8%）、PayPal（-2.4%）、Oracle（-1.8%）则各有估值、裁员与债务层面的独立原因。组内极差 14.3 个百分点，与上一期的 13 个百分点基本持平，宏观事件并未压倒个股逻辑（来源：[TheStreet：9 月 18 日收盘综述](https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-18-2026) · [CNBC：9 月 18 日市场实录](https://www.cnbc.com/2026/09/17/stock-market-today-live-updates.html) · [Fox Business：三年来首次加息](https://www.foxbusiness.com/economy/federal-reserve-interest-rate-decision-september-16-2026)）
+**组合层面的定价权仍在个股手里，而不是在美联储手里。** 涨幅前三的 AMD（+8.5%）、Palantir（+6.2%）、Micron（+4.2%）分别对应提价落地、卖方上调目标价与存储缺口；跌幅前三的 Unity（-5.8%）、PayPal（-2.4%）、Oracle（-1.8%）则各有估值、裁员与债务层面的独立原因。本期新纳入的 Broadcom（-1.2%）与 TSMC（+0.3%）均落在中段，未改变分布形态。16 只标的的组内极差为 14.3 个百分点，与上一期 14 只时的 13 个百分点基本持平，宏观事件并未压倒个股逻辑（来源：[TheStreet：9 月 18 日收盘综述](https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-18-2026) · [CNBC：9 月 18 日市场实录](https://www.cnbc.com/2026/09/17/stock-market-today-live-updates.html) · [Fox Business：三年来首次加息](https://www.foxbusiness.com/economy/federal-reserve-interest-rate-decision-september-16-2026)）
 
 ## ⚡ 速览总结
 
@@ -126,7 +126,7 @@
 
 **股价：** $357.61（本周 -1.2%，YTD +3.3%）｜**情绪：** ➡️｜**下次财报：** FQ4 FY26 预计 2026-12（未公告）
 
-**Broadcom 的问题从来不是订单不够，而是订单已经被提前定价了三年。** FQ3 FY26（财季截至 2026-08-02，对应自然月 2026-05 至 2026-08）于 2026-09-02 发布：合并营收 **$29.6B**、同比增长 86%，其中 AI 半导体收入 $16.7B、同比增长 221%、环比增长 54%；公司同时指引 FQ4 AI 半导体收入达 $21.7B。这份财报之后股价却持续回落，09-18 收 $357.61，距 52 周高点 $495.00 回撤约 28%，YTD 仅 **+3.3%**——组合内 YTD 第二低的科技标的。
+**Broadcom 的问题从来不是订单不够，而是订单已经被提前定价了三年。** FQ3 FY26（财季截至 2026-08-02，对应自然月 2026-05 至 2026-08）于 2026-09-02 发布：合并营收 **$29.6B**、同比增长 86%，其中 AI 半导体收入 $16.7B、同比增长 221%、环比增长 54%；公司同时指引 FQ4 AI 半导体收入达 $21.7B。这份财报之后股价却持续回落，09-18 收 $357.61，距 52 周高点 $495.00 回撤约 28%，YTD 仅 **+3.3%**——在组合内五家半导体标的中垫底（Micron +255.9%、AMD +161.4%、TSMC +43.0%、Nvidia +19.2%）。
 
 **报告周内的价格修复靠的是抄底盘，而不是新增信息。** 股价在 09-16 收 **$339.51** 触及周内低点后连续两日反弹，09-18 开盘涨 4.16%、收涨 2.97%，全周仍跌 1.2%。同周唯一的公司层面发声是首席执行官 Hock Tan 于 09-14 接受 CNBC 专访。卖方与现价的裂口依旧很宽：50 位分析师共识评级为"强力买入"、平均目标价 **$531.85**，较 09-18 收盘有 48.7% 空间。真正需要跟踪的是客户集中度——公司为 Google、Meta 与 OpenAI 设计定制加速器，与 OpenAI 合作的 Jalapeño 推理芯片是其中规模最大的一笔（来源：[Broadcom IR：FQ3 FY26 业绩公告](https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announce-third-quarter-fiscal-year-2026-financial) · [CNBC：Broadcom FQ3 财报](https://www.cnbc.com/2026/09/02/broadcom-avgo-q3-earnings-report-2026.html)）
 
