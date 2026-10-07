@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T01:25:34.342Z",
+  "generatedAt": "2026-10-07T01:24:16.435Z",
   "sourceDirectories": {
     "daily": "/home/runner/work/AINews/AINews/content/daily-ai-news",
     "weekly": "/home/runner/work/AINews/AINews/content/daily-ai-news/weekly",
@@ -7,6 +7,126 @@
     "weeklyAiTech": "/home/runner/work/AINews/AINews/content/weekly-ai-tech"
   },
   "issues": [
+    {
+      "id": "2026-10-07",
+      "date": "2026-10-07",
+      "label": "10月7日",
+      "title": "每日前沿 AI 行业新闻 — 2026年10月7日",
+      "summary": "- 🔥 据彭博：Moonshot AI估值半年内升至$500亿，筹备香港IPO：公司计划2027年一季度港股上市，目标募资最高$50亿，消息尚未获官方确认。\n- Anthropic扩展网络安全验证计划：三级准入放宽Claude拦截，Glasswing合作方与自身扫描合计发现约13.45万个验证漏洞。\n- OpenAI与Atlassian深化合作：GPT-6 Astra接入Jira、Confluence，目前3,000+名Atlassian开发者使用Codex。\n- Cursor与Claude Code同日更新：Cursor新增手机远程控制本地agent功能（企业版默认关闭），Claude Code发布两个版本修复多项权限安全问题。",
+      "sections": [
+        "中国 AI",
+        "AI Labs",
+        "AI Agent",
+        "产品",
+        "机器人"
+      ],
+      "stories": [
+        {
+          "tag": "中国 AI",
+          "impact": "高热",
+          "title": "🔥 据彭博：Moonshot AI估值半年内升至$500亿，筹备香港IPO",
+          "detail": "Moonshot AI新一轮融资将估值定格$500亿，较今年夏季$315亿估值轮次上涨约59%。据彭博10月6日报道（引用知情人士，消息尚未获官方确认），月之暗面正以此为基础筹备于2027年第一季度在香港启动IPO，目标募资规模最高$50亿，美银担任全球协调人，中金公司、德意志…",
+          "links": [
+            {
+              "label": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-10-06/moonshot-said-to-eye-early-2027-ipo-after-value-hits-50-billion"
+            },
+            {
+              "label": "Yahoo Finance（经Bloomberg转引）",
+              "url": "https://finance.yahoo.com/technology/ai/articles/moonshot-said-eye-early-2027-023225703.html"
+            }
+          ],
+          "anchor": "据彭博-moonshot-ai估值半年内升至-500亿-筹备香港ipo"
+        },
+        {
+          "tag": "AI Labs",
+          "impact": "风险",
+          "title": "Anthropic扩展网络安全验证计划，三级准入覆盖红队测试与关键基建",
+          "detail": "Anthropic 10月6日扩展网络安全验证计划（CVP），设三级准入放宽Claude拦截。计划整合Project Glasswing，三档面向防御性工作（Defense Access）、授权渗透测试（Red Team Access）、电网航空等关键基础设施测试（Specia…",
+          "links": [
+            {
+              "label": "Anthropic",
+              "url": "https://www.anthropic.com/news/cyber-verification-program"
+            },
+            {
+              "label": "SiliconANGLE",
+              "url": "https://siliconangle.com/2026/10/06/anthropic-folds-project-glasswing-into-an-expanded-three-tier-cyber-verification-program/"
+            }
+          ],
+          "anchor": "anthropic扩展网络安全验证计划-三级准入覆盖红队测试与关键基建"
+        },
+        {
+          "tag": "AI Labs",
+          "impact": "关注",
+          "title": "OpenAI公开内部模型数学研究成果，含Lean形式化证明",
+          "detail": "OpenAI 10月6日通过GitHub公开内部前沿模型在数学研究上的部分成果，附Lean形式化证明。该公司与普林斯顿高等研究院（IAS）数学与AI咨询组合作制定披露规范，同步承诺资助后续系列研讨会；仓库收录10份模型推理过程摘要，官方披露平均每个结果耗费约3小时ChatGPT…",
+          "links": [
+            {
+              "label": "OpenAI",
+              "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/"
+            },
+            {
+              "label": "Unite.AI",
+              "url": "https://www.unite.ai/openai-releases-722-math-manuscripts-from-an-unreleased-ai-model/"
+            }
+          ],
+          "anchor": "openai公开内部模型数学研究成果-含lean形式化证明"
+        },
+        {
+          "tag": "AI Agent",
+          "impact": "关注",
+          "title": "OpenAI与Atlassian深化合作，GPT-6 Astra接入Jira与Confluence",
+          "detail": "OpenAI与Atlassian 10月6日扩大合作，将GPT-6 Astra接入Jira与Confluence。双方整合OpenAI模型与Atlassian\"Teamwork Graph\"上下文层，使AI agent可调用团队人员、项目、文档与历史决策信息；据官方披露，目前3…",
+          "links": [
+            {
+              "label": "OpenAI",
+              "url": "https://openai.com/index/atlassian-partnership/"
+            }
+          ],
+          "anchor": "openai与atlassian深化合作-gpt-6-astra接入jira与confluence"
+        },
+        {
+          "tag": "产品",
+          "impact": "关注",
+          "title": "Cursor推出远程控制功能，个人账号默认开放、企业版默认关闭",
+          "detail": "Cursor 10月6日推出\"远程控制\"功能，用户可用iOS App查看并回复本地agent。该功能连接电脑端与手机App后，用户可在列表中监控多个本地agent运行状态并发送消息，agent本身仍在用户电脑上执行、App仅负责连接与通知；使用前提是电脑需保持开机并联网，桌面端…",
+          "links": [
+            {
+              "label": "Cursor Changelog",
+              "url": "https://cursor.com/changelog"
+            }
+          ],
+          "anchor": "cursor推出远程控制功能-个人账号默认开放-企业版默认关闭"
+        },
+        {
+          "tag": "产品",
+          "impact": "更新",
+          "title": "Claude Code发布v2.1.291与v2.1.292，修复多项权限安全问题",
+          "detail": "Claude Code 10月6日连发v2.1.291与v2.1.292两个版本，修复多项权限安全问题。v2.1.291（UTC 03:32）修复此前版本引入的云端会话权限提示丢失、退出时消息丢失两处回归缺陷；v2.1.292（UTC 17:10）新增claude plugin…",
+          "links": [
+            {
+              "label": "Claude Code Releases",
+              "url": "https://github.com/anthropics/claude-code/releases"
+            },
+            {
+              "label": "npm",
+              "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code"
+            }
+          ],
+          "anchor": "claude-code发布v2-1-291与v2-1-292-修复多项权限安全问题"
+        },
+        {
+          "tag": "机器人",
+          "impact": "关注",
+          "title": "窗口外与跨日",
+          "detail": "· OpenAI $300亿新融资洽谈本身首发于9/29，10/6未发现新条款或估值变化，不重复收录；纽约市议会\"关停开关\"法案预计10/8正式提交，10/6当日无新进展，仅保留在\"本周值得盯\"；Broadcom为Anthropic的$600亿债务银团分销整体叙事8月已有、10…",
+          "links": [],
+          "anchor": "窗口外与跨日"
+        }
+      ],
+      "sourceFile": "/home/runner/work/AINews/AINews/content/daily-ai-news/2026-10-07.md",
+      "htmlContent": "<p>&gt; <strong>覆盖窗口</strong> 2026-10-06 00:00 – 10-07 00:00 UTC（24h）· <strong>去重锚</strong> 10-06、10-05 归档</p>\n<h3 id=\"今日摘要\">今日摘要</h3>\n<ul><li>🔥 <strong>据彭博：Moonshot AI估值半年内升至$500亿，筹备香港IPO</strong>：公司计划2027年一季度港股上市，目标募资最高$50亿，消息尚未获官方确认。</li><li><strong>Anthropic扩展网络安全验证计划</strong>：三级准入放宽Claude拦截，Glasswing合作方与自身扫描合计发现约13.45万个验证漏洞。</li><li><strong>OpenAI与Atlassian深化合作</strong>：GPT-6 Astra接入Jira、Confluence，目前3,000+名Atlassian开发者使用Codex。</li><li><strong>Cursor与Claude Code同日更新</strong>：Cursor新增手机远程控制本地agent功能（企业版默认关闭），Claude Code发布两个版本修复多项权限安全问题。</li></ul>\n<h3 id=\"1-中国-ai-产业\">1. 中国 AI 产业</h3>\n<h4 class=\"entry-heading\" id=\"据彭博-moonshot-ai估值半年内升至-500亿-筹备香港ipo\">🔥 据彭博：Moonshot AI估值半年内升至$500亿，筹备香港IPO</h4>\n<p>Moonshot AI新一轮融资将估值定格<strong>$500亿</strong>，较今年夏季<strong>$315亿</strong>估值轮次上涨约<strong>59%</strong>。据彭博10月6日报道（引用知情人士，消息尚未获官方确认），月之暗面正以此为基础筹备于2027年第一季度在香港启动IPO，目标募资规模最高<strong>$50亿</strong>，美银担任全球协调人，中金公司、德意志银行、高盛参与承销；阿里巴巴、腾讯、5Y Capital为现有股东。据报道其年化经常性收入（ARR）已从6月的<strong>$3亿</strong>升至当前约<strong>$10亿</strong>，年底前目标达<strong>$20亿</strong>。下一步是投资者预热会议能否如期在10月内启动，以及正式递表时最终估值能否得到确认。 <span class=\"inline-source\">（来源：<a href=\"https://www.bloomberg.com/news/articles/2026-10-06/moonshot-said-to-eye-early-2027-ipo-after-value-hits-50-billion\" target=\"_blank\" rel=\"noreferrer\">Bloomberg</a> / <a href=\"https://finance.yahoo.com/technology/ai/articles/moonshot-said-eye-early-2027-023225703.html\" target=\"_blank\" rel=\"noreferrer\">Yahoo Finance（经Bloomberg转引）</a> / <a href=\"https://www.siliconrepublic.com/start-ups/bloomberg-moonshot-closes-round-at-50bn-valuation-before-2027-ipo\" target=\"_blank\" rel=\"noreferrer\">Silicon Republic</a>）</span></p>\n<h3 id=\"2-主要-ai-labs-动态\">2. 主要 AI Labs 动态</h3>\n<h4 class=\"entry-heading\" id=\"anthropic扩展网络安全验证计划-三级准入覆盖红队测试与关键基建\">Anthropic扩展网络安全验证计划，三级准入覆盖红队测试与关键基建</h4>\n<p>Anthropic 10月6日扩展网络安全验证计划（CVP），设三级准入放宽Claude拦截。计划整合Project Glasswing，三档面向防御性工作（Defense Access）、授权渗透测试（Red Team Access）、电网航空等关键基础设施测试（Specialized Access，需政府协同审核）。获准团队可用Claude Opus 5.5、Sonnet 5.5及Mythos 5.1等模型。官方披露，Glasswing合作方4-7月发现至少<strong>129,000个</strong>、Anthropic自身4-10月另发现<strong>5,500个</strong>已验证漏洞，合计约13.45万个中逾<strong>33,000个</strong>为高危/关键级别。下一步是Specialized Access能否吸纳更多运营方，以及漏洞发现周期能否持续压低。</p>\n<p><em>披露：本报告由 Claude 撰写，Anthropic 为 Claude 开发方。</em> <span class=\"inline-source\">（来源：<a href=\"https://www.anthropic.com/news/cyber-verification-program\" target=\"_blank\" rel=\"noreferrer\">Anthropic</a> / <a href=\"https://siliconangle.com/2026/10/06/anthropic-folds-project-glasswing-into-an-expanded-three-tier-cyber-verification-program/\" target=\"_blank\" rel=\"noreferrer\">SiliconANGLE</a>）</span></p>\n<h4 class=\"entry-heading\" id=\"openai公开内部模型数学研究成果-含lean形式化证明\">OpenAI公开内部模型数学研究成果，含Lean形式化证明</h4>\n<p>OpenAI 10月6日通过GitHub公开内部前沿模型在数学研究上的部分成果，附Lean形式化证明。该公司与普林斯顿高等研究院（IAS）数学与AI咨询组合作制定披露规范，同步承诺资助后续系列研讨会；仓库收录<strong>10份</strong>模型推理过程摘要，官方披露平均每个结果耗费约<strong>3小时</strong>ChatGPT Pro量级算力。有第三方媒体报道此次发布涉及722份手稿、覆盖约4,000个问题，但该数字未见于OpenAI官方原文，暂以官方口径为准。下一步是IAS咨询组制定的披露规范能否适用于后续模型的数学能力公开，以及首批资助研讨会的时间表能否公布。 <span class=\"inline-source\">（来源：<a href=\"https://openai.com/index/sharing-ai-progress-in-mathematics/\" target=\"_blank\" rel=\"noreferrer\">OpenAI</a> / <a href=\"https://www.unite.ai/openai-releases-722-math-manuscripts-from-an-unreleased-ai-model/\" target=\"_blank\" rel=\"noreferrer\">Unite.AI</a>）</span></p>\n<h3 id=\"3-ai-agent\">3. AI Agent</h3>\n<h4 class=\"entry-heading\" id=\"openai与atlassian深化合作-gpt-6-astra接入jira与confluence\">OpenAI与Atlassian深化合作，GPT-6 Astra接入Jira与Confluence</h4>\n<p>OpenAI与Atlassian 10月6日扩大合作，将GPT-6 Astra接入Jira与Confluence。双方整合OpenAI模型与Atlassian&quot;Teamwork Graph&quot;上下文层，使AI agent可调用团队人员、项目、文档与历史决策信息；据官方披露，目前<strong>3,000+名</strong>Atlassian开发者在IDE、终端与代码评审流程中使用Codex，ChatGPT/Codex用户还可通过插件直接访问Jira工单与Confluence文档。双方同步探索未来由Jira直接向AI agent分配任务并跟踪完成进度，具体上线时间未披露。下一步是&quot;按任务分配给agent&quot;功能能否在后续版本中落地，以及3,000+开发者的使用规模能否继续扩大。 <span class=\"inline-source\">（来源：<a href=\"https://openai.com/index/atlassian-partnership/\" target=\"_blank\" rel=\"noreferrer\">OpenAI</a>）</span></p>\n<h3 id=\"4-ai-产品更新\">4. AI 产品更新</h3>\n<h4 class=\"entry-heading\" id=\"cursor推出远程控制功能-个人账号默认开放-企业版默认关闭\">Cursor推出远程控制功能，个人账号默认开放、企业版默认关闭</h4>\n<p>Cursor 10月6日推出&quot;远程控制&quot;功能，用户可用iOS App查看并回复本地agent。该功能连接电脑端与手机App后，用户可在列表中监控多个本地agent运行状态并发送消息，agent本身仍在用户电脑上执行、App仅负责连接与通知；使用前提是电脑需保持开机并联网，桌面端设置中可开启&quot;Keep this computer awake&quot;选项（需插电且屏幕打开）防止休眠。该功能对个人与团队账号<strong>默认开放</strong>，但<strong>企业版（Enterprise）组织默认关闭</strong>，需管理员在Org settings的Security and identity选项中手动启用。下一步是企业客户的开启比例能否被后续数据披露，以及该功能是否会扩展到Android端。 <span class=\"inline-source\">（来源：<a href=\"https://cursor.com/changelog\" target=\"_blank\" rel=\"noreferrer\">Cursor Changelog</a>）</span></p>\n<h4 class=\"entry-heading\" id=\"claude-code发布v2-1-291与v2-1-292-修复多项权限安全问题\">Claude Code发布v2.1.291与v2.1.292，修复多项权限安全问题</h4>\n<p>Claude Code 10月6日连发v2.1.291与v2.1.292两个版本，修复多项权限安全问题。<strong>v2.1.291</strong>（UTC 03:32）修复此前版本引入的云端会话权限提示丢失、退出时消息丢失两处回归缺陷；<strong>v2.1.292</strong>（UTC 17:10）新增<code>claude plugin install --marketplace</code>命令与Agent工具<code>effort</code>努力等级参数，同时修复官方标记的权限与路径安全问题，包括沙箱文件读取越权、Windows短文件名绕过<code>rm -rf</code>防护、PreToolUse对网络路径读取的权限绕过（release notes另有数项同类文件权限修复）。下一步是这些修复能否覆盖后续披露的同类绕过手法，以及插件市场命令的开发者采用率能否提升。</p>\n<p><em>披露：本报告由 Claude 撰写，Anthropic 为 Claude 开发方。</em> <span class=\"inline-source\">（来源：<a href=\"https://github.com/anthropics/claude-code/releases\" target=\"_blank\" rel=\"noreferrer\">Claude Code Releases</a> / <a href=\"https://www.npmjs.com/package/@anthropic-ai/claude-code\" target=\"_blank\" rel=\"noreferrer\">npm</a>）</span></p>\n<h3 id=\"5-机器人与物理ai\">5. 机器人与物理AI</h3>\n<h4 class=\"entry-heading\" id=\"人形机器人初创minerva-humanoids获-1000万种子前轮融资\">人形机器人初创Minerva Humanoids获$1000万种子前轮融资</h4>\n<p>人形机器人初创Minerva Humanoids 10月6日获<strong>$1000万</strong>Pre-Seed轮融资。General Catalyst领投，公司同日正式脱离隐身模式（stealth mode），定位开发用于&quot;高危工作场景&quot;的人形机器人，具体产品原型与量产时间表未披露；这是该公司首次公开披露的融资轮次，其他参投方名单未进一步公开。下一步是Minerva能否公布具体产品路线图与首批部署场景，以及后续轮次能否吸引更大规模资本进入。 <span class=\"inline-source\">（来源：<a href=\"https://globenewswire.com/news-release/2026/10/06/3375277/0/en/minerva-humanoids-emerges-from-stealth-with-10m-pre-seed-round-led-by-general-catalyst-to-build-humanoid-robots-for-the-world-s-most-dangerous-jobs.html\" target=\"_blank\" rel=\"noreferrer\">GlobeNewswire</a>）</span></p>\n<h3 id=\"本周值得盯\">本周值得盯</h3>\n<ul><li>10/8 周四 — 纽约市议会&quot;关停开关&quot;法案正式提交，看点是第三方验证条款能否进入正式文本、市议会能否推进对SpaceX的subpoena强制执行</li><li>10/9 周五 — 谷歌免费Gemini用户降级至仅Flash-Lite模型生效，看点是用户流失与付费转化数据是否公开</li></ul>\n<h3 id=\"本期说明\">本期说明</h3>\n<p><strong>来源核对</strong> · 11源逐一核对：Anthropic Newsroom 10/6新增1条（Cyber Verification Program，已收录）；OpenAI News 10/6新增2条（数学研究公开、Atlassian合作深化，均已收录），10/5的两条（EU文本水印、ChatGPT图像广告）已超本期窗口、且已在10-06归档收录，不重复；NVIDIA Newsroom 10/6新增1条电信运营商AI战略博客，属多公司盘点性质软新闻、无独立交易或数字支撑，未单独收录；Meta AI Blog仍停留在7月；Google DeepMind首页未见10/6更新；Cursor Changelog 10/6新增&quot;远程控制&quot;功能已收录；Claude Code GitHub Releases网页渲染日期出现异常（显示2024年），经npm registry时间戳交叉验证确认v2.1.291（03:32 UTC）、v2.1.292（17:10 UTC）均发布于10/6，已收录；DeepSeek News、Qwen Blog、智谱News经WebFetch/WebSearch核对窗口内均无新公告；HF中文榜无时间戳信息。Moonshot AI港股IPO传闻、Minerva Humanoids融资两条经Agent B补充排查发现，非11源清单内但有Bloomberg/GlobeNewswire等一手或主流媒体佐证，已纳入正文。</p>\n<h4 class=\"entry-heading\" id=\"窗口外与跨日\">窗口外与跨日</h4>\n<p>· OpenAI $300亿新融资洽谈本身首发于9/29，10/6未发现新条款或估值变化，不重复收录；纽约市议会&quot;关停开关&quot;法案预计10/8正式提交，10/6当日无新进展，仅保留在&quot;本周值得盯&quot;；Broadcom为Anthropic的$600亿债务银团分销整体叙事8月已有、10/5已报道分销启动，10/6未找到可信一手来源的新增进展（候选来源仅techtimes一家二级媒体，交叉验证不足），判定不予收录。</p>\n<p><strong>审稿</strong> · 3 agent全部完成，改5处。A核8条（覆盖估值/ARR数字链、跨单位换算、漏洞计数逻辑、版本时间线、企业默认设置、开发者人数、研究数字5类），6条准确、2处修正：Anthropic漏洞计数逻辑有误——官方原文&quot;33,000个高危/关键级别&quot;系129,000（Glasswing）与5,500（Anthropic自身）合计约13.45万个中的子集，初稿误写成仅129,000的子集，已改写为&quot;合计约13.45万个中逾33,000个&quot;；Claude Code&quot;修复三处安全问题&quot;表述偏窄——GitHub release notes实际含约6项同类文件/路径权限修复、仅部分被官方标记&quot;Security&quot;，已改为&quot;修复多项权限安全问题&quot;，三个具体示例保留并注明&quot;release notes另有数项同类文件权限修复&quot;。Moonshot估值链条（$500亿/$315亿/59%涨幅）与ARR链条（$3亿→$10亿→$20亿）经Bloomberg/Yahoo Finance一手比对均准确，无需修改。B排查11源及图像视频/语音多模态/自动驾驶/医疗AI/芯片半导体/中国厂商/欧盟监管等薄弱板块，判定无新遗漏。C审读10项，3处需改：Claude Code段原&quot;修复三处安全问题——A、B、C&quot;的长破折号堆砌已改写为更明确的叙述句；Moonshot标题为匿名消息源却用断言式陈述，已改为&quot;据彭博：&quot;开头并在正文补充&quot;消息尚未获官方确认&quot;，与body措辞档位统一；Moonshot段&quot;2027年第一季度&quot;&quot;10月内&quot;两处日期此前被误加粗，已按规则移除（加粗仅限金额/百分比等关键数字）；摘要与正文&quot;逾3,000名&quot;/&quot;3,000+名&quot;两种写法已统一为&quot;3,000+名&quot;。C同时建议将Anthropic CVP（官方公告）排到Moonshot（未确认传闻）之前，经复核SKILL.md默认板块顺序&quot;旗舰模型发布＞$10B+融资/IPO推进＞主要Labs公司层面公告&quot;，Moonshot估值$500亿+港股IPO推进属第4档、高于Anthropic CVP所属第5档公司公告，故保留现有板块顺序、未采纳该项调整。全文grep确认上述修正点均无遗漏改写处。</p>\n<p><strong>自检</strong> · 7个条目首句47–57字（均≤60字硬上限，含数字或硬日期，不以时间戳/媒体名/披露动作开头），正文212–348字（均在80–350字区间内），正文加粗占比约5.3%（单段最高10.8%，均低于15%单段上限与12%聚合阈值），来源/条目比1.71（落在1.3–3.0区间）；披露脚注见于§2 Anthropic CVP段、§4 Claude Code段（均涉Anthropic/Claude），🔥档给了Moonshot条目（非Anthropic相关），故跨源验证非强制要求，CVP段仍附SiliconANGLE非Anthropic来源佐证；摘要4条bullet均在正文找到对应段落支撑；&quot;本周值得盯&quot;2条均为10-06归档延续事件、距今均≤3天按规则保留，NVIDIA DGX Spark（10/23，距今16天）按距事件&gt;3天规则持续静默。</p>\n<p><em>报告生成：2026-10-07 CST · 调度任务：daily-ai-news-v2</em></p>"
+    },
     {
       "id": "2026-10-06",
       "date": "2026-10-06",
