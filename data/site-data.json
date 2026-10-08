@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T01:24:16.435Z",
+  "generatedAt": "2026-10-08T01:29:42.029Z",
   "sourceDirectories": {
     "daily": "/home/runner/work/AINews/AINews/content/daily-ai-news",
     "weekly": "/home/runner/work/AINews/AINews/content/daily-ai-news/weekly",
@@ -7,6 +7,120 @@
     "weeklyAiTech": "/home/runner/work/AINews/AINews/content/weekly-ai-tech"
   },
   "issues": [
+    {
+      "id": "2026-10-08",
+      "date": "2026-10-08",
+      "label": "10月8日",
+      "title": "每日前沿 AI 行业新闻 — 2026年10月8日",
+      "summary": "- 🔥 Mistral AI发布Large 4公开预览，1万亿参数MoE对标DeepSeek V4 Pro：激活参数490亿，API定价每百万token输入价$1.36，权重承诺10月底开源。\n- 非营利机构Common Sense Media测评ChatGPT for Teens为\"不可接受风险\"：同日OpenAI公布青少年用量数据与College Planner等新功能预告。\n- Anthropic发布Claude Haiku 5.5，平均运行成本比上代低约75%：已上线AWS、Google Cloud、Azure三大云。\n- OpenAI的GPT-6 Intelligent UI上线ChatGPT主要付费层级：联网问题平均比GPT-5.6 Instant提早44%开始作答。\n- 美国国防部向芯片商Wolfspeed提供最高$15亿条件性贷款：消息公布后股价盘后大涨27%。",
+      "sections": [
+        "AI Labs",
+        "产品",
+        "芯片"
+      ],
+      "stories": [
+        {
+          "tag": "AI Labs",
+          "impact": "高热",
+          "title": "🔥 Mistral AI发布Large 4公开预览，1万亿参数MoE对标DeepSeek V4 Pro",
+          "detail": "Mistral AI 10月6日发布开源权重模型Large 4公开预览，总参数达1万亿。该模型内部代号\"Le Chonk\"，每token激活490亿参数，支持图像输入与100万token上下文，用3,800块Grace Blackwell GPU从零训练。官方跑分显示网络安全基…",
+          "links": [
+            {
+              "label": "Mistral AI",
+              "url": "https://mistral.ai/news/mistral-large-4/"
+            },
+            {
+              "label": "MarkTechPost",
+              "url": "https://www.marktechpost.com/2026/10/06/mistral-ai-releases-mistral-large-4-le-chonk-a-1-05t-parameter-open-weight-multimodal-moe/"
+            }
+          ],
+          "anchor": "mistral-ai发布large-4公开预览-1万亿参数moe对标deepseek-v4-pro"
+        },
+        {
+          "tag": "AI Labs",
+          "impact": "更新",
+          "title": "Anthropic发布Claude Haiku 5.5，平均运行成本比上代低约75%",
+          "detail": "Anthropic 10月7日发布Claude Haiku 5.5，成本比上代降约75%。新模型定位\"迄今最快的Haiku模型\"，面向摘要、分类、数据库查询等高吞吐场景，是首个支持可调节effort（推理强度）设置的Haiku级模型，已上线AWS、Google Cloud、Az…",
+          "links": [
+            {
+              "label": "Anthropic",
+              "url": "https://www.anthropic.com/claude-haiku-5-5"
+            }
+          ],
+          "anchor": "anthropic发布claude-haiku-5-5-平均运行成本比上代低约75"
+        },
+        {
+          "tag": "AI Labs",
+          "impact": "更新",
+          "title": "OpenAI发布GPT-6 Sol与Luna十月安全评估，警告遵守违规率降至15.9%",
+          "detail": "OpenAI 10月7日发布GPT-6 Sol、Luna两款模型的十月版安全评估报告。据官方Preparedness Framework评级，两款模型在网络安全与生物化学领域已达\"High\"能力阈值，但未触及AI自我改进的High阈值；警告遵守测试绕过率较8月分别从34%降至2…",
+          "links": [
+            {
+              "label": "OpenAI Deployment Safety",
+              "url": "https://deploymentsafety.openai.com/gpt-6-october"
+            }
+          ],
+          "anchor": "openai发布gpt-6-sol与luna十月安全评估-警告遵守违规率降至15-9"
+        },
+        {
+          "tag": "产品",
+          "impact": "更新",
+          "title": "OpenAI的GPT-6 Intelligent UI上线ChatGPT主要付费层级",
+          "detail": "OpenAI 10月7日将GPT-6搭载的\"Intelligent UI\"功能上线ChatGPT。该功能让回答可嵌入图表、可点击按钮、表单等互动组件，模型同时支持\"边思考边作答\"以缩短响应时间；官方披露，面对需联网搜索的问题，GPT-6 Instant平均比GPT-5.6 In…",
+          "links": [
+            {
+              "label": "OpenAI",
+              "url": "https://openai.com/index/gpt-6-for-everyone/"
+            },
+            {
+              "label": "Unite.AI",
+              "url": "https://unite.ai/openai-brings-gpt-6-with-intelligent-ui-to-all-chatgpt-tiers"
+            }
+          ],
+          "anchor": "openai的gpt-6-intelligent-ui上线chatgpt主要付费层级"
+        },
+        {
+          "tag": "产品",
+          "impact": "风险",
+          "title": "Common Sense Media测评判定ChatGPT for Teens构成不可接受风险",
+          "detail": "Common Sense Media 10月7日测评判定ChatGPT for Teens构成\"不可接受风险\"。其测试团队用13至17岁注册账户测试逾4,000条提示词，发现长达一小时的自杀、自残或饮食失调相关对话未触发家长提醒，需危机转介的案例中逾四分之一未被模型识别。机构负…",
+          "links": [
+            {
+              "label": "Axios",
+              "url": "https://www.axios.com/2026/10/07/chatgpt-teens-safety-risk-common-sense-media"
+            },
+            {
+              "label": "Common Sense Media",
+              "url": "https://www.commonsensemedia.org/press-releases/chatgpt-for-teens-poses-unacceptable-risk-to-kids-common-sense-media-finds"
+            }
+          ],
+          "anchor": "common-sense-media测评判定chatgpt-for-teens构成不可接受风险"
+        },
+        {
+          "tag": "产品",
+          "impact": "关注",
+          "title": "芬兰监管机构下令谷歌暂停两处数据中心场地施工，涉清林逾300公顷",
+          "detail": "芬兰环境监管机构LVV 10月7日下令谷歌暂停两处数据中心场地施工，涉清林逾300公顷。被要求停工的是项目承建方Tuike Finland在Muhos、Kajaani的场地（谷歌在芬兰另两处场地未在此次范围内），LVV调查聚焦清林、剥离表土、修建场地道路等工程是否在完成强制环境…",
+          "links": [
+            {
+              "label": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/10/7/finland-orders-halt-to-work-on-google-data-sites-over-environment-concerns"
+            }
+          ],
+          "anchor": "芬兰监管机构下令谷歌暂停两处数据中心场地施工-涉清林逾300公顷"
+        },
+        {
+          "tag": "芯片",
+          "impact": "关注",
+          "title": "窗口外与跨日",
+          "detail": "· 纽约市议会\"关停开关\"法案预计10/8（NYC当地时间）正式提交，提交时点晚于本期窗口终点（10-08 00:00 UTC），窗口内未发现实际提交的确认报道，仅保留在\"本周值得盯\"；OpenAI数学研究成果公开、Atlassian合作深化两条首发于10/6，已在10-07归…",
+          "links": [],
+          "anchor": "窗口外与跨日"
+        }
+      ],
+      "sourceFile": "/home/runner/work/AINews/AINews/content/daily-ai-news/2026-10-08.md",
+      "htmlContent": "<p>&gt; <strong>覆盖窗口</strong> 2026-10-07 00:00 – 10-08 00:00 UTC（24h）· <strong>去重锚</strong> 10-07、10-06 归档</p>\n<h3 id=\"今日摘要\">今日摘要</h3>\n<ul><li>🔥 <strong>Mistral AI发布Large 4公开预览，1万亿参数MoE对标DeepSeek V4 Pro</strong>：激活参数490亿，API定价每百万token输入价$1.36，权重承诺10月底开源。</li><li><strong>非营利机构Common Sense Media测评ChatGPT for Teens为&quot;不可接受风险&quot;</strong>：同日OpenAI公布青少年用量数据与College Planner等新功能预告。</li><li><strong>Anthropic发布Claude Haiku 5.5，平均运行成本比上代低约75%</strong>：已上线AWS、Google Cloud、Azure三大云。</li><li><strong>OpenAI的GPT-6 Intelligent UI上线ChatGPT主要付费层级</strong>：联网问题平均比GPT-5.6 Instant提早44%开始作答。</li><li><strong>美国国防部向芯片商Wolfspeed提供最高$15亿条件性贷款</strong>：消息公布后股价盘后大涨27%。</li></ul>\n<h3 id=\"1-主要-ai-labs-动态\">1. 主要 AI Labs 动态</h3>\n<h4 class=\"entry-heading\" id=\"mistral-ai发布large-4公开预览-1万亿参数moe对标deepseek-v4-pro\">🔥 Mistral AI发布Large 4公开预览，1万亿参数MoE对标DeepSeek V4 Pro</h4>\n<p>Mistral AI 10月6日发布开源权重模型<strong>Large 4</strong>公开预览，总参数达<strong>1万亿</strong>。该模型内部代号&quot;Le Chonk&quot;，每token激活<strong>490亿</strong>参数，支持图像输入与<strong>100万</strong>token上下文，用3,800块Grace Blackwell GPU从零训练。官方跑分显示网络安全基准Cybench达93%，人工盲测综合得分3.74（满分5），5个参评模型中排第二，高于智谱GLM-5.3、低于Claude Opus 5，但部分编程跑分为私下评测、尚未经第三方复现。API定价每百万token输入价<strong>$1.36</strong>、输出价<strong>$4.18</strong>，低于DeepSeek V4 Pro；权重承诺10月底前开源。下一步是权重能否如期开源，以及编程跑分能否被第三方复现。 <span class=\"inline-source\">（来源：<a href=\"https://mistral.ai/news/mistral-large-4/\" target=\"_blank\" rel=\"noreferrer\">Mistral AI</a> / <a href=\"https://www.marktechpost.com/2026/10/06/mistral-ai-releases-mistral-large-4-le-chonk-a-1-05t-parameter-open-weight-multimodal-moe/\" target=\"_blank\" rel=\"noreferrer\">MarkTechPost</a>）</span></p>\n<h4 class=\"entry-heading\" id=\"anthropic发布claude-haiku-5-5-平均运行成本比上代低约75\">Anthropic发布Claude Haiku 5.5，平均运行成本比上代低约75%</h4>\n<p>Anthropic 10月7日发布<strong>Claude Haiku 5.5</strong>，成本比上代降约75%。新模型定位&quot;迄今最快的Haiku模型&quot;，面向摘要、分类、数据库查询等高吞吐场景，是首个支持可调节effort（推理强度）设置的Haiku级模型，已上线AWS、Google Cloud、Azure三大云。≤100k token提示词每百万token输入价<strong>$0.10</strong>、输出价<strong>$0.50</strong>，较Haiku 4.5降约90%。Haiku 5.5在GDPval-AA v2.1得1620分，超过Haiku 4.5的735分；AlphaSense查询得分0.84、高于0.76，Box反馈延迟减半。下一步是effort参数能否推动客户迁移，以及三大云平台采用规模能否在后续财报中体现。</p>\n<p><em>披露：本报告由 Claude 撰写，Anthropic 为 Claude 开发方。</em> <span class=\"inline-source\">（来源：<a href=\"https://www.anthropic.com/claude-haiku-5-5\" target=\"_blank\" rel=\"noreferrer\">Anthropic</a>）</span></p>\n<h4 class=\"entry-heading\" id=\"openai发布gpt-6-sol与luna十月安全评估-警告遵守违规率降至15-9\">OpenAI发布GPT-6 Sol与Luna十月安全评估，警告遵守违规率降至15.9%</h4>\n<p>OpenAI 10月7日发布GPT-6 Sol、Luna两款模型的十月版安全评估报告。据官方Preparedness Framework评级，两款模型在网络安全与生物化学领域已达&quot;High&quot;能力阈值，但未触及AI自我改进的High阈值；警告遵守测试绕过率较8月分别从34%降至<strong>28%</strong>（Sol）、从27%降至<strong>15.9%</strong>（Luna）。报告同时披露退步项：标准自残测试中Sol表现显著退步，Luna在自残、血腥与性内容三项测试均退步，未成年人评估亦同步走低。网络安全ExploitBench跑分Sol为<strong>82.62%</strong>、Luna为<strong>44.66%</strong>，均低于Critical阈值。下一步是自残与未成年人内容测试的退步能否修正，以及生化领域评估能否持续控制在Critical阈值以下。 <span class=\"inline-source\">（来源：<a href=\"https://deploymentsafety.openai.com/gpt-6-october\" target=\"_blank\" rel=\"noreferrer\">OpenAI Deployment Safety</a>）</span></p>\n<h3 id=\"2-ai-产品更新\">2. AI 产品更新</h3>\n<h4 class=\"entry-heading\" id=\"openai的gpt-6-intelligent-ui上线chatgpt主要付费层级\">OpenAI的GPT-6 Intelligent UI上线ChatGPT主要付费层级</h4>\n<p>OpenAI 10月7日将GPT-6搭载的&quot;Intelligent UI&quot;功能上线ChatGPT。该功能让回答可嵌入图表、可点击按钮、表单等互动组件，模型同时支持&quot;边思考边作答&quot;以缩短响应时间；官方披露，面对需联网搜索的问题，GPT-6 Instant平均比GPT-5.6 Instant提早<strong>44%</strong>开始作答。当天起Plus、Pro、Business用户可在Chat标签页使用，面向ChatGPT全球超<strong>12亿</strong>周活用户推广；Enterprise的开放取决于企业管理员设置，Free与Go用户则将于10月8日起陆续获得访问权限。下一步是Free、Go用户大规模铺开后能否验证44%的提速效果，以及企业管理员的开放比例能否被后续披露。 <span class=\"inline-source\">（来源：<a href=\"https://openai.com/index/gpt-6-for-everyone/\" target=\"_blank\" rel=\"noreferrer\">OpenAI</a> / <a href=\"https://unite.ai/openai-brings-gpt-6-with-intelligent-ui-to-all-chatgpt-tiers\" target=\"_blank\" rel=\"noreferrer\">Unite.AI</a>）</span></p>\n<h3 id=\"3-政策与监管\">3. 政策与监管</h3>\n<h4 class=\"entry-heading\" id=\"common-sense-media测评判定chatgpt-for-teens构成不可接受风险\">Common Sense Media测评判定ChatGPT for Teens构成不可接受风险</h4>\n<p>Common Sense Media 10月7日测评判定ChatGPT for Teens构成&quot;不可接受风险&quot;。其测试团队用13至17岁注册账户测试逾<strong>4,000条</strong>提示词，发现长达一小时的自杀、自残或饮食失调相关对话未触发家长提醒，需危机转介的案例中逾<strong>四分之一</strong>未被模型识别。机构负责人Tom Siegel直言&quot;ChatGPT不适合儿童使用&quot;。同日，OpenAI发布自身用量数据回应：青少年日均使用不到15分钟，不到<strong>2%</strong>连续使用超过3小时，并预告College Planner等新功能&quot;即将&quot;上线，同时对测试方法提出异议。下一步是OpenAI能否公开回应具体测试方法，以及新功能能否给出明确上线时间表。 <span class=\"inline-source\">（来源：<a href=\"https://www.axios.com/2026/10/07/chatgpt-teens-safety-risk-common-sense-media\" target=\"_blank\" rel=\"noreferrer\">Axios</a> / <a href=\"https://www.commonsensemedia.org/press-releases/chatgpt-for-teens-poses-unacceptable-risk-to-kids-common-sense-media-finds\" target=\"_blank\" rel=\"noreferrer\">Common Sense Media</a> / <a href=\"https://openai.com/index/teens-learn-and-plan/\" target=\"_blank\" rel=\"noreferrer\">OpenAI</a>）</span></p>\n<h4 class=\"entry-heading\" id=\"芬兰监管机构下令谷歌暂停两处数据中心场地施工-涉清林逾300公顷\">芬兰监管机构下令谷歌暂停两处数据中心场地施工，涉清林逾300公顷</h4>\n<p>芬兰环境监管机构LVV 10月7日下令谷歌暂停两处数据中心场地施工，涉清林逾<strong>300公顷</strong>。被要求停工的是项目承建方Tuike Finland在Muhos、Kajaani的场地（谷歌在芬兰另两处场地未在此次范围内），LVV调查聚焦清林、剥离表土、修建场地道路等工程是否在完成强制环境影响评估前已经展开。按时间节点，Tuike Finland需在<strong>10月14日</strong>前提交解释及后续计划，最迟须在<strong>10月23日</strong>前暂停所有可能显著改变环境的准备工作，否则LVV将启动强制执行程序；谷歌发言人回应承认存在不足，将遵循监管指导。下一步是10月14日的解释材料能否说明清林时间线，以及10月23日的强制执行节点能否如期落地。 <span class=\"inline-source\">（来源：<a href=\"https://www.aljazeera.com/news/2026/10/7/finland-orders-halt-to-work-on-google-data-sites-over-environment-concerns\" target=\"_blank\" rel=\"noreferrer\">Al Jazeera</a>）</span></p>\n<h3 id=\"4-芯片与半导体\">4. 芯片与半导体</h3>\n<h4 class=\"entry-heading\" id=\"美国国防部10月7日向芯片商wolfspeed提供最高15亿美元条件性贷款\">美国国防部10月7日向芯片商Wolfspeed提供最高15亿美元条件性贷款</h4>\n<p>美国国防部10月7日向芯片商<strong>Wolfspeed</strong>提供最高<strong>$15亿</strong>条件性贷款。该贷款由国防部战略资本办公室宣布，期限30年，资金将用于扩大碳化硅材料与功率器件产能、升级氮化镓技术（应用于通信基础设施与电子战系统）及开发抗辐射加固能力。作为交换条件，Wolfspeed需向政府发行可购买其完全稀释股权最多<strong>7.5%</strong>的认股权证，贷款落地还需完成尽职调查、签署正式协议并获得政府批准；消息公布后公司股价盘后大涨<strong>27%</strong>。Wolfspeed曾于2025年经历破产重组，此次是其获得的最大规模政府融资支持。下一步是尽职调查与正式协议能否顺利完成，以及这笔贷款能否成为其他本土功率半导体厂商争取国防融资的参照案例。 <span class=\"inline-source\">（来源：<a href=\"https://www.investing.com/news/stock-market-news/wolfspeed-secures-15-billion-conditional-loan-commitment-from-us-defense-department-4937569\" target=\"_blank\" rel=\"noreferrer\">Reuters（经Investing.com转引）</a> / <a href=\"https://www.bloomberg.com/news/articles/2026-10-07/us-agrees-to-loan-for-chipmaker-that-went-bankrupt-last-year\" target=\"_blank\" rel=\"noreferrer\">Bloomberg</a>）</span></p>\n<h3 id=\"本周值得盯\">本周值得盯</h3>\n<ul><li>10/8 周四 — 纽约市议会&quot;关停开关&quot;法案预计正式提交，看点是独立验证与罚款条款能否进入正式文本、市议会能否推进对SpaceX的subpoena强制执行</li><li>10/9 周五 — 谷歌免费Gemini用户降级至仅Flash-Lite模型生效，看点是用户流失与付费转化数据是否公开</li></ul>\n<h3 id=\"本期说明\">本期说明</h3>\n<p><strong>来源核对</strong> · 11源逐一核对：Anthropic Newsroom News列表最新为10/6（Cyber Verification Program，已在10-07归档收录），但官网横幅10/7新增Claude Haiku 5.5发布页（未进入News列表），已单独核实收录；OpenAI News 10/7新增3条（GPT-6 Intelligent UI上线、ChatGPT for Teens功能与数据、GPT-6 Sol/Luna十月安全报告），均已收录；NVIDIA Newsroom最新为10/6电信运营商AI战略博客（已在10-07归档判定为软新闻未收录），窗口内无新条目；Meta AI Blog仍停留在7月；Google DeepMind首页无时间戳信息，经WebSearch侧核对窗口内无新公告；Cursor Changelog最新仍为10/6&quot;远程控制&quot;（已在10-07归档收录），窗口内无新条目；Claude Code GitHub Releases最新仍为v2.1.292（10/6），窗口内无新发布；DeepSeek News页面无可见新闻条目；Qwen Blog最新仍为2025年内容；智谱News页面本次WebFetch返回服务器错误，经WebSearch侧核对未发现10月新公告；HF中文榜无时间戳信息。Wolfspeed国防部贷款、Common Sense Media测评、芬兰谷歌数据中心停工三条经WebSearch/Agent B补充排查发现，非11源清单内但均有Reuters/Bloomberg/Al Jazeera/Axios等主流媒体一手来源，已纳入正文。另有一条跨日真实遗漏：Mistral AI官方新闻页显示Large 4公开预览发布于<strong>10月6日</strong>（无精确时间），该日期早于本期窗口起点，经核对10-07归档确认此前两日均未收录，判定为真实遗漏，参照此前NVIDIA DGX Spark遗漏补入的处理方式，本期予以补入并保留🔥标记（因属旗舰模型发布量级事件），但不重复声明&quot;今日发布&quot;。</p>\n<h4 class=\"entry-heading\" id=\"窗口外与跨日\">窗口外与跨日</h4>\n<p>· 纽约市议会&quot;关停开关&quot;法案预计10/8（NYC当地时间）正式提交，提交时点晚于本期窗口终点（10-08 00:00 UTC），窗口内未发现实际提交的确认报道，仅保留在&quot;本周值得盯&quot;；OpenAI数学研究成果公开、Atlassian合作深化两条首发于10/6，已在10-07归档收录，不重复；三星电子Q3营业利润传闻经多方搜索均未找到可信一手来源对应10/7当天的官方初步业绩公告，判定证据不足，不予收录。</p>\n<p><strong>审稿</strong> · 3 agent全部完成，改5处。A核8条（覆盖参数规模、定价换算、百分比时间线、测评计数、股价涨幅5类），4条准确（Haiku定价/跑分、Sol/Luna安全评估、Mistral人工盲测分数、Wolfspeed贷款条款）、1处修正：Mistral Large 4官方页面原文为&quot;1 trillion-parameter&quot;（1万亿），初稿沿用第三方聚合站&quot;1.05万亿&quot;的精确表述存在出入，已改为官方口径&quot;1万亿&quot;；&quot;Le Chonk&quot;代号经直接核对官方页面原文&quot;Unofficially ML4, very officially: le Chonk&quot;确认为官方命名，非传闻，维持收录。另2处A的质疑经本会话直接重新核对原始来源后判定无需修改：GPT-6 Instant/44%/超12亿周活均逐字核对openai.com/index/gpt-6-for-everyone/原文无误（A的比对来源为help.openai.com文档页，与公告发布同日，可能尚未同步新命名）；芬兰LVV下令停工及10/14、10/23两个日期经核对Al Jazeera 10/7原始报道（含官方人员具名引语）确认无误，A查到的是10/5更早阶段的环保团体呼吁报道，二者是同一事件的前后进展、非矛盾。B排查11源及AI Agent/图像视频/语音多模态/机器人/自动驾驶/医疗/芯片/中国厂商/欧盟监管等薄弱板块，判定窗口内无新遗漏；另指出OpenAI数学研究、Atlassian合作深化两条存在跨日边界疑问，经核对均为10/6首发、已在10-07归档收录，不重复。C审读10项，3处需改：Mistral与Haiku段&quot;每百万输入/输出token为X/Y&quot;的斜杠式表述属电报体残留，已改为&quot;输入价X、输出价Y&quot;；摘要&quot;GPT-6 Intelligent UI全量上线ChatGPT所有付费层级&quot;与正文Enterprise视管理员设置、Free/Go延后开放相矛盾，已改为&quot;上线ChatGPT主要付费层级&quot;；Claude Haiku 5.5与Mistral Large 4同为模型发布却分归不同板块，口径不一致，已将Haiku 5.5移入&quot;主要AI Labs动态&quot;与Mistral并列，&quot;AI产品更新&quot;节仅保留纯功能更新类的GPT-6 Intelligent UI。C另建议将芬兰LVV执法新闻整体上调至板块顺序第一档（对应SKILL默认排序&quot;重大立法/执法&quot;），经复核SKILL.md该档定义为&quot;$100M+罚款、新法案生效、重大判决&quot;量级，本次停工令属程序性监管行动、未开出罚款金额，未达该档阈值，故不采纳上调、维持置于&quot;政策与监管&quot;板块，仅在此说明理由。全文grep确认上述修正点均无遗漏改写处。</p>\n<p><strong>自检</strong> · 7个条目首句44–57字（均≤60字硬上限，含数字或硬日期，不以时间戳/媒体名/披露动作开头），正文312–349字（均在80–350字区间内），正文加粗占比约3.2%（单段最高8.1%，均低于15%单段上限与12%聚合阈值），来源/条目比1.57（落在1.3–3.0区间）；披露脚注见于§1 Claude Haiku 5.5段（涉Anthropic/Claude），非🔥档、措辞为客观陈述&quot;降约75%&quot;未用评价性形容词，故跨源验证非强制要求；摘要5条bullet均在正文找到对应段落支撑；&quot;本周值得盯&quot;2条均为10-07归档延续事件、距今均≤3天按规则保留，NVIDIA DGX Spark（10/23，距今15天）按距事件&gt;3天规则持续静默。</p>\n<p><em>报告生成：2026-10-08 CST · 调度任务：daily-ai-news-v2</em></p>"
+    },
     {
       "id": "2026-10-07",
       "date": "2026-10-07",
