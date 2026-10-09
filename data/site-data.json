@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T01:29:42.029Z",
+  "generatedAt": "2026-10-09T01:33:44.388Z",
   "sourceDirectories": {
     "daily": "/home/runner/work/AINews/AINews/content/daily-ai-news",
     "weekly": "/home/runner/work/AINews/AINews/content/daily-ai-news/weekly",
@@ -7,6 +7,92 @@
     "weeklyAiTech": "/home/runner/work/AINews/AINews/content/weekly-ai-tech"
   },
   "issues": [
+    {
+      "id": "2026-10-09",
+      "date": "2026-10-09",
+      "label": "10月9日",
+      "title": "每日前沿 AI 行业新闻 — 2026年10月9日",
+      "summary": "- 🔥 11家科技公司合计承诺$24亿支持白宫Genesis Mission，英伟达$10亿领投：Anthropic认捐的$1.5亿将用于支持15个以上联邦机构科研项目，部分承诺（如Crusoe的$5000万）系云算力额度而非现金。\n- 🔥 OpenAI封禁俄罗斯\"Dark Clark\"行动，评级创Breakout Scale史上最高5级：伊朗\"Bogus Bylines\"同日获评4级一并封禁，两起行动合计波及6个拉美国家及乌克兰、波兰，为OpenAI两年半来波及地域最广的一次。\n- Anthropic推出Cyber Mission网络安全使命，CIDP联合11家创始伙伴守护关键基础设施：新工具OSS Scanner为开源项目免费扫描漏洞，预期真阳性率超90%。\n- Anthropic发布2026版使用政策，11月12日生效，首次规范物理设备安全：新增统一反欺骗性活动条款，监控与执法条款重写。",
+      "sections": [
+        "AI Labs"
+      ],
+      "stories": [
+        {
+          "tag": "AI Labs",
+          "impact": "高热",
+          "title": "🔥 11家科技公司承诺$24亿支持白宫Genesis Mission，英伟达$10亿领投",
+          "detail": "白宫10月8日称11家公司承诺$24亿支持Genesis Mission，部分系云算力而非现金。Crusoe认捐的$5000万即为云计算资源额度。英伟达、AMD、OpenAI、Google、Anthropic等11家科技公司合计认捐，其中英伟达$10亿为单笔最高，AMD $5亿…",
+          "links": [
+            {
+              "label": "PYMNTS",
+              "url": "https://www.pymnts.com/news/artificial-intelligence/2026/tech-giants-contribute-2-billion-dollars-ai-resources-white-house-science-mission/"
+            },
+            {
+              "label": "Anthropic",
+              "url": "https://www.anthropic.com/news/genesis-mission-commitment"
+            }
+          ],
+          "anchor": "11家科技公司承诺-24亿支持白宫genesis-mission-英伟达-10亿领投"
+        },
+        {
+          "tag": "AI Labs",
+          "impact": "高热",
+          "title": "🔥 OpenAI封禁俄罗斯、伊朗操纵行动，评级创Breakout Scale史上最高5级",
+          "detail": "OpenAI 10月8日将俄\"Dark Clark\"行动评为Breakout 5级，系其通报史上最高。伊朗\"Bogus Bylines\"同日获评4级一并封禁，两起行动合计波及阿根廷、玻利维亚等6个拉美国家及乌克兰、波兰，创OpenAI过去两年半披露30起同类行动以来波及地域最广…",
+          "links": [
+            {
+              "label": "OpenAI",
+              "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations/"
+            },
+            {
+              "label": "CyberScoop",
+              "url": "https://cyberscoop.com/openai-disrupts-russia-iran-ai-influence-operations/"
+            }
+          ],
+          "anchor": "openai封禁俄罗斯-伊朗操纵行动-评级创breakout-scale史上最高5级"
+        },
+        {
+          "tag": "AI Labs",
+          "impact": "关注",
+          "title": "Anthropic推出Cyber Mission，CIDP联合11家创始伙伴守护关键基础设施",
+          "detail": "Anthropic网络安全业务覆盖范围10月8日扩大至美国过半州及部分大型关键基础设施运营商。Anthropic当日推出Cyber Mission网络安全使命，关键基础设施防御计划（CIDP）联合11家创始合作伙伴（含Accenture、CrowdStrike等）为电网、水务、…",
+          "links": [
+            {
+              "label": "Anthropic",
+              "url": "https://www.anthropic.com/news/anthropic-cyber-mission"
+            },
+            {
+              "label": "CyberScoop",
+              "url": "https://cyberscoop.com/anthropic-cybersecurity-program-critical-infrastructure-open-source/"
+            }
+          ],
+          "anchor": "anthropic推出cyber-mission-cidp联合11家创始伙伴守护关键基础设施"
+        },
+        {
+          "tag": "AI Labs",
+          "impact": "更新",
+          "title": "Anthropic发布2026版使用政策，11月12日生效，首次规范物理设备安全",
+          "detail": "Anthropic 10月8日发布2026版使用政策，11月12日生效，首次规范物理设备安全。企业客户须在生效前完成合规调整，尤其是涉及自主物理设备连接的新安全要求——操作人员须能观察并随时停止设备，且设备在Claude断线后须能保持安全状态。新版把原分散在选举、欺诈、隐私等章…",
+          "links": [
+            {
+              "label": "Anthropic",
+              "url": "https://www.anthropic.com/news/2026-usage-policy-update"
+            }
+          ],
+          "anchor": "anthropic发布2026版使用政策-11月12日生效-首次规范物理设备安全"
+        },
+        {
+          "tag": "AI Labs",
+          "impact": "关注",
+          "title": "窗口外与跨日",
+          "detail": "· 纽约市议会\"关停开关\"法案原定10/8正式提交，本期多方搜索未找到可信来源确认实际提交结果，暂不收录正文；OpenAI「GPT-6 and Intelligent UI」与Anthropic「Claude Haiku 5.5」均为10/7发布（早于本期窗口，已在10-08归…",
+          "links": [],
+          "anchor": "窗口外与跨日"
+        }
+      ],
+      "sourceFile": "/home/runner/work/AINews/AINews/content/daily-ai-news/2026-10-09.md",
+      "htmlContent": "<p>&gt; <strong>覆盖窗口</strong> 2026-10-08 00:00 – 10-09 00:00 UTC（24h）· <strong>去重锚</strong> 10-08、10-07 归档</p>\n<h3 id=\"今日摘要\">今日摘要</h3>\n<ul><li>🔥 <strong>11家科技公司合计承诺$24亿支持白宫Genesis Mission，英伟达$10亿领投</strong>：Anthropic认捐的$1.5亿将用于支持15个以上联邦机构科研项目，部分承诺（如Crusoe的$5000万）系云算力额度而非现金。</li><li>🔥 <strong>OpenAI封禁俄罗斯&quot;Dark Clark&quot;行动，评级创Breakout Scale史上最高5级</strong>：伊朗&quot;Bogus Bylines&quot;同日获评4级一并封禁，两起行动合计波及6个拉美国家及乌克兰、波兰，为OpenAI两年半来波及地域最广的一次。</li><li><strong>Anthropic推出Cyber Mission网络安全使命，CIDP联合11家创始伙伴守护关键基础设施</strong>：新工具OSS Scanner为开源项目免费扫描漏洞，预期真阳性率超90%。</li><li><strong>Anthropic发布2026版使用政策，11月12日生效，首次规范物理设备安全</strong>：新增统一反欺骗性活动条款，监控与执法条款重写。</li></ul>\n<h3 id=\"1-主要-ai-labs-动态\">1. 主要 AI Labs 动态</h3>\n<h4 class=\"entry-heading\" id=\"11家科技公司承诺-24亿支持白宫genesis-mission-英伟达-10亿领投\">🔥 11家科技公司承诺$24亿支持白宫Genesis Mission，英伟达$10亿领投</h4>\n<p>白宫10月8日称11家公司承诺<strong>$24亿</strong>支持Genesis Mission，部分系云算力而非现金。Crusoe认捐的<strong>$5000万</strong>即为云计算资源额度。英伟达、AMD、OpenAI、Google、Anthropic等11家科技公司合计认捐，其中英伟达<strong>$10亿</strong>为单笔最高，AMD $5亿，OpenAI $2亿，Google与Anthropic各$1.5亿，其余合计约$3亿。Anthropic的$1.5亿将用于未来<strong>3年</strong>支持NASA、NIH、NSF等<strong>15个以上</strong>联邦机构科研项目，重点覆盖核聚变能源与量子计算，延续其与能源部去年12月的国家实验室合作。下一步是首批机构能否在3年内启动首个资助项目。 <span class=\"inline-source\">（来源：<a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/tech-giants-contribute-2-billion-dollars-ai-resources-white-house-science-mission/\" target=\"_blank\" rel=\"noreferrer\">PYMNTS</a> / <a href=\"https://www.anthropic.com/news/genesis-mission-commitment\" target=\"_blank\" rel=\"noreferrer\">Anthropic</a>）</span></p>\n<h4 class=\"entry-heading\" id=\"openai封禁俄罗斯-伊朗操纵行动-评级创breakout-scale史上最高5级\">🔥 OpenAI封禁俄罗斯、伊朗操纵行动，评级创Breakout Scale史上最高5级</h4>\n<p>OpenAI 10月8日将俄&quot;Dark Clark&quot;行动评为Breakout <strong>5级</strong>，系其通报史上最高。伊朗&quot;Bogus Bylines&quot;同日获评4级一并封禁，两起行动合计波及阿根廷、玻利维亚等<strong>6个</strong>拉美国家及乌克兰、波兰，创OpenAI过去两年半披露<strong>30起</strong>同类行动以来波及地域最广的一次。&quot;Dark Clark&quot;借伪造政府邮件诱导秘鲁、厄瓜多尔学校举办政治活动，伪造乌克兰驻厄瓜多尔领事与玻利维亚国有水务公司音频，旗下&quot;社会研究中心&quot;网站累计发布逾<strong>60篇</strong>文章，LinkedIn账号虚报员工200–500人、实际仅2人；&quot;Bogus Bylines&quot;动用<strong>7个</strong>虚假记者身份向十余家国际媒体投稿近<strong>100篇</strong>文章，并批量生成英文波斯文评论攻击伊朗国际卫星电视台。 <span class=\"inline-source\">（来源：<a href=\"https://openai.com/index/disrupting-ai-enabled-false-front-operations/\" target=\"_blank\" rel=\"noreferrer\">OpenAI</a> / <a href=\"https://cyberscoop.com/openai-disrupts-russia-iran-ai-influence-operations/\" target=\"_blank\" rel=\"noreferrer\">CyberScoop</a>）</span></p>\n<h4 class=\"entry-heading\" id=\"anthropic推出cyber-mission-cidp联合11家创始伙伴守护关键基础设施\">Anthropic推出Cyber Mission，CIDP联合11家创始伙伴守护关键基础设施</h4>\n<p>Anthropic网络安全业务覆盖范围10月8日扩大至美国过半州及部分大型关键基础设施运营商。Anthropic当日推出<strong>Cyber Mission</strong>网络安全使命，关键基础设施防御计划（CIDP）联合<strong>11家</strong>创始合作伙伴（含Accenture、CrowdStrike等）为电网、水务、交通运营技术提供Claude模型支持，整合此前的州政府网络防御项目。另一项新工具<strong>OSS Scanner</strong>为已加入的开源项目免费扫描漏洞，预期真阳性率超过<strong>90%</strong>，报告未经人工复核；维护者可申请免费Claude Max订阅并纳入扩展后的网络验证计划（原Project Glasswing并入其中）。下一步是CIDP能否扩展到更多行业，OSS Scanner真阳性率能否维持90%以上。 <span class=\"inline-source\">（来源：<a href=\"https://www.anthropic.com/news/anthropic-cyber-mission\" target=\"_blank\" rel=\"noreferrer\">Anthropic</a> / <a href=\"https://cyberscoop.com/anthropic-cybersecurity-program-critical-infrastructure-open-source/\" target=\"_blank\" rel=\"noreferrer\">CyberScoop</a>）</span></p>\n<h4 class=\"entry-heading\" id=\"anthropic发布2026版使用政策-11月12日生效-首次规范物理设备安全\">Anthropic发布2026版使用政策，11月12日生效，首次规范物理设备安全</h4>\n<p>Anthropic 10月8日发布2026版使用政策，11月12日生效，首次规范物理设备安全。企业客户须在生效前完成合规调整，尤其是涉及自主物理设备连接的新安全要求——操作人员须能观察并随时停止设备，且设备在Claude断线后须能保持安全状态。新版把原分散在选举、欺诈、隐私等章节的欺骗性规则整合为<strong>&quot;禁止欺骗性宣传或人工活跃&quot;</strong>条款，适用于政治与商业领域的虚假账号、虚假新闻网站与影响力操纵工具；选举条款收窄为&quot;禁止破坏民主程序&quot;，解除此前对个性化选民触达与竞选定向推送的一律禁止，仅保留对欺骗选民、干扰选举行为的限制。监控与执法条款重写，禁止未经同意的实时或历史追踪，禁止Claude参与调查、逮捕或起诉决策，但保留已获同意的欺诈监测、内容审核、新闻报道与法律研究等用途。 <span class=\"inline-source\">（来源：<a href=\"https://www.anthropic.com/news/2026-usage-policy-update\" target=\"_blank\" rel=\"noreferrer\">Anthropic</a>）</span></p>\n<p><em>披露：本报告由 Claude 撰写，Anthropic 为 Claude 开发方。</em></p>\n<h3 id=\"本周值得盯\">本周值得盯</h3>\n<ul><li>10/9 周五 — 谷歌免费Gemini用户降级至仅Flash-Lite模型生效，看点是用户流失与付费转化数据是否公开</li></ul>\n<h3 id=\"本期说明\">本期说明</h3>\n<p><strong>来源核对</strong> · 11源逐一核对：Anthropic Newsroom 10/8新增3条（Cyber Mission、Genesis Mission承诺、2026版使用政策，均已收录）；OpenAI News 10/8新增1条（封禁假前台行动，已收录）；NVIDIA Newsroom、Meta AI Blog、Google DeepMind、Cursor Changelog窗口内均无新公告；Claude Code GitHub Releases窗口内新增v2.1.294（10/8，修复hook指令判断问题），属常规bug修复未单独收录；DeepSeek News、Qwen Blog、智谱News经WebFetch/WebSearch核对窗口内均无新公告；HF中文榜无时间戳信息。Genesis Mission承诺经核实实为11家科技公司合计$24亿的产业联合承诺（非Anthropic独家），已改以PYMNTS独立报道为主、Anthropic官方为辅重新组织。</p>\n<h4 class=\"entry-heading\" id=\"窗口外与跨日\">窗口外与跨日</h4>\n<p>· 纽约市议会&quot;关停开关&quot;法案原定10/8正式提交，本期多方搜索未找到可信来源确认实际提交结果，暂不收录正文；OpenAI「GPT-6 and Intelligent UI」与Anthropic「Claude Haiku 5.5」均为10/7发布（早于本期窗口，已在10-08归档收录），不重复。</p>\n<p><strong>审稿</strong> · 3 agent全部完成，改5处。A核8条（覆盖金额分解、云算力额度性质、计数、评级、生效日期5类），7条准确，1处修正：摘要&quot;资金将用于为15个以上联邦机构提供AI工具&quot;易被误读为全部$24亿资金池的用途，已改为&quot;其中Anthropic认捐的$1.5亿将用于支持15个以上联邦机构&quot;以明确该数字仅指Anthropic自身承诺范围。B排查11源及图像视频/语音多模态/机器人/自动驾驶/医疗/芯片/融资/中国厂商/欧盟监管等薄弱板块，判定无实质性遗漏（唯一候选RobotX AI种子轮融资系付费新闻稿、规模过小，未采纳）。C审读11项，4处需改：两个🔥标题原分别以&quot;Crusoe现金性质&quot;和&quot;波及国家&quot;等次要细节为主标题，已改为点出核心事件（&quot;$24亿支持Genesis Mission&quot;与&quot;评级创5级&quot;）；Genesis Mission段首句52字超硬目标且需依赖下文才能成立（C级），已重写为43字自洽句；OpenAI段首句102字严重超限，已拆分为两句，首句压缩至约30字；使用政策段首句40字但未说明新规具体内容（B级），已重写为&quot;首次规范物理设备安全&quot;使其自洽；另统一CIDP缩写在摘要与正文的出现方式，&quot;60篇文章&quot;补充&quot;累计&quot;以明确统计口径。全文grep确认上述修正点均无遗漏改写处。</p>\n<p><strong>自检</strong> · 4个条目首句47–51字（均≤60字硬上限，含数字或硬日期，不以时间戳/媒体名/披露动作开头），正文313–349字（均在80–350字区间内），正文加粗占比约9.8%（单段最高9.1%，均低于15%单段上限与12%聚合阈值），来源/条目比1.75（落在1.3–3.0区间）；披露脚注见于§1板块末尾（板块内3条涉Anthropic/Claude），🔥档（Genesis Mission）已有PYMNTS非Anthropic来源交叉验证；摘要4条bullet均在正文找到对应段落支撑且核心论点与正文首句不雷同（摘要讲&quot;是什么&quot;，首句讲&quot;后果/范围/新规要点&quot;）；&quot;本周值得盯&quot;1条为10-08归档延续事件、距今≤3天按规则保留，NVIDIA DGX Spark（10/23，距今14天）按距事件&gt;3天规则持续静默。</p>\n<p><em>报告生成：2026-10-09 CST · 调度任务：daily-ai-news-v2</em></p>"
+    },
     {
       "id": "2026-10-08",
       "date": "2026-10-08",
