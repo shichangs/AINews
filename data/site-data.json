@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T01:33:44.388Z",
+  "generatedAt": "2026-10-10T01:27:18.430Z",
   "sourceDirectories": {
     "daily": "/home/runner/work/AINews/AINews/content/daily-ai-news",
     "weekly": "/home/runner/work/AINews/AINews/content/daily-ai-news/weekly",
@@ -7,6 +7,73 @@
     "weeklyAiTech": "/home/runner/work/AINews/AINews/content/weekly-ai-tech"
   },
   "issues": [
+    {
+      "id": "2026-10-10",
+      "date": "2026-10-10",
+      "label": "10月10日",
+      "title": "每日前沿 AI 行业新闻 — 2026年10月10日",
+      "summary": "- 🔥 OpenAI年化营收下修至近500亿美元：较9月流传的近700亿美元低出约200亿美元，10月8日纳斯达克综合指数收跌337点(-1.23%)，英伟达单日市值蒸发约1690亿美元。\n- 🔥 Manus完成超5亿美元融资，博裕资本与IDG资本领投：此前Meta逾20亿美元收购案遭中国监管部门阻止，本轮估值目标40亿美元。\n- 📌 谷歌免费版Gemini降级至仅Flash-Lite模型，10月9日起生效：此前免费用户还可使用Flash与Pro，AI Plus订阅用户后续也将失去Pro权限。",
+      "sections": [
+        "AI Labs",
+        "产品",
+        "中国 AI"
+      ],
+      "stories": [
+        {
+          "tag": "AI Labs",
+          "impact": "高热",
+          "title": "🔥 OpenAI年化营收下修至近500亿美元，较此前流传数字少200亿美元",
+          "detail": "OpenAI已向投资者说明，9月年化营收约500亿美元，比一周前流传的700亿美元少200亿美元。据Axios、Reuters，700亿美元源于按Anthropic记账口径\"折算\"：Anthropic将云合作伙伴转售收入全额计入营收、分成记为成本，OpenAI只计入自身所得部分…",
+          "links": [
+            {
+              "label": "Reuters（经Investing.com转引）",
+              "url": "https://www.investing.com/news/stock-market-news/openais-annualized-revenue-20-billion-less-than-previously-signaled-ft-reports-4939854"
+            },
+            {
+              "label": "Axios",
+              "url": "https://www.axios.com/2026/10/08/openai-50-billion-arr-anthropic-revenue-accounting"
+            }
+          ],
+          "anchor": "openai年化营收下修至近500亿美元-较此前流传数字少200亿美元"
+        },
+        {
+          "tag": "产品",
+          "impact": "关注",
+          "title": "📌 谷歌免费版Gemini降级至仅Flash-Lite模型，10月9日起生效",
+          "detail": "谷歌10月9日起将免费版Gemini限制为仅可用Flash-Lite模型，此前免费用户还可使用Flash与Pro。据谷歌Gemini Apps帮助页面，AI Plus订阅用户保留Flash-Lite与Flash但失去Pro权限（生效日期另行邮件通知），AI Pro与AI Ult…",
+          "links": [
+            {
+              "label": "Google Gemini Apps Help",
+              "url": "https://support.google.com/gemini/answer/"
+            },
+            {
+              "label": "relevantaudience.com",
+              "url": "https://www.relevantaudience.com/ai/gemini-app-free-users-flash-lite-october-9/"
+            }
+          ],
+          "anchor": "谷歌免费版gemini降级至仅flash-lite模型-10月9日起生效"
+        },
+        {
+          "tag": "中国 AI",
+          "impact": "高热",
+          "title": "🔥 Manus完成超5亿美元融资，博裕资本与IDG资本领投",
+          "detail": "Manus母公司\"蝴蝶效应\"10月8日完成超5亿美元融资，博裕资本与IDG资本领投。腾讯、红杉中国(HSG)、真格基金跟投，此次融资发生在Meta收购Manus交易遭中国监管部门阻止之后：Meta去年12月29日宣布以逾20亿美元收购Manus，今年1月CNBC报道中国监管机构…",
+          "links": [
+            {
+              "label": "PYMNTS",
+              "url": "https://www.pymnts.com/news/investment-tracker/2026/manus-raises-500-million-after-china-blocks-metas-acquisition/"
+            },
+            {
+              "label": "Reuters（经Investing.com转引）",
+              "url": "https://finance.yahoo.com/technology/ai/articles/manus-raises-500m-china-blocked-124425944.html"
+            }
+          ],
+          "anchor": "manus完成超5亿美元融资-博裕资本与idg资本领投"
+        }
+      ],
+      "sourceFile": "/home/runner/work/AINews/AINews/content/daily-ai-news/2026-10-10.md",
+      "htmlContent": "<p>&gt; <strong>覆盖窗口</strong> 2026-10-09 00:00 – 10-10 00:00 UTC（24h）· <strong>去重锚</strong> 10-09、10-08 归档 &gt; 注：今日新闻稀疏，覆盖窗口扩至48h核实（2026-10-08 00:00 – 10-10 00:00 UTC），但10-08部分与前日(10-09.md)归档完全重叠，未发现可新增的未报道事件；本期分板块条目仍为3条，低于常规下限（4条），未凑数。</p>\n<h3 id=\"今日摘要\">今日摘要</h3>\n<ul><li>🔥 <strong>OpenAI年化营收下修至近500亿美元</strong>：较9月流传的近700亿美元低出约200亿美元，10月8日纳斯达克综合指数收跌337点(-1.23%)，英伟达单日市值蒸发约1690亿美元。</li><li>🔥 <strong>Manus完成超5亿美元融资，博裕资本与IDG资本领投</strong>：此前Meta逾20亿美元收购案遭中国监管部门阻止，本轮估值目标40亿美元。</li><li>📌 <strong>谷歌免费版Gemini降级至仅Flash-Lite模型，10月9日起生效</strong>：此前免费用户还可使用Flash与Pro，AI Plus订阅用户后续也将失去Pro权限。</li></ul>\n<h3 id=\"1-主要-ai-labs-动态\">1. 主要 AI Labs 动态</h3>\n<h4 class=\"entry-heading\" id=\"openai年化营收下修至近500亿美元-较此前流传数字少200亿美元\">🔥 OpenAI年化营收下修至近500亿美元，较此前流传数字少200亿美元</h4>\n<p>OpenAI已向投资者说明，9月年化营收约<strong>500亿美元</strong>，比一周前流传的<strong>700亿美元</strong>少<strong>200亿美元</strong>。据Axios、Reuters，700亿美元源于按Anthropic记账口径&quot;折算&quot;：Anthropic将云合作伙伴转售收入全额计入营收、分成记为成本，OpenAI只计入自身所得部分，两家口径均合规但不可直接比较；OpenAI第二季度单季营收<strong>67亿美元</strong>，低于Anthropic同期的<strong>115亿美元</strong>，后者年化营收7月已突破<strong>650亿美元</strong>。消息公布当天（10/8），纳斯达克综合指数收跌<strong>337点</strong>（-1.23%），英伟达单日蒸发市值约<strong>1690亿美元</strong>，Oracle跌5.48%，费城半导体指数跌3.4%。下一步是两家公司能否改用可比口径披露营收，以及股价反应会否影响OpenAI新一轮融资谈判中的估值预期。 <span class=\"inline-source\">（来源：<a href=\"https://www.investing.com/news/stock-market-news/openais-annualized-revenue-20-billion-less-than-previously-signaled-ft-reports-4939854\" target=\"_blank\" rel=\"noreferrer\">Reuters（经Investing.com转引）</a> / <a href=\"https://www.axios.com/2026/10/08/openai-50-billion-arr-anthropic-revenue-accounting\" target=\"_blank\" rel=\"noreferrer\">Axios</a> / <a href=\"https://finance.yahoo.com/markets/stocks/articles/openai-revenue-reportedly-20-billion-111534921.html\" target=\"_blank\" rel=\"noreferrer\">Yahoo Finance</a>）</span></p>\n<p><em>披露：本条涉及Anthropic营收记账方式的对比，本报告由Claude撰写，Anthropic为Claude开发方。</em></p>\n<h3 id=\"2-ai-产品更新\">2. AI 产品更新</h3>\n<h4 class=\"entry-heading\" id=\"谷歌免费版gemini降级至仅flash-lite模型-10月9日起生效\">📌 谷歌免费版Gemini降级至仅Flash-Lite模型，10月9日起生效</h4>\n<p>谷歌10月9日起将免费版Gemini限制为仅可用<strong>Flash-Lite</strong>模型，此前免费用户还可使用Flash与Pro。据谷歌Gemini Apps帮助页面，AI Plus订阅用户保留Flash-Lite与Flash但失去Pro权限（生效日期另行邮件通知），AI Pro与AI Ultra订阅用户保留全部三款模型并解锁Deep Think选项。据9to5Google援引版本信息，三款模型分别为Flash-Lite 3.5、Flash 3.6、Pro 3.1，美区AI Plus月费<strong>4.99美元</strong>、AI Pro月费<strong>19.99美元</strong>。谷歌官方页面未说明调整原因。下一步是免费用户流失规模与付费转化率能否被后续财报披露。 <span class=\"inline-source\">（来源：<a href=\"https://support.google.com/gemini/answer/\" target=\"_blank\" rel=\"noreferrer\">Google Gemini Apps Help</a> / <a href=\"https://www.relevantaudience.com/ai/gemini-app-free-users-flash-lite-october-9/\" target=\"_blank\" rel=\"noreferrer\">relevantaudience.com</a>）</span></p>\n<h3 id=\"3-中国-ai-产业\">3. 中国 AI 产业</h3>\n<h4 class=\"entry-heading\" id=\"manus完成超5亿美元融资-博裕资本与idg资本领投\">🔥 Manus完成超5亿美元融资，博裕资本与IDG资本领投</h4>\n<p>Manus母公司&quot;蝴蝶效应&quot;10月8日完成超<strong>5亿美元</strong>融资，博裕资本与IDG资本领投。腾讯、红杉中国(HSG)、真格基金跟投，此次融资发生在Meta收购Manus交易遭中国监管部门阻止之后：Meta去年12月29日宣布以逾<strong>20亿美元</strong>收购Manus，今年1月CNBC报道中国监管机构以出口管制合规问题展开调查，4月国家发展和改革委员会要求&quot;禁止外资投资Manus项目&quot;、撤回收购。据Bloomberg此前报道，Manus本轮估值目标为<strong>40亿美元</strong>，接近Meta报价的两倍。Manus此前已将团队迁至新加坡，目前重新作为独立公司运营自主研究与自动化agent业务，具体估值未披露确认。下一步是Manus能否延续此前披露的用户增长势头，以及博裕、IDG领投后其上市进程是否会提速。 <span class=\"inline-source\">（来源：<a href=\"https://www.pymnts.com/news/investment-tracker/2026/manus-raises-500-million-after-china-blocks-metas-acquisition/\" target=\"_blank\" rel=\"noreferrer\">PYMNTS</a> / <a href=\"https://finance.yahoo.com/technology/ai/articles/manus-raises-500m-china-blocked-124425944.html\" target=\"_blank\" rel=\"noreferrer\">Reuters（经Investing.com转引）</a>）</span></p>\n<h3 id=\"本周值得盯\">本周值得盯</h3>\n<ul><li>10/14 周三 — Anthropic计划举行上市前投资者日，据Bloomberg报道系为IPO预热的市场沟通活动，看点是能否公开更详细的财务数据或承销商阵容信息（<a href=\"https://cryptobriefing.com/anthropic-pre-ipo-investor-day-october-14/\" target=\"_blank\" rel=\"noreferrer\">Crypto Briefing</a>）</li></ul>\n<h3 id=\"本期说明\">本期说明</h3>\n<p><strong>来源核对</strong> · 11源逐一核对：Anthropic Newsroom、OpenAI News、NVIDIA Newsroom、Meta AI Blog、Google DeepMind、Cursor Changelog、Claude Code GitHub Releases窗口内（10/9 UTC）均无新条目，最新条目均为10/8或更早、已在10-09归档收录；DeepSeek News本次WebFetch返回服务器错误，经WebSearch侧核对未发现10月新公告，标记来源降级；Qwen Blog已迁移至qwen.ai/research，新地址无可读列表，经WebSearch核对未发现窗口内新公告；智谱News首页WebFetch两次均遭robots拦截，经WebSearch核对未发现10月新公告；HF中文榜无时间戳信息，经检查页面无可见更新标记。</p>\n<p><strong>窗口外与跨日</strong> · OpenAI营收下修消息经核实首发报道时间为10月8日17:12 ET（约21:12 UTC），但后续更新持续到10月9日02:49 ET（约06:49 UTC），叠加纳斯达克股市反应主要体现在10月8日美股交易时段，严格按首发时间点属10-09归档窗口（10-08 00:00–10-09 00:00 UTC末段），经核对10-09.md未收录此事件，判定为真实遗漏，参照此前处理惯例本期予以补入并保留🔥标记；Manus融资10月8日经微信公众号发布（中国时区），英文主流媒体报道同步于10月8日，同样未见于10-09.md，判定为真实遗漏并补入。两条合计构成本期分板块条目主体，这也是本期48h扩窗未发现额外新事件的原因之一（真正属于10-09 UTC窗口内的全新事件仅余Gemini降级生效一条）。纽约市议会&quot;关停开关&quot;法案原定10/8正式提交，本期多方搜索未找到可信来源确认实际提交结果或推迟消息，鉴于已连续3期（10-07、10-08、10-09）无法验证且预计日期已过，本期起从&quot;本周值得盯&quot;移除，待有可信来源确认后再收录。</p>\n<p><strong>审稿</strong> · 3 agent全部完成，改3处。A核8条（覆盖金额、计数、跨单位换算、时间线4类，本报告无人物原话可挑故未覆盖该类），7条准确，1处严重问题：初稿原引用&quot;纳斯达克指数一度下跌逾300点，Oracle等芯片供应商股价下跌3%–6%&quot;查无可信出处，且与2026年4月28日另一起OpenAI未达销售目标的旧新闻存在混淆风险；经本会话重新核实一手来源（Yahoo Finance/247wallst援引市场数据），已改为精确数字：纳斯达克综合指数10月8日收跌337.38点(-1.23%)，英伟达当日跌2.94%、市值蒸发约1690亿美元，Oracle跌5.48%，费城半导体指数跌3.4%（为控制段落字数，AMD -3.90%一项未纳入正文），并补充Yahoo Finance来源。B排查8个一手来源主页及AI Agent/图像视频/语音多模态/机器人/自动驾驶/医疗/芯片/中国厂商(除Manus)/欧盟监管等薄弱板块，判定无实质性新遗漏，确认当日新闻稀疏属实；另发现Anthropic Newsroom、OpenAI News窗口边界存在10/8三条例行政策类公告（2026版使用政策、Cyber Mission、false front操作封禁），经核对均已在10-09.md收录，不重复。C审读3项，2处需改：摘要&quot;博裕资本/IDG资本领投&quot;与正文&quot;博裕资本与IDG资本领投&quot;用词不统一，已统一为&quot;与&quot;；摘要&quot;AI Plus订阅用户同步失去Pro权限&quot;与正文&quot;生效日期另行邮件通知&quot;存在矛盾（并非与10/9同步），已改为&quot;后续也将失去Pro权限&quot;；OpenAI段落开篇原&quot;OpenAI向投资者披露&quot;对匿名消息源措辞档位过高，已改为&quot;OpenAI已向投资者说明&quot;并在次句注明&quot;据Axios、Reuters&quot;；另为&quot;本周值得盯&quot;条目补充Crypto Briefing来源链接。全文grep确认&quot;逾300点&quot;、&quot;3%–6%&quot;、&quot;博裕资本/IDG&quot;、&quot;同步失去&quot;等旧表述均已替换，无残留。</p>\n<p><strong>自检</strong> · 3个条目首句42–57字（均≤60字硬上限，含数字或硬日期，不以时间戳/媒体名/披露动作开头），正文303–345字（均在80–350字区间内），正文加粗占比约2.3%（远低于15%单段上限与12%聚合阈值），来源/条目比2.67（落在1.3–3.0区间）；披露脚注见于§1板块末尾（涉Anthropic记账方式对比），措辞为客观陈述未用评价性形容词，🔥档OpenAI营收下修已有Reuters/Axios/Yahoo Finance多个非Anthropic来源交叉验证；摘要3条bullet均在正文找到对应段落支撑；&quot;本周值得盯&quot;1条为新增条目（Anthropic投资者日，10/14，距今4天）。本期分板块条目数（3条）低于常规下限（4条），已在文件头注明原因：48h扩窗核实后因与前日归档完全重叠未发现可新增事件，判定为真实稀疏日，未凑数处理。</p>\n<p><em>报告生成：2026-10-10 CST · 调度任务：daily-ai-news-v2</em></p>"
+    },
     {
       "id": "2026-10-09",
       "date": "2026-10-09",
