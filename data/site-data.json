@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T01:24:33.138Z",
+  "generatedAt": "2026-10-12T01:16:01.436Z",
   "sourceDirectories": {
     "daily": "/home/runner/work/AINews/AINews/content/daily-ai-news",
     "weekly": "/home/runner/work/AINews/AINews/content/daily-ai-news/weekly",
@@ -7,6 +7,42 @@
     "weeklyAiTech": "/home/runner/work/AINews/AINews/content/weekly-ai-tech"
   },
   "issues": [
+    {
+      "id": "2026-10-12",
+      "date": "2026-10-12",
+      "label": "10月12日",
+      "title": "每日前沿 AI 行业新闻 — 2026年10月12日",
+      "summary": "本期覆盖窗口内（含48h扩窗核实）未发现符合收录门槛的新AI行业事件，核实过程见文末\"本期说明\"。",
+      "sections": [],
+      "stories": [
+        {
+          "tag": "焦点",
+          "impact": "关注",
+          "title": "窗口外与跨日",
+          "detail": "· 对AI Agent/MCP、图像视频生成、语音多模态、机器人物理AI、自动驾驶、医疗AI、芯片（AMD/Intel/Broadcom/Samsung）、中国厂商（百度/阿里/字节/腾讯/Kimi/智谱/MiniMax，含国庆假期后是否有补发公告）、欧盟/英国/印度监管等薄弱…",
+          "links": [],
+          "anchor": "窗口外与跨日"
+        },
+        {
+          "tag": "焦点",
+          "impact": "关注",
+          "title": "审稿",
+          "detail": "· 因初稿无分板块新闻条目，阶段四调整为2个独立agent执行：一个核实\"本周值得盯\"3条日期（台积电Q3财报、特斯拉Q3财报、Anthropic投资者日），均确认准确，Anthropic投资者日措辞改为\"据报道\"（单一信源链式转载，Anthropic官方未独立确认）；另一个对…",
+          "links": [],
+          "anchor": "审稿"
+        },
+        {
+          "tag": "焦点",
+          "impact": "关注",
+          "title": "自检",
+          "detail": "· 本期分板块### 条目数为0，摘要未采用bullet格式（无对应事实声明可供概括），已如实说明无符合门槛事件而非凑数；\"本周值得盯\"3条均含具体日期/时间与来源链接；无Anthropic/Claude相关🔥或### 标题，披露脚注不适用；头注80字（≤120字上限），仅含…",
+          "links": [],
+          "anchor": "自检"
+        }
+      ],
+      "sourceFile": "/home/runner/work/AINews/AINews/content/daily-ai-news/2026-10-12.md",
+      "htmlContent": "<p>&gt; <strong>覆盖窗口</strong> 2026-10-11 00:00 – 10-12 00:00 UTC（48h，周日稀疏日扩窗）· <strong>去重锚</strong> 10-11、10-10 归档</p>\n<h3 id=\"今日摘要\">今日摘要</h3>\n<p>本期覆盖窗口内（含48h扩窗核实）未发现符合收录门槛的新AI行业事件，核实过程见文末&quot;本期说明&quot;。</p>\n<h3 id=\"本周值得盯\">本周值得盯</h3>\n<ul><li>10/14 周三 — Anthropic据报道计划举行上市前投资者日，看点是能否公开更详细财务数据或承销商阵容信息（距今2天，按距事件≤3天规则重列）（<a href=\"https://cryptobriefing.com/anthropic-pre-ipo-investor-day-october-14/\" target=\"_blank\" rel=\"noreferrer\">Crypto Briefing</a>）</li><li>10/15 周四 14:00台湾时间 — 台积电2026年Q3财报电话会，看点是AI芯片需求能否延续此前的超预期指引（<a href=\"https://investor.tsmc.com/quarterly-results\" target=\"_blank\" rel=\"noreferrer\">TSMC Investor Relations</a>）</li><li>10/21 周三 16:30 CT — 特斯拉2026年Q3财报电话会，看点是FSD与Robotaxi扩张进展能否对冲营收端压力（<a href=\"https://www.sec.gov/Archives/edgar/data/0001318605/000162828026064366/exhibit991111111.htm\" target=\"_blank\" rel=\"noreferrer\">SEC 8-K</a>）</li></ul>\n<h3 id=\"本期说明\">本期说明</h3>\n<p><strong>来源核对</strong> · 11个一手来源逐一fetch核对：Anthropic Newsroom、OpenAI News、NVIDIA Newsroom、Cursor Changelog、Claude Code GitHub Releases窗口内（10/11 UTC）均无新条目，最新条目均为10/8–10/9；Meta AI Blog仍停留在7月；Google DeepMind&quot;EmbeddingGemma 2&quot;仅标注月份，经WebSearch交叉核实实际发布于10月6日，早于本期窗口；DeepSeek News、Qwen Blog未见窗口内新公告；智谱News本次WebFetch再遭robots拦截，经WebSearch侧核对无10月新公告；HF中文榜无时间戳信息。</p>\n<h4 class=\"entry-heading\" id=\"窗口外与跨日\">窗口外与跨日</h4>\n<p>· 对AI Agent/MCP、图像视频生成、语音多模态、机器人物理AI、自动驾驶、医疗AI、芯片（AMD/Intel/Broadcom/Samsung）、中国厂商（百度/阿里/字节/腾讯/Kimi/智谱/MiniMax，含国庆假期后是否有补发公告）、欧盟/英国/印度监管等薄弱板块逐一WebSearch排查，均未发现10月10–12日UTC窗口内的新事件；经两个独立agent分别复核交叉验证，确认为真实稀疏日，非检索遗漏。</p>\n<h4 class=\"entry-heading\" id=\"审稿\">审稿</h4>\n<p>· 因初稿无分板块新闻条目，阶段四调整为2个独立agent执行：一个核实&quot;本周值得盯&quot;3条日期（台积电Q3财报、特斯拉Q3财报、Anthropic投资者日），均确认准确，Anthropic投资者日措辞改为&quot;据报道&quot;（单一信源链式转载，Anthropic官方未独立确认）；另一个对11个一手来源及AI Agent/图像视频/语音/机器人/自动驾驶/医疗/芯片/中国厂商/欧盟监管等板块独立复核，确认窗口内无遗漏事件，结论与初稿一致。因无分板块正文，编辑审稿项（Lede、加粗密度、电报体等）本期不适用。</p>\n<h4 class=\"entry-heading\" id=\"自检\">自检</h4>\n<p>· 本期分板块<code>### </code>条目数为0，摘要未采用bullet格式（无对应事实声明可供概括），已如实说明无符合门槛事件而非凑数；&quot;本周值得盯&quot;3条均含具体日期/时间与来源链接；无Anthropic/Claude相关🔥或<code>### </code>标题，披露脚注不适用；头注80字（≤120字上限），仅含必要的48h扩窗说明。</p>\n<p><em>报告生成：2026-10-12 CST · 调度任务：daily-ai-news-v2</em></p>"
+    },
     {
       "id": "2026-10-11",
       "date": "2026-10-11",
