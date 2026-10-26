@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T01:31:32.143Z",
+  "generatedAt": "2026-10-26T01:38:31.211Z",
   "sourceDirectories": {
     "daily": "/home/runner/work/AINews/AINews/content/daily-ai-news",
     "weekly": "/home/runner/work/AINews/AINews/content/daily-ai-news/weekly",
@@ -7,6 +7,62 @@
     "weeklyAiTech": "/home/runner/work/AINews/AINews/content/weekly-ai-tech"
   },
   "issues": [
+    {
+      "id": "2026-10-26",
+      "date": "2026-10-26",
+      "label": "10月26日",
+      "title": "每日前沿 AI 行业新闻 — 2026年10月26日",
+      "summary": "- 🔥 OpenAI以最高90%折扣抢占Anthropic大客户：Rippling编码工作负载中OpenAI份额从16%升至52%，Anthropic份额则从57%降至18%。\n- Authentic Brands Group代表猫王版权方10月23日起诉Anthropic，索赔约$4100万，指控用274首歌曲未经许可训练模型。",
+      "sections": [
+        "AI Labs"
+      ],
+      "stories": [
+        {
+          "tag": "AI Labs",
+          "impact": "高热",
+          "title": "🔥 OpenAI最高九折价格战挖角Anthropic客户，Rippling编码份额从16%升至52%",
+          "detail": "面对OpenAI价格战，Replit近期与其签下年化超$1亿的Agent合同，折扣超30%。据The Information10月24日报道、The Decoder等媒体10月25日跟进，OpenAI为抢占Anthropic大客户，部分协商折扣幅度最高达90%；职场自动化公司R…",
+          "links": [
+            {
+              "label": "The Information",
+              "url": "https://www.theinformation.com/articles/ai-customers-lowering-anthropic-openai-bills"
+            },
+            {
+              "label": "The Decoder",
+              "url": "https://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers/"
+            }
+          ],
+          "anchor": "openai最高九折价格战挖角anthropic客户-rippling编码份额从16-升至52"
+        },
+        {
+          "tag": "AI Labs",
+          "impact": "资本",
+          "title": "猫王版权方起诉Anthropic索赔$4100万，指控274首歌曲未经许可训练",
+          "detail": "猫王版权方10月23日起诉Anthropic，索赔$4100万；诉状称Claude加护栏后仍生成相似内容。原告Authentic Brands Group的律师Richard Busch指出，Anthropic未经许可使用274首歌曲——包括《Can't Help Fallin…",
+          "links": [
+            {
+              "label": "Parade",
+              "url": "https://parade.com/news/elvis-presley-estate-sues-ai-company-for-training-use-of-274-iconic-songs-without-permission"
+            },
+            {
+              "label": "Rolling Stone",
+              "url": "https://www.rollingstone.com/music/music-news/elvis-presley-rightsholders-anthropic-lawsuit-infringement-1235647682/"
+            }
+          ],
+          "anchor": "猫王版权方起诉anthropic索赔-4100万-指控274首歌曲未经许可训练"
+        },
+        {
+          "tag": "AI Labs",
+          "impact": "关注",
+          "title": "自检",
+          "detail": "· 2条首句46/53字（≤60上限），均含数字且不以时间戳/媒体名开头；正文350/274字，在80–350区间。加粗占比12.57%/9.49%（<15%），聚合4.99%（<12%）。来源/条目=5/2=2.5，落1.3–3.0区间。摘要与首句角度不同（合同/护栏争议 v…",
+          "links": [],
+          "anchor": "自检"
+        }
+      ],
+      "sourceFile": "/home/runner/work/AINews/AINews/content/daily-ai-news/2026-10-26.md",
+      "htmlContent": "<p>&gt; <strong>覆盖窗口</strong> 2026-10-25 00:00 – 10-26 00:00 UTC（24h）· <strong>去重锚</strong> 10-24、10-25 归档</p>\n<h3 id=\"今日摘要\">今日摘要</h3>\n<ul><li>🔥 <strong>OpenAI</strong>以最高<strong>90%</strong>折扣抢占<strong>Anthropic</strong>大客户：<strong>Rippling</strong>编码工作负载中OpenAI份额从16%升至52%，Anthropic份额则从57%降至18%。</li><li><strong>Authentic Brands Group</strong>代表猫王版权方10月23日起诉<strong>Anthropic</strong>，索赔约<strong>$4100万</strong>，指控用<strong>274</strong>首歌曲未经许可训练模型。</li></ul>\n<h3 id=\"1-主要-ai-labs-动态\">1. 主要 AI Labs 动态</h3>\n<h4 class=\"entry-heading\" id=\"openai最高九折价格战挖角anthropic客户-rippling编码份额从16-升至52\">🔥 OpenAI最高九折价格战挖角Anthropic客户，Rippling编码份额从16%升至52%</h4>\n<p>面对OpenAI价格战，<strong>Replit</strong>近期与其签下年化超<strong>$1亿</strong>的Agent合同，折扣超<strong>30%</strong>。据The Information10月24日报道、The Decoder等媒体10月25日跟进，OpenAI为抢占Anthropic大客户，部分协商折扣幅度最高达<strong>90%</strong>；职场自动化公司<strong>Rippling</strong>编码工作负载中OpenAI份额从16%升至52%，Anthropic份额则从57%降至18%；教育平台<strong>DataCamp</strong>称AI成本因此降低80%至90%；一家资产超<strong>70亿美元</strong>的美国银行则把ChatGPT席位翻倍至<strong>500</strong>席。该报道同时引用内部投资者备忘录称，Anthropic营收增速已从二季度到三季度放缓；两家公司均未就折扣条款置评，下一步看点是Anthropic能否在<strong>11月9日</strong>当周IPO路演前稳住客户留存。 <span class=\"inline-source\">（来源：<a href=\"https://www.theinformation.com/articles/ai-customers-lowering-anthropic-openai-bills\" target=\"_blank\" rel=\"noreferrer\">The Information</a> / <a href=\"https://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers/\" target=\"_blank\" rel=\"noreferrer\">The Decoder</a> / <a href=\"https://www.implicator.ai/anthropic-could-start-ipo-roadshow-week-of-nov-9-putting-debut-before-thanksgiving/\" target=\"_blank\" rel=\"noreferrer\">Implicator.ai</a>）</span></p>\n<h4 class=\"entry-heading\" id=\"猫王版权方起诉anthropic索赔-4100万-指控274首歌曲未经许可训练\">猫王版权方起诉Anthropic索赔$4100万，指控274首歌曲未经许可训练</h4>\n<p><strong>猫王</strong>版权方10月23日起诉<strong>Anthropic</strong>，索赔<strong>$4100万</strong>；诉状称<strong>Claude</strong>加护栏后仍生成相似内容。原告Authentic Brands Group的律师Richard Busch指出，Anthropic未经许可使用<strong>274</strong>首歌曲——包括《Can't Help Falling in Love》《Don't Be Cruel》等——训练模型，这也是Anthropic自8月以来遭遇的第三起音乐版权诉讼。据Parade的报道、以及Rolling Stone等媒体10月25日的跟进报道，Anthropic方面截至发稿尚未对此诉讼作出任何公开置评。 <span class=\"inline-source\">（来源：<a href=\"https://parade.com/news/elvis-presley-estate-sues-ai-company-for-training-use-of-274-iconic-songs-without-permission\" target=\"_blank\" rel=\"noreferrer\">Parade</a> / <a href=\"https://www.rollingstone.com/music/music-news/elvis-presley-rightsholders-anthropic-lawsuit-infringement-1235647682/\" target=\"_blank\" rel=\"noreferrer\">Rolling Stone</a>）</span></p>\n<p><em>披露：本报告由 Claude 撰写，Anthropic 为 Claude 开发方。</em></p>\n<h3 id=\"本周值得盯\">本周值得盯</h3>\n<ul><li>10/26 周一（今日） — 瑞典政府办公厅工作电脑定于今日起正式停用ChatGPT与Claude，因生效时点在本期覆盖窗口截止后，看点延续为Kronofogden等仍在观望的机构能否同步跟进（<a href=\"https://www.gp.se/nyheter/sverige/regeringskansliet-uppges-sparra-ai-tjanster.ff64a58f-b580-5acc-8d0c-edd8c681cef2\" target=\"_blank\" rel=\"noreferrer\">Göteborgs-Posten</a>）</li><li>10/28 周三 美股收盘后 — Microsoft与Alphabet同日发布2026年第三季度财报（北京时间10/29凌晨），看点是云业务AI资本支出指引能否延续近期加码趋势（<a href=\"https://blofin.com/academy/education/tradfi/earnings-season-october-2026\" target=\"_blank\" rel=\"noreferrer\">Blofin</a>）</li><li>10/29 周四 美股收盘后 — Amazon发布2026年第三季度财报，看点是AWS的AI基建资本支出规模（<a href=\"https://www.aboutamazon.com/md/news/company-news/amazon-earnings-q3-2026-report\" target=\"_blank\" rel=\"noreferrer\">Amazon</a>）</li></ul>\n<h3 id=\"本期说明\">本期说明</h3>\n<p><strong>来源核对</strong> · 11个一手来源逐一fetch核对：Anthropic、OpenAI News、NVIDIA Newsroom最新停留在10月22–23日，窗口内无新条目；Meta AI Blog停在7月；Cursor Changelog最新10月16日；Claude Code Releases最新v2.1.310为10月23日；DeepSeek、Qwen（已迁移至qwen.ai/research）、智谱经WebSearch交叉核实窗口内均无新公告；HF中文榜无时间戳。另核实xAI、HF Blog窗口内无新公告。</p>\n<p><strong>稀疏日处理</strong> · 一手来源加50余次WebSearch后仅得2条候选，触发&quot;候选条目&lt;4个&quot;的48h扩窗评估；核查48h窗口中10-24段已被10-25归档覆盖，扩窗无新增，维持24h窗口如实收录。排查后未收录：政治倾向性测试（10/24、单一聚合站转引且涉政治敏感议题）；Character.AI破产（实际发生10/12–13，超窗口）；Jack Clark&quot;2027&quot;言论（发表于10/12，超窗口）；SpaceX/xAI营收预测（来自10/20财报会，超窗口）；OpenAI解雇安全研究员（原始事件10/1–4，&quot;索要手机/点名Greenblatt&quot;细节无一手来源）；PA广告披露法案（仍处审议未签署）；xAI《奥德赛》短片（TechCrunch 10/25发文但X公告为10/23，时点存疑）。</p>\n<p><strong>审稿</strong> · 3 agent全部完成，改4处。A核6条（金额/估值、百分比、计数、时间线4类）：$1亿/30%折扣、90%折扣、274首/$4100万均与原文一致；&quot;两个月内&quot;时间窗无来源支撑，已删除；&quot;第三起诉讼&quot;经核Round Hill（8/17）、Sony/Warner Chappell（8/29–31）两起在先案，计数准确。B复核11来源及xAI、HF Blog，确认无其他遗漏，对政治测试、Character.AI排除表示认同，另发现《奥德赛》因时点存疑未纳入。C完成Lede评分（1A、1D），采纳：Elvis条目改写为自含式首句；修正&quot;Billboard&quot;与来源栏&quot;Parade&quot;署名不一致；第1条首句补&quot;面对价格战&quot;呼应标题。</p>\n<h4 class=\"entry-heading\" id=\"自检\">自检</h4>\n<p>· 2条首句46/53字（≤60上限），均含数字且不以时间戳/媒体名开头；正文350/274字，在80–350区间。加粗占比12.57%/9.49%（&lt;15%），聚合4.99%（&lt;12%）。来源/条目=5/2=2.5，落1.3–3.0区间。摘要与首句角度不同（合同/护栏争议 vs 份额/起诉事实）。披露脚注已加；🔥档已用3个非Anthropic来源交叉验证。形容词税0命中。条目数（2）低于下限（≥4），已在&quot;稀疏日处理&quot;说明。</p>\n<p><em>报告生成：2026-10-26 CST · 调度任务：daily-ai-news-v2</em></p>"
+    },
     {
       "id": "2026-10-25",
       "date": "2026-10-25",
