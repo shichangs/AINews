@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T01:27:43.675Z",
+  "generatedAt": "2026-10-29T01:29:55.934Z",
   "sourceDirectories": {
     "daily": "/home/runner/work/AINews/AINews/content/daily-ai-news",
     "weekly": "/home/runner/work/AINews/AINews/content/daily-ai-news/weekly",
@@ -7,6 +7,81 @@
     "weeklyAiTech": "/home/runner/work/AINews/AINews/content/weekly-ai-tech"
   },
   "issues": [
+    {
+      "id": "2026-10-29",
+      "date": "2026-10-29",
+      "label": "10月29日",
+      "title": "每日前沿 AI 行业新闻 — 2026年10月29日",
+      "summary": "- 🔥 Microsoft FY27 Q1营收922.8亿美元增19%、Azure增48%全线超预期，盘后涨超4%。\n- 🔥 Alphabet Q3资本支出创纪录达514亿美元（同比+114%）、自由现金流转负91亿美元，盘后一度跌8%。\n- 🔥 OpenAI据报考虑采购Google TPU芯片以减少对Nvidia依赖，Oracle同日称2027年将TPU引入OCI云，双方均未证实。\n- Anthropic\"AI for Science\"计划新增18家科研机构与基金会支持，提供Claude信用额度助力基础科研。\n- Foundry Robotics完成1亿美元A轮融资，建设美国首个自主装配工厂，服务国防与商业客户。",
+      "sections": [
+        "AI Labs",
+        "芯片"
+      ],
+      "stories": [
+        {
+          "tag": "AI Labs",
+          "impact": "高热",
+          "title": "🔥 Microsoft FY27 Q1营收922.8亿美元增19%、Azure增48%全线超预期，盘后涨超4%",
+          "detail": "Microsoft 10月28日公布FY27第一财季营收922.8亿美元，同比增长19%，全线超预期。GAAP净利润366.3亿美元，增长32%；核心云业务Azure收入同比增长48%，Microsoft Cloud总收入639亿美元，增30%；商业剩余履约义务（RPO）增73…",
+          "links": [
+            {
+              "label": "Microsoft",
+              "url": "https://news.microsoft.com/source/2026/10/28/microsoft-announces-first-quarter-results-2/"
+            },
+            {
+              "label": "Fortune",
+              "url": "https://fortune.com/2026/10/28/microsofts-cloud-growth-accelerates-and-so-too-does-the-spending/"
+            }
+          ],
+          "anchor": "microsoft-fy27-q1营收922-8亿美元增19-azure增48-全线超预期-盘后涨超4"
+        },
+        {
+          "tag": "AI Labs",
+          "impact": "高热",
+          "title": "🔥 Alphabet Q3资本支出创纪录514亿美元增114%，自由现金流转负91亿美元，盘后一度跌8%",
+          "detail": "Alphabet 10月28日公布Q3营收1275.8亿美元，同比增长25%，略低于分析师预期约0.3%。核心增长动力Google Cloud营收307.1亿美元，同比增长103%，净利润264.7亿美元。本季度资本支出创纪录达514亿美元，同比增长114%（去年同期239.5…",
+          "links": [
+            {
+              "label": "Alphabet",
+              "url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/2026q3-alphabet-earnings-release.pdf"
+            },
+            {
+              "label": "Fortune",
+              "url": "https://fortune.com/2026/10/28/alphabet-google-stock-drops-cloud-revenue-doubles-free-cash-flow-negative/"
+            }
+          ],
+          "anchor": "alphabet-q3资本支出创纪录514亿美元增114-自由现金流转负91亿美元-盘后一度跌8"
+        },
+        {
+          "tag": "芯片",
+          "impact": "关注",
+          "title": "Anthropic \"AI for Science\"计划新增18家科研机构与基金会",
+          "detail": "Anthropic 10月28日宣布\"AI for Science\"计划新增18家科研机构支持。该计划从支持个人科学家扩展至机构层面，新增科研基金会、研究机构与科研项目包括美国国家科学基金会（NSF）、西蒙斯基金会、Wellcome Sanger研究所、Francis Cric…",
+          "links": [
+            {
+              "label": "Anthropic",
+              "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions"
+            }
+          ],
+          "anchor": "anthropic-ai-for-science-计划新增18家科研机构与基金会"
+        },
+        {
+          "tag": "芯片",
+          "impact": "资本",
+          "title": "Foundry Robotics完成1亿美元A轮融资，建设美国首个自主装配工厂",
+          "detail": "自主装配工厂机器人初创公司Foundry Robotics 10月28日完成1亿美元A轮融资。本轮为超额认购，由Marlinspike Partners领投，Khosla Ventures、Red Glass Ventures等老股东及SE Ventures、Wing VC、A…",
+          "links": [
+            {
+              "label": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/technology/ai/articles/foundry-robotics-raises-100-million-150000783.html"
+            }
+          ],
+          "anchor": "foundry-robotics完成1亿美元a轮融资-建设美国首个自主装配工厂"
+        }
+      ],
+      "sourceFile": "/home/runner/work/AINews/AINews/content/daily-ai-news/2026-10-29.md",
+      "htmlContent": "<p>&gt; <strong>覆盖窗口</strong> 2026-10-28 00:00 – 10-29 00:00 UTC（24h）· <strong>去重锚</strong> 10-27、10-28 归档</p>\n<h3 id=\"今日摘要\">今日摘要</h3>\n<ul><li>🔥 <strong>Microsoft</strong> FY27 Q1营收<strong>922.8亿美元</strong>增19%、<strong>Azure</strong>增48%全线超预期，盘后涨超4%。</li><li>🔥 <strong>Alphabet</strong> Q3资本支出创纪录达<strong>514亿美元</strong>（同比+114%）、自由现金流转负91亿美元，盘后一度跌8%。</li><li>🔥 <strong>OpenAI</strong>据报考虑采购<strong>Google</strong> TPU芯片以减少对Nvidia依赖，Oracle同日称2027年将TPU引入OCI云，双方均未证实。</li><li><strong>Anthropic</strong>&quot;AI for Science&quot;计划新增18家科研机构与基金会支持，提供Claude信用额度助力基础科研。</li><li><strong>Foundry Robotics</strong>完成<strong>1亿美元</strong>A轮融资，建设美国首个自主装配工厂，服务国防与商业客户。</li></ul>\n<h3 id=\"1-主要-ai-labs-动态\">1. 主要 AI Labs 动态</h3>\n<h4 class=\"entry-heading\" id=\"microsoft-fy27-q1营收922-8亿美元增19-azure增48-全线超预期-盘后涨超4\">🔥 Microsoft FY27 Q1营收922.8亿美元增19%、Azure增48%全线超预期，盘后涨超4%</h4>\n<p>Microsoft 10月28日公布FY27第一财季营收<strong>922.8亿美元</strong>，同比增长19%，全线超预期。GAAP净利润366.3亿美元，增长32%；核心云业务<strong>Azure</strong>收入同比增长<strong>48%</strong>，Microsoft Cloud总收入639亿美元，增30%；商业剩余履约义务（RPO）增73%至6770亿美元。本季度资本支出（含融资租赁）452亿美元，低于分析师预期。CFO Amy Hood称营收、营业利润与每股收益全面超出预期；CEO Satya Nadella称公司正为客户在全栈范围内提供更强能力与成本效率。消息公布后股价盘后一度上涨逾4%。下一步看点是452亿资本支出能否延续至下季度扩张节奏。 <span class=\"inline-source\">（来源：<a href=\"https://news.microsoft.com/source/2026/10/28/microsoft-announces-first-quarter-results-2/\" target=\"_blank\" rel=\"noreferrer\">Microsoft</a> / <a href=\"https://fortune.com/2026/10/28/microsofts-cloud-growth-accelerates-and-so-too-does-the-spending/\" target=\"_blank\" rel=\"noreferrer\">Fortune</a>）</span></p>\n<h4 class=\"entry-heading\" id=\"alphabet-q3资本支出创纪录514亿美元增114-自由现金流转负91亿美元-盘后一度跌8\">🔥 Alphabet Q3资本支出创纪录514亿美元增114%，自由现金流转负91亿美元，盘后一度跌8%</h4>\n<p>Alphabet 10月28日公布Q3营收<strong>1275.8亿美元</strong>，同比增长25%，略低于分析师预期约0.3%。核心增长动力<strong>Google Cloud</strong>营收307.1亿美元，同比增长103%，净利润264.7亿美元。本季度资本支出创纪录达<strong>514亿美元</strong>，同比增长114%（去年同期239.5亿美元）；自由现金流转负<strong>91亿美元</strong>，二季度为负59亿美元。CEO Sundar Pichai将增长归因于AI与云业务需求；分析师担忧资本支出增速与现金流压力，消息公布后股价盘后一度下跌8%。下一步看点是11月公司能否进一步说明资本支出的回报节奏。 <span class=\"inline-source\">（来源：<a href=\"https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/2026q3-alphabet-earnings-release.pdf\" target=\"_blank\" rel=\"noreferrer\">Alphabet</a> / <a href=\"https://fortune.com/2026/10/28/alphabet-google-stock-drops-cloud-revenue-doubles-free-cash-flow-negative/\" target=\"_blank\" rel=\"noreferrer\">Fortune</a>）</span></p>\n<h4 class=\"entry-heading\" id=\"openai据报考虑采购google-tpu芯片-oracle同日称2027年引入oci云\">🔥 OpenAI据报考虑采购Google TPU芯片，Oracle同日称2027年引入OCI云</h4>\n<p>OpenAI10月27日晚传考虑采购Google TPU芯片，以减少对Nvidia依赖。据The Information当晚独家报道（援引消息人士），<strong>OpenAI</strong>计划采购<strong>Google</strong>旗下<strong>TPU</strong>芯片，此前已自2025年6月起租用部分TPU产能；Google与OpenAI均未就此置评或证实。同日<strong>Oracle</strong>宣布2027年将TPU引入其公有云OCI，称为&quot;多年期、多吉瓦规模&quot;合作，系TPU首次通过Google自有平台之外提供。消息公布当天Alphabet股价收涨1.19%、Nvidia股价收涨0.9%。黄仁勋回应称他对OpenAI长期作为客户与合作伙伴&quot;非常有信心&quot;，并提及OpenAI到2030年在Nvidia算力上承诺规模约6000亿美元。下一步看点是双方能否就采购规模与条款作出正式确认。 <span class=\"inline-source\">（来源：<a href=\"https://www.trendforce.com/news/2026/10/28/news-openai-reportedly-plans-to-buy-google-tpus-oracle-to-bring-tpus-to-its-cloud-in-2027-adding-pressure-on-nvidia/\" target=\"_blank\" rel=\"noreferrer\">TrendForce</a> / <a href=\"https://finance.yahoo.com/technology/ai/articles/openai-buying-google-ai-chips-112222701.html\" target=\"_blank\" rel=\"noreferrer\">Yahoo Finance</a>）</span></p>\n<h4 class=\"entry-heading\" id=\"anthropic-ai-for-science-计划新增18家科研机构与基金会\">Anthropic &quot;AI for Science&quot;计划新增18家科研机构与基金会</h4>\n<p>Anthropic 10月28日宣布&quot;AI for Science&quot;计划新增<strong>18家</strong>科研机构支持。该计划从支持个人科学家扩展至机构层面，新增科研基金会、研究机构与科研项目包括美国国家科学基金会（NSF）、西蒙斯基金会、Wellcome Sanger研究所、Francis Crick研究所、EMBL等，将获得Claude信用额度支持基础科研（Anthropic原文称本次共突出20家科研伙伴，其中2家为HHMI Janelia、Allen Institute既有合作的延伸，新增为18家）。该计划2025年5月启动；本次扩展未披露具体额度金额或资助总额。下一步看点是首批机构能否在年内公开具体科研产出。 <span class=\"inline-source\">（来源：<a href=\"https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions\" target=\"_blank\" rel=\"noreferrer\">Anthropic</a>）</span></p>\n<p><em>披露：本报告由 Claude 撰写，Anthropic 为 Claude 开发方。</em></p>\n<h3 id=\"2-创业融资\">2. 创业融资</h3>\n<h4 class=\"entry-heading\" id=\"foundry-robotics完成1亿美元a轮融资-建设美国首个自主装配工厂\">Foundry Robotics完成1亿美元A轮融资，建设美国首个自主装配工厂</h4>\n<p>自主装配工厂机器人初创公司Foundry Robotics 10月28日完成<strong>1亿美元</strong>A轮融资。本轮为超额认购，由Marlinspike Partners领投，<strong>Khosla Ventures</strong>、Red Glass Ventures等老股东及SE Ventures、Wing VC、Axiom Ventures等新投资方跟投；估值未披露。公司在加州Emeryville运营约13万平方英尺的自主装配工厂，产品涵盖无人机、自动驾驶车辆子组件、线束、水下航行器等，面向国防与商业客户提供&quot;制造即服务&quot;。资金将用于扩建工厂产能，并扩充机器人研发、工程与工厂运营团队。下一步看点是新增产能能否在国防订单上转化为量产交付。 <span class=\"inline-source\">（来源：<a href=\"https://finance.yahoo.com/technology/ai/articles/foundry-robotics-raises-100-million-150000783.html\" target=\"_blank\" rel=\"noreferrer\">Yahoo Finance</a>）</span></p>\n<h3 id=\"本周值得盯\">本周值得盯</h3>\n<ul><li>10/29 周四 美股收盘后 — Amazon发布2026年第三季度财报，看点是AWS的AI基建资本支出规模能否延续同业加码趋势（<a href=\"https://www.aboutamazon.com/md/news/company-news/amazon-earnings-q3-2026-report\" target=\"_blank\" rel=\"noreferrer\">Amazon</a>）</li></ul>\n<h3 id=\"本期说明\">本期说明</h3>\n<p><strong>来源核对</strong> · 11个一手来源逐一fetch核对：Anthropic Newsroom本期窗口内最新为10月28日&quot;AI for Science expands to foundations and research institutions&quot;（已收录），10月27日另有两条（已在10/27、10/28归档中处理，非本期新进展）；OpenAI News页面本次fetch两次均返回client_error，经WebSearch交叉核实窗口内主要为ServiceNow与OpenAI扩大企业合作的联合新闻稿（无独立媒体报道、无金额数字，判定为未达收录门槛不予收录）；NVIDIA Newsroom最新为10月28日&quot;NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games&quot;，但博客原文fetch失败且归档页摘要未给出具体型号/数字，判定信息量不足不予收录；Meta AI Blog仍停留7月，窗口内无新内容；Google DeepMind博客&quot;Genie 4&quot;经核实具体发布时间为10月27日16:13 UTC，落在昨日（10/27）覆盖窗口而非本期窗口，不予收录；Cursor Changelog最新10月20日，窗口内无新条目；Claude Code GitHub Releases最新v2.1.312为10月27日，窗口内无新版本；DeepSeek News栏目本次fetch未能确认具体更新日期；Qwen Blog显示最新条目仍为2025年，经WebSearch交叉核实窗口内无新公告；智谱News页面本次fetch返回robots_disallowed，经WebSearch补充核实窗口内未见可确认日期的新公告；HF中文榜页面元数据仍在加载、无时间戳，未见新增模型。另核实xAI、Hugging Face Blog，窗口内均未见新公告。</p>\n<p><strong>排查后未收录</strong> · 荷兰政府拟削减2.5万个公务员岗位（Telegraaf/Gulf News/The Star等10月27日报道）：经核实该事件发生于10月27日荷兰工作时段（约UTC上午），落在昨日覆盖窗口而非本期窗口，且10/27、10/28归档均未收录，按&quot;事件日而非报道日&quot;原则不予追溯补录；Cloudflare披露GLM-5.3 Workers AI跨客户数据泄露：经核实协调披露发布于10月26日，已超48小时且无本期新进展，不予收录；蚂蚁集团&quot;灵光2.0&quot;助手升级、字节跳动即梦AI短剧工作室：经核实TechNode报道日期均为10月27日（北京时间工作日上午，对应UTC时段早于本期窗口起点），不予收录；特朗普&quot;AI&quot;改称&quot;Super Intelligence&quot;相关讨论：经核实该行政令实际签署于10月上旬，为旧闻重提，不予收录；NVIDIA RTX Spark Windows笔记本更新（10/28）：归档页摘要未给出具体型号/工具/数字，原文fetch失败，信息量不足不予收录；ServiceNow与OpenAI扩大企业合作：仅双方联合新闻稿、无独立媒体报道、无金额数字，不予收录；云安全创业公司Upwind传完成C轮融资：多个来源对金额表述不一致（文章正文称4.5亿美元，其博客URL标注4亿美元，且与此前250M/300M轮次信息混杂难以厘清同一轮次口径），按&quot;计数/金额诚信&quot;要求回原文核实前不予收录。</p>\n<p><strong>审稿</strong> · 3 agent全部完成。A核9条（金额、换算、计数、时间线、引语5类）：Microsoft营收922.8亿/+19%/Azure+48%、Alphabet资本支出514亿/+114%（B→亿换算）、Alphabet营收25%/未达预期0.3%、Google Cloud 307.1亿/+103%、Alphabet自由现金流-91亿、TPU报道时间线、股价涨跌幅（GOOG+1.19%/NVDA+0.9%）、黄仁勋引语均与一手来源一致；唯一问题——Anthropic&quot;18家机构&quot;虽数字准确但与原文headline&quot;20家&quot;存在表述歧义，已在正文加注说明2家为既有合作延伸。B发现2条达标新遗漏（Upwind融资、Foundry Robotics融资），经复核后者（Business Wire官方稿、单一清晰金额、无换算风险）收录，前者因金额口径不一致不予收录；其余板块（中国厂商、芯片、机器人、自动驾驶、医疗AI、欧盟监管等）核查后无新遗漏。C发现2处：摘要&quot;扩大至18家&quot;与正文&quot;新增18家&quot;语义矛盾（总数vs新增量），已统一为&quot;新增18家&quot;；OpenAI条目&quot;被曝考虑&quot;用词口语化不符合&quot;传/据报&quot;匿名单源档位规范，已改为&quot;传考虑&quot;。另发现Microsoft/Alphabet/Anthropic/Foundry Robotics四条<code>### </code>正文首句原稿因无句内分隔多处超60字硬上限，已重新断句使四条首句分别压至51/53/48/47字，均≤60字且含数字/硬日期。</p>\n<p><strong>自检</strong> · 用Python脚本对5个<code>### </code>条目逐一统计Unicode字符数：首句长度分别为Microsoft 51字、Alphabet 53字、OpenAI 44字、Anthropic 48字、Foundry Robotics 47字，均≤60字硬上限，含数字/硬日期，不以时间戳/媒体名/披露动作开头。5条正文（剔除markdown加粗符号后）长度分别为296/262/347/300/303字，均在80-350字区间（OpenAI条目经一轮删减后压至347字）。正文加粗占比：Microsoft 5.4%、Alphabet 12.2%、OpenAI 6.1%、Anthropic 1.0%、Foundry Robotics 6.3%，单段均&lt;15%上限；脚本统计5个条目正文合计加粗占比6.03%，&lt;12%阈值。来源链接数8÷条目数5=1.6，落在1.3-3.0区间。摘要5条bullet关键数字均在正文找到完全支撑。板块顺序：主要AI Labs动态（Microsoft/Alphabet财报+OpenAI-TPU传闻+Anthropic公告）＞创业融资（Foundry Robotics），符合默认排序，无元首级/立法级事件需当日上调；机器人/自动驾驶/医疗AI/芯片/中国AI/政策监管等板块因无真正符合门槛的新闻已直接省略，未凑&quot;无重大新公告&quot;占行。Anthropic条目的披露脚注已加在板块1末尾（斜体，非blockquote）。形容词税扫描：无&quot;领先/突破/史上首次&quot;等未背书评价性形容词，&quot;创纪录&quot;（Alphabet资本支出）、&quot;超出预期&quot;（CFO原话转述）均有数字或引语背书。措辞档位复核：Microsoft/Alphabet/Anthropic均为公司官方财报/公告，用&quot;公布/宣布&quot;；Oracle为公司官方公告，用&quot;宣布&quot;；OpenAI-TPU为The Information匿名单一消息源且双方未证实，用&quot;传...据...独家报道&quot;并明确写出&quot;均未就此置评或证实&quot;，符合匿名档规范；Foundry Robotics为Business Wire官方新闻稿，用&quot;完成&quot;。单日条目数（5个<code>### </code>，5条摘要bullet）满足常规下限（摘要≥2且条目≥4），本期不触发稀疏日48h扩窗。</p>\n<p><em>报告生成：2026-10-29 CST · 调度任务：daily-ai-news-v2</em></p>"
+    },
     {
       "id": "2026-10-28",
       "date": "2026-10-28",
