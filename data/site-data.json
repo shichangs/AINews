@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T01:29:55.934Z",
+  "generatedAt": "2026-11-08T17:43:02.563Z",
   "sourceDirectories": {
     "daily": "/home/runner/work/AINews/AINews/content/daily-ai-news",
     "weekly": "/home/runner/work/AINews/AINews/content/daily-ai-news/weekly",
@@ -7,6 +7,90 @@
     "weeklyAiTech": "/home/runner/work/AINews/AINews/content/weekly-ai-tech"
   },
   "issues": [
+    {
+      "id": "2026-11-08",
+      "date": "2026-11-08",
+      "label": "11月8日",
+      "title": "每日前沿 AI 行业新闻 — 2026年11月8日",
+      "summary": "- 🔥 美国 H200 出口审查受质疑：媒体调查发现，获准组装 H200 服务器的企业之一，注册地址现场没有办公迹象。\n- 🔥 Grok API 默认加文本水印：7 款模型受影响，团队管理员可按模型设置，应用可用响应头判断是否启用。\n- 🔥 进博会启动具身智能联合体：42 家单位参与，发起方同时公布两款模型和一套部署架构。",
+      "sections": [
+        "产品",
+        "芯片",
+        "机器人"
+      ],
+      "stories": [
+        {
+          "tag": "焦点",
+          "impact": "高热",
+          "title": "🔥 H200 获准组装方的地址被发现空置",
+          "detail": "同一份出口许可制度里，获准组装服务器、获准购买芯片和实际收到货是三件事。11/7，《纽约时报》披露，获得美国商务部批准、可将 NVIDIA H200 装入 AI 服务器的中国企业 New Matrix，在记者到访时，其登记地址没有办公迹象，园区物业人员也称没有该公司记录。报道还…",
+          "links": [
+            {
+              "label": "美国商务部出口规则",
+              "url": "https://www.govinfo.gov/content/pkg/FR-2026-01-15/pdf/2026-00789.pdf"
+            },
+            {
+              "label": "纽约时报经 The Business Times 刊载",
+              "url": "https://www.businesstimes.com.sg/international/global/empty-offices-ties-blacklisted-firms-inside-chinese-companies-us-cleared-nvidia-chips"
+            }
+          ],
+          "anchor": "h200-获准组装方的地址被发现空置"
+        },
+        {
+          "tag": "产品",
+          "impact": "高热",
+          "title": "🔥 Grok API 默认启用文本水印",
+          "detail": "接入方可以用响应头确认这次输出是否打了水印，未锁定的模型可由团队管理员单独关闭。按 xAI 开发者文档，11/7 起，Grok API 的 7 款模型默认给文本加上不可见的统计水印，包括 grok-4.7、4.6、4.5、4.3 和 4.20 的三个变体。水印写在生成文本里，x…",
+          "links": [
+            {
+              "label": "xAI 开发者文档",
+              "url": "https://docs.x.ai/developers/advanced-api-usage/watermarking"
+            },
+            {
+              "label": "DeAI",
+              "url": "https://www.deai.org/news/xai-grok-api-default-watermarking"
+            }
+          ],
+          "anchor": "grok-api-默认启用文本水印"
+        },
+        {
+          "tag": "芯片",
+          "impact": "关注",
+          "title": "欧洲多地出现数据中心抗议",
+          "detail": "同一天的示威同时指向运营中的设施和还在规划的项目，争议并不限于工地施工。11/7，丹麦 Lille Skensved 有居民在 Microsoft 数据中心外集会，伦敦 Havering 区的示威针对拟建项目；美联社现场照片还记录了 都柏林和马德里当天的活动。这是 Stop D…",
+          "links": [
+            {
+              "label": "行动组织方日程",
+              "url": "https://stopdirtydatacentres.eu/"
+            },
+            {
+              "label": "美联社及 Ritzau 现场照片经 Outlook 刊载",
+              "url": "https://www.outlookindia.com/international/in-photos-protests-against-data-centres-sweep-european-cities"
+            }
+          ],
+          "anchor": "欧洲多地出现数据中心抗议"
+        },
+        {
+          "tag": "机器人",
+          "impact": "高热",
+          "title": "🔥 眸深牵头组建 42 家单位联合体",
+          "detail": "新联合体把做模型、做本体和提供应用场景的机构拉到同一个合作框架内。11/7，眸深智能在进博会配套发布会上启动由 42 家单位组成的通用具身大脑产业创新联合体，成员包括复旦大学相关学院、国家地方共建人形机器人创新中心、宇树科技和优必选。公司同时发布 眸深·深悟、家用世界模型 FW…",
+          "links": [
+            {
+              "label": "财联社现场报道",
+              "url": "https://api3.cls.cn/share/article/2528059?app=&os=ios&sv=819"
+            },
+            {
+              "label": "上海证券报经东方财富刊载",
+              "url": "https://finance.eastmoney.com/a/202611083925579953.html"
+            }
+          ],
+          "anchor": "眸深牵头组建-42-家单位联合体"
+        }
+      ],
+      "sourceFile": "/home/runner/work/AINews/AINews/content/daily-ai-news/2026-11-08.md",
+      "htmlContent": "<p>&gt; 注：24h 窗口为 UTC 2026-11-07 00:00 至 2026-11-08 00:00（北京时间 11/7 08:00 至 11/8 08:00）。11/6、11/7 两期正式归档在原目录及网站仓库中均缺失。本期为周末补刊，收录 4 条；按出口监管、API 产品、算力、具身智能排序。未核实到达标的新增诉讼进展、独立智能体发布、自动驾驶许可或大额融资并购。 &gt; &gt; 一手来源巡检：xAI 开发者文档核实了窗口内的水印启用（§2）。Anthropic、OpenAI、Google DeepMind、Google Blog、Meta、Microsoft、NVIDIA、Claude Code、Cursor、GitHub Blog、DeepSeek、智谱、Moonshot、MiniMax、White House、NHTSA、FTC、SEC、网信办和工信部的可读列表中，未找到符合本期收录门槛的窗口内新条目。Qwen、字节 Seed、Federal Register 当日目录、欧盟委员会 Press Corner 和路透科技栏目未能直接读取到完整条目。纽约时报原文受访问限制，相关事实用可读的署名转载核对，监管口径以美国商务部规则为准。 &gt; &gt; 审稿说明：Anthropic IPO 估值讨论、DeepMind 的 RSA 研究和 Apple HALO 的首发均早于窗口；微信鸿蒙版邀测未找到独立来源核实新增功能，未收录。阿姆斯特丹 11/6 的抗议只作背景，正文写的是 11/7 各地新发生的活动。</p>\n<h3 id=\"今日摘要\">今日摘要</h3>\n<ul><li>🔥 <strong>美国 H200 出口审查受质疑</strong>：媒体调查发现，获准组装 <strong>H200</strong> 服务器的企业之一，注册地址现场没有办公迹象。</li><li>🔥 <strong>Grok API 默认加文本水印</strong>：<strong>7 款</strong>模型受影响，团队管理员可按模型设置，应用可用响应头判断是否启用。</li><li>🔥 <strong>进博会启动具身智能联合体</strong>：<strong>42 家</strong>单位参与，发起方同时公布两款模型和一套部署架构。</li></ul>\n<h3 id=\"1-政策与监管\">1. 政策与监管</h3>\n<h4 class=\"entry-heading\" id=\"h200-获准组装方的地址被发现空置\">🔥 H200 获准组装方的地址被发现空置</h4>\n<p>同一份出口许可制度里，获准组装服务器、获准购买芯片和实际收到货是三件事。11/7，《纽约时报》披露，获得美国商务部批准、可将 <strong>NVIDIA H200</strong> 装入 AI 服务器的中国企业 <strong>New Matrix</strong>，在记者到访时，其登记地址没有办公迹象，园区物业人员也称没有该公司记录。报道还称，工商资料显示其股东与美国在 <strong>2024 年</strong>列入实体清单的 <strong>Wise Road</strong> 有关联。作为背景，商务部工业与安全局年初把符合条件的 H200 等产品对华出口改为逐案审查，要求申请方就最终收货人及防止未经授权的远程访问提供材料。地址核查结果不能单独证明该公司已收货、芯片已转运或许可被撤销，但让审核能否穿透组装商、识别最终使用者成为具体问题。 <span class=\"inline-source\">（来源：<a href=\"https://www.govinfo.gov/content/pkg/FR-2026-01-15/pdf/2026-00789.pdf\" target=\"_blank\" rel=\"noreferrer\">美国商务部出口规则</a> / <a href=\"https://www.businesstimes.com.sg/international/global/empty-offices-ties-blacklisted-firms-inside-chinese-companies-us-cleared-nvidia-chips\" target=\"_blank\" rel=\"noreferrer\">纽约时报经 The Business Times 刊载</a>）</span></p>\n<h3 id=\"2-ai-产品更新\">2. AI 产品更新</h3>\n<h4 class=\"entry-heading\" id=\"grok-api-默认启用文本水印\">🔥 Grok API 默认启用文本水印</h4>\n<p>接入方可以用响应头确认这次输出是否打了水印，未锁定的模型可由团队管理员单独关闭。按 <strong>xAI</strong> 开发者文档，11/7 起，<strong>Grok API</strong> 的 <strong>7 款</strong>模型默认给文本加上不可见的统计水印，包括 <strong>grok-4.7</strong>、4.6、4.5、4.3 和 4.20 的三个变体。水印写在生成文本里，<strong>x-watermark</strong> 响应头只是向调用方说明水印是否应用，两者不能互相替代。该改动针对列出的 API 模型文本输出，文档没有把这一规则延伸到所有 Grok 界面或其他类型的输出。对把多个模型混在同一产品里使用的团队，记录响应头和具体模型有助于区分实际行为；但应用随后若改写文本，仅凭原始调用的响应头，不能证明最终展示的版本还保留可检测的水印。 <span class=\"inline-source\">（来源：<a href=\"https://docs.x.ai/developers/advanced-api-usage/watermarking\" target=\"_blank\" rel=\"noreferrer\">xAI 开发者文档</a> / <a href=\"https://www.deai.org/news/xai-grok-api-default-watermarking\" target=\"_blank\" rel=\"noreferrer\">DeAI</a>）</span></p>\n<h3 id=\"3-芯片与算力\">3. 芯片与算力</h3>\n<h4 class=\"entry-heading\" id=\"欧洲多地出现数据中心抗议\">欧洲多地出现数据中心抗议</h4>\n<p>同一天的示威同时指向运营中的设施和还在规划的项目，争议并不限于工地施工。11/7，丹麦 <strong>Lille Skensved</strong> 有居民在 <strong>Microsoft</strong> 数据中心外集会，伦敦 <strong>Havering</strong> 区的示威针对拟建项目；美联社现场照片还记录了 <strong>都柏林</strong>和<strong>马德里</strong>当天的活动。这是 <strong>Stop Dirty Data Centres</strong> 发起的两日跨国行动的一部分，组织方把用电、用水及项目对周边社区的影响列为关注点。前一天在阿姆斯特丹的行动涉及微软在建项目，与丹麦现场属于不同设施。对开发商而言，已投运站点面对的是资源使用和对周边的实际影响，新项目面对的是许可前的公众意见。公开资料确认了这些集会发生，但未显示微软停运设施或任何项目许可因此被撤销。 <span class=\"inline-source\">（来源：<a href=\"https://stopdirtydatacentres.eu/\" target=\"_blank\" rel=\"noreferrer\">行动组织方日程</a> / <a href=\"https://www.outlookindia.com/international/in-photos-protests-against-data-centres-sweep-european-cities\" target=\"_blank\" rel=\"noreferrer\">美联社及 Ritzau 现场照片经 Outlook 刊载</a>）</span></p>\n<h3 id=\"4-机器人与物理-ai\">4. 机器人与物理 AI</h3>\n<h4 class=\"entry-heading\" id=\"眸深牵头组建-42-家单位联合体\">🔥 眸深牵头组建 42 家单位联合体</h4>\n<p>新联合体把做模型、做本体和提供应用场景的机构拉到同一个合作框架内。11/7，<strong>眸深智能</strong>在进博会配套发布会上启动由 <strong>42 家</strong>单位组成的通用具身大脑产业创新联合体，成员包括复旦大学相关学院、国家地方共建人形机器人创新中心、宇树科技和优必选。公司同时发布 <strong>眸深·深悟</strong>、家用世界模型 <strong>FWM</strong> 和部署架构 <strong>眸深·深枢</strong>。按现场披露，深悟让部分视觉处理与动作计算重叠，以减少串行等待；深枢则把数据、仿真、模型配置、芯片部署、本体控制和场景交付接到同一流程。公司还与复旦大学、壁仞科技等单位签署合作协议，公开报道未给出量产订单、跨本体迁移的成功率或对照延迟，联合体规模还不能用来估算实际部署规模。 <span class=\"inline-source\">（来源：<a href=\"https://api3.cls.cn/share/article/2528059?app=&amp;os=ios&amp;sv=819\" target=\"_blank\" rel=\"noreferrer\">财联社现场报道</a> / <a href=\"https://finance.eastmoney.com/a/202611083925579953.html\" target=\"_blank\" rel=\"noreferrer\">上海证券报经东方财富刊载</a>）</span></p>\n<h3 id=\"本周值得盯\">本周值得盯</h3>\n<ul><li>11/11 — <a href=\"https://foreignaffairs.house.gov/news/press-releases/chairmen-mast-moolenaar-and-crawford-request-jensen-huang-brief-congress-on-link-to-chinese-intelligence-asset\" target=\"_blank\" rel=\"noreferrer\">美国众议院三委员会要求 NVIDIA CEO 回复闭门简报邀约</a>：拟议简报日期为 11/18，以双方确认时间为准。</li><li>11/17（美东时间）— <a href=\"https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/\" target=\"_blank\" rel=\"noreferrer\">NVIDIA 发布财年第三季业绩并召开电话会</a>：核对数据中心收入和出口限制相关披露。</li><li>11/18（香港时间）— <a href=\"https://www.tencent.com/zh-cn/investors/investor-kit-calendar/\" target=\"_blank\" rel=\"noreferrer\">腾讯发布第三季度业绩</a>：关注 AI 算力投入及广告业务相关披露。</li></ul>\n<hr class=\"report-rule\" />\n<p><em>报告生成：2026-11-09 北京时间 · 每日 AI 行业日报（v3） · 手动补跑 · 缺日回补</em></p>"
+    },
     {
       "id": "2026-10-29",
       "date": "2026-10-29",
