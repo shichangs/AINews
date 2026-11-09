@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:43:02.563Z",
+  "generatedAt": "2026-11-09T06:39:36.236Z",
   "sourceDirectories": {
     "daily": "/home/runner/work/AINews/AINews/content/daily-ai-news",
     "weekly": "/home/runner/work/AINews/AINews/content/daily-ai-news/weekly",
@@ -7,6 +7,106 @@
     "weeklyAiTech": "/home/runner/work/AINews/AINews/content/weekly-ai-tech"
   },
   "issues": [
+    {
+      "id": "2026-11-09",
+      "date": "2026-11-09",
+      "label": "11月9日",
+      "title": "每日前沿 AI 行业新闻 — 2026年11月9日",
+      "summary": "- 🔥 美国 AI 安全中心汇报安排受关注：美联社引述 两名前官员称，中心人员被要求向白宫办公室非正式汇报。\n- 🔥 Anthropic 据报承接发电设备订单：交易顾问披露金额为 $34 亿，媒体报道设备容量约 1.7 GW。\n- 🔥 NVIDIA 董事会启动独立调查：由独立董事委员会与外部律师负责。美国国会相关简报邀约的回复期限是 11/11。\n- 🔥 启元两款产品累计下线 10,000 台：从 5,000 台到万台用了 14 天，公司未同步披露终端交付量。",
+      "sections": [
+        "芯片",
+        "机器人"
+      ],
+      "stories": [
+        {
+          "tag": "焦点",
+          "impact": "高热",
+          "title": "🔥 美 AI 安全中心被要求向白宫汇报",
+          "detail": "美国前沿模型安全评估的正式归属仍在商务部体系内，但人员的日常汇报可能出现了另一条线。11/8，美联社援引两名前政府官员称，商务部下属的 CAISSI 人员近期被要求向白宫的一个办公室非正式汇报。NIST 的公开说明仍将中心列为直接向 NIST 局长汇报的研究单位。美联社同时称，…",
+          "links": [
+            {
+              "label": "NIST 对中心正式归属的说明",
+              "url": "https://www.nist.gov/caissi/careers-caissi"
+            },
+            {
+              "label": "美联社独立报道",
+              "url": "https://apnews.com/article/d3318eb2cf011df53e9ddb3e03d25f13"
+            }
+          ],
+          "anchor": "美-ai-安全中心被要求向白宫汇报"
+        },
+        {
+          "tag": "芯片",
+          "impact": "高热",
+          "title": "🔥 Anthropic 据报承接 $34 亿发电订单",
+          "detail": "这笔交易买的是已下单的发电设备及安装所需能力，设备能何时投运仍未公开。11/8，《金融时报》首次披露买家为 Anthropic。据路透转述，Anthropic 于 9 月下旬从得州设备供应商 OnePWR Solutions 手中承接约 1.7 GW 的重型燃气发电机组订单。交…",
+          "links": [
+            {
+              "label": "交易顾问 Piper Sandler",
+              "url": "https://www.pipersandler.com/investment-banking-transactions/onepwr-solutions-20260901"
+            },
+            {
+              "label": "路透引述《金融时报》",
+              "url": "https://www.streetinsider.com/Reuters/Anthropic%2Bsecures%2B%243.4%2Bbillion%2Bgenerator%2Bdeal%2Bfor%2BAI%2Bdata%2Bcenters%2C%2BFT%2Breports/27309458.html?classic=1"
+            }
+          ],
+          "anchor": "anthropic-据报承接-34-亿发电订单"
+        },
+        {
+          "tag": "芯片",
+          "impact": "高热",
+          "title": "🔥 📌 NVIDIA 董事会启动独立调查",
+          "detail": "调查由独立董事组成的委员会监督，并由外部独立律师协助。11/8，NVIDIA 董事会发布声明，称因媒体报道创始人兼首席执行官 Jensen Huang 可能成为外国情报活动的目标，已启动独立调查。董事会表示，目前没有理由认为美国国家安全或公司机密已经受损，并称黄仁勋承诺配合。公…",
+          "links": [
+            {
+              "label": "NVIDIA 董事会声明",
+              "url": "https://investor.nvidia.com/news/press-release-details/2026/Statement-from-NVIDIA-Board-of-Directors/default.aspx"
+            },
+            {
+              "label": "路透经 Euronext 刊载",
+              "url": "https://live.euronext.com/en/financial-news/nvidia-probes-whether-ceo-huang-was-target-foreign-spying-he-admits-affair"
+            }
+          ],
+          "anchor": "nvidia-董事会启动独立调查"
+        },
+        {
+          "tag": "机器人",
+          "impact": "高热",
+          "title": "🔥 启元两款产品累计下线 10,000 台",
+          "detail": "从第 5,000 台到第 10,000 台，启元整机工厂用了 14 天。11/8，上纬新材旗下启元宣布第 10,000 台个人机器人下线。公司公告将这一数量列为 启元 Q1、启元 T1 两款产品的合计。公司负责人向媒体介绍，整机工厂在 10 月进入量产，10/25 第 5,00…",
+          "links": [
+            {
+              "label": "上纬新材业务进展公告",
+              "url": "https://finance.sina.com.cn/roll/2026-11-09/doc-iniyacyq6963641.shtml"
+            },
+            {
+              "label": "新京报贝壳财经",
+              "url": "https://www.bjnews.com.cn/detail/1794118990129766.html"
+            }
+          ],
+          "anchor": "启元两款产品累计下线-10-000-台"
+        },
+        {
+          "tag": "机器人",
+          "impact": "关注",
+          "title": "库萨与临港物业规划巡检场景扩展",
+          "detail": "这次合作从已经运行的临港示范项目出发，把拓展对象明确到更多城市服务场景。11/8，在进博会的漕河泾具身智能产业创新平台生态伙伴交流会上，库萨科技与临港物业复盘了临港新片区项目的运营情况，并就向上海其他区域扩大应用范围做了初步规划。库萨在本届展会公布了在研双轮足设备 陌巡，面向人…",
+          "links": [
+            {
+              "label": "库萨科技现场披露",
+              "url": "https://www.kusaauto.com/g/325"
+            },
+            {
+              "label": "上海市国资委会前活动安排",
+              "url": "https://www.gzw.sh.gov.cn/shgzw_zxzx_gqdt/20261104/57150da54dc14b1c9339f0983cfe5466.html"
+            }
+          ],
+          "anchor": "库萨与临港物业规划巡检场景扩展"
+        }
+      ],
+      "sourceFile": "/home/runner/work/AINews/AINews/content/daily-ai-news/2026-11-09.md",
+      "htmlContent": "<p>&gt; 注：24h 窗口为 UTC 2026-11-08 00:00 至 2026-11-09 00:00（北京时间 11/8 08:00 至 11/9 08:00）。已比对 11/8 日刊，11/7 正式归档在旧目录和网站仓库中均缺失。11/8 日刊的待跟踪事项没有落在本期窗口内。本期收录 5 条，覆盖政策、算力及芯片企业治理、具身智能。其余板块未核实到达到收录标准的新增诉讼、头部模型发布、智能体安全进展、产品更新、自动驾驶许可或融资并购。 &gt; &gt; 一手来源巡检：NVIDIA 新闻及投资者关系页收 §2。Anthropic、OpenAI、Google DeepMind、Google Blog、Meta AI、xAI、Microsoft、Claude Code Releases、Cursor Changelog、GitHub Changelog、DeepSeek、智谱、Moonshot、White House、NHTSA、FTC、SEC、网信办、工信部及 CoreWeave 投资者关系页，在可读的日期附近条目中未见符合本期门槛的新公告。Qwen、MiniMax、字节 Seed、Federal Register 当日目录、欧盟委员会 Press Corner、路透科技列表未能直取完整内容。英国《金融时报》的发电设备报道全文受限，已用路透转述与交易顾问披露对照核验。 &gt; &gt; 审稿说明：OpenAI 融资、Google 怀俄明州数据中心及 Anthropic 相关量子计算证明均早于窗口。智谱与移动云合作已由移动云于 11/7 公布。Claude Code 团队在 11/7 UTC 已公开回应凭据报告，11/8 补录该回应。Langflow 的 CVE 记录虽于 11/8 公开，漏洞及修复早已公告，均未重复收录。</p>\n<h3 id=\"今日摘要\">今日摘要</h3>\n<ul><li>🔥 <strong>美国 AI 安全中心汇报安排受关注</strong>：美联社引述 <strong>两名前官员</strong>称，中心人员被要求向白宫办公室非正式汇报。</li><li>🔥 <strong>Anthropic 据报承接发电设备订单</strong>：交易顾问披露金额为 <strong>$34 亿</strong>，媒体报道设备容量约 <strong>1.7 GW</strong>。</li><li>🔥 <strong>NVIDIA 董事会启动独立调查</strong>：由独立董事委员会与外部律师负责。美国国会相关简报邀约的回复期限是 <strong>11/11</strong>。</li><li>🔥 <strong>启元两款产品累计下线 10,000 台</strong>：从 <strong>5,000 台</strong>到万台用了 <strong>14 天</strong>，公司未同步披露终端交付量。</li></ul>\n<h3 id=\"1-政策与监管\">1. 政策与监管</h3>\n<h4 class=\"entry-heading\" id=\"美-ai-安全中心被要求向白宫汇报\">🔥 美 AI 安全中心被要求向白宫汇报</h4>\n<p>美国前沿模型安全评估的正式归属仍在商务部体系内，但人员的日常汇报可能出现了另一条线。11/8，<strong>美联社</strong>援引<strong>两名前政府官员</strong>称，商务部下属的 <strong>CAISSI</strong> 人员近期被要求向白宫的一个办公室非正式汇报。<strong>NIST</strong> 的公开说明仍将中心列为直接向 NIST 局长汇报的研究单位。美联社同时称，中心没有常任负责人，国会从 8 月起就开始追问部分模型安全评估报告为何停止对公众发布。白宫回应了总统设立 AI 工作组和委托风险报告一事，未具体回应中心的汇报安排。对允许政府在发布前测试模型的厂商而言，评估能否继续进行与结果能否对外发布是两个不同的问题，这次报道的新增信息集中在汇报安排。 <span class=\"inline-source\">（来源：<a href=\"https://www.nist.gov/caissi/careers-caissi\" target=\"_blank\" rel=\"noreferrer\">NIST 对中心正式归属的说明</a> / <a href=\"https://apnews.com/article/d3318eb2cf011df53e9ddb3e03d25f13\" target=\"_blank\" rel=\"noreferrer\">美联社独立报道</a>）</span></p>\n<h3 id=\"2-芯片与算力\">2. 芯片与算力</h3>\n<h4 class=\"entry-heading\" id=\"anthropic-据报承接-34-亿发电订单\">🔥 Anthropic 据报承接 $34 亿发电订单</h4>\n<p>这笔交易买的是已下单的发电设备及安装所需能力，设备能何时投运仍未公开。11/8，《金融时报》首次披露买家为 <strong>Anthropic</strong>。据路透转述，Anthropic 于 9 月下旬从得州设备供应商 <strong>OnePWR Solutions</strong> 手中承接约 <strong>1.7 GW</strong> 的重型燃气发电机组订单。交易顾问 <strong>Piper Sandler</strong> 披露金额为 <strong>$34 亿</strong>，确认卖方向一家前沿 AI 实验室出售发电平台，但没有公布买家名称。路透称未能独立证实买家及条款。报道还称，交易涵盖安装相关的工程和施工能力，OnePWR 员工没有随交易转入。承接既有订单可以减少从头排队采购设备的时间，但约定的机组功率还要经过安装和投运，才能变成数据中心实际可用的电力。 <span class=\"inline-source\">（来源：<a href=\"https://www.pipersandler.com/investment-banking-transactions/onepwr-solutions-20260901\" target=\"_blank\" rel=\"noreferrer\">交易顾问 Piper Sandler</a> / <a href=\"https://www.streetinsider.com/Reuters/Anthropic%2Bsecures%2B%243.4%2Bbillion%2Bgenerator%2Bdeal%2Bfor%2BAI%2Bdata%2Bcenters%2C%2BFT%2Breports/27309458.html?classic=1\" target=\"_blank\" rel=\"noreferrer\">路透引述《金融时报》</a>）</span></p>\n<h4 class=\"entry-heading\" id=\"nvidia-董事会启动独立调查\">🔥 📌 NVIDIA 董事会启动独立调查</h4>\n<p>调查由独立董事组成的委员会监督，并由外部独立律师协助。11/8，<strong>NVIDIA</strong> 董事会发布声明，称因媒体报道创始人兼首席执行官 <strong>Jensen Huang</strong> 可能成为外国情报活动的目标，已启动<strong>独立调查</strong>。董事会表示，目前没有理由认为美国国家安全或公司机密已经受损，并称黄仁勋承诺配合。公司尚未公布调查完成日期。前期关于 H200 获准组装企业的地址核查，详见 11-08 归档 §1。本次公告增加的是公司董事会的调查程序，公开声明尚未给出个别出口许可或交付记录。另据美国国会此前公开的信函，众议院三个委员会要求黄仁勋在 <strong>11/11</strong> 前答复闭门简报邀约，拟议简报时间为 11/18。 <span class=\"inline-source\">（来源：<a href=\"https://investor.nvidia.com/news/press-release-details/2026/Statement-from-NVIDIA-Board-of-Directors/default.aspx\" target=\"_blank\" rel=\"noreferrer\">NVIDIA 董事会声明</a> / <a href=\"https://live.euronext.com/en/financial-news/nvidia-probes-whether-ceo-huang-was-target-foreign-spying-he-admits-affair\" target=\"_blank\" rel=\"noreferrer\">路透经 Euronext 刊载</a>）</span></p>\n<h3 id=\"3-机器人与物理-ai\">3. 机器人与物理 AI</h3>\n<h4 class=\"entry-heading\" id=\"启元两款产品累计下线-10-000-台\">🔥 启元两款产品累计下线 10,000 台</h4>\n<p>从第 5,000 台到第 10,000 台，启元整机工厂用了 <strong>14 天</strong>。11/8，<strong>上纬新材</strong>旗下启元宣布第 <strong>10,000 台</strong>个人机器人下线。公司公告将这一数量列为 <strong>启元 Q1</strong>、<strong>启元 T1</strong> 两款产品的合计。公司负责人向媒体介绍，整机工厂在 10 月进入量产，10/25 第 <strong>5,000 台</strong>下线，随后两周的新增下线量与此前累计量相当。这次披露给出了实际生产节奏，适合用来判断装配爬坡。公告未拆分两款产品的产量，也未同时披露终端交付、渠道库存及两款机型各自的单台成本。对供应链企业而言，下线量说明产线已经能够连续生产。要判断新增产量有多少转化成零售收入，仍需交付和渠道数据。 <span class=\"inline-source\">（来源：<a href=\"https://finance.sina.com.cn/roll/2026-11-09/doc-iniyacyq6963641.shtml\" target=\"_blank\" rel=\"noreferrer\">上纬新材业务进展公告</a> / <a href=\"https://www.bjnews.com.cn/detail/1794118990129766.html\" target=\"_blank\" rel=\"noreferrer\">新京报贝壳财经</a>）</span></p>\n<h4 class=\"entry-heading\" id=\"库萨与临港物业规划巡检场景扩展\">库萨与临港物业规划巡检场景扩展</h4>\n<p>这次合作从已经运行的临港示范项目出发，把拓展对象明确到更多城市服务场景。11/8，在进博会的<strong>漕河泾具身智能产业创新平台</strong>生态伙伴交流会上，<strong>库萨科技</strong>与<strong>临港物业</strong>复盘了临港新片区项目的运营情况，并就向上海其他区域扩大应用范围做了初步规划。库萨在本届展会公布了在研双轮足设备 <strong>陌巡</strong>，面向人行道巡检与小型垃圾清扫。公司称其现有城市服务产品已在海内外超过 <strong>40 座城市</strong>部署，这个数字覆盖既有产品组合。物业方提供场地和运营反馈，设备方据此处理园区与公共道路中遇到的问题。现有产品的部署规模只能说明库萨已有服务网络，会上披露的初步规划还没有给出陌巡的采购数量、交付安排或单位作业成本。 <span class=\"inline-source\">（来源：<a href=\"https://www.kusaauto.com/g/325\" target=\"_blank\" rel=\"noreferrer\">库萨科技现场披露</a> / <a href=\"https://www.gzw.sh.gov.cn/shgzw_zxzx_gqdt/20261104/57150da54dc14b1c9339f0983cfe5466.html\" target=\"_blank\" rel=\"noreferrer\">上海市国资委会前活动安排</a>）</span></p>\n<h3 id=\"本周值得盯\">本周值得盯</h3>\n<ul><li>11/9–11/10（巴黎时间）— <a href=\"https://www.diplomatie.gouv.fr/en/presse-et-ressources/decouvrir-et-informer/actualites/quelles-priorites-pour-la-reunion-des-ministres-des-affaires-etrangeres-du-g7-a-paris\" target=\"_blank\" rel=\"noreferrer\">G7 外长会议</a>讨论 AI 治理及相关安全议题，关注会后文件。</li><li>11/10（美东时间）— <a href=\"https://investors.coreweave.com/news/news-details/2026/CoreWeave-Announces-Date-of-Third-Quarter-2026-Financial-Results-and-Conference-Call/default.aspx\" target=\"_blank\" rel=\"noreferrer\">CoreWeave 公布第三季业绩并举行电话会</a>，核对在手订单转为收入的速度及资本开支。</li><li>11/11 — <a href=\"https://foreignaffairs.house.gov/news/press-releases/chairmen-mast-moolenaar-and-crawford-request-jensen-huang-brief-congress-on-link-to-chinese-intelligence-asset\" target=\"_blank\" rel=\"noreferrer\">美国众议院三个委员会要求 NVIDIA CEO 回复闭门简报邀约</a>，拟议简报时间为 11/18，详见 §2。</li><li>11/12（香港时间）— <a href=\"https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1030/2026103002448_c.pdf\" target=\"_blank\" rel=\"noreferrer\">一微科技预期在港交所挂牌</a>，以招股条件满足及最终公告为准。</li></ul>\n<hr class=\"report-rule\" />\n<p><em>报告生成：2026-11-09 北京时间 · 调度任务：每日 AI 行业日报（v3）</em></p>"
+    },
     {
       "id": "2026-11-08",
       "date": "2026-11-08",
