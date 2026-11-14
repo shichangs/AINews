@@ -396,6 +396,48 @@ html[lang|="zh"] .report-content strong {
   color: var(--muted);
 }
 
+.report-content .editorial-notes {
+  margin-top: 2rem;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.45);
+  font-size: 0.9em;
+}
+
+.editorial-notes > summary {
+  padding: 16px 18px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.editorial-notes > summary span {
+  display: inline-block;
+  margin-left: 0.75em;
+  color: var(--muted);
+  font-size: 0.88em;
+  font-weight: 400;
+}
+
+.editorial-notes > summary:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 3px;
+  border-radius: 12px;
+}
+
+.editorial-notes-body {
+  padding: 0 18px 8px;
+}
+
+.editorial-notes-body .table-wrap table {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.editorial-notes-body .table-wrap th:first-child,
+.editorial-notes-body .table-wrap td:first-child {
+  min-width: 5em;
+}
+
 .report-content hr {
   margin: 1.15rem 0 0.95rem;
   border: 0;

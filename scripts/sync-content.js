@@ -148,7 +148,8 @@ function sortMarkdownFilesByName(dirPath) {
 
 function parseDailyIssue(filePath) {
   const markdown = fs.readFileSync(filePath, "utf8");
-  const lines = splitLines(markdown);
+  const { body, notes } = splitDailyEditorialNotes(markdown);
+  const lines = splitLines(body);
   const id = path.basename(filePath, ".md");
   const date = id;
 
@@ -166,8 +167,43 @@ function parseDailyIssue(filePath) {
     sections,
     stories,
     sourceFile: filePath,
-    htmlContent: markdownToHtml(markdown),
+    htmlContent: [
+      markdownToHtml(body),
+      notes
+        ? `<details class="editorial-notes"><summary>采编说明<span>范围、来源与审稿记录</span></summary><div class="editorial-notes-body">${markdownToHtml(notes)}</div></details>`
+        : "",
+    ].filter(Boolean).join("\n"),
   };
+}
+
+function splitDailyEditorialNotes(markdown) {
+  const lines = splitLines(markdown);
+  const appendixIndex = lines.findIndex((line) => /^##\s+采编说明\s*$/.test(line));
+  const notes = appendixIndex >= 0 ? lines.splice(appendixIndex).slice(1).join("\n").trim() : "";
+
+  // Older daily issues put editorial records in blockquotes before the summary.
+  // Move only that known lead note, leaving quotations in news stories alone.
+  let start = lines.findIndex((line) => /^#\s+/.test(line)) + 1;
+  while (start < lines.length && !lines[start].trim()) start += 1;
+  if (!/^>\s*注[：:]/u.test(lines[start] || "")) {
+    return { body: lines.join("\n"), notes };
+  }
+
+  let end = start;
+  while (end < lines.length && (!lines[end].trim() || /^\s*>/.test(lines[end]))) end += 1;
+  const lead = lines.splice(start, end - start)
+    .map((line) => line.replace(/^\s*>\s?/, ""))
+    .join("\n");
+  const headings = { 注: "报告范围", 一手来源巡检: "来源巡检", 一手来源核对: "来源巡检" };
+  const legacyNotes = lead.split(/\n\s*\n/).filter((block) => block.trim()).map((block) => {
+    const text = block.replace(/\s*\n\s*/g, " ").trim();
+    const label = text.match(/^([^：:]{1,24})[：:]\s*/u);
+    const heading = label ? headings[label[1]] || label[1] : "核查记录";
+    const content = label ? text.slice(label[0].length) : text;
+    const bullets = content.split(/(?<=[。；])\s*/u).filter(Boolean).map((item) => `- ${item}`).join("\n");
+    return `### ${heading}\n\n${bullets}`;
+  }).join("\n\n");
+  return { body: lines.join("\n"), notes: [legacyNotes, notes].filter(Boolean).join("\n\n") };
 }
 
 function parseMarketBrief(filePath) {
