@@ -8,13 +8,9 @@
 ## 🔥 本周亮点（Top 5）
 
 1. **NVIDIA换帅已落地，财报检验经营连续性**。公司 2026-11-12 宣布 Kress 接任临时 CEO，股价周跌 **12.7%**；11-17 财报安排保持不变。最大单日跌幅在 11-10，不能全部归于换帅公告。（来源：[NVIDIA 董事会公告](https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition) · [SEC 8-K](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm)）
-
 2. **Hims增收未能抵消盈利压力**。2026-11-09 盘后公布毛利率 **57%**，上年同期为 74%，并下调全年盈利指引。全周跌 **24.1%**，其中 11-10 跌 16.6%；11-09 日盘下跌发生在财报之前。（来源：[公司 Q3 业绩](https://investors.hims.com/news/news-details/2026/Hims--Hers-Health-Inc--Reports-Third-Quarter-2026-Financial-Results/default.aspx) · [路透：指引与共识](https://www.boursorama.com/bourse/actualites/hims-hers-subit-une-baisse-de-ses-marges-et-revoit-ses-previsions-a-la-baisse-efb4d9a55a40a8aaba3205193cbb94a6)）
-
 3. **AMD受产品与评级支持，周五仍大幅回撤**。EPYC 配套 Google TPU 8tx，第六代 EPYC 开始普遍上市；Oppenheimer 2026-11-09 上调评级。AMD 周涨 **18.9%**，11-13 却跌 **8.8%**；不能把竞争对手动荡直接当成已获得订单。（来源：[AMD 产品公告](https://ir.amd.com/news-events/press-releases/detail/1304/amd-epyc-expands-its-leadership-at-the-foundation-of-ai) · [AMD 上市公告](https://ir.amd.com/news-events/press-releases/detail/1305/amd-showcases-6th-gen-amd-epyc-processors-to-lead-next-era-of-ai-and-enterprise-computing) · [Kiplinger：评级上调](https://www.kiplinger.com/investing/stocks/dow-adds-1-104-points-even-as-nvidia-stock-sinks-stock-market-today)）
-
 4. **Meta 新增隐私处罚与整改要求，融资完成不能抵消合规约束**。意大利监管机构2026-11-14罚款 **€8.05 亿**，要求60天内调整相关设置；消息晚于周五收盘，不解释此前周涨5.2%。（来源：[意大利监管原文](https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/10321080) · [SEC：发行完成](https://www.sec.gov/Archives/edgar/data/1326801/000119312526458525/d177728d8k.htm)）
-
 5. **TSMC收入创新高，员工数据事件另添风险**。2026-11-10 披露 10 月合并营收 **新台币 5,868.9 亿元**，同比 **+59.7%**；11-12 另披露员工资料外泄，公司称不涉及营运或客户数据。ADR 周涨 6.2%，不可直接与本币营收增速混算。（来源：[SEC：营收](https://www.sec.gov/Archives/edgar/data/1046179/000104617926000796/tsm-revenue20261110.htm) · [SEC：数据事件](https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm)）
 
 ## 🌍 本周宏观背景
