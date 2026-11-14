@@ -167,13 +167,17 @@ function parseDailyIssue(filePath) {
     sections,
     stories,
     sourceFile: filePath,
-    htmlContent: [
-      markdownToHtml(body),
-      notes
-        ? `<details class="editorial-notes"><summary>采编说明<span>范围、来源与审稿记录</span></summary><div class="editorial-notes-body">${markdownToHtml(notes)}</div></details>`
-        : "",
-    ].filter(Boolean).join("\n"),
+    htmlContent: renderReportWithEditorialNotes(body, notes),
   };
+}
+
+function renderReportWithEditorialNotes(body, notes) {
+  return [
+    markdownToHtml(body),
+    notes
+      ? `<details class="editorial-notes"><summary>采编说明<span>范围、来源与审稿记录</span></summary><div class="editorial-notes-body">${markdownToHtml(notes)}</div></details>`
+      : "",
+  ].filter(Boolean).join("\n");
 }
 
 function splitDailyEditorialNotes(markdown) {
@@ -208,7 +212,8 @@ function splitDailyEditorialNotes(markdown) {
 
 function parseMarketBrief(filePath) {
   const markdown = fs.readFileSync(filePath, "utf8");
-  const lines = splitLines(markdown);
+  const { body, notes } = splitDailyEditorialNotes(markdown);
+  const lines = splitLines(body);
   const id = path.basename(filePath, ".md");
   const date = extractDateFromId(id);
   // Non-daily portfolio formats (e.g. monthly rollups like
@@ -246,7 +251,7 @@ function parseMarketBrief(filePath) {
       name: extractRiskName(line) || `风险 ${index + 1}`,
       note: stripMarkdown(line),
     })),
-    htmlContent: markdownToHtml(markdown),
+    htmlContent: renderReportWithEditorialNotes(body, notes),
   };
 }
 
@@ -259,7 +264,9 @@ function getWeeklyReports(issues) {
 }
 
 function getPortfolioReports() {
-  return sortMarkdownFilesByName(PORTFOLIO_DIR).map((filePath) => parseMarketBrief(filePath));
+  return sortMarkdownFilesByName(PORTFOLIO_DIR)
+    .filter((filePath) => /^portfolio-news-\d{4}-\d{2}-(?:\d{2}|monthly)\.md$/.test(path.basename(filePath)))
+    .map((filePath) => parseMarketBrief(filePath));
 }
 
 function getWeeklyAiTechReports() {

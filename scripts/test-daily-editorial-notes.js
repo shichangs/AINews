@@ -51,3 +51,34 @@ test("reports without editorial records and quotations inside news remain unchan
   assert.equal(issue.htmlContent, context.markdownToHtml(markdown));
   assert.ok(!issue.htmlContent.includes("editorial-notes"));
 });
+
+test("portfolio appendices are collapsed after the report and do not change its overview", () => {
+  const filePath = path.join(tempDir, "portfolio-news-2026-11-16.md");
+  const markdown = `# 投资组合每周新闻简报\n**更新日期：2026-11-16**\n\n## 本周宏观背景\n\n市场摘要。\n\n## 速览总结\n\n| 公司 | 代码 | 股价 | 本周涨跌 | 一句话摘要 |\n|---|---|---|---|---|\n| Tesla | TSLA | $300.00 | +1.0% | 公司公告 |\n\n## 下周值得盯\n\n- 11/20 — 公司活动。\n`;
+  fs.writeFileSync(filePath, markdown);
+  const original = context.parseMarketBrief(filePath);
+  assert.equal(original.htmlContent, context.markdownToHtml(markdown));
+  fs.writeFileSync(filePath, `${markdown}\n## 采编说明\n\n### 报告范围\n\n| 项目 | 说明 |\n|---|---|\n| 基准交易日 | 2026-11-13 |\n\n### 本周风险预警\n\n- 此处是审稿记录，不是正文风险。\n`);
+  const report = context.parseMarketBrief(filePath);
+  for (const key of ["summary", "highlights", "movers", "risks"]) {
+    assert.deepEqual(report[key], original[key]);
+  }
+  assert.ok(report.htmlContent.indexOf('<details class="editorial-notes">') > report.htmlContent.indexOf("下周值得盯"));
+  assert.ok(report.htmlContent.includes("<th>项目</th>"));
+  assert.ok(!/<details[^>]*\bopen\b/.test(report.htmlContent));
+  assert.ok(report.htmlContent.endsWith("</div></details>"));
+});
+
+test("research ledgers are excluded from portfolio reports", () => {
+  const originalSort = context.sortMarkdownFilesByName;
+  const reportPath = path.join(tempDir, "portfolio-news-2026-11-16.md");
+  const ledgerPath = path.join(tempDir, "ledger-2026-11-16.md");
+  fs.writeFileSync(reportPath, "# 投资组合每周新闻简报\n\n## 本周宏观背景\n\n市场摘要。\n");
+  fs.writeFileSync(ledgerPath, "# 研究台账\n\n非公开正文。\n");
+  context.sortMarkdownFilesByName = () => [reportPath, ledgerPath];
+  try {
+    assert.deepEqual(Array.from(context.getPortfolioReports(), (report) => report.id), ["portfolio-news-2026-11-16"]);
+  } finally {
+    context.sortMarkdownFilesByName = originalSort;
+  }
+});

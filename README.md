@@ -24,6 +24,17 @@
 
 如果 `weekly` 目录为空，会自动用最近日报生成周汇总。
 
+## 本机定时采编（当前配置）
+
+投资组合周报使用 Codex 定时任务，每周一北京时间 09:00 触发；完整生成要求保存在
+[`prompts/portfolio-weekly-v3.md`](prompts/portfolio-weekly-v3.md)。
+
+- 正式入口：`~/Desktop/ClaudeCode/portfolio-news/portfolio-news-YYYY-MM-DD.md`。
+- 研究台账和未通过核查的草稿：该目录下的 `research/` 子目录，不发布到网站。
+- 完整稿通过临时文件原子写入后，由现有 `com.ainews.sync` 复制到仓库并推送，再由上述 Actions / Pages 流程发布。
+- 每期创建新的周报，已有月报保持独立；缺失上期时如实披露，周涨跌仍使用相邻交易周计算。
+- 文末 `## 采编说明` 使用表格与清单，网页默认收起；行情口径的必要简注保留在速览表旁。
+
 ## 本地预览（推荐）
 
 推送前先本地检查，确认无误再 push：
