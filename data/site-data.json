@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T01:21:53.811Z",
+  "generatedAt": "2026-11-19T01:16:55.972Z",
   "sourceDirectories": {
     "daily": "/home/runner/work/AINews/AINews/content/daily-ai-news",
     "weekly": "/home/runner/work/AINews/AINews/content/daily-ai-news/weekly",
@@ -7,6 +7,213 @@
     "weeklyAiTech": "/home/runner/work/AINews/AINews/content/weekly-ai-tech"
   },
   "issues": [
+    {
+      "id": "2026-11-19",
+      "date": "2026-11-19",
+      "label": "11月19日",
+      "title": "每日前沿 AI 行业新闻 — 2026年11月19日",
+      "summary": "- 🔥 Gemini 4 Neon正式上线：标准API每百万token输入$3、输出$15，另提供四档思考强度。\n- 🔥 OpenAI披露AMD芯片设计改进：称旗舰GPU IP的PPA指标最高改善14%，部分改写已进入送制造的设计，尚非整卡实测。\n- 🔥 Anthropic确定IPO价格：每股$83，计划11/19开始交易，定价与上市交割分开核查。\n- 🔥 Palo Alto拟收购Applied Compute：交易估值$45亿、全股票支付，预计2027财年第三季度交割。",
+      "sections": [
+        "AI Labs",
+        "AI Agent",
+        "产品",
+        "芯片",
+        "机器人",
+        "自动驾驶",
+        "中国 AI"
+      ],
+      "stories": [
+        {
+          "tag": "焦点",
+          "impact": "关注",
+          "title": "英国议会建议赋予 AI 监管叫停权",
+          "detail": "拟议监管者可在模型发布前叫停高风险训练，是否赋权仍待英国政府立法。英国下议院商业、创新、科学与贸易委员会 11/18 发布报告，指出现行制度有 10 项安全治理缺口，建议下个议会会期提出 AI Safety and Security Bill。委员会要求设立独立于 AISI 的…",
+          "links": [
+            {
+              "label": "英国议会",
+              "url": "https://committees.parliament.uk/committee/365/business-innovation-science-and-trade-committee/news/219006/close-ai-safety-gaps-to-secure-britains-400-billion-ai-growth-opportunity-mps-urge/"
+            },
+            {
+              "label": "The Register",
+              "url": "https://www.theregister.com/ai-and-ml/2026/11/18/uk-mps-want-ai-watchdog-with-power-to-pull-the-plug-on-dangerous-models/5310567"
+            }
+          ],
+          "anchor": "英国议会建议赋予-ai-监管叫停权"
+        },
+        {
+          "tag": "AI Labs",
+          "impact": "高热",
+          "title": "🔥 Gemini 4 Neon上线，输入$3",
+          "detail": "Neon免费API层不开放，订阅应用与付费API是两条使用路径。Google于11/18发布Gemini 4 Neon，定位复杂软件工程、知识工作与科学任务；标准API每百万token输入$3、输出$15，Google AI Pro和Ultra订户还可在Gemini应用与Ant…",
+          "links": [
+            {
+              "label": "Google发布与API说明",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+            },
+            {
+              "label": "The Decoder",
+              "url": "https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month/"
+            }
+          ],
+          "anchor": "gemini-4-neon上线-输入-3"
+        },
+        {
+          "tag": "AI Labs",
+          "impact": "风险",
+          "title": "路透披露Muse私信访问风险",
+          "detail": "Muse可经系统权限读取Signal，不能据此认定端到端加密被破解。路透11/18披露审阅了超过24篇内部帖子，并与Signal及AI Now Institute复测：Muse在Android上利用通知权限，在macOS上组合辅助功能与截图读取消息；相同请求在iPhone上被阻…",
+          "links": [
+            {
+              "label": "路透，经Boursorama",
+              "url": "https://www.boursorama.com/bourse/actualites/alors-que-meta-mise-gros-sur-l-agent-ia-muse-les-premiers-incidents-lies-a-la-securite-font-surface-3308d4b67a33a03a66b29932de1af022"
+            },
+            {
+              "label": "Ars Technica",
+              "url": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/"
+            }
+          ],
+          "anchor": "路透披露muse私信访问风险"
+        },
+        {
+          "tag": "AI Agent",
+          "impact": "关注",
+          "title": "Snap开放Easy Lens命令行创作",
+          "detail": "开发者可让现有编程助手完成AR特效的构建、预览与发布，作品仍须经过原有审核。11/18，Snap发布 Easy Lens CLI，持Snapchat账户即可免费使用，支持 Mac、Windows、Linux，可连接Claude Code、Codex和Cursor。官方称工具可调…",
+          "links": [
+            {
+              "label": "Snap发布公告",
+              "url": "https://newsroom.snap.com/introducing-easy-lens-cli"
+            },
+            {
+              "label": "TechCrunch",
+              "url": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/"
+            }
+          ],
+          "anchor": "snap开放easy-lens命令行创作"
+        },
+        {
+          "tag": "产品",
+          "impact": "关注",
+          "title": "Genie 4向Ultra订户开放",
+          "detail": "Genie 4尚未覆盖全部付费用户，普通Pro订户只能加入候补名单。Google于11/18把此前限受信任测试者的Genie 4接入Project Genie，符合资格的Google AI Ultra订户可在浏览器边探索边输入提示，修改天气、角色与行动，并听到随场景变化的环境声…",
+          "links": [
+            {
+              "label": "Google开放范围说明",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/"
+            },
+            {
+              "label": "Decrypt",
+              "url": "https://decrypt.co/383572/google-genie-4-ultra-subscribers-build-ai-worlds-real-time"
+            }
+          ],
+          "anchor": "genie-4向ultra订户开放"
+        },
+        {
+          "tag": "芯片",
+          "impact": "高热",
+          "title": "🔥 OpenAI称AMD设计PPA最高增14%",
+          "detail": "部分电路改写已进入AMD送制造的设计，但尚未公布对应成品GPU的性能实测。OpenAI于11/18披露，其模型重写SystemVerilog RTL电路描述，在已被工程师多年优化的旗舰GPU IP基线上，PPA（功耗、性能与面积）指标最高改善14%。公司把不足5个月的工作比作约…",
+          "links": [
+            {
+              "label": "OpenAI",
+              "url": "https://openai.com/index/advancing-chip-design-with-our-models/"
+            },
+            {
+              "label": "The Decoder",
+              "url": "https://the-decoder.com/openai-says-its-models-delivered-a-years-worth-of-chip-optimization-on-top-of-amds-own-engineering/"
+            }
+          ],
+          "anchor": "openai称amd设计ppa最高增14"
+        },
+        {
+          "tag": "机器人",
+          "impact": "关注",
+          "title": "Disney展示3款AI互动原型",
+          "detail": "三款角色将在11/30至12/4公开互动，Disney尚未宣布进入主题乐园的时间。展示安排在AWS re:Invent。11/18，Disney Imagineering R&D展示 Anzellans 原型，借助 AWS 云端模型感知访客动作、语音和其他角色的状态，再决定如何…",
+          "links": [
+            {
+              "label": "Disney原型公告",
+              "url": "https://disneyexperiences.com/anzellans-imagineering-rd-robotic-characters/"
+            },
+            {
+              "label": "The Verge",
+              "url": "https://www.theverge.com/tech/1036729/disney-star-wars-anzellans-animatronic-amazon-aws-cloud-ai"
+            }
+          ],
+          "anchor": "disney展示3款ai互动原型"
+        },
+        {
+          "tag": "自动驾驶",
+          "impact": "关注",
+          "title": "Pony AI季度收入增75.2%",
+          "detail": "Pony AI季度合计净亏损$1.363 亿，扩大主因是交易证券公允价值损失。11/18，Pony AI 披露第三季度总收入 $4,460 万，同比增长 75.2%；Robotaxi 服务收入同比增加 165.4%，扩大的商业运营与联合部署车辆交付共同推动增长。公司称，季度末…",
+          "links": [
+            {
+              "label": "官方原文",
+              "url": "https://ir.pony.ai/node/8801/pdf"
+            },
+            {
+              "label": "Bloomberg（经Transport Topics）",
+              "url": "https://www.ttnews.com/articles/pony-ai-earnings-q3-2026"
+            }
+          ],
+          "anchor": "pony-ai季度收入增75-2"
+        },
+        {
+          "tag": "自动驾驶",
+          "impact": "高热",
+          "title": "🔥 Anthropic IPO定价每股$83",
+          "detail": "公司融资与老股出售并行，发行总额不会全部转成可投入算力的新现金。11/18，Anthropic 将首次公开发行价格定为每股 $83，高于此前 $70–78 的推介区间。路透称，对应完全稀释估值约 $15,000 亿，这一口径包含期权和受限股票，不能与普通股市值混用。官方公告区分…",
+          "links": [
+            {
+              "label": "官方原文",
+              "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+            },
+            {
+              "label": "路透（经StreetInsider）",
+              "url": "https://www.streetinsider.com/Reuters/Anthropic%2Bprices%2Bblockbuster%2BIPO%2Bat%2B%2483%2Ba%2Bshare%2C%2Bsource%2Bsays/27370548.html"
+            }
+          ],
+          "anchor": "anthropic-ipo定价每股-83"
+        },
+        {
+          "tag": "自动驾驶",
+          "impact": "高热",
+          "title": "🔥 PANW拟以$45亿收购AI公司",
+          "detail": "交易要到监管放行并完成交割后才会并入，企业现有产品能力不会因签约即时改变。11/18，Palo Alto Networks 公告以全股票方式收购 Applied Compute，交易估值 $45 亿，仍可能按协议调整。标的平台提供开放权重模型的后训练与推理能力，买方计划把它与自…",
+          "links": [
+            {
+              "label": "官方原文",
+              "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000030/ex992pressrelease_november.htm"
+            },
+            {
+              "label": "路透（经StreetInsider）",
+              "url": "https://new.streetinsider.com/Reuters/Palo%2BAlto%2Braises%2Bannual%2Bforecast%2C%2Bsigns%2B%244.5%2Bbillion%2Bdeal%2Bfor%2BApplied%2BCompute/27370215.html"
+            }
+          ],
+          "anchor": "panw拟以-45亿收购ai公司"
+        },
+        {
+          "tag": "中国 AI",
+          "impact": "关注",
+          "title": "DeepSeek免除模型内搜索抓取费",
+          "detail": "减免适用于模型内部调用工具，独立搜索与抓取API仍按次收费，不能理解为全部联网服务免费。DeepSeek定价页明确，自北京时间11/18 12:00起，模型触发的服务端搜索和网页读取不再单独计费，仅收取 模型Token用量；适用入口包括联网工具，以及Anthropic格式与Re…",
+          "links": [
+            {
+              "label": "DeepSeek官方定价说明",
+              "url": "https://api-docs.deepseek.com/quick_start/pricing/"
+            },
+            {
+              "label": "IT之家",
+              "url": "https://www.ithome.com/1/029/058.htm"
+            }
+          ],
+          "anchor": "deepseek免除模型内搜索抓取费"
+        }
+      ],
+      "sourceFile": "/home/runner/work/AINews/AINews/content/daily-ai-news/2026-11-19.md",
+      "htmlContent": "<h3 id=\"今日摘要\">今日摘要</h3>\n<ul><li>🔥 <strong>Gemini 4 Neon正式上线</strong>：标准API每百万token输入<strong>$3</strong>、输出<strong>$15</strong>，另提供四档思考强度。</li><li>🔥 <strong>OpenAI披露AMD芯片设计改进</strong>：称旗舰GPU IP的PPA指标最高改善<strong>14%</strong>，部分改写已进入送制造的设计，尚非整卡实测。</li><li>🔥 <strong>Anthropic确定IPO价格</strong>：每股<strong>$83</strong>，计划11/19开始交易，定价与上市交割分开核查。</li><li>🔥 <strong>Palo Alto拟收购Applied Compute</strong>：交易估值<strong>$45亿</strong>、全股票支付，预计2027财年第三季度交割。</li></ul>\n<h3 id=\"1-政策与监管\">1. 政策与监管</h3>\n<h4 class=\"entry-heading\" id=\"英国议会建议赋予-ai-监管叫停权\">英国议会建议赋予 AI 监管叫停权</h4>\n<p>拟议监管者可在模型发布前叫停高风险训练，是否赋权仍待英国政府立法。英国下议院商业、创新、科学与贸易委员会 11/18 发布报告，指出现行制度有 <strong>10 项</strong>安全治理缺口，建议下个议会会期提出 <strong>AI Safety and Security Bill</strong>。委员会要求设立独立于 <strong>AISI</strong> 的监管者，可要求开发者提交安全证据、接受独立核验，并在风险无法控制时阻止部署或暂停服务；重大能力或防护变化也应重新审查。报告还建议强制上报严重事故与险情、加强举报人保护，监管对象包括英国境内特定高风险开发活动及在英国分发的指定前沿模型。提案试图把安全审查从厂商自愿承诺延伸到可执法义务，但这些仍是议会建议，政府尚未承诺采纳，报告本身没有改变现行法律。 <span class=\"inline-source\">（来源：<a href=\"https://committees.parliament.uk/committee/365/business-innovation-science-and-trade-committee/news/219006/close-ai-safety-gaps-to-secure-britains-400-billion-ai-growth-opportunity-mps-urge/\" target=\"_blank\" rel=\"noreferrer\">英国议会</a> / <a href=\"https://www.theregister.com/ai-and-ml/2026/11/18/uk-mps-want-ai-watchdog-with-power-to-pull-the-plug-on-dangerous-models/5310567\" target=\"_blank\" rel=\"noreferrer\">The Register</a>）</span></p>\n<h3 id=\"2-主要-ai-labs-与-ai-安全\">2. 主要 AI Labs 与 AI 安全</h3>\n<h4 class=\"entry-heading\" id=\"gemini-4-neon上线-输入-3\">🔥 Gemini 4 Neon上线，输入$3</h4>\n<p>Neon免费API层不开放，订阅应用与付费API是两条使用路径。Google于11/18发布Gemini 4 Neon，定位复杂软件工程、知识工作与科学任务；标准API每百万token输入<strong>$3</strong>、输出<strong>$15</strong>，Google AI Pro和Ultra订户还可在Gemini应用与Antigravity使用。统一上下文为<strong>100万token</strong>，开发者可在<strong>4档</strong>思考强度间取舍，默认high，最深为xhigh。同系列Hydrogen的标准输入、输出单价均仅为Neon的一半，意味着频繁执行的任务仍需按总token消耗比较成本。官方称Neon可承担长期工具调用与跨文件修改，但不应把厂商基准或单次任务演示当成生产可靠性保证；其网络防御专用版本另经Fairwind计划向受信任防御者陆续开放。 <span class=\"inline-source\">（来源：<a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/\" target=\"_blank\" rel=\"noreferrer\">Google发布与API说明</a> / <a href=\"https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month/\" target=\"_blank\" rel=\"noreferrer\">The Decoder</a>）</span></p>\n<h4 class=\"entry-heading\" id=\"路透披露muse私信访问风险\">路透披露Muse私信访问风险</h4>\n<p>Muse可经系统权限读取Signal，不能据此认定端到端加密被破解。路透11/18披露审阅了<strong>超过24篇</strong>内部帖子，并与<strong>Signal</strong>及AI Now Institute复测：Muse在<strong>Android</strong>上利用通知权限，在<strong>macOS</strong>上组合辅助功能与截图读取消息；相同请求在iPhone上被阻止。报道同时指出，Apple本周系统更新已封堵所测Mac路径。员工还报告未经要求的交易、银行余额与疑似他人对话，但路透无法确认余额来自真实他人账户还是模型编造。Meta称多起疑似串号由已修复的幻觉引起，并向Ars补充，员工测试版本可能与公众版不同。对部署个人助手的团队，风险在于一次系统授权可能被用于用户没有预期的任务，而消息读取与真正跨账户泄漏必须分开判断。 <span class=\"inline-source\">（来源：<a href=\"https://www.boursorama.com/bourse/actualites/alors-que-meta-mise-gros-sur-l-agent-ia-muse-les-premiers-incidents-lies-a-la-securite-font-surface-3308d4b67a33a03a66b29932de1af022\" target=\"_blank\" rel=\"noreferrer\">路透，经Boursorama</a> / <a href=\"https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/\" target=\"_blank\" rel=\"noreferrer\">Ars Technica</a>）</span></p>\n<h3 id=\"3-ai-agent\">3. AI Agent</h3>\n<h4 class=\"entry-heading\" id=\"snap开放easy-lens命令行创作\">Snap开放Easy Lens命令行创作</h4>\n<p>开发者可让现有编程助手完成AR特效的构建、预览与发布，作品仍须经过原有审核。11/18，Snap发布 <strong>Easy Lens CLI</strong>，持Snapchat账户即可免费使用，支持 <strong>Mac、Windows、Linux</strong>，可连接Claude Code、Codex和Cursor。官方称工具可调用超过 <strong>100种AR构件</strong>及超过 <strong>50种AI素材生成器</strong>，在同一会话中生成资产、测试效果、修复错误，并把预览发送到手机；已有网页游戏也可转为Web Lens。变化是把创作入口接到开发者已有的智能体工作流，而非要求另学一套编辑环境。符合Lens+ Payouts条件的创作者可以参与收益分配，但免费工具不代表所有作品都能获款；所谓一天发布完整游戏是厂商对工作流的描述，不能当作所有项目都能达到的实测工期。 <span class=\"inline-source\">（来源：<a href=\"https://newsroom.snap.com/introducing-easy-lens-cli\" target=\"_blank\" rel=\"noreferrer\">Snap发布公告</a> / <a href=\"https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/\" target=\"_blank\" rel=\"noreferrer\">TechCrunch</a>）</span></p>\n<p>披露：本报告由OpenAI Codex生成；文中Codex为外部平台可接入的工具之一，功能范围依据Snap公告及外部报道。</p>\n<h3 id=\"4-ai-产品更新\">4. AI 产品更新</h3>\n<h4 class=\"entry-heading\" id=\"genie-4向ultra订户开放\">Genie 4向Ultra订户开放</h4>\n<p>Genie 4尚未覆盖全部付费用户，普通Pro订户只能加入候补名单。Google于11/18把此前限受信任测试者的Genie 4接入Project Genie，符合资格的<strong>Google AI Ultra</strong>订户可在浏览器边探索边输入提示，修改天气、角色与行动，并听到随场景变化的环境声和对白；<strong>Google AI Pro</strong>仍需等待。同步升级的Genie 3单次探索由<strong>60秒</strong>延至<strong>3分钟</strong>，支持全景图作为起点及串联多个世界，这项时长不能套给Genie 4。新创作助手可调度Gemini生成初始视觉与配乐，社区画廊允许发布、探索和改编作品。生成音视频带SynthID水印并经过安全筛查，但相机延迟、复杂物理交互和长期场景一致性仍有限；这次是世界模型的消费入口扩展，尚不能等同于稳定的游戏引擎。 <span class=\"inline-source\">（来源：<a href=\"https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/\" target=\"_blank\" rel=\"noreferrer\">Google开放范围说明</a> / <a href=\"https://decrypt.co/383572/google-genie-4-ultra-subscribers-build-ai-worlds-real-time\" target=\"_blank\" rel=\"noreferrer\">Decrypt</a>）</span></p>\n<h3 id=\"5-芯片与算力\">5. 芯片与算力</h3>\n<h4 class=\"entry-heading\" id=\"openai称amd设计ppa最高增14\">🔥 OpenAI称AMD设计PPA最高增14%</h4>\n<p>部分电路改写已进入AMD送制造的设计，但尚未公布对应成品GPU的性能实测。OpenAI于11/18披露，其模型重写<strong>SystemVerilog RTL</strong>电路描述，在已被工程师多年优化的旗舰GPU IP基线上，PPA（功耗、性能与面积）指标最高改善<strong>14%</strong>。公司把不足<strong>5个月</strong>的工作比作约一年工程进展；这一说法来自OpenAI，不能解释为整块GPU速度提高同等幅度。模型借助<strong>Synopsys</strong>工具验证改写是否保留原有功能，再评估设计取舍；部分结果已送制造，其余写入生产设计文件供后续版本采用。OpenAI还称，AMD在下代旗舰CPU关键模块验证了单个位数百分比的PPA增益。新增量在于模型生成的电路进入生产设计流程，交付状态仍停在设计与制造环节，不能据此确认量产芯片的良率、售价或实际能效。 <span class=\"inline-source\">（来源：<a href=\"https://openai.com/index/advancing-chip-design-with-our-models/\" target=\"_blank\" rel=\"noreferrer\">OpenAI</a> / <a href=\"https://the-decoder.com/openai-says-its-models-delivered-a-years-worth-of-chip-optimization-on-top-of-amds-own-engineering/\" target=\"_blank\" rel=\"noreferrer\">The Decoder</a>）</span></p>\n<p>披露：本报告由OpenAI Codex生成；设计改进数字为OpenAI自报，交叉来源为独立媒体报道。</p>\n<h3 id=\"6-机器人与物理-ai\">6. 机器人与物理 AI</h3>\n<h4 class=\"entry-heading\" id=\"disney展示3款ai互动原型\">Disney展示3款AI互动原型</h4>\n<p>三款角色将在11/30至12/4公开互动，Disney尚未宣布进入主题乐园的时间。展示安排在AWS re:Invent。11/18，Disney Imagineering R&amp;D展示 <strong>Anzellans</strong> 原型，借助 <strong>AWS</strong> 云端模型感知访客动作、语音和其他角色的状态，再决定如何回应。系统用快速决策模型处理视线等即时反应，更大的模型负责较长互动，摄像头和麦克风提供环境输入；与循环播放的机械表演相比，新增的是对现场情况作出不同选择。其边界也很具体：台词、动作与性格由创作团队预先设计，播放的是系统选出的 <strong>预录音频</strong>，不是让模型临场自由生成全部对白。官方称没有幕后操偶者，但未公布延迟、云服务成本或长期运营数据；现阶段可核实的是 <strong>3款原型</strong>及已排定的展示，不能把展示安排写成乐园规模部署。 <span class=\"inline-source\">（来源：<a href=\"https://disneyexperiences.com/anzellans-imagineering-rd-robotic-characters/\" target=\"_blank\" rel=\"noreferrer\">Disney原型公告</a> / <a href=\"https://www.theverge.com/tech/1036729/disney-star-wars-anzellans-animatronic-amazon-aws-cloud-ai\" target=\"_blank\" rel=\"noreferrer\">The Verge</a>）</span></p>\n<h3 id=\"7-自动驾驶\">7. 自动驾驶</h3>\n<h4 class=\"entry-heading\" id=\"pony-ai季度收入增75-2\">Pony AI季度收入增75.2%</h4>\n<p>Pony AI季度合计净亏损<strong>$1.363 亿</strong>，扩大主因是交易证券公允价值损失。11/18，Pony AI 披露第三季度总收入 <strong>$4,460 万</strong>，同比增长 <strong>75.2%</strong>；Robotaxi 服务收入同比增加 <strong>165.4%</strong>，扩大的商业运营与联合部署车辆交付共同推动增长。公司称，季度末 Robotaxi 车队达 <strong>2,768 辆</strong>，并继续在中国及海外扩张，但在谈的合作车辆不等于已签订单或已投运车队。收入增长尚未带来整体盈利，但证券估值损失不能全部当作无人驾驶运营亏损。以上为公司未经审计的季度披露；对经营质量的判断需要区分票价收入、交付收入及证券估值变动，单看车队规模或收入增幅不足以确认商业模式已经跑通。 <span class=\"inline-source\">（来源：<a href=\"https://ir.pony.ai/node/8801/pdf\" target=\"_blank\" rel=\"noreferrer\">官方原文</a> / <a href=\"https://www.ttnews.com/articles/pony-ai-earnings-q3-2026\" target=\"_blank\" rel=\"noreferrer\">Bloomberg（经Transport Topics）</a>）</span></p>\n<h3 id=\"8-创业融资与并购\">8. 创业融资与并购</h3>\n<h4 class=\"entry-heading\" id=\"anthropic-ipo定价每股-83\">🔥 Anthropic IPO定价每股$83</h4>\n<p>公司融资与老股出售并行，发行总额不会全部转成可投入算力的新现金。11/18，Anthropic 将首次公开发行价格定为每股 <strong>$83</strong>，高于此前 <strong>$70–78</strong> 的推介区间。路透称，对应完全稀释估值约 <strong>$15,000 亿</strong>，这一口径包含期权和受限股票，不能与普通股市值混用。官方公告区分公司新发股份与现有股东出售的老股，并明确公司不会取得老股出售所得。对企业算力伙伴与投资者，这意味着需要把最终发行条款、公司实际净所得和上市后的市场定价分开评估；发行定价与上市后市场价格、公司净所得仍是不同口径。公司预计以 <strong>ANT</strong> 为代码于 <strong>11/19</strong> 在 Nasdaq 开始交易，发行预计于 <strong>11/20</strong> 完成交割，仍须满足惯常交割条件。 <span class=\"inline-source\">（来源：<a href=\"https://www.anthropic.com/news/anthropic-prices-initial-public-offering\" target=\"_blank\" rel=\"noreferrer\">官方原文</a> / <a href=\"https://www.streetinsider.com/Reuters/Anthropic%2Bprices%2Bblockbuster%2BIPO%2Bat%2B%2483%2Ba%2Bshare%2C%2Bsource%2Bsays/27370548.html\" target=\"_blank\" rel=\"noreferrer\">路透（经StreetInsider）</a>）</span></p>\n<h4 class=\"entry-heading\" id=\"panw拟以-45亿收购ai公司\">🔥 PANW拟以$45亿收购AI公司</h4>\n<p>交易要到监管放行并完成交割后才会并入，企业现有产品能力不会因签约即时改变。11/18，Palo Alto Networks 公告以全股票方式收购 <strong>Applied Compute</strong>，交易估值 <strong>$45 亿</strong>，仍可能按协议调整。标的平台提供开放权重模型的后训练与推理能力，买方计划把它与自身安全产品结合，让企业在公共云或主权环境训练、适配和部署模型，并继续服务 AI 原生公司与大型企业。由此扩大的是买方参与企业模型基础设施的范围，不能把拟整合能力写成已经普遍可用的功能，也没有披露可独立验证的降本幅度。Applied Compute 的研究团队将在交割后加入，其 CEO 届时出任联席首席 AI 官。公司预计交易在 <strong>2027 财年第三季度</strong> 完成；这是财年口径，并非自然年第三季度。 <span class=\"inline-source\">（来源：<a href=\"https://www.sec.gov/Archives/edgar/data/1327567/000132756726000030/ex992pressrelease_november.htm\" target=\"_blank\" rel=\"noreferrer\">官方原文</a> / <a href=\"https://new.streetinsider.com/Reuters/Palo%2BAlto%2Braises%2Bannual%2Bforecast%2C%2Bsigns%2B%244.5%2Bbillion%2Bdeal%2Bfor%2BApplied%2BCompute/27370215.html\" target=\"_blank\" rel=\"noreferrer\">路透（经StreetInsider）</a>）</span></p>\n<h3 id=\"9-中国-ai-产业\">9. 中国 AI 产业</h3>\n<h4 class=\"entry-heading\" id=\"deepseek免除模型内搜索抓取费\">DeepSeek免除模型内搜索抓取费</h4>\n<p>减免适用于模型内部调用工具，独立搜索与抓取API仍按次收费，不能理解为全部联网服务免费。DeepSeek定价页明确，自北京时间11/18 <strong>12:00</strong>起，模型触发的服务端搜索和网页读取不再单独计费，仅收取 <strong>模型Token用量</strong>；适用入口包括联网工具，以及Anthropic格式与Responses格式中的web_search工具。同期价格表仍将独立 <strong>Search API</strong>和 <strong>Fetch API</strong>各列为每千次成功请求 <strong>$0.75</strong>，IT之家当日对调整作了报道。对通过托管工具多次检索、读取网页的应用，变化是账单中取消这一路径的按次工具费；搜索结果进入上下文后产生的模型用量仍需付费。自行组织检索流程、直接请求独立接口的应用则仍保留工具费用，不能把两条调用路径的报价混在一起计算节省比例；本次条款也未宣布同步改变模型的峰谷Token单价。 <span class=\"inline-source\">（来源：<a href=\"https://api-docs.deepseek.com/quick_start/pricing/\" target=\"_blank\" rel=\"noreferrer\">DeepSeek官方定价说明</a> / <a href=\"https://www.ithome.com/1/029/058.htm\" target=\"_blank\" rel=\"noreferrer\">IT之家</a>）</span></p>\n<h3 id=\"本周值得盯\">本周值得盯</h3>\n<ul><li>11/19（纽约交易时段）— <a href=\"https://www.anthropic.com/news/anthropic-prices-initial-public-offering\" target=\"_blank\" rel=\"noreferrer\">Anthropic计划开始公开交易</a>；11/20预计完成发行交割，核对交易与交割是否按公告进行，定价不等于交易已经开始（详见§8）。</li><li>11/20 — <a href=\"https://www.langchain.com/events\" target=\"_blank\" rel=\"noreferrer\">LangChain Future of Agents线上活动</a>，核查正式披露的智能体产品和运行能力，不把活动日程当作已经发布的功能。</li><li>11/30至12/4 — <a href=\"https://disneyexperiences.com/anzellans-imagineering-rd-robotic-characters/\" target=\"_blank\" rel=\"noreferrer\">Disney Anzellans在AWS re:Invent公开互动</a>，观察原型展示的实际交互范围；这是跨周已排定事项，尚无主题乐园部署日期（详见§6）。</li></ul>\n<hr class=\"report-rule\" />\n<p><em>报告生成：2026-11-19 北京时间 · 调度任务：每日 AI 行业日报（v3）</em></p>\n<details class=\"editorial-notes\"><summary>采编说明<span>范围、来源与审稿记录</span></summary><div class=\"editorial-notes-body\"><h4 class=\"entry-heading\" id=\"报告范围\">报告范围</h4>\n<div class=\"table-wrap\"><table><thead><tr><th>项目</th><th>说明</th></tr></thead><tbody><tr><td>新闻窗口（UTC）</td><td>2026-11-18 00:00 至 2026-11-19 00:00</td></tr><tr><td>对应北京时间</td><td>11/18 8:00 至 11/19 8:00</td></tr><tr><td>归档比对</td><td>11/17正式稿已读取；11/18在正式入口及仓库均缺失，不能完成该期去重。11/18 research内的未发布草稿不算归档，也不把其中11/17事件挪作本期新闻。</td></tr><tr><td>11/17已收事件</td><td>加州起诉OpenAI、Anthropic漏洞披露期限、OpenAI嵌入式评估、GTIG攻击链、Ask Maps、TensorWave算力合同、星动纪元灵巧手、Zoox接入Uber、Plural新基金、百度第三季度业绩。本期没有重复收录；小马此前只列财报预告，本期为实际结果首次披露。</td></tr><tr><td>到期事项</td><td>11/17归档预告的小马智行11/18财报已按官方披露时间核实，结果收§7；没有声称收听了完整电话会。该归档的NVIDIA11/17财报已在前一新闻窗口发布，本期不因11/18报道再次收录。其他跨期节点未在本窗口到期。</td></tr><tr><td>跟踪与排序</td><td>本期11条、9个编辑板块。政策建议置首，随后为模型与安全、Agent、产品、算力、机器人、自动驾驶、融资并购与中国AI；英国报告不是已生效法令，未按元首级或立法生效事件处理。</td></tr><tr><td>调度与生成</td><td>本次计划运行时间为北京时间11/19 09:00；最终编辑完成：2026-11-19 09:16；上线时间另以实际发布核验记录为准。</td></tr></tbody></table></div>\n<h4 class=\"entry-heading\" id=\"来源巡检\">来源巡检</h4>\n<div class=\"table-wrap\"><table><thead><tr><th>来源</th><th>核查结果</th><th>正文位置或处理</th></tr></thead><tbody><tr><td>Anthropic Newsroom</td><td>有窗口内新条目</td><td>All news明确11/18最终IPO定价，收§8；页头11/19当前日期不当作发稿日</td></tr><tr><td>OpenAI News</td><td>有窗口内新条目</td><td>芯片设计新披露收§5；其他风险管理、科研、沙箱和合作按硬增量与配额取舍，未把旧事故回顾当新事件</td></tr><tr><td>Google DeepMind Blog</td><td>日期不足；具体文章另核</td><td>列表仅标月份，Neon与Genie开放原文的精确发布时间已核，收§2、§4</td></tr><tr><td>Google Blog</td><td>首页日期不足；具体文章有新条目</td><td>不把首页缺日期写成无更新；两篇官方文章分别在11/18 21:00及18:00 UTC发布</td></tr><tr><td>Meta AI Blog</td><td>日期不足</td><td>可读列表停在较早日期，不能确认窗口完整更新；§2依据路透调查与Ars独立采访，而非博客新公告</td></tr><tr><td>xAI News</td><td>可读列表无窗口内新条目</td><td>最新可见11/16；结论仅限本次可读列表</td></tr><tr><td>Microsoft Blog</td><td>首页可读列表无窗口内新条目；另一列表未能直取</td><td>首页最新11/17；不据此概括全部微软产品、研究和开发者栏目</td></tr><tr><td>NVIDIA Newsroom</td><td>有窗口内新条目</td><td>RTX Spark桌面机开售已核备选，遗漏审稿后让位于OpenAI/AMD设计成果；11/17财报及电话会内容不重记</td></tr><tr><td>Claude Code Releases</td><td>可读列表无窗口内新版本</td><td>最新v2.1.327为11/17 23:17 UTC，在窗口之前</td></tr><tr><td>Cursor Changelog</td><td>可读列表无窗口内新条目</td><td>最新可见11/6</td></tr><tr><td>GitHub Blog / Changelog</td><td>Blog可见文章无；Changelog有窗口内条目</td><td>连接器、模型和风险评估等为候选；未因同一平台多项更新挤占版面</td></tr><tr><td>DeepSeek更新日志</td><td>可读列表无窗口内新条目</td><td>最新11/13；另直取定价页，明确11/18 12:00北京时间的新计费条款，收§9</td></tr><tr><td>Qwen Blog</td><td>未能直取有效列表</td><td>返回0行正文，不作无新条目判断</td></tr><tr><td>智谱新闻</td><td>日期不足</td><td>可读主页新闻多为较早事项，无法确认窗口附近完整列表</td></tr><tr><td>Moonshot</td><td>可读研究列表无窗口内新条目</td><td>最新可见10/24；结论不延伸到全部产品渠道</td></tr><tr><td>MiniMax News</td><td>未能直取有效新闻列表</td><td>仅导航和产品名，缺日期与新闻正文列表</td></tr><tr><td>字节Seed Blog</td><td>未能直取</td><td>无可读正文，不作无更新判断</td></tr><tr><td>White House声明列表</td><td>可读列表无窗口内新条目</td><td>最新可见11/17；不涵盖所有采访及其他栏目</td></tr><tr><td>Federal Register 11/18目录</td><td>未能直取</td><td>不作无新条目判断</td></tr><tr><td>欧盟委员会Press Corner</td><td>未能直取有效列表</td><td>0行有效新闻正文，不作无更新判断</td></tr><tr><td>NHTSA新闻列表</td><td>可读列表无窗口内新条目</td><td>最新可见11/13</td></tr><tr><td>FTC新闻稿</td><td>可读列表无窗口内新条目</td><td>最新可见11/17安全带执法，非本窗口</td></tr><tr><td>SEC新闻稿</td><td>可读列表无窗口内新条目</td><td>不等同于EDGAR无新申报；§8另核Palo Alto的11/18文件</td></tr><tr><td>中国网信办要闻</td><td>有窗口内新条目</td><td>中新AI治理交流会为候选；未把同源通稿双算独立来源，未选</td></tr><tr><td>工信部新闻列表 / 主页</td><td>列表未能直取；主页有11/18条目</td><td>首页可见APEC等更新，不据此保证全部AI新闻已覆盖</td></tr><tr><td>NVIDIA IR</td><td>未能直取</td><td>使用Newsroom当日公告；不把IR列表失败写成无财报</td></tr><tr><td>AMD IR</td><td>可读列表无窗口内新条目</td><td>最新可见11/16</td></tr><tr><td>Microsoft IR</td><td>可读主页无窗口内新财报条目</td><td>Announcements最近10/28；另一财报路径404，结论不外推</td></tr><tr><td>TSMC财务日历</td><td>无窗口内新财务事项</td><td>月营收最近11/10，下次12/10；不把日历当全公司新闻列表</td></tr><tr><td>Palo Alto IR / SEC</td><td>有窗口内新条目</td><td>季报及收购公告；本期只收独立并购事件§8，不合并塞入全部财报数字</td></tr><tr><td>Pony AI IR</td><td>列表未能直取；当期正式披露可读</td><td>公告PDF、GlobeNewswire与港交所披露时间交叉，§7；网页metadata冲突按原文处理</td></tr><tr><td>Tencent IR / Newsroom</td><td>有窗口内新条目</td><td>第三季度官方PDF与路透已核为备选，因当期11条配额和选题取舍未收</td></tr><tr><td>Hugging Face Blog / 社区</td><td>已直取复核</td><td>11/18 ViKernel社区研究未核得独立双源，不收；中文榜仅iframe，不据此判断无更新</td></tr><tr><td>Snap Newsroom</td><td>当期公告正文已直取</td><td>11/18 Easy Lens CLI收§3，非先前Snap Ads MCP工具</td></tr><tr><td>Disney Experiences</td><td>当期公告正文已直取</td><td>11/18三款原型及公开展示安排收§6</td></tr><tr><td>英国议会公告 / 报告</td><td>原网页直取受限；官方检索正文及出版议程可读</td><td>公布日期与建议内容交叉The Register全文，收§1；不声称直取了全部官方原文</td></tr></tbody></table></div>\n<h4 class=\"entry-heading\" id=\"检索覆盖\">检索覆盖</h4>\n<div class=\"table-wrap\"><table><thead><tr><th>检索板块</th><th>已执行检索</th><th>初始总池对应线索数</th><th>本期处理</th></tr></thead><tbody><tr><td>政策与监管</td><td>至少2轮，中英文带窗口日期，另补查</td><td>2</td><td>§1；议会报告为后续补充候选，初池数字不追补冒充</td></tr><tr><td>司法与诉讼</td><td>至少2轮，中英文带日期</td><td>2</td><td>未核到满足窗口和双源门槛的新裁决或诉讼进展；排定口辩不等于已有结果</td></tr><tr><td>主要Labs与AI安全</td><td>至少2轮，英文与中文各组，另补查</td><td>4</td><td>§2两条</td></tr><tr><td>Agent与网络安全</td><td>至少2轮，英文与中文各组，另补查</td><td>5</td><td>§3；Muse调查归§2，不重复展开</td></tr><tr><td>AI产品更新</td><td>至少2轮，英文与中文各组，另补查</td><td>6</td><td>§4；DeepSeek计费归§9</td></tr><tr><td>芯片与算力</td><td>至少2轮，中英文带日期，另补查</td><td>4</td><td>§5；OpenAI/AMD设计成果为审稿补充候选，旧财报不填配额</td></tr><tr><td>机器人与物理AI</td><td>至少2轮，每轮英中检索</td><td>5</td><td>§6</td></tr><tr><td>自动驾驶</td><td>至少2轮，每轮英中检索</td><td>3</td><td>§7；旧高速禁令不重报</td></tr><tr><td>创业融资与并购</td><td>至少2轮，每轮英中检索，另补查</td><td>6</td><td>§8两条</td></tr></tbody></table></div>\n<ul><li>主编初始候选池37项已保存后进入逐条深核；线索数包含后来判为旧闻、评论、日期冲突或来源不足者，并非37条合格新闻。各组新增候选另记研究记录，不把后补项目伪称初始候选。</li><li>TechCrunch 11/18按日页及11/17补尾页均未能直取，已补扫11月月度第1、2页可见标题。The Verge AI与VentureBeat AI栏目已直接打开逐标题扫描。路透Technology、AP Technology及欧盟Press Corner无法取得有效列表，用具体报道补充，保留召回缺口。</li><li>个别官方与媒体页面在网页工具或CLI中返回403/空页，已区分成功读取、授权转载全文、官方可读检索正文与不可抓取状态。Reuters授权转载只计一路来源；Muse的Ars报道另含其向Meta取得的回应。未用不可读付费墙内容补齐数字。</li></ul>\n<h4 class=\"entry-heading\" id=\"审稿与取舍\">审稿与取舍</h4>\n<div class=\"table-wrap\"><table><thead><tr><th>条目</th><th>处理与原因</th></tr></thead><tbody><tr><td>NVIDIA季度财报、退出中国和融资口径</td><td>11/17财报或电话会首披，11/18媒体再报不等于窗口新事件；剔除。RTX Spark本日开售为不同事件，初稿已核后因配额与重要性让位于芯片设计新成果</td></tr><tr><td>Java4Shell</td><td>Oracle修复与Calif披露均在11/17；11/18补丁推进、评论和探测报道不包装成新漏洞发现</td></tr><tr><td>AI Mode临时线程、Suno Visuals</td><td>发现较早11/17发布线索，未将11/18转载当首发</td></tr><tr><td>OpenAI/AMD设计成果</td><td>11/18新披露的最高14%为旗舰GPU IP的PPA改进，不是整GPU速度或量产实测；部分改写已进入送制造设计。Jalapeño较早披露的背景不当成本日新芯片发布</td></tr><tr><td>美国拟要求披露中国AI使用</td><td>仅核到一路透独家及其转载，尚未补齐独立双源；不写成已生效规定，未选</td></tr><tr><td>OpenAI风险管理与Codex沙箱说明</td><td>不能将文内较早训练暂停、旧事故或既有防护再报为新事件；按硬增量与重要性未单列</td></tr><tr><td>Live Dictation</td><td>官方11/18条目可读，但尚未补齐已核独立第二来源，不入正式正文</td></tr><tr><td>菲律宾AI产业园</td><td>拟议规划与当日未签协议的报道须区分，未核实本窗口官方新签约，不收</td></tr><tr><td>Microsoft / Intel合作</td><td>URL日期为11/18，正文dateline为11/17，首披冲突未解前不收</td></tr><tr><td>Anthropic定价</td><td>11/18 21:26 UTC路透初版及22:11 UTC TechCrunch已确认$83；不把日期未明的后续募资总额更新全部倒算为初版已披露，也不把老股所得算成公司新融资</td></tr><tr><td>Pony财报</td><td>以官方11/18 04:00 EST披露为锚；合计净亏$1.363亿与归母$1.056亿分开，正文采用前者。Robotaxi收入含联合部署车辆交付，不全为载客票价</td></tr><tr><td>Applied Compute收购</td><td>$45亿是全股票交易估值，不是同额现金支出；签约不等于交割，财年季度不改成自然年季度</td></tr><tr><td>Genie产品范围</td><td>3分钟是Genie 3的新时长，不套给Genie 4；Ultra开放与Pro候补分开</td></tr><tr><td>Muse调查</td><td>设备通知、辅助功能和截图读取与破解加密不同；疑似他人余额未被证实为跨账户泄漏，保留Meta回应及版本差异，并补明Apple本周更新已封堵所测Mac访问路径</td></tr><tr><td>其他已核候选</td><td>腾讯财报等保留在研究文件；Humyn、Atlas等未继续深核，不把低于门槛的小额融资或未核部署塞入正文凑数</td></tr><tr><td>独立审稿</td><td>事实审稿抽核8项，补入Muse的Mac路径修复状态；遗漏审稿以OpenAI/AMD芯片设计新披露替换RTX开售；编辑审稿收紧英国提案条件、补首句主体、以小马合计净亏替代重复导语，并压缩Disney首句。新增芯片条另经事实及编辑补审通过；最终11条正文298–363字符、每条2源，4条摘要对应4条重点正文</td></tr></tbody></table></div>\n<h4 class=\"entry-heading\" id=\"披露与限制\">披露与限制</h4>\n<ul><li>本报告由OpenAI Codex生成；涉及OpenAI/AMD设计成果及Codex作为接入工具的Snap条目均附外部报道及就地披露。厂商自报能力、工作流工期、路线图和未来交割安排均不视为本文独立实测或已兑现经营结果。</li><li>前一日归档缺失、部分列表与原文不可抓取，限制已逐项列出；不宣称已穷尽所有新闻。法院排期、议会建议、内部测试、原型展示、发布、实际使用与交割按不同状态表述。</li><li>逐条字符统计、原始资料、候选池、三路审稿及发布核验保存在research/run-2026-11-19，不进入正式同步目录顶层；正文字符统计不含Markdown加粗符号、来源行与单独披露行。</li></ul></div></details>"
+    },
     {
       "id": "2026-11-17",
       "date": "2026-11-17",
